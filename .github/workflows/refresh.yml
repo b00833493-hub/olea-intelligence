@@ -41,12 +41,24 @@ jobs:
       - name: Fetch FDI (Investissements directs étrangers, World Bank)
         run: python3 fetch_fdi.py || echo "::warning::fetch_fdi a échoué"
 
+      - name: Fetch FX historical (Yahoo Finance, 1Y daily)
+        # ~60 requests Yahoo (EUR/* + USD/*) → on limite à 1×/jour à 06h UTC,
+        # ou si lancé manuellement, ou si fx_history.json n'existe pas encore.
+        run: |
+          HOUR=$(date -u +%H)
+          if [ ! -f fx_history.json ] || [ "$HOUR" = "06" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "→ fetch_fx_history.py exécuté"
+            python3 fetch_fx_history.py || echo "::warning::fetch_fx_history a échoué"
+          else
+            echo "→ fetch_fx_history.py skip (n'tourne qu'à 06h UTC)"
+          fi
+
       - name: Commit if changed
         run: |
           git config user.name  "OLEA Intelligence Bot"
           git config user.email "olea-intel-bot@users.noreply.github.com"
 
-          git add news.json fx.json fdi.json
+          git add news.json fx.json fdi.json fx_history.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "→ Aucun changement, rien à committer."
             exit 0

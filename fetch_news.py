@@ -300,6 +300,39 @@ LEGAL_STATUSES = {
 # Pour qu'un article soit considéré "réglementaire", il doit soit
 # (a) matcher au moins un thème, soit
 # (b) contenir un mot-clé "régulateur" générique.
+# Mots-clés "IDE" — investissements directs étrangers / capital étranger
+FDI_KEYWORDS = [
+    # FR
+    "investissement direct", "investissements directs",
+    "investissement étranger", "investissements étrangers",
+    "investisseur étranger", "investisseurs étrangers",
+    "capital étranger", "capitaux étrangers", "fonds étrangers",
+    "annonce d'investissement", "milliards d'investissement",
+    "millions d'investissement",
+    "rachat", "acquisition", "acquière", "acquiert",
+    "joint-venture", "joint venture", "co-entreprise",
+    "implantation", "implantent", "implante",
+    "fusion", "fusion-acquisition",
+    "participations", "prise de participation", "prend une part",
+    "capital-investissement", "private equity",
+    "tour de table", "levée de fonds",
+    "filiale", "lance une filiale",
+    # EN
+    "foreign direct investment", "fdi",
+    "foreign investment", "foreign investor", "foreign investors",
+    "invests in", "to invest", "investment in",
+    "stake in", "acquisition of", "acquires", "acquired",
+    "buyout", "subsidiary", "spin-off",
+    "raised funds", "raises funds", "raised $",
+    "capital injection", "equity stake",
+    "joint venture", "consortium",
+    # Acteurs notoires
+    "ifc ", "afdb", "world bank", "edf",
+    "private equity", "venture capital",
+    "sovereign wealth", "abu dhabi", "qatar investment",
+    "africa50", "proparco", "fmo ", "norfund",
+]
+
 REGULATORY_TRIGGER = [
     "régulateur", "regulator", "supervision",
     "projet de loi", "draft bill", "draft law", "loi de finances",
@@ -557,6 +590,14 @@ def is_regulatory(text_norm, theme):
             return True
     return False
 
+def is_fdi_news(text_norm):
+    """True si l'article parle d'investissement direct étranger."""
+    for kw in FDI_KEYWORDS:
+        kwn = norm(kw)
+        if re.search(r"(?<![a-z])" + re.escape(kwn), text_norm):
+            return True
+    return False
+
 # =============================================================================
 # DEDUPE & CROSS-VERIFICATION
 # =============================================================================
@@ -649,6 +690,7 @@ def main():
                 theme = detect_theme(text_norm)
                 lstatus = detect_legal_status(text_norm)
                 regu = is_regulatory(text_norm, theme)
+                fdi  = is_fdi_news(text_norm)
                 all_articles.append({
                     "title": it["title"],
                     "summary": it["summary"],
@@ -664,6 +706,7 @@ def main():
                     "theme": theme,
                     "legal_status": lstatus,
                     "regulatory": regu,
+                    "fdi": fdi,
                     "_sig": signature(it["title"]),
                 })
                 kept += 1
@@ -688,6 +731,10 @@ def main():
     for c in clusters:
         per_country[c["country"]] = per_country.get(c["country"], 0) + 1
     print(f"│  → {len(per_country)} pays OLEA couverts par la veille")
+
+    # Stats IDE
+    fdi = [c for c in clusters if c.get("fdi")]
+    print(f"│  → {len(fdi)} signaux IDE détectés")
 
     # Stats réglementaires
     regu = [c for c in clusters if c.get("regulatory")]
@@ -722,6 +769,7 @@ def main():
             "theme": c.get("theme"),
             "legal_status": c.get("legal_status"),
             "regulatory": c.get("regulatory", False),
+            "fdi": c.get("fdi", False),
             "published": c["published"],
             "lead_source": {"id": c["source_id"], "name": c["source_name"], "tier": c["source_tier"], "url": c["link"]},
             "confirming_sources": c["confirming_sources"],

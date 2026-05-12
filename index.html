@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:wght@500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css?v=14" />
+<link rel="stylesheet" href="styles.css?v=15" />
 </head>
 <body class="locked">
 
@@ -56,11 +56,9 @@
     </a>
 
     <nav class="topnav">
-      <a href="#map">Carte</a>
-      <a href="#feed">Fil</a>
-      <a href="#dashboard">Dashboard</a>
-      <a href="#regulatory">Réglementaire</a>
-      <a href="#markets">Marchés</a>
+      <a href="#/"           data-route="home">Accueil</a>
+      <a href="#/regulatory" data-route="regulatory">Veille réglementaire</a>
+      <a href="#/markets"    data-route="markets">Marchés &amp; IDE</a>
     </nav>
 
     <div class="topbar-search">
@@ -82,6 +80,16 @@
     </div>
   </div>
 </header>
+
+<!-- ============================================================
+     MAIN APP — SPA hash routing : #/ , #/regulatory , #/markets
+     ============================================================ -->
+<main id="app">
+
+<!-- ============================================================
+     PAGE : ACCUEIL
+     ============================================================ -->
+<div class="page" data-page="home">
 
 <!-- =================== HERO =================== -->
 <section class="hero">
@@ -241,6 +249,13 @@
   </div>
 </section>
 
+</div><!-- /page=home -->
+
+<!-- ============================================================
+     PAGE : VEILLE RÉGLEMENTAIRE
+     ============================================================ -->
+<div class="page" data-page="regulatory" hidden>
+
 <!-- =================== VEILLE RÉGLEMENTAIRE =================== -->
 <section class="regulatory" id="regulatory">
   <div class="regulatory-inner">
@@ -299,6 +314,13 @@
   </div>
 </section>
 
+</div><!-- /page=regulatory -->
+
+<!-- ============================================================
+     PAGE : MARCHÉS & IDE
+     ============================================================ -->
+<div class="page" data-page="markets" hidden>
+
 <!-- =================== MARCHÉS ÉCONOMIQUES (FX + IDE) =================== -->
 <section class="markets" id="markets">
   <div class="markets-inner">
@@ -330,6 +352,62 @@
       <div class="markets-kpi markets-kpi-total">
         <div class="markets-kpi-value" id="fdi-total">--</div>
         <div class="markets-kpi-label">Flux IDE agrégé (USD)</div>
+      </div>
+    </div>
+
+    <!-- =================== CONVERTISSEUR DE DEVISES =================== -->
+    <div class="markets-block">
+      <div class="terminal-head">
+        <div class="terminal-head-left">
+          <h3>CURRENCY CONVERTER <span class="terminal-head-meta">EUR base · historique 1Y daily</span></h3>
+          <div class="terminal-head-sub">Toutes les devises locales africaines OLEA + EUR + USD · sources : ExchangeRate-API (spot) &amp; Yahoo Finance (historique)</div>
+        </div>
+        <div class="terminal-head-right">
+          <span class="terminal-legend">Mouvement courbe ▲ vs début période</span>
+        </div>
+      </div>
+      <div class="converter">
+        <div class="conv-grid">
+          <div class="conv-input-group">
+            <label for="conv-amount">MONTANT</label>
+            <input id="conv-amount" type="number" inputmode="decimal" value="1" min="0" step="any" />
+          </div>
+          <div class="conv-input-group">
+            <label for="conv-from">DEPUIS</label>
+            <select id="conv-from"></select>
+          </div>
+          <button class="conv-swap" id="conv-swap" type="button" aria-label="Inverser">⇄</button>
+          <div class="conv-input-group">
+            <label for="conv-to">VERS</label>
+            <select id="conv-to"></select>
+          </div>
+          <div class="conv-result-block">
+            <label>RÉSULTAT</label>
+            <div class="conv-result" id="conv-result">—</div>
+          </div>
+        </div>
+
+        <div class="conv-quote" id="conv-quote">—</div>
+
+        <div class="conv-chart-head">
+          <div class="conv-period-tabs" role="group" aria-label="Période">
+            <button data-period="1M">1M</button>
+            <button data-period="3M">3M</button>
+            <button data-period="6M">6M</button>
+            <button data-period="1Y" class="active">1Y</button>
+          </div>
+          <div class="conv-chart-meta">
+            <span><span class="conv-dot conv-dot-min"></span>Bas <b id="conv-stat-min">—</b></span>
+            <span><span class="conv-dot conv-dot-max"></span>Haut <b id="conv-stat-max">—</b></span>
+            <span>Variation <b id="conv-stat-chg">—</b></span>
+          </div>
+        </div>
+
+        <div class="conv-chart-wrap">
+          <svg id="conv-chart" preserveAspectRatio="none"></svg>
+          <div class="conv-tooltip" id="conv-tooltip" hidden></div>
+          <div class="conv-empty" id="conv-empty" hidden>Historique non disponible pour cette paire — données en cours d'accumulation.</div>
+        </div>
       </div>
     </div>
 
@@ -405,7 +483,11 @@
   </div>
 </section>
 
-<!-- =================== VALUE PROP =================== -->
+</div><!-- /page=markets -->
+
+</main><!-- /#app -->
+
+<!-- =================== VALUE PROP (visible uniquement sur Accueil, géré par router) =================== -->
 <section class="value">
   <div class="value-inner">
     <div class="value-head">
@@ -468,6 +550,27 @@
   </div>
 </footer>
 
+<!-- =================== DRAWER : NEWS IDE PAR PAYS =================== -->
+<div class="fdi-drawer" id="fdi-drawer" hidden>
+  <div class="fdi-drawer-backdrop" data-close-drawer></div>
+  <aside class="fdi-drawer-panel">
+    <header class="fdi-drawer-head">
+      <div>
+        <div class="panel-eyebrow">IDE · news vérifiées</div>
+        <h3 id="fdi-drawer-title">—</h3>
+        <div class="fdi-drawer-sub" id="fdi-drawer-sub">—</div>
+      </div>
+      <button class="fdi-drawer-close" data-close-drawer aria-label="Fermer">×</button>
+    </header>
+    <div class="fdi-drawer-stats" id="fdi-drawer-stats"></div>
+    <div class="fdi-drawer-body" id="fdi-drawer-body"></div>
+    <footer class="fdi-drawer-foot">
+      Filtre : signaux taggés <b>IDE</b> · pays sélectionné ·
+      uniquement sources de tier 1 et 2 (Reuters/BBC/RFI/France 24/Africanews/Jeune Afrique/Ecofin/Financial Afrik/Africa Report/AllAfrica)
+    </footer>
+  </aside>
+</div>
+
 <!-- Country popup -->
 <div class="country-popup" id="country-popup" hidden>
   <div class="popup-arrow"></div>
@@ -490,7 +593,7 @@
 <script src="gate.js?v=1"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-<script src="data.js?v=14"></script>
-<script src="app.js?v=14"></script>
+<script src="data.js?v=15"></script>
+<script src="app.js?v=15"></script>
 </body>
 </html>

@@ -7,6 +7,7 @@
 const WORLD_TOPO_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 const NEWS_URL = "news.json";
 const FX_URL   = "fx.json";
+const FX_HISTORY_URL = "fx_history.json";
 const FDI_URL  = "fdi.json";
 const REFRESH_MS = 60 * 1000;
 
@@ -23,7 +24,10 @@ const state = {
   reguStatus: null,     // filtre statut actif (null = tous)
   searchQuery: "",      // recherche libre (transverse aux deux feeds)
   fx: null,             // fx.json (taux EUR → devises locales)
+  fxHistory: null,      // fx_history.json (séries quotidiennes 1 an Yahoo)
   fdi: null,            // fdi.json (IDE World Bank par pays)
+  route: "home",        // home | regulatory | markets
+  conv: { from: "EUR", to: "MAD", amount: 1, period: "1Y" },
 };
 
 // Normalise pour matching : minuscules + sans accents.
@@ -153,6 +157,15 @@ async function loadFDI() {
     state.fdi = await res.json();
     return true;
   } catch (e) { console.warn("FDI non chargé :", e); state.fdi = null; return false; }
+}
+
+async function loadFXHistory() {
+  try {
+    const res = await fetch(`${FX_HISTORY_URL}?t=${Date.now()}`);
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.fxHistory = await res.json();
+    return true;
+  } catch (e) { console.warn("FX history non chargé :", e); state.fxHistory = null; return false; }
 }
 
 // ============================================================
@@ -631,6 +644,37 @@ function renderSnapshot() {
 }
 
 // ============================================================
+// Router SPA (hash-based)
+// ============================================================
+const ROUTES = new Set(["home", "regulatory", "markets"]);
+
+function navigate() {
+  let route = (location.hash || "#/").replace(/^#\/?/, "") || "home";
+  if (!ROUTES.has(route)) route = "home";
+  state.route = route;
+
+  document.querySelectorAll(".page[data-page]").forEach((el) => {
+    el.hidden = el.dataset.page !== route;
+  });
+  document.querySelectorAll(".topnav a[data-route]").forEach((a) => {
+    a.classList.toggle("active", a.dataset.route === route);
+  });
+  // Value prop n'apparaît que sur l'accueil
+  const valueSection = document.querySelector(".value");
+  if (valueSection) valueSection.hidden = (route !== "home");
+
+  document.body.dataset.route = route;
+  window.scrollTo(0, 0);
+
+  // Init lazy : convertisseur uniquement au premier passage sur markets
+  if (route === "markets") {
+    if (!state.conv._initialized) initConverter();
+    renderConverter();
+  }
+}
+window.addEventListener("hashchange", navigate);
+
+// ============================================================
 // Marchés économiques (FX + IDE)
 // ============================================================
 function formatRate(v) {
@@ -828,7 +872,7 @@ function renderMarketsSection() {
       const avg5Str = data.avg_5y_usd ? "$" + formatUSD(data.avg_5y_usd) : "—";
 
       html += `
-        <tr>
+        <tr data-fdi-country="${c.code}" title="Cliquer pour voir les news IDE de ${escapeHtml(c.name)}">
           <td class="col-flag fdi-flag-cell">${c.flag}</td>
           <td class="col-iso">${c.code}</td>
           <td class="col-country">${escapeHtml(c.name)}</td>
@@ -840,8 +884,375 @@ function renderMarketsSection() {
         </tr>`;
     }
     fdibody.innerHTML = html;
+    // Clic ligne → drawer
+    fdibody.querySelectorAll("tr[data-fdi-country]").forEach((row) => {
+      row.addEventListener("click", () => openFdiDrawer(row.dataset.fdiCountry));
+    });
   }
 }
+
+// ============================================================
+// CURRENCY CONVERTER (style OANDA — chart D3 interactif)
+// ============================================================
+function allConvCurrencies() {
+  // Liste des devises sélectionnables : toutes les devises OLEA + EUR + USD
+  const ccs = new Set(["EUR", "USD"]);
+  if (state.fx?.country_currency) {
+    Object.values(state.fx.country_currency).forEach((c) => ccs.add(c));
+  }
+  return Array.from(ccs).sort();
+}
+
+function ccyDisplay(code) {
+  if (code === "EUR") return "EUR · Euro";
+  if (code === "USD") return "USD · Dollar US";
+  const m = state.fx?.currency_meta?.[code];
+  if (m) return `${code} · ${m.name}`;
+  return code;
+}
+
+function initConverter() {
+  const fromSel  = document.getElementById("conv-from");
+  const toSel    = document.getElementById("conv-to");
+  const amountIn = document.getElementById("conv-amount");
+  const swapBtn  = document.getElementById("conv-swap");
+  if (!fromSel || !toSel) return;
+
+  // Peuple les selects
+  const opts = allConvCurrencies().map((c) =>
+    `<option value="${c}">${escapeHtml(ccyDisplay(c))}</option>`).join("");
+  fromSel.innerHTML = opts;
+  toSel.innerHTML   = opts;
+  fromSel.value = state.conv.from;
+  toSel.value   = state.conv.to;
+  amountIn.value = state.conv.amount;
+
+  fromSel.addEventListener("change", () => { state.conv.from = fromSel.value; renderConverter(); });
+  toSel.addEventListener  ("change", () => { state.conv.to   = toSel.value;   renderConverter(); });
+  amountIn.addEventListener("input", () => {
+    const v = parseFloat(amountIn.value);
+    state.conv.amount = isFinite(v) && v >= 0 ? v : 0;
+    renderConverter();
+  });
+  swapBtn.addEventListener("click", () => {
+    [state.conv.from, state.conv.to] = [state.conv.to, state.conv.from];
+    fromSel.value = state.conv.from;
+    toSel.value   = state.conv.to;
+    renderConverter();
+  });
+
+  document.querySelectorAll(".conv-period-tabs button").forEach((b) => {
+    b.addEventListener("click", () => {
+      state.conv.period = b.dataset.period;
+      document.querySelectorAll(".conv-period-tabs button").forEach((x) =>
+        x.classList.toggle("active", x.dataset.period === state.conv.period));
+      renderConverter();
+    });
+  });
+
+  state.conv._initialized = true;
+}
+
+// Récupère la série quotidienne pour la paire FROM→TO sur la période active.
+// Stratégie : on combine EUR→X (pairs) ou USD→X (pairs_usd) selon dispo.
+function getConvSeries() {
+  const { from, to, period } = state.conv;
+  if (!state.fxHistory) return [];
+  const pairsEUR = state.fxHistory.pairs    || {};
+  const pairsUSD = state.fxHistory.pairs_usd || {};
+
+  // Fonction utilitaire : rate (X → EUR) à une date donnée à partir de pairs[X]
+  // pairs[X] est 1 EUR = X. Donc pour avoir 1 FROM = R TO :
+  //   R = pairs[TO] / pairs[FROM]
+  // Avec pairs[EUR] = 1 et pairs[USD] présent.
+  // Si pairs ne couvre pas l'un des deux, on essaie via pairs_usd.
+
+  function buildFromBaseEUR() {
+    const f = (from === "EUR") ? null : pairsEUR[from];
+    const t = (to   === "EUR") ? null : pairsEUR[to];
+    // Construire un dict date → rate (1 from = X to)
+    const dates = new Set();
+    if (!f && from !== "EUR") return null;
+    if (!t && to   !== "EUR") return null;
+    const fMap = {}, tMap = {};
+    (f || []).forEach((p) => { fMap[p.d] = p.r; dates.add(p.d); });
+    (t || []).forEach((p) => { tMap[p.d] = p.r; dates.add(p.d); });
+    if (from === "EUR") (t || []).forEach((p) => dates.add(p.d));
+    if (to   === "EUR") (f || []).forEach((p) => dates.add(p.d));
+    const sorted = Array.from(dates).sort();
+    const out = [];
+    for (const d of sorted) {
+      const fR = (from === "EUR") ? 1 : fMap[d];
+      const tR = (to   === "EUR") ? 1 : tMap[d];
+      if (fR == null || tR == null || fR === 0) continue;
+      out.push({ d, r: tR / fR });
+    }
+    return out;
+  }
+
+  let series = buildFromBaseEUR();
+
+  // Fallback via USD si EUR ne couvre pas la paire
+  if (!series || series.length < 5) {
+    const f = (from === "USD") ? null : pairsUSD[from];
+    const t = (to   === "USD") ? null : pairsUSD[to];
+    if ((f || from === "USD") && (t || to === "USD")) {
+      const dates = new Set();
+      const fMap = {}, tMap = {};
+      (f || []).forEach((p) => { fMap[p.d] = p.r; dates.add(p.d); });
+      (t || []).forEach((p) => { tMap[p.d] = p.r; dates.add(p.d); });
+      const sorted = Array.from(dates).sort();
+      const out = [];
+      for (const d of sorted) {
+        const fR = (from === "USD") ? 1 : fMap[d];
+        const tR = (to   === "USD") ? 1 : tMap[d];
+        if (fR == null || tR == null || fR === 0) continue;
+        out.push({ d, r: tR / fR });
+      }
+      if (out.length >= 5) series = out;
+    }
+  }
+
+  if (!series || series.length < 2) return [];
+
+  // Filtre selon période
+  const cutoffDays = period === "1M" ? 31 : period === "3M" ? 93 : period === "6M" ? 186 : 365;
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - cutoffDays);
+  const cutoffStr = cutoff.toISOString().slice(0, 10);
+  return series.filter((p) => p.d >= cutoffStr);
+}
+
+function getConvLatestRate() {
+  // Préfère le taux SPOT de fx.json (plus à jour) si dispo
+  const { from, to } = state.conv;
+  if (state.fx?.rates) {
+    const eurToFrom = from === "EUR" ? 1 : state.fx.rates[from];
+    const eurToTo   = to   === "EUR" ? 1 : state.fx.rates[to];
+    if (from === "USD" || to === "USD") {
+      // Fallback USD via fx.json (USD est dans rates si présent)
+      const usdRate = state.fx.rates["USD"];
+      if (usdRate && eurToFrom != null && eurToTo != null) {
+        return eurToTo / eurToFrom;
+      }
+    }
+    if (eurToFrom != null && eurToTo != null && eurToFrom !== 0) {
+      return eurToTo / eurToFrom;
+    }
+  }
+  // Fallback : dernière valeur de la série
+  const s = getConvSeries();
+  return s.length ? s[s.length - 1].r : null;
+}
+
+function renderConverter() {
+  const series = getConvSeries();
+  const rate   = getConvLatestRate();
+  const amount = state.conv.amount;
+  const { from, to } = state.conv;
+
+  const result = (rate != null) ? amount * rate : null;
+  $("#conv-result").textContent = result == null ? "—" :
+    `${new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 4 }).format(result)} ${to}`;
+
+  const quote = $("#conv-quote");
+  if (quote && rate != null) {
+    // % variation sur la période
+    let dayMove = "";
+    if (series.length >= 2) {
+      const first = series[0].r, last = series[series.length - 1].r;
+      const pct = ((last - first) / first) * 100;
+      const cls = pct > 0 ? "tick-up" : (pct < 0 ? "tick-down" : "");
+      const arrow = pct > 0 ? "▲" : (pct < 0 ? "▼" : "↔");
+      dayMove = ` · <span class="${cls}">${arrow} ${pct >= 0 ? "+" : ""}${pct.toFixed(2)}% sur ${state.conv.period}</span>`;
+    }
+    quote.innerHTML = `1 ${from} = <b>${new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 6 }).format(rate)}</b> ${to}${dayMove}`;
+  } else if (quote) {
+    quote.textContent = "Taux indisponible pour cette paire.";
+  }
+
+  // Stats min/max/var
+  if (series.length >= 2) {
+    const rates = series.map((p) => p.r);
+    const mn = Math.min(...rates), mx = Math.max(...rates);
+    const first = series[0].r, last = rates[rates.length - 1];
+    const pct = ((last - first) / first) * 100;
+    $("#conv-stat-min").textContent = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 4 }).format(mn);
+    $("#conv-stat-max").textContent = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 4 }).format(mx);
+    const chgEl = $("#conv-stat-chg");
+    chgEl.textContent = (pct >= 0 ? "+" : "") + pct.toFixed(2) + "%";
+    chgEl.style.color = pct > 0 ? "#4CB07A" : (pct < 0 ? "#F87171" : "#E5E7EB");
+  } else {
+    $("#conv-stat-min").textContent = "—";
+    $("#conv-stat-max").textContent = "—";
+    $("#conv-stat-chg").textContent = "—";
+  }
+
+  drawConverterChart(series);
+}
+
+function drawConverterChart(series) {
+  const svg = d3.select("#conv-chart");
+  svg.selectAll("*").remove();
+  const wrap = document.querySelector(".conv-chart-wrap");
+  const W = wrap.clientWidth || 800;
+  const H = wrap.clientHeight || 280;
+  svg.attr("viewBox", `0 0 ${W} ${H}`);
+  const empty = $("#conv-empty");
+
+  if (!series || series.length < 2) {
+    if (empty) empty.hidden = false;
+    return;
+  }
+  if (empty) empty.hidden = true;
+
+  const M = { top: 14, right: 12, bottom: 22, left: 56 };
+  const innerW = W - M.left - M.right;
+  const innerH = H - M.top - M.bottom;
+
+  const xParse = (d) => new Date(d);
+  const xs = series.map((p) => xParse(p.d));
+  const ys = series.map((p) => p.r);
+  const yMin = Math.min(...ys), yMax = Math.max(...ys);
+  const yPad = (yMax - yMin) * 0.08 || (yMax * 0.01) || 1;
+
+  const x = d3.scaleTime().domain([xs[0], xs[xs.length - 1]]).range([M.left, M.left + innerW]);
+  const y = d3.scaleLinear().domain([yMin - yPad, yMax + yPad]).range([M.top + innerH, M.top]);
+
+  // Gradient pour l'aire sous la courbe
+  const defs = svg.append("defs");
+  const grad = defs.append("linearGradient")
+    .attr("id", "conv-gradient")
+    .attr("x1", 0).attr("x2", 0).attr("y1", 0).attr("y2", 1);
+  grad.append("stop").attr("offset", "0%").attr("stop-color", "#F5AC3C").attr("stop-opacity", 0.30);
+  grad.append("stop").attr("offset", "100%").attr("stop-color", "#F5AC3C").attr("stop-opacity", 0);
+
+  // Grille horizontale
+  const yTicks = y.ticks(5);
+  const grid = svg.append("g").attr("class", "conv-chart-grid");
+  yTicks.forEach((t) => {
+    grid.append("line").attr("x1", M.left).attr("x2", M.left + innerW).attr("y1", y(t)).attr("y2", y(t));
+  });
+
+  // Axe Y (labels)
+  const axis = svg.append("g").attr("class", "conv-chart-axis");
+  yTicks.forEach((t) => {
+    axis.append("text")
+      .attr("x", M.left - 8).attr("y", y(t))
+      .attr("text-anchor", "end").attr("dominant-baseline", "middle")
+      .text(new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 4 }).format(t));
+  });
+
+  // Axe X (labels date — ~5 répartis)
+  const dateTicks = d3.scaleTime().domain([xs[0], xs[xs.length - 1]]).ticks(5);
+  dateTicks.forEach((d) => {
+    axis.append("text")
+      .attr("x", x(d)).attr("y", M.top + innerH + 16)
+      .attr("text-anchor", "middle")
+      .text(d.toLocaleDateString("fr-FR", { day: "2-digit", month: "short" }));
+  });
+
+  const line = d3.line().x((p) => x(xParse(p.d))).y((p) => y(p.r)).curve(d3.curveMonotoneX);
+  const area = d3.area().x((p) => x(xParse(p.d))).y0(M.top + innerH).y1((p) => y(p.r)).curve(d3.curveMonotoneX);
+
+  svg.append("path").datum(series).attr("class", "conv-chart-area").attr("d", area);
+  svg.append("path").datum(series).attr("class", "conv-chart-line").attr("d", line);
+
+  // Curseur d'interaction
+  const cursor = svg.append("g").attr("class", "conv-chart-cursor").style("display", "none");
+  cursor.append("line").attr("y1", M.top).attr("y2", M.top + innerH);
+  cursor.append("circle").attr("r", 4);
+
+  // Tooltip
+  const tt = $("#conv-tooltip");
+
+  svg.on("mousemove", function (event) {
+    const [mx] = d3.pointer(event, this);
+    const dx = x.invert(mx);
+    // Bisect : trouve le point le plus proche
+    const bis = d3.bisector((d) => xParse(d.d)).left;
+    const i = bis(series, dx);
+    const a = series[Math.max(0, i - 1)], b = series[Math.min(series.length - 1, i)];
+    const pt = (a && b) ? (Math.abs(dx - xParse(a.d)) < Math.abs(xParse(b.d) - dx) ? a : b) : (a || b);
+    if (!pt) return;
+    const px = x(xParse(pt.d)), py = y(pt.r);
+    cursor.style("display", null);
+    cursor.select("line").attr("x1", px).attr("x2", px);
+    cursor.select("circle").attr("cx", px).attr("cy", py);
+    // Tooltip
+    tt.hidden = false;
+    tt.style.left = px + "px";
+    tt.style.top  = (py - 50) + "px";
+    tt.innerHTML = `
+      <div class="tt-date">${new Date(pt.d).toLocaleDateString("fr-FR", { weekday: "short", day: "2-digit", month: "short", year: "numeric" })}</div>
+      <div class="tt-rate">1 ${state.conv.from} = ${new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 6 }).format(pt.r)} ${state.conv.to}</div>`;
+  });
+
+  svg.on("mouseleave", () => {
+    cursor.style("display", "none");
+    tt.hidden = true;
+  });
+}
+
+// ============================================================
+// DRAWER : NEWS IDE PAR PAYS
+// ============================================================
+function openFdiDrawer(countryCode) {
+  const c = countryByCode(countryCode);
+  if (!c) return;
+  // Filtre : country = code, fdi = true, source tier <= 2 (sources sérieuses)
+  const news = state.signals.filter((s) =>
+    s.country === countryCode && s.fdi && (s.lead_source?.tier || 99) <= 2
+  ).sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0));
+
+  // FDI data du pays
+  const fdiData = state.fdi?.countries?.[countryCode]?.latest;
+
+  $("#fdi-drawer-title").innerHTML = `${c.flag} ${escapeHtml(c.name)}`;
+  $("#fdi-drawer-sub").textContent =
+    `${c.tier === "filiale" ? "Filiale OLEA" : "Partenariat OLEA"} · ${c.region}`;
+
+  // Stats header
+  $("#fdi-drawer-stats").innerHTML = `
+    <div><b>${fdiData ? "$" + formatUSD(fdiData.value) : "—"}</b><span>IDE ${fdiData?.year || "—"}</span></div>
+    <div><b>${news.length}</b><span>Signaux IDE 14j</span></div>
+    <div><b>${news.filter((s) => s.lead_source?.tier === 1).length}</b><span>Sources tier 1</span></div>
+  `;
+
+  const body = $("#fdi-drawer-body");
+  if (!news.length) {
+    body.innerHTML = `
+      <div class="fdi-drawer-empty">
+        <strong>Aucun signal IDE détecté ces 14 jours</strong>
+        Pas de mention d'investissement direct étranger dans la presse de confiance monitorée pour ce pays.<br/>
+        Réessaye après le prochain refresh horaire du bot.
+      </div>`;
+  } else {
+    body.innerHTML = news.map(renderSignal).join("");
+    body.querySelectorAll(".signal").forEach((el) => {
+      el.addEventListener("click", () => {
+        const url = el.dataset.url;
+        if (url && url !== "#") window.open(url, "_blank", "noopener");
+      });
+    });
+  }
+
+  const drawer = $("#fdi-drawer");
+  drawer.hidden = false;
+  document.body.style.overflow = "hidden";
+}
+
+function closeFdiDrawer() {
+  $("#fdi-drawer").hidden = true;
+  document.body.style.overflow = "";
+}
+
+document.addEventListener("click", (e) => {
+  if (e.target.hasAttribute && e.target.hasAttribute("data-close-drawer")) closeFdiDrawer();
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && !$("#fdi-drawer").hidden) closeFdiDrawer();
+});
 
 // ============================================================
 // Veille réglementaire
@@ -1099,6 +1510,7 @@ setInterval(renderSnapshot, 30 * 1000);
 async function autoRefresh(opts = {}) {
   const previousIds = new Set(state.signals.map((s) => s.id));
   const [ok] = await Promise.all([loadNews(), loadFX(), loadFDI()]);
+  // fx_history n'est rechargé qu'une fois par jour (peu coûteux mais inutile en hourly)
   if (!ok) return;
   const newOnes = state.signals.filter((s) => !previousIds.has(s.id));
   if (newOnes.length > 0) {
@@ -1125,7 +1537,7 @@ async function autoRefresh(opts = {}) {
 // BOOT
 // ============================================================
 (async function init() {
-  await Promise.all([loadNews(), loadFX(), loadFDI()]);
+  await Promise.all([loadNews(), loadFX(), loadFXHistory(), loadFDI()]);
   await renderMap();
   renderChips();
   renderCategoryFilters();
@@ -1143,5 +1555,6 @@ async function autoRefresh(opts = {}) {
   renderFXDashboardCard();
   renderMarketsSection();
   renderSourcesFooter();
+  navigate(); // active la route initiale depuis location.hash
   setInterval(autoRefresh, REFRESH_MS);
 })();
