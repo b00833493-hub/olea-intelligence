@@ -6,6 +6,8 @@
 
 const WORLD_TOPO_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 const NEWS_URL = "news.json";
+const FX_URL   = "fx.json";
+const FDI_URL  = "fdi.json";
 const REFRESH_MS = 60 * 1000;
 
 // État global
@@ -20,6 +22,8 @@ const state = {
   reguTheme: null,      // filtre thème actif (null = tous)
   reguStatus: null,     // filtre statut actif (null = tous)
   searchQuery: "",      // recherche libre (transverse aux deux feeds)
+  fx: null,             // fx.json (taux EUR → devises locales)
+  fdi: null,            // fdi.json (IDE World Bank par pays)
 };
 
 // Normalise pour matching : minuscules + sans accents.
@@ -131,6 +135,24 @@ async function loadNews() {
       </div>`;
     return false;
   }
+}
+
+async function loadFX() {
+  try {
+    const res = await fetch(`${FX_URL}?t=${Date.now()}`);
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.fx = await res.json();
+    return true;
+  } catch (e) { console.warn("FX non chargé :", e); state.fx = null; return false; }
+}
+
+async function loadFDI() {
+  try {
+    const res = await fetch(`${FDI_URL}?t=${Date.now()}`);
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.fdi = await res.json();
+    return true;
+  } catch (e) { console.warn("FDI non chargé :", e); state.fdi = null; return false; }
 }
 
 // ============================================================
@@ -609,6 +631,179 @@ function renderSnapshot() {
 }
 
 // ============================================================
+// Marchés économiques (FX + IDE)
+// ============================================================
+function formatRate(v) {
+  if (v == null) return "—";
+  if (v >= 1000) return new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 0 }).format(v);
+  if (v >= 100)  return new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 1 }).format(v);
+  if (v >= 10)   return new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 2 }).format(v);
+  if (v >= 1)    return new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 3 }).format(v);
+  return new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 5 }).format(v);
+}
+
+function formatUSD(v) {
+  if (v == null) return "—";
+  if (Math.abs(v) >= 1e9)  return (v / 1e9).toFixed(2) + " Mds";
+  if (Math.abs(v) >= 1e6)  return (v / 1e6).toFixed(1) + " M";
+  if (Math.abs(v) >= 1e3)  return (v / 1e3).toFixed(1) + " k";
+  return String(v);
+}
+
+function renderFXDashboardCard() {
+  if (!state.fx) return;
+  const sub = $("#fx-card-sub");
+  if (sub && state.fx.provider?.api_updated_utc) {
+    const d = new Date(state.fx.provider.api_updated_utc);
+    sub.textContent = "MAJ " + d.toLocaleDateString("fr-FR", { day: "2-digit", month: "short" });
+  }
+  // 6 marchés clés affichés en dashboard
+  const featured = [
+    { code: "MAR", ccy: "MAD" },
+    { code: "NGA", ccy: "NGN" },
+    { code: "ZAF", ccy: "ZAR" },
+    { code: "KEN", ccy: "KES" },
+    { code: "GHA", ccy: "GHS" },
+    { code: "CIV", ccy: "XOF" },
+  ];
+  const list = $("#fx-mini-list");
+  if (!list) return;
+  list.innerHTML = featured.map((f) => {
+    const c = countryByCode(f.code);
+    const r = state.fx.rates?.[f.ccy];
+    const meta = state.fx.currency_meta?.[f.ccy] || {};
+    return `
+      <div class="fx-mini-row">
+        <span class="fx-mini-flag">${c?.flag || ""}</span>
+        <span class="fx-mini-label">
+          <span class="fx-mini-code">${escapeHtml(c?.name || f.code)}</span>
+          <span class="fx-mini-name">${f.ccy} · ${escapeHtml(meta.name || "")}</span>
+        </span>
+        <span class="fx-mini-rate">${formatRate(r)}<small>${f.ccy}</small></span>
+      </div>`;
+  }).join("");
+}
+
+function renderMarketsSection() {
+  // ---- KPIs ----
+  if (state.fx) {
+    $("#fx-count").textContent = Object.keys(state.fx.rates || {}).length;
+    if (state.fx.provider?.api_updated_utc) {
+      const d = new Date(state.fx.provider.api_updated_utc);
+      $("#fx-updated").textContent = d.toLocaleDateString("fr-FR", { day: "2-digit", month: "short", year: "numeric" });
+    }
+  }
+  if (state.fdi) {
+    $("#fdi-coverage").textContent = state.fdi.coverage_count + "/" + OLEA_COUNTRIES.length;
+    const total = state.fdi.total_latest_usd || 0;
+    $("#fdi-total").textContent = "$" + formatUSD(total);
+  }
+
+  // ---- FX grid (par région) ----
+  if (state.fx) {
+    const byRegion = {};
+    for (const c of OLEA_COUNTRIES) {
+      const ccy = state.fx.country_currency?.[c.code];
+      if (!ccy) continue;
+      (byRegion[c.region] = byRegion[c.region] || []).push({ country: c, ccy });
+    }
+    const regionOrder = ["Afrique de l'Ouest", "Afrique du Nord", "Afrique Centrale",
+                         "Afrique de l'Est", "Afrique Australe", "Océan Indien"];
+    const grid = $("#fx-grid");
+    if (grid) {
+      let html = "";
+      for (const region of regionOrder) {
+        const items = byRegion[region] || [];
+        if (!items.length) continue;
+        html += `<div class="fx-region-header" style="grid-column:1/-1;font-size:11px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:var(--ink-3);padding:6px 4px 2px;">${escapeHtml(region)}</div>`;
+        for (const it of items) {
+          const rate = state.fx.rates?.[it.ccy];
+          const meta = state.fx.currency_meta?.[it.ccy] || {};
+          const isPeg = !!meta.pegged_eur;
+          html += `
+            <div class="fx-card ${isPeg ? "fx-pegged" : ""}">
+              <span class="fx-card-flag">${it.country.flag}</span>
+              <div class="fx-card-body">
+                <div class="fx-card-country">${escapeHtml(it.country.name)}</div>
+                <div class="fx-card-currency">
+                  <span class="ccy-code">${it.ccy}</span> · ${escapeHtml(meta.name || "")}
+                  ${isPeg ? '<span title="Parité fixe EUR" style="margin-left:4px">·🔗</span>' : ""}
+                </div>
+              </div>
+              <div>
+                <div class="fx-card-rate">${formatRate(rate)} <small style="font-size:10px;color:var(--ink-3)">${it.ccy}</small></div>
+                <div class="fx-card-rate-sub">pour 1 EUR</div>
+              </div>
+            </div>`;
+        }
+      }
+      grid.innerHTML = html;
+    }
+  }
+
+  // ---- FDI grid ----
+  if (state.fdi) {
+    const grid = $("#fdi-grid");
+    if (grid) {
+      // Tri par valeur décroissante
+      const items = OLEA_COUNTRIES.map((c) => {
+        const data = state.fdi.countries?.[c.code] || null;
+        return { country: c, data };
+      }).sort((a, b) => {
+        const va = a.data?.latest?.value ?? -Infinity;
+        const vb = b.data?.latest?.value ?? -Infinity;
+        return vb - va;
+      });
+      grid.innerHTML = items.map(renderFdiCard).join("");
+    }
+  }
+}
+
+function renderFdiCard({ country: c, data }) {
+  if (!data || !data.latest) {
+    return `
+      <div class="fdi-card">
+        <div class="fdi-card-head">
+          <span class="fdi-card-flag">${c.flag}</span>
+          <span class="fdi-card-name">${escapeHtml(c.name)}</span>
+        </div>
+        <div class="fdi-card-empty">Aucune donnée World Bank récente</div>
+      </div>`;
+  }
+  const latest = data.latest;
+  const yoy = data.yoy_pct;
+  let yoyClass = "flat";
+  let yoyText = "—";
+  if (yoy != null) {
+    if (yoy > 1)  { yoyClass = "up";   yoyText = "+" + yoy.toFixed(0) + "% YoY"; }
+    else if (yoy < -1) { yoyClass = "down"; yoyText = yoy.toFixed(0) + "% YoY"; }
+    else            { yoyClass = "flat"; yoyText = yoy.toFixed(0) + "% YoY"; }
+  }
+  // Sparkline : valeurs non-null des 5 dernières années
+  const hist = (data.history || []).filter((h) => h.value != null).slice(-7);
+  const maxV = hist.length ? Math.max(...hist.map((h) => Math.abs(h.value))) : 1;
+  const sparkHtml = hist.map((h, i) => {
+    const isLast = i === hist.length - 1;
+    const height = Math.max(2, (Math.abs(h.value) / maxV) * 22);
+    return `<div class="fdi-spark-bar ${isLast ? "latest" : ""}" style="height:${height}px" title="${h.year} · $${formatUSD(h.value)}"></div>`;
+  }).join("");
+
+  return `
+    <div class="fdi-card">
+      <div class="fdi-card-head">
+        <span class="fdi-card-flag">${c.flag}</span>
+        <span class="fdi-card-name">${escapeHtml(c.name)}</span>
+        <span class="fdi-card-year">${latest.year}</span>
+      </div>
+      <div class="fdi-card-value">$${formatUSD(latest.value)}<span class="fdi-card-value-unit">USD</span></div>
+      <div class="fdi-card-foot">
+        <span class="fdi-card-yoy ${yoyClass}">${yoyText}</span>
+        <div class="fdi-spark">${sparkHtml}</div>
+      </div>
+    </div>`;
+}
+
+// ============================================================
 // Veille réglementaire
 // ============================================================
 function regulatorySignals() {
@@ -863,7 +1058,7 @@ setInterval(renderSnapshot, 30 * 1000);
 // ============================================================
 async function autoRefresh(opts = {}) {
   const previousIds = new Set(state.signals.map((s) => s.id));
-  const ok = await loadNews();
+  const [ok] = await Promise.all([loadNews(), loadFX(), loadFDI()]);
   if (!ok) return;
   const newOnes = state.signals.filter((s) => !previousIds.has(s.id));
   if (newOnes.length > 0) {
@@ -882,13 +1077,15 @@ async function autoRefresh(opts = {}) {
   renderRegulatoryThemes();
   renderRegulatoryStatuses();
   renderRegulatoryFeed();
+  renderFXDashboardCard();
+  renderMarketsSection();
 }
 
 // ============================================================
 // BOOT
 // ============================================================
 (async function init() {
-  await loadNews();
+  await Promise.all([loadNews(), loadFX(), loadFDI()]);
   await renderMap();
   renderChips();
   renderCategoryFilters();
@@ -903,6 +1100,8 @@ async function autoRefresh(opts = {}) {
   renderRegulatoryThemes();
   renderRegulatoryStatuses();
   renderRegulatoryFeed();
+  renderFXDashboardCard();
+  renderMarketsSection();
   renderSourcesFooter();
   setInterval(autoRefresh, REFRESH_MS);
 })();

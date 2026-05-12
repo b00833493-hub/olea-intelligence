@@ -991,6 +991,240 @@ mark {
 .alert-title { color: var(--ink); font-weight: 600; font-size: 13px; }
 
 /* ============================================================
+   DASHBOARD · carte FX
+   ============================================================ */
+.dashboard-grid { grid-template-columns: 1fr 1fr 1.2fr 1fr; }
+.card-fx { display: flex; flex-direction: column; }
+.fx-mini-list { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.fx-mini-row {
+  display: grid; grid-template-columns: 28px 1fr auto; gap: 10px;
+  align-items: center;
+  padding: 7px 0;
+  border-bottom: 1px dashed var(--border);
+  font-size: 12.5px;
+}
+.fx-mini-row:last-child { border-bottom: none; }
+.fx-mini-flag { font-size: 16px; }
+.fx-mini-label { display: flex; flex-direction: column; line-height: 1.1; }
+.fx-mini-code { font-weight: 600; color: var(--ink); }
+.fx-mini-name { font-size: 10.5px; color: var(--ink-3); margin-top: 2px; }
+.fx-mini-rate {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.fx-mini-rate small { font-size: 10px; color: var(--ink-3); font-family: var(--font-sans); margin-left: 3px; }
+.card-link {
+  margin-top: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.card-link:hover { color: var(--primary-2); }
+
+/* ============================================================
+   MARCHÉS ÉCONOMIQUES (FX + IDE)
+   ============================================================ */
+.markets {
+  padding: 80px 0;
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+}
+.markets-inner { max-width: 1440px; margin: 0 auto; padding: 0 36px; }
+.markets .section-head { margin-bottom: 30px; max-width: 820px; }
+
+.markets-kpis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 36px;
+}
+.markets-kpi {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 22px 18px;
+  box-shadow: var(--shadow-sm);
+  border-left: 3px solid var(--accent);
+}
+.markets-kpi-total { border-left-color: var(--primary); }
+.markets-kpi-value {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 28px; line-height: 1;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+}
+.markets-kpi-label {
+  margin-top: 8px;
+  font-size: 12px; color: var(--ink-3);
+  font-weight: 500;
+}
+
+.markets-block { margin-bottom: 36px; }
+.markets-block-head {
+  display: flex; align-items: baseline; gap: 14px;
+  margin-bottom: 16px;
+}
+.markets-block-head h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.markets-block-sub { font-size: 13px; color: var(--ink-3); }
+
+/* FX grid */
+.fx-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+  gap: 10px;
+}
+.fx-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px 12px;
+  box-shadow: var(--shadow-sm);
+  display: flex; align-items: center; gap: 12px;
+  transition: transform .12s, box-shadow .12s;
+}
+.fx-card:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.fx-card-flag { font-size: 28px; line-height: 1; }
+.fx-card-body { flex: 1; min-width: 0; }
+.fx-card-country {
+  font-size: 13.5px; font-weight: 600; color: var(--ink);
+  letter-spacing: -0.005em;
+}
+.fx-card-currency {
+  font-size: 11px; color: var(--ink-3);
+  margin-top: 2px;
+}
+.fx-card-currency .ccy-code {
+  font-weight: 600; color: var(--ink-2);
+  font-family: var(--font-mono);
+}
+.fx-card-rate {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--ink);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+.fx-card-rate-sub {
+  font-size: 10.5px; color: var(--ink-3);
+  margin-top: 3px;
+  font-family: var(--font-sans);
+  font-weight: 500;
+}
+.fx-card.fx-pegged { border-left: 3px solid var(--accent); }
+
+/* FDI grid */
+.fdi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+  gap: 12px;
+}
+.fdi-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 18px 14px;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+  transition: transform .12s, box-shadow .12s;
+}
+.fdi-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.fdi-card-head {
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 10px;
+}
+.fdi-card-flag { font-size: 22px; }
+.fdi-card-name {
+  font-size: 14px; font-weight: 600;
+  color: var(--ink); flex: 1;
+}
+.fdi-card-year {
+  font-size: 10.5px; font-weight: 600;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+}
+.fdi-card-value {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+.fdi-card-value-unit {
+  font-size: 11px; color: var(--ink-3);
+  font-weight: 500;
+  font-family: var(--font-sans);
+  margin-left: 3px;
+}
+.fdi-card-foot {
+  margin-top: 10px;
+  display: flex; align-items: center; gap: 10px;
+  font-size: 11.5px;
+  color: var(--ink-3);
+}
+.fdi-card-yoy {
+  display: inline-flex; align-items: center; gap: 3px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 11px;
+}
+.fdi-card-yoy.up   { background: rgba(76, 176, 122, 0.15); color: #15803D; }
+.fdi-card-yoy.down { background: rgba(180, 72, 43, 0.12); color: var(--primary); }
+.fdi-card-yoy.flat { background: var(--bg-2); color: var(--ink-3); }
+.fdi-spark {
+  display: flex; align-items: flex-end; gap: 2px;
+  height: 22px;
+  margin-left: auto;
+}
+.fdi-spark-bar {
+  width: 4px;
+  background: var(--ink-4);
+  border-radius: 1px;
+}
+.fdi-spark-bar.latest { background: var(--primary); }
+.fdi-card-empty {
+  font-size: 12px; color: var(--ink-3); font-style: italic;
+}
+
+.markets-note {
+  margin-top: 24px;
+  font-size: 12px;
+  color: var(--ink-3);
+  line-height: 1.55;
+  padding: 14px 18px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.markets-note strong { color: var(--ink-2); }
+.markets-note em { color: var(--accent-2); font-style: normal; font-weight: 600; }
+
+@media (max-width: 1100px) {
+  .markets-kpis { grid-template-columns: repeat(2, 1fr); }
+  .dashboard-grid { grid-template-columns: 1fr; }
+}
+
+/* ============================================================
    VEILLE RÉGLEMENTAIRE
    ============================================================ */
 .regulatory {

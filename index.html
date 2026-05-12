@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:wght@500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css?v=12" />
+<link rel="stylesheet" href="styles.css?v=13" />
 </head>
 <body class="locked">
 
@@ -60,6 +60,7 @@
       <a href="#feed">Fil</a>
       <a href="#dashboard">Dashboard</a>
       <a href="#regulatory">Réglementaire</a>
+      <a href="#markets">Marchés</a>
     </nav>
 
     <div class="topbar-search">
@@ -227,6 +228,15 @@
         </div>
         <div class="alerts-list" id="alerts-list"></div>
       </div>
+
+      <div class="card card-fx" id="card-fx">
+        <div class="card-head">
+          <h3>Devises clés &amp; EUR</h3>
+          <span class="card-sub" id="fx-card-sub">MAJ —</span>
+        </div>
+        <div class="fx-mini-list" id="fx-mini-list"></div>
+        <a class="card-link" href="#markets">Voir toutes les devises &amp; IDE →</a>
+      </div>
     </div>
   </div>
 </section>
@@ -285,6 +295,67 @@
       La v2 production ajoutera la connexion directe aux sites des régulateurs
       (CIMA, NAICOM, ACAPS, IRA, FSCA, NIC, JO nationaux, IFRS, GIABA) et le
       parsing des actes uniformes OHADA pour une couverture sources primaires.
+    </div>
+  </div>
+</section>
+
+<!-- =================== MARCHÉS ÉCONOMIQUES (FX + IDE) =================== -->
+<section class="markets" id="markets">
+  <div class="markets-inner">
+    <div class="section-head">
+      <div class="panel-eyebrow">Marchés économiques</div>
+      <h2 class="section-title">Devises locales &amp; investissements directs étrangers</h2>
+      <p class="section-lede">
+        Taux de change <strong>EUR → devises locales</strong> des 28 marchés monétaires OLEA,
+        mis à jour quotidiennement depuis les taux de référence BCE (provider :
+        ExchangeRate-API). Flux d'<strong>IDE annuels</strong> par pays sourcés du
+        World Bank Open Data (indicateur BX.KLT.DINV.CD.WD).
+      </p>
+    </div>
+
+    <!-- KPIs marchés -->
+    <div class="markets-kpis">
+      <div class="markets-kpi">
+        <div class="markets-kpi-value" id="fx-count">--</div>
+        <div class="markets-kpi-label">Devises monitorées</div>
+      </div>
+      <div class="markets-kpi">
+        <div class="markets-kpi-value" id="fx-updated">—</div>
+        <div class="markets-kpi-label">Dernière MAJ taux</div>
+      </div>
+      <div class="markets-kpi">
+        <div class="markets-kpi-value" id="fdi-coverage">--</div>
+        <div class="markets-kpi-label">Pays avec donnée IDE</div>
+      </div>
+      <div class="markets-kpi markets-kpi-total">
+        <div class="markets-kpi-value" id="fdi-total">--</div>
+        <div class="markets-kpi-label">Flux IDE agrégé (USD)</div>
+      </div>
+    </div>
+
+    <!-- Bloc Devises -->
+    <div class="markets-block">
+      <div class="markets-block-head">
+        <h3>Taux EUR → devises locales</h3>
+        <span class="markets-block-sub">1 EUR = X (monnaie locale) · trié par région</span>
+      </div>
+      <div class="fx-grid" id="fx-grid"></div>
+    </div>
+
+    <!-- Bloc IDE -->
+    <div class="markets-block">
+      <div class="markets-block-head">
+        <h3>Investissements directs étrangers — entrées nettes (USD courants)</h3>
+        <span class="markets-block-sub">Dernière année disponible · World Bank</span>
+      </div>
+      <div class="fdi-grid" id="fdi-grid"></div>
+    </div>
+
+    <div class="markets-note">
+      Sources : <strong>ExchangeRate-API</strong> (open.er-api.com, niveau gratuit, MAJ ECB
+      quotidienne) pour les taux de change · <strong>World Bank Open Data</strong>
+      (indicateur BX.KLT.DINV.CD.WD) pour les flux IDE. Les francs CFA <em>XOF</em> et
+      <em>XAF</em> sont fixés par parité avec l'EUR (1 EUR = 655,957 FCFA).
     </div>
   </div>
 </section>
@@ -374,7 +445,7 @@
 <script src="gate.js?v=1"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-<script src="data.js?v=12"></script>
-<script src="app.js?v=12"></script>
+<script src="data.js?v=13"></script>
+<script src="app.js?v=13"></script>
 </body>
 </html>

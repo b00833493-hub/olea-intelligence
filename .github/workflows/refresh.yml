@@ -1,7 +1,7 @@
-name: Refresh news
+name: Refresh data
 
-# Re-fetch les sources de presse, met à jour news.json, commit & push.
-# GitHub Pages (ou Netlify branché sur le repo) redéploie automatiquement.
+# Re-fetch news + FX + FDI, commit & push si changement.
+# GitHub Pages redéploie automatiquement après chaque push.
 
 on:
   schedule:
@@ -32,27 +32,35 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Fetch news
+      - name: Fetch news (regulatory veille incluse)
         run: python3 fetch_news.py
+
+      - name: Fetch FX (taux EUR → devises locales OLEA)
+        run: python3 fetch_fx.py || echo "::warning::fetch_fx a échoué"
+
+      - name: Fetch FDI (Investissements directs étrangers, World Bank)
+        run: python3 fetch_fdi.py || echo "::warning::fetch_fdi a échoué"
 
       - name: Commit if changed
         run: |
           git config user.name  "OLEA Intelligence Bot"
           git config user.email "olea-intel-bot@users.noreply.github.com"
 
-          git add news.json
+          git add news.json fx.json fdi.json
           if git diff --cached --quiet; then
-            echo "→ Aucune nouvelle news, rien à committer."
+            echo "→ Aucun changement, rien à committer."
             exit 0
           fi
 
           # Compteurs pour le message de commit
           n_signals=$(python3 -c "import json; print(json.load(open('news.json'))['stats']['total_signals'])")
           n_verified=$(python3 -c "import json; print(json.load(open('news.json'))['stats']['verified_signals'])")
+          fx_count=$(python3 -c "import json; print(len(json.load(open('fx.json'))['rates']))" 2>/dev/null || echo "?")
+          fdi_count=$(python3 -c "import json; d=json.load(open('fdi.json')); print(d['coverage_count'])" 2>/dev/null || echo "?")
 
-          git commit -m "chore(data): refresh news — ${n_signals} signaux (${n_verified} cross-vérifiés)"
+          git commit -m "chore(data): refresh — ${n_signals} signaux (${n_verified} vérif.) · ${fx_count} taux FX · ${fdi_count} pays IDE"
           git push
-          echo "→ ✓ news.json poussé."
+          echo "→ ✓ news.json + fx.json + fdi.json poussés."
 
       - name: Upload artifact (debug)
         if: failure()
