@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:wght@500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css?v=10" />
+<link rel="stylesheet" href="styles.css?v=11" />
 </head>
 <body class="locked">
 
@@ -40,6 +40,13 @@
   </div>
 </div>
 
+<!-- =================== BANDEAU RECHERCHE (visible si query active) =================== -->
+<div class="search-banner" id="search-banner" hidden>
+  <span>Recherche en cours : <b id="search-banner-query"></b></span>
+  <span class="search-banner-counts" id="search-banner-counts"></span>
+  <button class="search-banner-reset" id="search-banner-reset">Effacer ×</button>
+</div>
+
 <!-- =================== BANDEAU CONFIDENTIEL =================== -->
 <div class="confidential-strip">
   <span>● Démo confidentielle · OLEA Insurance Solutions</span>
@@ -56,12 +63,21 @@
     </a>
 
     <nav class="topnav">
-      <a href="#map">Carte des risques</a>
-      <a href="#feed">Fil temps réel</a>
+      <a href="#map">Carte</a>
+      <a href="#feed">Fil</a>
       <a href="#dashboard">Dashboard</a>
-      <a href="#regulatory">Veille réglementaire</a>
-      <a href="#alerts">Alertes critiques</a>
+      <a href="#regulatory">Réglementaire</a>
     </nav>
+
+    <div class="topbar-search">
+      <svg class="search-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+        <path d="M11.4 10.5c.7-1 1.1-2.1 1.1-3.4 0-3-2.5-5.5-5.5-5.5S1.5 4.1 1.5 7.1 4 12.6 7 12.6c1.3 0 2.4-.4 3.4-1.1l3.3 3.3 1.1-1.1-3.4-3.2zM7 11C4.8 11 3 9.2 3 7s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"/>
+      </svg>
+      <input id="search-input" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Rechercher : Mali, fiscalité, OHADA, projet de loi…" />
+      <button class="search-clear" id="search-clear" hidden aria-label="Effacer">×</button>
+      <kbd class="search-kbd">⌘K</kbd>
+    </div>
 
     <div class="topbar-right">
       <div class="live-pill">
@@ -365,7 +381,7 @@
 <script src="gate.js?v=1"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-<script src="data.js?v=10"></script>
-<script src="app.js?v=10"></script>
+<script src="data.js?v=11"></script>
+<script src="app.js?v=11"></script>
 </body>
 </html>

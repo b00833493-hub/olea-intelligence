@@ -19,7 +19,45 @@ const state = {
   sortMode: "severity", // 'severity' | 'recent' | 'credibility'
   reguTheme: null,      // filtre thème actif (null = tous)
   reguStatus: null,     // filtre statut actif (null = tous)
+  searchQuery: "",      // recherche libre (transverse aux deux feeds)
 };
+
+// Normalise pour matching : minuscules + sans accents.
+function normForSearch(s) {
+  if (!s) return "";
+  return s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
+}
+
+// Renvoie true si tous les tokens de la query sont présents dans le texte du signal.
+function signalMatchesSearch(s) {
+  const q = state.searchQuery.trim();
+  if (!q) return true;
+  const tokens = normForSearch(q).split(/\s+/).filter(Boolean);
+  if (!tokens.length) return true;
+  const c = countryByCode(s.country);
+  const cat = CATEGORIES[s.category];
+  const theme = s.theme ? THEMES[s.theme] : null;
+  const haystack = normForSearch([
+    s.title, s.summary,
+    c?.name, c?.city, c?.region,
+    cat?.label, theme?.label,
+    s.legal_status,
+    s.lead_source?.name,
+    ...(s.confirming_sources || []).map((x) => x.name),
+  ].filter(Boolean).join(" • "));
+  return tokens.every((tok) => haystack.includes(tok));
+}
+
+// Highlight des matches dans une chaîne (renvoie du HTML safe).
+function highlight(text) {
+  const safe = escapeHtml(text || "");
+  const q = state.searchQuery.trim();
+  if (!q) return safe;
+  const tokens = q.split(/\s+/).filter((t) => t.length >= 2);
+  if (!tokens.length) return safe;
+  const re = new RegExp("(" + tokens.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")", "gi");
+  return safe.replace(re, "<mark>$1</mark>");
+}
 
 const SORT_FNS = {
   severity:    (a, b) => (b.severity - a.severity)
@@ -294,6 +332,7 @@ function filteredSignals() {
   let out = state.signals.slice();
   if (state.selectedCountry) out = out.filter((s) => s.country === state.selectedCountry);
   if (state.activeCategory)  out = out.filter((s) => s.category === state.activeCategory);
+  if (state.searchQuery.trim()) out = out.filter(signalMatchesSearch);
   out.sort(SORT_FNS[state.sortMode] || SORT_FNS.severity);
   return out;
 }
@@ -381,8 +420,8 @@ function renderSignal(s) {
       <span class="signal-sev-badge">${sevLabels[sev]}</span>
       ${verifiedBadge}
     </div>
-    <h3 class="signal-title">${escapeHtml(s.title)}</h3>
-    <p class="signal-summary">${escapeHtml(s.summary || "")}</p>
+    <h3 class="signal-title">${highlight(s.title)}</h3>
+    <p class="signal-summary">${highlight(s.summary || "")}</p>
     <div class="signal-sources">
       ${confirmingSrcs || `<span class="source-pill tier-${s.lead_source?.tier || 2}">${escapeHtml(s.lead_source?.name || "")}</span>`}
       <span class="signal-credibility" title="Fiabilité : ${s.credibility}/5">
@@ -573,7 +612,9 @@ function renderSnapshot() {
 // Veille réglementaire
 // ============================================================
 function regulatorySignals() {
-  return state.signals.filter((s) => s.regulatory);
+  let out = state.signals.filter((s) => s.regulatory);
+  if (state.searchQuery.trim()) out = out.filter(signalMatchesSearch);
+  return out;
 }
 
 function renderRegulatoryKPIs() {
@@ -719,8 +760,8 @@ function renderRegulatoryCard(s) {
       ${statusBadge}
       <span class="regu-time">${timeAgo(s.published)}</span>
     </div>
-    <h3 class="regu-card-title">${escapeHtml(s.title)}</h3>
-    <p class="regu-card-summary">${escapeHtml(s.summary || "")}</p>
+    <h3 class="regu-card-title">${highlight(s.title)}</h3>
+    <p class="regu-card-summary">${highlight(s.summary || "")}</p>
     <div class="regu-card-foot">
       <span class="source-pill">${escapeHtml(s.lead_source?.name || "")}</span>
       ${s.verified ? `<span class="verified-badge" style="margin-left:auto"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0L9.96 1.69L12.54 1.21L13.55 3.61L15.84 4.79L15.31 7.38L16.55 9.69L14.69 11.55L14.34 14.17L11.71 14.41L9.69 16L7.45 14.6L4.83 14.96L4.06 12.45L1.84 11L2.44 8.42L1.66 5.91L4.06 4.55L5.24 2.28L7.84 2.62L8 0Z M11.4 5.6L7.2 9.8L4.8 7.4L4 8.2L7.2 11.4L12.2 6.4L11.4 5.6Z"/></svg>Vérifié</span>` : ""}
@@ -758,6 +799,66 @@ $("#reset-filter").addEventListener("click", () => {
 function tickClock() { $("#live-time").textContent = formatClock(); }
 setInterval(tickClock, 1000);
 tickClock();
+
+// ============================================================
+// Recherche transverse
+// ============================================================
+let searchDebounce = null;
+function bindSearch() {
+  const input  = $("#search-input");
+  const clear  = $("#search-clear");
+  const banner = $("#search-banner");
+  const resetB = $("#search-banner-reset");
+  if (!input) return;
+
+  const applyQuery = (q) => {
+    state.searchQuery = q || "";
+    input.value = state.searchQuery;
+    clear.hidden = !state.searchQuery;
+    updateSearchBanner();
+    // Re-render les deux feeds + filtres dépendants
+    renderFeed();
+    renderRegulatoryFeed();
+    renderRegulatoryKPIs();
+    renderRegulatoryThemes();
+    renderRegulatoryStatuses();
+  };
+
+  input.addEventListener("input", (e) => {
+    clearTimeout(searchDebounce);
+    const val = e.target.value;
+    searchDebounce = setTimeout(() => applyQuery(val), 150);
+  });
+
+  clear.addEventListener("click", () => applyQuery(""));
+  resetB.addEventListener("click", () => applyQuery(""));
+
+  // Cmd+K / Ctrl+K → focus
+  document.addEventListener("keydown", (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+      e.preventDefault();
+      input.focus();
+      input.select();
+    }
+    if (e.key === "Escape" && document.activeElement === input) {
+      applyQuery("");
+      input.blur();
+    }
+  });
+}
+
+function updateSearchBanner() {
+  const banner = $("#search-banner");
+  if (!banner) return;
+  const q = state.searchQuery.trim();
+  if (!q) { banner.hidden = true; return; }
+  const opCount  = filteredSignals().length;
+  const reguCount = regulatorySignals().length;
+  $("#search-banner-query").textContent = `« ${q} »`;
+  $("#search-banner-counts").textContent =
+    `${opCount} signal${opCount > 1 ? "s" : ""} opérationnel${opCount > 1 ? "s" : ""} · ${reguCount} réglementaire${reguCount > 1 ? "s" : ""}`;
+  banner.hidden = false;
+}
 
 // ============================================================
 // Snapshot — click-to-refresh + tick toutes les minutes
@@ -812,6 +913,7 @@ async function autoRefresh(opts = {}) {
   bindSortControls();
   renderSortControls();
   bindSnapshotRefresh();
+  bindSearch();
   renderFeed();
   renderDashboard();
   renderKPIs();

@@ -291,7 +291,104 @@ button { font: inherit; cursor: pointer; }
 }
 .topnav a:hover { color: var(--ink); border-color: var(--accent); }
 
+.topbar-search {
+  flex: 1;
+  max-width: 460px;
+  min-width: 240px;
+  margin: 0 12px;
+  display: flex; align-items: center; gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 14px;
+  transition: border-color .15s, box-shadow .15s, background-color .15s;
+  position: relative;
+}
+.topbar-search:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(180, 72, 43, 0.10);
+  background: #fff;
+}
+.search-icon {
+  width: 14px; height: 14px;
+  color: var(--ink-3);
+  flex-shrink: 0;
+}
+.topbar-search input {
+  flex: 1;
+  border: none; outline: none; background: transparent;
+  font: inherit;
+  font-size: 13px;
+  color: var(--ink);
+  width: 100%;
+  min-width: 0;
+}
+.topbar-search input::placeholder { color: var(--ink-3); }
+.topbar-search input::-webkit-search-cancel-button { display: none; }
+.search-kbd {
+  font: 600 10px/1 var(--font-mono);
+  color: var(--ink-3);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 6px;
+  flex-shrink: 0;
+}
+.topbar-search:focus-within .search-kbd { display: none; }
+.search-clear {
+  background: var(--bg-2);
+  border: none;
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  color: var(--ink-2);
+  font-size: 14px; line-height: 1;
+  cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 0;
+  flex-shrink: 0;
+}
+.search-clear:hover { background: var(--ink-4); color: #fff; }
+
 .topbar-right { margin-left: auto; display: flex; align-items: center; gap: 14px; }
+
+/* Bannière "résultats de recherche" */
+.search-banner {
+  background: linear-gradient(90deg, rgba(180, 72, 43, 0.10) 0%, rgba(245, 172, 60, 0.10) 100%);
+  border-bottom: 1px solid rgba(180, 72, 43, 0.25);
+  color: var(--ink);
+  font-size: 13px;
+  padding: 10px 24px;
+  display: flex; justify-content: center; align-items: center;
+  gap: 14px;
+  position: sticky;
+  top: 67px;
+  z-index: 90;
+}
+.search-banner b { color: var(--primary); }
+.search-banner .search-banner-counts { color: var(--ink-2); }
+.search-banner .search-banner-reset {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 12px; font-weight: 600;
+  cursor: pointer;
+}
+.search-banner .search-banner-reset:hover { background: var(--primary-2); }
+
+/* Surlignage des termes trouvés */
+mark {
+  background: rgba(245, 172, 60, 0.35);
+  color: inherit;
+  padding: 0 1px;
+  border-radius: 2px;
+}
+
+@media (max-width: 980px) {
+  .topnav { display: none; }
+  .topbar-search { max-width: none; }
+}
 .live-pill {
   display: inline-flex; align-items: center; gap: 8px;
   padding: 7px 12px 7px 10px;
