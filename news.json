@@ -1,21 +1,19 @@
 {
-  "generated_at": "2026-05-12T11:52:35.491284+00:00",
+  "generated_at": "2026-05-12T12:17:09.177299+00:00",
   "stats": {
     "total_signals": 254,
-    "verified_signals": 10,
+    "verified_signals": 9,
     "countries_covered": 29,
     "sources_active": 16,
     "per_country": {
-      "UGA": 4,
-      "NGA": 34,
+      "UGA": 5,
+      "NGA": 35,
       "KEN": 65,
       "ZAF": 14,
-      "MLI": 33,
+      "MLI": 32,
       "COD": 14,
       "CMR": 3,
-      "TCD": 3,
-      "DZA": 5,
-      "BWA": 2,
+      "TCD": 4,
       "BEN": 5,
       "MAR": 15,
       "ETH": 3,
@@ -24,16 +22,18 @@
       "MDG": 4,
       "TGO": 2,
       "NER": 2,
+      "DZA": 4,
       "GAB": 2,
       "BDI": 2,
       "SEN": 11,
+      "AGO": 1,
       "SLE": 1,
       "COG": 2,
       "MRT": 1,
       "RWA": 3,
       "GHA": 4,
       "GNQ": 1,
-      "AGO": 1,
+      "BWA": 1,
       "TZA": 1
     }
   },
@@ -375,8 +375,8 @@
       "country": "NGA",
       "category": "AUTRE",
       "severity": 4,
-      "credibility": 4,
-      "verified": true,
+      "credibility": 2,
+      "verified": false,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
@@ -393,15 +393,9 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.com/news/articles/cr5p85v446ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605120113.html"
         }
       ],
-      "confirmation_count": 2
+      "confirmation_count": 1
     },
     {
       "id": "ef176c1bb3",
@@ -550,64 +544,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/05/09/dr-congo-anger-after-rebel-massacre-in-ituri/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d5b05a77dc",
-      "title": "Algérie : la France envoie un émissaire pour apaiser les relations",
-      "summary": "Paris veut renforcer ses relations avec Alger. La secrétaire d'État française aux Forces armées, Alice Rufo, s'est rendue vendredi à Sétif, dans l'est de l'Algérie, pour assister aux cérémonies commémorant le massacre de Sétif.",
-      "country": "DZA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "published": "2026-05-08T18:41:51+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/08/algerie-des-dirigeants-francais-presents-aux-commemorations-du-massacre-de-setif/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/08/algerie-des-dirigeants-francais-presents-aux-commemorations-du-massacre-de-setif/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "670243a64e",
-      "title": "Botswana : décès de l’ancien président Festus Mogae",
-      "summary": "L’ancien chef de l’État botswanais Festus Mogae est mort vendredi à l’âge de 86 ans. Économiste de formation et président du Botswana de 1998 à 2008, il laisse l’image d’un dirigeant ayant conjugué croissance économique, stabilité politique et combat résolu contre l’épidémie de VIH/sida.",
-      "country": "BWA",
-      "category": "ECONOMIE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "published": "2026-05-08T16:14:32+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/08/botswana-deces-de-lancien-president-festus-mogae/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/08/botswana-deces-de-lancien-president-festus-mogae/"
         }
       ],
       "confirmation_count": 1
@@ -816,30 +752,88 @@
       "confirmation_count": 1
     },
     {
-      "id": "c59dd9a76f",
-      "title": "Malian Official Accuses Russian Forces of 'Betrayal' After Kidal Falls to Rebels",
-      "summary": "[RFI] Mali's crisis deepened on Tuesday, a day after Russian paramilitaries withdrew from the northern city of Kidal, allowing jihadist and Tuareg rebel forces to seize the strategic stronghold. The withdrawal came after coordinated attacks across the country killed Mali's defence minister and struck targets near the capital, with a senior Malian official telling RFI that Russian forces had \"betrayed\" Bamako.",
-      "country": "MLI",
+      "id": "af5c9bd917",
+      "title": "Again, Gunmen Kill Two Family Members in Plateau Community",
+      "summary": "[Vanguard] Jos -- Gunmen suspected to be bandits operating in Plateau State have reportedly attacked Kogot village in Vwang (Vom) District of Jos South Local Government Area, killing two members of the same family.",
+      "country": "NGA",
       "category": "POLITIQUE",
-      "severity": 4,
+      "severity": 3,
       "credibility": 2,
       "verified": false,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
-      "published": "2026-04-28T12:06:58+00:00",
+      "published": "2026-05-12T12:08:23+00:00",
       "lead_source": {
-        "id": "aa-mli",
-        "name": "AllAfrica · Mali",
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202604280333.html"
+        "url": "https://allafrica.com/stories/202605120455.html"
       },
       "confirming_sources": [
         {
-          "id": "aa-mli",
-          "name": "AllAfrica · Mali",
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202604280333.html"
+          "url": "https://allafrica.com/stories/202605120455.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c9e8148dce",
+      "title": "Fresh Attacks On Accord - Arrest Perpetrators, Adeleke Directs Police Authorities",
+      "summary": "[This Day] Osogbo -- In the wake of fresh attacks on the Accord Party and public property across Osogbo, the Osun State capital, the state Governor, Ademola Adeleke, has directed the state Police Command to arrest documented thugs of the All Progressives Congress (APC) before the public resorts to self-help.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "published": "2026-05-12T11:51:17+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605120425.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605120425.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f8f6999fac",
+      "title": "How Alleged Coup Plotter Contacted Me for Prayer, Cleric Reveals",
+      "summary": "[This Day] An Islamic cleric standing trial over an alleged plot to overthrow the government of President Bola Tinubu has told a Federal High Court in Abuja how he was approached to offer prayers for the success of the planned operation.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "published": "2026-05-12T11:50:58+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605120424.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605120424.html"
         }
       ],
       "confirmation_count": 1
@@ -1553,6 +1547,35 @@
       "confirmation_count": 1
     },
     {
+      "id": "c0cfed71f4",
+      "title": "Group Set to Launch Magazine Containing 301 Verifiable Achievements of Tinubu's Administration",
+      "summary": "[This Day] Abuja -- A group, Relax, Tinubu is Fixing Nigeria has announced that it would soon launch another publication titled, \"Navigating the Future with Renewed Hope\", which contains 301 verifiable achievements of President Bola Tinubu at the Presidential Villa.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "published": "2026-05-12T11:50:37+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605120423.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605120423.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "6718b8a3ec",
       "title": "FG Reaffirms Commitment to Growth of Dairy Sector, Trains 100 Farmers in Oyo",
       "summary": "[This Day] Abuja -- The Federal Ministry of Livestock Development has reaffirmed the federal government's commitment to transforming the country's dairy sector through strategic capacity development at the grassroots, following the training of 100 small-scale dairy farmers in Ibadan, Oyo State.",
@@ -1733,35 +1756,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7c22c29519",
-      "title": "UN Launches Major Nairobi Expansion As Guterres Highlights Africa's Growing Global Role",
-      "summary": "[UN News] The United Nations on Monday launched a major expansion of its Nairobi headquarters, with Secretary-General António Guterres and Kenyan President William Ruto marking what officials described as a significant milestone for the Organization's presence in Africa.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "published": "2026-05-12T08:22:16+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605120114.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605120114.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0efb88f0a8",
       "title": "France and Kenya enter new partnerships in arts, sports, and technology",
       "summary": "French President Emmanuel Macron and his Kenyan counterpart William Ruto on Monday announced new partnerships in arts and sports and emphasized the need to leverage Africa's human capital abundance and France's technological advancement to grow economies.",
@@ -1850,35 +1844,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605120104.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "237ad8d0cb",
-      "title": "Nigerian Govt Announces Minimum Admissible UTME Score for 2026 Admissions",
-      "summary": "[Premium Times] The benchmarks were arrived at during the 2026 annual policy meeting on Admissions into Tertiary Institutions in Abuja on Monday",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "published": "2026-05-12T07:25:23+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605120102.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605120102.html"
         }
       ],
       "confirmation_count": 1
@@ -2059,35 +2024,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/05/12/sommet-africa-forward-2026-le-kenya-et-la-france-annoncent-de-nouveaux-partenariats/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f6c8aef1a4",
-      "title": "Fuel Import Increased By 114% in March Despite Local Refining",
-      "summary": "[Daily Trust] Nigeria imported 182,235,909 litre of Petroleum Motor Spirit (PMS), popularly known as petroleum in March.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "published": "2026-05-12T05:20:58+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605120046.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605120046.html"
         }
       ],
       "confirmation_count": 1
@@ -2749,6 +2685,64 @@
       "confirmation_count": 1
     },
     {
+      "id": "f847e29826",
+      "title": "Carburant : l’Angola, champion pétrolier, veut réduire sa dépendance aux importations",
+      "summary": "Après de multiples reports, l’entrée en production de la raffinerie de Cabinda marque une étape importante dans la conquête de la souveraineté énergétique de l’Angola. Mais elle fait aussi figure de test de la solidité de la stratégie du géant lusophone pétrolier.",
+      "country": "AGO",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "published": "2026-05-12T14:01:48+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1795030/economie-entreprises/carburant-langola-champion-petrolier-veut-reduire-sa-dependance-aux-importations/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1795030/economie-entreprises/carburant-langola-champion-petrolier-veut-reduire-sa-dependance-aux-importations/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5ff57878d5",
+      "title": "Gachagua Moves to Supreme Court to Strike Out Appeal On Impeachment Bench",
+      "summary": "[Capital FM] Nairobi -- Former Deputy President Rigathi Gachagua has moved to the Supreme Court seeking to strike out an appeal challenging the empanelment of the High Court bench handling impeachment-related petitions.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "published": "2026-05-12T12:07:07+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605120450.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605120450.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "4c9639bd74",
       "title": "Au Cameroun, comment le pouvoir a « éteint » les obsèques d’Anicet Ekane",
       "summary": "L’opposant Anicet Ekane a été porté en terre ce 9 mai à Bomono, près de Douala. Une cérémonie marquée par des tensions entre sa famille et son ancien parti politique, insidieusement attisées par le pouvoir.",
@@ -2802,6 +2796,35 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/05/12/maroc-le-secteur-des-assurances-frole-les-632-milliards-usd-de-chiffre-daffaires-en-2025/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f490255fe3",
+      "title": "INEC to Mobilise 1.4m Corps Members for 2027 General Election",
+      "summary": "[This Day] Abuja -- The Independent National Electoral Commission (INEC) has revealed that over 1.4 million members of the National Youth Service Corps will be mobilised for the 2027 general election.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "published": "2026-05-12T11:51:39+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605120426.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605120426.html"
         }
       ],
       "confirmation_count": 1
@@ -2976,6 +2999,35 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605120362.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ea3eeec385",
+      "title": "Ouganda : Yoweri Museveni prête serment pour un 8e mandat",
+      "summary": "Âgé de 81 ans, Yoweri Museveni a été réélu le 15 janvier dernier pour un huitième mandat, avec 71,65 % des suffrages, selon les résultats officiels",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "published": "2026-05-12T11:16:31+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/12/ouganda-yoweri-museveni-prete-serment-pour-un-8e-mandat/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/12/ouganda-yoweri-museveni-prete-serment-pour-un-8e-mandat/"
         }
       ],
       "confirmation_count": 1
@@ -3271,6 +3323,35 @@
       "confirmation_count": 1
     },
     {
+      "id": "83e0fd2965",
+      "title": "Tchad : au Cœur de l’Art, un festival pour révéler les talents de demain",
+      "summary": "Cette édition, placée sous le thème \"Réimaginer l'éducation\", a accueilli plus de 500 jeunes",
+      "country": "TCD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "published": "2026-05-12T10:34:28+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/12/tchad-au-coeur-de-lart-un-festival-pour-reveler-les-talents-de-demain/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/12/tchad-au-coeur-de-lart-un-festival-pour-reveler-les-talents-de-demain/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "5e3f1a0e53",
       "title": "Proparco et Atlantic Group : un pacte pour l’économie africaine",
       "summary": "À l’occasion du sommet Africa Forward tenu à Nairobi (Kenya), les 11 et 12 mai 2026, Proparco, filiale de l’Agence française de développement (AFD), et Atlantic Group ont officialisé la signature d’un protocole d’accord (MoU). Ce texte établit un cadre de partenariat stratégique de long terme destiné à accompagner la croissance d’acteurs privés africains à fort impact. Cette alliance repose sur une volonté commune de soutenir des secteurs essentiels à la transformation…",
@@ -3295,6 +3376,35 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/05/12/proparco-et-atlantic-group-un-pacte-pour-leconomie-africaine/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "326aaa3c26",
+      "title": "La République du Congo sollicite le Fonds monétaire international",
+      "summary": "Le Congo demande l’ouverture de négociations avec le FMI pour la mise en place d’un nouveau programme économique et financier.",
+      "country": "COG",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "published": "2026-05-12T10:24:19+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/12/la-republique-du-congo-sollicite-le-fonds-monetaire-international/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/12/la-republique-du-congo-sollicite-le-fonds-monetaire-international/"
         }
       ],
       "confirmation_count": 1
@@ -3353,35 +3463,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1795340/politique/vous-avez-des-amis-de-ce-cote-ci-du-continent-entre-ruto-et-macron-de-la-strategie-et-du-pragmatisme/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "326aaa3c26",
-      "title": "La République du Congo sollicite le Fonds monétaire international",
-      "summary": "Le Congo demande l’ouverture de négociations avec le FMI pour la mise en place d’un nouveau programme économique et financier.",
-      "country": "COG",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "published": "2026-05-12T10:09:00+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/12/la-republique-du-congo-sollicite-le-fonds-monetaire-international/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/12/la-republique-du-congo-sollicite-le-fonds-monetaire-international/"
         }
       ],
       "confirmation_count": 1
@@ -4571,64 +4652,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605120047.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "93ca442bec",
-      "title": "Xenophobia Meets Ingratitude - Is Nigeria Under-Reacting?",
-      "summary": "[This Day] In the 1970s and 1980s, Nigeria enjoyed a robust relationship with the African National Congress (ANC), playing the role of a Big Brother, not only to other African nations, but to Black South Africa which had been subjected to inhumane conditions of Apartheid by the White National Party government since 1948, until it was brought to an end in 1994.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "published": "2026-05-12T05:20:55+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605120042.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605120042.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "549cf22b45",
-      "title": "Govt Hands Over Construction of N545bn New Carter Bridge to CCECC",
-      "summary": "[This Day] The federal government has officially handed over the construction of a brand-new Carter Bridge in Lagos to China Civil Engineering Construction Corporation (CCECC), as part of President Bola Tinubu's commitment to protecting critical infrastructure and ensuring the safety of Nigerians.",
-      "country": "NGA",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "published": "2026-05-12T05:20:55+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605120043.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605120043.html"
         }
       ],
       "confirmation_count": 1
@@ -6717,35 +6740,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260508-s%C3%A9n%C3%A9gal-caroline-gueye-illumine-la-biennale-de-venise-avec-wurus"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "97d5255740",
-      "title": "A Luanda, Oligui Nguema promeut le climat des Affaires à Libreville",
-      "summary": "Le président gabonais est en visite d'Etat en Angola, marquant le réchauffement des relations entre les deux pays.",
-      "country": "AGO",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "published": "2026-05-08T17:49:41+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/08/a-luanda-oligui-nguema-promeut-le-climat-des-affaires-a-libreville/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/08/a-luanda-oligui-nguema-promeut-le-climat-des-affaires-a-libreville/"
         }
       ],
       "confirmation_count": 1
