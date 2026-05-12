@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:wght@500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css?v=13" />
+<link rel="stylesheet" href="styles.css?v=14" />
 </head>
 <body class="locked">
 
@@ -333,22 +333,67 @@
       </div>
     </div>
 
-    <!-- Bloc Devises -->
+    <!-- Bloc Devises (style terminal financier) -->
     <div class="markets-block">
-      <div class="markets-block-head">
-        <h3>Taux EUR → devises locales</h3>
-        <span class="markets-block-sub">1 EUR = X (monnaie locale) · trié par région</span>
+      <div class="terminal-head">
+        <div class="terminal-head-left">
+          <h3>FX RATES <span class="terminal-head-meta">EUR base</span></h3>
+          <div class="terminal-head-sub">28 devises locales · groupé par région · MAJ <span id="fx-stamp">—</span></div>
+        </div>
+        <div class="terminal-head-right">
+          <span class="terminal-legend"><span class="tick-up">▲</span> appréciation EUR</span>
+          <span class="terminal-legend"><span class="tick-down">▼</span> dépréciation EUR</span>
+          <span class="terminal-legend"><span class="tick-flat">↔</span> stable / parité fixe</span>
+        </div>
       </div>
-      <div class="fx-grid" id="fx-grid"></div>
+      <div class="terminal-table-wrap">
+        <table class="fx-table" id="fx-table">
+          <thead>
+            <tr>
+              <th class="col-flag"></th>
+              <th class="col-code">CODE</th>
+              <th class="col-country">PAYS</th>
+              <th class="col-currency">DEVISE</th>
+              <th class="col-last">LAST</th>
+              <th class="col-change">CHANGE</th>
+              <th class="col-spark">HIST 30J</th>
+              <th class="col-tag">RÉGIME</th>
+            </tr>
+          </thead>
+          <tbody id="fx-tbody"></tbody>
+        </table>
+      </div>
     </div>
 
-    <!-- Bloc IDE -->
+    <!-- Bloc IDE (style terminal financier) -->
     <div class="markets-block">
-      <div class="markets-block-head">
-        <h3>Investissements directs étrangers — entrées nettes (USD courants)</h3>
-        <span class="markets-block-sub">Dernière année disponible · World Bank</span>
+      <div class="terminal-head">
+        <div class="terminal-head-left">
+          <h3>FDI INFLOWS <span class="terminal-head-meta">USD courants · World Bank</span></h3>
+          <div class="terminal-head-sub">Indicateur BX.KLT.DINV.CD.WD · dernière année disponible · trié par flux décroissant</div>
+        </div>
+        <div class="terminal-head-right">
+          <span class="terminal-legend"><span class="tick-up">▲</span> YoY positif</span>
+          <span class="terminal-legend"><span class="tick-down">▼</span> YoY négatif</span>
+        </div>
       </div>
-      <div class="fdi-grid" id="fdi-grid"></div>
+      <div class="terminal-table-wrap">
+        <table class="fdi-table" id="fdi-table">
+          <thead>
+            <tr>
+              <th class="col-flag"></th>
+              <th class="col-code">ISO</th>
+              <th class="col-country">PAYS</th>
+              <th class="col-year">YR</th>
+              <th class="col-num">DERN. FLUX (USD)</th>
+              <th class="col-num">YOY</th>
+              <th class="col-num">AVG 5Y</th>
+              <th class="col-spark">HIST</th>
+            </tr>
+          </thead>
+          <tbody id="fdi-tbody"></tbody>
+        </table>
+      </div>
     </div>
 
     <div class="markets-note">
@@ -445,7 +490,7 @@
 <script src="gate.js?v=1"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-<script src="data.js?v=13"></script>
-<script src="app.js?v=13"></script>
+<script src="data.js?v=14"></script>
+<script src="app.js?v=14"></script>
 </body>
 </html>

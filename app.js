@@ -672,16 +672,52 @@ function renderFXDashboardCard() {
     const c = countryByCode(f.code);
     const r = state.fx.rates?.[f.ccy];
     const meta = state.fx.currency_meta?.[f.ccy] || {};
+    const pct = state.fx.changes_pct?.[f.ccy];
+    const isPeg = !!meta.pegged_eur;
+    let arrow = "↔", cls = "tick-flat", ch = "";
+    if (isPeg) { arrow = "↔"; cls = "tick-flat"; ch = "PEG"; }
+    else if (pct == null) { arrow = "·"; cls = "tick-flat"; ch = ""; }
+    else if (pct > 0.01) { arrow = "▲"; cls = "tick-up"; ch = "+" + pct.toFixed(2) + "%"; }
+    else if (pct < -0.01) { arrow = "▼"; cls = "tick-down"; ch = pct.toFixed(2) + "%"; }
     return `
       <div class="fx-mini-row">
         <span class="fx-mini-flag">${c?.flag || ""}</span>
         <span class="fx-mini-label">
-          <span class="fx-mini-code">${escapeHtml(c?.name || f.code)}</span>
-          <span class="fx-mini-name">${f.ccy} · ${escapeHtml(meta.name || "")}</span>
+          <span class="fx-mini-code">${f.ccy} <span style="color:var(--ink-3);font-weight:500;font-size:11px">${escapeHtml(c?.name || "")}</span></span>
+          <span class="fx-mini-name">${escapeHtml(meta.name || "")}</span>
         </span>
-        <span class="fx-mini-rate">${formatRate(r)}<small>${f.ccy}</small></span>
+        <span style="text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:1px">
+          <span class="fx-mini-rate">${formatRate(r)}</span>
+          <span class="${cls}" style="font-family:var(--font-mono);font-size:10.5px;font-weight:700">${arrow} ${ch}</span>
+        </span>
       </div>`;
   }).join("");
+}
+
+// SVG sparkline générique
+function buildSparkSVG(values, opts = {}) {
+  const W = opts.width || 72, H = opts.height || 18, PAD = 1;
+  if (!values || values.length < 2) {
+    return `<span class="spark-empty"></span>`;
+  }
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const span = max - min || 1;
+  const stepX = (W - PAD * 2) / (values.length - 1);
+  const yFor = (v) => PAD + (H - PAD * 2) * (1 - (v - min) / span);
+  let d = "M";
+  values.forEach((v, i) => {
+    d += `${i === 0 ? "" : " L"}${(PAD + i * stepX).toFixed(2)},${yFor(v).toFixed(2)}`;
+  });
+  const last = values[values.length - 1];
+  const first = values[0];
+  const trendCls = last > first ? "up" : (last < first ? "down" : "");
+  const area = `${d} L${(W - PAD).toFixed(2)},${(H - PAD).toFixed(2)} L${PAD.toFixed(2)},${(H - PAD).toFixed(2)} Z`;
+  return `<svg class="spark" viewBox="0 0 ${W} ${H}" aria-hidden="true">
+    <path class="area ${trendCls}" d="${area}"></path>
+    <path class="line ${trendCls}" d="${d}"></path>
+    <circle class="dot ${trendCls}" cx="${(PAD + (values.length - 1) * stepX).toFixed(2)}" cy="${yFor(last).toFixed(2)}" r="1.6"/>
+  </svg>`;
 }
 
 function renderMarketsSection() {
@@ -690,7 +726,9 @@ function renderMarketsSection() {
     $("#fx-count").textContent = Object.keys(state.fx.rates || {}).length;
     if (state.fx.provider?.api_updated_utc) {
       const d = new Date(state.fx.provider.api_updated_utc);
-      $("#fx-updated").textContent = d.toLocaleDateString("fr-FR", { day: "2-digit", month: "short", year: "numeric" });
+      const fmt = d.toLocaleDateString("fr-FR", { day: "2-digit", month: "short", year: "numeric" });
+      $("#fx-updated").textContent = fmt;
+      const stamp = $("#fx-stamp"); if (stamp) stamp.textContent = fmt;
     }
   }
   if (state.fdi) {
@@ -699,8 +737,9 @@ function renderMarketsSection() {
     $("#fdi-total").textContent = "$" + formatUSD(total);
   }
 
-  // ---- FX grid (par région) ----
-  if (state.fx) {
+  // ---- FX table (groupée par région) ----
+  const tbody = $("#fx-tbody");
+  if (state.fx && tbody) {
     const byRegion = {};
     for (const c of OLEA_COUNTRIES) {
       const ccy = state.fx.country_currency?.[c.code];
@@ -709,98 +748,99 @@ function renderMarketsSection() {
     }
     const regionOrder = ["Afrique de l'Ouest", "Afrique du Nord", "Afrique Centrale",
                          "Afrique de l'Est", "Afrique Australe", "Océan Indien"];
-    const grid = $("#fx-grid");
-    if (grid) {
-      let html = "";
-      for (const region of regionOrder) {
-        const items = byRegion[region] || [];
-        if (!items.length) continue;
-        html += `<div class="fx-region-header" style="grid-column:1/-1;font-size:11px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:var(--ink-3);padding:6px 4px 2px;">${escapeHtml(region)}</div>`;
-        for (const it of items) {
-          const rate = state.fx.rates?.[it.ccy];
-          const meta = state.fx.currency_meta?.[it.ccy] || {};
-          const isPeg = !!meta.pegged_eur;
-          html += `
-            <div class="fx-card ${isPeg ? "fx-pegged" : ""}">
-              <span class="fx-card-flag">${it.country.flag}</span>
-              <div class="fx-card-body">
-                <div class="fx-card-country">${escapeHtml(it.country.name)}</div>
-                <div class="fx-card-currency">
-                  <span class="ccy-code">${it.ccy}</span> · ${escapeHtml(meta.name || "")}
-                  ${isPeg ? '<span title="Parité fixe EUR" style="margin-left:4px">·🔗</span>' : ""}
-                </div>
-              </div>
-              <div>
-                <div class="fx-card-rate">${formatRate(rate)} <small style="font-size:10px;color:var(--ink-3)">${it.ccy}</small></div>
-                <div class="fx-card-rate-sub">pour 1 EUR</div>
-              </div>
-            </div>`;
+    let html = "";
+    for (const region of regionOrder) {
+      const items = byRegion[region] || [];
+      if (!items.length) continue;
+      html += `<tr class="region-row"><td colspan="8">${escapeHtml(region.toUpperCase())} · ${items.length} marché${items.length > 1 ? "s" : ""}</td></tr>`;
+      for (const it of items) {
+        const rate = state.fx.rates?.[it.ccy];
+        const meta = state.fx.currency_meta?.[it.ccy] || {};
+        const isPeg = !!meta.pegged_eur;
+        const pct = state.fx.changes_pct?.[it.ccy];
+        const histArr = (state.fx.history?.[it.ccy] || []).map((h) => h.rate).slice(-30);
+        if (typeof rate === "number") histArr.push(rate);
+        // Tick : pour un taux EUR→local, une HAUSSE du nombre = EUR s'apprécie = local se déprécie.
+        // Bloomberg-style : on indique simplement le mouvement du chiffre.
+        let arrow = "↔", cls = "tick-flat", changeStr = "0.00%";
+        if (isPeg) {
+          arrow = "↔"; cls = "tick-flat"; changeStr = "PEGGED";
+        } else if (pct == null) {
+          arrow = "·"; cls = "tick-flat"; changeStr = "—";
+        } else if (pct > 0.01) {
+          arrow = "▲"; cls = "tick-up"; changeStr = "+" + pct.toFixed(2) + "%";
+        } else if (pct < -0.01) {
+          arrow = "▼"; cls = "tick-down"; changeStr = pct.toFixed(2) + "%";
         }
+        const sparkHtml = (isPeg || histArr.length < 2)
+          ? `<span class="spark-empty"></span>`
+          : buildSparkSVG(histArr);
+        html += `
+          <tr>
+            <td class="col-flag fx-flag-cell">${it.country.flag}</td>
+            <td class="col-code">${it.ccy}</td>
+            <td class="col-country">${escapeHtml(it.country.name)}</td>
+            <td class="col-currency-name">${escapeHtml(meta.name || "")}</td>
+            <td class="col-last col-last-big">${formatRate(rate)}</td>
+            <td class="tick-cell ${cls}"><span class="arrow">${arrow}</span>${changeStr}</td>
+            <td class="col-spark">${sparkHtml}</td>
+            <td><span class="regime-tag ${isPeg ? "pegged" : "floating"}">${isPeg ? "PEGGED EUR" : "FLOATING"}</span></td>
+          </tr>`;
       }
-      grid.innerHTML = html;
     }
+    tbody.innerHTML = html;
   }
 
-  // ---- FDI grid ----
-  if (state.fdi) {
-    const grid = $("#fdi-grid");
-    if (grid) {
-      // Tri par valeur décroissante
-      const items = OLEA_COUNTRIES.map((c) => {
-        const data = state.fdi.countries?.[c.code] || null;
-        return { country: c, data };
-      }).sort((a, b) => {
-        const va = a.data?.latest?.value ?? -Infinity;
-        const vb = b.data?.latest?.value ?? -Infinity;
-        return vb - va;
-      });
-      grid.innerHTML = items.map(renderFdiCard).join("");
+  // ---- FDI table (tri par valeur décroissante) ----
+  const fdibody = $("#fdi-tbody");
+  if (state.fdi && fdibody) {
+    const items = OLEA_COUNTRIES.map((c) => {
+      const data = state.fdi.countries?.[c.code] || null;
+      return { country: c, data };
+    }).sort((a, b) => {
+      const va = a.data?.latest?.value ?? -Infinity;
+      const vb = b.data?.latest?.value ?? -Infinity;
+      return vb - va;
+    });
+
+    let html = "";
+    for (const { country: c, data } of items) {
+      if (!data || !data.latest) {
+        html += `
+          <tr>
+            <td class="col-flag fdi-flag-cell">${c.flag}</td>
+            <td class="col-iso">${c.code}</td>
+            <td class="col-country">${escapeHtml(c.name)}</td>
+            <td colspan="5" class="fdi-empty">— données indisponibles World Bank</td>
+          </tr>`;
+        continue;
+      }
+      const latest = data.latest;
+      const yoy = data.yoy_pct;
+      let arrow = "·", cls = "tick-flat", yoyStr = "—";
+      if (yoy == null) { /* keep defaults */ }
+      else if (yoy > 1)   { arrow = "▲"; cls = "tick-up";   yoyStr = "+" + yoy.toFixed(1) + "%"; }
+      else if (yoy < -1)  { arrow = "▼"; cls = "tick-down"; yoyStr = yoy.toFixed(1) + "%"; }
+      else                { arrow = "·"; cls = "tick-flat"; yoyStr = yoy.toFixed(1) + "%"; }
+
+      const histVals = (data.history || []).filter((h) => h.value != null).slice(-7).map((h) => h.value);
+      const sparkHtml = buildSparkSVG(histVals);
+      const avg5Str = data.avg_5y_usd ? "$" + formatUSD(data.avg_5y_usd) : "—";
+
+      html += `
+        <tr>
+          <td class="col-flag fdi-flag-cell">${c.flag}</td>
+          <td class="col-iso">${c.code}</td>
+          <td class="col-country">${escapeHtml(c.name)}</td>
+          <td class="col-num" style="font-weight:500;color:var(--ink-3)">${latest.year}</td>
+          <td class="col-num col-last-big">$${formatUSD(latest.value)}</td>
+          <td class="tick-cell ${cls}"><span class="arrow">${arrow}</span>${yoyStr}</td>
+          <td class="col-num fdi-avg" style="color:var(--ink-3)">${avg5Str}</td>
+          <td class="col-spark">${sparkHtml}</td>
+        </tr>`;
     }
+    fdibody.innerHTML = html;
   }
-}
-
-function renderFdiCard({ country: c, data }) {
-  if (!data || !data.latest) {
-    return `
-      <div class="fdi-card">
-        <div class="fdi-card-head">
-          <span class="fdi-card-flag">${c.flag}</span>
-          <span class="fdi-card-name">${escapeHtml(c.name)}</span>
-        </div>
-        <div class="fdi-card-empty">Aucune donnée World Bank récente</div>
-      </div>`;
-  }
-  const latest = data.latest;
-  const yoy = data.yoy_pct;
-  let yoyClass = "flat";
-  let yoyText = "—";
-  if (yoy != null) {
-    if (yoy > 1)  { yoyClass = "up";   yoyText = "+" + yoy.toFixed(0) + "% YoY"; }
-    else if (yoy < -1) { yoyClass = "down"; yoyText = yoy.toFixed(0) + "% YoY"; }
-    else            { yoyClass = "flat"; yoyText = yoy.toFixed(0) + "% YoY"; }
-  }
-  // Sparkline : valeurs non-null des 5 dernières années
-  const hist = (data.history || []).filter((h) => h.value != null).slice(-7);
-  const maxV = hist.length ? Math.max(...hist.map((h) => Math.abs(h.value))) : 1;
-  const sparkHtml = hist.map((h, i) => {
-    const isLast = i === hist.length - 1;
-    const height = Math.max(2, (Math.abs(h.value) / maxV) * 22);
-    return `<div class="fdi-spark-bar ${isLast ? "latest" : ""}" style="height:${height}px" title="${h.year} · $${formatUSD(h.value)}"></div>`;
-  }).join("");
-
-  return `
-    <div class="fdi-card">
-      <div class="fdi-card-head">
-        <span class="fdi-card-flag">${c.flag}</span>
-        <span class="fdi-card-name">${escapeHtml(c.name)}</span>
-        <span class="fdi-card-year">${latest.year}</span>
-      </div>
-      <div class="fdi-card-value">$${formatUSD(latest.value)}<span class="fdi-card-value-unit">USD</span></div>
-      <div class="fdi-card-foot">
-        <span class="fdi-card-yoy ${yoyClass}">${yoyText}</span>
-        <div class="fdi-spark">${sparkHtml}</div>
-      </div>
-    </div>`;
 }
 
 // ============================================================

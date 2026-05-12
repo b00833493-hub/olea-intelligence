@@ -77,6 +77,12 @@ def main():
     print("┌─ OLEA Intelligence · taux de change EUR → marchés OLEA")
     print(f"│  Source : open.er-api.com (gratuit, MAJ quotidienne ECB)")
 
+    # Lit l'existant pour conserver l'historique
+    existing = None
+    if OUT.exists():
+        try: existing = json.loads(OUT.read_text(encoding="utf-8"))
+        except Exception: existing = None
+
     req = urllib.request.Request(API, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
         body = json.loads(resp.read().decode("utf-8"))
@@ -94,6 +100,40 @@ def main():
     rates = {ccy: rates_all[ccy] for ccy in needed if ccy in rates_all}
     missing = sorted(needed - set(rates.keys()))
 
+    # ============================================================
+    # Historique & rate précédent
+    # ============================================================
+    # history[ccy] = liste de {date: "YYYY-MM-DD", rate: number}
+    # Cumule un point par "api_updated_utc" distinct (donc 1×/jour ECB)
+    history = (existing or {}).get("history", {})
+    previous_rates = (existing or {}).get("previous_rates", {})
+    previous_at    = (existing or {}).get("previous_api_updated_utc")
+    old_api_updated = (existing or {}).get("provider", {}).get("api_updated_utc")
+
+    if existing and old_api_updated and old_api_updated != api_updated:
+        # Snapshot ECB a changé → on archive l'ancien comme "previous"
+        previous_rates = existing.get("rates", {})
+        previous_at    = old_api_updated
+        # Et on ajoute un point d'historique pour les rates précédents
+        try:
+            d = datetime.strptime(old_api_updated, "%a, %d %b %Y %H:%M:%S %z").date().isoformat()
+            for ccy, rate in existing.get("rates", {}).items():
+                hist = history.setdefault(ccy, [])
+                if not hist or hist[-1]["date"] != d:
+                    hist.append({"date": d, "rate": rate})
+                    hist[:] = hist[-30:]  # garde 30 derniers points
+        except Exception:
+            pass
+
+    # Calcule les % de variation (vs previous)
+    changes = {}
+    for ccy, r in rates.items():
+        prev = previous_rates.get(ccy)
+        if prev and prev != 0:
+            changes[ccy] = (r - prev) / prev * 100
+        else:
+            changes[ccy] = None
+
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "base": "EUR",
@@ -107,6 +147,10 @@ def main():
         "country_currency": COUNTRY_CURRENCY,
         "currency_meta": {c: CURRENCY_META[c] for c in CURRENCY_META if c in needed},
         "rates": rates,
+        "previous_rates": previous_rates,
+        "previous_api_updated_utc": previous_at,
+        "changes_pct": changes,
+        "history": history,
         "missing": missing,
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")

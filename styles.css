@@ -1009,13 +1009,15 @@ mark {
 .fx-mini-code { font-weight: 600; color: var(--ink); }
 .fx-mini-name { font-size: 10.5px; color: var(--ink-3); margin-top: 2px; }
 .fx-mini-rate {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-size: 14px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 13px;
   color: var(--ink);
   font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
 }
-.fx-mini-rate small { font-size: 10px; color: var(--ink-3); font-family: var(--font-sans); margin-left: 3px; }
+.fx-mini-code { font-family: var(--font-mono); font-weight: 700; font-size: 12px; letter-spacing: 0.04em; }
+.fx-mini-name { font-family: var(--font-sans); }
 .card-link {
   margin-top: 14px;
   font-size: 12px;
@@ -1081,129 +1083,191 @@ mark {
 }
 .markets-block-sub { font-size: 13px; color: var(--ink-3); }
 
-/* FX grid */
-.fx-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
-  gap: 10px;
+/* ============================================================
+   TERMINAL FX & FDI (style Bloomberg)
+   ============================================================ */
+.terminal-head {
+  display: flex; justify-content: space-between; align-items: flex-end;
+  gap: 16px; flex-wrap: wrap;
+  margin-bottom: 12px;
+  padding: 0 2px;
 }
-.fx-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 14px 16px 12px;
-  box-shadow: var(--shadow-sm);
-  display: flex; align-items: center; gap: 12px;
-  transition: transform .12s, box-shadow .12s;
-}
-.fx-card:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); }
-.fx-card-flag { font-size: 28px; line-height: 1; }
-.fx-card-body { flex: 1; min-width: 0; }
-.fx-card-country {
-  font-size: 13.5px; font-weight: 600; color: var(--ink);
-  letter-spacing: -0.005em;
-}
-.fx-card-currency {
-  font-size: 11px; color: var(--ink-3);
-  margin-top: 2px;
-}
-.fx-card-currency .ccy-code {
-  font-weight: 600; color: var(--ink-2);
+.terminal-head h3 {
   font-family: var(--font-mono);
-}
-.fx-card-rate {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.04em;
   color: var(--ink);
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-  line-height: 1.1;
+  margin: 0;
+  text-transform: uppercase;
 }
-.fx-card-rate-sub {
-  font-size: 10.5px; color: var(--ink-3);
-  margin-top: 3px;
-  font-family: var(--font-sans);
+.terminal-head-meta {
+  font-family: var(--font-mono);
   font-weight: 500;
-}
-.fx-card.fx-pegged { border-left: 3px solid var(--accent); }
-
-/* FDI grid */
-.fdi-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
-  gap: 12px;
-}
-.fdi-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 16px 18px 14px;
-  box-shadow: var(--shadow-sm);
-  position: relative;
-  overflow: hidden;
-  transition: transform .12s, box-shadow .12s;
-}
-.fdi-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
-.fdi-card-head {
-  display: flex; align-items: center; gap: 8px;
-  margin-bottom: 10px;
-}
-.fdi-card-flag { font-size: 22px; }
-.fdi-card-name {
-  font-size: 14px; font-weight: 600;
-  color: var(--ink); flex: 1;
-}
-.fdi-card-year {
-  font-size: 10.5px; font-weight: 600;
-  color: var(--ink-3);
-  font-variant-numeric: tabular-nums;
+  font-size: 11px;
   letter-spacing: 0.06em;
+  color: var(--ink-3);
+  margin-left: 8px;
+  text-transform: uppercase;
 }
-.fdi-card-value {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-size: 22px;
-  color: var(--ink);
-  letter-spacing: -0.01em;
-  font-variant-numeric: tabular-nums;
-  line-height: 1.1;
-}
-.fdi-card-value-unit {
-  font-size: 11px; color: var(--ink-3);
-  font-weight: 500;
-  font-family: var(--font-sans);
-  margin-left: 3px;
-}
-.fdi-card-foot {
-  margin-top: 10px;
-  display: flex; align-items: center; gap: 10px;
+.terminal-head-sub {
   font-size: 11.5px;
   color: var(--ink-3);
+  margin-top: 4px;
+  font-variant-numeric: tabular-nums;
 }
-.fdi-card-yoy {
-  display: inline-flex; align-items: center; gap: 3px;
+.terminal-head-right {
+  display: flex; gap: 14px; flex-wrap: wrap;
+}
+.terminal-legend {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  color: var(--ink-3);
+  display: inline-flex; align-items: center; gap: 5px;
+  text-transform: uppercase;
+}
+.terminal-table-wrap {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.fx-table, .fdi-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+}
+.fx-table thead th, .fdi-table thead th {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  padding: 11px 14px;
+  text-align: left;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border-strong);
+  white-space: nowrap;
+}
+.fx-table tbody td, .fdi-table tbody td {
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.fx-table tbody tr:hover td, .fdi-table tbody tr:hover td {
+  background: rgba(180, 72, 43, 0.04);
+}
+.fx-table tbody tr:last-child td, .fdi-table tbody tr:last-child td { border-bottom: none; }
+
+/* Region group separator */
+.region-row td {
+  background: var(--bg-2) !important;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  padding: 8px 14px !important;
+  border-bottom: 1px solid var(--border-strong) !important;
+}
+
+/* Columns */
+.col-flag { width: 24px; padding-right: 0 !important; }
+.col-code, .col-iso {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--ink);
+  letter-spacing: 0.04em;
+}
+.col-country { color: var(--ink); font-weight: 500; }
+.col-currency-name { color: var(--ink-3); font-size: 11.5px; }
+.col-num, .fx-table th.col-last, .fx-table th.col-change, .fdi-table th.col-num {
+  text-align: right;
+}
+.fx-table td.col-last, .fdi-table td.col-num, .col-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
   font-weight: 600;
+  text-align: right;
+  color: var(--ink);
+}
+.col-last-big {
+  font-size: 14px;
+}
+.fx-flag-cell, .fdi-flag-cell {
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* Ticker movements */
+.tick-up    { color: #15803D; }
+.tick-down  { color: var(--primary); }
+.tick-flat  { color: var(--ink-4); }
+.tick-cell {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 12px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.tick-cell .arrow { display: inline-block; margin-right: 3px; }
+
+/* Regime tag (pegged / floating) */
+.regime-tag {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   padding: 2px 7px;
-  border-radius: 999px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.regime-tag.pegged   { background: rgba(245, 172, 60, 0.18); color: var(--accent-2); }
+.regime-tag.floating { background: rgba(126, 128, 137, 0.10); color: var(--ink-3); border: 1px solid var(--border); }
+
+/* Sparkline inline (SVG) */
+.spark {
+  display: inline-block;
+  vertical-align: middle;
+  width: 72px;
+  height: 18px;
+}
+.spark path.line  { fill: none; stroke: var(--ink-2); stroke-width: 1.2; }
+.spark path.line.up   { stroke: #15803D; }
+.spark path.line.down { stroke: var(--primary); }
+.spark path.area  { opacity: 0.12; }
+.spark path.area.up   { fill: #15803D; }
+.spark path.area.down { fill: var(--primary); }
+.spark .dot { fill: var(--ink); }
+.spark .dot.up   { fill: #15803D; }
+.spark .dot.down { fill: var(--primary); }
+.spark-empty {
+  width: 72px; height: 18px;
+  display: inline-block;
+  border-bottom: 1px dashed var(--border-strong);
+}
+
+/* FDI empty row */
+.fdi-empty {
+  font-style: italic;
+  color: var(--ink-3);
   font-size: 11px;
 }
-.fdi-card-yoy.up   { background: rgba(76, 176, 122, 0.15); color: #15803D; }
-.fdi-card-yoy.down { background: rgba(180, 72, 43, 0.12); color: var(--primary); }
-.fdi-card-yoy.flat { background: var(--bg-2); color: var(--ink-3); }
-.fdi-spark {
-  display: flex; align-items: flex-end; gap: 2px;
-  height: 22px;
-  margin-left: auto;
-}
-.fdi-spark-bar {
-  width: 4px;
-  background: var(--ink-4);
-  border-radius: 1px;
-}
-.fdi-spark-bar.latest { background: var(--primary); }
-.fdi-card-empty {
-  font-size: 12px; color: var(--ink-3); font-style: italic;
+
+@media (max-width: 900px) {
+  /* Cache colonnes peu critiques sur mobile */
+  .fx-table .col-currency,
+  .fx-table .col-currency-name,
+  .fx-table th.col-spark, .fx-table td.col-spark,
+  .fdi-table .col-num.fdi-avg, .fdi-table th.fdi-avg,
+  .fdi-table th.col-spark, .fdi-table td.col-spark { display: none; }
 }
 
 .markets-note {
