@@ -351,32 +351,6 @@ button { font: inherit; cursor: pointer; }
 
 .topbar-right { margin-left: auto; display: flex; align-items: center; gap: 14px; }
 
-/* Bannière "résultats de recherche" */
-.search-banner {
-  background: linear-gradient(90deg, rgba(180, 72, 43, 0.10) 0%, rgba(245, 172, 60, 0.10) 100%);
-  border-bottom: 1px solid rgba(180, 72, 43, 0.25);
-  color: var(--ink);
-  font-size: 13px;
-  padding: 10px 24px;
-  display: flex; justify-content: center; align-items: center;
-  gap: 14px;
-  position: sticky;
-  top: 67px;
-  z-index: 90;
-}
-.search-banner b { color: var(--primary); }
-.search-banner .search-banner-counts { color: var(--ink-2); }
-.search-banner .search-banner-reset {
-  background: var(--primary);
-  color: #fff;
-  border: none;
-  border-radius: 999px;
-  padding: 4px 12px;
-  font-size: 12px; font-weight: 600;
-  cursor: pointer;
-}
-.search-banner .search-banner-reset:hover { background: var(--primary-2); }
-
 /* Surlignage des termes trouvés */
 mark {
   background: rgba(245, 172, 60, 0.35);

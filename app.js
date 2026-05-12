@@ -805,18 +805,14 @@ tickClock();
 // ============================================================
 let searchDebounce = null;
 function bindSearch() {
-  const input  = $("#search-input");
-  const clear  = $("#search-clear");
-  const banner = $("#search-banner");
-  const resetB = $("#search-banner-reset");
+  const input = $("#search-input");
+  const clear = $("#search-clear");
   if (!input) return;
 
   const applyQuery = (q) => {
     state.searchQuery = q || "";
     input.value = state.searchQuery;
     clear.hidden = !state.searchQuery;
-    updateSearchBanner();
-    // Re-render les deux feeds + filtres dépendants
     renderFeed();
     renderRegulatoryFeed();
     renderRegulatoryKPIs();
@@ -831,7 +827,6 @@ function bindSearch() {
   });
 
   clear.addEventListener("click", () => applyQuery(""));
-  resetB.addEventListener("click", () => applyQuery(""));
 
   // Cmd+K / Ctrl+K → focus
   document.addEventListener("keydown", (e) => {
@@ -845,19 +840,6 @@ function bindSearch() {
       input.blur();
     }
   });
-}
-
-function updateSearchBanner() {
-  const banner = $("#search-banner");
-  if (!banner) return;
-  const q = state.searchQuery.trim();
-  if (!q) { banner.hidden = true; return; }
-  const opCount  = filteredSignals().length;
-  const reguCount = regulatorySignals().length;
-  $("#search-banner-query").textContent = `« ${q} »`;
-  $("#search-banner-counts").textContent =
-    `${opCount} signal${opCount > 1 ? "s" : ""} opérationnel${opCount > 1 ? "s" : ""} · ${reguCount} réglementaire${reguCount > 1 ? "s" : ""}`;
-  banner.hidden = false;
 }
 
 // ============================================================
