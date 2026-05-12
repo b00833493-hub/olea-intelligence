@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>OLEA Intelligence — Veille pan-africaine temps réel</title>
+<meta name="description" content="Plateforme de surveillance temps réel des risques sur les 39 marchés africains d'OLEA Insurance Solutions (26 filiales + 13 partenariats)." />
+<meta name="robots" content="noindex, nofollow, noarchive" />
+<meta name="referrer" content="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:wght@500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=9" />
+</head>
+<body class="locked">
+
+<!-- =================== GATE (code d'accès) =================== -->
+<div id="gate" class="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
+  <div class="gate-bg" aria-hidden="true"></div>
+  <div class="gate-card">
+    <img class="gate-logo" src="assets/olea-logo.png" alt="OLEA Insurance Solutions" />
+    <div class="gate-product">Intelligence</div>
+    <h1 class="gate-title" id="gate-title">Démo confidentielle</h1>
+    <p class="gate-lede">
+      Cet espace est réservé aux représentants d'OLEA Insurance Solutions
+      ayant reçu le code d'accès. Le lien et le code ne sont pas destinés à
+      être partagés ou rediffusés.
+    </p>
+    <form id="gate-form" class="gate-form" autocomplete="off">
+      <label class="gate-label" for="gate-input">Code d'accès</label>
+      <input id="gate-input" class="gate-input" type="password" autocomplete="off"
+             autofocus spellcheck="false" autocapitalize="off" />
+      <button type="submit" class="gate-btn">Accéder à la démo →</button>
+      <div id="gate-error" class="gate-error" hidden>Code invalide.</div>
+    </form>
+    <div class="gate-foot">
+      <span class="gate-foot-dot"></span>
+      Session limitée à ce navigateur · données démonstratives non contractuelles
+    </div>
+  </div>
+</div>
+
+<!-- =================== BANDEAU CONFIDENTIEL =================== -->
+<div class="confidential-strip">
+  <span>● Démo confidentielle · OLEA Insurance Solutions</span>
+  <button id="snapshot-info" type="button" title="Cliquer pour rafraîchir maintenant">Chargement…</button>
+</div>
+
+<!-- =================== TOP BAR =================== -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="https://www.olea.africa" target="_blank" rel="noopener">
+      <img class="brand-logo" src="assets/olea-logo.png" alt="OLEA Insurance Solutions" />
+      <span class="brand-divider"></span>
+      <span class="brand-product">Intelligence</span>
+    </a>
+
+    <nav class="topnav">
+      <a href="#map">Carte des risques</a>
+      <a href="#feed">Fil temps réel</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#alerts">Alertes critiques</a>
+    </nav>
+
+    <div class="topbar-right">
+      <div class="live-pill">
+        <span class="live-dot"></span>
+        <span class="live-label">LIVE</span>
+        <span class="live-time" id="live-time">--:--:--</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- =================== HERO =================== -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-tagline">Plateforme propriétaire · pitch concept</div>
+      <h1 class="hero-title">
+        L'asymétrie d'information n'a plus<br/>
+        sa place dans le courtage africain.
+      </h1>
+      <p class="hero-lede">
+        OLEA Intelligence agrège en continu les <strong>sources de presse de confiance</strong>
+        couvrant les <strong>26 filiales</strong> et <strong>13 partenariats</strong> du réseau OLEA
+        à travers l'Afrique. Sinistres majeurs, climat, réglementation, cyber, politique :
+        chaque signal pertinent pour vos clients corporate, avec
+        <strong>vérification croisée multi-sources</strong> pour filtrer le bruit.
+      </p>
+      <div class="hero-kpis">
+        <div class="kpi">
+          <div class="kpi-value" id="kpi-countries">39</div>
+          <div class="kpi-label" id="kpi-countries-label">26 filiales · 13 partenariats</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-value" id="kpi-sources">--</div>
+          <div class="kpi-label">Sources monitorées</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-value" id="kpi-articles">--</div>
+          <div class="kpi-label">Articles cette semaine</div>
+        </div>
+        <div class="kpi kpi-alert">
+          <div class="kpi-value" id="kpi-critical">--</div>
+          <div class="kpi-label">Alertes critiques 24h</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== MAP + FEED =================== -->
+<section class="workspace" id="map">
+  <div class="workspace-inner">
+
+    <!-- LEFT : Map -->
+    <div class="panel panel-map">
+      <div class="panel-head">
+        <div>
+          <div class="panel-eyebrow">Cartographie active</div>
+          <h2 class="panel-title">Présence OLEA &amp; signaux du jour</h2>
+        </div>
+        <div class="legend">
+          <div class="legend-group">
+            <span class="legend-eyebrow">Réseau</span>
+            <div class="legend-item"><span class="dot dot-filiale"></span>Filiale</div>
+            <div class="legend-item"><span class="dot dot-partner"></span>Partenariat</div>
+          </div>
+          <div class="legend-sep"></div>
+          <div class="legend-group">
+            <span class="legend-eyebrow">Niveau</span>
+            <div class="legend-item"><span class="dot dot-1"></span>Calme</div>
+            <div class="legend-item"><span class="dot dot-2"></span>Vigilance</div>
+            <div class="legend-item"><span class="dot dot-3"></span>Alerte</div>
+            <div class="legend-item"><span class="dot dot-4"></span>Critique</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-wrapper">
+        <svg id="africa-map" viewBox="0 0 1000 940" preserveAspectRatio="xMidYMid meet"></svg>
+        <div class="map-hint" id="map-hint">
+          <span>Cliquez sur un pays pour filtrer le fil de news</span>
+        </div>
+      </div>
+
+      <div class="map-foot">
+        <div class="country-chips" id="country-chips"></div>
+      </div>
+    </div>
+
+    <!-- RIGHT : Feed -->
+    <div class="panel panel-feed" id="feed">
+      <div class="feed-head">
+        <div class="feed-head-row">
+          <div>
+            <div class="panel-eyebrow">Fil temps réel</div>
+            <h2 class="panel-title" id="feed-title">Toute l'Afrique OLEA</h2>
+          </div>
+          <button class="reset-btn" id="reset-filter" hidden>← Tous les pays</button>
+        </div>
+
+        <div class="sort-row">
+          <span class="sort-label">Trier par</span>
+          <div class="sort-group" role="group" aria-label="Trier les signaux">
+            <button class="sort-btn" data-sort="severity"    title="Sévérité décroissante puis récence">Critiques</button>
+            <button class="sort-btn" data-sort="recent"      title="Date de publication décroissante">Récentes</button>
+            <button class="sort-btn" data-sort="credibility" title="Score de fiabilité décroissant">Fiables</button>
+          </div>
+        </div>
+
+        <div class="filter-row" id="category-filters"></div>
+
+        <div class="feed-meta">
+          <span id="feed-count">--</span> signaux ·
+          <span id="sort-summary">tri par <strong>sévérité</strong></span> ·
+          <span class="auto-refresh"><span class="live-dot small"></span>auto-refresh actif</span>
+        </div>
+      </div>
+
+      <div class="feed-list" id="feed-list"></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =================== DASHBOARD =================== -->
+<section class="dashboard" id="dashboard">
+  <div class="dashboard-inner">
+    <div class="section-head">
+      <div class="panel-eyebrow">Dashboard de pilotage</div>
+      <h2 class="section-title">Vue d'ensemble du risque pan-africain</h2>
+    </div>
+
+    <div class="dashboard-grid">
+      <div class="card card-categories">
+        <div class="card-head">
+          <h3>Par catégorie de risque</h3>
+          <span class="card-sub">7 derniers jours</span>
+        </div>
+        <div class="cat-bars" id="cat-bars"></div>
+      </div>
+
+      <div class="card card-regions">
+        <div class="card-head">
+          <h3>Par région</h3>
+          <span class="card-sub">Sévérité moyenne</span>
+        </div>
+        <div class="region-list" id="region-list"></div>
+      </div>
+
+      <div class="card card-alerts" id="alerts">
+        <div class="card-head">
+          <h3>Alertes critiques en cours</h3>
+          <span class="card-badge" id="critical-badge">--</span>
+        </div>
+        <div class="alerts-list" id="alerts-list"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== VALUE PROP =================== -->
+<section class="value">
+  <div class="value-inner">
+    <div class="value-head">
+      <div class="panel-eyebrow">Pourquoi cette plateforme</div>
+      <h2 class="section-title">Du signal faible au levier commercial.</h2>
+    </div>
+    <div class="value-grid">
+      <div class="value-card">
+        <div class="value-num">01</div>
+        <h3>Anticipation des sinistres</h3>
+        <p>Détecter un cyclone, une crise politique ou un incendie industriel <em>avant</em> le client. Repositionnement immédiat des garanties, mise en place de cellules de crise, déclarations préventives.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">02</div>
+        <h3>Conformité réglementaire</h3>
+        <p>Veille en continu sur la CIMA, NAICOM, ACAPS, IRA, NIC. Chaque évolution de capital, de solvabilité ou d'obligation est tracée pour les 26 filiales.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">03</div>
+        <h3>Asymétrie inversée</h3>
+        <p>OLEA arrive en rendez-vous avec la connaissance la plus à jour du marché du client. Les concurrents arrivent avec le rapport annuel.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">04</div>
+        <h3>Cross-selling pan-africain</h3>
+        <p>Une news critique dans un pays déclenche automatiquement la suggestion d'extension de couverture chez les clients exposés dans les pays voisins.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== FOOTER =================== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-cols">
+      <div>
+        <img class="footer-logo" src="assets/olea-logo-light.svg" alt="OLEA Insurance Solutions" />
+        <div class="footer-product">Intelligence</div>
+        <p class="footer-blurb">
+          Concept-site préparé pour OLEA Insurance Solutions.
+          Données affichées à titre démonstratif.
+        </p>
+      </div>
+      <div>
+        <h4>Sources monitorées</h4>
+        <div class="sources" id="sources-list"></div>
+      </div>
+      <div>
+        <h4>Couverture</h4>
+        <p class="footer-blurb">
+          26 filiales · 13 partenariats · 5 régions · 4 zones réglementaires (CIMA, ACAPS,
+          NAICOM, EAC). Mises à jour toutes les 60 secondes.
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 — Proposition commerciale</span>
+      <span>Données démonstratives · non contractuelles</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Country popup -->
+<div class="country-popup" id="country-popup" hidden>
+  <div class="popup-arrow"></div>
+  <div class="popup-flag" id="popup-flag"></div>
+  <div class="popup-body">
+    <div class="popup-name" id="popup-name"></div>
+    <div class="popup-meta" id="popup-meta"></div>
+    <div class="popup-stats" id="popup-stats"></div>
+    <div class="popup-cta">Cliquez pour ouvrir le fil →</div>
+  </div>
+</div>
+
+<!-- New-news toast -->
+<div class="toast" id="toast" hidden>
+  <span class="toast-dot"></span>
+  <span class="toast-text">Nouveau signal détecté</span>
+</div>
+
+<!-- Libraries (CDN) -->
+<script src="gate.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+<script src="data.js?v=9"></script>
+<script src="app.js?v=9"></script>
+</body>
+</html>

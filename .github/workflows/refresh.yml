@@ -1,0 +1,63 @@
+name: Refresh news
+
+# Re-fetch les sources de presse, met à jour news.json, commit & push.
+# GitHub Pages (ou Netlify branché sur le repo) redéploie automatiquement.
+
+on:
+  schedule:
+    # Toutes les heures à HH:15 UTC. Décalé pour éviter les pics top-of-the-hour.
+    - cron: '15 * * * *'
+  workflow_dispatch: {}   # bouton "Run workflow" dans l'UI GitHub
+
+# Évite que deux runs concurrents tentent de push en même temps
+concurrency:
+  group: refresh-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write     # nécessaire pour push le commit
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Token GITHUB_TOKEN par défaut suffit pour push sur le même repo
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch news
+        run: python3 fetch_news.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "OLEA Intelligence Bot"
+          git config user.email "olea-intel-bot@users.noreply.github.com"
+
+          git add news.json
+          if git diff --cached --quiet; then
+            echo "→ Aucune nouvelle news, rien à committer."
+            exit 0
+          fi
+
+          # Compteurs pour le message de commit
+          n_signals=$(python3 -c "import json; print(json.load(open('news.json'))['stats']['total_signals'])")
+          n_verified=$(python3 -c "import json; print(json.load(open('news.json'))['stats']['verified_signals'])")
+
+          git commit -m "chore(data): refresh news — ${n_signals} signaux (${n_verified} cross-vérifiés)"
+          git push
+          echo "→ ✓ news.json poussé."
+
+      - name: Upload artifact (debug)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-news-json
+          path: news.json
+          retention-days: 3
