@@ -208,6 +208,108 @@ CATEGORIES = {
     ],
 }
 
+# =============================================================================
+# THÈMES RÉGLEMENTAIRES / CONFORMITÉ / JURIDIQUE
+# =============================================================================
+# Un article peut avoir à la fois une CATEGORY (axe sinistre/économie/etc.)
+# ET un THEME (axe réglementaire/conformité). Les deux sont indépendants.
+THEMES = {
+    "SOLVABILITE": [
+        "solvabilité", "solvency", "fonds propres", "capital minimum",
+        "orsa", "stress test", "ratio prudentiel", "marge de solvabilité",
+        "recapitalisation", "exigence en capital", "own funds",
+        "solvency ii", "rbc ", "risk-based capital",
+    ],
+    "REASSURANCE": [
+        "réassurance", "reinsurance", "rétention", "fronting", "cession",
+        "cica re", "africa re", "scor ", "munich re", "swiss re",
+        "réassureur", "cession obligatoire", "art. 308", "article 308",
+    ],
+    "PRODUITS_OBL": [
+        "assurance obligatoire", "obligatory insurance", "rc décennale",
+        "couverture maladie universelle", "cmu ",
+        "micro-assurance", "microinsurance", "assurance inclusive",
+        "rc auto", "responsabilité civile",
+        "assurance santé universelle", "mutuelle de santé",
+    ],
+    "AML_CFT": [
+        "blanchiment", "money laundering", "lcb-ft", "lcbft",
+        "kyc", "know your customer", "lutte contre le financement",
+        "sanctions", "ofac", "giaba", "menafatf", "gafi", "fatf",
+        "tracfin", "déclaration de soupçon", "freeze of assets",
+        "gel des avoirs", "due diligence",
+    ],
+    "DATA_CYBER": [
+        "protection des données", "data protection", "ndpr", "popia",
+        "rgpd", "gdpr", "cnil", "loi 09-08",
+        "résilience cyber", "cyber resilience", "ansi ", "anssi ",
+        "incident reporting", "fuite de données", "data breach",
+        "registre des traitements", "dpia",
+    ],
+    "ESG_CLIMAT": [
+        "esg ", "tcfd", "ifrs s1", "ifrs s2", "ifrs s ",
+        "stress test climatique", "climate stress test",
+        "taxonomie verte", "finance durable", "sustainable finance",
+        "climate disclosure", "transition climatique",
+        "obligation verte", "green bond",
+    ],
+    "MA_GOUV": [
+        "fusion", "acquisition", "prise de contrôle", "agrément",
+        "approval", "merger", "takeover", "concentration",
+        "rachat", "consolidation", "joint-venture", "joint venture",
+        "agrément d'exploitation", "retrait d'agrément",
+    ],
+    "FISCALITE": [
+        "fiscalité", "taxe assurance", "taxe sur les conventions",
+        "ips ", "tspa",
+        "régime fiscal", "exonération", "tax", "tva ",
+        "convention fiscale", "ohada acte uniforme fiscal",
+        "loi de finances",
+    ],
+    "JURIS_OHADA": [
+        "ohada", "ccja", "cour commune de justice",
+        "cour suprême", "cour d'appel", "arrêt n°", "arrêt du",
+        "jurisprudence", "judgement", "court ruling", "supreme court ruling",
+        "tribunal de commerce", "tribunal arbitral", "sentence arbitrale",
+        "acte uniforme",
+    ],
+}
+
+# Statut juridique d'un texte mentionné dans l'article
+LEGAL_STATUSES = {
+    "PROJET": [
+        "projet de loi", "proposition de loi", "draft bill", "préprojet",
+        "en cours d'examen", "examen en commission", "à l'étude",
+        "consultation publique", "public consultation",
+    ],
+    "ADOPTE": [
+        "adopté", "voté", "passed", "approved by", "vote final",
+        "adoption", "adoption à l'unanimité",
+    ],
+    "PROMULGUE": [
+        "promulgué", "promulgated", "publié au journal officiel",
+        "publication au jo", "signed into law", "signature présidentielle",
+    ],
+    "EN_VIGUEUR": [
+        "entré en vigueur", "entrée en vigueur", "in force",
+        "effective from", "applicable depuis", "applicable à compter",
+        "prend effet le", "comes into effect",
+    ],
+}
+
+# Pour qu'un article soit considéré "réglementaire", il doit soit
+# (a) matcher au moins un thème, soit
+# (b) contenir un mot-clé "régulateur" générique.
+REGULATORY_TRIGGER = [
+    "régulateur", "regulator", "supervision",
+    "projet de loi", "draft bill", "draft law", "loi de finances",
+    "décret", "decree", "arrêté ministériel", "circulaire",
+    "directive européenne", "réforme bancaire", "réforme du code",
+    "cima ", "naicom", "acaps", "asac ", "fsca ", "nic ",
+    "code des assurances", "insurance code", "tax code",
+    "agrément", "licensing", "compliance", "conformité",
+]
+
 # Mots qui boostent la sévérité (1..4)
 SEVERITY_HIGH = ["mort", "morts", "killed", "dead", "deaths", "tué",
                  "catastrophe", "catastrophic",
@@ -423,6 +525,38 @@ def detect_severity(text_norm):
         if has(kw): score = max(score, 2)
     return score
 
+def detect_theme(text_norm):
+    """Renvoie le thème réglementaire dominant, ou None."""
+    scores = {}
+    for theme, keywords in THEMES.items():
+        s = 0
+        for kw in keywords:
+            kwn = norm(kw)
+            s += len(re.findall(r"(?<![a-z])" + re.escape(kwn), text_norm))
+        if s > 0: scores[theme] = s
+    if not scores: return None
+    return max(scores, key=scores.get)
+
+def detect_legal_status(text_norm):
+    """Renvoie le statut juridique le plus 'avancé' détecté (en vigueur > promulgué > adopté > projet)."""
+    # Ordre du plus avancé au moins avancé pour priorité
+    order = ["EN_VIGUEUR", "PROMULGUE", "ADOPTE", "PROJET"]
+    for status in order:
+        for kw in LEGAL_STATUSES[status]:
+            kwn = norm(kw)
+            if re.search(r"(?<![a-z])" + re.escape(kwn), text_norm):
+                return status
+    return None
+
+def is_regulatory(text_norm, theme):
+    """True si l'article touche au réglementaire/conformité/juridique."""
+    if theme is not None: return True
+    for kw in REGULATORY_TRIGGER:
+        kwn = norm(kw)
+        if re.search(r"(?<![a-z])" + re.escape(kwn), text_norm):
+            return True
+    return False
+
 # =============================================================================
 # DEDUPE & CROSS-VERIFICATION
 # =============================================================================
@@ -512,6 +646,9 @@ def main():
                 if not country: continue   # on garde uniquement ce qui matche un pays OLEA
                 cat = detect_category(text_norm)
                 sev = detect_severity(text_norm)
+                theme = detect_theme(text_norm)
+                lstatus = detect_legal_status(text_norm)
+                regu = is_regulatory(text_norm, theme)
                 all_articles.append({
                     "title": it["title"],
                     "summary": it["summary"],
@@ -524,6 +661,9 @@ def main():
                     "country": country,
                     "category": cat,
                     "severity": sev,
+                    "theme": theme,
+                    "legal_status": lstatus,
+                    "regulatory": regu,
                     "_sig": signature(it["title"]),
                 })
                 kept += 1
@@ -549,6 +689,16 @@ def main():
         per_country[c["country"]] = per_country.get(c["country"], 0) + 1
     print(f"│  → {len(per_country)} pays OLEA couverts par la veille")
 
+    # Stats réglementaires
+    regu = [c for c in clusters if c.get("regulatory")]
+    print(f"│  → {len(regu)} signaux réglementaires/juridiques détectés")
+    per_theme = {}
+    for c in regu:
+        t = c.get("theme") or "GENERIQUE"
+        per_theme[t] = per_theme.get(t, 0) + 1
+    for t, n in sorted(per_theme.items(), key=lambda x: -x[1])[:5]:
+        print(f"│     · {t:<16} {n}")
+
     # Sérialisation
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -569,6 +719,9 @@ def main():
             "severity": c["severity"],
             "credibility": c["credibility"],
             "verified": c["verified"],
+            "theme": c.get("theme"),
+            "legal_status": c.get("legal_status"),
+            "regulatory": c.get("regulatory", False),
             "published": c["published"],
             "lead_source": {"id": c["source_id"], "name": c["source_name"], "tier": c["source_tier"], "url": c["link"]},
             "confirming_sources": c["confirming_sources"],

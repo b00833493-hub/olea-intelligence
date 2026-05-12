@@ -78,3 +78,26 @@ const CATEGORIES = {
   INFRASTRUCTURE: { label: "Infrastructures",        color: "#92400E", short: "Infra"    },
   AUTRE:          { label: "Autres",                 color: "#94A3B8", short: "Autre"    },
 };
+
+// ============================================================
+// Thèmes réglementaires / conformité / juridiques
+// ============================================================
+const THEMES = {
+  SOLVABILITE:   { label: "Solvabilité & capital",        color: "#7C3AED", short: "Solvabilité"   },
+  REASSURANCE:   { label: "Réassurance & cessions",       color: "#0E7C5C", short: "Réassurance"   },
+  PRODUITS_OBL:  { label: "Produits obligatoires",        color: "#0EA5E9", short: "Produits obl." },
+  AML_CFT:       { label: "AML/CFT & sanctions",          color: "#B91C1C", short: "AML/CFT"       },
+  DATA_CYBER:    { label: "Données & cyber",              color: "#1E40AF", short: "Data/Cyber"    },
+  ESG_CLIMAT:    { label: "ESG & climat",                 color: "#15803D", short: "ESG"           },
+  MA_GOUV:       { label: "M&A & gouvernance",            color: "#92400E", short: "M&A"           },
+  FISCALITE:     { label: "Fiscalité de l'assurance",     color: "#EA580C", short: "Fiscalité"     },
+  JURIS_OHADA:   { label: "Jurisprudence & OHADA",        color: "#831843", short: "Jurisprudence" },
+  GENERIQUE:     { label: "Autre réglementaire",          color: "#94A3B8", short: "Autre régl."   },
+};
+
+const LEGAL_STATUSES = {
+  PROJET:     { label: "Projet",          short: "Projet",     order: 1, color: "#94A3B8" },
+  ADOPTE:     { label: "Adopté",          short: "Adopté",     order: 2, color: "#0EA5E9" },
+  PROMULGUE:  { label: "Promulgué",       short: "Promulgué",  order: 3, color: "#7C3AED" },
+  EN_VIGUEUR: { label: "En vigueur",      short: "En vigueur", order: 4, color: "#15803D" },
+};

@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:wght@500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css?v=9" />
+<link rel="stylesheet" href="styles.css?v=10" />
 </head>
 <body class="locked">
 
@@ -59,6 +59,7 @@
       <a href="#map">Carte des risques</a>
       <a href="#feed">Fil temps réel</a>
       <a href="#dashboard">Dashboard</a>
+      <a href="#regulatory">Veille réglementaire</a>
       <a href="#alerts">Alertes critiques</a>
     </nav>
 
@@ -221,6 +222,64 @@
   </div>
 </section>
 
+<!-- =================== VEILLE RÉGLEMENTAIRE =================== -->
+<section class="regulatory" id="regulatory">
+  <div class="regulatory-inner">
+    <div class="section-head">
+      <div class="panel-eyebrow">Conformité · juridique</div>
+      <h2 class="section-title">Veille réglementaire pan-africaine</h2>
+      <p class="section-lede">
+        Détection automatique des signaux juridiques dans les sources monitorées,
+        classifiés par <strong>thème métier</strong> (solvabilité, réassurance, AML/CFT, données,
+        ESG, fiscalité, OHADA…) et par <strong>statut</strong> (projet → en vigueur).
+      </p>
+    </div>
+
+    <!-- KPIs réglementaires -->
+    <div class="regu-kpis">
+      <div class="regu-kpi">
+        <div class="regu-kpi-value" id="regu-total">--</div>
+        <div class="regu-kpi-label">Signaux réglementaires 14j</div>
+      </div>
+      <div class="regu-kpi regu-kpi-vigueur">
+        <div class="regu-kpi-value" id="regu-en-vigueur">--</div>
+        <div class="regu-kpi-label">Entrés en vigueur</div>
+      </div>
+      <div class="regu-kpi regu-kpi-adopte">
+        <div class="regu-kpi-value" id="regu-adopte">--</div>
+        <div class="regu-kpi-label">Adoptés / promulgués</div>
+      </div>
+      <div class="regu-kpi regu-kpi-projet">
+        <div class="regu-kpi-value" id="regu-projet">--</div>
+        <div class="regu-kpi-label">Projets en discussion</div>
+      </div>
+    </div>
+
+    <!-- Filtres thématiques -->
+    <div class="regu-filters">
+      <div class="regu-filter-block">
+        <div class="regu-filter-label">Thème</div>
+        <div class="regu-themes" id="regu-themes"></div>
+      </div>
+      <div class="regu-filter-block">
+        <div class="regu-filter-label">Statut juridique</div>
+        <div class="regu-statuses" id="regu-statuses"></div>
+      </div>
+    </div>
+
+    <!-- Feed réglementaire -->
+    <div class="regu-feed" id="regu-feed"></div>
+
+    <!-- Note de bas de section -->
+    <div class="regu-note">
+      <strong>v1 — détection par mots-clés sur les flux presse de confiance.</strong>
+      La v2 production ajoutera la connexion directe aux sites des régulateurs
+      (CIMA, NAICOM, ACAPS, IRA, FSCA, NIC, JO nationaux, IFRS, GIABA) et le
+      parsing des actes uniformes OHADA pour une couverture sources primaires.
+    </div>
+  </div>
+</section>
+
 <!-- =================== VALUE PROP =================== -->
 <section class="value">
   <div class="value-inner">
@@ -306,7 +365,7 @@
 <script src="gate.js?v=1"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-<script src="data.js?v=9"></script>
-<script src="app.js?v=9"></script>
+<script src="data.js?v=10"></script>
+<script src="app.js?v=10"></script>
 </body>
 </html>

@@ -17,6 +17,8 @@ const state = {
   selectedCountry: null,
   activeCategory: null,
   sortMode: "severity", // 'severity' | 'recent' | 'credibility'
+  reguTheme: null,      // filtre thème actif (null = tous)
+  reguStatus: null,     // filtre statut actif (null = tous)
 };
 
 const SORT_FNS = {
@@ -568,6 +570,165 @@ function renderSnapshot() {
 }
 
 // ============================================================
+// Veille réglementaire
+// ============================================================
+function regulatorySignals() {
+  return state.signals.filter((s) => s.regulatory);
+}
+
+function renderRegulatoryKPIs() {
+  const all = regulatorySignals();
+  $("#regu-total").textContent       = all.length;
+  $("#regu-en-vigueur").textContent  = all.filter((s) => s.legal_status === "EN_VIGUEUR").length;
+  $("#regu-adopte").textContent      = all.filter((s) => s.legal_status === "ADOPTE" || s.legal_status === "PROMULGUE").length;
+  $("#regu-projet").textContent      = all.filter((s) => s.legal_status === "PROJET").length;
+}
+
+function renderRegulatoryThemes() {
+  const wrap = $("#regu-themes");
+  if (!wrap) return;
+  const all = regulatorySignals();
+  // Compte par thème (les articles sans thème explicite → GENERIQUE)
+  const counts = {};
+  for (const s of all) {
+    const t = s.theme || "GENERIQUE";
+    counts[t] = (counts[t] || 0) + 1;
+  }
+  const sorted = Object.entries(THEMES)
+    .map(([k, v]) => ({ key: k, ...v, count: counts[k] || 0 }))
+    .filter((t) => t.count > 0)
+    .sort((a, b) => b.count - a.count);
+
+  const html = [
+    `<button class="theme-pill ${state.reguTheme === null ? "active" : ""}" data-theme="">
+       <span>Tous</span>
+       <span class="theme-count">${all.length}</span>
+     </button>`
+  ];
+  for (const t of sorted) {
+    html.push(`
+      <button class="theme-pill ${state.reguTheme === t.key ? "active" : ""}" data-theme="${t.key}">
+        <span class="theme-swatch" style="background:${t.color}"></span>
+        ${escapeHtml(t.short)}
+        <span class="theme-count">${t.count}</span>
+      </button>`);
+  }
+  wrap.innerHTML = html.join("");
+  wrap.querySelectorAll(".theme-pill").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const t = btn.dataset.theme;
+      state.reguTheme = t === "" ? null : (state.reguTheme === t ? null : t);
+      renderRegulatoryThemes();
+      renderRegulatoryFeed();
+    });
+  });
+}
+
+function renderRegulatoryStatuses() {
+  const wrap = $("#regu-statuses");
+  if (!wrap) return;
+  const all = regulatorySignals();
+  const counts = {};
+  for (const s of all) {
+    if (s.legal_status) counts[s.legal_status] = (counts[s.legal_status] || 0) + 1;
+  }
+  const order = ["PROJET", "ADOPTE", "PROMULGUE", "EN_VIGUEUR"];
+  const html = [
+    `<button class="status-pill ${state.reguStatus === null ? "active" : ""}" data-status="">
+       <span>Tous statuts</span>
+     </button>`
+  ];
+  for (const k of order) {
+    const meta = LEGAL_STATUSES[k];
+    if (!meta) continue;
+    const n = counts[k] || 0;
+    const cls = "status-" + k.toLowerCase();
+    html.push(`
+      <button class="status-pill ${cls} ${state.reguStatus === k ? "active" : ""}" data-status="${k}" ${n === 0 ? "disabled" : ""}>
+        ${escapeHtml(meta.label)}
+        <span class="status-count">${n}</span>
+      </button>`);
+  }
+  wrap.innerHTML = html.join("");
+  wrap.querySelectorAll(".status-pill:not([disabled])").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const s = btn.dataset.status;
+      state.reguStatus = s === "" ? null : (state.reguStatus === s ? null : s);
+      renderRegulatoryStatuses();
+      renderRegulatoryFeed();
+    });
+  });
+}
+
+function renderRegulatoryFeed() {
+  const list = $("#regu-feed");
+  if (!list) return;
+  let items = regulatorySignals();
+  if (state.reguTheme) items = items.filter((s) => (s.theme || "GENERIQUE") === state.reguTheme);
+  if (state.reguStatus) items = items.filter((s) => s.legal_status === state.reguStatus);
+
+  // Tri : statut "EN_VIGUEUR" et "PROMULGUE" d'abord (criticité business), puis récence
+  const statusOrder = { EN_VIGUEUR: 4, PROMULGUE: 3, ADOPTE: 2, PROJET: 1 };
+  items.sort((a, b) => {
+    const da = (statusOrder[a.legal_status] || 0);
+    const db = (statusOrder[b.legal_status] || 0);
+    if (da !== db) return db - da;
+    return new Date(b.published || 0) - new Date(a.published || 0);
+  });
+
+  if (items.length === 0) {
+    list.innerHTML = `
+      <div class="regu-feed-empty">
+        <strong>Aucun signal pour ce filtre</strong>
+        Essaie un autre thème ou statut — ou relâche les filtres.
+      </div>`;
+    return;
+  }
+
+  list.innerHTML = items.map(renderRegulatoryCard).join("");
+  list.querySelectorAll(".regu-card").forEach((el) => {
+    el.addEventListener("click", () => {
+      const url = el.dataset.url;
+      if (url && url !== "#") window.open(url, "_blank", "noopener");
+    });
+  });
+}
+
+function renderRegulatoryCard(s) {
+  const c = countryByCode(s.country) || { name: s.country, flag: "" };
+  const themeKey = s.theme || "GENERIQUE";
+  const theme = THEMES[themeKey] || THEMES.GENERIQUE;
+  const statusMeta = s.legal_status ? LEGAL_STATUSES[s.legal_status] : null;
+  const statusCls = s.legal_status ? "s-" + s.legal_status.toLowerCase() : "";
+
+  const themeBadge = `
+    <span class="regu-theme-badge" style="background:${theme.color}15;color:${theme.color}">
+      <span class="swatch" style="background:${theme.color}"></span>
+      ${escapeHtml(theme.short)}
+    </span>`;
+  const statusBadge = statusMeta
+    ? `<span class="regu-status-badge ${statusCls}">${escapeHtml(statusMeta.label)}</span>`
+    : "";
+
+  return `
+  <article class="regu-card" data-url="${escapeHtml(s.lead_source?.url || "#")}"
+    style="border-top-color:${theme.color}">
+    <div class="regu-card-head">
+      <span class="regu-country-tag">${c.flag} ${escapeHtml(c.name)}</span>
+      ${themeBadge}
+      ${statusBadge}
+      <span class="regu-time">${timeAgo(s.published)}</span>
+    </div>
+    <h3 class="regu-card-title">${escapeHtml(s.title)}</h3>
+    <p class="regu-card-summary">${escapeHtml(s.summary || "")}</p>
+    <div class="regu-card-foot">
+      <span class="source-pill">${escapeHtml(s.lead_source?.name || "")}</span>
+      ${s.verified ? `<span class="verified-badge" style="margin-left:auto"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0L9.96 1.69L12.54 1.21L13.55 3.61L15.84 4.79L15.31 7.38L16.55 9.69L14.69 11.55L14.34 14.17L11.71 14.41L9.69 16L7.45 14.6L4.83 14.96L4.06 12.45L1.84 11L2.44 8.42L1.66 5.91L4.06 4.55L5.24 2.28L7.84 2.62L8 0Z M11.4 5.6L7.2 9.8L4.8 7.4L4 8.2L7.2 11.4L12.2 6.4L11.4 5.6Z"/></svg>Vérifié</span>` : ""}
+    </div>
+  </article>`;
+}
+
+// ============================================================
 // Sources (footer)
 // ============================================================
 function renderSourcesFooter() {
@@ -634,6 +795,10 @@ async function autoRefresh(opts = {}) {
   renderChips();
   renderDashboard();
   renderKPIs();
+  renderRegulatoryKPIs();
+  renderRegulatoryThemes();
+  renderRegulatoryStatuses();
+  renderRegulatoryFeed();
 }
 
 // ============================================================
@@ -650,6 +815,10 @@ async function autoRefresh(opts = {}) {
   renderFeed();
   renderDashboard();
   renderKPIs();
+  renderRegulatoryKPIs();
+  renderRegulatoryThemes();
+  renderRegulatoryStatuses();
+  renderRegulatoryFeed();
   renderSourcesFooter();
   setInterval(autoRefresh, REFRESH_MS);
 })();
