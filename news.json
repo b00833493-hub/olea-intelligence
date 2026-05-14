@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-14T18:07:36.282694+00:00",
+  "generated_at": "2026-05-14T20:01:51.216260+00:00",
   "stats": {
-    "total_signals": 242,
+    "total_signals": 243,
     "verified_signals": 5,
     "countries_covered": 28,
     "sources_active": 16,
@@ -12,11 +12,11 @@
       "SEN": 8,
       "MAR": 11,
       "BEN": 1,
-      "ZAF": 12,
+      "ZAF": 14,
       "ETH": 11,
-      "CIV": 18,
+      "CIV": 17,
       "RWA": 7,
-      "CMR": 9,
+      "CMR": 10,
       "KEN": 57,
       "TUN": 3,
       "COD": 9,
@@ -30,7 +30,7 @@
       "TCD": 1,
       "SLE": 1,
       "UGA": 3,
-      "MRT": 2,
+      "MRT": 1,
       "AGO": 1,
       "DZA": 1,
       "ZWE": 1
@@ -982,7 +982,7 @@
       "country": "NGA",
       "category": "AUTRE",
       "severity": 2,
-      "credibility": 4,
+      "credibility": 5,
       "verified": true,
       "theme": "AML_CFT",
       "legal_status": null,
@@ -1003,13 +1003,19 @@
           "url": "https://www.rfi.fr/fr/afrique/20260514-nigeria-un-ex-ministre-de-l-%C3%A9nergie-condamn%C3%A9-%C3%A0-75-ans-de-prison-pour-blanchiment-d-argent"
         },
         {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/05/14/nigeria-lex-ministre-de-lenergie-saleh-mamman-condamne-a-75-ans-de-prison-pour-fraude/"
+        },
+        {
           "id": "afnews-fr",
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/05/14/nigeria-75-ans-de-prison-pour-un-ex-ministre-de-lenergie/"
         }
       ],
-      "confirmation_count": 2
+      "confirmation_count": 3
     },
     {
       "id": "e3f130f5ba",
@@ -2051,6 +2057,96 @@
           "name": "AllAfrica · Côte d'Ivoire",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605050771.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b0244691d1",
+      "title": "Afrique du Sud : l'opposition quitte le Parlement pour exiger la démission de Ramaphosa",
+      "summary": "En Afrique du Sud, les députés de l’opposition ont quitté l’Hémicycle lors d'une séance de questions-réponses du président, pour exprimer leur mécontentement. Cyril Ramaphosa fait l'objet d'accusations de fautes graves, ils exigent sa démission.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-14T19:24:29+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/14/afrique-du-sud-lopposition-quitte-le-parlement-pour-exiger-la-demission-de-ramaphosa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/14/afrique-du-sud-lopposition-quitte-le-parlement-pour-exiger-la-demission-de-ramaphosa/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "44b65df024",
+      "title": "Cameroun : le rachat des actifs de Globeleq augure d’une renégociation des contrats de KPDC et DPDC",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "MA_GOUV",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": true,
+      "published": "2026-05-14T19:10:07+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/05/14/cameroun-le-rachat-des-actifs-de-globeleq-augure-dune-renegociation-des-contrats-de-kpdc-et-dpdc/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/05/14/cameroun-le-rachat-des-actifs-de-globeleq-augure-dune-renegociation-des-contrats-de-kpdc-et-dpdc/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "813ded4115",
+      "title": "South Africa: Opposition parties pile pressure on Ramaphosa",
+      "summary": "Members of South African opposition parties walked out of a question and answer session by President Cyril Ramaphosa, who is facing claims of misconduct by hiding from police and tax authorities a 2020 break-in at one of his homes, and theft of large sums of foreign currency",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-05-14T18:39:36+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/05/14/south-africa-opposition-parties-pile-pressure-on-ramaphosa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/05/14/south-africa-opposition-parties-pile-pressure-on-ramaphosa/"
         }
       ],
       "confirmation_count": 1
@@ -3976,36 +4072,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "e4d552b33f",
-      "title": "French Firms Tour Nairobi Affordable Housing Project",
-      "summary": "[Capital FM] Nairobi -- GulfCap Real Estate hosted a delegation of French firms at the Starehe Point Affordable Housing Project in Nairobi during the Africa Forward Summit, as Kenya seeks to attract more foreign investment into urban development and housing.",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "published": "2026-05-14T07:30:18+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605140093.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605140093.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "d035f9195e",
       "title": "Starving Leopards Pray for Gor Slip-Up As Hunt for Premier League Title Intensifies",
       "summary": "[Capital FM] NAIROBI, Kenya, May 13, 2026 - Watch out Gor Mahia! AFC Leopards are on the prowl and are taking nothing less than the FKF Premier League title.",
@@ -4361,6 +4427,36 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/05/14/nigeria-ex-power-minister-saleh-mamman-jailed-75-years-for-graft/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0f385bdadd",
+      "title": "Ruto Blames Somalia Instability for Failed Border Reopening",
+      "summary": "[Capital FM] Nairobi -- President William Ruto has explained the failed reopening of the border with Somalia blaming renewed conflict and political instability in Somalia for disrupting the process.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-14T05:25:32+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605140034.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605140034.html"
         }
       ],
       "confirmation_count": 1
@@ -5141,66 +5237,6 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/05/13/mauritanie-apres-les-accusations-contre-addax-le-temps-de-la-remise-au-point/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e2c465ebf2",
-      "title": "Côte d’Ivoire : le port d’Abidjan renforce son rôle de hub régional",
-      "summary": "Au cœur des échanges commerciaux du pays, le port d’Abidjan fait l’objet d’investissements visant à accroître ses capacités et améliorer sa compétitivité. Une modernisation qui s’inscrit dans un contexte de croissance des flux et de concurrence accrue entre plateformes portuaires en Afrique de l’Ouest.\nLe port d’Abidjan occupe une place centrale dans l’économie ivoirienne. Il constitue le principal point de transit des importations et des exportations du pays, tout en…",
-      "country": "CIV",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-13T12:39:13+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/05/13/cote-divoire-le-port-dabidjan-renforce-son-role-de-hub-regional/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/05/13/cote-divoire-le-port-dabidjan-renforce-son-role-de-hub-regional/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ecb6e9059c",
-      "title": "Entretien exclusif avec Nicolas ROCA, directeur général de la Banque Internationale d’Investissement (BII) – Mauritanie",
-      "summary": "«De Société Générale Mauritanie à BII,  une nouvelle étape pour accompagner une économie en accélération»\nEn Mauritanie, à  l’occasion des 20 ans de la Banque Internationale d’Investissement (BII) et du changement de marque consécutif à la sortie du groupe Société Générale, Nicolas Roca détaille la nouvelle feuille de route de l’établissement. Transformation digitale, financement des PME, montée en puissance de la Mauritanie et ambitions régionales : le directeur général…",
-      "country": "MRT",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-13T11:40:45+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/05/13/entretien-exclusif-avec-nicolas-roca-directeur-general-de-la-banque-internationale-dinvestissement-bii-mauritanie/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/05/13/entretien-exclusif-avec-nicolas-roca-directeur-general-de-la-banque-internationale-dinvestissement-bii-mauritanie/"
         }
       ],
       "confirmation_count": 1
