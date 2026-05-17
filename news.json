@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T19:36:01.168853+00:00",
+  "generated_at": "2026-05-17T21:08:23.505758+00:00",
   "stats": {
-    "total_signals": 239,
+    "total_signals": 240,
     "verified_signals": 4,
-    "countries_covered": 25,
+    "countries_covered": 26,
     "sources_active": 16,
     "per_country": {
       "COD": 23,
@@ -13,8 +13,10 @@
       "NGA": 42,
       "GHA": 7,
       "DZA": 2,
-      "KEN": 40,
+      "KEN": 39,
       "MLI": 25,
+      "GAB": 3,
+      "COG": 1,
       "ZAF": 17,
       "CAF": 5,
       "BFA": 2,
@@ -25,7 +27,6 @@
       "MUS": 1,
       "CMR": 4,
       "ZMB": 1,
-      "GAB": 2,
       "SEN": 6,
       "BEN": 1,
       "ZWE": 3,
@@ -132,6 +133,36 @@
     }
   ],
   "signals": [
+    {
+      "id": "7f2148cf60",
+      "title": "Will the latest Ebola outbreak in DR Congo and Uganda spread further?",
+      "summary": "The World Health Organization declares the epidemic a global health emergency.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-17T19:52:09+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/inside-story/2026/5/17/will-the-latest-ebola-outbreak-in-dr-congo-and-uganda-spread-further?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/inside-story/2026/5/17/will-the-latest-ebola-outbreak-in-dr-congo-and-uganda-spread-further?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "6981d32c6b",
       "title": "Ebola: de Mongwalu à Goma, comment une épidémie a traversé une ligne de front",
@@ -286,10 +317,10 @@
           "url": "https://www.bbc.com/news/articles/c2l2p0wwzzdo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/who-declares-ebola-outbreak-in-drc-a-global-health-emergency?traffic_source=rss"
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/05/17/who-declares-ebola-outbreak-an-emergency-of-international-concern/"
         }
       ],
       "confirmation_count": 2
@@ -320,36 +351,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260517-rd-congo-la-fi%C3%A8vre-ebola-refait-surface-en-ituri"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2491fd0ba3",
-      "title": "WHO declares Ebola outbreak an emergency of international concern",
-      "summary": "Some 88 people have died from the highly contagious haemorrhagic fever in the DR Congo, with one death in Uganda, and at least 336 suspected cases.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-17T07:10:02+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/05/17/who-declares-ebola-outbreak-an-emergency-of-international-concern/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/05/17/who-declares-ebola-outbreak-an-emergency-of-international-concern/"
         }
       ],
       "confirmation_count": 1
@@ -931,36 +932,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "bf87e836a5",
-      "title": "Nigerian Police Extradite Romance Scam Suspect to U.S.",
-      "summary": "[Premium Times] \"The syndicate reportedly created fake online identities and dating profiles to establish fraudulent emotional relationships with victims.\"",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-15T08:35:14+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605150099.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605150099.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "67af9bb5e2",
       "title": "Ebola crisis deepens in DR Congo as death toll rises",
       "summary": "Health officials are racing to contain a deadly Ebola outbreak in northeastern Democratic Republic of the Congo, where at least 65 people have died and hundreds more are suspected to be infected.",
@@ -1166,6 +1137,66 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605050019.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "36e24faf93",
+      "title": "Gabon : justice, réformes, France… le porte-parole d’Oligui Nguema répond",
+      "summary": "Trois ans après le coup de force militaire qui a mis fin au régime Bongo, le Gabon tente de convaincre qu’un nouveau chapitre politique s’ouvre. Réformes économiques, justice, jeunesse, relation avec la France : le pouvoir défend un récit de “refondation” du pays. Mais les interrogations persistent autour des libertés publiques, de l’indépendance de la justice et de l’impact concret des réformes sur la vie quotidienne des Gabonais. Dans ce Focus du Journal de l’Afrique,…",
+      "country": "GAB",
+      "category": "REGULATION",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-17T20:23:54+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260517-gabon-justice-r%C3%A9formes-france-le-porte-parole-d-oligui-nguema-r%C3%A9pond"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260517-gabon-justice-r%C3%A9formes-france-le-porte-parole-d-oligui-nguema-r%C3%A9pond"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5cf29a0b9c",
+      "title": "DRC struggling to contain Ebola outbreak as cases spread",
+      "summary": "The Democratic Republic of Congo has faced repeated Ebola outbreaks.",
+      "country": "COG",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-17T20:09:29+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/drc-struggling-to-contain-ebola-outbreak-as-cases-spread?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/drc-struggling-to-contain-ebola-outbreak-as-cases-spread?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -2221,36 +2252,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b127c185cb",
-      "title": "Dangote Rejects NNPC's Bid for Bigger Refinery Stake, Pushes for Wider Ownership",
-      "summary": "[Premium Times] Aliko Dangote says he opposed moves by NNPC Limited to increase its stake in the $20 billion Dangote Petroleum Refinery, insisting the company's strategy is to broaden ownership and attract more investors rather than concentrate control in one institution.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "published": "2026-05-15T08:35:20+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605150103.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605150103.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "d671a01fd1",
       "title": "All of Africa Today - May 15, 2026",
       "summary": "[allAfrica]",
@@ -2383,6 +2384,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "e6e8396c66",
+      "title": "PWC Warns Finance Bill 2026 Could Make Digital Payments Costlier",
+      "summary": "[Capital FM] Nairobi -- Tax advisory firm PricewaterhouseCoopers (PwC) has warned that proposed tax measures in the Finance Bill 2026 could increase the cost of digital payments and tighten the tax burden on cross-border technology services as the government moves to widen its revenue base.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-05-14T12:00:49+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605140339.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605140339.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "1dc5c3ef43",
       "title": "Sommet \"Africa Forward\" : il \"faut changer le regard\" sur la question du financement en Afrique",
       "summary": "Lors de leurs discours de clôture du sommet \"Africa Forward\", Emmanuel Macron et son homologue kenyan William Ruto ont renouvelé leur appel à une réforme de l'architecture financière mondiale, afin qu'elle soit plus adaptée aux besoins de l'Afrique. Depuis Nairobi, le conseiller économique du président kenyan David Ndii a accordé une interview à France 24. Il y aborde les enjeux du sommet, ainsi que la relation entre le Kenya et la France.",
@@ -2408,36 +2439,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260513-sommet-africa-forward-il-faut-changer-regard-sur-question-financement-afrique"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b457653420",
-      "title": "Afrique - France : un nouveau souffle ?",
-      "summary": "Au deuxième jour du sommet Africa Forward à Nairobi, co-organisé par la France et le Kenya, une trentaine de chefs d'État et de gouvernement africains sont réunis dans la capitale kenyane. Ils plaident pour des réformes visant à faciliter l'accès de leur pays au crédit et au financement d'investissements. Emmanuel Macron a d'ailleurs annoncé que le sommet  veut tisser des liens avec de nouveaux pays anglophones, tant l'influence française recule sur tout le continent",
-      "country": "KEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-12T18:36:14+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20260512-afrique-france-un-nouveau-souffle"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20260512-afrique-france-un-nouveau-souffle"
         }
       ],
       "confirmation_count": 1
@@ -4273,6 +4274,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "d7b503846b",
+      "title": "Kebbi Hisbah Arrests Married Woman, Five Others in Hotel Raid, Amid Morality Policing Concerns",
+      "summary": "[Premium Times] The Kebbi State Hisbah said it carried out a raid \"at a hotel located behind the Presidential Lodge, where three men and three women were found engaging in immoral acts.\"",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-15T11:29:37+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605150332.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605150332.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "7bfe0312b8",
       "title": "Energy Commission Boss Mustapha Resumes Duties Amid EFCC's Alleged N500bn Fraud Probe",
       "summary": "[Premium Times] The media office of Energy Commission of Nigeria (ECN) reportws that the director-general of the agency was arrested.",
@@ -4328,6 +4359,156 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605150330.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cc8b0aaf3a",
+      "title": "Ecowas Parliament Adopts Resolution Banishing Children From Streets",
+      "summary": "[Premium Times] The ECOWAS Parliament noted that \"street children, who are usually exposed to the gravest human rights abuses, are among the most neglected groups in the society.\"",
+      "country": "NGA",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-15T11:28:11+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605150323.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605150323.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4774b45d32",
+      "title": "229 Polytechnic Students to Be Withdrawn Over Poor Performance",
+      "summary": "[Premium Times] The polytechnic's academic board said the withdrawals were made \"in the overall interest of sustaining academic excellence\" and in line with the polytechnic's regulations.",
+      "country": "NGA",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-15T11:27:40+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605150304.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605150304.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6a7a1a4878",
+      "title": "NJC Suspends Two Judges, Rejects Eight Others' Appeals, Recommends 12 New Appeal Court Justices",
+      "summary": "[Premium Times] The NJC took the decisions at its 111th meeting held on 13 May and chaired by the Chief Justice of Nigeria, Kudirat Kekere-Ekun.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-15T11:27:06+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605150303.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605150303.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e833281cdc",
+      "title": "Jude ILO - Building Sustainability and Resilience in African CSOs",
+      "summary": "[Premium Times] One of the strongest features of \"Building on Solid Ground\" is its practical orientation.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-15T11:26:34+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605150302.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605150302.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "91de7af74e",
+      "title": "Prince Ibukun Ademiluyi for Burial May 22",
+      "summary": "[This Day] The remains of the Founder and Chief Executive Officer of Quaint Agencies Limited, Prince Ibukun Adebambo 'Bambo' Ademiluyi, will be laid to rest on May 22, 2026.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-15T11:25:01+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605150297.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605150297.html"
         }
       ],
       "confirmation_count": 1
@@ -4478,6 +4659,36 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605150250.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "68c9214e5d",
+      "title": "Despite Receiving 80 Percent of Donor Funds, Two Regions Still Rank Lowest in Literacy, FG Raises Alarm",
+      "summary": "[Vanguard] The Federal Government has expressed deep concern that despite attracting nearly 80 per cent of development partners' investments in Nigeria's education sector over the last decade, two geopolitical zones still record the country's worst literacy and numeracy levels.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-15T11:03:21+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605150249.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605150249.html"
         }
       ],
       "confirmation_count": 1
@@ -4658,6 +4869,36 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605150205.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "659f2e4535",
+      "title": "NIMC Enrolls 206,000 Refugees, IDPs, 32,000 Inmates",
+      "summary": "[Vanguard] Director-General and Chief Executive Officer of the National Identity Management Commission, NIMC, Engr. Abisoye Coker-Odusote, has disclosed that the commission has enrolled over 206,000 refugees and internally displaced persons, IDPs, as well as 32,000 inmates into Nigeria's national identity database as part of efforts to ensure inclusive digital identity coverage nationwide.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-15T10:15:18+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605150180.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605150180.html"
         }
       ],
       "confirmation_count": 1
@@ -4933,36 +5174,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "a3038a4735",
-      "title": "Shakira, Burna Boy Release Official 2026 FIFA World Cup Song, 'Dai Dai'",
-      "summary": "[Premium Times] The song was released on Friday via Sony Music Latin.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-15T08:59:42+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605150120.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605150120.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0a19604474",
       "title": "Ex-South African president to appeal order to proceed with graft trial",
       "summary": "A judge on Thursday ruled that the decades-long case against Jacob Zuma and French defence company, Thales, should go ahead.",
@@ -5053,36 +5264,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0f64af5c49",
-      "title": "Dangote Targets $100bn Revenue With Fresh $45bn Refinery, LNG Expansion Plan",
-      "summary": "[Premium Times] President of the group, Aliko Dangote, disclosed this during a recent interview with Nicolai Tangen, chief executive officer of the Norwegian Sovereign Wealth Fund.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "published": "2026-05-15T08:35:15+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605150100.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605150100.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "3b55d813b5",
       "title": "'It Is Better I Remain a Fan' - Dangote Explains Why $20bn Refinery Stopped Arsenal Takeover Dream",
       "summary": "[Premium Times] The billionaire admitted that prioritising those businesses over football ownership became the only realistic option",
@@ -5108,36 +5289,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605150098.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "eb3832a508",
-      "title": "Nigerian Police Dismiss Officers for Kidnapping, Extortion, Robbery",
-      "summary": "[Premium Times] The police described the conduct of the affected officers as \"a gross betrayal of the ethics, standards, and professional values of the Nigeria Police Force.\"",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-15T08:35:13+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605150097.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605150097.html"
         }
       ],
       "confirmation_count": 1
@@ -5233,36 +5384,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "aec63906fe",
-      "title": "Labour Party Sets Up Screening Committee for 2027 Primaries",
-      "summary": "[Vanguard] The leadership of the Labour Party has constituted a National Screening Committee to oversee the screening of aspirants ahead of the party's nomination primaries for the 2027 General Elections.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-15T07:49:18+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605150089.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605150089.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8a68d04a73",
       "title": "Lawyers Raise Fair Trial Concerns in Diezani's UK Case",
       "summary": "[Vanguard] The League of Legal Practitioners of Nigeria, yesterday, questioned the fairness and evidential basis of the ongoing United Kingdom trial involving former Petroleum Minister, Diezani Alison-Madueke, insisting that the case must be determined strictly on credible evidence and proof beyond reasonable doubt.",
@@ -5288,66 +5409,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605150088.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2cc5abd518",
-      "title": "14m Children Living Without Parental Care in Nigeria - Association",
-      "summary": "[Leadership] The Association of Orphanages and Home Operators in Nigeria (ASOHON) yesterday disclosed that 14 million children are currently living in orphanages and motherless homes across the country .",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-15T07:49:17+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605150087.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605150087.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "14774c2bb0",
-      "title": "Only $1.25bn Deployed As Nigeria Battles $6.75bn Inclusive Finance Gap",
-      "summary": "[Vanguard] ...Women, youths, PWDs remain excluded from investment opportunities -- Stakeholders",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-15T07:49:16+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605150086.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605150086.html"
         }
       ],
       "confirmation_count": 1
@@ -6068,36 +6129,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.com/news/articles/c0j296392j1o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a509728f2f",
-      "title": "Ignore Fake Graphic Attributing Inflammatory Remarks to Kenyan President William Ruto Ahead of 2027 General Elections",
-      "summary": "[Africa Check] Ignore fake graphic attributing inflammatory remarks to Kenyan president William Ruto ahead of 2027 general elections",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-14T09:00:46+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605140235.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605140235.html"
         }
       ],
       "confirmation_count": 1
