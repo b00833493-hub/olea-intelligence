@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-05-19T19:17:03.710853+00:00",
+  "generated_at": "2026-05-19T21:44:30.436331+00:00",
   "stats": {
-    "total_signals": 236,
+    "total_signals": 237,
     "verified_signals": 5,
     "countries_covered": 31,
     "sources_active": 16,
     "per_country": {
-      "COD": 34,
-      "NGA": 42,
-      "KEN": 45,
+      "COD": 33,
+      "NGA": 43,
+      "KEN": 44,
       "COG": 2,
-      "UGA": 11,
+      "UGA": 13,
       "RWA": 7,
-      "GHA": 4,
+      "GHA": 3,
       "DZA": 7,
       "MLI": 17,
+      "MAR": 11,
       "CIV": 13,
       "MOZ": 1,
       "TCD": 2,
@@ -25,13 +26,12 @@
       "NER": 1,
       "CMR": 4,
       "MDG": 2,
-      "MAR": 9,
       "AGO": 1,
       "CAF": 2,
       "TUN": 2,
       "ZWE": 2,
       "MRT": 1,
-      "GIN": 3,
+      "GIN": 2,
       "SEN": 3,
       "BEN": 1,
       "GNQ": 1,
@@ -138,6 +138,72 @@
     }
   ],
   "signals": [
+    {
+      "id": "d8cae717ed",
+      "title": "L'OMS alerte sur \"l'ampleur\" de l'épidémie d'Ebola en République Démocratique du Congo",
+      "summary": "La République démocratique du Congo qui fait face à la 17ᵉ épidémie d’Ebola de son histoire. L’Organisation mondiale de la Santé a déclenché son deuxième niveau d'alerte internationale le plus élevé face à une épidémie d’Ebola. 91 décès signalés ont vraisemblablement été causés par Ebola, selon les derniers chiffres donnés par les autorités congolaises.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-19T20:18:28+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260519-l-oms-alerte-sur-l-ampleur-de-l-%C3%A9pid%C3%A9mie-d-ebola-en-r%C3%A9publique-d%C3%A9mocratique-du-congo"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260519-l-oms-alerte-sur-l-ampleur-de-l-%C3%A9pid%C3%A9mie-d-ebola-en-r%C3%A9publique-d%C3%A9mocratique-du-congo"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/19/rdc-loms-alerte-sur-lampleur-et-la-rapidite-de-lepidemie-debola/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "0546d0be99",
+      "title": "Des frappes aériennes menées par le Nigeria avec les États-Unis tuent 175 membres de l'EI",
+      "summary": "Les frappes menées conjointement dans le nord-est du Nigeria par les armées nigériane et américaine ont fait 175 victimes parmi les jihadistes de l'État islamique mardi, selon un porte-parole nigérian.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-19T20:01:15+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/afrique/20260519-nigeria-175-membres-de-ei-tues-frappes-aeriennes-etats-unis-jihadistes-boko-haram-terrorisme"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20260519-nigeria-175-membres-de-ei-tues-frappes-aeriennes-etats-unis-jihadistes-boko-haram-terrorisme"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "cd4ee70dea",
       "title": "'Ebola has tortured us': Fear grips eastern DR Congo as deadly virus spreads",
@@ -475,8 +541,8 @@
       "country": "COD",
       "category": "SANTE",
       "severity": 4,
-      "credibility": 4,
-      "verified": true,
+      "credibility": 2,
+      "verified": false,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
@@ -494,15 +560,9 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260519-ebola-rdc-oms-sonne-alerte-ampleur-et-rapidit%C3%A9"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/19/rdc-loms-alerte-sur-lampleur-et-la-rapidite-de-lepidemie-debola/"
         }
       ],
-      "confirmation_count": 2
+      "confirmation_count": 1
     },
     {
       "id": "a433948c49",
@@ -560,36 +620,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605190205.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6e2ff8496e",
-      "title": "Épidémie d'Ebola : nombre de cas en hausse, le chef de l'OMS \"profondément préoccupé\"",
-      "summary": "L'Organisation mondiale de la santé a convoqué mardi une réunion d'experts face à la rapide progression de l'épidémie d'Ebola, déjà à l'origine de 131 décès présumés en République démocratique du Congo. Son directeur général s'est dit \"profondément préoccupé par l'ampleur et la rapidité\" de la contagion alors que l'Agence sanitaire de l'Union africaine (Africa CDC) a déclaré une \"urgence de santé publique\" continentale.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-19T09:22:56+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260519-epidemie-ebola-nombre-de-cas-en-hausse-chef-oms-profondement-preoccupe-afrique-vaccins"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260519-epidemie-ebola-nombre-de-cas-en-hausse-chef-oms-profondement-preoccupe-afrique-vaccins"
         }
       ],
       "confirmation_count": 1
@@ -986,66 +1016,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/05/18/ebola-outbreak-kills-88-in-dr-congo-as-who-declares-global-emergency/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "21d3556921",
-      "title": "RDC : une épidémie mortelle d’Ebola sévit dans l’Ituri",
-      "summary": "En République démocratique du Congo, des professionnels de la santé se sont réunis à Kinshasa, la capitale, pour discuter de la situation dans l’est du pays, en proie à une épidémie mortelle d’Ebola. Deux cent quarante-six cas suspects et 65 décès ont été annoncés.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-18T13:29:28+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/15/republique-democratique-du-congo-une-epidemie-mortelle-debola-sevit-dans-lest/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/15/republique-democratique-du-congo-une-epidemie-mortelle-debola-sevit-dans-lest/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a469ba9d07",
-      "title": "RDC : la psychose face à la résurgence d'Ébola",
-      "summary": "« Nous avons très peur », déclarent des habitants de la République démocratique du Congo réagissent à l'épidémie meurtrière d'Ebola. Une nouvelle flambée du virus mortel Ebola a été signalée dans l'est de la République démocratique du Congo.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-18T13:22:38+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/16/rdc-la-psychose-face-a-la-resurgence-debola/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/16/rdc-la-psychose-face-a-la-resurgence-debola/"
         }
       ],
       "confirmation_count": 1
@@ -1573,6 +1543,96 @@
       "confirmation_count": 1
     },
     {
+      "id": "1992b7d64e",
+      "title": "Mondial 2026 : Royal Air Maroc renforce son offre de vols vers les États-Unis",
+      "summary": "À l’occasion de la Coupe du monde de football 2026 en Amérique du Nord, la compagnie aérienne Royal Air Maroc renforce ses liaisons vers les États-Unis.",
+      "country": "MAR",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-19T20:17:25+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/19/mondial-2026-royal-air-maroc-renforce-son-offre-de-vols-vers-les-etats-unis/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/19/mondial-2026-royal-air-maroc-renforce-son-offre-de-vols-vers-les-etats-unis/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "faccf1aceb",
+      "title": "Épidémie d'Ebola : plus de 100 personnes placées en quarantaine en Ouganda",
+      "summary": "En Ouganda, le gouvernement a confirmé mardi que plus d'une centaine de personnes ont été placées en quarantaine, où elles sont surveillées pour détecter les signes et symptômes du virus Ebola.",
+      "country": "UGA",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-19T19:25:18+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/19/epidemie-debola-plus-de-100-personnes-placees-en-quarantaine-en-ouganda/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/19/epidemie-debola-plus-de-100-personnes-placees-en-quarantaine-en-ouganda/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7c86a54a66",
+      "title": "Uganda quarantines over 100 people as WHO raises alarm over Ebola spread",
+      "summary": "Ugandan authorities say more than 100 people have been placed under quarantine as health officials work to contain a rare Ebola outbreak linked to the Bundibugyo strain of the virus.",
+      "country": "UGA",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-19T19:16:29+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/05/19/uganda-quarantines-over-100-people-as-who-raises-alarm-over-ebola-spread/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/05/19/uganda-quarantines-over-100-people-as-who-raises-alarm-over-ebola-spread/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d4887ffcd4",
       "title": "Ebola en RDC: pourquoi le diagnostic a traîné durant un mois",
       "summary": "En RDC, les premiers cas documentés d'Ebola Bundibugyo en Ituri remontent au 15 avril 2026. L'épidémie n'a été officiellement confirmée que le 14 mai. Selon diverses sources, ce mois d'attente résulte de quatre défaillances documentées : un test de diagnostic inadapté, une chaîne logistique cassée, des croyances mystiques qui ont gelé l'alerte communautaire, et un système institutionnel de surveillance qui n'a pas fonctionné.",
@@ -1658,6 +1718,36 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.com/news/articles/cz72p75zg4qo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "11afe1a397",
+      "title": "Ebola : le chef de l'OMS \"profondément préoccupé\", l'équipe de RD Congo autorisée au Mondial 2026",
+      "summary": "L'Organisation mondiale de la santé a convoqué mardi une réunion d'experts face à la rapide progression de l'épidémie d'Ebola, déjà à l'origine de 131 décès présumés en République démocratique du Congo. Son directeur général s'est dit \"profondément préoccupé par l'ampleur et la rapidité\" de la contagion. L'équipe de football de la République démocratique du Congo va cependant pouvoir participer au Mondial 2026 aux États-Unis.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-19T09:22:56+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/afrique/20260519-epidemie-ebola-nombre-de-cas-en-hausse-chef-oms-profondement-preoccupe-afrique-vaccins"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20260519-epidemie-ebola-nombre-de-cas-en-hausse-chef-oms-profondement-preoccupe-afrique-vaccins"
         }
       ],
       "confirmation_count": 1
@@ -2383,6 +2473,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "3b398cc15a",
+      "title": "Royal Air Maroc launches special World Cup flights for Atlas Lions fans",
+      "summary": "Royal Air Maroc is ramping up flights to the United States ahead of the 2026 FIFA World Cup, adding 32 special flights to help transport Moroccan fans supporting the Atlas Lions during the tournament’s group stage.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-19T20:32:54+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/05/19/royal-air-maroc-launches-special-world-cup-flights-for-atlas-lions-fans/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/05/19/royal-air-maroc-launches-special-world-cup-flights-for-atlas-lions-fans/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "5a7a4cff42",
       "title": "AfDB Approves $200m Facility for Nigeria's Bank of Industry",
       "summary": "[Daba Finance] The African Development Bank approved a $200 million financing facility for Nigeria's Bank of Industry (BOI) to expand access to long-term credit for companies in sectors tied to industrial growth.",
@@ -2840,36 +2960,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/05/18/kenya-manifestations-et-greve-des-transports-contre-la-hausse-des-prix-du-carburant/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e2fef8a1e2",
-      "title": "La France et le Kenya signent des accords emblématiques d’une valeur de 170 millions d’euros lors  du Sommet Africa Forward",
-      "summary": "Nairobi, le 15 mai 2026 – En marge du Sommet Africa Forward, tenu à Nairobi les 11 et 12 mai, la  France, à travers l’Agence Française de Développement (AFD), a signé cinq accords avec le  gouvernement du Kenya, réaffirmant leur partenariat stratégique dans les domaines des énergies  renouvelables, de la connectivité numérique, de la gestion de l’eau et de l’éducation. Ces accords,  d’un montant total d’environ 170 millions d’euros, ont été conclus lors de deux cérémonies…",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-18T14:08:43+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/05/18/la-france-et-le-kenya-signent-des-accords-emblematiques-dune-valeur-de-170-millions-deuros-lors-du-sommet-africa-forward/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/05/18/la-france-et-le-kenya-signent-des-accords-emblematiques-dune-valeur-de-170-millions-deuros-lors-du-sommet-africa-forward/"
         }
       ],
       "confirmation_count": 1
@@ -6295,36 +6385,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c7d3bba027",
-      "title": "Ghana wraps up $3 billion dollar IMF bailout programme",
-      "summary": "Accra on Friday said it had helped restore macroeconomic stability and debt sustainability ahead of schedule.",
-      "country": "GHA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-16T08:38:10+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/05/16/ghana-wraps-up-3-billion-dollar-imf-bailout-programme/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/05/16/ghana-wraps-up-3-billion-dollar-imf-bailout-programme/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "877b3788f4",
       "title": "Roukiata Ouedraogo : “Black Tax”, identité, diaspora… le rire comme miroir des Africains",
       "summary": "Humoriste, autrice, chroniqueuse radio, romancière et désormais actrice au cinéma… Roukiata Ouedraogo est l’invitée du Journal de l’Afrique sur France 24. Née à Fada N’Gourma au Burkina Faso et arrivée en France à 20 ans, elle a transformé son parcours migratoire, son accent et ses contradictions identitaires en une œuvre profondément humaine, drôle et engagée. À l’affiche de Black Tax au Studio Raspail à Paris jusqu’au 27 juin 2026, elle met en scène deux personnages aux…",
@@ -6620,36 +6680,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.com/news/articles/cy42dgj0x32o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e45d5addd0",
-      "title": "Guinée : Yéro Baldé de nouveau candidat aux élections législatives et locales",
-      "summary": "En Guinée, Yéro Baldé, principal opposant au président Mamadi Doumbouya, avait récemment suspendu sa participation au processus électoral. Il dénonçait plusieurs violations du code électoral et des irrégularités dans l’organisation du scrutin. Mais selon les responsables de sa formation politique, la Cour suprême guinéenne, la plus haute juridiction du pays, a finalement décidé de le rétablir dans ses droits, lui permettant ainsi de reprendre part au futur scrutin du 31 mai.",
-      "country": "GIN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "JURIS_OHADA",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-05-13T20:23:09+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260513-y%C3%A9ro-bald%C3%A9-de-nouveau-candidat-aux-prochaines-%C3%A9lections-l%C3%A9gislatives-et-locales-en-guin%C3%A9e"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260513-y%C3%A9ro-bald%C3%A9-de-nouveau-candidat-aux-prochaines-%C3%A9lections-l%C3%A9gislatives-et-locales-en-guin%C3%A9e"
         }
       ],
       "confirmation_count": 1
