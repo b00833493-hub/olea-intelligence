@@ -1,34 +1,31 @@
 {
-  "generated_at": "2026-05-27T19:33:26.939236+00:00",
+  "generated_at": "2026-05-27T22:08:04.716914+00:00",
   "stats": {
-    "total_signals": 253,
-    "verified_signals": 9,
-    "countries_covered": 26,
+    "total_signals": 251,
+    "verified_signals": 10,
+    "countries_covered": 23,
     "sources_active": 16,
     "per_country": {
+      "COD": 30,
       "COG": 7,
       "MLI": 12,
-      "COD": 28,
+      "UGA": 9,
       "KEN": 35,
-      "NGA": 33,
-      "BEN": 5,
-      "UGA": 8,
+      "NGA": 32,
+      "BEN": 4,
       "RWA": 6,
-      "DZA": 7,
-      "MAR": 17,
+      "MAR": 18,
       "GIN": 3,
-      "GHA": 7,
+      "GHA": 8,
       "SEN": 43,
       "TUN": 3,
       "ZAF": 7,
       "GAB": 4,
-      "MDG": 1,
-      "CIV": 9,
+      "DZA": 6,
       "SLE": 3,
+      "CIV": 8,
       "BFA": 4,
       "CMR": 3,
-      "AGO": 1,
-      "ZWE": 1,
       "TGO": 1,
       "ETH": 4,
       "CAF": 1
@@ -134,6 +131,36 @@
   ],
   "signals": [
     {
+      "id": "a97d2363e5",
+      "title": "La RDC attend un anticorps monoclonal pour traiter les cas d'Ebola Bundibugyo",
+      "summary": "Le virus Bundibugyo peut tuer jusqu'à 50 % des personnes infectées. Il est à l'origine de l'épidémie qui frappe l'est de la RDC depuis plusieurs semaines et qui a déjà gagné l'Ouganda. Le 17 mai, l'OMS a déclaré l'urgence de santé publique de portée internationale. Il n'existe ni vaccin homologué ni traitement spécifique contre cette souche. Les scientifiques évaluent en urgence si les vaccins existants contre Ebola, qui ciblent une autre espèce du virus, pourraient…",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-27T20:10:31+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260527-la-rdc-attend-un-anticorps-monoclonal-pour-traiter-les-cas-d-ebola-bundibugyo"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260527-la-rdc-attend-un-anticorps-monoclonal-pour-traiter-les-cas-d-ebola-bundibugyo"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ee0f28862e",
       "title": "Carlos Lopes : « La NAFAD doit transformer l’épargne africaine en moteur souverain du développement »",
       "summary": "En marge des Assemblées annuelles 2026 de la Banque africaine de développement à Brazzaville, l’économiste et ancien secrétaire exécutif de la Commission économique des Nations unies pour l’Afrique, Carlos Lopes, est revenu au micro de Financial Afrik sur les enjeux de la Nouvelle architecture financière africaine (NAFAD). Au cœur des échanges : la mobilisation de l’épargne africaine, la réforme des mécanismes de financement du continent et l’urgence de bâtir une…",
@@ -222,6 +249,42 @@
         }
       ],
       "confirmation_count": 1
+    },
+    {
+      "id": "d8d14d8cec",
+      "title": "L'Ouganda ferme la frontière avec la RDC pour tenter de contenir la propagation d'Ebola",
+      "summary": "L'Ouganda a temporairement fermé mercredi 27 mai ses frontières avec la République démocratique du Congo, « face à l'intensification de l'ampleur » de l'épidémie de fièvre hémorragique Ebola chez son voisin, a annoncé une haute responsable du ministère ougandais de la Santé. L'Ouganda a enregistré sept infections confirmées par le variant Bundibugyo du virus, depuis que l'épidémie a été déclarée le 15 mai en Ituri, région du nord-est de la RDC qui lui est frontalière.",
+      "country": "UGA",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-27T16:45:09+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260527-l-ouganda-ferme-la-fronti%C3%A8re-avec-la-rdc-pour-tenter-de-contenir-la-propagation-d-ebola"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260527-l-ouganda-ferme-la-fronti%C3%A8re-avec-la-rdc-pour-tenter-de-contenir-la-propagation-d-ebola"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/27/louganda-ferme-sa-frontiere-avec-la-rdc-pour-contenir-lepidemie-debola/"
+        }
+      ],
+      "confirmation_count": 2
     },
     {
       "id": "b3acf15e21",
@@ -644,36 +707,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "df961d8028",
-      "title": "Massacre du 23 mai 1956 en Kabylie : trois villages \"pacifiés\" par l’armée française en Algérie",
-      "summary": "Le 23 mai 1956, l’armée française exécute sommairement 75 villageois à Ait Soula, Tazrouts et Agouni, dans la vallée de la Soummam en Algérie. Près de 200 femmes sont rassemblées dans une mosquée, dénudées de forces et parfois violées. Des violences coloniales sur lesquelles ont enquêté la documentariste Safia Kessas et l’historien Fabrice Riceputi.",
-      "country": "DZA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-23T04:44:22+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260523-massacre-23-mai-1956-kabylie-trois-villages-pacifi%C3%A9s-arm%C3%A9e-fran%C3%A7aise-alg%C3%A9rie"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260523-massacre-23-mai-1956-kabylie-trois-villages-pacifi%C3%A9s-arm%C3%A9e-fran%C3%A7aise-alg%C3%A9rie"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "a10180bd08",
       "title": "Morocco and Egypt Reach TotalEnergies U-17 Afcon Quarter-Finals After Dramatic Group a Finale",
       "summary": "[CAF] Morocco finished top of Group A at the TotalEnergies CAF U-17 Africa Cup of Nations after beating Egypt 2-1 on a dramatic final day that also saw Ethiopia eliminate Tunisia with a stoppage-time victory on Tuesday night.",
@@ -764,9 +797,39 @@
       "confirmation_count": 1
     },
     {
-      "id": "d8d14d8cec",
-      "title": "L'Ouganda ferme la frontière avec la RDC pour tenter de contenir la propagation d'Ebola",
-      "summary": "L'Ouganda a temporairement fermé mercredi 27 mai ses frontières avec la République démocratique du Congo, « face à l'intensification de l'ampleur » de l'épidémie de fièvre hémorragique Ebola chez son voisin, a annoncé une haute responsable du ministère ougandais de la Santé. L'Ouganda a enregistré sept infections confirmées par le variant Bundibugyo du virus, depuis que l'épidémie a été déclarée le 15 mai en Ituri, région du nord-est de la RDC qui lui est frontalière.",
+      "id": "442ba01220",
+      "title": "Aïd-el-kébir : dans l'est de la RD Congo l'heure est aux précautions sanitaires",
+      "summary": "Alors que les musulmans du monde entier commencent à fêter l’Aïd al-Adha, dans l’est de la RDC, l’heure est aux précautions sanitaires. Masques, gel désinfectant, regroupements à l’extérieur… Alors que l’épidémie du virus Ebola se propage à travers le pays, la communauté musulmane de Bunia, dans la province de l’Ituri, s’organise pour marquer l’événement tout en se protégeant.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-27T20:39:20+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260527-a%C3%AFd-el-k%C3%A9bir-dans-l-est-de-la-rd-congo-l-heure-est-aux-pr%C3%A9cautions-sanitaires"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260527-a%C3%AFd-el-k%C3%A9bir-dans-l-est-de-la-rd-congo-l-heure-est-aux-pr%C3%A9cautions-sanitaires"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "456fdc3e43",
+      "title": "Uganda shuts border with DR Congo in a bid to contain Ebola outbreak",
+      "summary": "Uganda shut its border with the Democratic Republic of Congo on Wednesday in a bid to contain the Ebola outbreak that has hit its neighbour, the health ministry announced.",
       "country": "UGA",
       "category": "SANTE",
       "severity": 3,
@@ -776,19 +839,49 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "published": "2026-05-27T16:45:09+00:00",
+      "published": "2026-05-27T19:48:33+00:00",
       "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260527-l-ouganda-ferme-la-fronti%C3%A8re-avec-la-rdc-pour-tenter-de-contenir-la-propagation-d-ebola"
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/05/27/uganda-shuts-border-with-dr-congo-in-a-bid-to-contain-ebola-outbreak/"
       },
       "confirming_sources": [
         {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260527-l-ouganda-ferme-la-fronti%C3%A8re-avec-la-rdc-pour-tenter-de-contenir-la-propagation-d-ebola"
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/05/27/uganda-shuts-border-with-dr-congo-in-a-bid-to-contain-ebola-outbreak/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b60b1844e3",
+      "title": "Airlines urged to tighten safety protocols amid Ebola outbreak",
+      "summary": "Global health officials are on high alert as the Ebola outbreak in the Democratic Republic of the Congo continues to spread, now crossing borders into neighboring Uganda.The UN’s aviation agency is urging governments and airlines to follow strict post-pandemic health guidelines.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-27T19:04:25+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/05/27/airlines-urged-to-tighten-safety-protocols-amid-ebola-outbreak/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/05/27/airlines-urged-to-tighten-safety-protocols-amid-ebola-outbreak/"
         }
       ],
       "confirmation_count": 1
@@ -1544,36 +1637,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "a10a180a3d",
-      "title": "Ebola : trois nouveaux cas confirmés en Ouganda, dix pays africains menacés par l'épidémie",
-      "summary": "Alors que trois nouveaux cas du virus Ebola ont été confirmés samedi en Ouganda, l'Agence sanitaire de l'Union africaine a prévenu que dix pays africains risquent d'être touchés, en plus de la République démocratique du Congo, épicentre de l'épidémie, et de l'Ouganda.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-23T14:23:26+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260523-ebola-trois-nouveaux-cas-confirmes-ouganda-10-pays-africains-menaces-rd-congo-virus-oms"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260523-ebola-trois-nouveaux-cas-confirmes-ouganda-10-pays-africains-menaces-rd-congo-virus-oms"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "23ab309011",
       "title": "DR Congo players told to isolate before World Cup",
       "summary": "The Democratic Republic of Congo's World Cup squad must isolate for 21 days before they can enter the US because of the Ebola outbreak.",
@@ -2000,36 +2063,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "228554484d",
-      "title": "Madagascar: en visite à Majunga, le président Randrianirina promet d'œuvrer en faveur de la décentralisation",
-      "summary": "À Madagascar, le chef de la transition, Michaël Randrianirina et le président de l’Assemblée nationale, Siteny Randrianasoloniaiko, sont en déplacement à Majunga. La visite, ressemblant à une opération de charme dans cette grande ville du nord-ouest du pays, a débuté lundi soir par une série de discours. Les deux principales figures du régime ont promis d'œuvrer en faveur de la décentralisation et ont lancé un appel à l’unité des Malgaches.",
-      "country": "MDG",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T05:10:42+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260527-madagascar-en-visite-%C3%A0-majunga-le-pr%C3%A9sident-randrianirina-promet-d-%C5%93uvrer-en-faveur-de-la-d%C3%A9centralisation"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260527-madagascar-en-visite-%C3%A0-majunga-le-pr%C3%A9sident-randrianirina-promet-d-%C5%93uvrer-en-faveur-de-la-d%C3%A9centralisation"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "af01104a59",
       "title": "Gabon: Sylvia et Noureddin Bongo placés sous notice rouge d'Interpol",
       "summary": "Au Gabon, le dossier judiciaire visant Sylvia et Noureddin Bongo connait de nouvelles évolutions. Selon des informations relayées par la presse gabonaise, l'ancienne première dame et son fils sont désormais placés sous notice rouge d'Interpol. Une procédure qui accentuerait la surveillance policière internationale. L'avocat de l'ancienne première dame parle lui « d'une grossière manipulation » ourdie par Libreville.",
@@ -2064,36 +2097,6 @@
         }
       ],
       "confirmation_count": 2
-    },
-    {
-      "id": "1035214184",
-      "title": "Côte d'Ivoire: ENI investit quatre milliards de dollars dans l'exploitation du gisement «Baleine»",
-      "summary": "En Côte d’Ivoire, le consortium ENI-Petroci-Vitol a procédé en début de semaine à la signature de la phase 3 du projet pétrolier « Baleine ». Un plan d’investissement de 4 milliards de dollars a été annoncé. À travers cet important gisement de pétrole brut et gazier exploité au sud-ouest du pays, les autorités ivoiriennes espèrent atteindre une indépendance sur le plan de l’énergie.",
-      "country": "CIV",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "published": "2026-05-27T04:38:26+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260527-c%C3%B4te-d-ivoire-eni-investit-quatre-milliards-de-dollars-dans-l-exploitation-du-gisement-baleine"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260527-c%C3%B4te-d-ivoire-eni-investit-quatre-milliards-de-dollars-dans-l-exploitation-du-gisement-baleine"
-        }
-      ],
-      "confirmation_count": 1
     },
     {
       "id": "cf006c4d4f",
@@ -2417,10 +2420,10 @@
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260526-s%C3%A9n%C3%A9gal-l-%C3%A9conomiste-aminou-l%C3%B4-nomm%C3%A9-premier-ministre-%F0%9F%87%B8%F0%9F%87%B3"
         },
         {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
+          "id": "ja",
+          "name": "Jeune Afrique",
           "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/26/senegal-lancien-banquier-central-ahmadou-al-aminou-lo-nomme-premier-ministre/"
+          "url": "https://www.jeuneafrique.com/1798223/politique/au-senegal-ahmadou-al-aminou-mohamed-lo-nomme-premier-ministre-apres-le-limogeage-de-sonko/"
         }
       ],
       "confirmation_count": 2
@@ -2769,6 +2772,156 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605150228.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "27fa64525c",
+      "title": "Au Maroc, l'Aïd el-Kébir marqué par le retour du sacrifice des moutons",
+      "summary": "Les Marocains ont pu retrouver cette année le plaisir de fêter la tabaski avec le rituel du sacrifice. L’année dernière, le roi du Maroc Mohammed VI avait invité ses compatriotes à s’abstenir d’accomplir le sacrifice de l’Aïd el-Kébir, afin de permettre la reconstitution du cheptel et de préserver les porte-monnaies alors que les prix atteignaient des sommets. Une décision extrêmement rare, qui n’avait été prise qu’à trois reprises dans l’histoire récente du Maroc. Si la…",
+      "country": "MAR",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-27T21:47:21+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260527-au-maroc-l-a%C3%AFd-el-k%C3%A9bir-marqu%C3%A9-par-le-retour-du-sacrifice-des-moutons"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260527-au-maroc-l-a%C3%AFd-el-k%C3%A9bir-marqu%C3%A9-par-le-retour-du-sacrifice-des-moutons"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "67d04b15ad",
+      "title": "Ghana welcomes first group fleeing South African anti-immigration protests",
+      "summary": "The repatriation came following a wave of anti-immigration protests in recent weeks.",
+      "country": "GHA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-27T20:55:59+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/5/27/ghana-welcomes-first-group-escaping-south-african-anti-immigrant-protests?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/5/27/ghana-welcomes-first-group-escaping-south-african-anti-immigrant-protests?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f4eb90ff91",
+      "title": "Rwanda : l’ADN environnemental révolutionne la surveillance de la biodiversité",
+      "summary": "Le Rwanda déploie une technologie innovante, l’ADN environnemental (eDNA), afin de renforcer la surveillance des espèces et la protection des écosystèmes, notamment dans les forêts des Virunga et de Bwindi où survivent les derniers gorilles de montagne.",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-27T20:16:42+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/27/rwanda-ladn-environnemental-revolutionne-la-surveillance-de-la-biodiversite/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/27/rwanda-ladn-environnemental-revolutionne-la-surveillance-de-la-biodiversite/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9d12dad9e9",
+      "title": "Pour le Sénégal, Diomaye et Sonko \"condamnés à discuter ensemble\", dit Alioune Tine",
+      "summary": "Dans un entretien accordé à France 24, Alioune Tine estime que Diomaye et Sonko sont \"condamnés à discuter ensemble\". Il prévient que \"tout est possible\" si le dialogue échoue, dans un pays qu'il juge au bord de la faillite. Il lit dans cette crise une bataille pour la présidentielle de 2029.",
+      "country": "SEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-27T19:58:20+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/en-t%C3%AAte-%C3%A0-t%C3%AAte/20260527-pour-le-s%C3%A9n%C3%A9gal-diomaye-et-sonko-condamn%C3%A9s-%C3%A0-discuter-ensemble-dit-alioune-tine"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/en-t%C3%AAte-%C3%A0-t%C3%AAte/20260527-pour-le-s%C3%A9n%C3%A9gal-diomaye-et-sonko-condamn%C3%A9s-%C3%A0-discuter-ensemble-dit-alioune-tine"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f859ac84ea",
+      "title": "Ouganda : nouveau gouvernement, 28 ministres limogés",
+      "summary": "Yoweri Museveni entame son 7e mandat avec une équipe considérablement remaniée.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-27T19:06:54+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/27/ouganda-nouveau-gouvernement-28-ministres-limoges/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/27/ouganda-nouveau-gouvernement-28-ministres-limoges/"
         }
       ],
       "confirmation_count": 1
@@ -3464,36 +3617,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "14fa18e988",
-      "title": "What is the Lobito Corridor, cited by US Africa envoy as model for ties?",
-      "summary": "Washington is set on a trade-focused shift in Africa, but critics say it facilitates further plundering of resources.",
-      "country": "AGO",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T13:48:24+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/5/27/what-is-the-lobito-corridor-cited-by-us-africa-envoy-as-model-for-ties?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/5/27/what-is-the-lobito-corridor-cited-by-us-africa-envoy-as-model-for-ties?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "e4ecbe142c",
       "title": "FIFA Rejects Suspension of Kenya FA Boss Hussein Mohamed",
       "summary": "[Nile Post] World football governing body Fifa has rejected the suspension of Football Kenya Federation (FKF) President Hussein Mohamed, ruling that the process used by a section of the federation's National Executive Committee (NEC) violated the FKF Constitution.",
@@ -3549,36 +3672,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.com/news/articles/cwy2d6j14l5o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "027217faa9",
-      "title": "Nigeria’s Eid Crisis: When a ram becomes a luxury",
-      "summary": "At a Nigerian sheep market, human rights advocate Sadaatu Madaki says that rising prices make Eid difficult for families",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T13:17:01+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/27/nigerias-eid-crisis-when-a-ram-becomes-a-luxury?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/27/nigerias-eid-crisis-when-a-ram-becomes-a-luxury?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -3674,36 +3767,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "aa3496e2b1",
-      "title": "The West only discovers property rights when the landowners are white",
-      "summary": "Zimbabwe is compensating European farmers. The original dispossession goes unrecognised.",
-      "country": "ZWE",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T11:59:34+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/opinions/2026/5/27/the-west-only-discovers-property-rights-when-the-landowners-are-white?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/opinions/2026/5/27/the-west-only-discovers-property-rights-when-the-landowners-are-white?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "f7d652eb96",
       "title": "Nathalie Moudiki à la Commission mixte Cameroun-Nigeria : coulisses d’une réunion manquée",
       "summary": "Principale suppléante de son époux au sein de la Société nationale des hydrocarbures (SNH), Nathalie Moudiki voit son influence grandir mois après mois. Au point que son agenda ne semble pas lui permettre d’assurer toutes ses fonctions.",
@@ -3729,36 +3792,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1798605/politique/nathalie-moudiki-a-la-commission-mixte-cameroun-nigeria-coulisses-dune-reunion-manquee/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f4eb90ff91",
-      "title": "Rwanda : l’ADN environnemental révolutionne la surveillance de la biodiversité",
-      "summary": "Le Rwanda déploie une technologie innovante, l’ADN environnemental (eDNA), afin de renforcer la surveillance des espèces et la protection des écosystèmes, notamment dans les forêts des Virunga et de Bwindi où survivent les derniers gorilles de montagne.",
-      "country": "RWA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T11:42:48+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/27/rwanda-ladn-environnemental-revolutionne-la-surveillance-de-la-biodiversite/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/27/rwanda-ladn-environnemental-revolutionne-la-surveillance-de-la-biodiversite/"
         }
       ],
       "confirmation_count": 1
@@ -6464,96 +6497,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "110caa1867",
-      "title": "Au Sénégal, Ahmadou Al Aminou Mohamed Lô nommé Premier ministre après le limogeage de Sonko",
-      "summary": "Bassirou Diomaye Faye a nommé un banquier et ancien ministre pour diriger le gouvernement, trois jours après le limogeage de son Premier ministre et ancien compagnon de route, Ousmane Sonko.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-26T09:58:22+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1798223/politique/au-senegal-ahmadou-al-aminou-mohamed-lo-nomme-premier-ministre-apres-le-limogeage-de-sonko/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1798223/politique/au-senegal-ahmadou-al-aminou-mohamed-lo-nomme-premier-ministre-apres-le-limogeage-de-sonko/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "80af0da3c9",
-      "title": "Ebola en RDC : la faim fragilise la riposte sanitaire",
-      "summary": "Face à la flambée d’Ebola dans l’est de la RDC, les autorités sanitaires et humanitaires alertent sur un cercle vicieux mêlant insécurité alimentaire, défiance de la population et manque criant de moyens.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-26T09:35:35+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/26/ebola-en-rdc-la-faim-fragilise-la-riposte-sanitaire/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/26/ebola-en-rdc-la-faim-fragilise-la-riposte-sanitaire/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "74d75a164f",
-      "title": "Ignore Fearmongering Online Videos Claiming to Show an Earthquake in Eldoret, Kenya",
-      "summary": "[Africa Check] Ignore fearmongering online videos claiming to show an earthquake in Eldoret, Kenya",
-      "country": "KEN",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-26T09:12:30+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605260129.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605260129.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2fda34b1d8",
       "title": "Senegal’s power rift deepens as Faye replaces Sonko with economist PM",
       "summary": "Senegal’s political crisis escalated as President Bassirou Diomaye Faye replaced Ousmane Sonko with economist Ahmadou Al Aminou Lo as prime minister, intensifying a rift at the top of the state while parliament prepares a tense vote on Sonko’s reinstatement as lawmaker.",
@@ -6579,6 +6522,36 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/05/26/senegals-power-rift-deepens-as-faye-replaces-sonko-with-economist-pm/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "05470ac887",
+      "title": "Heavy Rains, Strong Winds and Flooding Warning Until June 1",
+      "summary": "[Capital FM] Nairobi -- The Kenya Meteorological Department has forecast continued rainfall across several parts of the country from May 26 to June 1, 2026, with heavy downpours expected in sections of the Coast region and Garissa County.",
+      "country": "KEN",
+      "category": "CLIMAT",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-26T07:06:48+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605260090.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605260090.html"
         }
       ],
       "confirmation_count": 1
@@ -6639,36 +6612,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260525-s%C3%A9n%C3%A9gal-l-assembl%C3%A9e-nationale-conna%C3%AEtra-le-nom-de-son-prochain-pr%C3%A9sident-ce-mardi"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b593d52f87",
-      "title": "Benin moves to ease tensions with AES bloc [Africanews Today]",
-      "summary": "A new political tone in Benin, fresh health fears over Ebola, the shadow of gold trafficking in Sudan, renewed turbulence in Senegal, and preparations for Eid al-Adha in Morocco are shaping Africa’s news agenda this week.",
-      "country": "BEN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-25T20:52:51+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/05/25/benin-moves-to-ease-tensions-with-aes-bloc-africanews-today/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/05/25/benin-moves-to-ease-tensions-with-aes-bloc-africanews-today/"
         }
       ],
       "confirmation_count": 1
