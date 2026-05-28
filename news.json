@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-05-28T22:09:31.991807+00:00",
+  "generated_at": "2026-05-28T23:42:26.472843+00:00",
   "stats": {
-    "total_signals": 264,
-    "verified_signals": 8,
+    "total_signals": 263,
+    "verified_signals": 6,
     "countries_covered": 30,
     "sources_active": 16,
     "per_country": {
+      "KEN": 41,
       "SEN": 44,
       "GAB": 4,
-      "KEN": 41,
       "COD": 34,
-      "CAF": 2,
       "NGA": 38,
-      "COG": 5,
+      "COG": 4,
       "MLI": 10,
-      "MAR": 17,
+      "MAR": 16,
+      "MDG": 2,
       "UGA": 6,
       "BFA": 4,
-      "GHA": 11,
+      "GHA": 10,
       "ZAF": 11,
       "ZWE": 2,
       "DZA": 2,
       "CIV": 8,
+      "GIN": 2,
+      "RWA": 4,
+      "TUN": 2,
       "BWA": 1,
       "NER": 1,
       "BEN": 5,
-      "RWA": 3,
       "TCD": 2,
       "ETH": 1,
-      "TUN": 2,
-      "GIN": 1,
       "GNQ": 1,
       "TGO": 2,
-      "MDG": 1,
       "TZA": 1,
       "CMR": 3,
+      "CAF": 1,
       "SLE": 1
     }
   },
@@ -138,6 +138,36 @@
   ],
   "signals": [
     {
+      "id": "d52faa71c4",
+      "title": "At least 16 students killed in overnight fire at Kenyan boarding school",
+      "summary": "At least 16 students died in an overnight fire that started in the dormitories of a girls' boarding school, a government official said, in the latest such incident to rock the East African nation.",
+      "country": "KEN",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T20:07:46+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/05/28/at-least-16-students-killed-in-overnight-fire-at-kenyan-boarding-school/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/05/28/at-least-16-students-killed-in-overnight-fire-at-kenyan-boarding-school/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "fd668b7507",
       "title": "Senegalese president pardons journalist over 2018 massacre",
       "summary": "The president of Senegal has pardoned a journalist convicted to life in prison over a 2018 massacre in the southern Casamance region, the Committee to Protect Journalists watchdog said in a statement.",
@@ -196,42 +226,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "a32284b969",
-      "title": "Fire kills 16 students at Kenyan girls’ boarding school",
-      "summary": "At least 16 students were killed and dozens injured after a fire tore through the dormitory of a girls’ school in Kenya.",
-      "country": "KEN",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T16:25:12+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/28/fire-kills-16-students-at-kenyan-girls-boarding-school?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/28/fire-kills-16-students-at-kenyan-girls-boarding-school?traffic_source=rss"
-        },
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/05/28/at-least-16-students-killed-in-overnight-fire-at-kenyan-boarding-school/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "dda69ac736",
@@ -439,36 +433,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605280186.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "fc6b6a0116",
-      "title": "Tentative de coup d’État en 2001 en RCA: le fils d’une victime demande «des poursuites contre Bozizé et ses complices»",
-      "summary": "Le fils du commandant de la gendarmerie tué en mai 2021 lors d’une tentative de coup d’État contre le président d’alors, Ange-Félix Patassé, demande des poursuites « contre François Bozizé avec tous ses complices ». François Nelson Ndjadder déplore : « À chaque régime qui se succède à la tête de la République centrafricaine, ses commanditaires et les assassins sont toujours protégés et les victimes sont abandonnées à leur propre sort. » Bozizé, actuellement en exil en…",
-      "country": "CAF",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T09:36:36+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260528-tentative-de-coup-d-%C3%A9tat-en-2001-en-rca-le-fils-d-une-victime-demande-des-poursuites-contre-boziz%C3%A9-et-ses-complices"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260528-tentative-de-coup-d-%C3%A9tat-en-2001-en-rca-le-fils-d-une-victime-demande-des-poursuites-contre-boziz%C3%A9-et-ses-complices"
         }
       ],
       "confirmation_count": 1
@@ -742,42 +706,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "9ef5a57115",
-      "title": "Argentine: 700 animaux marins en provenance du Kenya saisis à l'aéroport de Buenos Aires",
-      "summary": "Plus de 700 petits animaux marins - poissons, poulpes, crabes et étoiles de mer - ont été saisis le 26 avril dernier à l'aéroport de Buenos Aires, en Argentine, dans une cargaison en provenance du Kenya. Un important coup de filet contre le commerce illégal d'animaux sauvages exotiques, dans ce cas destinés à remplir les aquariums de particuliers peu regardants et au détriment de ces animaux qui, pour beaucoup, meurent dans le transport.",
-      "country": "KEN",
-      "category": "INFRASTRUCTURE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T22:46:00+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/monde/20260527-argentine-700-animaux-marins-en-provenance-du-kenya-saisis-%C3%A0-l-a%C3%A9roport-de-buenos-aires"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/monde/20260527-argentine-700-animaux-marins-en-provenance-du-kenya-saisis-%C3%A0-l-a%C3%A9roport-de-buenos-aires"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/28/argentine-saisie-de-plus-de-700-animaux-marins-en-provenance-du-kenya/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "ee0f28862e",
@@ -1080,6 +1008,66 @@
       "confirmation_count": 1
     },
     {
+      "id": "129f5e932f",
+      "title": "Madagascar: la Cour suprême de Maurice rejette la demande de liberté provisoire de Mamy Ravatomanga",
+      "summary": "L’homme d’affaires malgache Mamy Ravatomanga reste derrière les barreaux à Maurice. La Cour suprême mauricienne a rejeté sa demande de remise en liberté provisoire en début de semaine. Proche de l’ancien président de Madagascar Andry Rajoelina, le milliardaire est poursuivi notamment pour blanchiment d’argent présumé. Les magistrats estiment que les risques de fuite, de pressions sur des témoins et d’altération de preuves demeurent suffisamment importants pour justifier…",
+      "country": "MDG",
+      "category": "AUTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": "JURIS_OHADA",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-05-28T23:07:45+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260528-madagascar-la-cour-supr%C3%AAme-de-maurice-rejette-la-demande-de-libert%C3%A9-provisoire-de-mamy-ravatomanga"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260528-madagascar-la-cour-supr%C3%AAme-de-maurice-rejette-la-demande-de-libert%C3%A9-provisoire-de-mamy-ravatomanga"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "156217c72b",
+      "title": "Ebola : à Kinshasa, le chef de l'OMS affirme que l'épidémie peut être stoppée",
+      "summary": "Tedros Adhanom Ghebreyesus, le patron de l'OMS, s'est voulu rassurant à son arrivée jeudi soir à Kinshasa, en République démocratique du Congo, pays durement touché par une épidémie d'Ebola. Le centre d'isolement créé par les États-Unis au Kenya pour accueillir les ressortissants américains à risque de développer Ebola ouvrira vendredi.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T22:25:39+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/afrique/20260528-ebola-kinshasa-chef-oms-tedros-epidemie-peut-etre-stoppee"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20260528-ebola-kinshasa-chef-oms-tedros-epidemie-peut-etre-stoppee"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "252cb54984",
       "title": "L'Unicef et l'Union européenne envoient 100 tonnes de matériels en République démocratique du Congo",
       "summary": "En RD Congo, ce sont plus de 1000 cas suspects et plus de 240 décès suspects qui ont été enregistrés depuis que le pays a déclaré l’épidémie, le 15 mai dernier. L’OMS évoque une épidémie qui prend de vitesse la riposte. Des membres du gouvernement sont arrivés à Bunia pour évaluer la riposte. L’Union européenne et l’UNICEF ont acheminé 100 tonnes d’aide humanitaire vers la province de l’Ituri.",
@@ -1255,36 +1243,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260528-ebola-en-rdc-des-d%C3%A9fis-persistants-malgr%C3%A9-le-premier-cas-r%C3%A9pertori%C3%A9-de-gu%C3%A9rison-%C3%A0-souche-bundibugyo"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6faea418cf",
-      "title": "2027 - Why I Seek Gombe Governorship Role Under PDP - Pantami",
-      "summary": "[Premium Times] Mr Pantami is under fire for swiftly reversing his past strident criticism of the PDP.",
-      "country": "NGA",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T10:29:10+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605280225.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605280225.html"
         }
       ],
       "confirmation_count": 1
@@ -2400,31 +2358,31 @@
       "confirmation_count": 1
     },
     {
-      "id": "a7ae3ad0fe",
-      "title": "2027 - Donald Duke Emerges Prp Presidential Flag Bearer",
-      "summary": "[Premium Times] The party's National Chairman, Hakeem Baba-Ahmed, who announced at the PRP national secretariat in Abuja, said Mr Duke secured the presidential ticket, having scored the highest votes at the primary election.",
+      "id": "04b500cf06",
+      "title": "NADF, Ospre Partner to Provide Early Warning Information for Farmers, Policymakers",
+      "summary": "[Vanguard] The National Agricultural Development Fund, NADF, and the Office for Strategic Preparedness and Resilience, OSPRE, have signed a Memorandum of Understanding, MoU, to deploy an Agricultural Early Warning System that will provide farmers, policymakers, financial institutions and other stakeholders with timely information for planning and responding to threats affecting food production across the country.",
       "country": "NGA",
-      "category": "POLITIQUE",
+      "category": "AUTRE",
       "severity": 2,
       "credibility": 2,
       "verified": false,
       "theme": null,
-      "legal_status": "ADOPTE",
+      "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "published": "2026-05-28T10:25:04+00:00",
+      "published": "2026-05-28T10:30:14+00:00",
       "lead_source": {
         "id": "aa-nga",
         "name": "AllAfrica · Nigeria",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202605280218.html"
+        "url": "https://allafrica.com/stories/202605280227.html"
       },
       "confirming_sources": [
         {
           "id": "aa-nga",
           "name": "AllAfrica · Nigeria",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202605280218.html"
+          "url": "https://allafrica.com/stories/202605280227.html"
         }
       ],
       "confirmation_count": 1
@@ -2605,36 +2563,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605280048.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "40d6ae51ed",
-      "title": "Le Maroc détrône l'Afrique du Sud en devenant le pays le plus industrialisé d'Afrique",
-      "summary": "Pour la première fois, le royaume chérifien se hisse au rang d'économie la plus industrialisée du continent africain en 2025. C'est ce que révèle un rapport de la BAD, la Banque africaine de développement. Le Maroc profite certes du recul sud-africain, mais c'est aussi le résultat d'une stratégie politique pro-industrie lancée il y a vingt ans.",
-      "country": "MAR",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T03:46:30+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260528-le-maroc-d%C3%A9tr%C3%B4ne-l-afrique-du-sud-en-devenant-le-pays-le-plus-industrialis%C3%A9-d-afrique"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260528-le-maroc-d%C3%A9tr%C3%B4ne-l-afrique-du-sud-en-devenant-le-pays-le-plus-industrialis%C3%A9-d-afrique"
         }
       ],
       "confirmation_count": 1
@@ -3151,6 +3079,126 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605150228.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "260ddad119",
+      "title": "Journal des Assemblées annuelles de la BAD – Jour 4",
+      "summary": "Brazzaville, 29 mai 2026\nLa quatrième journée des Assemblées annuelles de la Banque africaine de développement à Brazzaville a confirmé l’orientation stratégique imprimée à cette édition 2026 : accélérer la mobilisation des ressources africaines pour financer le développement du continent dans un contexte mondial marqué par le recul de l’aide publique, les tensions géopolitiques et la montée des exigences de résilience économique.\nLa BAD publie sa Revue annuelle sur…",
+      "country": "COG",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T23:13:39+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/05/29/journal-des-assemblees-annuelles-de-la-bad-jour-4/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/05/29/journal-des-assemblees-annuelles-de-la-bad-jour-4/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "11a724277a",
+      "title": "En Guinée, une fin de campagne sans grand engouement pour les élections législatives et communales",
+      "summary": "La campagne pour les élections législatives et communales en Guinée est désormais close. Les derniers meetings ont eu lieu ce jeudi 28 mai 2026. Le silence électoral s’impose désormais jusqu’au jour du vote, ce dimanche 31 mai. La campagne s’est déroulée dans le calme, mais sans grand engouement. En effet, la mouvance présidentielle GMD (Génération pour la modernité et le développement) fait face à des adversaires au poids politique réduit, en l’absence des formations…",
+      "country": "GIN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T23:02:57+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260528-en-guin%C3%A9e-une-fin-de-campagne-sans-grand-engouement-pour-les-%C3%A9lections-l%C3%A9gislatives-et-communales"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260528-en-guin%C3%A9e-une-fin-de-campagne-sans-grand-engouement-pour-les-%C3%A9lections-l%C3%A9gislatives-et-communales"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "28e6a999a3",
+      "title": "Dan Assayag dresse le portrait de 18 musiciens africains dans la saison 4 de la série Y’Africa",
+      "summary": "Les multiples visages de la création musicale sur le continent africain sont sous le feu des projecteurs. La saison 4 de la série Y’Africa est sortie il y a quelques jours sur les plateformes Trace Urban. Après les artistes et les sportifs, la série part cette fois à la rencontre des musiciens africains. Y’Africa dresse le portrait de 18 d’entre eux, venus du Rwanda, du Sénégal, du Maroc, du Cameroun ou encore du Ghana, et montre qu’il n’y a pas une mais bien des scènes…",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T22:07:06+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20260528-dan-assayag-dresse-le-portrait-de-18-musiciens-africains-dans-la-saison-4-de-la-s%C3%A9rie-y-africa"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20260528-dan-assayag-dresse-le-portrait-de-18-musiciens-africains-dans-la-saison-4-de-la-s%C3%A9rie-y-africa"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b03b1f2309",
+      "title": "La Tunisie est le pays d'Afrique avec le taux de vieillissement le plus rapide",
+      "summary": "En Tunisie, le vieillissement de la population est devenu un enjeu public après la publication des chiffres du dernier recensement. La part des personnes âgées de plus de 60 ans représente 17 % de la population, faisant de la Tunisie le pays d'Afrique où le taux de vieillissement est le plus rapide : en dix ans le nombre a triplé. Le pays tente de s'adapter à cette nouvelle donne démographique sur le plan tant sociétal que sanitaire.",
+      "country": "TUN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T22:05:04+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260528-la-tunisie-est-le-pays-d-afrique-avec-le-taux-de-vieillissement-le-plus-rapide"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260528-la-tunisie-est-le-pays-d-afrique-avec-le-taux-de-vieillissement-le-plus-rapide"
         }
       ],
       "confirmation_count": 1
@@ -4026,6 +4074,96 @@
       "confirmation_count": 1
     },
     {
+      "id": "af20c0af09",
+      "title": "Oyetola, Others to Discuss Green Ports, Dockworkers' Welfare At 2026 Scan Day",
+      "summary": "[Vanguard] The Minister of Marine and Blue Economy, Adegboyega Oyetola, immediate past President-General of the Maritime Workers Union of Nigeria(MWUN), Adewale Adeyanju, and President of the Nigerian Chamber of Shipping (NCS), Aminu Umar, among others, will gather at the 2026 Shipping Correspondent Association of Nigeria (SCAN) Dockworkers' Day to discuss sustainable practices and improved welfare standards for dockworkers across Nigerian seaports.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T10:29:39+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605280226.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605280226.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8ae2279c48",
+      "title": "Funfare As Ogun Free Trade Zone Celebrates 2026 Children's Day",
+      "summary": "[This Day] Abeokuta -- The Ogun-Guangdong Free Trade Zone (OGFTZ), in partnership with Zone Enterprises, commemorated the 2026 Children's Day Celebration with a colorful and engaging funfair aimed at promoting education, unity, and youth development within its host communities.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T10:28:46+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605280224.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605280224.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f1a1f6e3a1",
+      "title": "NDC - Is Power Play Imminent Between Dickson, Obi and Kwankwaso?",
+      "summary": "[This Day] As the Nigeria Democratic Congress attracts influential opposition figures like Peter Obi and Rabiu Musa Kwankwaso, Leader of the party, Henry Seriake Dickson is pushing to build an institution-driven platform rather than another personality-based coalition, setting the stage for a major contest over the future of opposition politics ahead of 2027. Sunday Aborisade reports.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T10:28:25+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605280223.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605280223.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "6d80e2f30c",
       "title": "Ipob Wants Governors to Honour Biafra Heroes, Says Biafra Day Not Political Ritual",
       "summary": "[This Day] Enugu -- The Indigenous People of Biafra (IPOB) has said that time has come for governors, especially those in the Southeast states and other \"states of Biafraland\" to start participating in marking May 30 as Biafra Heroes Day.",
@@ -4086,6 +4224,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "2d28640591",
+      "title": "NADECO Book Reopens June 12 Wounds, Names Alleged Betrayers of Democracy",
+      "summary": "[This Day] A new book by veteran pro-democracy activist and former spokesman of the National Democratic Coalition (NADECO), Ayo Opadokun, has reopened painful national conversations over the annulment of the June 12, 1993 presidential election.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T10:27:23+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605280221.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605280221.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "85a5f22956",
       "title": "Ekiti - INEC Enlists Media Against Fake News, Says Poll Critical to 2027 Credibility",
       "summary": "[This Day] Ado Ekiti -- The Independent National Electoral Commission (INEC) has called on journalists and media organisations to join forces with it to protect the integrity of the electoral process through factual, balanced and responsible reporting.",
@@ -4111,96 +4279,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605280219.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "89bb75a398",
-      "title": "Abia APC Guber Candidate Seeks Justice for Beheaded Nursing Student",
-      "summary": "[Premium Times] PREMIUM TIMES earlier reported that the victim's decapitated body was discovered on Thursday evening in her hostel room in the Umulogho Community within the Obowo Local Government Area of the state.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T10:24:34+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605280217.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605280217.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ec8b73a3a6",
-      "title": "Omo-Agege Resigns From APC After Losing Senatorial Primary",
-      "summary": "[Premium Times] \"After reviewing recent developments within the APC in Delta State and consulting with my associates and supporters, it is clear that my political objectives and those of my constituents are better served outside the party,\" he said.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T10:24:16+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605280216.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605280216.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "46a9af91b1",
-      "title": "Eid-El-Kabir - Tinubu Urges Tolerance, Unity Among Nigerians",
-      "summary": "[Premium Times] President Tinubu said the Eid-el-Kabir remains a profound reminder of obedience, sacrifice, love for humanity and total submission to the will of Almighty Allah, as demonstrated by Prophet Ibrahim.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T10:23:57+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605280215.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605280215.html"
         }
       ],
       "confirmation_count": 1
@@ -4621,6 +4699,36 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/05/28/togo-media-foot-apres-lessai-transforme-le-devoir-de-durer-tribune/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "78da2788d6",
+      "title": "Argentine : saisie de plus de 700 animaux marins en provenance du Kenya",
+      "summary": "Les autorités argentines ont intercepté plus de 700 animaux marins exotiques à l’aéroport international d’Ezeiza, près de Buenos Aires, dans une cargaison en provenance du Kenya.",
+      "country": "KEN",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T08:44:05+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/28/argentine-saisie-de-plus-de-700-animaux-marins-en-provenance-du-kenya/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/28/argentine-saisie-de-plus-de-700-animaux-marins-en-provenance-du-kenya/"
         }
       ],
       "confirmation_count": 1
@@ -5256,36 +5364,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "043173dc12",
-      "title": "RDC: l’opposition quitte l’hémicycle en plein examen d’un rapport sur le projet de loi référendaire",
-      "summary": "En République démocratique du Congo (RDC), la majorité au pouvoir avance vers l’adoption d’une loi sur le référendum à deux ans de la fin du second mandat de Félix Tshisekedi. L’opposition, qui soupçonne que son objectif est d'imposer un troisième mandat pour le président en place, a claqué la porte de l’hémicycle le 27 mai lors d’une plénière consacrée à l’examen du rapport d’une commission mise en place pour le toilettage de ce texte.",
-      "country": "COD",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-05-28T06:49:41+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260528-rdc-l-opposition-quitte-l-h%C3%A9micycle-en-plein-examen-d-un-rapport-sur-le-projet-de-loi-r%C3%A9f%C3%A9rendaire"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260528-rdc-l-opposition-quitte-l-h%C3%A9micycle-en-plein-examen-d-un-rapport-sur-le-projet-de-loi-r%C3%A9f%C3%A9rendaire"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1387966fad",
       "title": "KeNHA Orders Removal of Structures Along Three Highways, Gives Traders 30-Day Ultimatum",
       "summary": "[Capital FM] Nairobi -- The Kenya National Highways Authority (KeNHA) has issued a 30-day notice to traders, developers and roadside operators to remove unauthorised structures erected along sections of three major roads in the North Rift and Western regions.",
@@ -5431,36 +5509,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/05/28/ghana-les-premiers-ressortissants-ghaneens-ont-ete-rapatries-dafrique-du-sud/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "22c186ed02",
-      "title": "Journal des assemblées de la BAD (jour 3) : les essentiels de Brazzaville",
-      "summary": "Brazzaville, jeudi 28 mai 2026\nÀ LA UNE\nProMISE : 315 millions USD pour transformer l’entrepreneuriat des jeunes au Congo\nBrazzaville a servi, ce mercredi, de caisse de résonance à une ambition congolaise d’envergure : faire de l’entrepreneuriat des jeunes un pilier structurant de la transformation économique nationale. En marge des Assemblées annuelles du Groupe de la Banque africaine de développement, le gouvernement congolais a officiellement présenté le Programme…",
-      "country": "COG",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T05:39:17+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/05/28/journal-des-assemblees-de-la-bad-jour-3-les-essentiels-de-brazzaville-via/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/05/28/journal-des-assemblees-de-la-bad-jour-3-les-essentiels-de-brazzaville-via/"
         }
       ],
       "confirmation_count": 1
@@ -5736,36 +5784,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "25d8e2e4a7",
-      "title": "Ghana: derrière les rapatriements depuis l'Afrique du Sud, des vies bouleversées par la xénophobie",
-      "summary": "Plusieurs centaines de ressortissants ghanéens sont arrivés à Accra, au Ghana, ce mercredi 27 mai 2026, en provenance d’Afrique du Sud, dans un contexte de tensions xénophobes visant les étrangers. Ces derniers mois, le pays a vu se multiplier les manifestations antimigrants, sur fond de chômage et de fortes tensions sociales. Avant leur départ, plusieurs Ghanéens ont accepté de raconter ce qu’ils vivent sur place.",
-      "country": "GHA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T00:39:28+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260528-ghana-derri%C3%A8re-les-rapatriements-depuis-l-afrique-du-sud-des-vies-boulevers%C3%A9es-par-la-x%C3%A9nophobie"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260528-ghana-derri%C3%A8re-les-rapatriements-depuis-l-afrique-du-sud-des-vies-boulevers%C3%A9es-par-la-x%C3%A9nophobie"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5bbc9dca52",
       "title": "Stanislas ZEZE à propos de la note du Sénégal",
       "summary": "Alors que la perspective de la note souveraine du Sénégal vient d’être dégradée de « stable » à « négative » par Bloomfield Investment Corporation, Stanislas Zézé livre son analyse sur les ressorts de cette décision.\n Entre tensions institutionnelles, interrogations sur la continuité des politiques publiques et vigilance accrue des marchés, il décrypte les signaux qui ont conduit l’agence à placer le pays sous surveillance, tout en évaluant les marges de manœuvre dont…",
@@ -5911,36 +5929,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20260527-s%C3%A9n%C3%A9gal-faye-sonko-guerre-ouverte"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e471c9c02b",
-      "title": "Entretien avec Jacqueline Lydia Mikolo, ministre du Commerce, des Approvisionnements et de la Consommation",
-      "summary": "En marge des Assemblées annuelles de la Banque africaine de développement, qui se tiennent du 25 au 29 mai à Brazzaville, Financial Afrik a reçu dans ses locaux Jacqueline Lydia Mikolo, ministre du Commerce, des Approvisionnements et de la Consommation, également en charge de la mise en œuvre de la Zone de libre-échange continentale africaine au Congo.\nDans cet entretien, la ministre revient sur l’état d’avancement du pays dans la mise en œuvre de cet accord continental,…",
-      "country": "COG",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T18:21:38+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/05/27/entretien-avec-jacqueline-lydia-mikolo-ministre-du-commerce-des-approvisionnements-et-de-la-consommation/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/05/27/entretien-avec-jacqueline-lydia-mikolo-ministre-du-commerce-des-approvisionnements-et-de-la-consommation/"
         }
       ],
       "confirmation_count": 1
@@ -7471,36 +7459,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.com/sport/football/articles/c9q351v43dxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4497f0f770",
-      "title": "FOCUS JTA : Fawzia Zouari raconte sa \"Tunisie\" un pays intime, libre et contradictoire",
-      "summary": "Et si l’on parlait de la Tunisie autrement ? Invitée du Journal de l’Afrique sur France 24, la journaliste et écrivaine Fawzia Zouari présente son Dictionnaire amoureux de la Tunisie, un ouvrage intime et politique à la fois. Au micro de Fatimata Wane, elle évoque la mémoire tunisienne, les femmes, la langue, les fractures du pays mais aussi cette identité singulière qui continue de façonner la Tunisie contemporaine.",
-      "country": "TUN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-24T20:29:30+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260524-focus-jta-fawzia-zouari-raconte-sa-tunisie-un-pays-intime-libre-et-contradictoire"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260524-focus-jta-fawzia-zouari-raconte-sa-tunisie-un-pays-intime-libre-et-contradictoire"
         }
       ],
       "confirmation_count": 1
