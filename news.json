@@ -1,30 +1,32 @@
 {
-  "generated_at": "2026-05-28T17:02:23.475054+00:00",
+  "generated_at": "2026-05-28T19:44:40.809784+00:00",
   "stats": {
-    "total_signals": 262,
-    "verified_signals": 9,
-    "countries_covered": 28,
+    "total_signals": 266,
+    "verified_signals": 8,
+    "countries_covered": 29,
     "sources_active": 16,
     "per_country": {
+      "SEN": 45,
+      "GAB": 4,
       "KEN": 40,
-      "COD": 34,
+      "COD": 33,
       "CAF": 2,
-      "NGA": 39,
+      "NGA": 38,
       "COG": 6,
       "MLI": 10,
-      "UGA": 6,
       "MAR": 17,
-      "BFA": 5,
+      "UGA": 6,
+      "BFA": 4,
       "GHA": 11,
-      "SEN": 42,
-      "ZAF": 10,
+      "ZAF": 12,
       "ZWE": 3,
-      "GAB": 3,
       "DZA": 3,
       "CIV": 8,
+      "NER": 1,
+      "BEN": 5,
       "RWA": 3,
       "TCD": 2,
-      "ETH": 2,
+      "ETH": 1,
       "TUN": 2,
       "GIN": 1,
       "GNQ": 1,
@@ -32,7 +34,6 @@
       "MDG": 1,
       "TZA": 1,
       "CMR": 3,
-      "BEN": 4,
       "SLE": 1
     }
   },
@@ -135,6 +136,66 @@
     }
   ],
   "signals": [
+    {
+      "id": "fd668b7507",
+      "title": "Senegalese president pardons journalist over 2018 massacre",
+      "summary": "The president of Senegal has pardoned a journalist convicted to life in prison over a 2018 massacre in the southern Casamance region, the Committee to Protect Journalists watchdog said in a statement.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T18:30:21+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/05/28/senegalese-president-pardons-journalist-over-2018-massacre/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/05/28/senegalese-president-pardons-journalist-over-2018-massacre/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "76f5e48e48",
+      "title": "Naufrage de l’«Esther Miracle» au Gabon en 2023: huit condamnations",
+      "summary": "Au Gabon, le tribunal correctionnel de Libreville a rendu ce jeudi 28 mai sa décision dans le procès du naufrage du navire Esther Miracle en mars 2023 au large de Libreville, dont le bilan officiel est de 34 morts, 7 disparus, et 124 rescapés. Huit accusés sont reconnus coupables de mise en danger de la vie d’autrui, mais les parties civiles ne devraient pas se satisfaire de ce verdict.",
+      "country": "GAB",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T18:12:29+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260528-naufrage-de-l-esther-miracle-au-gabon-en-2023-huit-condamnations"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260528-naufrage-de-l-esther-miracle-au-gabon-en-2023-huit-condamnations"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "a32284b969",
       "title": "Fire kills 16 students at Kenyan girls’ boarding school",
@@ -718,36 +779,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "a97d2363e5",
-      "title": "La RDC attend un anticorps monoclonal pour traiter les cas d'Ebola Bundibugyo",
-      "summary": "Le virus Bundibugyo peut tuer jusqu'à 50 % des personnes infectées. Il est à l'origine de l'épidémie qui frappe l'est de la RDC depuis plusieurs semaines et qui a déjà gagné l'Ouganda. Le 17 mai, l'OMS a déclaré l'urgence de santé publique de portée internationale. Il n'existe ni vaccin homologué ni traitement spécifique contre cette souche. Les scientifiques évaluent en urgence si les vaccins existants contre Ebola, qui ciblent une autre espèce du virus, pourraient…",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T20:10:31+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260527-la-rdc-attend-un-anticorps-monoclonal-pour-traiter-les-cas-d-ebola-bundibugyo"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260527-la-rdc-attend-un-anticorps-monoclonal-pour-traiter-les-cas-d-ebola-bundibugyo"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "ee0f28862e",
       "title": "Carlos Lopes : « La NAFAD doit transformer l’épargne africaine en moteur souverain du développement »",
       "summary": "En marge des Assemblées annuelles 2026 de la Banque africaine de développement à Brazzaville, l’économiste et ancien secrétaire exécutif de la Commission économique des Nations unies pour l’Afrique, Carlos Lopes, est revenu au micro de Financial Afrik sur les enjeux de la Nouvelle architecture financière africaine (NAFAD). Au cœur des échanges : la mobilisation de l’épargne africaine, la réforme des mécanismes de financement du continent et l’urgence de bâtir une…",
@@ -836,42 +867,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "d8d14d8cec",
-      "title": "L'Ouganda ferme la frontière avec la RDC pour tenter de contenir la propagation d'Ebola",
-      "summary": "L'Ouganda a temporairement fermé mercredi 27 mai ses frontières avec la République démocratique du Congo, « face à l'intensification de l'ampleur » de l'épidémie de fièvre hémorragique Ebola chez son voisin, a annoncé une haute responsable du ministère ougandais de la Santé. L'Ouganda a enregistré sept infections confirmées par le variant Bundibugyo du virus, depuis que l'épidémie a été déclarée le 15 mai en Ituri, région du nord-est de la RDC qui lui est frontalière.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T16:45:09+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260527-l-ouganda-ferme-la-fronti%C3%A8re-avec-la-rdc-pour-tenter-de-contenir-la-propagation-d-ebola"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260527-l-ouganda-ferme-la-fronti%C3%A8re-avec-la-rdc-pour-tenter-de-contenir-la-propagation-d-ebola"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/27/louganda-ferme-sa-frontiere-avec-la-rdc-pour-contenir-lepidemie-debola/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "b3acf15e21",
@@ -1534,6 +1529,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "2233ee65fb",
+      "title": "L'Ouganda ferme sa frontière avec la RDC pour contenir l'épidémie d'Ebola",
+      "summary": "Depuis le 15mai, la RDC a enregistré 200 décès liés à Ebola et plus de 900 cas suspects selon l'OMS.",
+      "country": "UGA",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-27T19:59:27+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/27/louganda-ferme-sa-frontiere-avec-la-rdc-pour-contenir-lepidemie-debola/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/27/louganda-ferme-sa-frontiere-avec-la-rdc-pour-contenir-lepidemie-debola/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "456fdc3e43",
       "title": "Uganda shuts border with DR Congo in a bid to contain Ebola outbreak",
       "summary": "Uganda shut its border with the Democratic Republic of Congo on Wednesday in a bid to contain the Ebola outbreak that has hit its neighbour, the health ministry announced.",
@@ -2129,6 +2154,36 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605180014.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bf279b527b",
+      "title": "Comment le Maroc est devenu le champion africain de l’industrie devant l’Afrique du Sud",
+      "summary": "Vingt ans après avoir lancé ses stratégies sectorielles, le royaume devient la première économie industrielle du continent, selon la Banque africaine de développement (BAD), et devance également l’Égypte, l’Algérie et la Tunisie.",
+      "country": "MAR",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T19:42:15+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1799430/economie-entreprises/comment-le-maroc-est-devenu-le-champion-africain-de-lindustrie-devant-lafrique-du-sud/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1799430/economie-entreprises/comment-le-maroc-est-devenu-le-champion-africain-de-lindustrie-devant-lafrique-du-sud/"
         }
       ],
       "confirmation_count": 1
@@ -3100,6 +3155,126 @@
       "confirmation_count": 1
     },
     {
+      "id": "ddb1ab1ee7",
+      "title": "Abrogation du Code noir: «La France regarde dans le miroir de son propre passé»",
+      "summary": "En France, les députés ont voté jeudi 28 mai l’abrogation formelle du Code noir de 1685. Ce texte, qui organisait juridiquement l’esclavage dans les colonies françaises, n’avait jamais été explicitement abrogé malgré l’abolition de l’esclavage en 1848. Analyse du philosophe sénégalais Souleymane Bachir Diagne, professeur émérite à l’université Columbia à New York.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T19:37:08+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/france/20260528-abrogation-du-code-noir-la-france-regarde-dans-le-miroir-de-son-propre-pass%C3%A9"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/france/20260528-abrogation-du-code-noir-la-france-regarde-dans-le-miroir-de-son-propre-pass%C3%A9"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "155bbf6c70",
+      "title": "Sénégal ; un journaliste condamné à la perpétuité gracié par le président",
+      "summary": "Bassene avait consacré la majeure partie de sa carrière à couvrir le conflit entre le MFDC et le gouvernement sénégalais.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T19:22:06+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/28/senegal-un-journaliste-condamne-a-la-perpetuite-gracie-par-le-president/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/28/senegal-un-journaliste-condamne-a-la-perpetuite-gracie-par-le-president/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f0a36c9410",
+      "title": "Niger : la bataille de l’uranium, entre blocages judiciaires et impasse commerciale",
+      "summary": "Nationalisé en 2025, l’uranium nigérien ne trouve toujours pas preneur. Blocages judiciaires d’Orano, piste iranienne désormais fermée, corridors logistiques… La junte est prise en étau entre affichage d’une souveraineté retrouvée et dépendance aux circuits internationaux.",
+      "country": "NER",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T19:08:55+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1799220/economie-entreprises/niger-la-bataille-de-luranium-entre-blocages-judiciaires-et-impasse-commerciale/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1799220/economie-entreprises/niger-la-bataille-de-luranium-entre-blocages-judiciaires-et-impasse-commerciale/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3c8eb38e1b",
+      "title": "Parliament sets first meeting in Ramaphosa ‘farmgate’ impeachment case",
+      "summary": "South Africa’s Parliament will on Monday hold the first meeting of a special committee to examine allegations in the “Farmgate” scandal involving President Cyril Ramaphosa.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T18:01:49+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/05/28/parliament-sets-first-meeting-in-ramaphosa-farmgate-impeachment-case/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/05/28/parliament-sets-first-meeting-in-ramaphosa-farmgate-impeachment-case/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "211ff799ef",
       "title": "Mali: Mahamane Maïga, voix critique de la Transition, détenu à Tombouctou sans procédure légale",
       "summary": "Au Mali, Mahamane Maïga a été interpelé à Tombouctou lundi dernier 25 mai. Depuis, ses proches sont sans nouvelles. Voix critique des autorités, Mahamane Maïga n’exerce aucune responsabilité, mais les messages, souvent virulents, qu’il diffuse sur des groupes WhatsApp lui ont valu d’être interpellé par la police. Depuis lundi, son lieu de détention n’a pas été communiqué à sa famille et Mahamane Maïga est emprisonné en dehors de toute procédure légale.",
@@ -3125,6 +3300,66 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260528-mali-mahamane-ma%C3%AFga-voix-critique-de-la-transition-d%C3%A9tenu-%C3%A0-tombouctou-sans-proc%C3%A9dure-l%C3%A9gale"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "81fd3978a5",
+      "title": "Première réunion de la commission chargée de la procédure de destitution de Ramaphosa",
+      "summary": "Le Parlement sud-africain a fixé à lundi la première réunion d'une commission d'enquête chargée d'examiner les allégations relatives au scandale « Farmgate » impliquant le président Cyril Ramaphosa.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T16:24:48+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/05/28/premiere-reunion-de-la-commission-chargee-de-la-procedure-de-destitution-de-ramaphosa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/05/28/premiere-reunion-de-la-commission-chargee-de-la-procedure-de-destitution-de-ramaphosa/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "162cca7194",
+      "title": "Les députés français abrogent formellement le Code noir: «La question des réparations reste ouverte»",
+      "summary": "Les députés français ont voté ce jeudi 28 mai à l’unanimité l’abrogation formelle du Code noir de 1685. Ce texte, qui organisait juridiquement l’esclavage dans les colonies françaises, n’avait jamais été explicitement abrogé malgré l’abolition de l’esclavage en 1848. Dieudonné Gnammankou, historien enseignant à l'université d’Abomey-Calavi au Bénin et spécialiste de la traite négrière, est l’invité d’Afrique midi.",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T15:46:17+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260528-les-d%C3%A9put%C3%A9s-fran%C3%A7ais-abrogent-formellement-le-code-noir-la-question-des-r%C3%A9parations-reste-ouverte"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260528-les-d%C3%A9put%C3%A9s-fran%C3%A7ais-abrogent-formellement-le-code-noir-la-question-des-r%C3%A9parations-reste-ouverte"
         }
       ],
       "confirmation_count": 1
@@ -3695,6 +3930,36 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/05/28/aerospace-and-automotive-sectors-put-morocco-top-of-africas-industrialisation-index/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a21d5c8cca",
+      "title": "2027 - FHC Opens Registries Weekends, Public Holidays for Pre-Election Cases",
+      "summary": "[Vanguard] The Federal High Court (FHC) says its registries in all the divisions of the court will officially be open to lawyers on weekends and public holidays for filing of pre-election cases.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T10:48:56+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605280247.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605280247.html"
         }
       ],
       "confirmation_count": 1
@@ -4930,36 +5195,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "95d45106bf",
-      "title": "32 African Countries Now Spend More On Debt Servicing Than Healthcare - Experts",
-      "summary": "[Premium Times] One of the experts said Africa's debt crisis should not be viewed only through economic indicators but through its impact on ordinary citizens",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T07:30:16+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605280112.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605280112.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5d675fc37f",
       "title": "Inside Details of Abandoned Security Building That Leaves Nasarawa Community Defenceless Against Bandits",
       "summary": "[Premium Times] For years, the people of Bakono and its neighbouring communities had lived under the suffocating grip of bandits and kidnappers.",
@@ -5290,36 +5525,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "4852e7ba2f",
-      "title": "'By the Grace of God - ' Olympics Bronze Medalist Reveals How Serious Illness Threatened Athletics Career",
-      "summary": "[Capital FM] NAIROBI, Kenya, May 27, 2026 - Olympics 800m bronze medalist Mary Moraa reveals she almost gave up on athletics due to a serious illness.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-28T05:13:16+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202605280053.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202605280053.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "54c1cf1a35",
       "title": "Kariobangi Sharks Drown in Relegation Waters As Ulinzi Stars Survive By Skin of Teeth",
       "summary": "[Capital FM] NAIROBI, Kenya, May 27, 2026 - Kariobangi Sharks' era in the top flight may well be over after a 1-1 draw with defending champions Kenya Police in a Football Kenya Federation (FKF) Premier League tie at the Police Sacco on Wednesday evening.",
@@ -5470,6 +5675,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "d5a5cb2f85",
+      "title": "Rachel Ruto Calls for Two Months of Prayer and Fasting for Kenya in June and July",
+      "summary": "[Capital FM] Nairobi -- First Lady Rachel Ruto has called on Kenyans to dedicate the months of June and July to intensive prayer and fasting for national unity, peace, and spiritual renewal.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-05-28T04:24:51+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202605280015.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202605280015.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ba1276fe3f",
       "title": "Senegalese Journalist Ren&#xE9; Capain Bass&#xE8;ne Released After Over 8 Years in Detention",
       "summary": "[CPJ] Dakar -- CPJ welcomes the release of journalist and writer René Capain Bassène, who had been detained since 2018 in Senegal. Bassène was sentenced to life in prison on charges of complicity in murder and attempted murder, crimes that CPJ reporting found he could not have committed.",
@@ -5560,36 +5795,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "42fd531e03",
-      "title": "Burkina Faso: une association étudiante suspendue, certains de ses membres interpellés",
-      "summary": "Au Burkina Faso, l'Union générale des étudiants du Burkina (Ugeb), la plus importante association d'étudiants du pays, a été suspendue pour trois mois, et des leaders, dont le nombre n'a pas été communiqué, ont été interpellés et conduits vers une destination inconnue. En cause: une déclaration du 19 mai, dans laquelle l'association dénonçait le manque de résultats dans le pays sur le plan de la lutte contre le terrorisme, malgré l'acquisition d'importants équipements…",
-      "country": "BFA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "MA_GOUV",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": true,
-      "published": "2026-05-28T03:14:56+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260528-burkina-faso-une-association-%C3%A9tudiante-suspendue-certains-de-ses-membres-interpell%C3%A9s"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260528-burkina-faso-une-association-%C3%A9tudiante-suspendue-certains-de-ses-membres-interpell%C3%A9s"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "25d8e2e4a7",
       "title": "Ghana: derrière les rapatriements depuis l'Afrique du Sud, des vies bouleversées par la xénophobie",
       "summary": "Plusieurs centaines de ressortissants ghanéens sont arrivés à Accra, au Ghana, ce mercredi 27 mai 2026, en provenance d’Afrique du Sud, dans un contexte de tensions xénophobes visant les étrangers. Ces derniers mois, le pays a vu se multiplier les manifestations antimigrants, sur fond de chômage et de fortes tensions sociales. Avant leur départ, plusieurs Ghanéens ont accepté de raconter ce qu’ils vivent sur place.",
@@ -5645,36 +5850,6 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/05/27/stanislas-zeze-a-propos-de-la-note-du-senegal/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "27fa64525c",
-      "title": "Au Maroc, l'Aïd el-Kébir marqué par le retour du sacrifice des moutons",
-      "summary": "Les Marocains ont pu retrouver cette année le plaisir de fêter la Tabaski avec le rituel du sacrifice. L’année dernière, le roi du Maroc Mohammed VI avait invité ses compatriotes à s’abstenir d’accomplir le sacrifice de l’Aïd el-Kébir, afin de permettre la reconstitution du cheptel et de préserver les porte-monnaies alors que les prix atteignaient des sommets. Une décision extrêmement rare, qui n’avait été prise qu’à trois reprises dans l’histoire récente du Maroc. Si la…",
-      "country": "MAR",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T21:47:21+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260527-au-maroc-l-a%C3%AFd-el-k%C3%A9bir-marqu%C3%A9-par-le-retour-du-sacrifice-des-moutons"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260527-au-maroc-l-a%C3%AFd-el-k%C3%A9bir-marqu%C3%A9-par-le-retour-du-sacrifice-des-moutons"
         }
       ],
       "confirmation_count": 1
@@ -6460,36 +6635,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "12f11b78ff",
-      "title": "Africa Day celebrations spotlight unity, youth and global ambition",
-      "summary": "African leaders and young representatives gathered at the African Union headquarters in Addis Ababa to mark Africa Day, celebrating the continent’s growing global influence while calling for stronger unity, innovation and youth leadership in shaping Africa’s future.",
-      "country": "ETH",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-27T08:43:03+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/05/27/africa-day-celebrations-spotlight-unity-youth-and-global-ambition/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/05/27/africa-day-celebrations-spotlight-unity-youth-and-global-ambition/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "71a95f801d",
       "title": "Maroc : comment Attijari veut contrer l’offensive de Revolut avec sa néobanque Simple.",
       "summary": "Face à la menace des fintechs étrangères, Attijariwafa Bank mise sur Simple. pour conquérir le marocain connecté avant ses concurrents. La néobanque bouscule les usages, mais aussi le cadre réglementaire.",
@@ -7055,36 +7200,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202605260477.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f0f8d75e63",
-      "title": "Comment Aig-Imoukhuede veut financer les futurs géants industriels africains",
-      "summary": "Le groupe nigérian Access Bank se prépare à une introduction en Bourse à Londres. Une stratégie pour s’affranchir des primes de risque africaines et financer les champions industriels du continent.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-26T10:38:01+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1798218/economie-entreprises/comment-aig-imoukhuede-veut-financer-les-futurs-geants-industriels-africains/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1798218/economie-entreprises/comment-aig-imoukhuede-veut-financer-les-futurs-geants-industriels-africains/"
         }
       ],
       "confirmation_count": 1
