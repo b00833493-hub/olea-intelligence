@@ -1,34 +1,35 @@
 {
-  "generated_at": "2026-06-02T11:42:23.850162+00:00",
+  "generated_at": "2026-06-02T16:54:26.465983+00:00",
   "stats": {
-    "total_signals": 276,
-    "verified_signals": 9,
-    "countries_covered": 23,
+    "total_signals": 277,
+    "verified_signals": 8,
+    "countries_covered": 24,
     "sources_active": 16,
     "per_country": {
-      "KEN": 47,
-      "COD": 35,
-      "NGA": 47,
+      "COD": 31,
+      "KEN": 45,
       "ZAF": 10,
+      "NGA": 45,
       "MOZ": 1,
       "CMR": 4,
-      "RWA": 7,
-      "SEN": 33,
-      "GIN": 3,
-      "DZA": 4,
-      "MAR": 17,
-      "CIV": 13,
-      "BEN": 10,
-      "GHA": 8,
+      "RWA": 5,
+      "SEN": 35,
+      "GIN": 4,
+      "MAR": 18,
+      "CIV": 15,
+      "BEN": 8,
+      "GHA": 14,
+      "GAB": 2,
       "UGA": 1,
       "ETH": 20,
       "ZWE": 1,
       "MDG": 3,
-      "GAB": 1,
-      "BFA": 3,
-      "TUN": 1,
-      "TCD": 1,
-      "MLI": 6
+      "CAF": 1,
+      "TCD": 2,
+      "DZA": 2,
+      "MLI": 7,
+      "BFA": 2,
+      "TUN": 1
     }
   },
   "sources": [
@@ -131,6 +132,36 @@
   ],
   "signals": [
     {
+      "id": "123d82dd87",
+      "title": "DR Congo airport reopens in Ebola-hit area as suspected cases drop",
+      "summary": "The sole airport providing humanitarian organisations access to the epicentre of an Ebola outbreak in the Democratic Republic of Congo reopened on Tuesday, when the reported number of suspected cases declined",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T16:24:51+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/02/dr-congo-airport-reopens-in-ebola-hit-area-as-suspected-cases-drop/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/02/dr-congo-airport-reopens-in-ebola-hit-area-as-suspected-cases-drop/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d0adef3ca1",
       "title": "Two people shot dead amid Kenya protests against US Ebola quarantine centre plan",
       "summary": "The US plan has sparked public anger and led to demonstrations near the site of the proposed treatment facility.",
@@ -143,7 +174,7 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "published": "2026-06-02T10:53:37+00:00",
+      "published": "2026-06-02T15:58:23+00:00",
       "lead_source": {
         "id": "bbc-afr",
         "name": "BBC Africa",
@@ -156,6 +187,186 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.com/news/articles/cvgz7zny3pzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4b2255f8d6",
+      "title": "Kenya faces backlash over proposed U.S.-funded Ebola facility",
+      "summary": "Protests against a planned U.S.-funded Ebola quarantine facility in Kenya have intensified, leaving one person reportedly dead and prompting legal challenges.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T15:39:40+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/02/kenya-faces-backlash-over-proposed-us-funded-ebola-facility/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/02/kenya-faces-backlash-over-proposed-us-funded-ebola-facility/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8996a5e909",
+      "title": "Lenana School Closed Indefinitely Following Night of Student Unrest",
+      "summary": "[Capital FM] Nairobi -- Lenana School has been closed indefinitely following Monday night unrest by students, adding to growing concern over a fresh wave of instability in Kenyan schools just days after a deadly dormitory fire at a Gilgil school claimed 16 lives.",
+      "country": "KEN",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T15:06:05+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020629.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020629.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "dddda48605",
+      "title": "South Africa police investigate killing of two Mozambican men",
+      "summary": "The deaths come after a day of violent protests against illegal migration in the town of Mossel Bay.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T14:51:55+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.com/news/articles/clyp4e87dq6o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.com/news/articles/clyp4e87dq6o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "20a62aa623",
+      "title": "Kenyan president defends controversial US-backed Ebola facility",
+      "summary": "Kenya's president on Tuesday defended the opening of an Ebola quarantine centre for US nationals after a court halted the plan and security forces teargassed protesters fearing the deadly virus could spread in the country",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:42:18+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/02/kenyan-president-defends-controversial-us-backed-ebola-facility/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/02/kenyan-president-defends-controversial-us-backed-ebola-facility/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2c292dad9e",
+      "title": "Akwa Ibom Teachers Join Nationwide Protest Over Oyo Abduction Incident, Shut Down Schools",
+      "summary": "[Premium Times] Teachers nationwide are holding a peaceful rally on Tuesday to protest the abduction of their colleagues and pupils from schools in Oyo State. The victims are still in captivity for over two weeks now.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:13:52+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020472.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020472.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9374ac8122",
+      "title": "Gunmen Kill Eight, Injure 10 in Fresh Plateau Attack",
+      "summary": "[Premium Times] At least eight people were killed, and 10 others were injured after gunmen attacked Gwon-Ajang village in Barkin Ladi Local Government Area of Plateau State during a birthday celebration.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:13:27+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020471.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020471.html"
         }
       ],
       "confirmation_count": 1
@@ -251,6 +462,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "2d9da34eb3",
+      "title": "Mozambique says five citizens killed in South Africa 'xenophobic attack'",
+      "summary": "The government said about 800 people were impacted by the violence that broke out in the coastal town of Mossel Bay on Friday.",
+      "country": "MOZ",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T08:30:28+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/02/mozambique-says-five-citizens-killed-in-south-africa-xenophobic-attack/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/02/mozambique-says-five-citizens-killed-in-south-africa-xenophobic-attack/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "74defaa468",
       "title": "They Can't Burn Away Our Pain, Bayelsa Community Mourns Lake Killed By Oil, Fire",
       "summary": "[Vanguard] TEIN BISENI--Five months after a crude oil spill polluted Tein in Biseni Kingdom, Yenagoa Local Government Area of Bayelsa State, fire has finished what the pipeline began, leaving the environment scorched and lake dead.",
@@ -339,42 +580,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "e3369638fa",
-      "title": "Mozambique says 5 citizens killed in ‘xenophobic attacks’ in South Africa",
-      "summary": "The violence prompted 300 Mozambicans to return home over the weekend.",
-      "country": "MOZ",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T07:54:37+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/6/2/mozambique-says-5-citizens-killed-in-xenophobic-attacks-in-south-africa?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/6/2/mozambique-says-5-citizens-killed-in-xenophobic-attacks-in-south-africa?traffic_source=rss"
-        },
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/02/mozambique-says-five-citizens-killed-in-south-africa-xenophobic-attack/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "5fc936bed3",
@@ -749,66 +954,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2ac0176396",
-      "title": "Algérie : il y a trente ans, la mort des moines de Tibhirine",
-      "summary": "Le 30 mai 1996, les têtes des sept moines de Tibhirine étaient retrouvées à quelques kilomètres de Médéa, victimes de la décennie noire algérienne. Il y a dix ans, Jeune Afrique avait rencontré l’un des survivants, frère Jean-Pierre Schumacher, décédé en 2021.",
-      "country": "DZA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-30T10:00:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1799502/societe/algerie-il-y-a-trente-ans-la-mort-des-moines-de-tibhirine/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1799502/societe/algerie-il-y-a-trente-ans-la-mort-des-moines-de-tibhirine/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "53423544ee",
-      "title": "Kenya : l’angoisse des familles de victimes après l’incendie d’un pensionnat",
-      "summary": "Face au manque d’informations, les proches tentent toujours d’obtenir des réponses sur le sort des victimes",
-      "country": "KEN",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-30T09:03:32+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/30/kenya-langoisse-des-familles-de-victimes-apres-lincendie-dun-pensionnat/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/30/kenya-langoisse-des-familles-de-victimes-apres-lincendie-dun-pensionnat/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2392d38e2c",
       "title": "Parents of Kenya school fire victims await official identification",
       "summary": "Police say eight students have been arrested in connection with the suspected arson attack in which 16 pupils died.",
@@ -864,36 +1009,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/05/30/kenyan-court-orders-suspension-of-planned-us-ebola-quarantine-facility/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "eceff4f1de",
-      "title": "Race against Ebola: UNICEF, WHO and EU rush aid to Congo",
-      "summary": "More than 100 metric tons of emergency humanitarian supplies are being airlifted into the Democratic Republic of the Congo as UNICEF, the EU and WHO intensify efforts to contain a fast-spreading Ebola outbreak that has already infected more than 120 people.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-29T18:37:25+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/05/29/race-against-ebola-unicef-who-and-eu-rush-aid-to-congo/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/05/29/race-against-ebola-unicef-who-and-eu-rush-aid-to-congo/"
         }
       ],
       "confirmation_count": 1
@@ -1019,6 +1134,156 @@
       "confirmation_count": 1
     },
     {
+      "id": "b207044f4d",
+      "title": "Three Students Arrested As Barding Boys High School Shut Down Over Fire Threat",
+      "summary": "[Capital FM] Kisumu -- Barding Boys High School in Alego Usonga Constituency has been closed indefinitely following the discovery of an alleged arson plot that led to the arrest of three students.",
+      "country": "KEN",
+      "category": "SINISTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T15:05:25+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020628.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020628.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "204be63248",
+      "title": "Ebola en RDC: réouverture de l’aéroport de Bunia, ville du nord-est du pays",
+      "summary": "En RDC, les autorités ont communiqué leur dernier bilan concernant l’épidémie d’Ebola. Il y a désormais 321 cas confirmés, 48 décès confirmés là-aussi, 238 patients sont isolés à ce jour et 6 personnes ont pu rentrer chez elles après guérison. L’épicentre reste dans la province de l’Ituri, avec 15 zones de santé touchées sur 36, principalement autour de Bunia, la capitale provinciale d’où s’organise la riposte. Un déploiement qui a été compliqué par la fermeture il y a…",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:41:11+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260602-ebola-en-rdc-r%C3%A9ouverture-de-l-a%C3%A9roport-de-bunia-ville-du-nord-est-du-pays"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260602-ebola-en-rdc-r%C3%A9ouverture-de-l-a%C3%A9roport-de-bunia-ville-du-nord-est-du-pays"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4d4df05f5a",
+      "title": "Gunmen Attack Convoy of Soludo's Chief of Staff, Kill Police Officers, Others",
+      "summary": "[Premium Times] Like other states in the South-east, security has deteriorated in Anambra State with frequent attacks by armed persons in recent times.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:12:04+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020466.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020466.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c2a8074310",
+      "title": "China Dispatches Medical Experts to DRC As International Support Grows in Fight Against Ebola",
+      "summary": "[Capital FM] Nairobi -- China has deployed a specialized medical expert team to the Democratic Republic of the Congo (DRC) to support efforts to contain the ongoing Ebola outbreak caused by the Bundibugyo strain, as international partners intensify assistance to the Central African nation.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:11:38+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020465.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020465.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "769252344c",
+      "title": "Le président kenyan défend un centre de traitement d'Ebola face aux critiques",
+      "summary": "Selon des responsables américains, le centre devait ouvrir la semaine dernière dans ce pays d'Afrique de l'Est afin de mettre en quarantaine les Américains arrivant de la République démocratique du Congo (RDC), qui est confrontée à une grave épidémie d'Ebola.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:07:53+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/02/le-president-kenyan-defend-un-centre-de-traitement-debola-face-aux-critiques/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/02/le-president-kenyan-defend-un-centre-de-traitement-debola-face-aux-critiques/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d60b172601",
       "title": "RDC : l’aéroport de Bunia rouvre malgré l’épidémie d’Ebola",
       "summary": "Les autorités de la République démocratique du Congo ont annoncé la réouverture de l’aéroport de Bunia, principal point d’accès aérien de la province de l’Ituri, épicentre de l’épidémie d’Ebola qui touche actuellement l’est du pays.",
@@ -1047,48 +1312,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "19c8ff5ae9",
-      "title": "🇸🇳 Sénégal : un nouveau gouvernement boycotté par Sonko",
-      "summary": "La rupture politique se creuse au #Sénégal : le président sénégalais a nommé un nouveau gouvernement, alors que le chef de file du #Pastef  et ancien Premier ministre Ousmane #Sonko, avait annoncé que son parti n’y participerait pas, invoquant des \"points de désaccord\" avec le président #Faye.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 3,
-      "credibility": 5,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T10:45:40+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260602-%F0%9F%87%B8%F0%9F%87%B3-s%C3%A9n%C3%A9gal-un-nouveau-gouvernement-boycott%C3%A9-par-sonko"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260602-%F0%9F%87%B8%F0%9F%87%B3-s%C3%A9n%C3%A9gal-un-nouveau-gouvernement-boycott%C3%A9-par-sonko"
-        },
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1800351/politique/au-senegal-un-nouveau-gouvernement-sans-pastef-acte-la-cohabitation-entre-diomaye-et-sonko/"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/02/senegal-la-dette-epine-dans-le-pied-du-nouveau-gouvernement/"
-        }
-      ],
-      "confirmation_count": 3
     },
     {
       "id": "a3eead3d61",
@@ -1391,42 +1614,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "35201c15d0",
-      "title": "Sénégal: le président Faye nomme un gouvernement sans la participation du Pastef de Sonko",
-      "summary": "Le président sénégalais Bassirou Diomaye Faye a nommé, lundi 1er juin 2026, un nouveau gouvernement sans la participation de son parti, le Pastef, dirigé par son ex-Premier ministre et compagnon de route de longue date, Ousmane Sonko, qui a fait part de « désaccord » entre les deux hommes autour de la constitution de la liste, a annoncé le gouvernement.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 3,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T21:26:18+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260601-s%C3%A9n%C3%A9gal-le-pr%C3%A9sident-faye-nomme-un-gouvernement-sans-la-participation-du-pastef-de-sonko"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260601-s%C3%A9n%C3%A9gal-le-pr%C3%A9sident-faye-nomme-un-gouvernement-sans-la-participation-du-pastef-de-sonko"
-        },
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260601-s%C3%A9n%C3%A9gal-le-pastef-d-ousmane-sonko-ne-participera-pas-au-nouveau-gouvernement"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "003c293174",
       "title": "Ebola en RDC: sur quoi se fondent les autorités pour l'annonce d'une fin de l'épidémie avant 2027?",
       "summary": "L'épidémie d'Ebola Bundibugyo, qui sévit dans l'est de la RDC, est considérée comme la deuxième pire épidémie d'Ebola de l'histoire. À Kinshasa, les autorités affichent une certaine confiance et affirment que l'épidémie peut être vaincue avant 2027. Une posture qui s'appuie sur des arguments précis.",
@@ -1517,66 +1704,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "51baf92725",
-      "title": "Police Clash With Nanyuki Protesters Over Proposed Ebola Facility As Tensions Escalate",
-      "summary": "[Capital FM] Nairobi -- Anti-riot police clashed with hundreds of protesters in Nanyuki on Monday as demonstrations against a proposed Ebola quarantine and isolation facility at Laikipia Airbase turned chaotic, prompting security officers to fire tear gas and shoot in the air to disperse crowds.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T13:17:34+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606010518.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606010518.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "fcb2eae2a1",
-      "title": "Ebola en RDC: dernier jour de visite du directeur de l’OMS avec un entretien avec le président Tshisekedi",
-      "summary": "Le directeur de l’Organisation mondiale de la santé (OMS) doit quitter Kinshasa ce lundi 1er juin dans la soirée après un entretien avec le président Félix Tshisekedi. La fin d’un déplacement de plusieurs jours dans le pays pour Tedros Ghebreyesus qui s’est notamment rendu à Bunia, qui est aujourd’hui l’épicentre de l’épidémie d’Ebola. C’est là que se concentre une partie de la réponse pour contenir la propagation de la maladie. Et sur place, il a retrouvé une délégation…",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T12:49:50+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260601-ebola-en-rdc-dernier-jour-de-visite-du-directeur-de-l-oms-avec-un-entretien-avec-le-pr%C3%A9sident-tshisekedi"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260601-ebola-en-rdc-dernier-jour-de-visite-du-directeur-de-l-oms-avec-un-entretien-avec-le-pr%C3%A9sident-tshisekedi"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6af75a6f47",
       "title": "UK wins court case over collapsed Rwanda asylum deal",
       "summary": "The UK does not need to pay Rwanda after it pulled a deal between the two countries, a court has ruled.",
@@ -1602,36 +1729,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.com/news/articles/cy526klrk20o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b04596828d",
-      "title": "Nigeria police warn against reprisal attacks against South Africans",
-      "summary": "Tensions have been rising in South Africa in recent weeks following several anti-migrant protests.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T10:02:49+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.com/news/articles/ce8prypdpz6o?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.com/news/articles/ce8prypdpz6o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
@@ -1757,126 +1854,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "bb4763b6f0",
-      "title": "Ebola en RD Congo : le directeur de l'OMS se rend à Bunia, épicentre de l'épidémie",
-      "summary": "Tedros Gebreyesus, directeur général de l'Organisation mondiale de la santé a atterri ce samedi à Bunia, capitale de la province de l'Ituri, et épicentre de l'épidémie d'Ebola qui progresse dans l'est de la RDC.  246 décès sur plus de 1000 cas suspects y ont été enregistrés. L'OMS a déclenché une alerte sanitaire internationale et pour son directeur la bataille contre cette maladie doit se faire  en étroite collaboration avec les communautés.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-31T11:25:15+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260531-ebola-en-rd-congo-le-directeur-de-l-oms-se-rend-%C3%A0-bunia-%C3%A9picentre-de-l-%C3%A9pid%C3%A9mie"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260531-ebola-en-rd-congo-le-directeur-de-l-oms-se-rend-%C3%A0-bunia-%C3%A9picentre-de-l-%C3%A9pid%C3%A9mie"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "62fbc0ffdb",
-      "title": "En RDC, le patron de l'OMS appelle à la mobilisation contre Ebola",
-      "summary": "Le directeur général de l'OMS s'est rendu à Bunia, en RDC, pour coordonner la réponse sanitaire à l'épidémie d'Ebola qui frappe le pays.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-30T21:12:03+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260530-en-rdc-le-patron-de-l-oms-appelle-%C3%A0-la-mobilisation-contre-ebola"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260530-en-rdc-le-patron-de-l-oms-appelle-%C3%A0-la-mobilisation-contre-ebola"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "23708ae1dd",
-      "title": "Ebola : en visite en RDC, le patron de l'OMS estime qu'il est possible de \"mettre fin à l'épidémie\"",
-      "summary": "Le directeur de l'Organisation mondiale de la santé, Tedros Adhanom Ghebreyesus, s'est rendu samedi dans la province de l'Ituri, dans l'est de la République démocratique du Congo, épicentre de l'épidémie Ebola. S'il s'est voulu rassurant sur la capacité à vaincre l'épidémie, il a appelé à davantage de soutien face au manque de personnel médical déployé sur le terrain, notamment dans les zones rurales.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-30T17:10:38+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260530-ebola-en-visite-en-rdc-le-patron-de-l-oms-estime-qu-il-est-possible-de-mettre-fin-%C3%A0-l-%C3%A9pid%C3%A9mie"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260530-ebola-en-visite-en-rdc-le-patron-de-l-oms-estime-qu-il-est-possible-de-mettre-fin-%C3%A0-l-%C3%A9pid%C3%A9mie"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "94c53aeedc",
-      "title": "RDC : le chef de l'OMS est arrivé en Ituri, épicentre de l'épidémie d'Ebola",
-      "summary": "Le directeur général de l’OMS Tedros Adhanom Ghebreyesus, en RDC depuis jeudi, a atterri samedi à l’aéroport international de Bunia",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-30T13:32:26+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/30/rdc-le-chef-de-loms-est-arrive-en-ituri-epicentre-de-lepidemie-debola/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/30/rdc-le-chef-de-loms-est-arrive-en-ituri-epicentre-de-lepidemie-debola/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "3414e63534",
       "title": "WHO chief visits town at the epicentre of Ebola outbreak in DR Congo",
       "summary": "Speaking on his arrival in Bunia, Dr Tedros Adhanom Ghebreyesus, called on communities to play a central role in fighting the disease.",
@@ -1902,66 +1879,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/05/30/who-chief-visits-town-at-the-epicentre-of-ebola-outbreak-in-dr-congo/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "44580f724c",
-      "title": "RDC : l’aide internationale se mobilise contre Ebola",
-      "summary": "En République démocratique du Congo, la mobilisation internationale s’intensifie face à la progression de l’épidémie d’Ebola dans le nord-est du pays.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-29T15:57:48+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/29/rdc-laide-internationale-se-mobilise-contre-ebola/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/29/rdc-laide-internationale-se-mobilise-contre-ebola/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8c4f8cddc9",
-      "title": "Community outreach key to stopping Ebola outbreak, says Red Cross, as Uganda confirms 2 new cases",
-      "summary": "Community outreach is key to stopping the Ebola outbreak, say Red Cross workers in the DRC's Ituri province, as across the border in Uganda, two new cases have been identified.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-29T14:25:33+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/05/29/community-outreach-key-to-stopping-ebola-outbreak-says-red-cross-as-uganda-confirms-2-new-/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/05/29/community-outreach-key-to-stopping-ebola-outbreak-says-red-cross-as-uganda-confirms-2-new-/"
         }
       ],
       "confirmation_count": 1
@@ -2147,6 +2064,258 @@
       "confirmation_count": 1
     },
     {
+      "id": "35e00acd95",
+      "title": "Mines en RDC : comment la hausse des redevances bouscule les calculs de la filière lithium",
+      "summary": "En portant la redevance sur le lithium à 10 %, l’État congolais augmente ses royalties. Au risque de rendre son minerai moins compétitif ?",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T17:04:21+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1799998/economie-entreprises/mines-en-rdc-comment-la-hausse-des-redevances-bouscule-les-calculs-de-la-filiere-lithium/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1799998/economie-entreprises/mines-en-rdc-comment-la-hausse-des-redevances-bouscule-les-calculs-de-la-filiere-lithium/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "89d5a3037d",
+      "title": "Au Sénégal, un nouveau gouvernement sans le Pastef d'Ousmane Sonko",
+      "summary": "Le président sénégalais Bassirou Diomaye Faye a nommé, lundi 1er juin 2026, un nouveau gouvernement sans la participation de son parti, le Pastef, dirigé par son ex-Premier ministre et compagnon de route de longue date, Ousmane Sonko.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 5,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T14:32:04+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260602-au-s%C3%A9n%C3%A9gal-un-nouveau-gouvernement-sans-le-pastef-d-ousmane-sonko"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260602-au-s%C3%A9n%C3%A9gal-un-nouveau-gouvernement-sans-le-pastef-d-ousmane-sonko"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/02/senegal-la-dette-epine-dans-le-pied-du-nouveau-gouvernement/"
+        },
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1800351/politique/au-senegal-un-nouveau-gouvernement-sans-pastef-acte-la-cohabitation-entre-diomaye-et-sonko/"
+        }
+      ],
+      "confirmation_count": 3
+    },
+    {
+      "id": "c4ea83827a",
+      "title": "Sénégal: un gouvernement avec cinq ministres issus du Pastef, malgré la consigne de non-participation du parti",
+      "summary": "Le président sénégalais a nommé le 1er juin 2026 un nouveau gouvernement où figurent cinq membres des Patriotes africains du Sénégal pour le travail, l'éthique et la fraternité (Pastef) d'Ousmane Sonko, qui a pourtant annoncé la non-participation de son parti. L'annonce du nouveau gouvernement intervient une dizaine de jours après le limogeage par Bassirou Diomaye Faye – également issu du Pastef – d'Ousmane Sonko, devenu depuis le président de l'Assemblée nationale.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T13:48:55+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260602-s%C3%A9n%C3%A9gal-un-gouvernement-avec-cinq-ministres-issus-du-pastef-malgr%C3%A9-la-consigne-de-non-participation-du-parti"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260602-s%C3%A9n%C3%A9gal-un-gouvernement-avec-cinq-ministres-issus-du-pastef-malgr%C3%A9-la-consigne-de-non-participation-du-parti"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6b73a58d6b",
+      "title": "\"Avec Paris, le climat est au beau fixe\", dit le président gabonais Oligui Nguema",
+      "summary": "Dans un entretien exclusif accordé à France 24 à Libreville, le président gabonais, Brice Clotaire Oligui Nguema, affirme que les relations avec Paris sont au \"beau fixe\" et annonce une visite d'État en France le 20 juillet. Il exclut, par ailleurs, toute \"dynastie Nguema\", affirme qu'un accord avec le FMI sera signé, assure avoir refusé des migrants expulsés par Washington.",
+      "country": "GAB",
+      "category": "CLIMAT",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T13:47:51+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/en-t%C3%AAte-%C3%A0-t%C3%AAte/20260602-avec-paris-le-climat-est-au-beau-fixe-dit-le-pr%C3%A9sident-gabonais"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/en-t%C3%AAte-%C3%A0-t%C3%AAte/20260602-avec-paris-le-climat-est-au-beau-fixe-dit-le-pr%C3%A9sident-gabonais"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "75beb136ae",
+      "title": "Ebola : l'OMS revoit ses estimations de 906 à 116 cas suspects en RD Congo et en Ouganda",
+      "summary": "L'Organisation mondiale de la santé a revu drastiquement à la baisse ses estimations de cas suspects du virus Ebola en République démocratique du Congo et en Ouganda de 906 à 116. De son côté, l'agence sanitaire de l'Union africaine fait encore état de 1 139 cas suspects de cette maladie extrêmement contagieuse.",
+      "country": "UGA",
+      "category": "SANTE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:57:05+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/ebola-oms-baisse-estimations-cas-suspects-maladie-rd-congo-ouganda"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/ebola-oms-baisse-estimations-cas-suspects-maladie-rd-congo-ouganda"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cb3a67acfc",
+      "title": "Kenya Bets On Aviation Reforms to Secure Bigger Share of Global Flower Market",
+      "summary": "[Capital FM] Kenya is positioning the expansion of Jomo Kenyatta International Airport (JKIA) and the revitalization of Kenya Airways (KQ) at the center of a broader strategy to strengthen its dominance in the global floriculture market, Trade and Investment Cabinet Secretary Lee Kinyanjui has said.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:48:18+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020558.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020558.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "be8f35db64",
+      "title": "State Considering Budget Allocation to Clear Part of Sh12bn Flower Export Tax Claims",
+      "summary": "[Capital FM] Nairobi -- The government is considering budgetary allocations to clear part of the more than Sh12 billion VAT refund backlog owed to flower exporters while pursuing structural tax reforms aimed at ending the recurring cycle of refund claims that has weighed on the sector for years.",
+      "country": "KEN",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-02T12:47:48+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020553.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020553.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5da1435a7d",
+      "title": "Ghana, UK sign growth partnership deal to address education and job creation",
+      "summary": "Ghana and the United Kingdom signed on Monday the landmark UK-Ghana Partnership, which is to help transform the economy and create thousands of opportunities for people.",
+      "country": "GHA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:12:21+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/02/ghana-uk-sign-growth-partnership-deal-to-address-education-and-job-creation/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/02/ghana-uk-sign-growth-partnership-deal-to-address-education-and-job-creation/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "646911fe54",
       "title": "Tabb Launches Kenya's First Large-Scale Fuel Credit Line With Galana Energies",
       "summary": "[Capital FM] Nairobi -- Fleet operators and logistics companies in Kenya are set for relief after fintech platform tabb unveiled what it says is the country's first large-scale fuel credit line, in partnership with Galana Energies.",
@@ -2327,6 +2496,42 @@
       "confirmation_count": 1
     },
     {
+      "id": "5994802889",
+      "title": "Ebola: au Kenya, la mobilisation contre un centre de quarantaine pour citoyens américains ne faiblit pas",
+      "summary": "Des centaines de manifestants se ⁠sont rassemblés le 1er juin 2026 ​à Nanyuki, dans le centre du Kenya, pour protester contre le projet des États-Unis d'installer un centre de ​quarantaine pour les Américains potentiellement infectés par le virus Ebola.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T08:13:07+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260602-ebola-au-kenya-la-mobilisation-contre-un-centre-de-quarantaine-pour-citoyens-am%C3%A9ricains-ne-faiblit-pas"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260602-ebola-au-kenya-la-mobilisation-contre-un-centre-de-quarantaine-pour-citoyens-am%C3%A9ricains-ne-faiblit-pas"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/02/ebola-un-mort-dans-les-manifestations-contre-le-centre-de-quarantaine-au-kenya/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
       "id": "dabf6a0f69",
       "title": "Education Ministry Invites Public Input On New University Regulations in Major Reform Push",
       "summary": "[Capital FM] Nairobi -- The Ministry of Education has launched a nationwide public participation process on the proposed Universities (General) Regulations, 2026, inviting stakeholders and members of the public to help shape the future of university education in Kenya.",
@@ -2459,66 +2664,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "8e1474e846",
-      "title": "Why the Finance Bill 2026 Proposal On Non-Resident Landlords Is a Step Towards Tax Equity",
-      "summary": "[Capital FM] The real estate sector remains one of Kenya's most vibrant and important economic pillars. According to the Kenya National Bureau of Statistics (KNBS) 2023/2024 Real Estate Survey, the sector recorded an impressive growth rate of 33.7 percent, underscoring its critical role in wealth creation, investment, urban development, and employment generation.",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": "FISCALITE",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-06-02T04:05:45+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606020030.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606020030.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c71f87e9c1",
-      "title": "Nigerian Economy Growing Twice Pre-Reform Pace - Report",
-      "summary": "[This Day] A new report by ThinkBusiness Africa has stated that Nigeria's economy was growing at roughly twice its pre-reform trajectory, noting that the challenge facing policymakers was no longer restoring growth momentum but ensuring that growth translates into stronger public revenues, fiscal strength, poverty reduction and job creation.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T03:57:52+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606020018.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606020018.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "442bc71312",
       "title": "Morocco Overtakes South Africa As Africa's Most Industrialised Economy",
       "summary": "[Daba Finance] Morocco has displaced South Africa at the top of the African Development Bank's Africa Industrialisation Index for 2025, ending a 15-year run for South Africa as the continent's leading industrial economy. The AfDB, which unveiled the report at its Annual Meetings in Brazzaville, credited Morocco's rise to sustained industrial policy, export diversification, and manufacturing growth across automotive, aerospace, and infrastructure sectors.",
@@ -2579,6 +2724,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "28924380ba",
+      "title": "Au Sénégal, le président Bassirou Diomaye Faye nomme un gouvernement boycotté par Ousmane Sonko",
+      "summary": "Dévoilé lundi, le nouveau gouvernement sénégalais contient bien certains membres et alliés du Pastef, le parti d'Ousmane Sonko, malgré le boycott annoncé dans la soirée par ce dernier en raison de \"points de désaccord\" avec le président Bassirou Diomaye Faye autour de la constitution de la liste.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-01T20:17:57+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/afrique/20260601-s%C3%A9n%C3%A9gal-le-pastef-d-ousmane-sonko-ne-participera-pas-au-nouveau-gouvernement"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20260601-s%C3%A9n%C3%A9gal-le-pastef-d-ousmane-sonko-ne-participera-pas-au-nouveau-gouvernement"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "33d49262f8",
       "title": "Blocus du détroit d’Ormuz : les producteurs de blé sud-africains étranglés par la flambée des coûts",
       "summary": "La quasi-paralysie du détroit d’Ormuz, sur fond de tensions au Moyen-Orient, entraîne une hausse brutale des prix du diesel et des engrais. En Afrique du Sud, les producteurs de blé dénoncent une situation devenue intenable, alors que la rentabilité des exploitations est désormais compromise.",
@@ -2604,66 +2779,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/06/01/blocus-du-detroit-dormuz-les-producteurs-de-ble-sud-africains-etrangles-par-la-flambee-des/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5b49fe26ec",
-      "title": "Traveltech Firm Triply Highlights Digital Shift in Africa Tourism Sector At Five-Year Milestone",
-      "summary": "[Capital FM] Nairobi -- Triply hosted its inaugural Gala Dinner and Awards Ceremony bringing together key stakeholders from the travel, tourism, technology, and financial sectors to celebrate excellence, innovation, and growth within Africa's travel industry.",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T15:18:18+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606010565.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606010565.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c2ea4e5a10",
-      "title": "Wajir Stadium to Be Named After Late Kibaki Minister Ahmed Khalif, Ruto Announces",
-      "summary": "[Capital FM] Waji -- The newly constructed Wajir Stadium will be named after the late Wajir West MP and former Labour Minister Ahmed Khalif, President William Ruto has announced, in what leaders described as a long-overdue recognition of his public service and contribution to the region.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T12:52:35+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606010485.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606010485.html"
         }
       ],
       "confirmation_count": 1
@@ -2754,36 +2869,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/05/30/benin-strengthen-laws-to-combat-production-of-fake-bank-notes/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "406471c295",
-      "title": "Maroc-États-Unis : une relation unique",
-      "summary": "L’adhésion du Maroc au Conseil de la paix lancé par Donald Trump n’est qu’un signe, parmi d’autres, de l’exceptionnelle proximité qui unit Rabat et Washington. Une relation historique mais qui s’exprime aussi dans l’actualité du dossier du Sahara.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-30T08:01:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1798242/politique/maroc-etats-unis-une-relation-unique/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1798242/politique/maroc-etats-unis-une-relation-unique/"
         }
       ],
       "confirmation_count": 1
@@ -3017,6 +3102,576 @@
       "confirmation_count": 2
     },
     {
+      "id": "c24fb6f682",
+      "title": "Classement 2026 des 20 pays les plus performants d’Afrique : les gagnants et les perdants",
+      "summary": "L’édition 2026 du palmarès des 20 pays africains les plus performants consacre de nouveaux gagnants et bouscule plusieurs poids lourds du continent. Alors que le Ghana et la Namibie font des entrées remarquées dans le top 10, l’Égypte, l’Éthiopie et le Botswana dévissent.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T17:57:35+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1799261/economie-entreprises/classement-2026-des-20-pays-les-plus-performants-dafrique-les-gagnants-et-les-perdants/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1799261/economie-entreprises/classement-2026-des-20-pays-les-plus-performants-dafrique-les-gagnants-et-les-perdants/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3c9327cf58",
+      "title": "Le nouveau président du Bénin se rend au Nigeria pour des entretiens bilatéraux",
+      "summary": "Le président Bola Tinubu du Nigéria a reçu son homologue du Bénin, Romuald Wadagni, à Lagos. Dans un message publié sur son compte officiel X, le porte-parole du chef de l'état nigérian évoque « une visite privée ».",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T15:18:52+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/02/le-nouveau-president-du-benin-se-rend-au-nigeria-pour-des-entretiens-bilateraux/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/02/le-nouveau-president-du-benin-se-rend-au-nigeria-pour-des-entretiens-bilateraux/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7f3465d74f",
+      "title": "Court Maintains Status Quo On Proposed Ebola Facility After AG Fails to Appear in Court",
+      "summary": "[Capital FM] Nairobi -- The High Court has maintained the status quo on the planned establishment of an Ebola exposure, quarantine, isolation, or treatment facility in Kenya, after the Attorney General failed to appear in court during proceedings.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T15:14:14+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020641.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020641.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3250c9a6b0",
+      "title": "Prosecution Seeks 30 Days to Detain 9 Utumishi School Girls Over Arson Case",
+      "summary": "[Capital FM] Naivasha -- The prosecution has applied for 30 days' detention orders for nine Utumishi School students linked to last week's arson incident in which 16 students died.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T15:13:38+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020640.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020640.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "81cdb6d834",
+      "title": "Blow to NSSF As Court Upholds Refusal to Pause Controversial Labour Court Decision",
+      "summary": "[Capital FM] NAIROBI -- The Court of Appeal has dismissed an application by the National Social Security Fund Board of Trustees seeking to suspend the implementation of the Employment and Labour Relations Court (ELRC) judgment that invalidated key provisions of the National Social Security Fund (NSSF) Act, 2013.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T15:07:44+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020630.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020630.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5bfae8371d",
+      "title": "Kenya Invited to Identify Unsung Heroes Ahead of Mashujaa Day",
+      "summary": "[Capital FM] Nairobi -- The National Heroes Council has opened a nationwide call for nominations, inviting Kenyans to recommend individuals for possible declaration as national heroes ahead of Mashujaa Day celebrations.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T15:04:44+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020627.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020627.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "40d5ead4e2",
+      "title": "Born on the road: Aid cuts leave refugee mothers with nowhere to turn",
+      "summary": "When labour pains struck Sudanese refugee Maude Ahmad Fadala, there was no clinic nearby, no transport and no money to reach a hospital. Hours later, weakened by illness and stranded on a dirt road in northern Central African Republic, she gave birth with only her sister by her side.",
+      "country": "CAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T14:47:02+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/02/born-on-the-road-aid-cuts-leave-refugee-mothers-with-nowhere-to-turn/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/02/born-on-the-road-aid-cuts-leave-refugee-mothers-with-nowhere-to-turn/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2fab5e8b46",
+      "title": "Ghana : Mahama temporise sur la loi anti-LGBTQ+",
+      "summary": "Le président ghanéen John Mahama a déclaré qu'un projet de loi controversé, visant à restreindre davantage les droits des personnes LGBTQ+, ferait l'objet d'un examen juridique approfondi avant son adoption.",
+      "country": "GHA",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-02T14:40:38+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/02/ghana-mahama-temporise-sur-la-loi-anti-lgbtq/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/02/ghana-mahama-temporise-sur-la-loi-anti-lgbtq/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2f7ddabddf",
+      "title": "En Guinée, les électeurs sont dans l'attente des résultats",
+      "summary": "En Guinée, au lendemain du double scrutin législatif et communal, les opérations de dépouillement des bulletins et de centralisation des procès-verbaux se poursuivent à travers le pays. Dans une interview accordée à France 24, la directrice générale des élections a promis des élections libres, crédibles et transparentes. Les résultats officiels seraient disponibles dans un délai de 48 h.",
+      "country": "GIN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T14:40:36+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260602-en-guin%C3%A9e-les-%C3%A9lecteurs-sont-dans-l-attente-des-r%C3%A9sultats"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260602-en-guin%C3%A9e-les-%C3%A9lecteurs-sont-dans-l-attente-des-r%C3%A9sultats"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3ab740d295",
+      "title": "Ghana's anti-LGBTQ+ bill faces further review?",
+      "summary": "Ghanaian President John Mahama has said a controversial bill that would further restrict LGBTQ+ rights will undergo legal scrutiny before it can become law.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T14:33:28+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/02/ghanas-anti-lgbtq-bill-faces-further-review/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/02/ghanas-anti-lgbtq-bill-faces-further-review/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3f33747ddc",
+      "title": "Afrique du Sud: S&P alerte sur le risque pétrolier et la faible croissance",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T14:33:00+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/06/02/afrique-du-sud-sp-alerte-sur-le-risque-petrolier-et-la-faible-croissance/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/02/afrique-du-sud-sp-alerte-sur-le-risque-petrolier-et-la-faible-croissance/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4c2eb8b1b5",
+      "title": "Tchad : Bachikélé, une oasis vitale pour les nomades",
+      "summary": "Nichée au cœur des montagnes rouges du Sahara tchadien, l'oasis de Bachikélé s'impose comme un site exceptionnel et un point de ravitaillement hautement stratégique pour les caravanes nomades. Relativement épargnée par les sécheresses récurrentes qui frappent la région, cette source pérenne dissimulée au milieu des étendues de sable offre bien plus qu’un simple paysage spectaculaire : elle constitue un abri et un havre de paix indispensable à la survie locale.",
+      "country": "TCD",
+      "category": "CLIMAT",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T14:29:23+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260602-tchad-bachik%C3%A9l%C3%A9-une-oasis-vitale-pour-les-nomades"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260602-tchad-bachik%C3%A9l%C3%A9-une-oasis-vitale-pour-les-nomades"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a398a2409e",
+      "title": "Grèce : un tournoi de footbball réunit des migrants et des populations locales",
+      "summary": "Fondé par l’Ivoirien Moussa Sangare il y a trois ans, le tournoi Kypseli Mundial a pour objectif initial d'utiliser le football pour lutter contre la peur et la méfiance envers les migrants en Grèce.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T14:09:47+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/02/grece-un-tournoi-de-footbball-reunit-des-migrants-et-des-populations-locales/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/02/grece-un-tournoi-de-footbball-reunit-des-migrants-et-des-populations-locales/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "906ba88431",
+      "title": "Mondial 2026 : l'inquiétude des supporters sénégalais face aux visas pour les Etats-Unis",
+      "summary": "Les supporteurs sénégalais seront-ils privés du Mondial américain ? Le Sénégal est placé depuis la fin 2025 sur la liste noire de l'immigration américaine par un décret de Donald Trump.\n \nDepuis, sauf exception, les demandes de visa sont systématiquement rejetées. Six membres du comité exécutif de la Fédération sénégalaise de football se sont vu refuser une entrée aux Etats-Unis.",
+      "country": "SEN",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-02T14:06:40+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260602-mondial-2026-l-inqui%C3%A9tude-des-supporters-s%C3%A9n%C3%A9galais-face-aux-visas-pour-les-etats-unis"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260602-mondial-2026-l-inqui%C3%A9tude-des-supporters-s%C3%A9n%C3%A9galais-face-aux-visas-pour-les-etats-unis"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a3f0701b62",
+      "title": "Ghana temporarily halts repatriation sign-ups in South Africa",
+      "summary": "Ghanaian authorities have suspended new registrations for a programme helping citizens return home from South Africa, following an overwhelming response from applicants.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T14:03:12+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/02/ghana-temporarily-halts-repatriation-sign-ups-in-south-africa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/02/ghana-temporarily-halts-repatriation-sign-ups-in-south-africa/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0025e7b3b9",
+      "title": "Black Maidens to Face Senegal in Final FIFA U-17 WWC Qualifiers",
+      "summary": "[Ghanaian Times] The national female U-17 national team, the Black Maidens, are set to face Senegal in the third and final round of the FIFA U-17 Women's World Cup (WWC) qualifiers after completing an emphatic 8-0 aggregate victory over Liberia.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T13:14:39+00:00",
+      "lead_source": {
+        "id": "aa-sen",
+        "name": "AllAfrica · Sénégal",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020592.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-sen",
+          "name": "AllAfrica · Sénégal",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020592.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "310402bdd9",
+      "title": "Mondial 2026 : qui sont les sélectionneurs des dix équipes africaines qualifiées ?",
+      "summary": "L’Afrique comptera dix représentants au Mondial 2026 : Maroc, Sénégal, Côte d’Ivoire, Égypte, Algérie, Ghana, Tunisie, Afrique du Sud, Cap-Vert et RDC. Plusieurs fédérations ont misé sur des entraîneurs africains, tandis que d’autres privilégient l’expérience internationale",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T13:06:24+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/02/mondial-2026-qui-sont-les-selectionneurs-des-dix-equipes-africaines-qualifiees/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/02/mondial-2026-qui-sont-les-selectionneurs-des-dix-equipes-africaines-qualifiees/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1204c5a021",
+      "title": "Le Ghana et le Royaume-Uni scellent un partenariat économique de 215 millions de livres",
+      "summary": "Conclu à Londres en marge du sommet d’investissement Ghana–Royaume-Uni, le nouveau partenariat de croissance 2026-2028 mobilisera jusqu’à 215 millions de livres sterling en faveur des infrastructures, de l’industrie, de l’innovation et du développement des compétences.",
+      "country": "GHA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:49:50+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/02/le-ghana-et-le-royaume-uni-scellent-un-partenariat-economique-de-215-millions-de-livres/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/02/le-ghana-et-le-royaume-uni-scellent-un-partenariat-economique-de-215-millions-de-livres/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d22e410e8d",
+      "title": "Lobby Flags Plans to Excise Uhuru Park, Central Park for Uhuru Highway Works",
+      "summary": "[Capital FM] Nairobi -- The Green Belt Movement (GBM) has raised concerns over reported plans to excise portions of two of Nairobi's most iconic public green spaces; Uhuru Park and Central Park; to pave way for the expansion of Uhuru Highway, warning that early groundwork, including the placement of survey beacons, may already be underway.",
+      "country": "KEN",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:48:39+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020559.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020559.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "403738b500",
       "title": "5 questions pour comprendre les implications de la résolution de l’ONU sur l’esclavage",
       "summary": "La traite négrière a été reconnue comme « plus grave crime contre l’humanité » par 123 États, le 25 mars, sur une proposition du Ghana. Une avancée qui pourrait accélérer un lent processus de réparation.",
@@ -3042,6 +3697,216 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1800088/societe/5-questions-pour-comprendre-les-implications-de-la-resolution-de-lonu-sur-lesclavage/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "61d0786478",
+      "title": "Police Invite Activist Gwamnishu Over Alleged Attempted Murder, Terrorism Incitement",
+      "summary": "[Premium Times] A prominent Delta rights activist who has repeatedly challenged police conduct and exposed insecurity claims the state police are plotting against him after inviting him for questioning over allegations of attempted murder, terrorism incitement and communal violence.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:16:12+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020480.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020480.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f52d8f7b3b",
+      "title": "Gunmen Kill Plateau Traditional Ruler",
+      "summary": "[Premium Times] \"The death of the monarch is barbaric, unfortunate and unacceptable,\" Langtang South Chairman Nanfa Alhassan Nbin said.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:15:31+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020479.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020479.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6b10c13735",
+      "title": "Abia Doctors Threaten Indefinite Strike Over Surgeon's Abduction",
+      "summary": "[Premium Times] The NMA called on the State Security Service, Inspector General of Police, and commissioners of police in Abia and Imo to intensify efforts to secure Bonaventure Aguocha's freedom.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:14:36+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020476.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020476.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f3c11e0976",
+      "title": "All Eyes On Lawmakers Who Lost Party Primaries As NASS Resumes Plenary Today",
+      "summary": "[Premium Times] More than 20 senators and over 50 House members failed to secure return tickets in the just-concluded party primaries.",
+      "country": "NGA",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:13:14+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020470.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020470.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1b7a20b398",
+      "title": "Oyo Teachers Begin Indefinite Strike Over Continued Captivity of Abducted Colleagues, Pupils",
+      "summary": "[Premium Times] The directive followed an order from the national leadership of the NUT, which expressed concern over the prolonged detention of the abducted teachers and learners by their captors.",
+      "country": "NGA",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:12:20+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020467.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020467.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b6b74505f8",
+      "title": "Kenya Considers Mandatory 21-Day Quarantine for High-Risk Travelers",
+      "summary": "[Capital FM] Nairobi -- The Ministry of Health says all incoming travellers may soon be required to present certified exit surveillance reports from their countries of origin, alongside detailed screening documentation shared with airlines and transport operators.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:07:11+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020461.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020461.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5c282fe722",
+      "title": "Ruto Hails Security Gains Against Al-Shabaab in North Eastern Region",
+      "summary": "[Capital FM] Kutulo, Wajir -- President William Ruto has reaffirmed the government's commitment to strengthening security and accelerating development projects across Northern Kenya, saying peace and stability remain essential for the region's transformation.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T12:07:10+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606020459.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606020459.html"
         }
       ],
       "confirmation_count": 1
@@ -3107,6 +3972,156 @@
       "confirmation_count": 1
     },
     {
+      "id": "3238c39ae3",
+      "title": "Ghana's anti-LGBTQ+ bill to be scrutinised before approval, president says",
+      "summary": "Passed by MPs, the bill proposes prison sentences for people identifying as part of the LGBTQ+ community.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "MA_GOUV",
+      "legal_status": "ADOPTE",
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-02T11:59:30+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.com/news/articles/cp8pgrd50xko?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.com/news/articles/cp8pgrd50xko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e13b1824b7",
+      "title": "Hommage : Moustapha Kassé, l’ultime vigie de l’École de Dakar",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T11:50:34+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/06/02/hommage-moustapha-kasse-lultime-vigie-de-lecole-de-dakar/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/02/hommage-moustapha-kasse-lultime-vigie-de-lecole-de-dakar/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e8970f2d63",
+      "title": "Electricité : Quasi-stabilité du chiffre d’affaires consolidé de la société Taqa Morocco au premier trimestre 2026",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MAR",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T11:44:42+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/06/02/electricite-quasi-stabilite-du-chiffre-daffaires-consolide-de-la-societe-taqa-morocco-au-premier-trimestre-2026/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/02/electricite-quasi-stabilite-du-chiffre-daffaires-consolide-de-la-societe-taqa-morocco-au-premier-trimestre-2026/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bc067a6990",
+      "title": "Côte d’Ivoire: l’Église catholique prône un nouveau système électoral plus impartial et inclusif",
+      "summary": "En Côte d’Ivoire, près d’un mois après la dissolution de la Commission électorale indépendante (CEI), l’Église catholique prend position : elle suggère que le nouveau système électoral soit impartial et plus inclusif. Déclaration faite à l’issue de l'assemblée plénière de la conférence des évêques catholiques de Côte d'Ivoire qui s’est achevée ce week-end à Abidjan.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T11:42:28+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260602-c%C3%B4te-d-ivoire-l-%C3%A9glise-catholique-pr%C3%B4ne-un-nouveau-syst%C3%A8me-%C3%A9lectoral-plus-impartial-et-inclusif"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260602-c%C3%B4te-d-ivoire-l-%C3%A9glise-catholique-pr%C3%B4ne-un-nouveau-syst%C3%A8me-%C3%A9lectoral-plus-impartial-et-inclusif"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7019767c50",
+      "title": "Mali: frappes aériennes de l'armée dans le centre et dans le nord du pays, arrivée de citernes à Bamako",
+      "summary": "Au Mali, l'armée indique dans un communiqué, diffusé le 1er juin 2026, avoir mené une série de frappes aériennes pendant le week-end, dans les régions de Koulikouro et de Mopti. De nouvelles frappes sont également rapportées ce mardi matin sur la ville de Kidal, dans le nord. Lundi, un nouveau convoi de camions-citernes est arrivé à Bamako et un autocar a sauté sur une mine posée par les jihadistes du Jnim, liés à al-Qaïda.",
+      "country": "MLI",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-02T11:36:51+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260602-mali-frappes-a%C3%A9riennes-de-l-arm%C3%A9e-dans-le-centre-et-dans-le-nord-du-pays-arriv%C3%A9e-de-citernes-%C3%A0-bamako"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260602-mali-frappes-a%C3%A9riennes-de-l-arm%C3%A9e-dans-le-centre-et-dans-le-nord-du-pays-arriv%C3%A9e-de-citernes-%C3%A0-bamako"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "c6abb300ba",
       "title": "Maroc: des associations mobilisées suite à la vidéo d’un Émirien invitant à s’y marier avec des filles de 14 ans",
       "summary": "Le Maroc est sous le choc, après la diffusion d'une vidéo largement relayée sur les réseaux sociaux, où un Émirien appelle à y épouser des jeunes filles de 14 ans. Les organisations de défense des droits des femmes sont montées au créneau, dénonçant une « incitation explicite » à l’exploitation des enfants et à la traite des êtres humains. Une association a ainsi saisi le parquet et demandé l’ouverture urgente d’une enquête.",
@@ -3162,36 +4177,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606020373.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b55b3036b6",
-      "title": "Nigeria and the Tobacco Menace",
-      "summary": "[This Day] Existing laws should be enforced",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T11:13:10+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606020372.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606020372.html"
         }
       ],
       "confirmation_count": 1
@@ -3257,36 +4242,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3c9327cf58",
-      "title": "Le nouveau président du Bénin se rend au Nigeria pour des entretiens bilatéraux",
-      "summary": "Le président Bola Tinubu du Nigéria a reçu son homologue du Bénin, Romuald Wadagni, à Lagos. Dans un message publié sur son compte officiel X, le porte-parole du chef de l'état nigérian évoque « une visite privée ».",
-      "country": "BEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T10:36:45+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/02/le-nouveau-president-du-benin-se-rend-au-nigeria-pour-des-entretiens-bilateraux/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/02/le-nouveau-president-du-benin-se-rend-au-nigeria-pour-des-entretiens-bilateraux/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6e56f1888d",
       "title": "Dele-Bashiru Swells Eagles Camp to 19 Players Ahead Clash With Poland",
       "summary": "[This Day] Fisayo Dele-Bashiru was the 19th players arrive the Super Eagles camp in Warsaw last night ahead of Nigeria's clash with hosts Poland in an international friendly on Wednesday, June 3.",
@@ -3342,36 +4297,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606020251.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7583155bf3",
-      "title": "Flawed Primaries Portend Danger for 2027 Elections",
-      "summary": "[Daily Trust] The primary elections conducted in May 2026 across the major political parties were characterised by widespread protests and allegations of manipulation. The elections, a prelude to the 2027 general elections, followed patterns of other previously warped primary elections that led to flawed general elections over the years. Across all parties, the central issue was the abuse of the principles of direct primaries. Instead of empowering grassroots members,…",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T10:16:42+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606020248.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606020248.html"
         }
       ],
       "confirmation_count": 1
@@ -3617,36 +4542,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3d2244cdb2",
-      "title": "High Court orders Kenya government to release details of Ebola facility",
-      "summary": "Hundreds of people took to the streets in the central Kenyan town of Nanyuki to protest against the planned site.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T09:20:44+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/6/2/high-court-orders-kenya-government-to-release-details-of-ebola-facility?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/6/2/high-court-orders-kenya-government-to-release-details-of-ebola-facility?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "c61b2f4cf9",
       "title": "Sénégal : disparition du Pr Moustapha Kassé, figure majeure de la pensée économique africaine",
       "summary": "Le monde universitaire, économique et financier est en deuil. Le professeur Moustapha Kassé, l’un des plus éminents économistes africains, est décédé ce lundi 1er juin, selon des sources évoquées par la presse sénégalaise.\nAvec sa disparition, le Sénégal, l’Afrique et le monde académique international perdent l’un de leurs plus brillants intellectuels. Par ses travaux, ses analyses et son engagement en faveur du développement, Moustapha Kassé a durablement marqué les…",
@@ -3767,66 +4662,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1614cfb711",
-      "title": "Nigerian drifters build track, dream of Formula One",
-      "summary": "Nigerian drifters build track, dream of Formula One",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T08:26:44+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/2/nigerian-drifters-build-track-dream-of-formula-one?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/2/nigerian-drifters-build-track-dream-of-formula-one?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5994802889",
-      "title": "Ebola: au Kenya, la mobilisation contre un centre de quarantaine pour citoyens américains ne faiblit pas",
-      "summary": "Des centaines de manifestants se ⁠sont rassemblés le 1er juin 2026 ​à Nanyuki, dans le centre du Kenya, pour protester contre le projet des États-Unis d'installer un centre de ​quarantaine pour les Américains potentiellement infectés par le virus Ebola.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T08:13:07+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260602-ebola-au-kenya-la-mobilisation-contre-un-centre-de-quarantaine-pour-citoyens-am%C3%A9ricains-ne-faiblit-pas"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260602-ebola-au-kenya-la-mobilisation-contre-un-centre-de-quarantaine-pour-citoyens-am%C3%A9ricains-ne-faiblit-pas"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "3fc4ef58d1",
       "title": "Spiro Secures $215m to Expand Africa's Electric Mobility and Battery-Swapping Network",
       "summary": "[Capital FM] Nairobi -- African electric mobility firm Spiro has secured a $215 million (Sh27.8 billion) equity investment to expand its electric vehicle operations and battery-swapping infrastructure across Africa.",
@@ -3882,66 +4717,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606020125.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "656c56e772",
-      "title": "Senegal president names government, boycotted by ally-turned-rival",
-      "summary": "Ousted PM says his party, which holds the parliamentary majority, will not participate in the new government.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T07:30:15+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/6/2/senegal-president-names-government-boycotted-by-ally-turned-rival?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/6/2/senegal-president-names-government-boycotted-by-ally-turned-rival?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "84f7ef96e6",
-      "title": "Classement 2026 : quels sont les 20 pays les plus performants d’Afrique ?",
-      "summary": "Notre palmarès 2026, qui évalue les pays selon la qualité de leur gouvernance, de leur capacité d’influence et d’innovation, se voit bouleverser par des mouvements de fond. Premiers enseignements au travers de notre top 5 où figurent l’Afrique du Sud, Maurice, la Namibie, le Maroc et le Nigeria.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T07:30:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1797133/economie-entreprises/classement-2026-quels-sont-les-20-pays-les-plus-performants-dafrique/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1797133/economie-entreprises/classement-2026-quels-sont-les-20-pays-les-plus-performants-dafrique/"
         }
       ],
       "confirmation_count": 1
@@ -4152,36 +4927,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606020112.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ce77e2110d",
-      "title": "South Africa’s World Cup delegation departs for Mexico without coach",
-      "summary": "Bafana Bafana's departure was delayed due to non-issuance of visas for several players and support staff.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T06:55:39+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/sports/2026/6/2/south-africas-world-cup-delegation-departs-for-mexico-without-coach?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/sports/2026/6/2/south-africas-world-cup-delegation-departs-for-mexico-without-coach?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -4607,36 +5352,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c3e69216a3",
-      "title": "Tinubu Receives New Benin President, Romuald Wadagni, in Lagos",
-      "summary": "[This Day] Abuja -- President Bola Tinubu on Monday received in audience new Benin Republic President, Romuald Wadagni at his Ikoyi, Lagos residence.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T04:21:43+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606020070.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606020070.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "4af753c991",
       "title": "NNPC Records N13tn Revenue in Four Months, Profit Margin Remains Under 10 Percent",
       "summary": "[This Day] Abuja -- The Nigerian National Petroleum Company Limited (NNPC) recorded a total revenue of nearly N13 trillion trillion between January and April 2026, although the company continued to grapple with a relatively thin net profit margin of less than 10 per cent during the same period.",
@@ -4692,156 +5407,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606020069.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "27959ab16c",
-      "title": "Police Dismiss 'Bandit Invasion' Rumours in Lagos",
-      "summary": "[Vanguard] The Lagos State Police Command has issued an urgent rebuttal to viral social media posts claiming that armed bandits have invaded several communities, including Ibeju-Lekki, Imota, and Oke-Afo, targeting schools and children.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T04:21:41+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606020066.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606020066.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "81cb5163d9",
-      "title": "Bolt Dismisses Claims of Kenya Exit, Says Operations Remain Uninterrupted",
-      "summary": "[Capital FM] NAIROBI, Kenya, June 1 - Ride-hailing platform Bolt has dismissed reports circulating on social media alleging that it plans to cease operations in Kenya next week, terming the claims false and malicious.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T04:06:47+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606020036.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606020036.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cc4f0e012b",
-      "title": "China Shifts Kenya Strategy Toward Youth, Education and Culture",
-      "summary": "[Capital FM] Nairobi -- China's diplomatic push in Africa is increasingly moving beyond infrastructure projects and trade agreements into classrooms, cultural exchanges and youth engagement.",
-      "country": "KEN",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T04:05:47+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606020033.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606020033.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0ea73bf3ce",
-      "title": "Building for Afcon 2027! Mccarthy Forced Into Late Squad Overhaul Ahead of Harambee Stars Camp",
-      "summary": "[Capital FM] Nairobi -- It is a period of intense transition, tactical fluidity, and heavy character testing for the Kenya National Men's Football Team Harambee Stars.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T04:04:04+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606020026.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606020026.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "877f80cbaa",
-      "title": "Govt, 20 States Pay N7.1bn As Counterpart Obligation to Child Nutrition Fund",
-      "summary": "[This Day] The federal government and 20 states of the federation have so far contributed N7.1 billion as counterpart funds to the Child Nutrition Fund (CNF) meant for the procurement and distribution of life-saving commodities, and expanded treatment coverage for severe acute malnourished children in parts of the country.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-02T03:57:52+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606020017.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606020017.html"
         }
       ],
       "confirmation_count": 1
@@ -5237,36 +5802,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7516456a16",
-      "title": "IOM Rescues 67,000 Stranded Nigerian Migrants, Supports 30,000",
-      "summary": "[This Day] The United Nations International Organization for Migration (UN-IOM) has rescued more than. 67,000 stranded Nigerian migrants and empowermed at least 30,000 returnees since 2017.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T15:28:20+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606010610.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606010610.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "10230aa17b",
       "title": "President Faye, Barrow Hold Closed-Door Talks in Banjul",
       "summary": "[The Point] President Domaye Faye of Senegal arrived in The Gambia on Saturday for his first official state visit since the political fallout with his long-time friend and former ally, Prime Minister Ousman Sonko, who was recently appointed President of the Senegalese National Assembly.",
@@ -5447,36 +5982,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "638f71840c",
-      "title": "Wave Mobile Money met en avant la jeunesse, l’innovation et l’inclusion financière lors du Business Brunch de la Basketball Africa League à Kigali",
-      "summary": "Organisé durant la semaine des Finales de la BAL, l’événement a rassemblé des dirigeants du sport, de la finance, des politiques publiques, de la technologie et de l’investissement pour explorer comment une infrastructure numérique inclusive peut accompagner la prochaine génération d’entrepreneurs et de leaders africains.\nKigali, Rwanda, 29 Mai, 2026: Wave Mobile Money a réaffirmé son engagement en faveur des opportunités pour la jeunesse, de l’innovation numérique et de…",
-      "country": "RWA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T14:12:03+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/01/wave-mobile-money-met-en-avant-la-jeunesse-linnovation-et-linclusion-financiere-lors-du-business-brunch-de-la-basketball-africa-league-a-kigali/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/01/wave-mobile-money-met-en-avant-la-jeunesse-linnovation-et-linclusion-financiere-lors-du-business-brunch-de-la-basketball-africa-league-a-kigali/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "28a45e2371",
       "title": "Ethiopie : les électeurs sont attendus aux urnes pour le scrutin législatif",
       "summary": "Les électeurs éthiopiens ont exprimé leur volonté de participer au processus démocratique et de soutenir les partis politiques qu’ils jugent les mieux placés pour relever les défis du pays.",
@@ -5537,36 +6042,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "54ebf592f9",
-      "title": "Nigeria's Anti-Terror Campaign and Ukraine's Robot War",
-      "summary": "[This Day] For over a decade, Nigeria has been locked in a gruelling war of attrition. From the blood-soaked plains of the Northeast, where Boko Haram and ISWAP splinter cells mutate, to the dense forests of the Northwest, Middle Belt and South West, where ruthless bandit cartels execute mass kidnappings with impunity, the nation is bleeding.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T13:39:29+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606010546.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606010546.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0001b38e9b",
       "title": "Nigeria: Teachers in Oyoo State down tools over the kidnapping of colleagues",
       "summary": "The Nigeria Union of Teachers (NUT) called an open-ended strike from Monday in the state of Oyo, in protest at the kidnapping in mid-May of dozens of children and their teachers.",
@@ -5597,96 +6072,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "23a8d09b9e",
-      "title": "Bénin : Fiacre Vidjingninou, nouveau porte-voix du palais de la Marina",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "BEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T13:19:15+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/01/benin-fiacre-vidjingninou-nouveau-porte-voix-du-palais-de-la-marina/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/01/benin-fiacre-vidjingninou-nouveau-porte-voix-du-palais-de-la-marina/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "788e827533",
-      "title": "Ruto Offers Historic Apology to Northern Kenya Over Years of State Neglect",
-      "summary": "[Capital FM] Wajir -- President William Ruto has issued a formal apology to the people of Northern Kenya for decades of State-sanctioned marginalisation and neglect that have resulted in the region severely lagging behind in national development.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T13:18:43+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606010524.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606010524.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "776e542f67",
-      "title": "Algérie: le ministre de l'Intérieur Saïd Sayoud entame une visite en France",
-      "summary": "Le ministre algérien de l'Intérieur, Saïd Sayoud, entame ce lundi 1er juin une visite en France de deux jours. Il a été reçu à l'aéroport du Bourget, au nord-est de Paris, par son homologue français Laurent Nuñez. Cette visite fait suite aux déplacements successifs de ministres français à Alger ces dernières semaines, dans une logique d'apaisement des relations entre les deux pays.",
-      "country": "DZA",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T12:55:16+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260601-alg%C3%A9rie-le-ministre-de-l-int%C3%A9rieur-sa%C3%AFd-sayoud-entame-une-visite-en-france"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260601-alg%C3%A9rie-le-ministre-de-l-int%C3%A9rieur-sa%C3%AFd-sayoud-entame-une-visite-en-france"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "527090c5bd",
       "title": "France-Algérie : un réchauffement fragile",
       "summary": "Le ministre de l'Intérieur français, Laurent Nuñez, reçoit ce lundi à Paris son homologue algérien, Saïd Sayoud, pour des réunions de travail axées sur la sécurité et les questions migratoires. Cette visite officielle marque une nouvelle étape dans le réchauffement des relations bilatérales entre les deux pays, après de longs mois de vives tensions diplomatiques. Explications avec Karim Yahiaoui.",
@@ -5712,36 +6097,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260601-france-alg%C3%A9rie-un-r%C3%A9chauffement-fragile"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d9a8d4b507",
-      "title": "Ruto Pledges to End Northern Kenya's Historical Exclusion and Discrimination",
-      "summary": "[Capital FM] President William Ruto has pledged to end decades of exclusion and discrimination against residents of Northern Kenya, declaring that his administration is committed to ensuring equal citizenship, access to opportunities, and development for communities that have long felt left behind.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T12:46:24+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606010472.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606010472.html"
         }
       ],
       "confirmation_count": 1
@@ -5802,36 +6157,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1791758/economie-entreprises/cote-divoire-ou-ghana-qui-a-vraiment-leconomie-la-plus-performante/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "10dbc58687",
-      "title": "Kenya : manifestations contre un projet américain de centre de quarantaine Ebola",
-      "summary": "Des centaines de jeunes ont protesté lundi à Nanyuki, dans le centre du Kenya, contre l'installation d'un centre de quarantaine destiné à accueillir des citoyens américains exposés à Ebola.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T12:24:27+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/01/kenya-manifestations-contre-un-projet-americain-de-centre-de-quarantaine-ebola/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/01/kenya-manifestations-contre-un-projet-americain-de-centre-de-quarantaine-ebola/"
         }
       ],
       "confirmation_count": 1
@@ -6017,36 +6342,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7e5c64bb93",
-      "title": "Rwanda: les mesures prises contre Ebola et leur impact sur les populations à la frontière de Giseyni",
-      "summary": "Comment les pays voisins de la RDC se protègent face au risque de propagation du virus Ebola sur leur territoire ? Au Rwanda, aucun cas n’a été enregistré, et tous les événements se poursuivent comme prévu. Kigali a mis en place différentes mesures pour limiter au maximum les risques, avec des contrôles sanitaires aux différents points d’entrée dans le pays, et pour les voyageurs ayant visité la RDC, une interdiction d’entrée pour les étrangers ou un placement en…",
-      "country": "RWA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T11:40:19+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260601-rwanda-les-mesures-prises-contre-ebola-et-leur-impact-sur-les-populations-%C3%A0-la-fronti%C3%A8re-de-giseyni"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260601-rwanda-les-mesures-prises-contre-ebola-et-leur-impact-sur-les-populations-%C3%A0-la-fronti%C3%A8re-de-giseyni"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "d368fcc88c",
       "title": "Morocco 2026 - Soname Rewards 6-Star Flamingos With N4.5m",
       "summary": "[Leadership] Nigeria's U17 women national team, the Flamingos, have progressed to the third and final round of the 2026 FIFA U17 Women's World Cup qualifiers following a commanding two-legged display against Guinea. After a dominant 5-0 victory in the first leg in Abidjan, the Flamingos completed the job in emphatic fashion with a 6-0 win in the return leg in Ikenne, sealing a comprehensive aggregate triumph.",
@@ -6137,36 +6432,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "e66b11dbef",
-      "title": "Air Base Cordoned Off As Hundreds Protest Planned Ebola Facility",
-      "summary": "[Capital FM] Nairobi -- Hundreds of residents in Nanyuki staged a protest on Monday against the proposed establishment of an Ebola quarantine and isolation facility at Laikipia Airbase, amid growing national debate over Kenya's preparedness and role in managing cross-border infectious disease cases.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T10:08:23+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606010283.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606010283.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0f85b93fe1",
       "title": "Five patients recover from Ebola in DR Congo and leave hospital",
       "summary": "Those infected can get better and officials stress that people should seek medical help if they have symptoms.",
@@ -6222,36 +6487,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/06/01/world-cup-fans-gather-in-santiago-for-sticker-swap-as-south-africa-team-resolves-visa-issu/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d45c6abb36",
-      "title": "Ruto Orders Integration of Madrasa and Duksi Into Basic Education System",
-      "summary": "[Capital FM] Wajir -- President William Ruto has directed the Ministry of Education to begin consultations aimed at formally integrating Madrasa, Duksi, and pastoral instruction programmes into Kenya's basic education framework, in a move expected to expand access to education for thousands of children in marginalised communities.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-01T08:28:38+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606010144.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606010144.html"
         }
       ],
       "confirmation_count": 1
@@ -7127,126 +7362,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "dc0d40598d",
-      "title": "Au Sénégal, de nombreux vœux pour les 100 ans de l'ancien président, Abdoulaye Wade",
-      "summary": "Ce vendredi 29 mai, l’ancien président du Sénégal, Abdoulaye Wade, fête ses 100 ans. Retiré à Versailles, près de Paris depuis de nombreuses années, il est toujours célébré par les Sénégalais qui se souviennent d'un président \"audacieux et philanthrope”.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-30T09:47:46+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260530-au-s%C3%A9n%C3%A9gal-de-nombreux-voeux-pour-les-100-ans-de-l-ancien-pr%C3%A9sident-abdoulaye-wade"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260530-au-s%C3%A9n%C3%A9gal-de-nombreux-voeux-pour-les-100-ans-de-l-ancien-pr%C3%A9sident-abdoulaye-wade"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "71f4b5ae23",
-      "title": "Finale de la ligue des champions : Arsenal, un club populaire au Kenya",
-      "summary": "Demain, samedi 30 mai, se tient la finale tant attendue de la ligue des champions entre le club anglais d’Arsenal, et le Paris Saint Germain. Le week-end dernier, quand Arsenal a remporté le championnat d’Angleterre, des dizaines de milliers de supporters du club anglais ont envahi les rues de… Nairobi, au Kenya.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-30T09:40:07+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260530-finale-de-la-ligue-des-champions-arsenal-un-club-populaire-au-kenya"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260530-finale-de-la-ligue-des-champions-arsenal-un-club-populaire-au-kenya"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8f557505c1",
-      "title": "Bénin : le Parlement durcit la loi contre les faux billets de banque",
-      "summary": "Ce nouveau texte remplace la législation de novembre 2003, devenue insuffisante face à l’évolution de la criminalité financière",
-      "country": "BEN",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-30T07:51:36+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/30/benin-le-parlement-durcit-la-loi-contre-les-faux-billets-de-banque/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/30/benin-le-parlement-durcit-la-loi-contre-les-faux-billets-de-banque/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2dcccde129",
-      "title": "Ebola : le centre de quarantaine destiné aux Américains ouvert au Kenya fait débat",
-      "summary": "Ce site devait ouvrir  à Laikipia, une base aérienne située à hauteur de l'équateur dans l'ancienne province de la vallée du Rift",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-30T06:40:49+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/30/ebola-le-centre-de-quarantaine-destine-aux-americains-ouvert-au-kenya-fait-debat/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/30/ebola-le-centre-de-quarantaine-destine-aux-americains-ouvert-au-kenya-fait-debat/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "187571686a",
       "title": "'Gifts' from a lover and 'botched' cocaine raids: Police inquiry grips South Africa",
       "summary": "South Africa's Madlanga Commission hears about Brazilian butt lift bribe denials and alleged drug heists.",
@@ -7307,36 +7422,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "33dff358d8",
-      "title": "Ghana : le parlement vote une loi anti-LGBTQ",
-      "summary": "Le texte voté  doit encore être promulgué par le président John Mahama avant sa mise en application.",
-      "country": "GHA",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "PROMULGUE",
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-29T20:22:35+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/05/29/ghana-le-parlement-vote-une-loi-anti-lgbtq/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/05/29/ghana-le-parlement-vote-une-loi-anti-lgbtq/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "dfa81979c1",
       "title": "Abula - Nigeria's indigenous game with lofty ambitions",
       "summary": "Abula, a Nigerian sport inspired by the Yoruba concept of a balanced meal, aims to grow from a local pastime into an internationally recognised game.",
@@ -7362,66 +7447,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.com/sport/articles/clyq3plyp4lo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "88cf01b22a",
-      "title": "Kenya court halts US Ebola quarantine centre plan",
-      "summary": "A Kenyan court temporarily halted the opening of an Ebola quarantine centre for US nationals on Friday following a petition filed by a rights group.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-29T14:42:34+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/05/29/kenya-court-halts-us-ebola-quarantine-centre-plan/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/05/29/kenya-court-halts-us-ebola-quarantine-centre-plan/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "07bec021a8",
-      "title": "Burkina Faso junta shuts major mosque after arrests of protesters",
-      "summary": "Burkina Faso’s military junta has closed the capital’s main Sunni mosque after nearly 100 supporters of a detained preacher were arrested following protests, deepening concerns over growing repression under the country’s military rulers.",
-      "country": "BFA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-05-29T13:48:03+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/05/29/burkina-faso-junta-shuts-major-mosque-after-arrests-of-protesters/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/05/29/burkina-faso-junta-shuts-major-mosque-after-arrests-of-protesters/"
         }
       ],
       "confirmation_count": 1
