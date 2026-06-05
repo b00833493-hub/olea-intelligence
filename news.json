@@ -1,27 +1,26 @@
 {
-  "generated_at": "2026-06-04T23:35:59.338304+00:00",
+  "generated_at": "2026-06-05T04:45:51.332484+00:00",
   "stats": {
     "total_signals": 272,
     "verified_signals": 7,
-    "countries_covered": 30,
+    "countries_covered": 29,
     "sources_active": 16,
     "per_country": {
+      "NER": 4,
       "KEN": 44,
-      "COD": 20,
-      "NGA": 41,
-      "BEN": 6,
-      "ZAF": 9,
+      "COD": 22,
+      "NGA": 40,
+      "BEN": 7,
+      "ZAF": 10,
       "RWA": 2,
-      "SEN": 49,
+      "SEN": 48,
       "DZA": 6,
       "MAR": 16,
-      "NER": 4,
       "UGA": 5,
       "CAF": 3,
       "CIV": 13,
       "TUN": 2,
-      "CMR": 6,
-      "MDG": 1,
+      "CMR": 5,
       "GAB": 8,
       "MRT": 2,
       "GIN": 3,
@@ -137,6 +136,36 @@
     }
   ],
   "signals": [
+    {
+      "id": "e32cab0979",
+      "title": "Niger: 49 personnes mortes de soif dans le désert près d'Agadez après la panne de leur camion",
+      "summary": "Au Niger, un drame dans le désert, dans le Nord du pays. Plusieurs dizaines de ressortissants nigériens sont morts de soif, après une panne du camion qui les transportait, en provenance du Mali voisin. C'est le gouvernorat d'Agadez qui l'a annoncé ce jeudi 4 juin sur les réseaux sociaux. L'alerte a été donnée par deux des passagers, qui ont réussi à atteindre la localité d'Assamaka après une marche de plusieurs dizaines de km.",
+      "country": "NER",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-05T00:40:44+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260605-niger-49-personnes-mortes-de-soif-dans-le-d%C3%A9sert-pr%C3%A8s-d-agadez-apr%C3%A8s-la-panne-de-leur-camion"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260605-niger-49-personnes-mortes-de-soif-dans-le-d%C3%A9sert-pr%C3%A8s-d-agadez-apr%C3%A8s-la-panne-de-leur-camion"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "0a6d7d3ebe",
       "title": "Kenyan president defends US Ebola facility amid deadly protests",
@@ -1020,6 +1049,36 @@
       "confirmation_count": 2
     },
     {
+      "id": "3aadb0655c",
+      "title": "RDC: la riposte à l'épidémie d'Ebola freinée par les familles refusant l'hôpital et les enterrements sécurisés",
+      "summary": "La riposte s’accélère dans l’est de la RDC face à l'épidémie d’Ebola Bundibugyo. Du matériel pour tester « sur place » les cas suspects est arrivé dans la province d’Ituri, et notamment à Mongwalu, localité où ont été identifiés les premiers cas. Cela va permettre de tester plus rapidement, d’accroître la surveillance et de retracer les cas contacts, explique l’Organisation mondiale de la Santé. Le chef de l'OMS, qui était en visite dans le pays il y a quelques jours,…",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-05T02:38:26+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260605-rdc-la-riposte-%C3%A0-l-%C3%A9pid%C3%A9mie-d-ebola-frein%C3%A9e-par-les-familles-refusant-l-h%C3%B4pital-et-les-enterrements-s%C3%A9curis%C3%A9s"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260605-rdc-la-riposte-%C3%A0-l-%C3%A9pid%C3%A9mie-d-ebola-frein%C3%A9e-par-les-familles-refusant-l-h%C3%B4pital-et-les-enterrements-s%C3%A9curis%C3%A9s"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "1365869b27",
       "title": "RDC : quand l’état-major des FARDC se retrouve sur le banc des accusés",
       "summary": "Un ancien chef d’état-major des armées, un général en fuite, une ex-ordonnance de Joseph Kabila et huit officiers supérieurs : c’est un procès hors norme qui s’est ouvert ce 4 juin devant la Haute Cour militaire de Kinshasa. Explications.",
@@ -1255,36 +1314,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/06/04/kenya-incendie-dans-un-internat-detention-provisoire-prolongee-pour-les-filles-mises-en-ca/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "29e48f10e2",
-      "title": "Nigeria: nouvelles suspicions sur l'indépendance de la commission électorale après une fuite de données personnelles",
-      "summary": "À huit mois des élections générales prévues en janvier prochain, la publication, samedi 30 mai, d'informations confidentielles concernant un candidat aux élections législatives à Abuja par le porte-parole du ministre du Territoire de la capitale fédérale relance le débat sur la réelle indépendance de l'institution.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": "DATA_CYBER",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-06-04T03:08:51+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260604-nigeria-nouvelles-suspicions-sur-l-ind%C3%A9pendance-de-la-commission-%C3%A9lectorale-apr%C3%A8s-une-fuite-de-donn%C3%A9es-personnelles"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260604-nigeria-nouvelles-suspicions-sur-l-ind%C3%A9pendance-de-la-commission-%C3%A9lectorale-apr%C3%A8s-une-fuite-de-donn%C3%A9es-personnelles"
         }
       ],
       "confirmation_count": 1
@@ -1800,6 +1829,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "e2654d4be8",
+      "title": "Afrique du Sud: le président kényan exprime à Pretoria son inquiétude face aux violences xénophobes",
+      "summary": "Ce jeudi 4 juin, le président kényan William Ruto était en visite d’Etat au palais présidentiel de Pretoria, en Afrique du Sud. Les deux pays ont signé de nombreux accords de partenariats sur l’économie, la technologie, la culture, et bien encore. Les deux présidents ont rappelé l’importance de renforcer leurs relations bilatérales et de faire en sorte que l’Afrique parle d’une seule voix face au contexte géopolitique tendu. Mais sans grande surprise, une autre question…",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-05T02:58:28+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260605-afrique-du-sud-le-pr%C3%A9sident-k%C3%A9nyan-exprime-%C3%A0-pretoria-son-inqui%C3%A9tude-face-aux-violences-x%C3%A9nophobes"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260605-afrique-du-sud-le-pr%C3%A9sident-k%C3%A9nyan-exprime-%C3%A0-pretoria-son-inqui%C3%A9tude-face-aux-violences-x%C3%A9nophobes"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d7437edd00",
       "title": "Algérie: lancement du projet de gazoduc transsaharien sur fond d'interrogations financières",
       "summary": "Trois ministres étaient réunis dans le désert algérien de la Wilaya d'Adrar ce jeudi 4 juin. Les ministres des hydrocarbures de l'Algérie, du Niger et du Nigeria ont officiellement lancé les travaux du projet de gazoduc transsaharien. Un gazoduc de plus de 4 000 km qui doit permettre l'exportation du gaz nigérian vers l'Europe en passant par le Niger et l'Algérie. Ce projet est dans les cartons depuis plus de 20 ans et semble bénéficier de la crise pétrolière actuelle,…",
@@ -2106,36 +2165,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "6e91ba170e",
-      "title": "Madagascar: le président confirme le rôle des Églises dans la future concertation nationale",
-      "summary": "À Madagascar, la concertation nationale, sans cesse repoussée depuis le début de l’année, a connu un nouveau report ce 3 juin. Le président de la Refondation, le colonel Michaël Randrianirina, a profité de cette journée, qui devait être celle du lancement, pour officialiser le rôle pilote du Conseil œcuménique des Églises chrétiennes dans le futur processus.",
-      "country": "MDG",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-04T10:11:41+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260604-madagascar-le-pr%C3%A9sident-confirme-le-r%C3%B4le-des-%C3%A9glises-dans-la-future-concertation-nationale"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260604-madagascar-le-pr%C3%A9sident-confirme-le-r%C3%B4le-des-%C3%A9glises-dans-la-future-concertation-nationale"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0c6ffd4945",
       "title": "Au Gabon, les contours d'un programme de construction de logements sociaux",
       "summary": "Au Gabon, faute de logements suffisants, les loyers sont tirés vers le haut. Pour soulager les ménages, le président Brice Clotaire Oligui Nguema a lancé le 1er juin un programme de construction de 8 000 logements, dont 3 100 immédiatement. Le reste sera construit progressivement, durant les six prochaines années. Officiellement, tous les Gabonais pourront prétendre à ces futurs logements mais le prix pose problème.",
@@ -2292,36 +2321,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b91eb52608",
-      "title": "Recensement au Cameroun: un responsable d’ONG dénonce «une cacophonie générale»",
-      "summary": "La quatrième opération de recensement de l’histoire du Cameroun, censée s’achever le 29 mai dernier, a été prolongée de deux mois, après un décret un signé par le chef du gouvernement Joseph Dion Ngute. Philippe Nanga, figure de la société civile et coordonnateur de l'ONG Un Monde Avenir, dénonce « une cacophonie générale pour un processus qui est capital », soulignant entre autres que « des agents à Douala ont fait grève parce qu'ils n'avaient pas reçu d'argent après dix…",
-      "country": "CMR",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-06-04T06:40:19+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260604-recensement-au-cameroun-un-responsable-d-ong-d%C3%A9nonce-une-cacophonie-g%C3%A9n%C3%A9rale"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260604-recensement-au-cameroun-un-responsable-d-ong-d%C3%A9nonce-une-cacophonie-g%C3%A9n%C3%A9rale"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "04c5d48708",
       "title": "Kenya Bets On Data and Space Technology to Drive Growth, Attract Investors",
       "summary": "[Capital FM] NAIROBI,Kenya,June 4-Kenya is seeking to strengthen its appeal to investors and technology innovators by championing greater investment in data systems, artificial intelligence and space technology, as Nairobi hosts Africa's first-ever Global Data Festival alongside the third Kenya Space Expo and Conference.",
@@ -2377,66 +2376,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606040073.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9e0a04d0a6",
-      "title": "La première centrale électrique de solidarité algéro-nigérienne inaugurée près de Niamey",
-      "summary": "La cérémonie officielle d'inauguration de la centrale électrique de solidarité algéro-nigérienne s'est déroulée ce mercredi près de Niamey, sur le site de Gorou Banda, en présence du Premier ministre du Niger Ali Lamine Zeine et de son homologue algérien Sifi Ghrieb. Si les deux hommes se sont rencontrés en tête-à-tête pour évoquer d'autres sujets, notamment sur l'aspect sécuritaire, l'inauguration de cette centrale électrique lance les engagements pris par les deux pays…",
-      "country": "NER",
-      "category": "INFRASTRUCTURE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-04T05:17:08+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260604-la-premi%C3%A8re-centrale-%C3%A9lectrique-de-solidarit%C3%A9-alg%C3%A9ro-nig%C3%A9rienne-inaugur%C3%A9e-pr%C3%A8s-de-niamey"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260604-la-premi%C3%A8re-centrale-%C3%A9lectrique-de-solidarit%C3%A9-alg%C3%A9ro-nig%C3%A9rienne-inaugur%C3%A9e-pr%C3%A8s-de-niamey"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "04a4baa6a0",
-      "title": "L'ex-président sénégalais Macky Sall, candidat au secrétariat général de l'ONU, reçu par Emmanuel Macron",
-      "summary": "C'est une rencontre qui pourrait faire réagir à Dakar. Mardi 2 juin, Emmanuel Macron a reçu à l'Élysée l'ancien président sénégalais Macky Sall. Une entrevue annoncée par ce dernier sur les réseaux sociaux et centrée sur sa candidature au poste de secrétaire général des Nations unies.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-03T20:54:09+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260603-l-ex-pr%C3%A9sident-s%C3%A9n%C3%A9galais-macky-sall-candidat-au-secr%C3%A9tariat-g%C3%A9n%C3%A9ral-de-l-onu-re%C3%A7u-par-emmanuel-macron"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260603-l-ex-pr%C3%A9sident-s%C3%A9n%C3%A9galais-macky-sall-candidat-au-secr%C3%A9tariat-g%C3%A9n%C3%A9ral-de-l-onu-re%C3%A7u-par-emmanuel-macron"
         }
       ],
       "confirmation_count": 1
@@ -2878,6 +2817,66 @@
         }
       ],
       "confirmation_count": 2
+    },
+    {
+      "id": "a36da679f7",
+      "title": "Réunion à Kinshasa entre la RDC, le Burundi et le HCR pour accélérer le retour des réfugiés",
+      "summary": "La République démocratique du Congo, le Burundi et le Haut-Commissariat des Nations unies pour les réfugiés (HCR) ont réaffirmé jeudi 4 juin à Kinshasa leur engagement à accélérer les retours volontaires des réfugiés congolais vivant au Burundi et des réfugiés burundais installés en RDC, à l'issue de la deuxième réunion de la Commission tripartite tenue pendant trois jours dans la capitale congolaise. Il s’agit des centaines de milliers des réfugiés de part et d’autre à…",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-05T01:21:01+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260605-r%C3%A9union-%C3%A0-kinshasa-entre-la-rdc-le-burundi-et-le-hcr-pour-acc%C3%A9l%C3%A9rer-le-retour-des-r%C3%A9fugi%C3%A9s"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260605-r%C3%A9union-%C3%A0-kinshasa-entre-la-rdc-le-burundi-et-le-hcr-pour-acc%C3%A9l%C3%A9rer-le-retour-des-r%C3%A9fugi%C3%A9s"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d6a40ad1c6",
+      "title": "Le président béninois Romuald Wadagni en Côte d'Ivoire, dernière étape de sa tournée africaine",
+      "summary": "Après le Nigeria, le Burkina Faso, le Niger et le Togo, Romuald Wadagni a bouclé sa première tournée sous-régionale, en Côte d’Ivoire. Pour cette visite d’amitié et de travail, il était accompagné de la ministre des Affaires étrangères et du ministre du Commerce. Romuald Wadagni s’est entretenu avec le président ivoirien, Alassane Ouattara. Tous deux ont évoqué « l’excellence des relations historiques » entre leurs deux pays. L’occasion aussi de parler des questions qui…",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-04T23:41:58+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260604-le-pr%C3%A9sident-b%C3%A9ninois-romuald-wadagni-en-c%C3%B4te-d-ivoire-derni%C3%A8re-%C3%A9tape-de-sa-tourn%C3%A9e-africaine"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260604-le-pr%C3%A9sident-b%C3%A9ninois-romuald-wadagni-en-c%C3%B4te-d-ivoire-derni%C3%A8re-%C3%A9tape-de-sa-tourn%C3%A9e-africaine"
+        }
+      ],
+      "confirmation_count": 1
     },
     {
       "id": "3d5e07fc98",
