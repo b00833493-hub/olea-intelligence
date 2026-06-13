@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-06-13T11:23:56.400163+00:00",
+  "generated_at": "2026-06-13T14:24:12.692289+00:00",
   "stats": {
-    "total_signals": 244,
+    "total_signals": 245,
     "verified_signals": 3,
     "countries_covered": 26,
     "sources_active": 16,
     "per_country": {
+      "COD": 21,
       "CMR": 5,
       "NGA": 45,
-      "KEN": 42,
+      "KEN": 41,
       "MLI": 13,
       "ZAF": 19,
-      "COD": 19,
       "TGO": 3,
-      "MAR": 23,
-      "SEN": 29,
+      "MAR": 22,
+      "SEN": 28,
+      "COG": 2,
       "GHA": 6,
       "ETH": 5,
       "TUN": 1,
@@ -24,13 +25,12 @@
       "GIN": 2,
       "MDG": 3,
       "ZWE": 3,
-      "CAF": 3,
+      "CAF": 4,
       "BDI": 3,
       "ZMB": 2,
       "SLE": 1,
       "RWA": 1,
       "GAB": 2,
-      "COG": 1,
       "AGO": 1
     }
   },
@@ -133,6 +133,36 @@
     }
   ],
   "signals": [
+    {
+      "id": "aae6ae3f37",
+      "title": "L'épidémie d'Ebola en RD Congo s'étend à de nouvelles zones, 676 cas confirmés",
+      "summary": "En un mois, la République démocratique du Congo, épicentre de l'épidémie d’Ebola, compte 676 cas confirmés, dont 136 décès. L'épidémie continue de s'étendre, a averti vendredi l'Organisation mondiale de la santé. Notre invité, Eugide Lalé Mbunda, directeur RDC pour Premiere Urgence Internationale, revient de mission dans les régions les plus touchées, dans l'est du pays.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-13T12:50:26+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260613-l-%C3%A9pid%C3%A9mie-d-ebola-en-rd-congo-s-%C3%A9tend-%C3%A0-de-nouvelle-zones-676-cas-confirm%C3%A9s"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260613-l-%C3%A9pid%C3%A9mie-d-ebola-en-rd-congo-s-%C3%A9tend-%C3%A0-de-nouvelle-zones-676-cas-confirm%C3%A9s"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "a5c8e8125d",
       "title": "La guerre des Biya, le Sahara occidental à l’heure des incertitudes, l’espoir fragile d’Uvira… Les 5 infos qu’il ne fallait pas manquer",
@@ -830,6 +860,66 @@
       "confirmation_count": 2
     },
     {
+      "id": "a254f4fab5",
+      "title": "RDC : les populations évitent les hôpitaux publics, face au virus Ebola qui se propage",
+      "summary": "À Bunia, épicentre de l'épidémie d'Ebola en République démocratique du Congo, les cliniques privées de la ville jouent un rôle majeur dans l'accueil et l'orientation des patients, la population hésitant à se rendre dans les hôpitaux public.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-13T11:34:21+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/13/rdc-les-populations-evitent-les-hopitaux-publics-face-au-virus-ebola-qui-se-propage/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/13/rdc-les-populations-evitent-les-hopitaux-publics-face-au-virus-ebola-qui-se-propage/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "283edc0a86",
+      "title": "Ebola: Private clinics on front line as patients shun public hospitals",
+      "summary": "In Bunia, the epicenter of the Ebola outbreak in the Democratic Republic of Congo, the city’s private clinics are playing a major role in receiving and referring patients, as the population is reluctant to go to public hospitals for fear of contracting the virus",
+      "country": "COG",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-13T11:26:16+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/13/ebola-private-clinics-on-front-line-as-patients-shun-public-hospitals/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/13/ebola-private-clinics-on-front-line-as-patients-shun-public-hospitals/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "361dd2c645",
       "title": "Coupe du monde 2026: pourquoi le Maroc ne doit pas avoir peur du Brésil",
       "summary": "Quatrièmes du dernier Mondial, finalistes de la dernière CAN, première nation africaine au classement Fifa, le Maroc s’avance pour son premier match du Mondial 2026 ce samedi à New York face au Brésil moins intimidant qu’autrefois et en quête de repères. Les Lions de l’Atlas, eux, ont leurs certitudes, un vécu et une ambition assumée.",
@@ -1400,6 +1490,66 @@
       "confirmation_count": 1
     },
     {
+      "id": "36f474c54e",
+      "title": "Reforms Not for Ease but Necessity, Leakages Reduced - Tinubu",
+      "summary": "[Vanguard] President Bola Tinubu has said that the economic reforms introduced by his administration were driven by necessity rather than ease, noting that they were aimed at restoring stability, improving fiscal discipline, and repositioning Nigeria's economy for long-term growth.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:32:34+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120156.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120156.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b5aeb93558",
+      "title": "Tinubu Links Insecurity to Collapse of Governance At Grassroots Level",
+      "summary": "[This Day] President Bola Ahmed Tinubu on Friday said his administration is pursuing financial autonomy for Nigeria's 774 local government councils as part of efforts to deepen democracy and ensure that governance delivers tangible benefits to citizens at the grassroots.",
+      "country": "NGA",
+      "category": "SINISTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:29:15+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120149.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120149.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "9caa6cfef1",
       "title": "Le Mondial 2026 est lancé! Mexique - Afrique du Sud en ouverture",
       "summary": "Le monde va tourner autour d’un ballon pendant un mois.  La Coupe du monde de football a démarré ce jeudi : 48 équipes – 3 pays d’accueil : États-Unis, Canada et Mexique. Le Mexique a ouvert le bal avec l’Afrique du Sud.",
@@ -1575,36 +1725,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/%C3%A9missions/focus/20260611-mondial-2026-le-cap-vert-archipel-au-rythme-du-football"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ce6d90d3bf",
-      "title": "Ebola en RDC : el-Sissi réaffirme le soutien de l'Égypte contre l'épidémie",
-      "summary": "Le président égyptien Abdel Fattah el-Sissi a renouvelé mercredi son soutien à la République démocratique du Congo",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-11T08:20:26+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/11/legypte-apporte-son-soutien-a-la-rdc-face-a-la-crise-ebola/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/11/legypte-apporte-son-soutien-a-la-rdc-face-a-la-crise-ebola/"
         }
       ],
       "confirmation_count": 1
@@ -1916,156 +2036,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2c23ffa5f8",
-      "title": "Jotun in Nigeria Unveils Flagship Inspiration Centre to Boost Industry Collaboration, Technical Capacity",
-      "summary": "[This Day] Jotun Paints, a global leader in decorative and protective coatings, has launched a state-of-the-art flagship Inspiration Centre in Lagos, a purpose-built space designed to showcase the brand's latest advancements in colour, design, and product technology.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:33+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120469.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120469.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2d332fa882",
-      "title": "Firm Launches Maiden Impact Report",
-      "summary": "[This Day] HabariPay Limited, the fintech subsidiary of Guaranty Trust Holding Company Plc has unveiled its maiden HabariPay Impact Report 2025, in its bid to provide stakeholders with a comprehensive account of the company's evolution, innovation journey, business performance, and impact on the digital payments landscape.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "published": "2026-06-12T12:38:32+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120465.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120465.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e6a486e84f",
-      "title": "FAAN Launches Programme to Showcase Aviation Transformation",
-      "summary": "[This Day] The Federal Airports Authority of Nigeria (FAAN) is set to premiere 'FAAN IN FOCUS', a new 30-minute weekly television programme designed to keep Nigerians and the international community informed about key developments, reforms, infrastructure projects and strategic initiatives within Nigeria's aviation sector.",
-      "country": "NGA",
-      "category": "INFRASTRUCTURE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:31+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120464.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120464.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "368a404d23",
-      "title": "Fidelity Bank Reaffirms Support for Msmes, Explains Growth Agenda",
-      "summary": "[This Day] Fidelity Bank Plc, has reaffirmed its commitment to advancing the growth and sustainability of Micro, Small and Medium-scale Enterprises (MSMEs), positioning itself as a trusted partner beyond traditional banking and financing.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:30+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120461.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120461.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "98e5c4340e",
-      "title": "Addressing Cost of Airline Operations in Nigeria",
-      "summary": "[This Day] The International Air Transport Association (IATA) has again identified Nigeria as one of the most expensive countries in the world to operate airline business, citing high operational costs that continue to challenge the viability and growth of local carriers.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:29+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120459.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120459.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "9015886969",
       "title": "Govt Clarifies Kuwait Has Not Imposed New Ban On Kenyan Workers",
       "summary": "[Capital FM] Nairobi -- The government has dismissed reports that Kuwait has imposed a new ban on Kenyan workers, clarifying that recent changes announced by Kuwaiti authorities do not amount to fresh restrictions on the recruitment of Kenyans.",
@@ -2336,6 +2306,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "b6efa36187",
+      "title": "Electricity a Democratic Dividend We Owe Nigerians, We Intend to Deliver It - Tinubu",
+      "summary": "[Vanguard] President Bola Tinubu has described reliable electricity supply as a \"democratic dividend\" that his administration is committed to delivering to Nigerians, saying ongoing reforms in the power sector are aimed at fixing long-standing structural challenges.",
+      "country": "NGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:32:33+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120155.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120155.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "8a9ff2e14d",
       "title": "Democracy Day - Tinubu Says Economic Reforms Restoring Stability, Pledges Greater Prosperity for Nigerians",
       "summary": "[This Day] President Bola Ahmed Tinubu on Friday defended his administration's economic reforms, saying they were necessary to rescue Nigeria from fiscal strain and lay the foundation for long-term prosperity.",
@@ -2361,6 +2361,96 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606120152.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5acfc4fe58",
+      "title": "Democracy Day - Tinubu Defends Power Sector Reforms, Vows Improved Electricity Supply",
+      "summary": "[This Day] President Bola Ahmed Tinubu on Friday highlighted reforms in Nigeria's electricity sector, saying his administration inherited a deeply troubled industry but has taken steps to address longstanding challenges and expand access to power.",
+      "country": "NGA",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:31:18+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120151.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120151.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "15f7c9b485",
+      "title": "Tinubu Acknowledges Hardship, Promises Growth, Prosperity",
+      "summary": "[This Day] President Bola Ahmed Tinubu on Friday said his administration is laying the foundation for economic growth through investments in infrastructure, agriculture and exports, while acknowledging that many Nigerians continue to face economic hardship.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:29:15+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120150.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120150.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "fd21282f90",
+      "title": "Sports Fund Gets Budget Increase for 2026/27 Financial Year",
+      "summary": "[Capital FM] Nairobi -- The Sports sector has received an increase in the 2026/27 financial year budget after the Cabinet Secretary for Treasury, John Mbadi, allocated KSh 25.2 billion to the Sports, Arts, and Social Development Fund.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T06:53:13+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120132.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120132.html"
         }
       ],
       "confirmation_count": 1
@@ -2439,66 +2529,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/06/11/first-group-of-nigerians-repatriated-from-south-africa-arrive-in-lagos/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "49037fea63",
-      "title": "Govt Cuts 2026 Economic Growth Forecast to 5pc",
-      "summary": "[Capital FM] Nairobi -- The government has revised Kenya's 2026 economic growth forecast downward to 5 percent from the earlier projection of 5.3 percent, citing the impact of the Middle East conflict on global energy markets and rising fuel costs.",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-11T13:42:15+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606110485.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606110485.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bf811ae6bc",
-      "title": "Over 31mn Kenyans Registered Under SHA As Govt Moves to Clear NHIF Debts",
-      "summary": "[Capital FM] Nairobi -- Treasury Cabinet Secretary John Mbadi has announced that more than 31.2 million Kenyans have so far registered under the Social Health Authority (SHA), marking a major expansion in health insurance coverage under the government's Universal Health Coverage programme.",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-11T13:41:50+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606110484.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606110484.html"
         }
       ],
       "confirmation_count": 1
@@ -2654,6 +2684,96 @@
       "confirmation_count": 1
     },
     {
+      "id": "e10a47cbaf",
+      "title": "Arrivée à Bangui d'un premier avion transportant des migrants expulsés des États-Unis",
+      "summary": "En République centrafricaine, après des jours d’attente et de spéculations, un premier avion transportant des migrants expulsés des États-Unis a atterri vendredi soir 12 juin à Bangui. Une opération menée en toute discrétion et dont les contours restent flous. Les autorités n'ont pas communiqué sur ce transfert.Cet accueil s’inscrit dans la stratégie de l’administration américaine visant à transférer certains migrants vers des pays tiers. La République centrafricaine est…",
+      "country": "CAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-13T13:55:52+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260613-arriv%C3%A9e-%C3%A0-bangui-d-un-premier-avion-transportant-des-migrants-expuls%C3%A9s-des-%C3%A9tats-unis"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260613-arriv%C3%A9e-%C3%A0-bangui-d-un-premier-avion-transportant-des-migrants-expuls%C3%A9s-des-%C3%A9tats-unis"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9158f582c9",
+      "title": "Ghana government wants review of Partey Canada ban",
+      "summary": "Ghana midfielder Thomas Partey is banned from entering Canada for their opening game of the World Cup.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-13T12:09:47+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.com/sport/football/articles/ce3en0nz251o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.com/sport/football/articles/ce3en0nz251o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "190e5c2bab",
+      "title": "Violence erupts at anti-government protest in DR Congo",
+      "summary": "Hundreds demonstrated in Kinshasa against constitutional changes.",
+      "country": "COD",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-13T11:16:57+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/violence-erupts-at-anti-government-protest-in-dr-congo?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/violence-erupts-at-anti-government-protest-in-dr-congo?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "adb7a00a87",
       "title": "Comment la BOAD veut révolutionner le financement du logement dans l’Uemoa",
       "summary": "Le logement social, parent pauvre du financement en Afrique de l’Ouest, s’invite au cœur de la stratégie de la Banque ouest-africaine de développement. À Lomé, banquiers, constructeurs et investisseurs ont cherché comment combler un déficit de 3,5 millions d’unités.",
@@ -2774,36 +2894,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f3c10a34c6",
-      "title": "Brazil vs Morocco World Cup team news: Neymar, start time and how to watch",
-      "summary": "Record five-time world champions Brazil open their 2026 campaign against African heavyweights Morocco on Saturday.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-13T07:06:46+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/sports/2026/6/13/brazil-vs-morocco-world-cup-team-news-neymar-start-time-and-how-to-watch?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/sports/2026/6/13/brazil-vs-morocco-world-cup-team-news-neymar-start-time-and-how-to-watch?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "b9273f7832",
       "title": "Migrants expulsés des États-Unis vers des pays tiers : un premier avion atterrit en Centrafrique",
       "summary": "Dans le cadre d'un dispositif controversé d'envoi de migrants en situation irrégulière des États-Unis vers des pays tiers, un premier avion américain est arrivé vendredi en Centrafrique avec à son bord des ressortissants iraniens, afghans, turcs et géorgiens.",
@@ -2829,36 +2919,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260613-migrants-expuls%C3%A9s-des-%C3%A9tats-unis-vers-des-pays-tiers-un-tout-premier-avion-arriv%C3%A9-en-centrafrique"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "02fa7cf14a",
-      "title": "Older runners defy age in Kenya’s central highlands",
-      "summary": "Members of a self-funded athletics club in Meru are proving that competition does not end with age.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-13T04:31:19+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/6/13/older-runners-defy-age-in-kenyas-central-highlands?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/6/13/older-runners-defy-age-in-kenyas-central-highlands?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -2949,36 +3009,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/podcasts/chronique-transports/20260612-les-ports-africains-ont-tout-%C3%A0-gagner-avec-l-intelligence-artificielle"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f1ad83473c",
-      "title": "Partey denied entry to Canada for Ghana's World Cup opener",
-      "summary": "Ghana midfielder Thomas Partey will miss his nation's first World Cup game in Toronto against Panama, after being denied entry to Canada.",
-      "country": "GHA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T21:37:42+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.com/sport/football/articles/cn8qgny4186o?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.com/sport/football/articles/cn8qgny4186o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
@@ -3674,396 +3704,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b55b8d5fd0",
-      "title": "June 12 and Travails of Nigeria's Democracy",
-      "summary": "[This Day] June 12, 1993 is etched in our collective psyche because the freest and fairest presidential election in Nigeria's political annals took place on that date. International and local election observers, who monitored the election, wrote reports that stated that the election was free and fair. But incredibly, and to our utter bewilderment, Nigeria's political 'Maradona', Ibrahim Badamasi Babangida, annulled that election. Consequently, Nigeria was thrown into a…",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:34+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120470.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120470.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "baab6d9083",
-      "title": "Reading Tony Elumelu - Beyond Wealth and the Human Condition",
-      "summary": "[This Day] Writing about Tony Elumelu has always felt, to me, like a private reckoning disguised as public prose. I do not approach his story as a distant chronicler might, armed with sterile facts and perfunctory admiration. No. Each time I sit with the weight of his journey, I find myself implicated, drawn into a deeper contemplation of what it means for one man to bend the arc of a continent's possibilities without noise, without theatrics, yet with a force so steady…",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:34+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120471.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120471.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b04d9629c9",
-      "title": "Super Eagles Retain Status Quo As Argentina Leapfrog France to Number 1",
-      "summary": "[This Day] Nigeria's Super Eagles maintain their position as the third-highest-ranked team in Africa and 26th in the world in the latest FIFA ranking released barely hours to the kickoff of the 2026 FIFA World Cup in North America.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:34+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120472.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120472.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f89971decb",
-      "title": "NDC Primaries and the Aftermath",
-      "summary": "[This Day] Kalu OKORONKWO argues that the NWC bears responsibility for ensuring that primaries are conducted in accordance with party rules",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:33+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120467.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120467.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "88aad205fa",
-      "title": "Beijing and Chongqing - China's Cities of Memory and Green Dreams",
-      "summary": "[This Day] Iyobosa Uwugiaren, who recently returned from China after a three-month seminar, writes on how the Great Wall, the National Museum of China, the Temple of Heaven, and the rise of Chongqing reveal China's culture, traditions, arts, and urban development.",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:33+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120468.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120468.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e968d51027",
-      "title": "SAHCO Set for Stronger Trade Relationship With UAE, Others",
-      "summary": "[This Day] Skyway Aviation Handling Company Plc (SAHCO) has expressed its willingness to strengthen trade facilitation between Nigeria and the United Arab Emirates (UAE).",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:32+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120466.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120466.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6b0ffd6c41",
-      "title": "United Nigeria Airlines Celebrates Democracy Day",
-      "summary": "[This Day] Rising domestic carrier, United Nigeria Airlines, has joined the nation in commemorating June 12, Nigeria's official Democracy Day by supporting Kalakiri, the latest Nigerian movie whose central theme is the celebration of democracy and national unity.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:31+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120463.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120463.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e04512fbbe",
-      "title": "'Arridex's 3d Manufacturing Bold Move Towards Nigeria Industrial Innovation'",
-      "summary": "[This Day] The Governor of Lagos State, Mr. Babajide Sanwo-Olu, has described the Arridex Group's multi-technology industrial 3D manufacturing facility as a bold steps towards industrial innovation, advanced manufacturing, and economic transformation in Nigeria.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:30+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120462.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120462.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6898dac554",
-      "title": "'Prophet' Elijah Takes Religious Folly Abroad",
-      "summary": "[This Day] Nigeria must own the rights to the most peculiar country in the world. Nothing is strange around here anymore. From the story of snakes swallowing millions of naira notes to terrorists abducting hundreds of school children for years without a trace. And this: bandits doing cash giveaway bonanza on social media yet the security agencies claim they can't find them. Nigerians are of course, inured to these incongruities.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:29+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120458.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120458.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "94c1ac2fd9",
-      "title": "NSIB - Critical Evidence Retrieved in Warri-Itakpe Train Derailment Investigation",
-      "summary": "[This Day] The investigation by the Nigerian Safety Investigation Bureau (NSIB) in the train derailment that occurred along the Warri-Itakpe rail corridor on Monday has progressed with the retrieval of critical evidence and the completion of key on-site investigative activities, NSIB has said.",
-      "country": "NGA",
-      "category": "SINISTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:29+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120460.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120460.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cea7c1474f",
-      "title": "N20bn Debt - Operators Insist NCAA Collect 5 Percent Ticket Sales Charge From Travellers",
-      "summary": "[This Day] The Airline Operators of Nigeria (AON) has insisted that the Nigeria Civil Aviation Authority (NCAA) should henceforth device a way to collect its 5 per cent Ticket Sales Charge (TSC) and Cargo Sales Charge (CSC) levied on passengers.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:28+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120456.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120456.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c18b4f1afe",
-      "title": "Independence, Democracy and Prosperity",
-      "summary": "[This Day] Fellow Nigerians",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:38:28+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120457.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120457.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9cda063a84",
-      "title": "Kisumu Rallies Chps in New Push to Tackle Rising HIV, Teenage Pregnancies and GBV",
-      "summary": "[Capital FM] Nairobi -- Leaders in Kisumu have intensified efforts to tackle rising cases of new HIV infections, teenage pregnancies and gender-based violence among young people, with Community Health Promoters (CHPs) identified as critical frontline agents in the campaign.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T12:32:17+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120429.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120429.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "eb90b71d3f",
       "title": "NLP Leader Gives Govt Two-Week Ultimatum Over Rising Killings in Farmer-Herder Clashes",
       "summary": "[Capital FM] Nairobi -- National Liberal Party leader Dr. Augustus Kyalo Muli has given the government a two-week ultimatum to address the rising wave of killings and insecurity in Kitui County, warning of fresh demonstrations if authorities the state fails to take decisive action.",
@@ -4209,36 +3849,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606120390.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bcced7a707",
-      "title": "Why Nigeria Is Dancing to Opera Mini",
-      "summary": "[Vanguard] For years, Opera Mini has been helping Nigerians get online. For many, it is tied to early mobile internet memories: browsing on limited bundles, reading blogs, chatting, downloading music, and finding ways to stay connected without spending too much. Now, thanks to Poco Lee and Seyi Vibez's new track, \"Opera Mini,\" the browser's name is showing up somewhere new: on the dancefloor.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T11:42:10+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120389.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120389.html"
         }
       ],
       "confirmation_count": 1
@@ -4454,6 +4064,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "42f08046e1",
+      "title": "Independence, Democracy Won - Now Prosperity Must Follow - Tinubu",
+      "summary": "[Vanguard] President Bola Tinubu has called on Nigerians to embrace unity and shared responsibility in the ongoing task of nation-building, declaring that while earlier generations secured independence and democracy, the current generation must now focus on delivering prosperity.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T10:44:02+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120313.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120313.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "deb8d879d0",
       "title": "Court Sets June 18 for Trial of Factional PDP Chairman",
       "summary": "[Leadership] Justice Peter Kekemeke of the High Court of the Federal Capital Territory (FCT) sitting in Maitama, has fixed June 18, 2026 for the trial of the Kabiru Turaki, the factional chairman of the Peoples Democratic Party (PDP).",
@@ -4484,6 +4124,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "14d9d86e54",
+      "title": "FIFA Elite Referees Course to Begin in Abuja As Young Talent Programme Ends",
+      "summary": "[This Day] The closing ceremony of this year's FIFA Young Talent (Referees) programme will take place on Friday, 12th June in Abuja, even as the Nigeria Football Federation has concluded all arrangements for the commencement of the FIFA Member Association's Elite Referees Course that will begin on Monday, 15th June 2026.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T10:16:08+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120264.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120264.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "0cf1998ab0",
       "title": "Sources say women who fled Iran to be deport from US to Central African Republic",
       "summary": "Sources said two Iranian women will be among over 20 migrants to be sent to the Central African Republic under a so-called third-country deportees deal.",
@@ -4509,6 +4179,36 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/06/12/sources-say-women-who-fled-iran-to-be-deport-from-us-to-central-african-republic/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b22355c780",
+      "title": "Accord Leaders in Osun Reaffirm Olawepo-Hashim's 2027 Presidential Bid",
+      "summary": "[Vanguard] OSOGBO -- Leaders, stakeholders and longstanding members of the Accord Party in Osun State have reaffirmed their support for Dr. Gbenga Olawepo-Hashim as the party's presidential candidate for the 2027 general election, insisting that no external influence can overturn the mandate freely given to him by party members.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T10:10:12+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120257.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120257.html"
         }
       ],
       "confirmation_count": 1
@@ -4784,6 +4484,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "1f7cfdb8fe",
+      "title": "13,000 Terrorists Neutralised in One Year - Tinubu",
+      "summary": "[Vanguard] President Bola Tinubu says more than 13,000 terrorists had been neutralised in the past year as part of intensified efforts to combat insecurity across the country.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T08:54:07+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120193.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120193.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "33653b5834",
       "title": "Naila Opiangah: From Gabon to the global art scene",
       "summary": "Now based between Ghana and New York, the 31-year-old artist says her work is deeply personal, but also political.",
@@ -4809,6 +4539,36 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/06/11/naila-opiangah-from-gabon-to-the-global-art-scene/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "123edcf7a1",
+      "title": "Abducted Pupils, Teachers Yet to Leave Old Oyo National Park Corridor - Makinde",
+      "summary": "[Vanguard] Oyo State Governor Seyi Makinde has disclosed that pupils and teachers abducted from schools in Yawota and Ahoro-Esinle communities in the Oriire Local Government Area remained within the wider Old Oyo National Park axis as security agencies intensified efforts to secure their release 27 days after the incident.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T08:47:40+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120191.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120191.html"
         }
       ],
       "confirmation_count": 1
@@ -5049,6 +4809,246 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/06/12/tigrayan-forces-preparing-offensive-against-federal-gov-addis-ababa-warns/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6ef0683103",
+      "title": "Surrender or Face Wrath of Law, Tinubu Warns Criminals On Democracy Day",
+      "summary": "[This Day] In the spirit of June 12 and Democracy Day celebration, President Bola Tinubu, yesterday, gave a lifeline to criminals hiding in different parts of the country, asking them to either surrender now or face the full wrath of the law.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:39:52+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120163.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120163.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "781eb6280d",
+      "title": "Nigeria Exceeds OPEC Quota As Crude, Condensate Output Reaches 11-Month High",
+      "summary": "[This Day] Nigeria's oil and condensate production rose to an 11-month high in May, with crude output surpassing the country's 1.5 million barrels per day production quota under the Organisation of the Petroleum Exporting Countries (OPEC), a development that could boost government revenues and strengthen Forex earnings.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:39:52+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120164.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120164.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0b7183b5a1",
+      "title": "Vote, Build, Work and Code Here, Tinubu Urges Nigerian Youths to Stop Leaving the Country",
+      "summary": "[Vanguard] ABUJA -- President Bola Tinubu has appealed to Nigerian youths to remain in the country and contribute to its development, urging them to channel their talents, innovation and energy towards building a stronger nation rather than seeking opportunities abroad.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:39:51+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120161.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120161.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "939b1eae07",
+      "title": "TCN Seeks Stronger Legal Protection for Electricity Infrastructure",
+      "summary": "[Vanguard] The Transmission Company of Nigeria (TCN) has called on the Federal Government and the National Assembly to strengthen legal protection for critical electricity infrastructure, saying vandalism, sabotage and encroachment on transmission corridors continue to threaten power supply and investments in the sector.",
+      "country": "NGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:39:51+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120162.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120162.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "eafbbda86f",
+      "title": "State Police - Reps Pass Bill, Scales Second Reading in Senate",
+      "summary": "[Vanguard] Abuja -- The House of Representatives, yesterday, overwhelmingly voted in favour of a constitutional amendment bill seeking to establish state police across the country, marking a major step in efforts to address Nigeria's worsening security challenges.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:39:50+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120159.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120159.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0a47755426",
+      "title": "Full Text of President Bola Ahmed Tinubu's Democracy Day Address On Friday",
+      "summary": "[Vanguard] Fellow Nigerians",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:39:50+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120160.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120160.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bd33a7cba7",
+      "title": "Crime Has No Ethnicity, Let Us Not Assign Blame or Point Fingers - Tinubu",
+      "summary": "[Vanguard] ABUJA -- President Bola Tinubu has urged Nigerians to avoid ethnic profiling and blame games in the fight against insecurity, insisting that crime has no ethnicity and the country must remain united to defeat terrorism and criminality.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:32:35+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120157.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120157.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "056b4f5c1f",
+      "title": "Data Is the New Oil in Mineral Exploration - Shinkafi",
+      "summary": "[Leadership] The executive secretary of the Solid Minerals Development Fund (SMDF), Hajiya Fatima Umaru Shinkafi, has declared that \"data is the new oil\" in Nigeria's mining sector.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T07:31:20+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120154.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120154.html"
         }
       ],
       "confirmation_count": 1
@@ -5324,6 +5324,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "f815e63088",
+      "title": "Ruto Wraps Up Nordic Visits With Call for Greater Diaspora Investment",
+      "summary": "[Capital FM] Nairobi -- President William Ruto concluded his visit to three European nations by encouraging the Kenyan diaspora to support and invest in the transformative programmes the government is implementing back home.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T06:21:16+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120089.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120089.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "e3f07ec0a4",
       "title": "Can Airtel dent M-Pesa’s dominance in the battle for Kenya’s mobile money market?",
       "summary": "With the government reluctant to break up Safaricom’s monopoly, Airtel Money is bypassing regulators to challenge M-Pesa directly through aggressive price wars and rapid agent expansion.",
@@ -5409,6 +5439,96 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606120061.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "187beb62ef",
+      "title": "Bumpa Enters Kenya to Tap Growing SME Digital Commerce Market",
+      "summary": "[Capital FM] Nairobi -- Nigerian business management platform Bumpa has entered the Kenyan market, targeting micro, small and medium-sized enterprises (MSMEs) seeking to digitize operations, manage sales and expand online commerce.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T04:22:42+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120047.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120047.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6be02e3d60",
+      "title": "How Ruto's Whirlwind Global Tours Will Reshape Economy, Transform Lives",
+      "summary": "[Capital FM] Nairobi -- In an era defined by fractured global supply chains and shifting geopolitical corridors, Kenya is aggressively scouting for new opportunities and partnerships while bolstering existing ties.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T04:22:40+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120045.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120045.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "78096d5b22",
+      "title": "No New Taxes As Government Prioritises Relief for Kenyans, Says Mbadi",
+      "summary": "[Capital FM] Nairobi -- Treasury Cabinet Secretary John Mbadi has defended the government's decision to leave tax rates unchanged and avoid introducing fresh levies in the 2026 Finance Bill, arguing that the move is aimed at shielding Kenyans from further economic strain.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-12T04:22:36+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120038.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120038.html"
         }
       ],
       "confirmation_count": 1
@@ -5684,36 +5804,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "d881d60ccd",
-      "title": "UK Demands Response Over British Army Uniform in Nanyuki Protest Crackdown",
-      "summary": "[Capital FM] Nairobi -- The British High Commission has demanded a government response over the use of a British Army uniform during protests against a US-linked Ebola quarantine facility in Nanyuki, distancing the British Army Training Unit Kenya (BATUK) from the security operation.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-11T13:41:29+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606110483.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606110483.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "cb5ba0b432",
       "title": "Mbadi Links 2026/2027 Budget to Ruto-Raila Dream of Prosperous Kenya",
       "summary": "[Capital FM] Nairobi -- Treasury Cabinet Secretary John Mbadi invoked the political ideals of President William Ruto and ODM leader Raila Odinga as he unveiled the Sh4.84 trillion 2026/27 Budget, describing it as a blueprint to steer the country on a path to Canaan through Singapore.",
@@ -5829,36 +5919,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1802867/politique/festival-de-fes-la-diplomatie-culturelle-marocaine-se-met-en-scene/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "735350f450",
-      "title": "Govt Fast-Tracking Measures to Combat Gender-Based Violence and Femicide, Says DP Kindiki",
-      "summary": "[Capital FM] Nairobi -- The government is accelerating the implementation of measures aimed at tackling the rising cases of gender-based violence (GBV) and femicide across the country, Deputy President Kithure Kindiki has said.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-11T11:56:10+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606110334.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606110334.html"
         }
       ],
       "confirmation_count": 1
@@ -6429,36 +6489,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260610-ebola-violent-bras-de-fer-au-kenya-%C3%A0-propos-d-un-site-de-quarantaine-am%C3%A9ricain"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cd74ed4392",
-      "title": "Le Sénégal veut rassurer ses partenaires avant le rendez-vous avec le FMI",
-      "summary": "À quelques jours d’une visite importante du FMI au Sénégal, Dakar envoie un signal positif à ses partenaires internationaux. Le Sénégal a procédé au paiement anticipé de deux échéances de sa dette. L’objectif du nouveau gouvernement est de trouver un accord avec l’institution et de relancer l’économie, qui souffre depuis 18 mois. Précisions du correspondant de France 24 à Dakar, Elimane Ndao.",
-      "country": "SEN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-10T11:27:20+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260610-le-s%C3%A9n%C3%A9gal-veut-rassurer-ses-partenaires-avant-le-rendez-vous-avec-le-fmi"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260610-le-s%C3%A9n%C3%A9gal-veut-rassurer-ses-partenaires-avant-le-rendez-vous-avec-le-fmi"
         }
       ],
       "confirmation_count": 1
