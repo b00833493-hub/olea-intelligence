@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-17T17:22:28.230730+00:00",
+  "generated_at": "2026-06-17T20:32:36.770770+00:00",
   "stats": {
     "total_signals": 249,
-    "verified_signals": 5,
-    "countries_covered": 28,
+    "verified_signals": 6,
+    "countries_covered": 29,
     "sources_active": 16,
     "per_country": {
-      "NGA": 35,
-      "COD": 27,
+      "NGA": 36,
+      "COD": 26,
       "ZAF": 22,
       "KEN": 37,
       "RWA": 2,
@@ -25,10 +25,11 @@
       "MDG": 1,
       "CIV": 7,
       "GAB": 3,
+      "MWI": 1,
       "GIN": 2,
       "GNQ": 2,
       "BFA": 1,
-      "MRT": 3,
+      "MRT": 2,
       "ZWE": 1,
       "BEN": 1,
       "TGO": 1,
@@ -388,8 +389,8 @@
       "country": "SEN",
       "category": "AUTRE",
       "severity": 4,
-      "credibility": 2,
-      "verified": false,
+      "credibility": 4,
+      "verified": true,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
@@ -407,9 +408,15 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606170145.html"
+        },
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606170145.html"
         }
       ],
-      "confirmation_count": 1
+      "confirmation_count": 2
     },
     {
       "id": "dffa6ca01e",
@@ -437,6 +444,36 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.com/news/articles/cg740l2jpr0o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ce214d4a07",
+      "title": "Gunmen Ambush, Kill District Head in Plateau",
+      "summary": "[Vanguard] Gunmen have killed the District Head of Gwande in Bokkos Local Government Area of Plateau State, Saf Samuel Alaket, in an ambush attack along the Sha District axis bordering Daffo community.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-17T09:37:32+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606170105.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606170105.html"
         }
       ],
       "confirmation_count": 1
@@ -497,36 +534,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606170059.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ba1f748943",
-      "title": "Nigerians Tell Their Stories of Banditry. 'A Month Will Not Go By Without Someone Being Killed in This Village.'",
-      "summary": "[The Conversation Africa] Banditry is widespread in Nigeria. It has been defined as \"a loose collection of various criminal groups involved in kidnap-for-ransom, armed robbery, cattle rustling, rape and sexual violence, pillage and attacks on traders, farmers and travellers, particularly in Nigeria's northwest region\".",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-17T07:26:26+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606170038.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606170038.html"
         }
       ],
       "confirmation_count": 1
@@ -958,6 +965,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "d8dd9a959a",
+      "title": "Coupe du monde 2026: explosion de joie à Kinshasa après le nul arraché par la RDC face au Portugal",
+      "summary": "La qualification pour la suite de la compétition aux États-Unis, c'est le scénario dont tout le monde se met maintenant à rêver en RDC. Les 90 minutes du match face aux Portugais ont été longues pour les Congolais, d'abord menés au score après six minutes de jeu, et puis revenus dans les dernières minutes de la première mi-temps. Dans la capitale congolaise, on fête ce match nul qui a donc un peu le goût de victoire ce soir du 17 juin.",
+      "country": "COD",
+      "category": "SINISTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-17T20:12:04+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260617-coupe-du-monde-2026-explosion-de-joie-%C3%A0-kinshasa-apr%C3%A8s-le-nul-arrach%C3%A9-par-la-rdc-face-au-portugal"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260617-coupe-du-monde-2026-explosion-de-joie-%C3%A0-kinshasa-apr%C3%A8s-le-nul-arrach%C3%A9-par-la-rdc-face-au-portugal"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "9d6ed6a7d6",
       "title": "Search for six-year-old Ebola patient after armed men storm DR Congo hospital",
       "summary": "Health facilities have come under attack during the current outbreak as a result of misinformation and fear.",
@@ -1223,36 +1260,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260617-ebola-en-rdc-en-ituri-quinze-jours-apr%C3%A8s-leur-ouverture-les-centres-de-traitement-d%C3%A9j%C3%A0-satur%C3%A9s"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "dd656fb679",
-      "title": "Coupe du monde 2026: à Kinshasa, tout un peuple se prépare au retour des Léopards après 52 ans d'absence",
-      "summary": "Entrée en lice de la République démocratique du Congo ce mercredi dans la Coupe du monde 2026. Les joueurs congolais doivent affronter à Houston, aux États-Unis, l’équipe du Portugal. Une belle affiche qui marque le début d’un retour dans la compétition attendu depuis 52 ans à Kinshasa. La capitale congolaise s’apprête à vivre les prochains jours aux couleurs de la sélection nationale.",
-      "country": "COD",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-17T07:18:31+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique-foot/20260617-coupe-du-monde-2026-%C3%A0-kinshasa-tout-un-peuple-se-pr%C3%A9pare-au-retour-des-l%C3%A9opards-apr%C3%A8s-52-ans-d-absence"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique-foot/20260617-coupe-du-monde-2026-%C3%A0-kinshasa-tout-un-peuple-se-pr%C3%A9pare-au-retour-des-l%C3%A9opards-apr%C3%A8s-52-ans-d-absence"
         }
       ],
       "confirmation_count": 1
@@ -2350,36 +2357,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "53ee3c8368",
-      "title": "DR Congo opposition turns up pressure as referendum battle intensifies",
-      "summary": "Fresh clashes during an opposition-led protest in Kinshasa have heightened political tensions in the Democratic Republic of Congo, as opponents of constitutional reform vow to intensify resistance against plans they fear could pave the way for a third presidential term.",
-      "country": "COD",
-      "category": "POLITIQUE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-15T16:56:57+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/15/dr-congo-opposition-turns-up-pressure-as-referendum-battle-intensifies/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/15/dr-congo-opposition-turns-up-pressure-as-referendum-battle-intensifies/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1cbcaf4c01",
       "title": "Gambia, Senegal Seal Landmark Cooperation Agreements",
       "summary": "[The Point] The Gambia and Senegal have signed a series of landmark cooperation agreements covering energy, border management, the digital economy, youth development, technology, culture and tourism, as well as higher education, research, science and technology.",
@@ -2650,6 +2627,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "43d2aa8fbc",
+      "title": "Portugal held to draw by DR Congo in World Cup 2026 opener",
+      "summary": "Joao Neves opens the scoring for Portugal with early goal, but Yoane Wissa equalises in first-half injury time.",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-17T19:25:38+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/sports/2026/6/17/portugal-held-to-1-1-draw-by-dr-congo-in-their-world-cup-2026-opener?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/sports/2026/6/17/portugal-held-to-1-1-draw-by-dr-congo-in-their-world-cup-2026-opener?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "15300ba6e0",
       "title": "Côte d’Ivoire – Ghana : l’Opep du cacao à la recherche d’un second souffle",
       "summary": "Le président ivoirien et son homologue ghanéen relancent leur alliance dans le cacao pour peser davantage sur le marché mondial et trouver une parade à la volatilité des cours.",
@@ -2675,6 +2682,156 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1805137/economie-entreprises/cote-divoire-ghana-lopep-du-cacao-a-la-recherche-dun-second-souffle/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a1670649a4",
+      "title": "Ex-Nigeria oil minister cleared in UK bribery trial",
+      "summary": "Diezani Alison-Madueke had been accused of receiving bribes from oil tycoons but was found not guilty by a jury at Southwark Crown Court.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-17T19:03:10+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.com/news/articles/c872pwx4x2vo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.com/news/articles/c872pwx4x2vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b6f1afd8ee",
+      "title": "South Africa secures $1bn from BRICS bank for urban infrastructure",
+      "summary": "The funds will support investment in the provision of essential ​urban services, including water supply and sanitation, electricity and solid waste management in eight South African municipalities",
+      "country": "ZAF",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "published": "2026-06-17T18:56:41+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/17/south-africa-secures-1bn-from-brics-bank-for-urban-infrastructure/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/17/south-africa-secures-1bn-from-brics-bank-for-urban-infrastructure/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8ac7436513",
+      "title": "BRICS : un milliard de dollars pour moderniser les villes sud-africaines",
+      "summary": "La Nouvelle Banque de développement, bras financier du groupe des BRICS, a approuvé un prêt pouvant atteindre un milliard de dollars en faveur de l’Afrique du Sud. Ce financement vise à moderniser les services urbains essentiels dans huit grandes municipalités.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-17T18:53:11+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/17/brics-un-milliard-de-dollars-pour-moderniser-les-villes-sud-africaines/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/17/brics-un-milliard-de-dollars-pour-moderniser-les-villes-sud-africaines/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "80a7c3cf3a",
+      "title": "Police clash with Malawian protesters demanding deportation in South Africa",
+      "summary": "Police clash with Malawian protesters demanding deportation in South Africa",
+      "country": "MWI",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-17T18:52:49+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/police-clash-with-malawian-protesters-demanding-deportation-in-south-africa?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/police-clash-with-malawian-protesters-demanding-deportation-in-south-africa?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "978d13995c",
+      "title": "Seplat, Aradel, Renaissance… Nigeria’s new oil champions inherit the Delta’s old risks",
+      "summary": "Indigenous producers now claim more than half of national output after a wave of deals with Shell, Eni, ExxonMobil, Equinor and TotalEnergies. The test is whether they can fund, operate and clean up the assets better than the majors did.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-17T18:00:00+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/422116/seplat-aradel-renaissance-nigerias-new-oil-champions-inherit-the-deltas-old-risks/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/422116/seplat-aradel-renaissance-nigerias-new-oil-champions-inherit-the-deltas-old-risks/"
         }
       ],
       "confirmation_count": 1
@@ -3160,36 +3317,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0b2c33c60e",
-      "title": "LIVE: Portugal vs DR Congo – World Cup 2026",
-      "summary": "Follow the build-up, analysis and live text commentary of the Group K clash between Ronaldo's Portugal and DR Congo.",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-17T14:00:00+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/sports/liveblog/2026/6/17/live-portugal-vs-dr-congo-world-cup-2026?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/17/live-portugal-vs-dr-congo-world-cup-2026?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "59e52b9c94",
       "title": "\"Les étrangers doivent partir pacifiquement\" : manifestations anti-immigration en Afrique du Sud",
       "summary": "Le mouvement anti-immigration March and March a organisé des manifestations dans toute l’Afrique du Sud et notamment au Cap. Le mouvement se mobilise pour maintenir la pression sur le gouvernement. Le pays affirme avoir rapatrié 2 745 personnes en une semaine. Des milliers d’autres attendent leur tour. Reportage de Caroline Dumay.",
@@ -3215,36 +3342,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260617-les-%C3%A9trangers-doivent-partir-pacifiquement-manifestations-anti-immigration-en-afrique-du-sud"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b6ad5d4038",
-      "title": "South Africa play Czechia, seek first World Cup win after Mexico defeat",
-      "summary": "After losing their opening group matches, both teams need a victory to keep knockout hopes alive.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-17T13:14:06+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/sports/2026/6/17/south-africa-plays-czechia-seeks-first-world-cup-win-after-mexico-defeat?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/sports/2026/6/17/south-africa-plays-czechia-seeks-first-world-cup-win-after-mexico-defeat?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -4535,36 +4632,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1804663/politique/mauritanie-mali-pourquoi-ghazouani-tend-la-main-a-goita-apres-des-mois-de-crise/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b3f7bd6252",
-      "title": "Stablecoins Become Growing Cross-Border Channel in Nigeria",
-      "summary": "[Daba Finance] Stablecoins are becoming a major cross-border payment channel in Nigeria as households and small businesses use dollar-linked digital tokens to move money faster and at lower cost.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-17T07:24:55+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606170036.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606170036.html"
         }
       ],
       "confirmation_count": 1
@@ -6160,36 +6227,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0cccfc3680",
-      "title": "Mauritania crackdown slows migrant departures but not dreams of Europe",
-      "summary": "As Mauritania tightens its borders and Europe hardens its migration policies, departures from the country's shores may be falling. But for many migrants gathered in Nouadhibou, the forces pushing them to leave remain firmly in place.",
-      "country": "MRT",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-15T14:56:08+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/15/mauritania-crackdown-slows-migrant-departures-but-not-dreams-of-europe/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/15/mauritania-crackdown-slows-migrant-departures-but-not-dreams-of-europe/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8e37837b07",
       "title": "Les « collèges pionniers », illustration de la nouvelle coopération entre Rabat et Paris",
       "summary": "L’éducation s’impose comme l’un des piliers du partenariat renouvelé entre le Maroc et la France. À Rabat, l’expérience des « collèges pionniers » illustre la manière dont les deux pays entendent conjuguer coopération technique et ambitions de long terme.",
@@ -6785,36 +6822,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606120543.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "284c132103",
-      "title": "'Nightmare from start to finish' for South Africa in opener",
-      "summary": "Former captain Dean Furman says South Africa were \"miles off it\" in their World Cup opener against Mexico, as many on the continent 'hate-watch' Bafana Bafana.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T14:26:30+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.com/sport/football/articles/cn4dx3v9wjgo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.com/sport/football/articles/cn4dx3v9wjgo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
