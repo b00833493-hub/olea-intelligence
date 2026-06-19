@@ -1,33 +1,32 @@
 {
-  "generated_at": "2026-06-19T21:21:28.846046+00:00",
+  "generated_at": "2026-06-19T23:13:27.749846+00:00",
   "stats": {
     "total_signals": 236,
     "verified_signals": 6,
-    "countries_covered": 28,
+    "countries_covered": 27,
     "sources_active": 16,
     "per_country": {
-      "COD": 19,
-      "NGA": 34,
+      "COG": 4,
+      "COD": 18,
+      "NGA": 35,
       "ETH": 4,
-      "NER": 8,
-      "ZAF": 16,
-      "SEN": 28,
-      "COG": 3,
+      "NER": 9,
+      "ZAF": 15,
+      "SEN": 27,
       "KEN": 33,
-      "MAR": 16,
+      "MAR": 17,
       "CIV": 22,
       "BEN": 4,
-      "GHA": 8,
+      "GHA": 9,
       "MLI": 5,
       "MOZ": 1,
-      "TUN": 4,
-      "CAF": 2,
+      "TUN": 3,
+      "ZWE": 6,
+      "CAF": 1,
       "TCD": 2,
-      "ZWE": 5,
       "BFA": 5,
       "CMR": 5,
       "MDG": 2,
-      "DZA": 1,
       "AGO": 1,
       "SLE": 1,
       "UGA": 2,
@@ -135,6 +134,36 @@
     }
   ],
   "signals": [
+    {
+      "id": "684ce0b196",
+      "title": "Thirty dead at DRC displacement camp as Ebola threat grows",
+      "summary": "At least 30 people have died since May in the Kigonze displacement camp in the Democratic Republic of Congo.",
+      "country": "COG",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-19T22:27:34+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/19/aje-onl-nf_thirty-dead-at-drc-displacement-camp-ebola-threat-190626?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/19/aje-onl-nf_thirty-dead-at-drc-displacement-camp-ebola-threat-190626?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "7f01b68a39",
       "title": "Exclusif : à Bunia en RD Congo, les soignants en première ligne face à Ebola",
@@ -358,6 +387,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "711a4eb466",
+      "title": "NEC Approves N83.2bn to Tackle Flooding, Climate-Related Emergencies",
+      "summary": "[Premium Times] The National Economic Council has approved N83.2 billion for proactive interventions to mitigate flooding and other climate-related disasters across Nigeria, as authorities warn of severe flooding risks in 33 states and the FCT this year.",
+      "country": "NGA",
+      "category": "CLIMAT",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-19T07:10:56+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606190013.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606190013.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f5a742141e",
       "title": "Lagos Refuse Crisis - Sanwo-Olu Orders Emergency Waste Evacuation After Premium Times Report",
       "summary": "[Premium Times] The governor announced the directive on Thursday, saying the Lagos Waste Management Authority (LAWMA), Lagos State Environmental Protection Agency (LASEPA) and the Ministry of Environment had been mobilised to address the situation.",
@@ -512,36 +571,6 @@
         }
       ],
       "confirmation_count": 2
-    },
-    {
-      "id": "cab79f648b",
-      "title": "Au Texas, le discours très politique du président de la RDC devant la diaspora congolaise",
-      "summary": "Depuis Houston, aux États-Unis, le président de la RDC s'est adressé mercredi 17 juin à la diaspora congolaise réunie après le match nul des Léopards face au Portugal en Coupe du monde 2026 de football. Félix Tshisekedi s’en est pris notamment, sans le nommer, à son prédécesseur, Joseph Kabila, condamné à mort le 30 septembre 2025 à Kinshasa et placé sous sanctions américaines en avril dernier.",
-      "country": "COD",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": "AML_CFT",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-06-18T11:44:00+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260618-au-texas-le-discours-tr%C3%A8s-politique-du-pr%C3%A9sident-de-la-rdc-devant-la-diaspora-congolaise"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260618-au-texas-le-discours-tr%C3%A8s-politique-du-pr%C3%A9sident-de-la-rdc-devant-la-diaspora-congolaise"
-        }
-      ],
-      "confirmation_count": 1
     },
     {
       "id": "3df73a56df",
@@ -880,6 +909,66 @@
       "confirmation_count": 1
     },
     {
+      "id": "517ad1035e",
+      "title": "Niger: l'attaque sur l'aéroport revendiqué par le JNIM, les autorités accusent la France",
+      "summary": "On en sait un peu plus sur l’attaque terroriste qui a visé, jeudi 18 juin 2026, une base militaire située au sein de l'aéroport international Diori Hamani de Niamey. Au soir des faits, l’armée nigérienne a communiqué un bilan officiel après plusieurs heures d’opérations de ratissage. Revendiquée par le Groupe de soutien à l’islam et aux musulmans (JNIM), affilié à Al-Qaïda, l’attaque a été repoussée par les Forces de défense et de sécurité après plus de deux heures de…",
+      "country": "NER",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-19T21:29:35+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260619-niger-l-attaque-sur-l-a%C3%A9roport-revendiqu%C3%A9-par-le-jnim-les-autorit%C3%A9s-accusent-la-france"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260619-niger-l-attaque-sur-l-a%C3%A9roport-revendiqu%C3%A9-par-le-jnim-les-autorit%C3%A9s-accusent-la-france"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4f472af3a2",
+      "title": "EN DIRECT - Coupe du monde 2026: face à l'Écosse, le Maroc mène toujours",
+      "summary": "Après avoir obtenu un match nul (1-1) face au Brésil, les coéquipiers d'Achraf Hakimi défient l'Écosse, le leader du groupe C. Coup d'envoi de cette deuxième journée de phase de poule à 22h TU.",
+      "country": "MAR",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-19T20:00:41+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/sports/20260619-en-direct-coupe-du-monde-2026-suivez-le-live-la-rencontre-entre-l-%C3%A9cosse-et-le-maroc"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/sports/20260619-en-direct-coupe-du-monde-2026-suivez-le-live-la-rencontre-entre-l-%C3%A9cosse-et-le-maroc"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "320a37b731",
       "title": "Kenya intensifies screening and awareness for truck drivers over Ebola fears",
       "summary": "Kenya's health authorities have intensified health screening for truck drivers whose movements span thousands of kilometres across multiple countries, as East Africa remains on heightened alert following the latest outbreak of Ebola in the Democratic Republic of the Congo.",
@@ -1090,36 +1179,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "bd60929ebe",
-      "title": "Reprise très partielle de l'activité d'Eramet Grande Côte au Sénégal",
-      "summary": "Au Sénégal, l'activité minière d'Eramet a repris à 30% de son niveau habituel depuis fin avril dans la région de Grande-Côte. Le site où sont produits des sables minéralisés (tels que le zircon ou l'ilménite) avait été touché par un incendie en février. Quelles perspectives pour les employés et pour le budget de l'État sénégalais, qui perçoit une part des revenus d'Eramet ?",
-      "country": "SEN",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-18T22:02:05+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260618-reprise-tr%C3%A8s-partielle-de-l-activit%C3%A9-d-eramet-grande-c%C3%B4te-au-s%C3%A9n%C3%A9gal"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260618-reprise-tr%C3%A8s-partielle-de-l-activit%C3%A9-d-eramet-grande-c%C3%B4te-au-s%C3%A9n%C3%A9gal"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "36d5ad0c6d",
       "title": "Coupe du monde 2026: l'attaquant ivoirien Elye Wahi finalement autorisé à entrer au Canada",
       "summary": "Après des supporters, un arbitre somalien et le milieu ghanéen Thomas Partey, une autre affaire de visa visant un ressortissant africain est venue perturber le Mondial 2026 : l'Ivoirien Elye Wahi a bien failli manquer le match contre l'Allemagne au Canada, mais pourra finalement le disputer.",
@@ -1145,36 +1204,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique-foot/20260618-coupe-du-monde-2026-l-attaquant-ivoirien-elye-wahi-finalement-autoris%C3%A9-%C3%A0-entrer-au-canada"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a3e91bb721",
-      "title": "Coupe du monde 2026: la République tchèque rattrapée par l'Afrique du Sud",
-      "summary": "La République tchèque a été rattrapée en fin de match par l'Afrique du Sud (1-1) dans leur deuxième match au Mondial-2026, jeudi 18 juin à Atlanta. Avec un point, les deux équipes restent en bas du classement du groupe A avant que le Mexique et Corée du Sud (trois points chacun) s'affrontent eux aussi ce jeudi 18 juin.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-18T19:00:32+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/sports/20260618-coupe-du-monde-2026-la-r%C3%A9publique-tch%C3%A8que-rattrap%C3%A9e-par-l-afrique-du-sud"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/sports/20260618-coupe-du-monde-2026-la-r%C3%A9publique-tch%C3%A8que-rattrap%C3%A9e-par-l-afrique-du-sud"
         }
       ],
       "confirmation_count": 1
@@ -1685,6 +1714,36 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606150228.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cdceee70e7",
+      "title": "Zimbabwe: le Parlement approuve une réforme qui pourrait maintenir Mnangagwa au pouvoir jusqu'en 2030",
+      "summary": "Au Zimbabwe, la chambre basse du Parlement a approuvé, jeudi 18 juin, un projet de loi visant notamment à faire passer la durée du mandat présidentiel de cinq à sept ans. Le texte doit encore être examiné par le Sénat, également dominé par la Zanu-PF, le parti au pouvoir. Si le texte est validé, le président Emmerson Mnangagwa espère se maintenir au pouvoir jusqu'en 2030 sans nouvelles élections, alors que son deuxième mandat est censé s'achever en 2028.",
+      "country": "ZWE",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "PROJET",
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-19T21:22:43+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260619-zimbabwe-le-parlement-approuve-une-r%C3%A9forme-qui-pourrait-maintenir-mnangagwa-au-pouvoir-jusqu-en-2030"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260619-zimbabwe-le-parlement-approuve-une-r%C3%A9forme-qui-pourrait-maintenir-mnangagwa-au-pouvoir-jusqu-en-2030"
         }
       ],
       "confirmation_count": 1
@@ -2488,31 +2547,31 @@
       "confirmation_count": 1
     },
     {
-      "id": "5eba90baeb",
-      "title": "Kenya Pipeline Strategy and Commercial Services Maneger Calls for People-Centred Development to Drive Sustainable Growth",
-      "summary": "[Capital FM] Nairobi -- Kenya Pipeline Company (KPC) has called for a stronger focus on people in development planning, arguing that sustainable growth can only be achieved when communities and workers are placed at the centre of economic progress.",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 2,
+      "id": "03218c0312",
+      "title": "Esclavage: au sommet d'Accra sur les réparations, les participants affichent un front uni et adoptent une feuille de route",
+      "summary": "Réunis du 17 au 19 juin dans la capitale ghanéenne, dirigeants africains, représentants de la diaspora et responsables politiques caribéens ont adopté la déclaration Accra Next Steps destinée à faire avancer les revendications de justice réparatrice liées à l'esclavage et au colonialisme. Mais au-delà du texte, les organisateurs mettent aussi et peut-être surtout en avant le rapprochement inédit entre l'Afrique, les Caraïbes et la diaspora que le sommet a permis.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
       "credibility": 2,
       "verified": false,
       "theme": null,
-      "legal_status": null,
+      "legal_status": "ADOPTE",
       "regulatory": false,
       "fdi": false,
-      "published": "2026-06-12T10:57:58+00:00",
+      "published": "2026-06-19T22:34:38+00:00",
       "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120343.html"
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260619-%C3%A0-accra-un-sommet-sur-les-r%C3%A9parations-adopte-sa-feuille-de-route-et-affiche-un-front-communationau"
       },
       "confirming_sources": [
         {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120343.html"
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260619-%C3%A0-accra-un-sommet-sur-les-r%C3%A9parations-adopte-sa-feuille-de-route-et-affiche-un-front-communationau"
         }
       ],
       "confirmation_count": 1
@@ -4558,36 +4617,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "4e0c618c95",
-      "title": "Les tensions avec l'Algérie redessinent les performances du blé français à l'export",
-      "summary": "La campagne de blé français 2025-2026 touche à sa fin et l'Algérie devrait de nouveau bouder le blé tricolore. La fermeture du marché algérien depuis 2024 force la filière à se tourner vers de nouveaux marchés d'export.",
-      "country": "DZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-18T22:10:03+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20260618-les-tensions-avec-l-alg%C3%A9rie-redessinent-les-performances-du-bl%C3%A9-fran%C3%A7ais-%C3%A0-l-export"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20260618-les-tensions-avec-l-alg%C3%A9rie-redessinent-les-performances-du-bl%C3%A9-fran%C3%A7ais-%C3%A0-l-export"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "169b73366f",
       "title": "Afrique du Sud: le cerveau d'un vaste trafic de cornes de rhinocéros condamné à une amende de 123000 dollars",
       "summary": "Un tribunal sud-africain a infligé, jeudi 18 juin, une amende de deux millions de rands, soit près de 123 000 dollars, à un organisateur de safaris présenté comme le cerveau d'un vaste trafic international de cornes de rhinocéros. Cette décision met un terme à un procès ouvert en 2010 et marqué par de nombreux retards et recours judiciaires.",
@@ -6268,36 +6297,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0de4f048e9",
-      "title": "Tunisia sack Lamouchi just one game into World Cup",
-      "summary": "Tunisia sack Sabri Lamouchi one game into their World Cup, with former Morocco and Saudi Arabia manager Herve Renard replacing him.",
-      "country": "TUN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-16T06:43:19+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.com/sport/football/articles/cp8rldpky7wo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.com/sport/football/articles/cp8rldpky7wo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "ec9e483ae8",
       "title": "World Cup 2026 - Why We Could Not Defeat Morocco - Brazil Coach Ancelotti",
       "summary": "[Vanguard] Brazil head coach Carlo Ancelotti has attributed his side's 1-1 draw against Morocco in their opening match of the 2026 FIFA World Cup to nervousness, loss of possession, and a lack of balance, particularly in the first half.",
@@ -6718,36 +6717,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3e2b5a67b4",
-      "title": "Centrafrique : dix-sept migrants expulsés des États-Unis sont arrivés à Bangui",
-      "summary": "La République centrafricaine est devenue l'un des nouveaux pays d'accueil de migrants expulsés des États-Unis. Dans la nuit de vendredi, un premier vol en provenance de Washington a atterri discrètement à l'aéroport international de Bangui, avec, à son bord, une vingtaine de ressortissants étrangers. Parmi eux, figurent notamment des migrants iraniens, turcs, syriens et afghans.",
-      "country": "CAF",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-14T21:50:28+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260614-centrafrique-17-migrants-d%C3%A9port%C3%A9s-des-etats-unis-sont-arriv%C3%A9s-%C3%A0-bangui"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260614-centrafrique-17-migrants-d%C3%A9port%C3%A9s-des-etats-unis-sont-arriv%C3%A9s-%C3%A0-bangui"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "71e9421383",
       "title": "Motorists Association Rejects NTSA E-Logbook Conversion Fees As 'Backdoor Taxation'",
       "summary": "[Capital FM] Nairobi -- The Motorists Association of Kenya (MAK) has rejected plans to charge vehicle owners for converting physical logbooks into electronic logbooks, describing the move as \"unjustified and unreasonable\" and accusing government agencies of imposing backdoor taxation on motorists.",
@@ -6808,9 +6777,9 @@
       "confirmation_count": 1
     },
     {
-      "id": "4910faa9a4",
-      "title": "Ruto Hosts Marsabit Leaders As Gachagua Tours Kakamega",
-      "summary": "[Capital FM] Nairobi -- Democracy for the Citizens Party Leader Rigathi Gachagua has embarked on a two-day popularisation tour of Western Kenya.",
+      "id": "4b4aa178ce",
+      "title": "Stakeholders Call for People-Centred Sustainability to Drive Long-Term Development",
+      "summary": "[Capital FM] Nairobi -- Stakeholders have called for a stronger focus on people in sustainability efforts, arguing that meaningful development can only be achieved when communities are empowered, protected and actively involved in shaping solutions.",
       "country": "KEN",
       "category": "AUTRE",
       "severity": 1,
@@ -6820,19 +6789,19 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "published": "2026-06-12T10:57:58+00:00",
+      "published": "2026-06-12T11:46:25+00:00",
       "lead_source": {
         "id": "aa-ken",
         "name": "AllAfrica · Kenya",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202606120344.html"
+        "url": "https://allafrica.com/stories/202606120397.html"
       },
       "confirming_sources": [
         {
           "id": "aa-ken",
           "name": "AllAfrica · Kenya",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202606120344.html"
+          "url": "https://allafrica.com/stories/202606120397.html"
         }
       ],
       "confirmation_count": 1
@@ -6863,6 +6832,36 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606120135.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cb5ba0b432",
+      "title": "Mbadi Links 2026/2027 Budget to Ruto-Raila Dream of Prosperous Kenya",
+      "summary": "[Capital FM] Nairobi -- Treasury Cabinet Secretary John Mbadi invoked the political ideals of President William Ruto and ODM leader Raila Odinga as he unveiled the Sh4.84 trillion 2026/27 Budget, describing it as a blueprint to steer the country on a path to Canaan through Singapore.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-11T13:20:15+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606110453.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606110453.html"
         }
       ],
       "confirmation_count": 1
