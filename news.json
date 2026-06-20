@@ -1,38 +1,39 @@
 {
-  "generated_at": "2026-06-20T06:40:19.344386+00:00",
+  "generated_at": "2026-06-20T10:13:04.240117+00:00",
   "stats": {
-    "total_signals": 238,
+    "total_signals": 236,
     "verified_signals": 6,
-    "countries_covered": 27,
+    "countries_covered": 28,
     "sources_active": 16,
     "per_country": {
+      "GIN": 1,
       "NER": 10,
       "COG": 3,
-      "COD": 19,
-      "NGA": 35,
+      "COD": 20,
+      "NGA": 34,
       "ETH": 4,
-      "ZAF": 14,
+      "ZAF": 13,
       "SEN": 26,
       "KEN": 33,
-      "MAR": 19,
-      "CIV": 21,
+      "MAR": 20,
+      "GHA": 11,
+      "CIV": 20,
       "BEN": 4,
-      "GHA": 10,
       "MLI": 5,
       "MOZ": 1,
-      "TUN": 3,
-      "ZWE": 6,
-      "CAF": 1,
+      "TUN": 2,
+      "ZWE": 5,
+      "CAF": 2,
       "TCD": 2,
-      "BFA": 5,
-      "CMR": 6,
+      "BFA": 4,
+      "MRT": 2,
+      "CMR": 5,
       "MDG": 2,
       "AGO": 1,
       "SLE": 1,
       "UGA": 2,
-      "GAB": 3,
-      "TGO": 1,
-      "MRT": 1
+      "GAB": 2,
+      "TGO": 1
     }
   },
   "sources": [
@@ -134,6 +135,36 @@
     }
   ],
   "signals": [
+    {
+      "id": "a7db7a1d4d",
+      "title": "En Guinée, le grand marché de Nzérékoré ravagé par un incendie",
+      "summary": "Le grand marché de la ville de Nzérékoré, grande ville du sud-est du Niger, a été largement détruit par les flammes vendredi 19 juin. Aucun mort n’est à déplorer, selon les autorités, mais quelques blessés légers. En revanche, les dégâts matériels sont considérables.",
+      "country": "GIN",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-20T09:41:30+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260620-en-guin%C3%A9e-le-grand-march%C3%A9-de-nz%C3%A9r%C3%A9kor%C3%A9-ravag%C3%A9-par-un-incendie"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260620-en-guin%C3%A9e-le-grand-march%C3%A9-de-nz%C3%A9r%C3%A9kor%C3%A9-ravag%C3%A9-par-un-incendie"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "14605b59f3",
       "title": "Au Niger, l'armée enterre ses morts après une semaine marquée par plusieurs attaques terroristes",
@@ -879,36 +910,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7f0c11e1a7",
-      "title": "Mourners Gather for Utumishi Academy Fire Victims' Memorial Service",
-      "summary": "[Capital FM] Nairobi -- A sombre mood has engulfed Gilgil Stadium, where the memorial service for 16 Utumishi Girls students who died in a tragic fire last month is currently underway.",
-      "country": "KEN",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-12T09:29:49+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606120214.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606120214.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "a733aec2df",
       "title": "Moroccan Foreign Minister On Vision to Address Security Threats",
       "summary": "[New Dawn] Minister of Foreign Affairs, African Cooperation, and Moroccan Expatriates, Mr. Nasser Bourita, outlined on Tuesday in El Jadida the enlightened Vision of His Majesty King Mohammed VI to address security threats facing Africa and support the continent in its drive toward development and prosperity.",
@@ -934,6 +935,66 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606100225.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8def53c8d1",
+      "title": "Au Ghana, ces villes privées qui éloignent l’élite de l’État",
+      "summary": "Alors que les résidences sécurisées, les hôpitaux privés et les clubs exclusifs se multiplient, l’élite ghanéenne vit de plus en plus dans une réalité parallèle, coupée des services publics. Avec des conséquences économiques, sociales et politiques.",
+      "country": "GHA",
+      "category": "ECONOMIE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-20T11:05:32+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1805701/economie-entreprises/au-ghana-ces-villes-privees-qui-eloignent-lelite-de-letat/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1805701/economie-entreprises/au-ghana-ces-villes-privees-qui-eloignent-lelite-de-letat/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2a24bb9ab8",
+      "title": "Nouvelle attaque à Niamey, l’affaire des drones ukrainiens proposés à des opposants maliens, le « genocost » congolais… Les 5 infos qu’il ne fallait pas manquer",
+      "summary": "Cette semaine, le Brief de Jeune Afrique revient sur la nouvelle attaque jihadiste contre l’aéroport de Niamey, enquête sur les contacts noués entre des opposants maliens en exil et des intermédiaires proposant des drones ukrainiens, analyse les répercussions de la crise du détroit d’Ormuz sur les économies africaines, s’intéresse au « genocost », devenu un enjeu mémoriel et politique majeur en RDC, et dresse le portrait de Louise Pierrette Mvono, aux commandes du grand…",
+      "country": "NER",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-20T08:05:00+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1805352/politique/la-rupture-sonko-diomaye-faye-le-choc-dormuz-et-laffaire-des-drones-ukrainiens-au-mali-les-5-infos-quil-ne-fallait-pas-manquer/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1805352/politique/la-rupture-sonko-diomaye-faye-le-choc-dormuz-et-laffaire-des-drones-ukrainiens-au-mali-les-5-infos-quil-ne-fallait-pas-manquer/"
         }
       ],
       "confirmation_count": 1
@@ -1354,36 +1415,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1805210/politique/niger-des-tirs-entendus-a-laeroport-de-niamey/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4d7cc445bf",
-      "title": "Gunfire erupts near airport in Niger's capital",
-      "summary": "Gunfire erupted early on Thursday at the airport in Niger's capital, Niamey, residents told AFP, several months after a major jihadist attack at the facility.",
-      "country": "NER",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-18T09:11:53+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/18/gunfire-erupts-near-airport-in-nigers-capital/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/18/gunfire-erupts-near-airport-in-nigers-capital/"
         }
       ],
       "confirmation_count": 1
@@ -1845,36 +1876,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "370f912336",
-      "title": "«Aujourd'hui, il n'y a plus de repères»: en Tunisie, des avocats en grève exigent une réforme de la justice",
-      "summary": "En Tunisie, après un mois des mobilisations régionales, l'Ordre des avocats a tenu une grève nationale ce 18 juin 2026, mouvement assez suivi par la profession. En cause : un ras le bol face à la dégradation de leurs conditions de travail, les dysfonctionnements du système judiciaire, ou encore les emprisonnements de plusieurs de leurs confrères dans des affaires soit politiques soit de corruption ou de falsification. Ils réclament une vaste réforme et une modernisation…",
-      "country": "TUN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-19T10:19:28+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260619-aujourd-hui-il-n-y-a-plus-de-rep%C3%A8res-en-tunisie-des-avocats-en-gr%C3%A8ve-exigent-une-r%C3%A9forme-de-la-justice"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260619-aujourd-hui-il-n-y-a-plus-de-rep%C3%A8res-en-tunisie-des-avocats-en-gr%C3%A8ve-exigent-une-r%C3%A9forme-de-la-justice"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0090659855",
       "title": "Vat Hits N2.42 Trillion As Tinubu's Tax Reforms Begin to Deliver Results",
       "summary": "[Vanguard] The latest Value Added Tax (VAT) report released by the National Bureau of Statistics (NBS) provides strong evidence that Nigeria's tax and economic reforms are beginning to produce measurable results.",
@@ -2127,36 +2128,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f95707926d",
-      "title": "Zimbabwe : la tension politique monte d'un cran à Harare",
-      "summary": "La Cour constitutionnelle du Zimbabwe a rejeté un recours contre un projet de réforme qui pourrait prolonger les mandats présidentiels de cinq à sept ans",
-      "country": "ZWE",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-18T11:52:03+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/18/zimbabwe-la-tension-politique-monte-dun-cran-a-harare/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/18/zimbabwe-la-tension-politique-monte-dun-cran-a-harare/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "44de19ef28",
       "title": "Le Burkina condamne Canal+ pour ne pas diffuser gratuitement la télé nationale",
       "summary": "Une convention signée en 2024 oblige Canal+ International à maintenir la diffusion des chaînes publiques nationales, même en cas d’expiration des abonnements.",
@@ -2212,36 +2183,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260618-gazoduc-transsaharien-r%C3%AAve-africain-qui-pourrait-bouleverser-%C3%A9quilibre-%C3%A9nerg%C3%A9tique-mondial"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e55075f7c8",
-      "title": "Au Cameroun, Maurice Kamto tente de réunifier un MRC fracturé",
-      "summary": "La présidentielle de 2025 a profondément divisé le Mouvement pour la renaissance du Cameroun. Maurice Kamto et ses proches ont lancé un processus de « clarification », officiellement destiné à ressouder un parti tourné vers les élections à venir.",
-      "country": "CMR",
-      "category": "POLITIQUE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-17T13:10:41+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1804797/politique/au-cameroun-maurice-kamto-tente-de-reunifier-un-mrc-fracture/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1804797/politique/au-cameroun-maurice-kamto-tente-de-reunifier-un-mrc-fracture/"
         }
       ],
       "confirmation_count": 1
@@ -2482,6 +2423,216 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606120343.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d9a74d67fe",
+      "title": "Lutte contre le jihadisme en Mauritanie : les gardiens du désert",
+      "summary": "En Mauritanie, l’action combinée de l’État, des forces armées, mais aussi de la population, à travers la mobilisation des acteurs religieux, éducatifs et associatifs, semble parvenir à empêcher l’implantation sur le territoire de groupes armés actifs au Sahel. Décryptage.",
+      "country": "MRT",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "published": "2026-06-20T10:08:46+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1798216/politique/lutte-contre-le-jihadisme-en-mauritanie-les-gardiens-du-desert/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1798216/politique/lutte-contre-le-jihadisme-en-mauritanie-les-gardiens-du-desert/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "47e4a5f33c",
+      "title": "Morocco fans celebrate 1-0 win over Scotland in second World Cup match",
+      "summary": "Morocco fans celebrated in Massachusetts on Friday after their team’s 1-0 victory over Scotland in their second match of the 2026 World Cup.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-20T08:28:29+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/20/morocco-fans-celebrate-1-0-win-over-scotland-in-second-world-cup-match/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/20/morocco-fans-celebrate-1-0-win-over-scotland-in-second-world-cup-match/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8fc520726e",
+      "title": "Centrafrique : comment Faustin-Archange Touadéra a fait de Prisca Roseline Mano la nouvelle maire de Bangui",
+      "summary": "Élue avec une très courte avance face à son adversaire Portia Deya Abazene, candidate dissidente du parti au pouvoir pourtant donnée favorite, la nouvelle maire de la capitale centrafricaine a bénéficié du soutien du chef de l’État. Sa courte victoire révèle les fractures au sein du parti au pouvoir.",
+      "country": "CAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-20T07:56:00+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1805601/politique/centrafrique-comment-faustin-archange-touadera-a-fait-de-prisca-roseline-mano-la-nouvelle-maire-de-bangui/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1805601/politique/centrafrique-comment-faustin-archange-touadera-a-fait-de-prisca-roseline-mano-la-nouvelle-maire-de-bangui/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c66cc08585",
+      "title": "RDC : des agents de la Croix-Rouge enterrent une orpheline de six mois décédée des suites d'Ebola",
+      "summary": "Des personnes en deuil se sont rassemblées vendredi à Bunia pour enterrer une petite fille de six mois décédée du virus Ebola en début de semaine, le troisième enfant à succomber à cette maladie dans un orphelinat de la République démocratique du Congo.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-20T07:22:22+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/20/rdc-des-agents-de-la-croix-rouge-enterrent-une-orpheline-de-six-mois-decedee-des-suites-de/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/20/rdc-des-agents-de-la-croix-rouge-enterrent-une-orpheline-de-six-mois-decedee-des-suites-de/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ef611cacc5",
+      "title": "RDC: Thomas Lubanga, de l'allié de Kinshasa au chef rebelle, l'histoire d'un divorce et de tractations inabouties",
+      "summary": "Reçu par Félix Tshisekedi en 2020 pour pacifier la province de l’Ituri, envoyé négocier la reddition des miliciens, puis pris en otage par eux, soutenu pour sa réélection en 2023... Thomas Lubanga a longtemps été un allié de la présidence congolaise. Mais en 2024, la relation se rompt. L'ancien chef de guerre s'installe en Ouganda, crée un mouvement politico-militaire, et engage des combats contre les Forces armées de la RDC, avant d'ouvrir, en parallèle, un canal de…",
+      "country": "COD",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-20T07:08:02+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260620-rdc-thomas-lubanga-de-l-alli%C3%A9-de-kinshasa-au-chef-rebelle-l-histoire-d-un-divorce-et-de-tractations-inabouties"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260620-rdc-thomas-lubanga-de-l-alli%C3%A9-de-kinshasa-au-chef-rebelle-l-histoire-d-un-divorce-et-de-tractations-inabouties"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3e4c70de3e",
+      "title": "Sue Nyathi: The Zimbabwean author behind Netflix’s global hit The Polygamist",
+      "summary": "Rejected by publishers and forced to self-publish, Sue Nyathi never imagined The Polygamist would become a Netflix hit. 14 years later, she’s watching her novel’s television adaptation become a global sensation.",
+      "country": "ZWE",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-20T07:00:00+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/422453/sue-nyathi-the-zimbabwean-author-behind-netflixs-global-hit-the-polygamist/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/422453/sue-nyathi-the-zimbabwean-author-behind-netflixs-global-hit-the-polygamist/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "21d2271774",
+      "title": "Spreading violence and impunity spreading perceptions of genocide in Nigeria, UN says",
+      "summary": "Spreading violence and impunity for perpetrators is undermining religious freedom in Nigeria, a United Nations Special Rapporteur told a press conference in Abuja on Friday.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-20T06:38:59+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/20/spreading-violence-and-impunity-spreading-perceptions-of-genocide-in-nigeria-un-says/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/20/spreading-violence-and-impunity-spreading-perceptions-of-genocide-in-nigeria-un-says/"
         }
       ],
       "confirmation_count": 1
@@ -4497,66 +4648,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b57fe11a57",
-      "title": "Amusan, Ajayi, Ogazi, Enekwechi Lead Star-Studded Commonwealth Games Trials in Lagos",
-      "summary": "[Premium Times] A total of 32 events will be contested, with several marquee races and field events expected to produce world-class performances and fierce competition",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-19T07:12:08+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606190015.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606190015.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "58c6b48826",
-      "title": "Otedola Acquires N29.6 Billion Shares in First Holdco, Taking His Stake to 20.4 Percent",
-      "summary": "[Premium Times] Mr Otedola executed the share purchase through the N45 billion second tranche of the lender's N350 billion private placement programme.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "published": "2026-06-19T07:09:58+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606190011.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606190011.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "dce2e41695",
       "title": "Ogun Bans Graduation, End-of-Session Parties Across Public, Private Schools",
       "summary": "[Premium Times] The Ogun State Government threatened to sanction any school found flouting the directive would be sanctioned in accordance with applicable regulations.",
@@ -4642,36 +4733,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1805066/politique/tshisekedi-va-partir-comme-mobutu-et-kabila-a-kinshasa-les-militants-de-lopposition-ne-decolerent-pas/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f485117159",
-      "title": "Mondial 2026: les restrictions de visas aux supporters africains sont «regrettables»",
-      "summary": "Les restrictions de visas pour les supporters de football ivoiriens et africains qui veulent aller aux États-Unis sont « regrettables », a déclaré Mamadou Touré, le ministre porte-parole adjoint du gouvernement de Côte d'Ivoire sur RFI. Le ministre, qui est aussi en charge de la Promotion de la jeunesse, de l'Insertion professionnelle et du Service civique, s'exprime également sur le calendrier de la mise en place d'une nouvelle commission électorale, après la dissolution…",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-19T04:45:23+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260619-mondial-2026-mamadou-tour%C3%A9-juge-regrettables-les-restrictions-de-visas-aux-supporters-africains"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260619-mondial-2026-mamadou-tour%C3%A9-juge-regrettables-les-restrictions-de-visas-aux-supporters-africains"
         }
       ],
       "confirmation_count": 1
@@ -4882,36 +4943,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260618-niger-tirs-pendant-plusieurs-heures-pr%C3%A8s-de-l-a%C3%A9roport-de-niamey"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bb5a10255b",
-      "title": "Ex-South Africa president Jacob Zuma sacks ‘daddy’s girl’ Duduzile Zuma-Sambudla from his party",
-      "summary": "Former South Africa president Jacob Zuma has summarily expelled his daughter, Duduzile, from his party after a deepening rift that started with her recruitment of South African mercenaries to fight for Russia.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-18T15:26:49+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/422431/ex-south-africa-president-jacob-zuma-sacks-daddys-girl-duduzile-zuma-sambudla-from-his-party/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/422431/ex-south-africa-president-jacob-zuma-sacks-daddys-girl-duduzile-zuma-sambudla-from-his-party/"
         }
       ],
       "confirmation_count": 1
@@ -5397,36 +5428,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1a285a5ad0",
-      "title": "Zimbabwe court ruling on constitutional amendments sparks divided reactions",
-      "summary": "In Zimbabwe, a court ruling dismissing a legal challenge by war veterans against proposed constitutional amendments has sparked divided reactions.",
-      "country": "ZWE",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "JURIS_OHADA",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-06-18T08:28:37+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/18/zimbabwe-court-ruling-on-constitutional-amendments-sparks-divided-reactions/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/18/zimbabwe-court-ruling-on-constitutional-amendments-sparks-divided-reactions/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "7b0cd766c9",
       "title": "Au Gabon, les dessous de la suspension d’Eddy Minang, le procureur général de Libreville",
       "summary": "Le haut magistrat, figure du très médiatique procès Bongo, a été suspendu le 9 juin par le ministre de la Justice. Plusieurs affaires de malversations et d’interférences judiciaires supposées sont à l’origine de cette mesure conservatoire. Explications.",
@@ -5727,36 +5728,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "fcfa1e3530",
-      "title": "Louise Pierrette Mvono, la femme qui pilote les ambitions économiques d’Oligui Nguema",
-      "summary": "Revenue au Gabon après plus de vingt ans passés dans les organisations internationales, Louise Pierrette Mvono pilote désormais le vaste chantier de planification économique voulu par Brice Clotaire Oligui Nguema.",
-      "country": "GAB",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-17T12:30:56+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1795804/economie-entreprises/louise-pierrette-mvono-la-femme-qui-pilote-les-ambitions-economiques-doligui-nguema/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1795804/economie-entreprises/louise-pierrette-mvono-la-femme-qui-pilote-les-ambitions-economiques-doligui-nguema/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "deb606cc27",
       "title": "Kenya Wants to Close Refugee Camps - the Promise and Risks of Its Ambitious New Plan",
       "summary": "[The Conversation Africa] Kenya hosts nearly a million refugees, mainly from South Sudan and Somalia. Many of them have been living in refugee camps for decades.",
@@ -5782,66 +5753,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606170320.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8bc989f9d9",
-      "title": "Constitution en RDC : adoption d’un texte ouvrant la voie à un troisième mandat pour Félix Tshisekedi",
-      "summary": "Après l’Assemblée au début de juin, le Sénat vient à son tour d’adopter une proposition de loi relative à l’organisation de référendums, en vue de réviser la Constitution. Ce texte ouvre la voie à un troisième mandat pour le président.",
-      "country": "COD",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-17T11:54:05+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1804818/politique/constitution-en-rdc-adoption-dun-texte-ouvrant-la-voie-a-un-troisieme-mandat-pour-felix-tshisekedi/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1804818/politique/constitution-en-rdc-adoption-dun-texte-ouvrant-la-voie-a-un-troisieme-mandat-pour-felix-tshisekedi/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a40c7ad103",
-      "title": "Téné Birahima Ouattara affirme que la Côte d’Ivoire est prête à reprendre une coopération sécuritaire avec le Mali et le Burkina Faso",
-      "summary": "En marge d’un déplacement en France où il participe au salon Eurosatory consacré aux industries de la défense, le vice-Premier ministre affirme qu’Abidjan est prête à reprendre sa collaboration sécuritaire avec Bamako et Ouagadougou.",
-      "country": "BFA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-17T11:49:26+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1804848/politique/tene-birahima-ouattara-affirme-que-la-cote-divoire-est-prete-a-reprendre-une-cooperation-securitaire-avec-le-mali-et-le-burkina-faso/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1804848/politique/tene-birahima-ouattara-affirme-que-la-cote-divoire-est-prete-a-reprendre-une-cooperation-securitaire-avec-le-mali-et-le-burkina-faso/"
         }
       ],
       "confirmation_count": 1
@@ -6892,6 +6803,36 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606120344.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5574126a51",
+      "title": "NGEC Mandate Critical to Equal Opportunity for All Kenyans, DP Kindiki Says",
+      "summary": "[Capital FM] Nairobi -- Deputy President Kithure Kindiki has reaffirmed the Government's commitment to supporting the National Gender and Equality Commission (NGEC) in promoting inclusion and equality for all Kenyans, regardless of gender or identity.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-12T10:50:31+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606120327.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606120327.html"
         }
       ],
       "confirmation_count": 1
