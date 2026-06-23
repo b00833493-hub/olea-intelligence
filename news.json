@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-06-23T15:26:32.204101+00:00",
+  "generated_at": "2026-06-23T18:13:32.636668+00:00",
   "stats": {
-    "total_signals": 244,
+    "total_signals": 245,
     "verified_signals": 3,
     "countries_covered": 29,
     "sources_active": 16,
     "per_country": {
+      "KEN": 42,
+      "ZAF": 8,
       "NGA": 34,
-      "BFA": 5,
-      "KEN": 40,
-      "CAF": 2,
-      "MAR": 21,
-      "SEN": 26,
-      "DZA": 9,
+      "BFA": 6,
+      "CAF": 1,
+      "MAR": 22,
+      "SEN": 29,
+      "DZA": 7,
       "UGA": 2,
-      "COD": 17,
+      "COD": 16,
       "GHA": 10,
-      "NER": 7,
-      "ZAF": 7,
+      "NER": 6,
       "COG": 3,
-      "CMR": 3,
       "TUN": 4,
       "MLI": 6,
-      "GIN": 6,
+      "MOZ": 2,
       "MDG": 3,
-      "ETH": 8,
-      "CIV": 17,
-      "GAB": 1,
-      "MRT": 3,
-      "ZMB": 1,
-      "NAM": 1,
-      "MOZ": 1,
-      "TZA": 1,
+      "ETH": 7,
       "BEN": 4,
+      "CIV": 16,
+      "CMR": 4,
+      "ZMB": 1,
+      "MRT": 3,
+      "GIN": 4,
+      "TZA": 1,
       "MWI": 1,
-      "SLE": 1
+      "SLE": 1,
+      "GAB": 1,
+      "TGO": 1
     }
   },
   "sources": [
@@ -136,6 +136,66 @@
     }
   ],
   "signals": [
+    {
+      "id": "7b048ccd24",
+      "title": "Kenyan health minister halts controversial US-backed Ebola site",
+      "summary": "Kenya has ordered a halt to preparations for a US-run Ebola quarantine facility, the health minister told a court Tuesday after being held in contempt for ignoring a previous stop-work order.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T15:34:31+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/23/kenya-halts-controversial-us-backed-ebola-site-minister-says/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/23/kenya-halts-controversial-us-backed-ebola-site-minister-says/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "71fa39c613",
+      "title": "South African police investigate murder amid rise in anti-migrant attacks",
+      "summary": "The rise in anti-migrant attacks in South Africa has already left several people dead, with hundreds trying to leave.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T15:27:21+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/6/23/south-african-police-investigate-murder-amid-rise-in-anti-migrant-attacks?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/6/23/south-african-police-investigate-murder-amid-rise-in-anti-migrant-attacks?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "d69f143351",
       "title": "Eight Dead, Five Rescued in Farmers-Herders Clash in Kebbi",
@@ -312,36 +372,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260623-mon-espoir-se-fonde-sur-ce-jugement-paroles-de-victimes-au-proc%C3%A8s-en-centrafrique-de-l-ex-pr%C3%A9sident-boziz%C3%A9"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "fea746df1d",
-      "title": "Death Toll Rises to 22 After Plateau Village Deadly Attack",
-      "summary": "[Leadership] The death toll from Sunday night's attack on Kawel village in Mushere District of Bokkos Local Government Area of Plateau State has risen to 22, following fresh confirmation from community leaders and emergency responders.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T06:02:24+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606230090.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606230090.html"
         }
       ],
       "confirmation_count": 1
@@ -857,6 +887,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "4b6d6e3dc9",
+      "title": "« Maîtrisable » : derrière le slogan des supporters des Léopards, l’histoire d’un procès politique en RDC",
+      "summary": "Le match nul de la RDC contre le Portugal à la Coupe du monde de football a été célébré sur la toile avec le surnom de l’opposant Parole Kamizelo, emprisonné pour offense au chef de l’État.",
+      "country": "COD",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T19:32:23+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1806465/politique/maitrisable-derriere-le-slogan-des-supporters-des-leopards-lhistoire-dun-proces-politique-en-rdc/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1806465/politique/maitrisable-derriere-le-slogan-des-supporters-des-leopards-lhistoire-dun-proces-politique-en-rdc/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "17d126d9ac",
       "title": "5 questions pour comprendre le renvoi du footballeur Achraf Hakimi devant la justice française",
       "summary": "La cour d’appel de Versailles a confirmé le renvoi d’Achraf Hakimi devant la justice. Alors que le capitaine des Lions de l’Atlas dispute actuellement la Coupe du monde 2026, retour sur une affaire qui oppose depuis plus de trois ans le footballeur marocain à une jeune femme qui l’accuse de viol.",
@@ -882,36 +942,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1806128/societe/5-questions-pour-comprendre-le-renvoi-du-footballeur-achraf-hakimi-devant-la-justice-francaise/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cd46cfbf43",
-      "title": "Affaire Sosucam au Cameroun : Somdia et DF Holding contre-attaquent et recadrent Romy Castel",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "CMR",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T11:31:59+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/23/affaire-sosucam-au-cameroun-somdia-et-df-holding-contre-attaquent-et-recadrent-romy-castel/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/23/affaire-sosucam-au-cameroun-somdia-et-df-holding-contre-attaquent-et-recadrent-romy-castel/"
         }
       ],
       "confirmation_count": 1
@@ -1307,66 +1337,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "8def53c8d1",
-      "title": "Au Ghana, ces villes privées qui éloignent l’élite de l’État",
-      "summary": "Alors que les résidences sécurisées, les hôpitaux privés et les clubs exclusifs se multiplient, l’élite ghanéenne vit de plus en plus dans une réalité parallèle, coupée des services publics. Avec des conséquences économiques, sociales et politiques.",
-      "country": "GHA",
-      "category": "ECONOMIE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-20T11:05:32+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1805701/economie-entreprises/au-ghana-ces-villes-privees-qui-eloignent-lelite-de-letat/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1805701/economie-entreprises/au-ghana-ces-villes-privees-qui-eloignent-lelite-de-letat/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2a24bb9ab8",
-      "title": "Nouvelle attaque à Niamey, l’affaire des drones ukrainiens proposés à des opposants maliens, le « genocost » congolais… Les 5 infos qu’il ne fallait pas manquer",
-      "summary": "Cette semaine, le Brief de Jeune Afrique revient sur la nouvelle attaque jihadiste contre l’aéroport de Niamey, enquête sur les contacts noués entre des opposants maliens en exil et des intermédiaires proposant des drones ukrainiens, analyse les répercussions de la crise du détroit d’Ormuz sur les économies africaines, s’intéresse au « genocost », devenu un enjeu mémoriel et politique majeur en RDC, et dresse le portrait de Louise Pierrette Mvono, aux commandes du grand…",
-      "country": "NER",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-20T08:05:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1805352/politique/la-rupture-sonko-diomaye-faye-le-choc-dormuz-et-laffaire-des-drones-ukrainiens-au-mali-les-5-infos-quil-ne-fallait-pas-manquer/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1805352/politique/la-rupture-sonko-diomaye-faye-le-choc-dormuz-et-laffaire-des-drones-ukrainiens-au-mali-les-5-infos-quil-ne-fallait-pas-manquer/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "b9ef147a75",
       "title": "Niger : l'attaque sur l'aéroport revendiquée par le JNIM, les autorités accusent la France",
       "summary": "On en sait un peu plus sur l’attaque terroriste qui a visé, jeudi 18 juin 2026, une base militaire située au sein de l'aéroport international Diori Hamani de Niamey. Au soir des faits, l’armée nigérienne a communiqué un bilan officiel après plusieurs heures d’opérations de ratissage. Revendiquée par le Groupe de soutien à l’islam et aux musulmans (JNIM), affilié à Al-Qaïda, l’attaque a été repoussée par les Forces de défense et de sécurité après plus de deux heures de…",
@@ -1392,36 +1362,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260619-niger-l-attaque-sur-l-a%C3%A9roport-revendiqu%C3%A9-par-le-jnim-les-autorit%C3%A9s-accusent-la-france"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "320a37b731",
-      "title": "Kenya intensifies screening and awareness for truck drivers over Ebola fears",
-      "summary": "Kenya's health authorities have intensified health screening for truck drivers whose movements span thousands of kilometres across multiple countries, as East Africa remains on heightened alert following the latest outbreak of Ebola in the Democratic Republic of the Congo.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": "REASSURANCE",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-06-19T15:24:51+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/19/kenya-intensifies-screening-and-awareness-for-truck-drivers-over-ebola-fears/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/19/kenya-intensifies-screening-and-awareness-for-truck-drivers-over-ebola-fears/"
         }
       ],
       "confirmation_count": 1
@@ -1512,6 +1452,36 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606170009.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1aad3949c7",
+      "title": "Le satellite, vitrine technologique ou cheval de Troie : quel modèle africain de gouvernance des constellations orbitales ?",
+      "summary": "Par Raphael Nkolwoudou, Docteur en droit PhD), Juriste Senior en droit du numérique et Contract Manager, Teragone Solutions – Paris, France. \nImaginons un hôpital de campagne au nord du Mozambique, après un cyclone. Les routes sont coupées, les antennes-relais gisent à terre, et le seul lien avec le monde extérieur est un mince faisceau montant vers un essaim de satellites basse orbite. Cette scène, vécue récemment lors du cyclone Idaï, résume la promesse des…",
+      "country": "MOZ",
+      "category": "CLIMAT",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-16T16:45:58+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/06/16/le-satellite-vitrine-technologique-ou-cheval-de-troie-quel-modele-africain-de-gouvernance-des-constellations-orbitales/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/16/le-satellite-vitrine-technologique-ou-cheval-de-troie-quel-modele-africain-de-gouvernance-des-constellations-orbitales/"
         }
       ],
       "confirmation_count": 1
@@ -1609,7 +1579,7 @@
     {
       "id": "9ae455bd91",
       "title": "Entre le Niger et la Libye, échange de chefs de guerre et luttes d’influence",
-      "summary": "La junte nigérienne a remis à Tripoli un chef de guerre libyen opposé au camp Haftar. Le même jour, l’Armée nationale libyenne du maréchal a annoncé la libération du chef d’un groupe armé nigérien pro-Bazoum. Voici ce que l’on sait de la libération de Barhadine Mehdoune Refi et Mahamoud Sallah.",
+      "summary": "La junte nigérienne a remis à Tripoli un chef de guerre libyen opposé au camp Haftar. Le même jour, l’Armée nationale libyenne du maréchal a annoncé la libération du chef d’un groupe armé nigérien pro-Bazoum. Voici ce que l’on sait de la libération de Barhadine Mehdoune Refi et Mahmoud Salah.",
       "country": "NER",
       "category": "POLITIQUE",
       "severity": 2,
@@ -1632,66 +1602,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1806290/politique/entre-le-niger-et-la-libye-echange-de-chefs-de-guerre-et-luttes-dinfluence/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1895bc3721",
-      "title": "Guinée équatoriale : le bénéfice de la Bange Bank en hausse de 10% en 2025",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T14:38:44+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/23/guinee-equatoriale-le-benefice-de-la-bange-bank-en-hausse-de-10-en-2025/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/23/guinee-equatoriale-le-benefice-de-la-bange-bank-en-hausse-de-10-en-2025/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e4a0a2fe47",
-      "title": "Guinée : le président Mamadi Doumbouya annonce le lancement de la Nimba Gold Refinery",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GIN",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T14:30:51+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/23/guinee-le-president-mamadi-doumbouya-annonce-le-lancement-de-la-nimba-gold-refinery/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/23/guinee-le-president-mamadi-doumbouya-annonce-le-lancement-de-la-nimba-gold-refinery/"
         }
       ],
       "confirmation_count": 1
@@ -1757,72 +1667,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "da9b6982e9",
-      "title": "Kenya minister halts construction of US-backed Ebola quarantine centre",
-      "summary": "Aden Duale defied a High Court order to stop building work on a controversial US-funded facility.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T11:50:36+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/c4gy6vk44pwo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/c4gy6vk44pwo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/23/kenya-halts-controversial-us-backed-ebola-site-minister-says/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
-      "id": "7c159b9424",
-      "title": "Maroc : Baisse de 2,4% des prix des actifs immobiliers au premier trimestre 2026",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T11:14:45+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/23/maroc-baisse-de-24-des-prix-des-actifs-immobiliers-au-premier-trimestre-2026/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/23/maroc-baisse-de-24-des-prix-des-actifs-immobiliers-au-premier-trimestre-2026/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "a344d3c84b",
       "title": "Did Kenya's Gen Z Protests Achieve Anything? an Economist Weighs Up What's Changed and What's Stayed the Same",
       "summary": "[The Conversation Africa] Kenya's Gen Z-led protests of 2024 drew global headlines. For weeks, young people mobilised against proposed tax increases, the rising cost of living, unemployment, corruption and what they saw as an unresponsive political class. But what began as opposition to the 2024 Finance Bill quickly evolved into a broader challenge to the way the country was being governed.",
@@ -1848,36 +1692,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606230337.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bc2c56c7c1",
-      "title": "En Algérie, Flat6Labs et l’IFC lancent StartAlgeria pour renforcer les incubateurs",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "DZA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "published": "2026-06-23T10:33:49+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/23/en-algerie-flat6labs-et-lifc-lancent-startalgeria-pour-renforcer-les-incubateurs/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/23/en-algerie-flat6labs-et-lifc-lancent-startalgeria-pour-renforcer-les-incubateurs/"
         }
       ],
       "confirmation_count": 1
@@ -2009,36 +1823,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "85201119d1",
-      "title": "Éthiopie : Abiy Ahmed conforté par une majorité écrasante pour relancer les réformes économiques",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "ETH",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-22T19:34:27+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/22/ethiopie-abiy-ahmed-conforte-par-une-majorite-ecrasante-pour-relancer-les-reformes-economiques/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/22/ethiopie-abiy-ahmed-conforte-par-une-majorite-ecrasante-pour-relancer-les-reformes-economiques/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "738b1f2b90",
       "title": "Tourisme : entre le Maroc et l’Égypte, la course au record est lancée",
       "summary": "Avec près de 20 millions de visiteurs chacun en 2025, le Maroc et l’Égypte signent une année historique. Entre record de fréquentations, essor des capacités d’accueil et ambitions aériennes, rien ne semble arrêter les deux locomotives africaines.",
@@ -2097,6 +1881,42 @@
         }
       ],
       "confirmation_count": 1
+    },
+    {
+      "id": "c704cfa75c",
+      "title": "Niger-Bénin : Niamey pose des conditions à la réouverture de la frontière",
+      "summary": "Au moment où les deux pays amorcent une décrispation de leurs relations, le ministre nigérien de l’Intérieur, le général Mohamed Toumba, a rencontré le comité d’experts en charge du dossier.",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-21T18:03:36+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1805951/politique/niger-benin-niamey-pose-des-conditions-a-la-reouverture-de-la-frontiere/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1805951/politique/niger-benin-niamey-pose-des-conditions-a-la-reouverture-de-la-frontiere/"
+        },
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/16/benin-niger-vers-la-reouverture-de-la-frontiere/"
+        }
+      ],
+      "confirmation_count": 2
     },
     {
       "id": "b6d9e169d2",
@@ -2405,6 +2225,486 @@
       "confirmation_count": 1
     },
     {
+      "id": "c23e3c469f",
+      "title": "Maroc : qui sont les nouveaux visages de la CGEM ?",
+      "summary": "Élu à la tête de la CGEM en mai, le président d’Ask Capital, Mehdi Tazi, a installé de nouvelles équipes où se côtoient Moncef Belkhayat, Soukaina Akhannouch ou encore Majid Iraqi.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T19:34:06+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1806645/economie-entreprises/maroc-qui-sont-les-nouveaux-visages-de-la-cgem/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1806645/economie-entreprises/maroc-qui-sont-les-nouveaux-visages-de-la-cgem/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "22b50523db",
+      "title": "Mohamed Zouita, le concierge dépeceur de Casablanca",
+      "summary": "Des morceaux humains disséminés dans la capitale économique, une lettre énigmatique, des cartons comme seules pistes et un suspect qui finit par se suicider avant de parler. En 2003, l’affaire Mohamed Zouita plonge la ville dans un polar macabre dont toutes les zones d’ombre n’ont jamais été dissipées.",
+      "country": "MAR",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T18:56:47+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1801468/societe/mohamed-zouita-le-concierge-depeceur-de-casablanca/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1801468/societe/mohamed-zouita-le-concierge-depeceur-de-casablanca/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "212d1589ab",
+      "title": "Sénégal : la solitude de Bassirou Diomaye Faye",
+      "summary": "Paria au sein de son propre parti, le Pastef, rejeté par une partie des militants qui l’avaient élu par défaut, le chef de l’État doit maintenant affronter son propre camp.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T18:31:29+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1803649/politique/senegal-la-solitude-de-bassirou-diomaye-faye/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1803649/politique/senegal-la-solitude-de-bassirou-diomaye-faye/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ec7822b06e",
+      "title": "Castel : la cession de Sosucam relance le bras de fer entre Gregory Clerc et la fille du fondateur",
+      "summary": "La crise de gouvernance en cours depuis fin 2025 au sein du groupe fondé par Pierre Castel connaît un rebondissement au Cameroun. La fille du fondateur et le directeur général du groupe croisent le fer sur le désengagement de la filiale Somdia dans le pays.",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "REASSURANCE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": true,
+      "published": "2026-06-23T18:16:24+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1806411/economie-entreprises/castel-la-cession-de-sosucam-relance-le-bras-de-fer-entre-gregory-clerc-et-la-fille-du-fondateur/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1806411/economie-entreprises/castel-la-cession-de-sosucam-relance-le-bras-de-fer-entre-gregory-clerc-et-la-fille-du-fondateur/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "83f0be689c",
+      "title": "Au Cameroun, les coulisses du retour de Longuè Longuè, « le fou de la nation »",
+      "summary": "Expulsé de France, le subversif musicien est rentré au Cameroun le 18 juin dernier. Visé par un mandat d’arrêt de la police, il a toutefois été relâché après une brève interpellation. Coulisses d’un retour négocié.",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T18:02:52+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1806241/politique/au-cameroun-les-coulisses-du-retour-de-longue-longue-le-fou-de-la-nation/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1806241/politique/au-cameroun-les-coulisses-du-retour-de-longue-longue-le-fou-de-la-nation/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4c1d8a0afd",
+      "title": "Zambia ex-president's family wins latest legal battle over what should happen to his body",
+      "summary": "Edgar Lungu's family and the Zambian government remained in dispute 12 months after he died.",
+      "country": "ZMB",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T17:30:44+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/c8r2yryr5mvo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c8r2yryr5mvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cb9dcf7b76",
+      "title": "Karua's Party, Kenya Law Society Condemn Uganda Over Denial of Entry, Demand Explanation",
+      "summary": "[Nile Post] The Law Society of Kenya (LSK) and Kenya's People's Liberation Party (PLP), led by Senior Counsel Martha Karua, have criticised Ugandan authorities following reported denial of entry and subsequent deportation of Ms Karua on Monday.",
+      "country": "KEN",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T17:25:39+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606230748.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606230748.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "71c5fc21e2",
+      "title": "The weight of the Three Lions: Football, colonialism, diaspora",
+      "summary": "England vs Ghana exposes football’s tangled histories of empire, diaspora and belonging.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T16:50:49+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/opinions/2026/6/23/the-weight-of-the-three-lions-football-colonialism-diaspora?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/opinions/2026/6/23/the-weight-of-the-three-lions-football-colonialism-diaspora?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "236702249e",
+      "title": "Kenya : devenu aveugle, un tailleur continue à exercer son métier",
+      "summary": "Charles Kibe a trouvé des moyens ingénieux pour s’assurer de pouvoir coudre avec autant de précision que s’il voyait encore.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T16:46:08+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/23/kenya-devenu-aveugle-un-tailleur-continue-a-exercer-son-metier/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/23/kenya-devenu-aveugle-un-tailleur-continue-a-exercer-son-metier/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "81e4ba34e8",
+      "title": "Kenya: Blind tailor breaking boundaries",
+      "summary": "A tailor who lost his sight completely due to glaucoma has found ingenious ways to continue sewing accurately.\nWhen Charles Kibe lost his sight in 2017, he also lost customers, but now his business is thriving.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T16:33:57+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/23/kenya-blind-tailor-breaking-boundaries/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/23/kenya-blind-tailor-breaking-boundaries/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ff05fd90a5",
+      "title": "Niger pulls out of International Criminal Court after calling it neo-colonialist",
+      "summary": "Niger, along with Mali and Burkina Faso, had called the ICC an \"instrument of neo-colonialist repression\".",
+      "country": "BFA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T16:26:55+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/c9320gn4k6vo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c9320gn4k6vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "dddda4dd34",
+      "title": "LIVE: England vs Ghana – World Cup 2026",
+      "summary": "All our updates as Kane's England face Ghana in Group L, with buildup, team news coverage and text commentary stream.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T16:01:19+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/sports/liveblog/2026/6/23/england-vs-ghana-live-world-cup-2026?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/23/england-vs-ghana-live-world-cup-2026?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6665bd107f",
+      "title": "Le Kenya met fin à la construction d'un centre de quarantaine contre Ebola",
+      "summary": "Le Kenya n’a jamais enregistré de cas d’Ebola et nombreux sont ceux qui s’opposent à l’entrée sur le territoire de porteurs potentiels de cette maladie hautement contagieuse.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T15:59:50+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/23/centre-debola-au-kenya-le-ministre-de-la-sante-reconnu-coupable-doutrage-au-tribunal/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/23/centre-debola-au-kenya-le-ministre-de-la-sante-reconnu-coupable-doutrage-au-tribunal/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b319c51352",
+      "title": "NDLEA Begins Trial of Billionaire, Two Others Over Alleged 322kg Tramadol Possession",
+      "summary": "[This Day] The National Drug Law Enforcement Agency (NDLEA) has commenced the trial of billionaire businessman, Chief Ukatu Afamefuna Mallinson, alongside two associates, Pius Enidom and Sunday Ifeanyi Ibekwute, before the Federal High Court in Lagos over allegations of conspiracy, unlawful possession and trafficking in 322 kilograms of Tramadol.",
+      "country": "NGA",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T15:42:08+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606230637.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606230637.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6891c916c4",
+      "title": "Pastor Flourish Peters Faces Online Criticism After Video From Clinic Dedication Surfaces",
+      "summary": "[Leadership] Nigerian Christian leader, Dr. Flourish Peters of LOGIC Church, has come under criticism after a video showed him dedicating a new Brazilian Butt Lift (BBL) clinic in Lagos.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T15:40:49+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606230633.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606230633.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "77db274bbb",
+      "title": "NFF Debunks Fake Ashley Plumptre Claims, Urges Media to Verify Reports",
+      "summary": "[Leadership] The Nigeria Football Federation (NFF) has dismissed as false reports circulating on social media that Super Falcons defender Ashley Plumptre had complained about being omitted from Nigeria's squad for the forthcoming Women's Africa Cup of Nations (WAFCON).",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-23T15:39:28+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606230630.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606230630.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "4dd605dafc",
       "title": "From slum to asset: The quiet commercialisation of informal settlements in Ghana",
       "summary": "Once dismissed as eyesores to be bulldozed, Accra’s informal settlements are now coveted terrain — for votes, commerce, and capital. Who is cashing in?",
@@ -2430,36 +2730,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/422880/from-slum-to-asset-the-quiet-commercialisation-of-informal-settlements-in-ghana/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7eb8d06c50",
-      "title": "Gabon : un audit de la dette publique pour renforcer sa crédibilité face au FMI",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GAB",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T14:20:01+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/23/gabon-un-audit-de-la-dette-publique-pour-renforcer-sa-credibilite-face-au-fmi/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/23/gabon-un-audit-de-la-dette-publique-pour-renforcer-sa-credibilite-face-au-fmi/"
         }
       ],
       "confirmation_count": 1
@@ -2855,11 +3125,11 @@
       "confirmation_count": 1
     },
     {
-      "id": "4c1d8a0afd",
-      "title": "Zambia ex-president's family wins latest legal battle over what should happen to his body",
-      "summary": "Edgar Lungu's family and the Zambian government remain in dispute 12 months after he died.",
-      "country": "ZMB",
-      "category": "AUTRE",
+      "id": "da9b6982e9",
+      "title": "Kenya minister halts construction of US-backed Ebola quarantine centre",
+      "summary": "Aden Duale defied a High Court order to stop building work on a controversial US-funded facility.",
+      "country": "KEN",
+      "category": "SANTE",
       "severity": 1,
       "credibility": 2,
       "verified": false,
@@ -2867,56 +3137,26 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "published": "2026-06-23T12:02:29+00:00",
+      "published": "2026-06-23T11:50:36+00:00",
       "lead_source": {
         "id": "bbc-afr",
         "name": "BBC Africa",
         "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/c8r2yryr5mvo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/c4gy6vk44pwo?at_medium=RSS&at_campaign=rss"
       },
       "confirming_sources": [
         {
           "id": "bbc-afr",
           "name": "BBC Africa",
           "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/c8r2yryr5mvo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c4gy6vk44pwo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
     },
     {
-      "id": "5593b21c74",
-      "title": "Namibie: DemshiTelco engage jusqu’à 108 millions USD pour conquérir sept marchés d’Afrique australe d’ici 2030",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "NAM",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T12:01:08+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/23/namibie-demshitelco-engage-jusqua-108-millions-usd-pour-conquerir-sept-marches-dafrique-australe-dici-2030/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/23/namibie-demshitelco-engage-jusqua-108-millions-usd-pour-conquerir-sept-marches-dafrique-australe-dici-2030/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5c27ad72dc",
-      "title": "En RDC, une nouvelle génération de chefs réinvente la gastronomie traditionnelle",
+      "id": "2d7b9f6e0e",
+      "title": "Une nouvelle génération de chefs réinvente la gastronomie traditionnelle de la RD Congo",
       "summary": "À Kinshasa, de jeunes chefs s’attachent à valoriser le patrimoine culinaire de la République démocratique du Congo en revisitant les recettes traditionnelles avec les codes de la haute gastronomie, tout en surmontant les difficultés d’approvisionnement et le coût élevé de l’activité.",
       "country": "COD",
       "category": "ECONOMIE",
@@ -3000,36 +3240,6 @@
           "name": "AllAfrica · Côte d'Ivoire",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606230394.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6665bd107f",
-      "title": "Le Kenya met fin à la construction d'un centre de quarantaine contre Ebola",
-      "summary": "Le Kenya n’a jamais enregistré de cas d’Ebola et nombreux sont ceux qui s’opposent à l’entrée sur le territoire de porteurs potentiels de cette maladie hautement contagieuse.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T11:24:27+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/23/centre-debola-au-kenya-le-ministre-de-la-sante-reconnu-coupable-doutrage-au-tribunal/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/23/centre-debola-au-kenya-le-ministre-de-la-sante-reconnu-coupable-doutrage-au-tribunal/"
         }
       ],
       "confirmation_count": 1
@@ -3335,36 +3545,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "a4d013f60f",
-      "title": "Midad Energy déploie un projet pharaonique de 5,4 milliards de dollars en Algérie",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "DZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T10:16:53+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/23/midad-energy-deploie-un-projet-pharaonique-de-54-milliards-de-dollars-en-algerie/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/23/midad-energy-deploie-un-projet-pharaonique-de-54-milliards-de-dollars-en-algerie/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "078cd4ec37",
       "title": "Mudslide Cuts Off Access to Obudu Ranch Resort",
       "summary": "[Vanguard] A section of the road leading to the Obudu Ranch Resort in northern Cross River State has been cut off following a mudslide triggered by torrential rainfall in the area.",
@@ -3545,66 +3725,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "5498bed55a",
-      "title": "EFCC Re-Arraigns Ex-Skye Bank Board Chairman for Alleged N15.6bn Fraud",
-      "summary": "[Premium Times] The EFCC earlier arraigned Mr Ayeni on 4 May on 17 counts and ordered his remand in June Correctional Centre in Abuja.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T09:25:36+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606230193.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606230193.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4d89325e42",
-      "title": "Former Delta Governor Okowa Visits EFCC Office Amid Corruption Probe",
-      "summary": "[Premium Times] The former governor is being investigated over the alleged diversion of funds accruing to Delta State from the 13 per cent derivation allocation from the Federation Account between 2015 and 2023, when he served as governor.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T09:25:35+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606230192.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606230192.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "dbd49eb103",
       "title": "How Defections, Zoning, Consensus Deals Shaped Emergence of APC's 28 Governorship Candidates",
       "summary": "[Premium Times] In many states, the outcome appeared settled long before delegates cast their votes, reflecting the growing dominance of political calculations over open competition within the APC.",
@@ -3750,36 +3870,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606230177.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "62eb5683f6",
-      "title": "Kane, England play Ghana at the World Cup: Prediction, team news, lineups",
-      "summary": "Harry Kane's England and Ghana meet in the 2026 FIFA World Cup Group L, with the winner advancing to the round of 32.",
-      "country": "GHA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T09:00:22+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/sports/2026/6/23/england-ghana-prediction-fifa-world-cup-2026-kickoff-channel-kane-partey?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/sports/2026/6/23/england-ghana-prediction-fifa-world-cup-2026-kickoff-channel-kane-partey?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -4560,36 +4650,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260622-mondial-2026-le-s%C3%A9n%C3%A9gal-veut-se-relancer-face-%C3%A0-la-norv%C3%A8ge"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a575146cc2",
-      "title": "Gestion d’actifs au Maroc : Saham Capital Gestion ouvre un nouveau cycle avec la nomination de Majdouline Fakih",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-22T22:24:03+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/06/22/gestion-dactifs-au-maroc-saham-capital-gestion-ouvre-un-nouveau-cycle-avec-la-nomination-de-majdouline-fakih/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/06/22/gestion-dactifs-au-maroc-saham-capital-gestion-ouvre-un-nouveau-cycle-avec-la-nomination-de-majdouline-fakih/"
         }
       ],
       "confirmation_count": 1
@@ -5495,36 +5555,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c704cfa75c",
-      "title": "Niger-Bénin : Niamey pose des conditions à la réouverture de la frontière",
-      "summary": "Au moment où les deux pays amorcent une décrispation de leurs relations, le ministre nigérien de l’Intérieur, le général Mohamed Toumba, a rencontré le comité d’experts en charge du dossier.",
-      "country": "BEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-21T18:03:36+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1805951/politique/niger-benin-niamey-pose-des-conditions-a-la-reouverture-de-la-frontiere/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1805951/politique/niger-benin-niamey-pose-des-conditions-a-la-reouverture-de-la-frontiere/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "be72173262",
       "title": "Brilliant Kapp leads South Africa past India",
       "summary": "Marizanne Kapp strikes a powerful 81 as South Africa beat India by six wickets to keep their World Cup hopes alive.",
@@ -5945,66 +5975,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f27cd3ae06",
-      "title": "RDC : comment les Églises de réveil se sont imposées comme la deuxième religion dans le pays",
-      "summary": "En trente ans, les Églises de réveil ont fleuri aux quatre coins de la RDC et connaissent un succès durable, notamment à Kinshasa. Décryptage, en infographies, d’un phénomène religieux, social mais aussi très politique.",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-20T12:37:21+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1793870/societe/rdc-comment-les-eglises-de-reveil-se-sont-imposees-comme-la-deuxieme-religion-dans-le-pays/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1793870/societe/rdc-comment-les-eglises-de-reveil-se-sont-imposees-comme-la-deuxieme-religion-dans-le-pays/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d9a74d67fe",
-      "title": "Lutte contre le jihadisme en Mauritanie : les gardiens du désert",
-      "summary": "En Mauritanie, l’action combinée de l’État, des forces armées, mais aussi de la population, à travers la mobilisation des acteurs religieux, éducatifs et associatifs, semble parvenir à empêcher l’implantation sur le territoire de groupes armés actifs au Sahel. Décryptage.",
-      "country": "MRT",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "published": "2026-06-20T10:08:46+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1798216/politique/lutte-contre-le-jihadisme-en-mauritanie-les-gardiens-du-desert/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1798216/politique/lutte-contre-le-jihadisme-en-mauritanie-les-gardiens-du-desert/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "bddfc8941c",
       "title": "'Everything I do is for you' - how tragedy is driving Diomande",
       "summary": "BBC Sport explores how exciting young Ivory Coast Yan Diomande is determined to succeed at the World Cup in honour of his sister.",
@@ -6030,36 +6000,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/sport/football/articles/ckg04xer94eo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8fc520726e",
-      "title": "Centrafrique : comment Faustin-Archange Touadéra a fait de Prisca Roseline Mano la nouvelle maire de Bangui",
-      "summary": "Élue avec une très courte avance face à son adversaire Portia Deya Abazene, candidate dissidente du parti au pouvoir pourtant donnée favorite, la nouvelle maire de la capitale centrafricaine a bénéficié du soutien du chef de l’État. Sa courte victoire révèle les fractures au sein du parti au pouvoir.",
-      "country": "CAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-20T07:56:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1805601/politique/centrafrique-comment-faustin-archange-touadera-a-fait-de-prisca-roseline-mano-la-nouvelle-maire-de-bangui/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1805601/politique/centrafrique-comment-faustin-archange-touadera-a-fait-de-prisca-roseline-mano-la-nouvelle-maire-de-bangui/"
         }
       ],
       "confirmation_count": 1
@@ -6215,36 +6155,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "93b231c01a",
-      "title": "Ivory Coast police arrest man over murky Abidjan homes demolition",
-      "summary": "Ivory Coast police said Friday they had arrested a man accused of using a fake court document to order the demolition of a large area of an Abidjan neighbourhood.",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-19T14:55:21+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/19/ivory-coast-police-arrest-man-over-murky-abidjan-homes-demolition/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/19/ivory-coast-police-arrest-man-over-murky-abidjan-homes-demolition/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "b8d4c1a1c0",
       "title": "Fabricated Quote Used to Claim Trump Warned Kenyan President Ruto Over 'Oppressing Kenyans' At G7 Summit",
       "summary": "[Africa Check] Fabricated quote used to claim Trump warned Kenyan president Ruto over 'oppressing Kenyans' at G7 summit",
@@ -6270,36 +6180,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606190397.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b818cad865",
-      "title": "RDC : la peur d'Ebola entraîne la stigmatisation des soignants",
-      "summary": "Les personnels de santé en République démocratique du Congo doivent affronter un risque permanent de contamination. À cette exposition médicale s’ajoute une autre épreuve, plus silencieuse : la peur du virus, qui tend à fragiliser les liens familiaux et sociaux autour des soignants.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-19T13:54:33+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/19/ebola-en-rdc-la-peur-du-virus-entraine-la-stigmatisation-des-soignants/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/19/ebola-en-rdc-la-peur-du-virus-entraine-la-stigmatisation-des-soignants/"
         }
       ],
       "confirmation_count": 1
@@ -6965,6 +6845,96 @@
       "confirmation_count": 1
     },
     {
+      "id": "dbc6634aa8",
+      "title": "Repenser le financement du développement au Sénégal",
+      "summary": "Vers un État stratège orchestrateur du capital\nPar Antoine Christian Gomis, Founder, Bridge Africa Capital\nLe Sénégal entre dans une phase critique de son développement économique : les besoins en infrastructures continuent d’augmenter alors que la capacité du bilan souverain à les financer se réduit progressivement.\nDepuis plus d’une décennie, la transformation du pays a reposé sur un modèle relativement classique : l’État emprunte, l’État construit, l’État porte…",
+      "country": "SEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-16T20:10:34+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/06/16/repenser-le-financement-du-developpement-au-senegal/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/16/repenser-le-financement-du-developpement-au-senegal/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "77d375f550",
+      "title": "Abdoulaye Wade, le centenaire",
+      "summary": "L​e 29 mai 2026, Abdoulaye, « Gorgui« , « le vieux » en wolof, a eu 100 ans. À cette occasion, le gouvernement sénégalais rend hommage à cette personnalité politique dont l’héritage transcende les divisions politiques les 4 et 5 juin 2026. La commémoration a été décalée, car elle coïncidait auparavant avec l’Aïd el-Kebir – la fête de la Tabaski, l’Aïd el-Adha. \nPar Eric Topona, Journaliste, Écrivain, Ancien secrétaire général de l’Union des journalistes tchadiens…",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-16T18:55:39+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/06/16/abdoulaye-wade-le-centenaire/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/16/abdoulaye-wade-le-centenaire/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "53a55f42fc",
+      "title": "Maroc : Sanlam et Allianz dans la dernière ligne droite de leur fusion",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "MA_GOUV",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": true,
+      "published": "2026-06-16T16:36:31+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/06/16/maroc-sanlam-et-allianz-dans-la-derniere-ligne-droite-de-leur-fusion/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/16/maroc-sanlam-et-allianz-dans-la-derniere-ligne-droite-de-leur-fusion/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "fb20275b19",
       "title": "How a small Kansas city embraced Algeria",
       "summary": "BBC Sport visits the city of Lawrence in Kansas, where Algeria have their base camp for the 2026 World Cup.",
@@ -7020,6 +6990,96 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606160478.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cdfc7ce6f2",
+      "title": "Gabon : un eurobond de 1,5 milliard USD pour relancer l’accès aux marchés internationaux",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "GAB",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-16T13:42:04+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/06/16/gabon-un-eurobond-de-15-milliard-usd-pour-relancer-lacces-aux-marches-internationaux/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/16/gabon-un-eurobond-de-15-milliard-usd-pour-relancer-lacces-aux-marches-internationaux/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0225215001",
+      "title": "Toyota Tsusho CFAO African Art Award : à Lomé, un nouveau prix veut faire de l’art africain un langage mondial",
+      "summary": "Le Palais de Lomé (Togo) accueille, depuis le 11 juin 2026, la toute première exposition du «Toyota TsushoCFAO African Art Award ». À travers ce prix, Toyota Tsusho Corporation et CFAO affichent une ambition nette : faire de l’art contemporain africain un vecteur de circulation des idées, des imaginaires et des récits entre l’Afrique, l’Asie et l’Europe.\nPensé comme une plateforme de long terme plus que comme une récompense ponctuelle, cet Award entend offrir aux artistes…",
+      "country": "TGO",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-16T12:11:16+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/06/16/toyota-tsusho-cfao-african-art-award-a-lome-un-nouveau-prix-veut-faire-de-lart-africain-un-langage-mondial/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/16/toyota-tsusho-cfao-african-art-award-a-lome-un-nouveau-prix-veut-faire-de-lart-africain-un-langage-mondial/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8d684e3a71",
+      "title": "OLEA poursuit son expansion africaine avec l’ouverture d’une filiale en Mauritanie",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MRT",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "published": "2026-06-16T12:10:43+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/06/16/olea-poursuit-son-expansion-africaine-avec-louverture-dune-filiale-en-mauritanie/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/06/16/olea-poursuit-son-expansion-africaine-avec-louverture-dune-filiale-en-mauritanie/"
         }
       ],
       "confirmation_count": 1
@@ -7290,36 +7350,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606150038.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "de82b199e0",
-      "title": "Gachagua Demands Media Access to Laikipia Air Base Over Disputed Ebola Facility Construction",
-      "summary": "[Capital FM] Nairobi -- Former Deputy President Rigathi Gachagua has challenged President William Ruto's administration to grant journalists access to Laikipia Air Base to verify the status of a controversial Ebola quarantine and isolation facility.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-15T05:17:05+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606150031.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606150031.html"
         }
       ],
       "confirmation_count": 1
