@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-24T17:17:07.035149+00:00",
+  "generated_at": "2026-06-24T20:05:57.289148+00:00",
   "stats": {
-    "total_signals": 241,
-    "verified_signals": 4,
+    "total_signals": 240,
+    "verified_signals": 5,
     "countries_covered": 29,
     "sources_active": 16,
     "per_country": {
+      "COD": 27,
       "NGA": 31,
-      "COD": 25,
-      "KEN": 41,
+      "KEN": 40,
       "CAF": 3,
       "MLI": 3,
       "CMR": 7,
-      "TUN": 7,
-      "ZAF": 10,
+      "TUN": 6,
+      "ZAF": 9,
       "GIN": 4,
-      "BFA": 7,
+      "BFA": 8,
       "GHA": 9,
       "MAR": 15,
       "SEN": 30,
@@ -23,7 +23,7 @@
       "COG": 2,
       "NER": 4,
       "MOZ": 1,
-      "ETH": 8,
+      "ETH": 7,
       "CIV": 12,
       "AGO": 3,
       "MRT": 3,
@@ -137,6 +137,36 @@
   ],
   "signals": [
     {
+      "id": "3237ad8c05",
+      "title": "Ebola en RDC : la mine d'or de Mongbwalu reste active malgré la peur du virus",
+      "summary": "À Mongbwalu dans le Nord-Est de la République démocratique du Congo, les chercheurs d'or continuent leur travail dans les mines malgré la peur du virus Ebola. L’épidémie Ebola qui a ressurgi dans l'Est du pays il y a maintenant plus d'un mois a déjà fait au moins 250 morts sur plus de 1000 cas recensés.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-24T17:41:41+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260624-ebola-en-rdc-la-mine-d-or-de-mongbwalu-reste-active-malgr%C3%A9-la-peur-du-virus"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260624-ebola-en-rdc-la-mine-d-or-de-mongbwalu-reste-active-malgr%C3%A9-la-peur-du-virus"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "2cfa92cc20",
       "title": "Masquerades Lead Protest Over Acquisition of Farmland for Solar Project in Niger",
       "summary": "[Vanguard] Minna -- Masquerades in full regalia on Tuesday led residents of Diko town in Gurara Local Government Area of Niger State in a peaceful protest against the acquisition of 500 hectares of farmland by the state government for an industrial solar farming project linked to Abuja Steel Mills Limited.",
@@ -203,8 +233,8 @@
       "country": "KEN",
       "category": "SINISTRE",
       "severity": 4,
-      "credibility": 2,
-      "verified": false,
+      "credibility": 4,
+      "verified": true,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
@@ -222,9 +252,15 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/cwykl517xk7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/24/kenya-to-charge-students-for-murder-in-deadly-dormitory-fire/"
         }
       ],
-      "confirmation_count": 1
+      "confirmation_count": 2
     },
     {
       "id": "b06d059b7f",
@@ -1247,6 +1283,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "1ba14cc243",
+      "title": "Global risk from Ebola outbreak remains low, WHO chief says after France identifies first case",
+      "summary": "The global risk from the Ebola outbreak in the Democratic Republic of the Congo remains low, the head of the World Health Organization said on Wednesday.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-24T19:28:22+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/24/global-risk-from-ebola-outbreak-remains-low-who-chief-says-after-france-identifies-first-c/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/24/global-risk-from-ebola-outbreak-remains-low-who-chief-says-after-france-identifies-first-c/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "150cca5e4a",
       "title": "DR Congo: Mining operations continue at epicentre of Ebola outbreak",
       "summary": "At a gold mine in Mongbwalu, necessity is forcing people to put aside their fear of the virus and carry on working.",
@@ -1422,6 +1488,36 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/06/24/ebola-premier-cas-detecte-en-france/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5c7a56482a",
+      "title": "France confirms first ever case of Ebola in doctor returning from DRC",
+      "summary": "France on Wednesday announced its first confirmed case of Ebola identified on its territory, a doctor back from the Democratic Republic of the Congo, which is fighting a major outbreak.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-24T13:06:09+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/24/france-confirms-first-ever-case-of-ebola-in-doctor-returning-from-drc/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/24/france-confirms-first-ever-case-of-ebola-in-doctor-returning-from-drc/"
         }
       ],
       "confirmation_count": 1
@@ -2117,6 +2213,42 @@
       "confirmation_count": 1
     },
     {
+      "id": "4f0c5cf256",
+      "title": "Senegal: The unbearable loneliness of Bassirou Diomaye Faye",
+      "summary": "Bassirou Diomaye Faye came to power as Ousmane Sonko’s stand-in. Now, after sacking his former mentor, he faces a bitter fight with the party that put him in office.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-24T17:19:39+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/423048/senegal-the-unbearable-loneliness-of-bassirou-diomaye-faye/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/423048/senegal-the-unbearable-loneliness-of-bassirou-diomaye-faye/"
+        },
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1803649/politique/senegal-la-solitude-de-bassirou-diomaye-faye/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
       "id": "4ea9daa351",
       "title": "Maritime Sector Faces Complex Security Threats, Says A'ibom CP",
       "summary": "[This Day] Uyo -- The Akwa Ibom State Commissioner of Police, Baba Mohammed Azare, has stated that despite being a major driver of economic growth, the Nigerian maritime sector faces complex security threats, including sea piracy, armed robbery at sea, kidnapping along waterways, illegal oil bunkering, pipeline vandalism, smuggling, human trafficking, environmental crimes, and other forms of transnational organized criminal activities.",
@@ -2235,42 +2367,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "7d2d432017",
-      "title": "France confirms first Ebola case in doctor returning from DR Congo",
-      "summary": "The patient is in isolation, following strict biosafety protocols to prevent risk of spread in France.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T10:19:57+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/6/24/france-confirms-first-ebola-case-in-doctor-returning-from-dr-congo?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/6/24/france-confirms-first-ebola-case-in-doctor-returning-from-dr-congo?traffic_source=rss"
-        },
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/24/france-confirms-first-ever-case-of-ebola-in-doctor-returning-from-drc/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "345ebdee85",
@@ -2802,6 +2898,36 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1806514/economie-entreprises/aerien-chez-ethiopian-airlines-la-succession-de-mesfin-tasew-est-ouverte/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "793539aec3",
+      "title": "Burkina Faso: deux ans après l’enlèvement du journaliste Atiana Serge Oulon, un site d'info publie ses enquêtes",
+      "summary": "Deux ans jour pour jour après que le journaliste Atiana Serge Oulon a été enlevé à son domicile de Ouagadougou, le site d’information Sahel Horizon rend hommage au journaliste burkinabè jeudi 24 juin en publiant des messages de soutien, ainsi que ses enquêtes. Alors que les autorités affirment l’avoir envoyé au front anti-jihadistes, Reporters sans frontières a révélé qu’il a été séquestré, torturé et est depuis maintenu en détention.",
+      "country": "BFA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-24T17:39:01+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260624-burkina-faso-deux-ans-apr%C3%A8s-l-enl%C3%A8vement-du-journaliste-atiana-serge-oulon-un-site-d-info-publie-ses-enqu%C3%AAtes"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260624-burkina-faso-deux-ans-apr%C3%A8s-l-enl%C3%A8vement-du-journaliste-atiana-serge-oulon-un-site-d-info-publie-ses-enqu%C3%AAtes"
         }
       ],
       "confirmation_count": 1
@@ -3527,36 +3653,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0b2544f82b",
-      "title": "Kenya braces for return of Gen Z protests – how did they begin?",
-      "summary": "Two years since Gen Z protests rocked President Ruto's government, thousands gear up to take to the streets again.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T10:41:04+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/features/2026/6/24/kenya-braces-for-return-of-gen-z-protests-how-did-they-begin?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/features/2026/6/24/kenya-braces-for-return-of-gen-z-protests-how-did-they-begin?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "30222498f1",
       "title": "Niger Assembly Suspends Plenary Indefinitely Over Friction With Executive",
       "summary": "[Leadership] Following unresolved issues with the Executive arm, the Niger State House of Assembly has suspended sitting indefinitely until the Executive arm meets its demands.",
@@ -4097,36 +4193,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "5b7ea3f365",
-      "title": "U.S. Sanctions Lagos-Based ISIS Financier, Bureaux De Change in Global Terror Crackdown",
-      "summary": "[Vanguard] The United States has sanctioned a Lagos-based ISIS financier, Mukhtar Adamu Muhammad, 35, and three bureaux de change linked to him for allegedly moving funds for the group, as part of a sweeping action targeting ISIS financial networks across Europe, the Middle East, and West Africa.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "AML_CFT",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-06-24T05:59:15+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606240051.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606240051.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "9fb69ccb61",
       "title": "Nigeria's Intra-African Trade Up 21% to $9.02bn As AfCFTA Opens New Export Markets",
       "summary": "[This Day] Nigeria's trade with other African countries climbed to $9.02 billion in 2025, underscoring the growing importance of the African Continental Free Trade Area (AfCFTA) in expanding market access for Nigerian exporters and deepening regional economic integration.",
@@ -4152,6 +4218,36 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606240019.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "beda31babb",
+      "title": "Lagos Police Arrest Three, Recover Over 7,000 Military Camouflages, Suspected Illicit Substances",
+      "summary": "[This Day] The Lagos State Police Command has arrested three suspects and recovered more than 7,000 military camouflage uniforms alongside 80 cartons of suspected illicit substances in what it described as a major intelligence-led breakthrough.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-24T05:16:26+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606240018.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606240018.html"
         }
       ],
       "confirmation_count": 1
@@ -4512,36 +4608,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1801468/societe/mohamed-zouita-le-concierge-depeceur-de-casablanca/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "212d1589ab",
-      "title": "Sénégal : la solitude de Bassirou Diomaye Faye",
-      "summary": "Paria au sein de son propre parti, le Pastef, rejeté par une partie des militants qui l’avaient élu par défaut, le chef de l’État doit maintenant affronter son propre camp.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T18:31:29+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1803649/politique/senegal-la-solitude-de-bassirou-diomaye-faye/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1803649/politique/senegal-la-solitude-de-bassirou-diomaye-faye/"
         }
       ],
       "confirmation_count": 1
@@ -5022,36 +5088,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/06/23/algeria-rallies-past-jordan-2-1-for-its-first-win-at-a-world-cup-since-2014/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "98b0464243",
-      "title": "South Africa: Cape Town can see the gangs. Why can’t it stop them?",
-      "summary": "Despite sophisticated surveillance systems, experts say gang violence in Cape Town is sustained by weak institutions, poverty and a lack of trust between communities and law enforcement.",
-      "country": "ZAF",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T10:00:00+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/422773/south-africa-cape-town-can-see-the-gangs-why-cant-it-stop-them/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/422773/south-africa-cape-town-can-see-the-gangs-why-cant-it-stop-them/"
         }
       ],
       "confirmation_count": 1
@@ -5987,36 +6023,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "644b983cfb",
-      "title": "Ethiopian Prime Minister's party sweeps parliamentary vote",
-      "summary": "Abiy Ahmed's Prosperity Party (PP) won a landslide victory in legislative polls held June 1, the election commission said Sunday, giving it almost 90 percent of the seats",
-      "country": "ETH",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-22T05:28:36+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/22/ethiopian-prime-ministers-party-sweeps-parliamentary-vote/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/22/ethiopian-prime-ministers-party-sweeps-parliamentary-vote/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "7d785c618f",
       "title": "Kenya - Journalist Leaders Resolve to Drive Fact-Based Migration Narratives in Eastern Africa",
       "summary": "[IFJ] The regional forum, supported by the International Labour Organization (ILO) through the Better Regional Migration Management (BRMM) Programme and funded by the United Kingdom Foreign, Commonwealth and Development Office (FCDO), brought together journalists union leaders and media professionals from Comoros, Djibouti, Ethiopia, Kenya, Rwanda, Somalia, South Sudan, Sudan, Tanzania and Uganda to strengthen professional journalism on migration and labour mobility and…",
@@ -6042,36 +6048,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606220131.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2a2a72b88b",
-      "title": "Tunisia becomes first African team to be eliminated from World Cup",
-      "summary": "The nine goals conceded in games against Sweden and Japan means it is impossible to advance to the next round.",
-      "country": "TUN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-21T14:15:43+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/21/tunisia-becomes-first-african-team-to-be-eliminated-from-world-cup/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/21/tunisia-becomes-first-african-team-to-be-eliminated-from-world-cup/"
         }
       ],
       "confirmation_count": 1
