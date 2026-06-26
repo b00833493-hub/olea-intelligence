@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-26T20:54:37.685366+00:00",
+  "generated_at": "2026-06-26T22:35:18.018979+00:00",
   "stats": {
-    "total_signals": 249,
-    "verified_signals": 5,
+    "total_signals": 250,
+    "verified_signals": 4,
     "countries_covered": 30,
     "sources_active": 16,
     "per_country": {
-      "ZAF": 19,
-      "TUN": 8,
-      "NGA": 38,
-      "COD": 19,
+      "BFA": 3,
+      "ZAF": 21,
+      "TUN": 7,
+      "NGA": 37,
+      "COD": 18,
       "KEN": 42,
-      "MAR": 27,
-      "SEN": 24,
+      "MAR": 26,
+      "SEN": 25,
       "COG": 1,
-      "BFA": 2,
       "GIN": 4,
       "CIV": 23,
       "MLI": 4,
@@ -22,7 +22,7 @@
       "GAB": 4,
       "BDI": 2,
       "TGO": 2,
-      "RWA": 3,
+      "RWA": 4,
       "DZA": 1,
       "ZWE": 3,
       "AGO": 2,
@@ -137,6 +137,48 @@
     }
   ],
   "signals": [
+    {
+      "id": "c5fa324119",
+      "title": "Le Burkina Faso affirme \"rompre ses relations diplomatiques\" avec la France",
+      "summary": "Le Burkina Faso, dirigé par la junte du capitaine Ibrahim Traoré depuis un coup d'État en septembre 2022, a annoncé vendredi la rupture de ses relations diplomatiques avec la France, accusée d'\"activisme incessant\" contre ses intérêts. Paris a répondu regretter une \"décision hostile et sans fondement\" et a ajouté que des \"mesures de réciprocité qui s'imposent sont en cours d'examen\".",
+      "country": "BFA",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 5,
+      "verified": true,
+      "theme": null,
+      "legal_status": "PROJET",
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T21:16:02+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/afrique/20260626-burkina-faso-rupture-relations-diplomatiques-france-junte-ibrahim-traore"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20260626-burkina-faso-rupture-relations-diplomatiques-france-junte-ibrahim-traore"
+        },
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260626-le-burkina-faso-annonce-rompre-ses-relations-diplomatiques-avec-la-france"
+        },
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1807737/politique/le-burkina-faso-annonce-rompre-ses-relations-diplomatiques-avec-la-france/"
+        }
+      ],
+      "confirmation_count": 3
+    },
     {
       "id": "b3c186e8a5",
       "title": "South Africa's President Ramaphosa warns anti-immigrant groups over June 30 'deadline'",
@@ -1068,45 +1110,69 @@
       "confirmation_count": 1
     },
     {
-      "id": "70bdd3b7c8",
-      "title": "Le Burkina Faso annonce «rompre ses relations diplomatiques» avec la France",
-      "summary": "Le gouvernement du Burkina Faso a annoncé vendredi soir 26 juin rompre ses relations diplomatiques avec la France. L'annonce a été faite à la télévision nationale dans une édition spéciale à 18h TU par le porte-parole du gouvernement Pingdwendé Gilbert Ouédraogo.",
+      "id": "b617fc6f44",
+      "title": "Burkina Faso cuts diplomatic ties with former colonial ruler France",
+      "summary": "The military government, in power since 2022 coup, accused France of having 'neo-colonial ambitions'.",
       "country": "BFA",
-      "category": "AUTRE",
+      "category": "POLITIQUE",
       "severity": 3,
-      "credibility": 4,
-      "verified": true,
+      "credibility": 2,
+      "verified": false,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "published": "2026-06-26T19:03:30+00:00",
+      "published": "2026-06-26T21:10:10+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "289793b6a5",
+      "title": "Coupe du monde 2026: le Sénégal corrige l’Irak et reste en vie dans la course aux seizièmes",
+      "summary": "Portés par une seconde période éclatante et des choix forts de Pape Thiaw, le Sénégal a signé, face à l'Irak (5-0) la plus large victoire de son histoire en Coupe du monde ce vendredi 26 juin, pour le troisième et dernier match du groupe I dominé par la France. Une victoire qui redonne de l’espoir aux Lions, qui devront patienter pour savoir s’ils feront partie des huit meilleurs troisièmes.",
+      "country": "SEN",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T21:05:11+00:00",
       "lead_source": {
         "id": "rfi-afr",
         "name": "RFI Afrique",
         "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260626-le-burkina-faso-annonce-rompre-ses-relations-diplomatiques-avec-la-france"
+        "url": "https://www.rfi.fr/fr/afrique-foot/20260626-coupe-du-monde-2026-le-s%C3%A9n%C3%A9gal-corrige-l-irak-et-reste-en-vie-dans-la-course-aux-seizi%C3%A8mes"
       },
       "confirming_sources": [
         {
           "id": "rfi-afr",
           "name": "RFI Afrique",
           "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260626-le-burkina-faso-annonce-rompre-ses-relations-diplomatiques-avec-la-france"
-        },
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1807737/politique/le-burkina-faso-annonce-rompre-ses-relations-diplomatiques-avec-la-france/"
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260626-coupe-du-monde-2026-le-s%C3%A9n%C3%A9gal-corrige-l-irak-et-reste-en-vie-dans-la-course-aux-seizi%C3%A8mes"
         }
       ],
-      "confirmation_count": 2
+      "confirmation_count": 1
     },
     {
-      "id": "27ba07905a",
-      "title": "EN DIRECT - Coupe du monde 2026: le Sénégal s'envole face à l'Irak, réduit à 10",
-      "summary": "Après deux défaites en autant de matchs, les Lions de la Teranga doivent s’imposer contre l’Irak à Toronto lors du dernier match du groupe I. Même avec une victoire, ils ne finiraient pas parmi les deux premiers, mais peuvent espérer faire partie des meilleurs troisièmes du Mondial, qui se qualifient pour la suite. Pour cela, les Sénégalais doivent soigner leur différence de but (-3) et donc l’emporter largement pour y croire. Suivez le match avec notre direct commenté.",
+      "id": "ddd5d7cc85",
+      "title": "Coupe du monde 2026: revivez la large victoire du Sénégal contre l'Irak",
+      "summary": "Les Lions de la Teranga ont balayé l'Irak sans ménagement (5-0), le 26 juin à Toronto, lors de la dernière journée de la phase de groupes. Cette large victoire leur permet de se replacer dans le classement des meilleurs troisièmes grâce à une différence de buts positive (+2). Les hommes de Pape Thiaw devront tout de même attendre la fin des derniers matchs pour être fixés sur leur sort et savoir s'ils disputeront les 16es de finale. Revivez le match avec notre direct…",
       "country": "SEN",
       "category": "POLITIQUE",
       "severity": 3,
@@ -1680,36 +1746,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ebf7592734",
-      "title": "Coupe du monde 2026: revivez le troisième match de la Tunisie contre les Pays-Bas",
-      "summary": "Assurée de terminer dernière du groupe F, la Tunisie n'a pas réussi à décrocher une victoire face aux Pays-Bas (1-3) le 25 juin à Kansas City pour soigner sa sortie dans cette Coupe du monde. En parallèle, le Japon et la Suède se sont quittés sur un match nul (1-1) et sont tous les deux qualifiés pour la phase à élimination directe. Revivez notre direct commenté par nos confrères de France 24.",
-      "country": "TUN",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T22:00:11+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique-foot/20260625-en-direct-coupe-du-monde-2026-la-tunisie-pour-l-honneur-duel-%C3%A0-distance-entre-les-pays-bas-et-le-japon"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique-foot/20260625-en-direct-coupe-du-monde-2026-la-tunisie-pour-l-honneur-duel-%C3%A0-distance-entre-les-pays-bas-et-le-japon"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "4d4009d550",
       "title": "Non, Ibrahim Traoré n’a pas critiqué la Coupe du monde 2026",
       "summary": "Une vidéo virale attribue à Ibrahim Traoré, président du Burkina Faso, un discours virulent sur la Coupe du monde 2026 et les États-Unis. Mais les images ont été détournées, l’audio modifié et les propos inventés. L’intox a été largement relayée sur les réseaux sociaux.",
@@ -1830,36 +1866,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "442a812233",
-      "title": "Second Batch of Nigerians Evacuated From South Africa Arrive Lagos",
-      "summary": "[Vanguard] Abuja -- The federal government has repatriated another 66 Nigerians from South Africa as part of ongoing efforts to assist citizens affected by recent xenophobic attacks in the country.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T10:20:48+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606250286.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606250286.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "33c9f4917b",
       "title": "Mondial 2026 : première qualification au 2nd tour pour l’Afrique du Sud",
       "summary": "L’Afrique du Sud s’est qualifiée pour la première fois pour les huitièmes de finale de la Coupe du monde grâce à une victoire 1-0 contre la Corée du Sud, mercredi soir.",
@@ -1885,36 +1891,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/06/25/coupe-du-monde-premiere-qualification-au-second-tour-pour-lafrique-du-sud/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a7a9f86884",
-      "title": "Mondial 2026 : deuxième défaite consécutive pour le Sénégal",
-      "summary": "La nuit a été difficile pour les supporters sénégalais, après la défaite du Sénégal face à la Norvège (3-2). Les Lions de la Teranga concèdent ainsi un deuxième revers consécutif dans ce début de Coupe du monde, et compliquent sérieusement leurs chances de qualification pour le deuxième tour.",
-      "country": "SEN",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T14:11:31+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260624-mondial-2026-deuxi%C3%A8me-d%C3%A9faite-cons%C3%A9cutive-pour-le-s%C3%A9n%C3%A9gal"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260624-mondial-2026-deuxi%C3%A8me-d%C3%A9faite-cons%C3%A9cutive-pour-le-s%C3%A9n%C3%A9gal"
         }
       ],
       "confirmation_count": 1
@@ -2718,42 +2694,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2d78a598c0",
-      "title": "Key figure in South Africa police corruption scandal pleads guilty",
-      "summary": "Prosecutors say Vusimusi \"Cat\" Matlala could provide evidence against \"high-ranking officials\".",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T14:00:13+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/cx2j4g5k52jo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cx2j4g5k52jo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/26/key-figure-in-south-african-police-corruption-scandal-pleads-guilty/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "98e8bbd755",
       "title": "Nigeria: le Sénat adopte une réforme sur la création d’une police dans chacun des 36 États",
       "summary": "Au Nigeria, le Sénat ouvre la voie à la création de polices d'État. L'institution a adopté, ce 24 juin 2026, la plus importante réforme du système policier depuis près d'un siècle. Elle permettra à chacun des 36 États de disposer de sa propre force, en complément de la police fédérale. Jusqu'ici, le pays ne disposait que d'un seul corps national, dirigé depuis Abuja. Les autorités espèrent ainsi mieux répondre à une insécurité croissante. Une réforme historique, mais…",
@@ -2934,36 +2874,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c62fee54ee",
-      "title": "RD Congo : les prix des maillots des Léopards s'envolent pendant le Mondial",
-      "summary": "En République démocratique du Congo, l’engouement autour de la sélection nationale atteint des sommets. Mais dans l’est du pays, cette ferveur se confronte à une autre réalité : le prix des maillots des Léopards s’envole notamment à cause de la fermeture de la frontière avec le Rwanda. À Bukavu, la passion pour l’équipe nationale se heurte ainsi à la hausse des coûts, qui rend ces équipements de plus en plus difficiles à se procurer.",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T14:09:09+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260624-rd-congo-les-prix-des-maillots-des-l%C3%A9opards-s-envolent-pendant-le-mondial"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260624-rd-congo-les-prix-des-maillots-des-l%C3%A9opards-s-envolent-pendant-le-mondial"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "c820c780be",
       "title": "NSIA Banque to Distribute $34m to Shareholders After Profit Growth",
       "summary": "[Daba Finance] NSIA Banque Côte d'Ivoire (BRVM: NSBC) plans to distribute CFA19 billion ($33.5 million) in dividends for 2025 after reporting higher profit and continued balance-sheet growth.",
@@ -3024,6 +2934,126 @@
       "confirmation_count": 1
     },
     {
+      "id": "fb627e8368",
+      "title": "Senegal score 5-0 win over 10-man Iraq, keep World Cup knockout hopes alive",
+      "summary": "Senegal currently hold the fifth-best record of third-place teams based on their plus-2 goal differential.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T22:05:09+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/sports/2026/6/26/senegal-score-5-0-win-over-10-man-iraq-keep-world-cup-knockout-hopes-alive?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/sports/2026/6/26/senegal-score-5-0-win-over-10-man-iraq-keep-world-cup-knockout-hopes-alive?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3d16045e27",
+      "title": "Washington sanctionne le Rwanda accusé de faire de la contrebande d'or",
+      "summary": "L'administration Trump emboîte le pas à l'Europe en sanctionnant Gasabo Gold, unique raffinerie d'or du Rwanda, accusée de faire transiter des minerais de conflit depuis l'est du Congo pour financer le M23. Selon Washington, les rebelles - qui occupent depuis plus d'un an les deux plus grandes villes de la région - achemineraient l'or vers Kigali avec le concours direct de l'armée rwandaise…",
+      "country": "RWA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T21:29:44+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260626-washington-sanctionne-le-rwanda-accus%C3%A9-de-faire-de-la-contrebande-d-or"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260626-washington-sanctionne-le-rwanda-accus%C3%A9-de-faire-de-la-contrebande-d-or"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d78f269b9e",
+      "title": "Thousands of migrants flee South Africa ahead of anti-immigrant protests",
+      "summary": "Thousands of migrants flee South Africa ahead of anti-immigrant protests",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T21:21:33+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/26/thousands-of-migrants-flee-south-africa-ahead-of-anti-immigrant-protests?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/26/thousands-of-migrants-flee-south-africa-ahead-of-anti-immigrant-protests?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7ff12907eb",
+      "title": "Afrique du Sud : le gouvernement rejette l’ultimatum du 30 juin visant les migrants",
+      "summary": "À l’approche du 30 juin, date avancée par des groupes anti-immigration pour exiger le départ d’étrangers en situation irrégulière, les autorités sud-africaines ont fermement rejeté toute légitimité à cet ultimatum, rappelant que l’application des lois migratoires relève exclusivement de l’État.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T20:50:12+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/26/afrique-du-sud-le-gouvernement-rejette-lultimatum-du-30-juin-visant-les-migrants/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/26/afrique-du-sud-le-gouvernement-rejette-lultimatum-du-30-juin-visant-les-migrants/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "c5919da0dd",
       "title": "Cameroun : à Yaoundé, des milliers de ménages luttent pour avoir de l’eau potable",
       "summary": "Au Cameroun, l'accès à l'eau potable demeure un véritable défi pour des milliers de familles. Dans les grandes villes, la demande dépasse largement les capacités d'approvisionnement de la Société en charge. Reportage sur le quotidien de quelques ménages confrontés à la pénurie d'eau à Yaoundé.",
@@ -3054,9 +3084,9 @@
       "confirmation_count": 1
     },
     {
-      "id": "94880e72d6",
-      "title": "Littérature africaine : Réassi Ouabanzi veut créer des ponts entre l'Afrique et ses diasporas",
-      "summary": "Comment donner plus de visibilité aux littératures africaines et afrodescendantes ? Critique littéraire, blogueur et fondateur du blog Chez Gangoueus, Réassi Ouabanzi est l'un des grands passeurs des lettres africaines francophones. À l'occasion de la deuxième édition de Rive Noire Littérature, le festival qu'il organise à Paris dont l'écrivain sénégalais Mohamed Mbougar Sarr est le parrain, il est l'invité du Journal de l'Afrique sur France 24. Nous revenons avec lui sur…",
+      "id": "21fdb6f048",
+      "title": "Littérature africaine : Réassi Ouabonzi veut créer des ponts entre l'Afrique et ses diasporas",
+      "summary": "Comment donner plus de visibilité aux littératures africaines et afrodescendantes ? Critique littéraire, blogueur et fondateur du blog Chez Gangoueus, Réassi Ouabonzi est l'un des grands passeurs des lettres africaines francophones. À l'occasion de la deuxième édition de Rive Noire Littérature, le festival qu'il organise à Paris dont l'écrivain sénégalais Mohamed Mbougar Sarr est le parrain, il est l'invité du Journal de l'Afrique sur France 24. Nous revenons avec lui sur…",
       "country": "SEN",
       "category": "AUTRE",
       "severity": 1,
@@ -3774,36 +3804,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2ac826162d",
-      "title": "Morocco jails 29, including politicians and sports figures, in drug trial",
-      "summary": "Casablanca court delivers landmark verdict in 'Escobar of the Sahara' case: up to 12 years for top figures.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T14:48:38+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/6/26/morocco-jails-29-including-politicians-and-sports-figures-in-drug-trial?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/6/26/morocco-jails-29-including-politicians-and-sports-figures-in-drug-trial?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "fbd31d274d",
       "title": "Moroccan court jails 29 in major drug trafficking case",
       "summary": "A Moroccan court handed prison sentences to 29 people, including prominent politicians and sports and business figures, in an international drug trafficking and corruption scandal that has rocked the country.",
@@ -4459,6 +4459,36 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260626-qualification-c%C3%B4te-ivoire-mondial-sihem-bensedrine-condamn%C3%A9e-en-tunisie-hebdo-afrique"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f1ecf4164a",
+      "title": "Key figure in South African police corruption scandal pleads guilty",
+      "summary": "Controversial businessman Vusimusi “Cat” Matlala admitted to fraud, corruption, and money laundering linked to a police service tender.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "AML_CFT",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-26T10:11:16+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/26/key-figure-in-south-african-police-corruption-scandal-pleads-guilty/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/26/key-figure-in-south-african-police-corruption-scandal-pleads-guilty/"
         }
       ],
       "confirmation_count": 1
