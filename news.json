@@ -1,38 +1,39 @@
 {
-  "generated_at": "2026-06-26T13:19:29.664436+00:00",
+  "generated_at": "2026-06-26T16:27:42.770241+00:00",
   "stats": {
-    "total_signals": 244,
+    "total_signals": 243,
     "verified_signals": 3,
-    "countries_covered": 28,
+    "countries_covered": 29,
     "sources_active": 16,
     "per_country": {
+      "COD": 20,
+      "TUN": 7,
       "NGA": 37,
-      "TUN": 8,
-      "COD": 18,
-      "ZAF": 18,
-      "KEN": 43,
+      "ZAF": 19,
+      "KEN": 41,
       "GIN": 5,
-      "MAR": 24,
-      "CAF": 3,
-      "CMR": 3,
-      "SEN": 24,
+      "MAR": 25,
+      "SEN": 23,
       "COG": 1,
-      "CIV": 22,
+      "CIV": 23,
       "BFA": 1,
-      "MLI": 2,
+      "MLI": 4,
       "MOZ": 1,
+      "GAB": 3,
+      "BDI": 1,
       "TGO": 2,
       "RWA": 3,
       "DZA": 1,
       "ZWE": 5,
       "GHA": 4,
-      "GAB": 3,
-      "AGO": 4,
+      "AGO": 2,
+      "CMR": 3,
+      "SLE": 2,
       "MDG": 1,
+      "CAF": 1,
       "UGA": 2,
       "BEN": 4,
-      "ETH": 3,
-      "SLE": 1,
+      "ETH": 1,
       "MRT": 1
     }
   },
@@ -135,6 +136,66 @@
     }
   ],
   "signals": [
+    {
+      "id": "5e00d8c9c5",
+      "title": "Voyageur atteint d'Ebola : Air France a interrompu ses vols Paris-Kinshasa, reprise samedi",
+      "summary": "Air France a suspendu ses vols entre Paris et Kinshasa à la suite de l'identification d'un cas positif au virus Ebola ayant voyagé sur cette ligne mardi, a indiqué vendredi la compagnie à l'AFP. L'épidémie de maladie Ebola en République démocratique du Congo a fait 304 morts, selon un dernier bilan des autorités sanitaires congolaises.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T14:57:14+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/afrique/20260626-voyageur-atteint-ebola-air-france-interruption-vols-paris-kinshasa-reprise-samedi"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20260626-voyageur-atteint-ebola-air-france-interruption-vols-paris-kinshasa-reprise-samedi"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2300ecd874",
+      "title": "Tunisie: condamnée à 25 ans de prison, la militante Sihem Bensedrine dénonce «un procès inique» et va faire appel",
+      "summary": "La militante tunisienne des droits humains Sihem Bensedrine, l'une des opposantes les plus connues du pays, a été condamnée à 25 ans de prison dans des affaires liées à la justice transitionnelle. La justice la poursuivait pour des soupçons de falsification d'une partie du rapport final de l'Instance vérité et dignité (IVD), mise en place après la révolution de 2011 et qui a auditionné des milliers de victimes des pouvoirs de Habib Bourguiba (1957-1987) et Zine El Abidine…",
+      "country": "TUN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T13:38:23+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260626-tunisie-condamn%C3%A9e-%C3%A0-25-ans-de-prison-la-militante-sihem-bensedrine-d%C3%A9nonce-un-proc%C3%A8s-inique-et-va-faire-appel"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260626-tunisie-condamn%C3%A9e-%C3%A0-25-ans-de-prison-la-militante-sihem-bensedrine-d%C3%A9nonce-un-proc%C3%A8s-inique-et-va-faire-appel"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "9fd4ff57e1",
       "title": "Eight Dead, 26 Rescued As Three-Storey Building Collapses in Lagos",
@@ -431,66 +492,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606260092.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b292186d7d",
-      "title": "Govt Reassures Oyo, South-West On Security, Promises Safe Return of Oriire Kidnap Victims",
-      "summary": "[Vanguard] The Federal Government has reassured residents of Oyo State and the South-West that it is intensifying efforts to tackle insecurity, including banditry, kidnapping and other violent crimes, while working to secure the safe return of victims abducted in Oriire Local Government Area of Oyo State.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:49+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260071.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260071.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f88d9201d5",
-      "title": "Gen Z Memorial Protests Expected Across Kenya",
-      "summary": "[Capital FM] Nairobi -- Kenya is bracing for nationwide Gen Z memorial protests on Thursday as young people prepare to mark the anniversary of last year's anti-government demonstrations that left several people dead and dozens injured.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:48+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260068.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260068.html"
         }
       ],
       "confirmation_count": 1
@@ -796,66 +797,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1eeb51a0a2",
-      "title": "Nairobi signs $1.2 billion airport expansion deal with China Road and Bridge Corp",
-      "summary": "Kenya has signed a $1.2 billion deal with China Road and Bridge Corporation to expand Nairobi’s Jomo Kenyatta International Airport, the country’s transport minister said on Tuesday.",
-      "country": "KEN",
-      "category": "INFRASTRUCTURE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T07:10:28+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/24/nairobi-signs-12-billion-airport-expansion-deal-with-china-road-and-bridge-corp/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/24/nairobi-signs-12-billion-airport-expansion-deal-with-china-road-and-bridge-corp/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "adc7ea77c3",
-      "title": "Tunisia upholds eight-year jail term for anti-racism activist",
-      "summary": "A Tunisian court on Tuesday upheld an eight-year prison sentence slapped on anti-racism activist Saadia Mosbah for financial misconduct, two of her lawyers said",
-      "country": "TUN",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T07:07:43+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/24/tunisia-upholds-eight-year-jail-term-for-anti-racism-activist/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/24/tunisia-upholds-eight-year-jail-term-for-anti-racism-activist/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8bc83f9320",
       "title": "Kenya to charge students for murder in deadly dormitory fire",
       "summary": "Kenyan prosecutors said Tuesday they will charge a number of students with murder of 16 schoolmates in the burning of a dormitory in late May that shocked the east African country.",
@@ -941,66 +882,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260624-rd-congo-ebola-gagne-du-terrain-dans-les-mines-d-or-de-mongbwalu"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "07ec85ab10",
-      "title": "Defence team for former CAR president Bozizé accuse court of procedural irregularities",
-      "summary": "Defence lawyers in the trial of Central African Republic’s former president, François Bozizé, on Tuesday denounced what they say are procedural irregularities.",
-      "country": "CAF",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T14:19:05+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/24/defence-team-for-former-car-president-bozize-accuse-court-of-procedural-irregularities/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/24/defence-team-for-former-car-president-bozize-accuse-court-of-procedural-irregularities/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9ebe9fca79",
-      "title": "Les Camerounaises victimes de violences abandonnées par l'État, selon HRW",
-      "summary": "La violence à l'égard des femmes reste très répandue au Cameroun, et les autorités ne prennent pas les mesures nécessaires pour y mettre un terme, selon un rapport de Human Rights Watch publié mercredi.",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T12:05:13+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/24/au-cameroun-les-femmes-victimes-de-violences-abandonnees-par-letat/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/24/au-cameroun-les-femmes-victimes-de-violences-abandonnees-par-letat/"
         }
       ],
       "confirmation_count": 1
@@ -1216,6 +1097,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "64639fe08f",
+      "title": "Afrique du Sud : \"Cat\" Matlala plaide coupable dans un scandale de corruption",
+      "summary": "Un sulfureux homme d'affaires, au cœur d'un vaste scandale de corruption au sein de la police sud-africaine, a plaidé coupable de fraude et de blanchiment d'argent.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": "AML_CFT",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-26T15:06:05+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/26/afrique-du-sud-lhomme-daffaires-cat-matlala-plaide-coupable-dans-un-scandale-de-corruption/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/26/afrique-du-sud-lhomme-daffaires-cat-matlala-plaide-coupable-dans-un-scandale-de-corruption/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "dabf921c64",
       "title": "Comment le boom minier guinéen engorge le port de Conakry",
       "summary": "Longtemps classé parmi les ports les plus performants du continent, le Port autonome de Conakry figure désormais parmi les moins bien classés au monde. En cause notamment, l’explosion des flux liés au secteur minier.",
@@ -1331,6 +1242,36 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606260289.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "981ff6741b",
+      "title": "Gov Nwifuru's Attack On Wike Reignites Clash Within PDP",
+      "summary": "[Leadership] The fight within the Peoples Democratic Party (PDP) resumed yesterday as the warring camps disagreed over an attack by the Ebonyi State governor, Francis Nwifuru, on the Federal Capital Territory (FCT) minister, Nyesom Wike.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T11:12:05+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260260.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260260.html"
         }
       ],
       "confirmation_count": 1
@@ -1547,66 +1488,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606260091.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6f1cd8d0a2",
-      "title": "Trailer Crashes Into FMC Umuahia Fence, Causes Traffic Gridlock",
-      "summary": "[Vanguard] UMUAHIA -- A heavy-duty trailer loaded with iron rods crashed into the perimeter fence of Federal Medical Centre Umuahia in the early hours of Thursday after reportedly losing control while climbing a hill along the Umuahia-Ikot Ekpene Expressway.",
-      "country": "NGA",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:52+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260076.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260076.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e107afe1ed",
-      "title": "Murkomen Declares Gachagua's 'Clout-Chasing' a 'Medical Case', Defends Dig Lagat",
-      "summary": "[Capital FM] Nairobi -- Interior Cabinet Secretary Kipchumba Murkomen has launched a scathing attack on former Deputy President Rigathi Gachagua over claims that his life is in danger, dismissing the allegations as attention-seeking tactics and condemning what he described as the ethnic profiling of senior security officers.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:38+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260049.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260049.html"
         }
       ],
       "confirmation_count": 1
@@ -2062,96 +1943,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "9a0190eea5",
-      "title": "RDC : la tragique équation des chercheurs d'or face à Ebola",
-      "summary": "À Mongbwalu, épicentre de la 17e épidémie d'Ebola en RDC, les chercheurs d'or continuent de creuser malgré le virus.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T14:03:35+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/24/rdc-la-tragique-equation-des-chercheurs-dor-face-a-ebola/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/24/rdc-la-tragique-equation-des-chercheurs-dor-face-a-ebola/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e0958cc213",
-      "title": "Un premier cas d'Ebola détecté en France",
-      "summary": "L’épidémie d’Ebola franchit une nouvelle étape. La France a confirmé son premier cas lié à l’épidémie qui touche actuellement la République démocratique du Congo. Il s’agit d’un médecin humanitaire de retour de mission, testé positif après son arrivée à Paris.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T13:09:20+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/24/ebola-premier-cas-detecte-en-france/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/24/ebola-premier-cas-detecte-en-france/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5c7a56482a",
-      "title": "France confirms first ever case of Ebola in doctor returning from DRC",
-      "summary": "France on Wednesday announced its first confirmed case of Ebola identified on its territory, a doctor back from the Democratic Republic of the Congo, which is fighting a major outbreak.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T13:06:09+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/24/france-confirms-first-ever-case-of-ebola-in-doctor-returning-from-drc/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/24/france-confirms-first-ever-case-of-ebola-in-doctor-returning-from-drc/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "76460ff309",
       "title": "En Guinée, un ex-gouverneur de la Banque centrale condamné à cinq ans de prison ferme",
       "summary": "Reconnu coupable de « détournement de deniers publics » et « blanchiment de capitaux », Ibrahima Chérif Bah se trouve à l’étranger pour suivre des soins médicaux. Un mandat d’arrêt a été lancé.",
@@ -2207,36 +1998,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260623-mondial-2026-apr%C3%A8s-sa-d%C3%A9faite-2-3-face-%C3%A0-la-norv%C3%A8ge-le-s%C3%A9n%C3%A9gal-est-au-bord-de-l-%C3%A9limination"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "773f61e7c3",
-      "title": "« Maîtrisable » : derrière le slogan des supporters des Léopards, l’histoire d’un procès politique en RDC",
-      "summary": "Le match nul de la RDC contre le Portugal à la Coupe du monde de football a été célébré sur la toile avec le surnom de l’opposant Parole Kamizelo, emprisonné pour offense au chef de l’État.",
-      "country": "COD",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T19:32:23+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1806465/politique/maitrisable-derriere-le-slogan-des-supporters-des-leopards-lhistoire-dun-proces-politique-en-rdc/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1806465/politique/maitrisable-derriere-le-slogan-des-supporters-des-leopards-lhistoire-dun-proces-politique-en-rdc/"
         }
       ],
       "confirmation_count": 1
@@ -2392,6 +2153,156 @@
       "confirmation_count": 1
     },
     {
+      "id": "a25e06c4fc",
+      "title": "NTSA to Announce Timelines for Reflectorised Stop-Sign Arms, Telematics for School Buses",
+      "summary": "[Capital FM] Nairobi -- The National Transport and Safety Authority (NTSA) has said it will communicate enforcement timelines for mandatory reflectorised stop-sign arms and telematics systems required under the Traffic (School Transport) Rules, 2026.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T16:20:40+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260508.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260508.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c13de32ed0",
+      "title": "Pourquoi le Gabon enterre son accord de pêche avec l’Union européenne",
+      "summary": "Initialement signé en 2007, l’accord de partenariat de pêche durable permet aux navires européens de sillonner les eaux gabonaises. Il est perçu par Brice Clotaire Oligui Nguema comme « profondément déséquilibré ».",
+      "country": "GAB",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T16:14:49+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1807586/economie-entreprises/pourquoi-le-gabon-enterre-son-accord-de-peche-avec-lunion-europeenne/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1807586/economie-entreprises/pourquoi-le-gabon-enterre-son-accord-de-peche-avec-lunion-europeenne/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "283f87a35b",
+      "title": "Govt to Ease Airlines Restrictions to Boost Tourist Arrivals to 5mn",
+      "summary": "[Capital FM] Nairobi -- The government plans to ease restrictions on airlines and increase flight frequencies into Kenya as part of efforts to raise annual tourist arrivals from 2.7 million to 5 million by 2028.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T15:47:10+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260478.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260478.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c1a45ef82e",
+      "title": "La RDC saisit la CIJ contre le Rwanda pour son rôle dans le conflit contre le M23",
+      "summary": "La République démocratique du Congo a saisi la Cour internationale de justice (CIJ) d’une plainte contre le Rwanda concernant le rôle de ce dernier dans le conflit qui sévit depuis longtemps dans l’est du pays, a annoncé vendredi.",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T15:28:57+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/26/la-rdc-saisit-la-cij-contre-le-rwanda-pour-son-role-dans-le-conflit-contre-le-m23/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/26/la-rdc-saisit-la-cij-contre-le-rwanda-pour-son-role-dans-le-conflit-contre-le-m23/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6c00aa16d3",
+      "title": "As drug use increases in Burundi, a centre helps addicts recover",
+      "summary": "Strong Bridge centre in Bujumbura has helped hundreds of young people recover since it opened its doors in 2021.",
+      "country": "BDI",
+      "category": "INFRASTRUCTURE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T15:07:35+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/26/as-drug-use-increases-in-burundi-a-centre-helps-addicts-recover/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/26/as-drug-use-increases-in-burundi-a-centre-helps-addicts-recover/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "89de228d71",
       "title": "Changement de Constitution au Togo : la Cour de justice de la Cedeao donne raison aux opposants",
       "summary": "La Cour de justice de la Cedeao a qualifié la réforme constitutionnelle togolaise de 2024 de « changement anticonstitutionnel de gouvernement ». Une victoire symbolique pour l’opposition, malgré l’absence de moyens coercitifs de l’instance.",
@@ -2422,6 +2333,66 @@
       "confirmation_count": 1
     },
     {
+      "id": "d8199146df",
+      "title": "Est de la RDC: pourquoi les États-Unis sanctionnent une raffinerie d'or installée au Rwanda",
+      "summary": "Le Trésor américain a annoncé le 25 juin 2026 des sanctions à l'encontre d'un réseau rwandais spécialisé dans les minerais, en lien avec le groupe AFC/M23. Réseau accusé de trafic illégal depuis l'est de la RDC vers le Rwanda. « Les États-Unis ne permettront pas à des groupes malhonnêtes de profiter du commerce illicite des minerais et de déstabiliser la région », a fait savoir le secrétaire américain du Trésor, Scott Bessent. Détails.",
+      "country": "COD",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": "AML_CFT",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-26T13:27:52+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260626-est-de-la-rdc-pourquoi-les-%C3%A9tats-unis-sanctionnent-une-raffinerie-d-or-install%C3%A9e-au-rwanda"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260626-est-de-la-rdc-pourquoi-les-%C3%A9tats-unis-sanctionnent-une-raffinerie-d-or-install%C3%A9e-au-rwanda"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a741342f33",
+      "title": "Huit ans après, le Maroc revient au fuseau GMT et supprime l'heure d'été",
+      "summary": "Le Maroc mettra fin, le 20 septembre à 02h00, à l’usage permanent de GMT+1 instauré en 2018, pour revenir définitivement à l’heure de Greenwich (GMT), selon une décision entérinée en Conseil de gouvernement et annoncée par le chef de l’exécutif Aziz Akhannouch.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T12:40:27+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/26/maroc-retour-a-lheure-gmt-apres-huit-ans-de-gmt1/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/26/maroc-retour-a-lheure-gmt-apres-huit-ans-de-gmt1/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d9548c7056",
       "title": "Nigéria : le Sénat approuve un projet de réforme majeur de la police",
       "summary": "Le Sénat nigérian a approuvé un projet de loi visant à permettre aux États de créer leurs propres forces de police. Après son adoption par la Chambre basse, plus tôt ce mois-ci, cette réforme de la sécurité pourrait constituer un changement d’une portée considérable.",
@@ -2447,36 +2418,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/06/25/nigeria-le-senat-approuve-un-projet-de-reforme-majeur-de-la-police/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b537be82dc",
-      "title": "Maroc : retour à l’heure GMT après huit ans de GMT+1",
-      "summary": "Le Maroc mettra fin, le 20 septembre à 02h00, à l’usage permanent de GMT+1 instauré en 2018, pour revenir définitivement à l’heure de Greenwich (GMT), selon une décision entérinée en Conseil de gouvernement et annoncée par le chef de l’exécutif Aziz Akhannouch.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T12:26:08+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/26/maroc-retour-a-lheure-gmt-apres-huit-ans-de-gmt1/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/26/maroc-retour-a-lheure-gmt-apres-huit-ans-de-gmt1/"
         }
       ],
       "confirmation_count": 1
@@ -3106,36 +3047,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1d8784fd85",
-      "title": "Le Kenya signe avec une entreprise chinoise pour l'aéroport de Nairobi",
-      "summary": "Le Kenya signe un accord d'une valeur de 154,2 milliards de shillings kényans (soit 1,2 milliard de dollars) avec une entreprise chinoise pour agrandir l'aéroport de Nairobi.",
-      "country": "KEN",
-      "category": "INFRASTRUCTURE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T13:21:28+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/24/kenya-un-accord-signe-avec-une-entreprise-chinoise-pour-laeroport-de-nairobi/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/24/kenya-un-accord-signe-avec-une-entreprise-chinoise-pour-laeroport-de-nairobi/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "c820c780be",
       "title": "NSIA Banque to Distribute $34m to Shareholders After Profit Growth",
       "summary": "[Daba Finance] NSIA Banque Côte d'Ivoire (BRVM: NSBC) plans to distribute CFA19 billion ($33.5 million) in dividends for 2025 after reporting higher profit and continued balance-sheet growth.",
@@ -3196,6 +3107,726 @@
       "confirmation_count": 1
     },
     {
+      "id": "270229fe7c",
+      "title": "Procès Zogo au Cameroun : Jean-Pierre Amougou Belinga, un accusé ménagé ou une victime d’acharnement ?",
+      "summary": "Messages effacés, téléphone introuvable, données non exploitées : les expertises numériques autour de Jean-Pierre Amougou Belinga alimentent la controverse au procès Martinez Zogo. Les parties s’affrontent sur la conduite des investigations.",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T18:09:56+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1807346/politique/proces-zogo-au-cameroun-jean-pierre-amougou-belinga-un-accuse-menage-ou-une-victime-dacharnement/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1807346/politique/proces-zogo-au-cameroun-jean-pierre-amougou-belinga-un-accuse-menage-ou-une-victime-dacharnement/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4ce42391b4",
+      "title": "RDC-Rwanda : un an après, quel bilan pour l’accord de paix de Donald Trump ?",
+      "summary": "Un an après la signature d’un accord de paix par les ministres des Affaires étrangères de la RDC et du Rwanda, les avancées sur les fronts militaire et économique restent maigres, malgré un regain de pression américaine sur Kigali.",
+      "country": "COD",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T17:29:18+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1807363/politique/rdc-rwanda-un-an-apres-quel-bilan-pour-laccord-de-paix-de-donald-trump/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1807363/politique/rdc-rwanda-un-an-apres-quel-bilan-pour-laccord-de-paix-de-donald-trump/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "76f0df4d73",
+      "title": "Vocal Africa Alleges Five Activists Missing After Arrest During Gen Z Protest",
+      "summary": "[Capital FM] Nairobi -- Human rights organisation Vocal Africa has claimed that five activists arrested outside Parliament during Thursday's Gen Z anniversary protests have disappeared, despite the release of more than 200 other demonstrators following court proceedings.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T16:23:26+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260511.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260511.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3d1543171b",
+      "title": "RD Congo : des chefs réinventent la gastronomie traditionnelle",
+      "summary": "Dans la capitale Kinshasa, une nouvelle génération de chefs s'approprie les recettes traditionnelles de la République démocratique du Congo. Dans ce pays de plus de 110 millions d’habitants, la haute gastronomie peine encore à émerger.",
+      "country": "COD",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T16:23:17+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260626-rd-congo-des-chefs-r%C3%A9inventent-la-gastronomie-traditionnelle"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260626-rd-congo-des-chefs-r%C3%A9inventent-la-gastronomie-traditionnelle"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b81e945a82",
+      "title": "NTSA Directs Owners of Vehicles Older Than 4 Years to Book Annual Inspections From July 1",
+      "summary": "[Capital FM] Nairobi -- The National Transport and Safety Authority (NTSA) has directed owners of motor vehicles older than four years from their recorded date of manufacture to book annual inspections from July 1, as part of a broader road safety compliance regime.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-26T16:21:34+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260509.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260509.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "90f084a0f2",
+      "title": "DPP Closes Case in Sh8.2bn Meth Bust As Six Iranians Await Fate in Landmark Drug Trafficking Trial",
+      "summary": "[Capital FM] Nairobi -- The Office of the Director of Public Prosecutions (DPP) has closed its case against six Iranian nationals accused of trafficking more than one tonne of methamphetamine worth Sh8.2 billion, paving the way for the court to determine whether they have a case to answer.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T16:13:04+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260496.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260496.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "87e264aed3",
+      "title": "PDP Backs State Police, Warns Against Political Interference",
+      "summary": "[Vanguard] The Peoples Democratic Party, PDP, on Friday backed the proposed establishment of state police, warning that political considerations must not be allowed to undermine efforts to strengthen national security.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T16:08:08+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260494.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260494.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c3196da018",
+      "title": "President Tinubu Approves National Health Technology and Data Analytics Office, Appoints Obi Adigwe National Coordinator",
+      "summary": "[State Department] President Bola Tinubu has approved the establishment of the National Health Technology and Data Analytics Office (NHTDAO) and appointed Dr Obi Adigwe as the pioneer National Coordinator.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T16:07:29+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260493.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260493.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1a1ab21828",
+      "title": "Ready for Kickoff! Western Region to Host Opening Leg of Chapa Dimba Season Five",
+      "summary": "[Capital FM] NAIROBI -- The fifth edition of Safaricom Chapa Dimba gets underway on Saturday, June 27, with grassroots matches across the Western region, marking the start of another exciting season of Kenya's premier youth football tournament.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T16:03:52+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260489.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260489.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "69455d6202",
+      "title": "Court Sets Aside Judgment Recognising NDC As Political Party",
+      "summary": "[Vanguard] A Federal High Court sitting in Lokoja has set aside its earlier judgment directing the Independent National Electoral Commission (INEC) to register the Nigeria Democratic Congress (NDC) as a political party, effectively nullifying all actions taken pursuant to the ruling.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T15:58:15+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260485.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260485.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d875360f77",
+      "title": "Court Issues Arrest Warrant Against Former Nedp Official Over Sh2mn Fraud Case",
+      "summary": "[Capital FM] Nairobi -- A Kibera court has issued a warrant of arrest against former National Economic Development Party (NEDP) Executive Director Daniel Mokua Onsomu after he repeatedly failed to appear in court to face fraud charges involving more than Sh2 million.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T15:46:10+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260477.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260477.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3e05568fa4",
+      "title": "Four men held over child marriage in Sierra Leone appear in landmark court case",
+      "summary": "It relates to a 17-year-old girl - four men including her father and husband face years in jail if convicted.",
+      "country": "SLE",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T15:34:39+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/c9q212y8p21o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c9q212y8p21o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2bbb92a969",
+      "title": "Les roches rouges recèlent des minerais très convoités en RDC",
+      "summary": "Dans les vastes entrepôts de la mine de cuivre de Kamoa, dans le sud-est de la République démocratique du Congo, des montagnes de roches rougeâtres s’empilent tandis que les machines tournent jour et nuit.",
+      "country": "COD",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T15:03:14+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/26/les-roches-rouges-recelent-des-minerais-tres-convoites-en-rdc/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/26/les-roches-rouges-recelent-des-minerais-tres-convoites-en-rdc/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3033dee4a6",
+      "title": "Mali : Tombouctou frappée par des pénuries d'électricité, d'eau et de carburant",
+      "summary": "Plusieurs médias sur place indiquent que la centrale thermique de cette cité historique de Tombouctou est complètement à l'arrêt, empêchant le fonctionnement de la compagnie publique d'électricité, EDM, et de la société de gestion de l'eau potable, la Somagep.",
+      "country": "MLI",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T14:56:51+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/26/mali-tombouctou-frappee-par-de-graves-penuries-delectricite-deau-et-de-carburant/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/26/mali-tombouctou-frappee-par-de-graves-penuries-delectricite-deau-et-de-carburant/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b816aa8c9f",
+      "title": "Timbuktu without water or electricity as fuel shortage shuts down power station",
+      "summary": "Timbuktu has been without water or electricity for four days, according to a report by RFI. A monthlong fuel shortage has brought the Malian city’s thermal power station to a halt - shutting down basic services.",
+      "country": "MLI",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T14:49:42+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/26/timbuktu-without-water-or-electricity-as-fuel-shortage-shuts-down-power-station/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/26/timbuktu-without-water-or-electricity-as-fuel-shortage-shuts-down-power-station/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2ac826162d",
+      "title": "Morocco jails 29, including politicians and sports figures, in drug trial",
+      "summary": "Casablanca court delivers landmark verdict in 'Escobar of the Sahara' case: up to 12 years for top figures.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T14:48:38+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/6/26/morocco-jails-29-including-politicians-and-sports-figures-in-drug-trial?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/6/26/morocco-jails-29-including-politicians-and-sports-figures-in-drug-trial?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "fbd31d274d",
+      "title": "Moroccan court jails 29 in major drug trafficking case",
+      "summary": "A Moroccan court handed prison sentences to 29 people, including prominent politicians and sports and business figures, in an international drug trafficking and corruption scandal that has rocked the country.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T14:48:29+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/26/moroccan-court-jails-29-in-major-drug-trafficking-case/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/26/moroccan-court-jails-29-in-major-drug-trafficking-case/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7a72f74f38",
+      "title": "The woman leading Cameroonian cricket's 'Roger Milla' generation",
+      "summary": "Madeleine Nseke Sissako has big ambitions to make Cameroon \"one of the biggest cricket-playing nations in Africa and globally\".",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T14:16:01+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/sport/cricket/articles/cdej25546g1o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cdej25546g1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2020e0da0a",
+      "title": "Ruto Pushes for Stronger Indian Ocean Partnership As He Attends Madagascar's 66th Independence Day",
+      "summary": "[Capital FM] Nairobi -- President William Ruto joined thousands of Madagascans at Barea Stadium in Antananarivo on Thursday to mark the country's 66th Independence Day, using the occasion to reaffirm Kenya's commitment to strengthening bilateral ties anchored on shared history, trade and maritime cooperation.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T13:41:16+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260402.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260402.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "589c240335",
+      "title": "Court Clears Safaricom Stake Sale to Vodacom",
+      "summary": "[Capital FM] Nairobi -- The Court of Appeal (CoA) has lifted conservatory orders that had suspended the government's planned sale of a 15 percent stake in Safaricom to South Africa's Vodacom, allowing the transaction to proceed.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "published": "2026-06-26T13:40:50+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260401.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260401.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5e548ea59f",
+      "title": "Over 200 Youths Arrested During Gen Z Protests Freed On Bail",
+      "summary": "[Capital FM] Nairobi -- More than 200 young people arrested during Thursday's nationwide commemoration of the 2024 Gen Z protests have been released on a cash bail of Sh1,000 each, following court proceedings that also saw the unconditional release of a mother and her seven-month-old baby.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T13:40:06+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260400.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260400.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0f785a5e88",
+      "title": "United States hopes to get share of DR Congo copper production",
+      "summary": "The ore is used in many products including electronic devices like smartphones and computers, as well as electrical wiring, motors, and generators.",
+      "country": "COD",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T13:37:33+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/26/united-states-hopes-to-get-share-of-dr-congo-copper-production/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/26/united-states-hopes-to-get-share-of-dr-congo-copper-production/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3b651b4a37",
+      "title": "ODM Thanks Kenyans for Peaceful June 25 Commemorations",
+      "summary": "[Capital FM] Nairobi -- The Orange Democratic Movement (ODM) has praised Kenyans for conducting peaceful June 25 anniversary commemorations, saying the restraint shown by demonstrators reflected the country's democratic maturity.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T13:37:31+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260397.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260397.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c2fbe69fa4",
+      "title": "Muhia's Lawyers Walk Out of IEBC Code of Conduct Hearing Over Jurisdiction Dispute",
+      "summary": "[Capital FM] Nairobi -- Lawyers representing Kipipiri MP Wanjiku Muhia on Friday stormed out of an Independent Electoral and Boundaries Commission (IEBC) Electoral Code of Conduct Enforcement Committee hearing, accusing the panel of bias, procedural unfairness and pursuing a predetermined outcome against their client.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T13:37:15+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606260396.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606260396.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "c652205482",
       "title": "Abdoulaye Ndiaye : « Le vrai défi pour l’Afrique n’est pas la dette, mais l’emploi »",
       "summary": "Crise de la dette, financement du développement, emploi des jeunes et révolution de l’intelligence artificielle… Pour l’économiste sénégalais Abdoulaye Ndiaye, l’Afrique doit revoir en profondeur son modèle de croissance et mieux exploiter ses marges de manœuvre internes.",
@@ -3251,6 +3882,36 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/c9d268xy90xo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1a3730a854",
+      "title": "Afrique du Sud : des prisons s'ouvrent à l'art pour briser le cycle de la récidive",
+      "summary": "Dans un établissement pénitentiaire de Johannesburg, les autorités sud-africaines misent sur l’art et la réflexion personnelle pour favoriser la réinsertion des détenus",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T12:50:32+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/25/en-afrique-du-sud-des-prisons-souvrent-a-lart-pour-briser-le-cycle-de-la-recidive/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/25/en-afrique-du-sud-des-prisons-souvrent-a-lart-pour-briser-le-cycle-de-la-recidive/"
         }
       ],
       "confirmation_count": 1
@@ -4426,306 +5087,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2d83f0ca3b",
-      "title": "Nigeria Must Be Secure, Stable Before Leading Africa, Says Foreign Affairs Minister",
-      "summary": "[Vanguard] ABUJA -- Minister of State for Foreign Affairs, Sola Enikanolaiye, has said Nigeria must first strengthen its economy, security and internal stability before it can effectively reclaim its leadership role in Africa and project greater influence on the global stage.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:53+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260078.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260078.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2ad3ace5fe",
-      "title": "Heavy Police Presence, Barbed Wire Deployed Around Parliament Ahead of Gen Z Memorial Protests",
-      "summary": "[Capital FM] Nairobi -- Security agencies on Thursday intensified operations around Parliament Buildings with heavy police deployment and barbed wire barricades mounted ahead of the planned Gen Z memorial protests.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:47+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260066.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260066.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5e6ab26f96",
-      "title": "Transport Paralysed As Police Mount Roadblocks Across Nairobi Ahead of Gen Z Anniversary Protests",
-      "summary": "[Capital FM] Nairobi -- Transport operations across Nairobi were Thursday morning severely disrupted after police mounted heavy roadblocks and security checkpoints on major roads leading into the Central Business District (CBD) ahead of planned Gen Z memorial protests.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:47+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260067.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260067.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e033540aac",
-      "title": "Nairobi Falls Quiet As Kenya Marks Second Anniversary of Gen Z Protests",
-      "summary": "[Capital FM] Nairobi -- Nairobi's usually bustling Central Business District (CBD) was unusually quiet on Thursday as Kenya marked the second anniversary of the June 25, 2024 Gen Z protests.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:42+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260056.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260056.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9468758623",
-      "title": "Ruto Aims Fresh Salvos At Standard, Accuses Moi of Exploiting Unpaid Workers",
-      "summary": "[Capital FM] Nairobi -- President William Ruto on Thursday escalated his confrontation with the Standard Group by invoking the company's widely reported salary arrears, hours after the publisher publicly challenged his accusations of \"extortionist propaganda\" and defended its role as a media watchdog.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:41+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260055.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260055.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "30f5fe516f",
-      "title": "Murkomen Hails Peaceful June 25 Protests As a 'Testament to Maturity'",
-      "summary": "[Capital FM] Nairobi -- Interior Cabinet Secretary Kipchumba Murkomen has hailed the largely peaceful conduct of demonstrations marking the second anniversary of the June 25, 2024 Gen Z protests, saying security agencies successfully prevented criminal elements from disrupting commemorative events held across the country.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:40+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260052.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260052.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2d791a8d7c",
-      "title": "Murkomen Declares June 25 Protests a 'Complete Failure of Political Scavengers'",
-      "summary": "[Capital FM] Nairobi -- Interior Cabinet Secretary Kipchumba Murkomen has described the June 25 Gen Z anniversary demonstrations as a \"complete failure of political scavengers\", arguing that attempts by politicians to turn the commemorations into a nationwide anti-government mobilisation failed to gain traction.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:40+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260053.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260053.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "523da1ab99",
-      "title": "Murkomen Reports 355 Arrests, Hails Peaceful June 25 Demonstrations",
-      "summary": "[Capital FM] Nairobi -- Interior Cabinet Secretary Kipchumba Murkomen has reported 355 arrests during Thursday's June 25 Gen Z anniversary demonstrations, saying security agencies successfully thwarted attempts by criminal elements to infiltrate largely peaceful protests across the country.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:39+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260051.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260051.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a529a6a058",
-      "title": "Murkomen Defends Plain-Clothes Officers, Says DCI Operatives Monitored Protests From Within",
-      "summary": "[Capital FM] Nairobi -- Interior Cabinet Secretary Kipchumba Murkomen has defended the deployment of plain-clothes police officers and undercover investigators during the June 25 Gen Z memorial protests, revealing that DCI agents were embedded among demonstrators as part of a nationwide surveillance operation.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:38+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260050.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260050.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ff467c3877",
-      "title": "Another Batch of Nigerian Returnees From South Africa Arrive",
-      "summary": "[This Day] The federal government has brought another batch of Nigerians from South Africa.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T04:09:21+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606260018.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606260018.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0f4bcd54ce",
       "title": "La Côte d'Ivoire intègre la liste des pays à faible risque de surendettement",
       "summary": "La Côte d’Ivoire est désormais classée parmi les pays à faible risque de surendettement, selon le ministère ivoirien de l’Économie et des Finances. Le pays devient ainsi le seul de la région à bénéficier de cette évaluation, tant pour sa dette extérieure que pour l’ensemble de sa dette publique. Derrière cette décision se cachent plusieurs indicateurs économiques et budgétaires jugés favorables.",
@@ -4846,8 +5207,38 @@
       "confirmation_count": 1
     },
     {
-      "id": "4629429b6f",
-      "title": "Trafic de drogue au Maroc : deux personnalités condamnées dans le dossier \"Escobar du Sahara\"",
+      "id": "a722bcbb85",
+      "title": "'We could call it racist' - Ivory Coast boss sad at Schweinsteiger comments",
+      "summary": "Ivory Coast boss Emerse Fae says comments from ex-Germany midfielder Bastian Schweinsteiger about their \"wild\" playing style could be considered racist.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-26T00:21:34+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/sport/football/articles/cx2x0ev2deqo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/sport/football/articles/cx2x0ev2deqo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e7006bea63",
+      "title": "Trafic de drogue : deux personnalités condamnées au Maroc dans l'affaire \"Escobar\"",
       "summary": "Après deux ans de procès, la justice marocaine a condamné jeudi deux personnalités du pays à 10 et 12 ans de prison dans l’affaire dite de l’\"Escobar du Sahara\", un vaste dossier de trafic de drogue déclenché par les révélations d’un narcotrafiquant malien.",
       "country": "MAR",
       "category": "AUTRE",
@@ -5146,36 +5537,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f42c525fa5",
-      "title": "En Afrique du Sud, des prisons s'ouvrent à l'art pour briser le cycle de la récidive",
-      "summary": "Dans un établissement pénitentiaire de Johannesburg, les autorités sud-africaines misent sur l’art et la réflexion personnelle pour favoriser la réinsertion des détenus",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T14:51:08+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/25/en-afrique-du-sud-des-prisons-souvrent-a-lart-pour-briser-le-cycle-de-la-recidive/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/25/en-afrique-du-sud-des-prisons-souvrent-a-lart-pour-briser-le-cycle-de-la-recidive/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "bcc8d6a413",
       "title": "Secrétariat général de l’ONU : de Paris à Beijing, Macky Sall poursuit sa campagne au pas de charge",
       "summary": "Accompagné par l’ex-président bissau-guinéen Umaro Sissoco Embaló, Macky Sall relance en Asie sa campagne pour le poste de secrétaire général de l’organisation multilatérale.",
@@ -5231,66 +5592,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/06/25/lack-of-basic-services-leads-south-africans-to-look-beyond-traditional-party-allegiance/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a37a90f836",
-      "title": "Kenyan Senator Abdul Haji Did Not Approve Ebola Facility in Garissa for US Citizens",
-      "summary": "[Africa Check] IN SHORT: A document posted on Facebook claims that the senator for Garissa, Abdul Haji, approved an Ebola quarantine facility in the county for US citizens. He has dismissed the document as fake.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T12:55:07+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606250514.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606250514.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "122cc08fe8",
-      "title": "No Evidence Tanzanian President Samia Suluhu Hassan Offered to Host Kenya's Proposed Ebola Facility",
-      "summary": "[Africa Check] IN SHORT: Social media posts claim Hassan offered to host a proposed and highly controversial US-linked Ebola quarantine facility if Kenya declined. But there is no evidence she ever made such a statement.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T12:52:35+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606250506.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606250506.html"
         }
       ],
       "confirmation_count": 1
@@ -5626,66 +5927,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7e4f6e8e8c",
-      "title": "Libye : le gouvernement de l'Est interdit à l'entrée aux citoyens de 4 pays de la Corne de l'Afrique",
-      "summary": "Les citoyens du Soudan, d’Érythrée, d’Éthiopie et de Somalie ne pourront plus emprunter les points d’entrée terrestres, maritimes et aériens pour pénétrer sur le sol libyen.",
-      "country": "ETH",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T09:36:36+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/24/libye-le-gouvernement-de-lest-interdit-a-des-ressortissants-africains-dentrer-sur-son-sol/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/24/libye-le-gouvernement-de-lest-interdit-a-des-ressortissants-africains-dentrer-sur-son-sol/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c3bab1d498",
-      "title": "Centrafrique : le procès de l'ex-président Bozizé contesté par la défense",
-      "summary": "En Centrafrique, le procès dit de Bossembélé se poursuit devant la Cour pénale spéciale. L'ancien président François Bozizé, poursuivi pour crimes contre l’humanité présumés commis entre 2009 et 2013, est jugé en son absence alors qu’il vit actuellement en exil en Guinée-Bissau.",
-      "country": "CAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T09:25:24+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/24/centrafrique-le-proces-de-lex-president-bozize-conteste-par-la-defense/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/24/centrafrique-le-proces-de-lex-president-bozize-conteste-par-la-defense/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "9985125390",
       "title": "South Africa: Leader of anti-immigrant group says marches will be peaceful",
       "summary": "March and March leader, Jacinta Ngobese-Zuma, said the government should be blamed for any potential lawlessness during 30 June nationwide protests.",
@@ -5741,36 +5982,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606250142.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e60c60a738",
-      "title": "Angola : un rival de Joao Lourenço poursuivi pour détournement de fonds",
-      "summary": "À quelques mois de l'ouverture de la bataille pour la succession du président angolais João Lourenço à la tête du parti au pouvoir, la justice a engagé des poursuites contre l'un des prétendants déclarés. Le général à la retraite Higino Carneiro est visé par une enquête pour détournement de fonds.",
-      "country": "AGO",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T08:50:05+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/24/angola-un-rival-de-joao-lourenco-poursuivi-pour-detournement-de-fonds/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/24/angola-un-rival-de-joao-lourenco-poursuivi-pour-detournement-de-fonds/"
         }
       ],
       "confirmation_count": 1
@@ -6136,96 +6347,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "4df2a49037",
-      "title": "Angola investigating former general challenging Lourenço for party leadership",
-      "summary": "Angola is investigating a former general challenging President João Lourenço for leadership of the country’s ruling MPLA.",
-      "country": "AGO",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T15:51:03+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/24/angola-investigating-former-general-challenging-lourenco-for-party-leadership/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/24/angola-investigating-former-general-challenging-lourenco-for-party-leadership/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e9b96d90a8",
-      "title": "Libya's eastern government bans entry for nationals of four countries",
-      "summary": "The decree prohibits citizens of Sudan, Eritrea, Ethiopia, and Somalia from entering through all land, sea, and air ports.",
-      "country": "ETH",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-06-24T13:49:04+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/24/libyas-eastern-government-bans-entry-for-nationals-of-four-countries/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/24/libyas-eastern-government-bans-entry-for-nationals-of-four-countries/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "56c6ebdf6e",
-      "title": "HRW says Cameroon not doing enough to combat violence against women",
-      "summary": "In a new report, it said violence against women and girls remains widespread despite repeated government promises to do something about it.",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T12:43:34+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/24/hrw-says-cameroon-not-doing-enough-to-combat-violence-against-women/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/24/hrw-says-cameroon-not-doing-enough-to-combat-violence-against-women/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0d734644a1",
       "title": "Comment Abdoul Karim Diallo transforme le guinéen Sonoco en géant industriel africain",
       "summary": "De la minoterie à l’aviculture, le groupe guinéen Sonoco multiplie les paris industriels en Afrique de l’Ouest. Son directeur général, Abdoul Karim Diallo, entend faire de ce conglomérat familial un acteur régional de premier plan.",
@@ -6251,66 +6372,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1806630/economie-entreprises/comment-abdoul-karim-diallo-transforme-le-guineen-sonoco-en-geant-industriel-africain/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1845d4f6de",
-      "title": "Tunisie : 8 ans de prison confirmés pour la militante Saadia Mosbah",
-      "summary": "En Tunisie, la condamnation de la militante antiraciste Saadia Mosbah, 66 ans, a été confirmée mardi 23 juin lors d’un nouveau procès à Tunis. Figure emblématique de la défense des migrants et des communautés noires, elle écope de huit ans de prison pour des accusations de malversations financières.",
-      "country": "TUN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T11:38:50+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/06/24/tunisie-huit-ans-de-prison-confirmes-pour-la-militante-saadia-mosbah/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/24/tunisie-huit-ans-de-prison-confirmes-pour-la-militante-saadia-mosbah/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c8ae9d8324",
-      "title": "Brice Clotaire Oligui Nguema : « La meilleure garantie contre l’hubris, c’est la mémoire. Je n’oublie pas d’où je viens… »",
-      "summary": "Premier bilan, ambitions pour le Gabon, Ali Bongo Ondimba et sa famille, ses relations avec Emmanuel Macron ou Donald Trump, la dette, l’exercice du pouvoir… Un an après son investiture, le chef de l’État s’est confié à Jeune Afrique.",
-      "country": "GAB",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-24T08:00:03+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1802458/politique/brice-clotaire-oligui-nguema-la-meilleure-garantie-contre-lhubris-cest-la-memoire-je-noublie-pas-dou-je-viens/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1802458/politique/brice-clotaire-oligui-nguema-la-meilleure-garantie-contre-lhubris-cest-la-memoire-je-noublie-pas-dou-je-viens/"
         }
       ],
       "confirmation_count": 1
@@ -6436,66 +6497,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c23e3c469f",
-      "title": "Maroc : qui sont les nouveaux visages de la CGEM ?",
-      "summary": "Élu à la tête de la CGEM en mai, le président d’Ask Capital, Mehdi Tazi, a installé de nouvelles équipes où se côtoient Moncef Belkhayat, Soukaina Akhannouch ou encore Majid Iraqi.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T19:34:06+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1806645/economie-entreprises/maroc-qui-sont-les-nouveaux-visages-de-la-cgem/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1806645/economie-entreprises/maroc-qui-sont-les-nouveaux-visages-de-la-cgem/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2d7b9f6e0e",
-      "title": "Une nouvelle génération de chefs réinvente la gastronomie traditionnelle de la RD Congo",
-      "summary": "À Kinshasa, de jeunes chefs s’attachent à valoriser le patrimoine culinaire de la République démocratique du Congo en revisitant les recettes traditionnelles avec les codes de la haute gastronomie, tout en surmontant les difficultés d’approvisionnement et le coût élevé de l’activité.",
-      "country": "COD",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T11:47:29+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260623-en-rdc-une-nouvelle-g%C3%A9n%C3%A9ration-de-chefs-r%C3%A9invente-la-gastronomie-traditionnelle"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260623-en-rdc-une-nouvelle-g%C3%A9n%C3%A9ration-de-chefs-r%C3%A9invente-la-gastronomie-traditionnelle"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "95ff38ba58",
       "title": "Ivory Coast Coach Takes Swipe At Germany",
       "summary": "[New Era] Ivory Coast coach Emerse Faé has said Germany lacked fair play in their World Cup match on Saturday.",
@@ -6551,36 +6552,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/sport/football/articles/cz6v0jn8368o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cec4e95a65",
-      "title": "Mondial 2026 : Norvège (3-2) Sénégal, les supporters sénégalais entre déception et espoir",
-      "summary": "Battu 3-2 par la Norvège, le Sénégal voit ses chances de qualification se compliquer. À Dakar, les supporters sont partagés entre déception et espoir. Malgré le revers, beaucoup continuent de croire aux Lions pour la suite de la compétition.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-23T05:20:25+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260623-mondial-2026-norv%C3%A8ge-3-2-s%C3%A9n%C3%A9gal-les-supporters-s%C3%A9n%C3%A9galais-entre-d%C3%A9ception-et-espoir"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260623-mondial-2026-norv%C3%A8ge-3-2-s%C3%A9n%C3%A9gal-les-supporters-s%C3%A9n%C3%A9galais-entre-d%C3%A9ception-et-espoir"
         }
       ],
       "confirmation_count": 1
