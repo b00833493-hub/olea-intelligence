@@ -1,38 +1,39 @@
 {
-  "generated_at": "2026-06-30T04:33:17.180904+00:00",
+  "generated_at": "2026-06-30T08:37:15.821916+00:00",
   "stats": {
-    "total_signals": 243,
+    "total_signals": 250,
     "verified_signals": 7,
-    "countries_covered": 28,
+    "countries_covered": 29,
     "sources_active": 16,
     "per_country": {
-      "ZAF": 29,
-      "COD": 13,
-      "GHA": 5,
-      "MLI": 8,
+      "ZAF": 28,
+      "COD": 15,
+      "NER": 1,
       "NGA": 32,
-      "CIV": 17,
+      "GIN": 4,
+      "GHA": 6,
+      "MLI": 9,
       "KEN": 38,
       "BFA": 3,
       "SEN": 28,
+      "MAR": 21,
       "TUN": 5,
       "CAF": 2,
-      "GIN": 4,
       "MOZ": 1,
       "MDG": 1,
-      "RWA": 8,
+      "RWA": 7,
       "SLE": 2,
       "ETH": 1,
-      "TGO": 3,
+      "TGO": 2,
       "BDI": 2,
       "MRT": 3,
-      "GAB": 5,
-      "MAR": 16,
+      "GAB": 3,
+      "CIV": 19,
+      "COG": 3,
       "ZWE": 1,
-      "DZA": 4,
+      "DZA": 3,
       "UGA": 5,
-      "CMR": 5,
-      "COG": 1,
+      "CMR": 4,
       "BEN": 1
     }
   },
@@ -136,9 +137,159 @@
   ],
   "signals": [
     {
+      "id": "37bbc85c72",
+      "title": "Heavy security deployed in South Africa ahead of anti-migrant protests",
+      "summary": "Thousands of people have left South Africa ahead of Tuesday's deadline set by anti-migrant groups.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T08:10:00+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cf34faf2b5",
+      "title": "DR Congo says 1,307 Ebola cases confirmed, including 377 deaths",
+      "summary": "Outbreak spreads to a fourth province, Haut-Uele, bordering South Sudan and the CAR, according to a media report.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T07:32:54+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/6/30/dr-congo-says-1307-ebola-cases-confirmed-including-377-deaths?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/6/30/dr-congo-says-1307-ebola-cases-confirmed-including-377-deaths?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c0ec98a1d5",
+      "title": "Niger : d’Issoufou à Tiani, la guerre perdue face aux jihadistes",
+      "summary": "En décembre 2019, la garnison nigérienne d’Inates essuyait une attaque jihadiste, qui se soldait par la mort de plusieurs dizaines de militaires. À la mi-juin 2026, le scénario s’est répété, au même endroit. Récit de ces échecs en série.",
+      "country": "NER",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T07:00:00+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1807870/politique/niger-dissoufou-a-tiani-la-guerre-perdue-face-aux-jihadistes/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1807870/politique/niger-dissoufou-a-tiani-la-guerre-perdue-face-aux-jihadistes/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "072ac142ef",
+      "title": "Special Report - Inside Details of Farmer-Herder Clashes in Abuja Community",
+      "summary": "[Premium Times] Interviews with community leaders, farmers, herders, security officials, and victims' families indicate that the crisis in Gurfata did not begin with killing but with disputes over land use and access between farmers and herders.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:41:45+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300114.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300114.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0053bb41c4",
+      "title": "Guinée: fin des plaidoiries dans le deuxième volet du procès du 28-Septembre 2009",
+      "summary": "En Guinée, suite et fin du procès des événements du 28 septembre 2009 en Guinée. Il s'agit du deuxième volet de ce procès. Le premier volet ayant été terminé en 2024 avec la condamnation de Moussa Dadis Camara pour crimes contre l'humanité. Pour rappel, des militaires membres de la junte dirigée par Moussa Dadis Camara avaient massacré au moins 156 opposants et violés au moins 109 femmes dans le stade de Conakry.",
+      "country": "GIN",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T04:47:51+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260630-guin%C3%A9e-fin-des-plaidoiries-dans-le-deuxi%C3%A8me-volet-du-proc%C3%A8s-du-28-septembre-2009"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260630-guin%C3%A9e-fin-des-plaidoiries-dans-le-deuxi%C3%A8me-volet-du-proc%C3%A8s-du-28-septembre-2009"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "507f3a50a7",
       "title": "Afrique du Sud: l'ultimatum des manifestants anti-immigration expire dans un climat de peur généralisée",
-      "summary": "L'Afrique du Sud se prépare à une journée sous haute tension, ce mardi 30 juin 2026, date butoir fixée en dehors de tout cadre légal par plusieurs organisations anti-immigration aux immigrés sans-papiers pour qu'ils quittent le pays. Alors que cette vague xénophobe qui touche l'Afrique du Sud a déjà fait quatre morts et 25 000 déplacés ces dernières semaines selon les autorités, ces dernières craignent de nouveaux débordements à l'occasion des nombreux rassemblements…",
+      "summary": "L'Afrique du Sud se prépare à une journée sous haute tension, ce mardi 30 juin, date butoir fixée en dehors de tout cadre légal par plusieurs organisations anti-immigration aux immigrés sans-papiers pour qu'ils quittent le pays. Alors que cette vague xénophobe qui touche l'Afrique du Sud a déjà fait quatre morts et 25 000 déplacés ces dernières semaines selon les autorités, ces dernières craignent de nouveaux débordements à l'occasion des nombreux rassemblements.",
       "country": "ZAF",
       "category": "CLIMAT",
       "severity": 4,
@@ -161,66 +312,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260630-afrique-du-sud-l-ultimatum-des-manifestants-anti-immigration-expire-dans-un-climat-de-peur-g%C3%A9n%C3%A9ralis%C3%A9e"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b3f691e4d0",
-      "title": "Fear grows in Johannesburg market as anti-migrant ‘deadline’ looms",
-      "summary": "An unofficial June 30 deadline was set by anti-immigration groups for undocumented migrants to leave South Africa.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-30T02:30:26+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/fear-grows-in-johannesburg-market-as-anti-migrant-deadline-looms?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/fear-grows-in-johannesburg-market-as-anti-migrant-deadline-looms?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "30a5c2ee5c",
-      "title": "Migrants in South Africa fear violence ahead of June 30 deadline",
-      "summary": "An anti-immigrant June 30 deadline not recognised by authorities is fuelling fear among migrants.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-30T00:02:08+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/6/30/migrants-in-south-africa-fear-violence-ahead-of-june-30-deadline?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/6/30/migrants-in-south-africa-fear-violence-ahead-of-june-30-deadline?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -251,36 +342,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1807890/politique/azarias-ruberwa-en-rdc-lurgence-nest-pas-de-modifier-la-constitution-mais-de-la-respecter/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9277e7aa57",
-      "title": "South African leader warns anti-migrant protesters ahead of unofficial deadline",
-      "summary": "Thousands of people from other African countries have left South Africa ahead of Tuesday's deadline set by anti-migrant groups.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T19:16:34+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
@@ -442,96 +503,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "033df37622",
-      "title": "Ebola en RDC: près de Bunia, le difficile travail d’inhumation des victimes par la Croix-Rouge et ses volontaires",
-      "summary": "Dans l’est de la RDC, l’épidémie d’Ebola a désormais fait plus de 300 morts parmi plus de 1 200 cas confirmés. Dans la province de l'Ituri, la plus touchée, parmi les équipes dont le travail est de casser la chaîne des contaminations, il y a les volontaires de la Croix-Rouge chargés des enterrements « dignes et sécurisés » des victimes du virus ou supposées telles. Ces équipes sont souvent agressées, parfois blessées. En un mois, la Croix-Rouge déclare cependant avoir…",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T08:18:56+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260629-ebola-en-rdc-pr%C3%A8s-de-bunia-le-difficile-travail-d-inhumation-des-victimes-par-la-croix-rouge-et-ses-volontaires"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260629-ebola-en-rdc-pr%C3%A8s-de-bunia-le-difficile-travail-d-inhumation-des-victimes-par-la-croix-rouge-et-ses-volontaires"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "af52165378",
-      "title": "Xenophobia - Next Evacuation Flight Leaves South Africa Tuesday - Govt",
-      "summary": "[Vanguard] The federal government has confirmed that the next evacuation flight bringing Nigerians home from South Africa will depart on Tuesday as efforts continue to ensure the safety of citizens following fears of possible xenophobic attacks.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T08:15:50+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290142.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290142.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2983d19b58",
-      "title": "Côte d’Ivoire: à Abidjan, «on ne sait pas où aller ni comment faire» face à la saison des pluies",
-      "summary": "En Côte d’Ivoire, les fortes pluies qui s’abattent depuis plusieurs semaines sur Abidjan ravivent les inquiétudes. Dans les quartiers dits « à risque », chaque averse fait craindre de nouvelles inondations. Routes submergées, maisons envahies par les eaux : les habitants vivent au rythme des alertes météo et gardent en mémoire les catastrophes des années précédentes. Comment vit-on lorsque la pluie devient une menace permanente ? Reportage dans le quartier Jean-Folly, à…",
-      "country": "CIV",
-      "category": "CLIMAT",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T07:33:05+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260629-c%C3%B4te-d-ivoire-%C3%A0-abidjan-on-ne-sait-pas-o%C3%B9-aller-ni-comment-faire-face-%C3%A0-la-saison-des-pluies"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260629-c%C3%B4te-d-ivoire-%C3%A0-abidjan-on-ne-sait-pas-o%C3%B9-aller-ni-comment-faire-face-%C3%A0-la-saison-des-pluies"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "279ff135b1",
       "title": "Mombasa Mineral Dealers Robbed As Caretaker Found Dead in Nyali House",
       "summary": "[Capital FM] Mombasa -- Police in Nyali, Mombasa County, are investigating a suspected robbery and murder incident involving mineral dealers after the body of a caretaker was discovered inside an unoccupied house along Nyali 2nd Avenue.",
@@ -587,36 +558,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606290123.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "efe941a94c",
-      "title": "ISWAP Commanders Clash in Timbuktu Triangle, Several Fighters Feared Dead",
-      "summary": "[Leadership] Several fighters are feared to have been killed following a violent internal clash between rival commanders of the Islamic State West Africa Province (ISWAP) inside the group's stronghold in the Timbuktu Triangle, according to intelligence sources.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:17:38+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290045.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290045.html"
         }
       ],
       "confirmation_count": 1
@@ -988,6 +929,216 @@
       "confirmation_count": 1
     },
     {
+      "id": "5368766815",
+      "title": "Morocco Send Netherlands Packing As Germans Also Crash Out",
+      "summary": "[Scrolla] It was an unforgettable edition of Monday night football at the Fifa World Cup with two of the favourites falling prey to shock penalty shootout exits.",
+      "country": "MAR",
+      "category": "SINISTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T07:31:07+00:00",
+      "lead_source": {
+        "id": "aa-mar",
+        "name": "AllAfrica · Maroc",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300136.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-mar",
+          "name": "AllAfrica · Maroc",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300136.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "86ec66b8d6",
+      "title": "Two Illegal Firearms Surrendered in Narok During Govt Amnesty",
+      "summary": "[Capital FM] Nairobi -- Security agencies in Narok County have recovered two illegal firearms and several rounds of ammunition following the government's ongoing firearms amnesty campaign.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:08:45+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300101.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300101.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2a3c5f092c",
+      "title": "Did Nigeria Spend $61 Billion Supporting South Africa's Anti-Apartheid Struggle?",
+      "summary": "[Premium Times] As renewed xenophobic attacks against Nigerians in South Africa prompted the repatriation of over 250 Nigerians, claims about Nigeria's contribution to the country's anti-apartheid struggle have gained traction on social media.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:19+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300095.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300095.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b09c97b2f1",
+      "title": "Troops Rescue 10 NECO Candidates Abducted By ISWAP in Borno",
+      "summary": "[Vanguard] Troops of Operation HADIN KAI have rescued 10 of the 11 National Examinations Council (NECO) candidates and teachers abducted by suspected ISWAP terrorists during an attack on Lassa Community in Askira/Uba Local Government Area of Borno State.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:15+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300087.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300087.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "63791f750d",
+      "title": "Borno Kidnap - Parents Urge Govt to Step Up Security As NANS Laments Attack",
+      "summary": "[Vanguard] ....Army rescues some abducted students, intensifies operations",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:15+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300088.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300088.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "772cd89988",
+      "title": "Firearm Linked to Police Officer Recovered After Student's Death",
+      "summary": "[Capital FM] Nairobi -- Police in Rachuonyo North have launched investigations into the death of a 17-year-old Form Four student whose body was found with a gunshot wound at Mawego National Polytechnic.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T04:43:53+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300032.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300032.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "44a90f622f",
+      "title": "Coupe du monde 2026: le Maroc élimine les Pays-Bas aux tirs au but après un match fou",
+      "summary": "Au terme d'un match qui a tenu toutes ses promesses, le Maroc s'est imposé face aux Pays-Bas à Monterrey. Menés après l'ouverture du score de Cody Gakpo, les Lions de l'Atlas ont trouvé les ressources pour égaliser dans le temps additionnel grâce à Issa Diop, avant de décrocher leur qualification lors de la séance de tirs au but. Les hommes de Mohamed Ouahbi affronteront le Canada en huitièmes de finale.",
+      "country": "MAR",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T03:56:07+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique-foot/20260630-coupe-du-monde-2026-le-maroc-%C3%A9limine-les-pays-bas-aux-tirs-au-but-apr%C3%A8s-un-match-fou"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260630-coupe-du-monde-2026-le-maroc-%C3%A9limine-les-pays-bas-aux-tirs-au-but-apr%C3%A8s-un-match-fou"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "99cb8fa1d7",
       "title": "Senegal MPs back sweeping constitutional reform",
       "summary": "Police fired tear gas as protesters clashed with security outside Senegal's National Assembly, where lawmakers approved a major constitutional reform that would significantly reduce presidential powers.",
@@ -1013,36 +1164,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/06/29/senegal-mps-back-sweeping-constitutional-reform/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5cfce025f3",
-      "title": "Troops Foil Attempted Attack On Nipss in Plateau",
-      "summary": "[Vanguard] Security operatives have reportedly foiled an attempted intrusion into the National Institute for Policy and Strategic Studies (NIPSS), Kuru, in the Jos South Local Government Area of Plateau State.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:25:45+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290667.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290667.html"
         }
       ],
       "confirmation_count": 1
@@ -1204,66 +1325,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "e63f94a987",
-      "title": "Oyo Forest Ambush - Sunday Igboho Confirms Recovery of Injured 'Iru Ekun' Operatives",
-      "summary": "[Vanguard] Yoruba Nation advocate Sunday Adeyemo, widely known as Sunday Igboho, has confirmed that members of his private security outfit, Iru Ekun, who sustained injuries during an ambush by suspected bandits in the Old Oyo National Park, Oyo State, have fully recovered.",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T10:23:57+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290271.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290271.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f37ab0addd",
-      "title": "Centre-est du Nigeria: arrestations après le meurtre du représentant d’une association d’éleveurs",
-      "summary": "Au Nigeria, dix personnes ont été arrêtées après le meurtre du représentant de l'association des éleveurs de bétail, Miyetti Allah, dans la région de Benue, dans le centre-est du pays. Macban est la principale association d'éleveurs, à majorité peule et musulmane, du Nigeria. Elle est depuis des mois dans le viseur de certains députés américains qui accusent ses responsables de connivence avec les auteurs d'attaques contre les chrétiens, notamment dans le centre du Nigeria.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T08:29:33+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260629-centre-est-du-nigeria-arrestations-apr%C3%A8s-le-meurtre-du-repr%C3%A9sentant-d-une-association-d-%C3%A9leveurs"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260629-centre-est-du-nigeria-arrestations-apr%C3%A8s-le-meurtre-du-repr%C3%A9sentant-d-une-association-d-%C3%A9leveurs"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "226b63a11a",
       "title": "Mondial 2026 : l'Afrique du Sud sort de peu contre le Canada",
       "summary": "Le Canada bat l'Afrique du Sud 1-0 lors du premier match à élimination directe de la Coupe du monde grâce à un but tardif de Stephen Eustáquio.",
@@ -1289,66 +1350,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/06/29/mondial-2026-le-canada-bat-lafrique-du-sud-1-0-et-se-qualifie-pour-la-suite/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2eb40fa89c",
-      "title": "We Recovered the Biggest Haul of Terrorists' Equipment in Nigeria Since 9-11 - U.S.",
-      "summary": "[This Day] The United States has disclosed that the cache of seized materials from terrorists during its recent raid in Nigeria was the largest haul of enemy electronic equipment recovered since the September 11, 2001, terrorist attacks.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T07:32:16+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290135.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290135.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3797504af1",
-      "title": "DCI Intensifies Probe Into Armed Watamu Mall Attack Captured On CCTV",
-      "summary": "[Capital FM] Nairobi -- Detectives have launched a major investigation following a shocking armed attack at Watamu Mall after CCTV footage emerged showing masked gunmen carrying out a swift daytime operation in the popular tourist town.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:58:03+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290096.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290096.html"
         }
       ],
       "confirmation_count": 1
@@ -1474,43 +1475,13 @@
       "confirmation_count": 1
     },
     {
-      "id": "dabf921c64",
-      "title": "Comment le boom minier guinéen engorge le port de Conakry",
-      "summary": "Longtemps classé parmi les ports les plus performants du continent, le Port autonome de Conakry figure désormais parmi les moins bien classés au monde. En cause notamment, l’explosion des flux liés au secteur minier.",
-      "country": "GIN",
-      "category": "INFRASTRUCTURE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T13:51:02+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1807182/economie-entreprises/comment-le-boom-minier-guineen-engorge-le-port-de-conakry/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1807182/economie-entreprises/comment-le-boom-minier-guineen-engorge-le-port-de-conakry/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "52c2845541",
       "title": "Sihem Bensedrine, figure de la justice transitionnelle en Tunisie, condamnée à 25 ans de prison",
       "summary": "La militante tunisienne des droits humains Sihem Bensedrine, figure de l’opposition et ancienne présidente de l’Instance vérité et dignité, a annoncé vendredi à l’AFP avoir été condamnée à 25 ans de prison dans des affaires liées à la justice transitionnelle, qui visait à enquêter sur les exactions commises sous Bourguiba et Ben Ali.",
       "country": "TUN",
       "category": "AUTRE",
       "severity": 3,
-      "credibility": 5,
+      "credibility": 4,
       "verified": true,
       "theme": null,
       "legal_status": null,
@@ -1531,19 +1502,13 @@
           "url": "https://www.france24.com/fr/afrique/20260626-sihem-bensedrine-figure-de-la-justice-transitionnelle-en-tunisie-condamn%C3%A9e-%C3%A0-25-ans-de-prison"
         },
         {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/06/26/tunisie-la-militante-sihem-bensedrine-condamnee-a-25-ans-de-prison/"
-        },
-        {
           "id": "ja",
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1807756/politique/en-tunisie-lopposante-historique-sihem-bensedrine-condamnee-a-25-ans-de-prison/"
         }
       ],
-      "confirmation_count": 3
+      "confirmation_count": 2
     },
     {
       "id": "0001a430bd",
@@ -1636,6 +1601,222 @@
       "confirmation_count": 1
     },
     {
+      "id": "54898ae84b",
+      "title": "Afrique du Sud: «Le gouvernement n'a pas la volonté d'arrêter cette montée de xénophobie»",
+      "summary": "En Afrique du Sud, ce 30 juin est l’échéance de l'ultimatum lancé par les militants anti-immigration aux populations étrangères (principalement les ressortissants subsahariens et asiatiques en situation irrégulière) pour quitter le pays. De nombreux groupes anti-immigration illégale ont annoncé des marches dans les grandes villes sud-africaines. Des manifestations que redoutent les autorités. L'Ivoirien Marc Gbaffou, fondateur et ancien président du Forum de la diaspora…",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:54:11+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260630-afrique-du-sud-le-gouvernement-n-a-pas-cette-volont%C3%A9-d-arr%C3%AAter-cette-mont%C3%A9e-de-x%C3%A9nophobie"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260630-afrique-du-sud-le-gouvernement-n-a-pas-cette-volont%C3%A9-d-arr%C3%AAter-cette-mont%C3%A9e-de-x%C3%A9nophobie"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "144e7f2855",
+      "title": "Govt, SSANU Sign Agreement On Renegotiation",
+      "summary": "[Vanguard] The Federal Government and the Senior Staff Association of Nigerian Universities (SSANU) on Monday signed an agreement on the 2009 renegotiation.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:20+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300097.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300097.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c117c399c4",
+      "title": "Agbakoba Urges Govt to Shield Key Institutions From Executive Control",
+      "summary": "[Vanguard] ...Says state police alone won't guarantee reforms",
+      "country": "NGA",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:17+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300091.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300091.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f70f34dcfe",
+      "title": "Rwanda, Kenya Sign Deal for Petroleum Importation Through Northern Corridor",
+      "summary": "[New Times] Rwanda and Kenya have signed a memorandum of understanding (MoU) to facilitate the importation of refined petroleum products into Rwanda through the Northern Corridor transit route.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T04:59:16+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300059.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300059.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8b2b98b025",
+      "title": "Ruto, Sakaja Commission Ngong Road-Naivasha Road Flyover, Launch Sh2bn El Ni&#xF1;o Drainage Plan",
+      "summary": "[Capital FM] Nairobi -- President William Ruto and Nairobi Governor Sakaja Johnson on Monday commissioned the Ngong Road-Naivasha Road Flyover, describing the project as a major milestone in transforming the capital's transport network through the National Government-Nairobi County Cooperation Agreement.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T04:41:25+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300023.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300023.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6a9c163417",
+      "title": "Fuel Inflation Persists As Diesel Soars 86 Percent, Petrol Climbs 55 Percent, Kerosene Up 37 Percent in One Year",
+      "summary": "[This Day] Abuja -- Nigerians continued to contend with elevated energy costs in May as the prices of the country's three major fuels remained substantially higher than they were a year earlier, with diesel recording the sharpest annual increase of 86.4 per cent.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T04:35:33+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300015.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300015.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "07affe11d3",
+      "title": "Morocco beat Netherlands in dramatic World Cup shootout to reach last 16",
+      "summary": "Morocco come from behind to knock the Netherlands out in the round of 32, beating them 3-2 on penalties.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T03:57:58+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/sports/2026/6/30/morocco-netherlands-world-cup-knockout-penalty-shootout-saibari-diop-gakpo?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/sports/2026/6/30/morocco-netherlands-world-cup-knockout-penalty-shootout-saibari-diop-gakpo?traffic_source=rss"
+        },
+        {
+          "id": "aa-mar",
+          "name": "AllAfrica · Maroc",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606250097.html"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
       "id": "d70ecc31ee",
       "title": "Madagascar: la SADC hausse le ton contre les autorités de transition",
       "summary": "À l'issue d'un sommet organisé en visioconférence dans la soirée du lundi 29 juin, la Communauté de développement de l'Afrique australe a publié un communiqué dans lequel elle demande « la libération des prisonniers politiques », « la fin des arrestations arbitraires des dirigeants de l’opposition et des membres de la Génération Z », ainsi que le retour des « exilés politiques » dans le pays.",
@@ -1666,8 +1847,8 @@
       "confirmation_count": 1
     },
     {
-      "id": "2fa879ab6d",
-      "title": "Face à un ultimatum officieux anti-immigrés, plus de 25 000 personnes ont quitté l'Afrique du Sud",
+      "id": "37b39432ff",
+      "title": "Afrique du Sud : l'ultimatum officieux anti-immigrés a poussé plus de 25 000 personnes à partir",
       "summary": "Des groupes de citoyens ont lancé en Afrique du Sud un ultimatum exigeant que les étrangers sans papiers quittent le territoire avant le 30 juin, une initiative non validée par le gouvernement. Le National Joint Operational and Intelligence Structure estime, lundi, que \"plus de 25 000 ressortissants étrangers ont été rapatriés\" pour leur sécurité.",
       "country": "ZAF",
       "category": "AUTRE",
@@ -1966,36 +2147,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "a6d2e9906e",
-      "title": "76 Iswap Commanders Surrender As Military Intensifies Offensive",
-      "summary": "[Vanguard] The Joint Task Force, Operation Hadin Kai, has announced the surrender of 76 terrorists, including key commanders of the Islamic State West Africa Province (ISWAP), following intensified air and ground offensives against terrorist enclaves in the North-East.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:25:17+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290666.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290666.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "29776e4fed",
       "title": "Sénégal: l’Assemblée nationale valide une réforme de la Constitution, le gouvernement annonce un référendum",
       "summary": "Au Sénégal, 129 députés sur les 129 présents ont voté en faveur d'une réforme de la Constitution, ce 29 juin 2026 à Dakar, au terme d'une session houleuse, marquée par des manifestations aux abords de l'Assemblée nationale, par l'expulsion d'un élu de l'Alliance pour la République (APR) de l'ex-président Macky Sall qui refusait de quitter la tribune, et par le boycott du vote par des élus de l'opposition. Le ministre de la Justice a annoncé dans l’hémicycle que cette…",
@@ -2206,42 +2357,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "dafa6e82a1",
-      "title": "PFL Africa Shifts Cage to Morocco After Lagos Showdown",
-      "summary": "[New Times] The Professional Fighters League (PFL) Africa will continue its 2026 campaign later this year, as the league heads north for its next and maiden landmark event in Casablanca, Morocco on October 10.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T10:52:20+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290310.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290310.html"
-        },
-        {
-          "id": "aa-mar",
-          "name": "AllAfrica · Maroc",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290310.html"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "2fdface2e9",
       "title": "China Imports to Kenya to Cost More On Sh96,750 CMA Surchage",
       "summary": "[Capital FM] Nairobi -- Global shipping line CMA CGM will increase freight costs on cargo moving from China to East Africa from July 1.",
@@ -2314,36 +2429,6 @@
       "confirmation_count": 3
     },
     {
-      "id": "b800306fb2",
-      "title": "PS Muthoni Pushes for Tougher Tobacco Laws Amid Rise of Nicotine Products",
-      "summary": "[Capital FM] Nairobi -- Public Health and Professional Standards Principal Secretary Mary Muthoni has announced that the Ministry of Health is collecting views from Kenyans across the country ahead of proposed amendments to the Tobacco Control Act of 2007.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:57:59+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290089.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290089.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6b6dfd1808",
       "title": "Burkina Faso severs diplomatic ties with France",
       "summary": "The West African country's junta accused the former colonial power of undermining its national interests.",
@@ -2410,36 +2495,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c13de32ed0",
-      "title": "Pourquoi le Gabon enterre son accord de pêche avec l’Union européenne",
-      "summary": "Initialement signé en 2007, l’accord de partenariat de pêche durable permet aux navires européens de sillonner les eaux gabonaises. Il est perçu par Brice Clotaire Oligui Nguema comme « profondément déséquilibré ».",
-      "country": "GAB",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T16:14:49+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1807586/economie-entreprises/pourquoi-le-gabon-enterre-son-accord-de-peche-avec-lunion-europeenne/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1807586/economie-entreprises/pourquoi-le-gabon-enterre-son-accord-de-peche-avec-lunion-europeenne/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6c00aa16d3",
       "title": "As drug use increases in Burundi, a centre helps addicts recover",
       "summary": "Strong Bridge centre in Bujumbura has helped hundreds of young people recover since it opened its doors in 2021.",
@@ -2465,36 +2520,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/06/26/as-drug-use-increases-in-burundi-a-centre-helps-addicts-recover/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "89de228d71",
-      "title": "Changement de Constitution au Togo : la Cour de justice de la Cedeao donne raison aux opposants",
-      "summary": "La Cour de justice de la Cedeao a qualifié la réforme constitutionnelle togolaise de 2024 de « changement anticonstitutionnel de gouvernement ». Une victoire symbolique pour l’opposition, malgré l’absence de moyens coercitifs de l’instance.",
-      "country": "TGO",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T13:54:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1807424/politique/changement-de-constitution-au-togo-la-cour-de-justice-de-la-cedeao-donne-raison-aux-opposants/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1807424/politique/changement-de-constitution-au-togo-la-cour-de-justice-de-la-cedeao-donne-raison-aux-opposants/"
         }
       ],
       "confirmation_count": 1
@@ -2585,6 +2610,1356 @@
           "name": "AllAfrica · Côte d'Ivoire",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606250117.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "97bf1eaaec",
+      "title": "Le renouvelable, le remède africain aux chocs énergétiques ?",
+      "summary": "De l’Afrique du Sud au Maroc en passant par l’Égypte, de nombreux pays du continent accélèrent les investissements pour réduire la part des énergies fossiles dans leur mix électrique.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T08:33:20+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1805994/economie-entreprises/le-renouvelable-le-remede-africain-aux-chocs-energetiques/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1805994/economie-entreprises/le-renouvelable-le-remede-africain-aux-chocs-energetiques/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1cb47b0777",
+      "title": "Congo-Brazzaville: l'accès à l'eau potable, casse-tête dans le chef-lieu de la province la plus au nord",
+      "summary": "La Likouala (nord), le plus grand et le plus enclavé des départements du Congo, validait le 22 juin dernier son rapport d’exercice local volontaire, qui consiste à évaluer ses points forts et ses points faibles. Mais à Impfondo, son chef-lieu, avoir de l’eau potable est un casse-tête, même si l’État commence à y construire des forages. Officiellement, 40% des habitants y ont accès à l’eau potable.",
+      "country": "COG",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T08:28:39+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260630-congo-brazzaville-l-acc%C3%A8s-%C3%A0-l-eau-potable-casse-t%C3%AAte-dans-le-chef-lieu-de-la-province-la-plus-au-nord"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260630-congo-brazzaville-l-acc%C3%A8s-%C3%A0-l-eau-potable-casse-t%C3%AAte-dans-le-chef-lieu-de-la-province-la-plus-au-nord"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4816e06afe",
+      "title": "Ivory Coast vs Norway: FIFA World Cup Round of 32: Prediction, how to watch",
+      "summary": "Erling Haaland's Norway face Yan Diomande-powered Ivory Coast, as the pair clash for a place in the round of 16.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T08:28:20+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/6/30/ivory-coast-norway-fifa-world-cup-round-of-32-prediction-haaland-diomande-lineups?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/6/30/ivory-coast-norway-fifa-world-cup-round-of-32-prediction-haaland-diomande-lineups?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c552a91da8",
+      "title": "Changement de Constitution en RDC: «Aucune question d'intérêt national ne doit être confisquée», affirme le président",
+      "summary": "Dans un message à la Nation, à l’occasion du 66e anniversaire de la RDC, dans la nuit du 29 au 30 juin 2026, le président congolais est revenu notamment sur les tensions autour d’un projet de référendum constitutionnel porté par la majorité au pouvoir. « Dans une démocratie, aucune question d'intérêt national ne doit être confisquée ni interdite de réflexion », a insisté Félix Tshisekedi, alors que le chef de l’État est accusé par l’opposition de vouloir modifier le…",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T08:17:54+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260630-changement-de-constitution-en-rdc-aucune-question-d-int%C3%A9r%C3%AAt-national-ne-doit-%C3%AAtre-confisqu%C3%A9e-affirme-le-pr%C3%A9sident"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260630-changement-de-constitution-en-rdc-aucune-question-d-int%C3%A9r%C3%AAt-national-ne-doit-%C3%AAtre-confisqu%C3%A9e-affirme-le-pr%C3%A9sident"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0b8b1278e8",
+      "title": "En Côte d’Ivoire, Robert Beugré Mambé remet de l’ordre dans les déplacements ministériels",
+      "summary": "Durée des missions, composition des délégations, autorisation préalable… Le Premier ministre ivoirien rappelle les ministres à la discipline au sujet de leurs voyages à l’étranger, dans une circulaire adressée à l’ensemble du gouvernement.",
+      "country": "CIV",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-30T08:05:15+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1807970/politique/en-cote-divoire-robert-beugre-mambe-remet-de-lordre-dans-les-deplacements-ministeriels/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1807970/politique/en-cote-divoire-robert-beugre-mambe-remet-de-lordre-dans-les-deplacements-ministeriels/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b065a9eac0",
+      "title": "FG Engages Marketers As Global Oil Prices Decline",
+      "summary": "[Premium Times] The Federal Government says it is engaging petroleum marketers and regulators to ensure reductions in global crude oil prices are reflected in pump prices while maintaining a fair and competitive downstream market.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-30T07:47:31+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300146.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300146.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "20975cdbe9",
+      "title": "Goalkeeper Yassine Bounou Emerges as Hero in Penalty Shoot-Out",
+      "summary": "[Premium Times] Morocco's striker Saibari scored the last penalty kick to win the match for his team.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T07:47:13+00:00",
+      "lead_source": {
+        "id": "aa-mar",
+        "name": "AllAfrica · Maroc",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300145.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-mar",
+          "name": "AllAfrica · Maroc",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300145.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d264298da6",
+      "title": "APC Lawmaker Challenges Ekiti Primary Result, Cites Electoral Act Violation",
+      "summary": "[Premium Times] The lawmaker alleged that the declared winner, Kunle Ibrahim, remained a political appointee during the primary, contrary to legal requirements, and called for his disqualification or a fresh primary election.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T07:44:52+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300143.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300143.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "263bded838",
+      "title": "South Africa Begins Chidimma Adetshina's Deportation Process",
+      "summary": "[Premium Times] PREMIUM TIMES reported that two years ago, her Nigerian heritage sparked fierce public scrutiny and backlash when she entered the Miss South Africa 2024 pageant.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T07:44:07+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300142.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300142.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8be9a47328",
+      "title": "World Cup - Morocco Coach Ouahbi Declares 'Unbeaten' Atlas Lions Must Dream of Winning the Trophy",
+      "summary": "[Premium Times] Ouahbi believes Morocco have entered a new era, where simply competing is no longer enough",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T07:32:00+00:00",
+      "lead_source": {
+        "id": "aa-mar",
+        "name": "AllAfrica · Maroc",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300137.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-mar",
+          "name": "AllAfrica · Maroc",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300137.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "024741a074",
+      "title": "Govt Confirms $1.5bn Drawdown From UAE Facility, Says Staggered Borrowing Will Lower Debt Costs",
+      "summary": "[This Day] The Minister of Finance and Coordinating Minister of the Economy, Taiwo Oyedele, has confirmed that Nigeria has drawn the first $1.5 billion under its $5 billion financing arrangement with First Abu Dhabi Bank (FAB), explaining that the government deliberately structured the facility to reduce borrowing costs by accessing funds only when required.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "published": "2026-06-30T07:29:14+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300135.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300135.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bb9c96784a",
+      "title": "Ebola en RDC : au moins 300 cas positifs dans la nature [Africanews Today]",
+      "summary": "Chaque lundi, Africanews Today vous propose un nouveau rendez-vous sur l'actualité panafricaine.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T07:27:43+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/29/ebola-en-rdc-au-moins-300-cas-positifs-dans-la-nature-africanews-today/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/29/ebola-en-rdc-au-moins-300-cas-positifs-dans-la-nature-africanews-today/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7101489a65",
+      "title": "South Africa manager Hugo Broos set to bow out after team's World Cup elimination",
+      "summary": "South Africa’s manager Hugo Broos said months ago he would retire from football after the 2026 FIFA World Cup. But he was probably hoping it wouldn’t come quite so soon.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T07:24:45+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/29/south-africa-manager-hugo-broos-set-to-bow-out-after-teams-world-cup-elimination/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/29/south-africa-manager-hugo-broos-set-to-bow-out-after-teams-world-cup-elimination/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bac08ffe0e",
+      "title": "Mondial 2026 : le Maroc, le Brésil et le Paraguay se qualifient",
+      "summary": "Le Maroc a éliminé les Pays-Bas en les battant 3-2 à l’issue d’une séance de tirs au but, et le Paraguay a battu l'Allemagne 4-3 aux tirs au but également. Le Japon s'est incliné face au Brésil 2-1.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:56:05+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/30/mondial-2026-le-maroc-le-bresil-et-le-paraguay-se-qualifient/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/30/mondial-2026-le-maroc-le-bresil-et-le-paraguay-se-qualifient/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "518ec85f62",
+      "title": "Igbo Leaders Reject Concession of Enugu International Airport",
+      "summary": "[Vanguard] ...Say FG funding withdrawal will undermine airport standards",
+      "country": "NGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:54:30+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300123.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300123.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5c64739809",
+      "title": "Govt Ordered to Release Marsabit Land Registry Information",
+      "summary": "[Capital FM] Nairobi -- The Milimani High Court has ordered the Ministry of Lands to release information on the designation of Community Land Registrars in Marsabit County to Gitson Energy Limited within seven days.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:54:30+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300124.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300124.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2971886162",
+      "title": "Govt Orders Marketers to Reduce Fuel Price",
+      "summary": "[Vanguard] LAGOS -- The Federal Government has directed the Nigerian Midstream and Downstream Petroleum Regulatory Authority, NMDPRA, to ensure petroleum marketers do not exploit Nigerians through excessive pricing under the deregulated downstream petroleum market.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-06-30T06:54:29+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300121.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300121.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7341fa3e9c",
+      "title": "Xenophobia - Over 15,000 Nigerians Stranded As Govt Evacuates 271 Today",
+      "summary": "[Vanguard] ·It's not true -- Foreign Affairs Ministry",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:54:29+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300122.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300122.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cd1a4072fd",
+      "title": "Morocco, Brazil and Paraguay advance to Round of 16",
+      "summary": "The Round of 32 at this year's World Cup finished with some surprises and was full of suspense until the last minute: while Morocco rushed past the Netherlands in a penalty shootout and Brazil advanced after its win against Japan, the surprise victory came from Paraguay over Germany.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:47:14+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/30/morocco-brazil-and-paraguay-advance-to-round-of-16/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/30/morocco-brazil-and-paraguay-advance-to-round-of-16/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0f419f6202",
+      "title": "Witness Recounts Probe Into Ozekhome's Alleged Use of Fake Passport to Claim London Property",
+      "summary": "[Premium Times] Mr Ozekhome's defence team took the EFCC witness to task over the findings of his forensic examination of the Tali Shani passport allegedly forged by Mr Ozekhome and his co-defendant.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:41:48+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300118.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300118.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "64b6a923ef",
+      "title": "U.S. Seized Largest Terrorist Electronic Intelligence Cache Since 9/11 During Nigeria Raid - Official",
+      "summary": "[Premium Times] \"From that raid, we needed an extra plane to bring home all the electronic material that we captured in those camps,\" Mr Gorka said. \"The haul was three times bigger than any enemy electronics haul since 9/11.\"",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:41:46+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300116.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300116.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bb51af3e5b",
+      "title": "Civilian DG, New Uniforms, Six-Week Orientation, Other Proposed Changes to NYSC",
+      "summary": "[Premium Times] While some of these changes require amendment to the NYSC Act, others are simply administrative changes.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:41:45+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300115.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300115.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8db04e01a9",
+      "title": "DRC opposition leader Sesanga banned from leaving the country",
+      "summary": "An opposition leader in the Democratic Republic of Congo said Monday he had been banned from leaving the country and stripped of his passport, condemning it as \"intimidation\" amid tensions with the government.",
+      "country": "COG",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T06:38:09+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/06/30/drc-opposition-leader-sesanga-banned-from-leaving-the-country/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/06/30/drc-opposition-leader-sesanga-banned-from-leaving-the-country/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a8aae8ec91",
+      "title": "Court Releases 'Mr Speaker Sir' TikToker On Sh100,000 Bond",
+      "summary": "[Capital FM] Nairobi -- A Nairobi court has released content creator Ezekiel Kyama Nzyoki, popularly known online for his \"Mr Speaker Sir\" catchphrase, on a personal bond of Sh100,000 after he was charged over last year's anti-government protests that culminated in the invasion of Parliament Buildings.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:57:18+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300109.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300109.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "54a4c7291d",
+      "title": "Malian children at the heart of the gold rush",
+      "summary": "As Malians struggle to make ends meet, some children head to illegal gold mines in the western part of the country, eking out a living — underpaid, abused, and exploited.",
+      "country": "MLI",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:52:14+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/422967/malian-children-at-the-heart-of-the-gold-rush/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/422967/malian-children-at-the-heart-of-the-gold-rush/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bfb43c0bbb",
+      "title": "Ivory Coast Completes IMF Program As Debt Risk Falls",
+      "summary": "[Daba Finance] Ivory Coast completed its economic program with the International Monetary Fund and was reclassified as being at low risk of debt distress, becoming the only sub-Saharan African country with that status.",
+      "country": "CIV",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:10:23+00:00",
+      "lead_source": {
+        "id": "aa-civ",
+        "name": "AllAfrica · Côte d'Ivoire",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300107.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-civ",
+          "name": "AllAfrica · Côte d'Ivoire",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300107.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "75837c4475",
+      "title": "Kenya Court Clears Safaricom Stake Sale to Vodacom",
+      "summary": "[Daba Finance] Kenya's Court of Appeal lifted an order blocking the government's planned sale of a 15% stake in Safaricom to Vodacom, clearing the way for a KES204.3 billion, or about $1.6 billion, transaction.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "published": "2026-06-30T05:10:22+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300104.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300104.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9ffe20e341",
+      "title": "Petitioners Ask High Court to Block Planned Sale of Govt Stake in Safaricom",
+      "summary": "[Capital FM] Nairobi -- Petitioners challenging the Government's proposed sale of a 15 per cent stake in Safaricom PLC have urged the High Court to declare the transaction unconstitutional, arguing that it amounts to the unlawful disposal of a strategic national asset.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "published": "2026-06-30T05:08:46+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300102.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300102.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5f7a737f7d",
+      "title": "Fashola Seeks Governance Beyond Politics At NBA Ikeja Law Week",
+      "summary": "[This Day] Former Lagos State Governor and Senior Advocate of Nigeria, Babatunde Fashola, has called for a governance model driven by strong institutions, accountability and continuity, rather than partisan politics, as the 2026 Nigerian Bar Association (NBA), Ikeja Branch Law Week got underway in Lagos.",
+      "country": "NGA",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:21+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300099.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300099.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "581f5a1533",
+      "title": "Sharia Court of Appeal's Jurisdiction On Declaration of Title to Land",
+      "summary": "[This Day] In the Supreme Court of Nigeria",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:21+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300100.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300100.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2d1d4f1dda",
+      "title": "Switzerland Returns Famed Benin Bronzes to Nigeria",
+      "summary": "[Vanguard] Swiss authorities on Monday returned 18 Benin Bronzes to Nigeria in a ceremony at the National Museum in Lagos, the latest addition to the nation's growing collection of repatriated treasures.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:20+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300098.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300098.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4e44647d63",
+      "title": "U.S. Disclosure On Neutralised 199 Jihadists Refers to May Operation - DHQ",
+      "summary": "[Vanguard] The Defence Headquarters, DHQ, on Monday said the recent disclosure by the United States on the killing of 199 jihadists and the recovery of a massive cache of ISIS arms, ammunition and electronic equipment was not a fresh operation but the declassification of a successful joint Nigeria-US counter-terrorism mission carried out in May 2026.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:19+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300096.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300096.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a9e01f1caa",
+      "title": "We're Fulfilling Our Promise to Uplift Living Standards of Nigerians - Tinubu",
+      "summary": "[This Day] Abuja -- President Bola Tinubu Monday, inaugurated the newly rehabilitated and expanded roads from the Karu Interchange to the Customs Clinic Junction, including other vital adjoining roads.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:18+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300093.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300093.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "008b0c07eb",
+      "title": "Nigeria Intensifies Efforts to Drive Green Industrialisation, As Alake Receives Report",
+      "summary": "[Vanguard] ABUJA- THE Nigerian Government has intensified efforts to drive green industrialisation as the Council for Critical Minerals Development in the Global South officially handed over a landmark report to the Minister of Solid Mineral Development, Dr Dele Alake.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:18+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300094.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300094.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "21447522e2",
+      "title": "Tinubu Swears in RMAFC, NPC Commissioners Ahead of FEC Meeting",
+      "summary": "[Vanguard] ABUJA -- President Bola Tinubu on Monday swore in two commissioners of the Revenue Mobilisation, Allocation and Fiscal Commission (RMAFC) and six federal commissioners of the National Population Commission (NPC) at the Presidential Villa, Abuja.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:17+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300092.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300092.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6572a774fa",
+      "title": "Cubana Chief Priest Reflects On Childhood Dream of Becoming Catholic Priest",
+      "summary": "[Premium Times] \"I really wanted to become a Catholic priest, but many are called, but few are chosen,\" he wrote.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:16+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300089.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300089.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c41d8ff5f0",
+      "title": "Police Detain 36 Over Alleged Child Labour, Street Hawking in Anambra",
+      "summary": "[Vanguard] The Anambra State Police Command has taken 36 persons into custody over alleged involvement in child labour, street hawking and related forms of child exploitation.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:16+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300090.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300090.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "08453ee824",
+      "title": "Top Boko Haram, ISWAP Commanders Surrender As Troops Intensify Operations Against Terrorists in North-East",
+      "summary": "[This Day] Abuja -- The Joint Task Force (North East), Operation Hadin Kai (OPHK), has recorded another major breakthrough in its counter-terrorism campaign, with top Boko Haram and Islamic State West Africa Province (ISWAP) commanders abandoning their enclaves and surrendering to troops following sustained military operations across North-East.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:14+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300085.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300085.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "49ef3c022d",
+      "title": "Nigeria Hits 20 Years Without Census",
+      "summary": "[Vanguard] Twenty years after its last population and housing census, Nigeria finds itself in an unusual position: governing one of Africa's largest populations without a current official count of how many people actually live within its borders.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:07:12+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300083.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300083.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "804aedbf13",
+      "title": "Ghana sued over Trump deportation deal in ECOWAS court case",
+      "summary": "A coalition of organisations has filed a landmark lawsuit before the ECOWAS Court over Accra’s role in a secret US deportation deal that could set new legal limits on Africa’s migration cooperation with Washington.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T05:00:00+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/423419/ghana-sued-over-trump-deportation-deal-in-ecowas-court-case/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/423419/ghana-sued-over-trump-deportation-deal-in-ecowas-court-case/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "68b8535e9c",
+      "title": "UK Rejects 1.34m Visa Applications By Nigerians",
+      "summary": "[Leadership] The United Kingdom rejected at least 1.34 million visa applications submitted by Nigerians between 2005 and the first quarter of 2026, according to official data from the UK Home Office.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T04:59:11+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300050.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300050.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bd7bd6feff",
+      "title": "RDC : un leader de l'opposition en RD Congo interdit de sortie du territoire",
+      "summary": "Delly Sesanga, dirigeant du parti Envol et membre de la coalition C64, déclare qu'il s'est vu interdire de quitter le pays et qu'on lui a retiré son passeport.",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T04:55:51+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/06/30/rdc-un-leader-de-lopposition-en-rd-congo-interdit-de-sortie-du-territoire/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/06/30/rdc-un-leader-de-lopposition-en-rd-congo-interdit-de-sortie-du-territoire/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2779fd433b",
+      "title": "Gachagua Accuses Government of Economic Exclusion in Coast Region",
+      "summary": "[Capital FM] Nairobi -- Deputy Party Leader Rigathi Gachagua has expanded his political outreach to the Coast region, while accusing President William Ruto's administration of sidelining local communities.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T04:46:45+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300039.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300039.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "212cbf0bf8",
+      "title": "Armed Gang Disrupts Mediation Meeting On Nyamasaria-Mowlem Bus Park",
+      "summary": "[Capital FM] Nairobi -- A stakeholders' meeting convened by the County Government of Kisumu to discuss the operationalization of the Nyamasaria-Mowlem Satellite Bus Park ended in chaos on Sunday after armed individuals stormed the venue, vandalized property and robbed participants.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T04:41:26+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300025.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300025.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f5388e70b8",
+      "title": "Kenyans Living in Towns Are Farmers Too - What This Means for Rural Landscapes",
+      "summary": "[The Conversation Africa] More and more of Kenya's farmlands are coming under the control of people who live and work in urban centres. Over the past two decades, the proportion they control has grown to nearly a third of Kenya's total agricultural land.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-30T04:31:10+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606300006.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606300006.html"
         }
       ],
       "confirmation_count": 1
@@ -2740,36 +4115,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "5bc916d76f",
-      "title": "Netherlands vs Morocco LIVE: FIFA World Cup 2026",
-      "summary": "Follow the updates, with live build-up, team news coverage, and our text commentary stream of the last-32 match.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T21:35:12+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/sports/liveblog/2026/6/29/live-netherlands-vs-morocco-fifa-world-cup-2026?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/29/live-netherlands-vs-morocco-fifa-world-cup-2026?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "fbf3502060",
       "title": "Khadim Bamba Diagne : « Sur la renégociation des contrats pétroliers et gaziers, nous n’excluons par le recours au tribunal arbitral »",
       "summary": "La renégociation des contrats énergétiques au Sénégal est en bonne voie, selon le patron du COS Petrogaz. Mais le recours à un tribunal arbitral reste sur la table.",
@@ -2860,276 +4205,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b8f7a24b65",
-      "title": "Odumodublvck Makes Unverified Sexual Abuse Allegations Against Blaqbonez - Legal Action Threatened",
-      "summary": "[Premium Times] Once regarded as close collaborators, the two have made the latest exchange the climax of a relationship that has steadily deteriorated over the past two years.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:32:09+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290680.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290680.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ba70d13c90",
-      "title": "Ned Nwoko Celebrates Sons' Birthdays Amid Ongoing Custody Dispute With Regina Daniels",
-      "summary": "[Premium Times] As previously reported by PREMIUM TIMES, the custody dispute is still before an Abuja Family Court.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:31:46+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290679.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290679.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "78f47befca",
-      "title": "Decade of Excellence in Stem Education - Iwerekun Community Senior High School Wins 10th Edition of Tolaram Science Challenge",
-      "summary": "[Premium Times] The school triumphed over Magbon-Alade Senior Grammar School in a fiercely contested grand finale of the competition. The victory marked the third consecutive win for the school",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:31:30+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290678.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290678.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "305f934b8b",
-      "title": "Boko Haram Abducts Students Writing Neco At Borno School",
-      "summary": "[Premium Times] The spokesperson for the Borno State Police Command, Daso Kenneth, confirmed this to PREMIUM TIMES via telephone.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:31:11+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290677.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290677.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9e2fc81f5f",
-      "title": "FCT Police Debunk Altered Viral Video of Peter Obi, Order Investigation",
-      "summary": "[Vanguard] The Federal Capital Territory (FCT) Police Command has dismissed as misleading an altered viral video showing Labour Party presidential candidate in the 2023 election, Peter Obi, addressing police personnel, saying the footage has been manipulated to create a false political narrative.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:29:06+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290675.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290675.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4b216e6ddb",
-      "title": "The Senator Who Watched - 1,095 Days, Zero Bills Passed, and Urhobo's Moment of Truth",
-      "summary": "[Vanguard] Three years. That is 1,095 days in the Senate. 1,095 days to champion the Urhobo cause. 1,095 days to transform the anguished cries for Ethiope State from quiet lamentations in our homes and palaces into a living, breathing bill on the floor of the Nigerian Senate. And what does Delta Central have to show for it from Senator Ede Dafinone? Silence. Invisibility. A deepening, justified sense of betrayal.",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:28:51+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290674.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290674.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "540d7a4895",
-      "title": "Inuwa Charges New LG Chairmen to Deepen Grassroots Governance",
-      "summary": "[Vanguard] Governor Muhammadu Inuwa Yahaya of Gombe State has charged the newly inaugurated chairmen of the state's 11 Local Government Areas and 13 Local Council Development Areas (LCDAs) to provide transparent, people-centred leadership that will consolidate the gains of his administration and accelerate grassroots development.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:22:28+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290665.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290665.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "76a63e729e",
-      "title": "With Five Million Tons Annual Capacity, Hangxiao Steel Structure Deepens African Infrastructure &#x26;amp; Affordable Housing Markets",
-      "summary": "[Vanguard] Hangxiao Steel Structure Co., Ltd. (SSE: 600477), China's first listed company in the steel structure industry and a leading global integrated service provider for green buildings, has built a solid track record across Africa and global markets through proven technical expertise and reliable project delivery. With over 40 years of industry experience, the company has completed tens of thousands of landmark projects in more than 80 countries and regions,…",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:21:09+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290663.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290663.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "80d04f55cd",
-      "title": "Court Hears Alleged Self-Kidnap Case Involving Ekiti LG Vice Chairman",
-      "summary": "[This Day] Ado-Ekiti -- Proceedings are expected to resume today at an Ado-Ekiti Chief Magistrates Court in the case involving the Vice Chairman of Ilejemeje Local Government Area of Ekiti State, Grace Ogunleye, who is accused of allegedly masterminding her own kidnap.",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T16:08:48+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290635.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290635.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "7e9be32663",
       "title": "Bamboo targets Kenya as Nigerian stock trading surges amid US volatility",
       "summary": "Nigerian digital investment platform Bamboo is expanding into Kenya in the second half of 2026 as retail interest in local African equities surges.",
@@ -3215,36 +4290,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/06/29/afrique-du-sud-des-malawites-attendent-de-pouvoir-rentrer-chez-eux/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7101489a65",
-      "title": "South Africa manager Hugo Broos set to bow out after team's World Cup elimination",
-      "summary": "South Africa’s manager Hugo Broos said months ago he would retire from football after the 2026 FIFA World Cup. But he was probably hoping it wouldn’t come quite so soon.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T14:54:18+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/29/south-africa-manager-hugo-broos-set-to-bow-out-after-teams-world-cup-elimination/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/29/south-africa-manager-hugo-broos-set-to-bow-out-after-teams-world-cup-elimination/"
         }
       ],
       "confirmation_count": 1
@@ -3485,36 +4530,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/%C3%A9missions/en-t%C3%AAte-%C3%A0-t%C3%AAte/20260629-le-chef-de-la-diplomatie-rwandaise-d%C3%A9%C3%A7u-par-la-partialit%C3%A9-de-plus-en-plus-criante-des-etats-unis"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cfd78b5e99",
-      "title": "'When Trump Speaks, Prepare for Action - He's the Best Politician I've Met' - Adeboye",
-      "summary": "[Vanguard] The General Overseer of the Redeemed Christian Church of God (RCCG), Pastor Enoch Adeboye, has described United States President Donald Trump as the \"best politician\" he has ever known, saying the American leader keeps his promises and acts decisively on them.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T12:41:06+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290464.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290464.html"
         }
       ],
       "confirmation_count": 1
@@ -3820,6 +4835,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "a8528edbf2",
+      "title": "PFL Africa Shifts Cage to Morocco After Lagos Showdown",
+      "summary": "[New Times] The Professional Fighters League (PFL) Africa will continue its 2026 campaign later this year, as the league heads north for its next and maiden landmark event in Casablanca, Morocco on October 10.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-06-29T10:52:20+00:00",
+      "lead_source": {
+        "id": "aa-mar",
+        "name": "AllAfrica · Maroc",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202606290310.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-mar",
+          "name": "AllAfrica · Maroc",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202606290310.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "121d68d874",
       "title": "Omtatah Says Recurring County Salary Delays Expose Systemic Failures",
       "summary": "[Capital FM] Nairobi -- Busia Senator Okiya Omtatah has raised concerns over what he describes as a growing pattern of delayed salary payments across county governments.",
@@ -3880,36 +4925,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2b9c80e273",
-      "title": "Police Rescue Kidnap Victim in Imo Forest Operation",
-      "summary": "[Vanguard] The police command in Imo has rescued a kidnap victim from a forest bordering the Nekede, Ihiagwa and Agbala areas of the Owerri West Local Government Area.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T10:23:39+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290270.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290270.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5570f36dc4",
       "title": "Two Arrested As Police Seize 114 Rolls of Cannabis in Migori Crackdown",
       "summary": "[Capital FM] Migori -- Two suspected drug traffickers have been arrested in Migori County after police intercepted them transporting more than 100 rolls of cannabis sativa concealed beneath oversized jackets during a targeted anti-narcotics operation.",
@@ -3935,66 +4950,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606290268.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a9830a18c8",
-      "title": "Why Netherlands v Morocco is more than just a match",
-      "summary": "Morocco’s World Cup meeting with the Netherlands tells a story about migration, identity and the battle for Dutch-born talent.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T10:16:02+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/sport/football/articles/clye1l3m9k4o?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/sport/football/articles/clye1l3m9k4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f85170b079",
-      "title": "Gabon: à Libreville, une opération de nuit contre le petit et le grand banditisme",
-      "summary": "Au Gabon, les autorités ont mené une opération surprise de lutte contre le banditisme dans plusieurs quartiers de Libreville dans la nuit du 27 au 28 juin 2026. Des dizaines de policiers accompagnés des magistrats et du ministre de la Justice mobilisés pendant cette période des vacances, pour une opération dans la commune d’Owendo. Elle visait des quartiers réputés dangereux où les braquages et la consommation de produits illicites sont fréquents.",
-      "country": "GAB",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T09:31:34+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260629-gabon-%C3%A0-libreville-une-op%C3%A9ration-de-nuit-contre-le-petit-et-le-grand-banditisme"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260629-gabon-%C3%A0-libreville-une-op%C3%A9ration-de-nuit-contre-le-petit-et-le-grand-banditisme"
         }
       ],
       "confirmation_count": 1
@@ -4180,36 +5135,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "d8c46bbb9f",
-      "title": "RSF appelle à «mettre un terme au drame humain» de Christophe Gleizes, journaliste détenu depuis un an en Algérie",
-      "summary": "Ce 29 juin 2026, cela fait un an que le journaliste français Christophe Gleizes a été condamné en Algérie. Arrêté en 2024 pendant un reportage sur un club de football kabyle, il a été condamné en 2025 à sept ans de prison et incarcéré pour « apologie du terrorisme » par le tribunal de Tizi Ouzou, peine confirmée en appel. L'Algérie est un pays très répressif en matière de liberté de la presse, selon Reporters sans frontières (RSF), qui le classe 145e sur 180.",
-      "country": "DZA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T08:12:02+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260629-rsf-appelle-%C3%A0-mettre-un-terme-au-drame-humain-de-christophe-gleizes-journaliste-d%C3%A9tenu-depuis-un-an-en-alg%C3%A9rie"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260629-rsf-appelle-%C3%A0-mettre-un-terme-au-drame-humain-de-christophe-gleizes-journaliste-d%C3%A9tenu-depuis-un-an-en-alg%C3%A9rie"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "39178b1d25",
       "title": "US-Africa Week Ahead: DRC takes its conflict with Rwanda to the UN",
       "summary": "Kinshasa presides over the Security Council this month amid growing frustration over the stalled eastern Congo peace process.",
@@ -4235,156 +5160,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/423289/us-africa-week-ahead-drc-takes-its-conflict-with-rwanda-to-the-un/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "204f07026f",
-      "title": "TAG Nigeria Reaffirms Commitment to Creating 5m Jobs By 2030",
-      "summary": "[Leadership] The humanitarian organisation operating under the auspices of The Advertisement Group (TAG) Nigeria Limited has reaffirmed its commitment to creating over five million jobs for Nigerians within five years.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T07:33:27+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290139.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290139.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "34a45f1fa5",
-      "title": "FHA Secures Land Across 28 States for Affordable Housing Expansion",
-      "summary": "[Leadership] The Federal Housing Authority (FHA) has secured prime land in 28 states across Nigeria as part of its ongoing drive to expand access to affordable housing and strengthen its presence across the country.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T07:33:27+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290140.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290140.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6af080926e",
-      "title": "Resident Doctors Threaten Nationwide Strike, Give Federal Govt 4-Week Ultimatum",
-      "summary": "[Leadership] The Nigerian Association of Resident Doctors (NARD) has extended its ultimatum to the federal government by another four weeks over unresolved welfare and professional issues affecting its members nationwide, while declaring an industrial dispute with the government.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T07:32:16+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290134.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290134.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "af8d9a0efd",
-      "title": "It's My Turn to Be Imo State Governor, Says PDP National Secretary, Anyanwu",
-      "summary": "[Leadership] The National Secretary of the Peoples Democratic Party (PDP), Senator Samuel Anyanwu has declared that it is his turn to govern Imo State, after his contemporaries such as Dr. Ikedi Ohakim, Chief Emeka Ihedioha and Dr. Hope Uzodimma have governed the state.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T07:32:15+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290133.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290133.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "344fda6b4e",
-      "title": "Oil Price Drop - FCCPC Warns Fuel Importers, Refiners, Others Against Exploiting Consumers",
-      "summary": "[Leadership] The Federal Competition and Consumer Protection Commission (FCCPC) has warned refiners, importers, depot operators, marketers and retail outlet owners against exploiting consumers after finding only marginal reductions in the prices of petroleum products despite a sharp fall in global crude oil prices.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T07:32:14+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290132.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290132.html"
         }
       ],
       "confirmation_count": 1
@@ -4630,156 +5405,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7060691938",
-      "title": "'Every Choice Has Consequences,' Ruto Warns Students",
-      "summary": "[Capital FM] Nairobi -- President William Ruto has urged students to reject violence and embrace discipline following a wave of school unrest, warning that every decision they make today will shape their future.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:58:07+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290101.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290101.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c6410535bf",
-      "title": "Uganda's Military Chief Muhoozi Orders Closure of NTV Uganda, Spark TV and Daily Monitor Broadcasts",
-      "summary": "[Capital FM] Kampala, Uganda -- Uganda's Chief of Defence Forces Gen. Muhoozi Kainerugaba has ordered the closure of NTV Uganda, Spark TV and the Daily Monitor in a dramatic escalation of tensions between the military establishment and independent media houses.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:58:01+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290093.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290093.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d3b001d6a0",
-      "title": "Matiang'i Says NTSA's Planned Sh2,000 Vehicle Inspection Fee Is Insensitive and Unfair",
-      "summary": "[Capital FM] Nairobi -- Jubilee Party Deputy Leader Fred Matiang'i has criticized the Government's planned mandatory vehicle inspection programme, describing the proposed annual Sh2,000 fee for vehicles older than four years as insensitive and unfair to struggling Kenyans.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:58:00+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290091.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290091.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b8b7d6e386",
-      "title": "Western Kenya Leaders Push for Wetangula As Ruto's Running Mate in 2027",
-      "summary": "[Capital FM] Nairobi -- A section of political leaders from Western Kenya has intensified calls for President William Ruto to nominate National Assembly Speaker Moses Wetangula as his running mate in the 2027 General Election, citing the region's growing political unity and voting strength.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:57:59+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290090.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290090.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8c6368bc30",
-      "title": "Court Halts Ombudsman CEO Appointment Pending Recruitment Case",
-      "summary": "[Capital FM] Nairobi -- The High Court has temporarily stopped the appointment of the incoming Chief Executive Officer of the Commission on Administrative Justice (Office of the Ombudsman), Naisiae Paloshe Tobiko, pending the hearing of a petition challenging the recruitment process.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:57:57+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290086.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290086.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "900194dd03",
       "title": "Grave Abuses Amid Renewed Fighting",
       "summary": "[HRW] Nairobi -- Army, Allied Militias, Islamist Armed Groups Commit Violations with Impunity",
@@ -4805,36 +5430,6 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606290081.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7a22f49cca",
-      "title": "Cameroun: des récoltes insuffisantes pour soulager les familles face à la crise alimentaire",
-      "summary": "Au Cameroun, selon le Réseau des systèmes d'alerte précoce pour la famine, « les faibles perspectives de récolte maintiendront les ménages en situation de crise dans les zones touchées par l'insécurité » jusqu'en septembre 2026. Autrement dit, les récoltes agricoles sont insuffisantes pour sortir les familles concernées d'une situation de crise alimentaire (malnutrition, incapacité à couvrir tous les besoins alimentaires de la famille) dans plusieurs zones du pays.",
-      "country": "CMR",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:54:10+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260629-cameroun-des-r%C3%A9coltes-insuffisantes-pour-soulager-les-familles-face-%C3%A0-la-crise-alimentaire"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260629-cameroun-des-r%C3%A9coltes-insuffisantes-pour-soulager-les-familles-face-%C3%A0-la-crise-alimentaire"
         }
       ],
       "confirmation_count": 1
@@ -4895,276 +5490,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/06/29/canada-edges-south-africa-to-reach-world-cup-round-of-16/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3d5bedaa98",
-      "title": "Nyanza Leaders Defend Ruto Alliance, Reject Return to Opposition Politics",
-      "summary": "[Capital FM] Kisumu -- Leaders from the Nyanza region have intensified their defence of the broad-based government arrangement, urging residents to embrace cooperation with President William Ruto's administration instead of returning to opposition politics and street protests.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:21:04+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290050.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290050.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d73c59fd5c",
-      "title": "Missing Activist Davis Lichuma Found Alive At KNH After Alleged Abduction and Torture",
-      "summary": "[Capital FM] Nairobi -- Missing activist Davis Lichuma has been found alive after allegedly being abducted, tortured and abandoned at Kenyatta National Hospital (KNH), according to the Social Justice Centres Working Group.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:21:03+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290049.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290049.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "840d59b933",
-      "title": "UCC Seeks 'Verified Information' After Shutdown of NMG Outlets in Uganda",
-      "summary": "[Capital FM] Nairobi -- The Uganda Communications Commission (UCC) says it is seeking \"verified information\" regarding the shutdown of Nation Media Group (NMG) outlets in Uganda following reports of a security raid allegedly sanctioned by General Muhoozi Kainerugaba, the son of President Yoweri Museveni.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:21:02+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290048.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290048.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f9ef73557a",
-      "title": "NDLEA Seizes N12.3bn Canadian Cannabis Shipment, Arrests Businesswoman With Cocaine",
-      "summary": "[Leadership] Operatives of the National Drug Law Enforcement Agency (NDLEA) have intercepted a 40-foot container loaded with 4,959 kilograms of Canadian Loud, a potent strain of cannabis, with an estimated street value of N12.397 billion, following a four-week surveillance operation spanning multiple countries.",
-      "country": "NGA",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:21:00+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290046.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290046.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6227c3994a",
-      "title": "SGF Decries Killing of Macban Chair, Seeks Arrest, Prosecution of Perpetrators",
-      "summary": "[This Day] Secretary to the Government of the Federation (SGF), Senator George Akume, has expressed outrage over the gruesome killing of the Benue State Chairman of the Miyetti Allah Cattle Breeders Association of Nigeria (MACBAN), Alhaji Ardo Risku, and his associate.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:17:37+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290042.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290042.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "00cc55e4c3",
-      "title": "DSS, N100m Serap Verdict and National Debate Over Civic Space, Free Speech",
-      "summary": "[This Day] A N100 million defamation judgment against the Socio-Economic Rights and Accountability Project (SERAP) has escalated into a major battle over freedom of expression and civic activism in Nigeria, drawing sharp reactions from more than 50 civil society organisations, Amnesty International, senior lawyers and human rights advocates. As SERAP heads to the Court of Appeal, the case is increasingly being viewed as a defining test of the balance between reputational…",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:17:37+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290043.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290043.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c0317d1f0f",
-      "title": "Govt Lauds Lee Engineering, NNPC, Others for Keeping to Timelines On ELPS Project",
-      "summary": "[This Day] Ekpo says compressor to raise gas pressure for power generation, industries",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:17:36+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290040.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290040.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3da6fb1491",
-      "title": "Atiku Returns to Nigeria Ahead Official Unveiling of Amaechi As His Running Mate",
-      "summary": "[This Day] Presidential candidate of the African Democratic Congress (ADC), Atiku Abubakar has returned to Nigeria after a business trip outside the country.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:17:36+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290041.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290041.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c75ae86c31",
-      "title": "Kenya's WapiPay Gets Canada Licence for North America Expansion",
-      "summary": "[Daba Finance] WapiPay received a Money Services Business licence from Canada's Financial Transactions and Reports Analysis Centre, giving the Kenyan-founded fintech its first licensed operating presence in North America.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-29T05:05:42+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606290028.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606290028.html"
         }
       ],
       "confirmation_count": 1
@@ -6040,36 +6365,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "4ce42391b4",
-      "title": "RDC-Rwanda : un an après, quel bilan pour l’accord de paix de Donald Trump ?",
-      "summary": "Un an après la signature d’un accord de paix par les ministres des Affaires étrangères de la RDC et du Rwanda, les avancées sur les fronts militaire et économique restent maigres, malgré un regain de pression américaine sur Kigali.",
-      "country": "COD",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T17:29:18+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1807363/politique/rdc-rwanda-un-an-apres-quel-bilan-pour-laccord-de-paix-de-donald-trump/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1807363/politique/rdc-rwanda-un-an-apres-quel-bilan-pour-laccord-de-paix-de-donald-trump/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8f92549ec0",
       "title": "Two former Moroccan politicians jailed in 'Escobar of the Sahara' drug case",
       "summary": "Throughout the proceedings, the defence argued there was no material evidence linking the former officials to the alleged crimes, saying the prosecution relied largely on the testimony of the convicted trafficker.",
@@ -6370,36 +6665,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f339a95c6b",
-      "title": "DRC-Rwanda peace deal stalls one year after Washington accord",
-      "summary": "One year after the Washington deal, escalating drone warfare and deep-seated mistrust have left the DRC-Rwanda peace process frozen in bureaucratic stasis.",
-      "country": "RWA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-26T11:32:15+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/423251/drc-rwanda-peace-deal-stalls-one-year-after-washington-accord/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/423251/drc-rwanda-peace-deal-stalls-one-year-after-washington-accord/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "e9a1776905",
       "title": "Qualification de la Côte d'ivoire, Sihem Bensedrine condamnée en Tunisie : l'hebdo Afrique",
       "summary": "",
@@ -6425,36 +6690,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260626-qualification-c%C3%B4te-ivoire-mondial-sihem-bensedrine-condamn%C3%A9e-en-tunisie-hebdo-afrique"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f1ecf4164a",
-      "title": "Key figure in South African police corruption scandal pleads guilty",
-      "summary": "Controversial businessman Vusimusi “Cat” Matlala admitted to fraud, corruption, and money laundering linked to a police service tender.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "AML_CFT",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-06-26T10:11:16+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/06/26/key-figure-in-south-african-police-corruption-scandal-pleads-guilty/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/06/26/key-figure-in-south-african-police-corruption-scandal-pleads-guilty/"
         }
       ],
       "confirmation_count": 1
@@ -6665,36 +6900,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/videos/cr5je3rgpq6o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "afe08d2158",
-      "title": "Morocco Fight Back to Beat Haiti and Reach World Cup Last 32",
-      "summary": "[CAF] Morocco twice came from behind to beat Haiti 4-2 and secure their place in the round of 32 at the 2026 FIFA World Cup on Wednesday night.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-06-25T04:09:41+00:00",
-      "lead_source": {
-        "id": "aa-mar",
-        "name": "AllAfrica · Maroc",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202606250097.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-mar",
-          "name": "AllAfrica · Maroc",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202606250097.html"
         }
       ],
       "confirmation_count": 1
