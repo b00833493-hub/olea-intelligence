@@ -1,34 +1,35 @@
 {
-  "generated_at": "2026-07-05T12:41:11.552586+00:00",
+  "generated_at": "2026-07-05T14:52:30.737327+00:00",
   "stats": {
-    "total_signals": 245,
+    "total_signals": 255,
     "verified_signals": 6,
-    "countries_covered": 24,
+    "countries_covered": 25,
     "sources_active": 16,
     "per_country": {
+      "NGA": 39,
+      "ZAF": 21,
       "MLI": 17,
-      "COD": 24,
-      "TZA": 5,
-      "NGA": 38,
+      "COD": 21,
       "TCD": 1,
-      "GHA": 6,
-      "CIV": 17,
-      "KEN": 34,
+      "GHA": 7,
+      "TZA": 4,
+      "CIV": 18,
+      "KEN": 33,
       "SEN": 20,
-      "MAR": 25,
+      "MAR": 27,
       "MDG": 1,
-      "ZAF": 20,
       "DZA": 12,
       "CAF": 2,
       "TUN": 1,
       "ETH": 2,
       "BDI": 1,
+      "MRT": 4,
+      "GAB": 2,
       "GIN": 4,
-      "CMR": 5,
-      "BFA": 1,
+      "UGA": 3,
+      "CMR": 7,
+      "BFA": 2,
       "BEN": 3,
-      "MRT": 1,
-      "UGA": 2,
       "NER": 3
     }
   },
@@ -132,6 +133,72 @@
   ],
   "signals": [
     {
+      "id": "a53683aeaa",
+      "title": "Nigeria says two nationals killed in South Africa amid rise of anti-migrant attacks",
+      "summary": "Nigeria's government said one of its nationals was reportedly killed by police officers \"using gruesome interrogation techniques\".",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-05T13:09:20+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/05/nigeria-says-two-nationals-killed-in-anti-migrant-violence-in-south-africa/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "471961cd10",
+      "title": "Afrique du Sud : le Nigeria dénonce la mort de deux de ses ressortissants",
+      "summary": "Selon le ministère nigérian des Affaires étrangères, les deux hommes ont perdu la vie le 28 juin",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-05T12:22:11+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/05/afrique-du-sud-le-nigeria-denonce-la-mort-de-deux-de-ses-ressortissants/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/05/afrique-du-sud-le-nigeria-denonce-la-mort-de-deux-de-ses-ressortissants/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f330a93702",
       "title": "Attaques au Mali : la situation est \"sous contrôle\" selon l'armée",
       "summary": "Le Mali a été de nouveau visé samedi par des attaques coordonnées d'ampleur des jihadistes et de leurs alliés indépendantistes touareg à travers le pays, quelques semaines seulement après une vaste offensive des rebelles marquée par la prise de la ville stratégique de Kidal et par la mort du ministre de la Défense.",
@@ -220,72 +287,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "27e6d2cd49",
-      "title": "Tanzanie: Suezi Maradufu, chauffeur et ami du numéro 2 du parti Chadema, retrouvé mort",
-      "summary": "Le Chadema, parti principal d’opposition vient de vivre une autre semaine de pression de la part du gouvernement. Tous leurs convois sont suivis à travers le pays et leurs équipes constamment surveillées. Cependant, l’annonce, il y a quelques jours, du décès du chauffeur et ami de John Heche, le numéro deux du parti, a jeté un voile macabre sur le pays. Selon Chadema, cette mort est plus que suspecte.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-04T09:52:44+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260704-tanzanie-suezi-maradufu-chauffeur-et-ami-du-num%C3%A9ro-2-du-parti-chadema-retrouv%C3%A9-mort"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260704-tanzanie-suezi-maradufu-chauffeur-et-ami-du-num%C3%A9ro-2-du-parti-chadema-retrouv%C3%A9-mort"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f3dbcbf3c3",
-      "title": "Soulagement après la réouverture de la frontière entre Goma en RDC et Gisenyi au Rwanda",
-      "summary": "Dans l'Est de la République démocratique du Congo, la frontière entre les villes de Goma en RDC et Gisenyi au Rwanda a été rouverte. Elle avait été fermée il y a plus d’un mois en raison de l’épidémie d'Ebola. La décision de rouvrir a été prise par les autorités locales de Gisenyi qui assouplissent donc les mesures de restriction. Des deux côtés de la frontière, c'est le soulagement pour les populations.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-04T04:46:31+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260704-soulagement-apr%C3%A8s-la-r%C3%A9ouverture-de-la-fronti%C3%A8re-entre-goma-en-rdc-et-gisenyi-au-rwanda"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260704-soulagement-apr%C3%A8s-la-r%C3%A9ouverture-de-la-fronti%C3%A8re-entre-goma-en-rdc-et-gisenyi-au-rwanda"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/04/ebola-reouverture-de-la-frontiere-entre-goma-en-rdc-et-gisenyi-au-rwanda/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "6f44e27d65",
@@ -1008,6 +1009,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "d652605689",
+      "title": "Mondial 2026 : le match économique entre le Canada et le Maroc",
+      "summary": "Au coup d’envoi, le tableau d’affichage penche nettement du côté canadien, en attendant ce premier match des huitièmes de finale de la Coupe du monde de la FIFA 2026. À population finalement assez proche — 41,65 millions d’habitants pour le Canada contre 38,43 millions pour le Maroc en 2025 —, l’écart de puissance économique reste considérable. La Banque mondiale évalue en effet le PIB canadien à 2 507 milliards de dollars en 2025, contre 182,37 milliards pour le…",
+      "country": "MAR",
+      "category": "ECONOMIE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-04T14:29:20+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/04/mondial-2026-le-match-economique-entre-le-canada-et-le-maroc/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/04/mondial-2026-le-match-economique-entre-le-canada-et-le-maroc/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "b0312f1d92",
       "title": "Attaques coordonnées au Mali : Gao, Anéfis, Sévaré et Kéniéroba visés",
       "summary": "Wassim Nasr décrypte la situation.",
@@ -1093,6 +1124,36 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260704-combats-dans-plusieurs-localit%C3%A9s-au-mali-attaques-%C3%A0-gao-an%C3%A9fis-et-s%C3%A9var%C3%A9"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "98a90949d0",
+      "title": "Ebola : réouverture de la frontière entre Goma en RDC et Gisenyi au Rwanda",
+      "summary": "La frontière entre la RDC et le Rwanda a rouvert jeudi soir, après plusieurs mois de fermeture liée à l'épidémie d'Ebola",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-04T06:58:11+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/04/ebola-reouverture-de-la-frontiere-entre-goma-en-rdc-et-gisenyi-au-rwanda/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/04/ebola-reouverture-de-la-frontiere-entre-goma-en-rdc-et-gisenyi-au-rwanda/"
         }
       ],
       "confirmation_count": 1
@@ -1213,6 +1274,36 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1809781/politique/elimination-du-senegal-de-la-coupe-du-monde-pape-thiaw-est-il-le-seul-responsable/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "afecb22738",
+      "title": "Argentine – Cap-Vert : un huitième de finale à 684 milliards de dollars d’écart",
+      "summary": "À quelques heures du coup d’envoi du match entre l’Argentine et le Cap-Vert au Stade de Miami, l’affiche entre le tenant du titre la révélation de la phase de groupes s’annonce déséquilibrée sur le papier. Sur le terrain économique, l’écart est encore plus vertigineux.\nDeux poids lourds… très inégaux. D’un côté, une puissance sud-américaine de 46 millions d’habitants, dont le produit intérieur brut est estimé à environ 687 milliards de dollars pour 2026, selon le…",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-03T16:52:55+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/03/argentine-cap-vert-un-huitieme-de-finale-a-684-milliards-de-dollars-decart/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/03/argentine-cap-vert-un-huitieme-de-finale-a-684-milliards-de-dollars-decart/"
         }
       ],
       "confirmation_count": 1
@@ -1764,36 +1855,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "4b4543debd",
-      "title": "Xenophobic attacks: Is South Africa still safe for Africans? (Africanews Debates)",
-      "summary": "Thousands of people have taken part in demonstrations across South Africa calling for tougher action against undocumented migrants, in what some accounts describe as the largest anti-immigration mobilisation in recent years.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-02T10:34:51+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/02/xenophobic-attacks-is-south-africa-still-safe-for-africans-africanews-debates/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/02/xenophobic-attacks-is-south-africa-still-safe-for-africans-africanews-debates/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "a2faa95c55",
       "title": "Mali's War On Civilians Deepens As Alliances Shift, HRW Says",
       "summary": "[RFI] Human Rights Watch (HRW) says the army, allied militias and Islamist armed groups have all committed abuses with impunity since the attacks in northern Mali in April.",
@@ -2010,36 +2071,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "feeeaf803c",
-      "title": "Kenya: un hôtel de luxe dans la réserve Masai Mara continue d'alimenter les polémiques",
-      "summary": "L'hôtel Carlton-Ritz est situé en plein dans la réserve Masai Mara, qui est aussi le lieu de passage de la plus grande migration de mammifère terrestre. Après un premier recours tout juste rejeté contre le projet, des militants kenyans viennent de lancer une nouvelle procédure pour interdire de nouvelles constructions et reconnaitre l'illégalité des bâtiments existants.",
-      "country": "KEN",
-      "category": "INFRASTRUCTURE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-04T05:48:03+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260704-kenya-un-h%C3%B4tel-de-luxe-dans-la-r%C3%A9serve-masai-mara-continue-d-alimenter-les-pol%C3%A9miques"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260704-kenya-un-h%C3%B4tel-de-luxe-dans-la-r%C3%A9serve-masai-mara-continue-d-alimenter-les-pol%C3%A9miques"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2ea7be9ca8",
       "title": "Le président burundais invite des figures de l'opposition pour des consultations sur la crise en RDC",
       "summary": "La Coalition Article 64, qui rassemble plusieurs figures de l'opposition, reporte sa marche pacifique initialement prévue le 8 juillet pour  le 22 juillet. Dans un communiqué publié vendredi, la C64 annonce avoir répondu favorablement à une invitation du président burundais Évariste Ndayishimiye, président en exercice de l'Union africaine, pour des consultations sur la crise politique, sécuritaire et institutionnelle en RDC. Une initiative dont les contours restent encore…",
@@ -2070,6 +2101,66 @@
       "confirmation_count": 1
     },
     {
+      "id": "52dc43d9dd",
+      "title": "Mauritanie : la première centrale à gaz de 230 MW confiée à ACWA Power",
+      "summary": "Le 1er juillet 2026, la Mauritanie et ACWA Power ont signé les accords portant sur la réalisation de la première centrale à gaz du pays. Ce projet constitue une étape majeure dans la valorisation des ressources gazières nationales et la modernisation du système électrique mauritanien.\nLes accords ont été signés en présence de Mohamed Ould Khaled, ministre de l’Énergie et du Pétrole, d’Abdoulahi Ould Souleymane, ministre de l’Économie et du Développement, du ministre des…",
+      "country": "MRT",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-04T04:47:29+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/04/mauritanie-la-premiere-centrale-a-gaz-de-230-mw-confiee-a-acwa-power/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/04/mauritanie-la-premiere-centrale-a-gaz-de-230-mw-confiee-a-acwa-power/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1085ca3433",
+      "title": "Sanlam Maroc et Allianz Maroc obtiennent l’aval de leurs actionnaires pour la fusion-absorption",
+      "summary": "Les actionnaires de Sanlam Maroc et Allianz Maroc ont approuvé le projet de fusion-absorption entre les deux compagnies, à l’issue des assemblées générales extraordinaires tenues le 2 juillet 2026 à Casablanca. Cette décision, annoncée par un communiqué des deux assureurs, marque une nouvelle étape dans leur rapprochement, avec pour objectif la constitution d’un acteur renforcé sur le marché marocain de l’assurance.\nSelon les informations diffusées en amont de…",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": "MA_GOUV",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": true,
+      "published": "2026-07-04T03:15:39+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/04/sanlam-maroc-et-allianz-maroc-obtiennent-laval-de-leurs-actionnaires-pour-la-fusion-absorption/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/04/sanlam-maroc-et-allianz-maroc-obtiennent-laval-de-leurs-actionnaires-pour-la-fusion-absorption/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "5640e9d911",
       "title": "Witia Expands Digital Education Drive With Second Smart Library",
       "summary": "[Capital FM] Nairobi -- Women in Technology and Innovation Africa (WITIA) has expanded its digital education programme with the launch of its second Smart Library in Machakos County.",
@@ -2095,6 +2186,36 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607030469.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "94d88682b6",
+      "title": "Gabon : Prometal investit 38 milliards FCFA dans une usine sidérurgique",
+      "summary": "Le 1er juillet 2026, Prometal Gabon, filiale du conglomérat camerounais Prometal Groupe, basé à Douala, a officiellement lancé la construction d’une usine sidérurgique de 38 milliards de FCFA (près de 66,3 millions USD) dans la Zone économique spéciale (ZES) de Nkok, à Libreville. Cet investissement industriel marque une étape majeure dans la structuration de la filière sidérurgique au sein de la Communauté économique et monétaire de l’Afrique centrale (CEMAC). Cette…",
+      "country": "GAB",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "published": "2026-07-03T15:13:06+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/03/gabon-prometal-investit-38-milliards-fcfa-dans-une-usine-siderurgique/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/03/gabon-prometal-investit-38-milliards-fcfa-dans-une-usine-siderurgique/"
         }
       ],
       "confirmation_count": 1
@@ -2814,36 +2935,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "d1cbf56f21",
-      "title": "RDC : hausse de la contrebande d’or de l’Ituri vers l’Ouganda",
-      "summary": "Selon un rapport de l’ONU, la contrebande d’or depuis la province congolaise de l’Ituri vers l’Ouganda voisin devrait connaître une forte augmentation en 2025.",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-02T12:19:08+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/02/rdc-hausse-de-la-contrebande-dor-de-lituri-vers-louganda/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/02/rdc-hausse-de-la-contrebande-dor-de-lituri-vers-louganda/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "aca0be2e66",
       "title": "Senegal MPs Pass Reform Limiting Presidential Powers",
       "summary": "[allAfrica] The parliament has approved controversial constitutional reforms that expand lawmakers' powers while limiting those of the president, deepening a growing rift between President Bassirou Diomaye Faye and parliamentary Speaker Ousmane Sonko.",
@@ -2904,6 +2995,66 @@
       "confirmation_count": 1
     },
     {
+      "id": "2e2c8e928f",
+      "title": "Gabon: le Festival international des sports extrêmes régale les Librevillois",
+      "summary": "La quatrième édition du Festival international des sports extrêmes (FISE) bat son plein. Ouvert, vendredi 3 juin, à la « Baise des rois » sur le front de mer de Libreville, le festival a atteint, samedi, sa vitesse de croisière, avant la tombée des rideaux, ce dimanche 5 juillet. L’événement réunit les meilleurs athlètes de sports extrêmes (roller, skateboard, BMX) pour des compétitions et des shows spectaculaires.",
+      "country": "GAB",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-05T12:48:27+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260705-gabon-le-festival-international-des-sports-extr%C3%AAmes-r%C3%A9gale-les-librevillois"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260705-gabon-le-festival-international-des-sports-extr%C3%AAmes-r%C3%A9gale-les-librevillois"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b566a66393",
+      "title": "En Ouganda, le nouveau gouvernement Museveni à l’ombre du fils Muhoozi",
+      "summary": "Des proches de son fils aux octogénaires fidèles, en passant par les enfants de puissantes familles, le président ougandais a dévoilé un gouvernement de 81 ministres, qui l’accompagnera jusqu’en 2031.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-05T12:15:00+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1809262/politique/en-ouganda-le-nouveau-gouvernement-museveni-a-lombre-du-fils-muhoozi/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1809262/politique/en-ouganda-le-nouveau-gouvernement-museveni-a-lombre-du-fils-muhoozi/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "13cbed7d45",
       "title": "As Tanzania’s crisis bites, President Samia closes ranks",
       "summary": "Fighting off western sanctions, President Samia Suluhu Hassan is promoting ultra-loyalists and discarding moderates in the new power elite.",
@@ -2959,6 +3110,36 @@
           "name": "Al Jazeera",
           "tier": 1,
           "url": "https://www.aljazeera.com/video/the-listening-post/2026/7/5/how-xenophobia-went-viral-in-south-africa?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5c0fe9b255",
+      "title": "Maroc, CGEM : le grand ménage de Tazi – les  nouveaux visages d’un patronat en révolution",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-05T08:53:28+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/05/maroc-cgem-le-grand-menage-de-tazi-les-nouveaux-visages-dun-patronat-en-revolution/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/05/maroc-cgem-le-grand-menage-de-tazi-les-nouveaux-visages-dun-patronat-en-revolution/"
         }
       ],
       "confirmation_count": 1
@@ -3114,6 +3295,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "12e1ff3aeb",
+      "title": "Banque mondiale : l’Ivoirien Sylvain Kakou nommé Senior Country Manager pour le Gabon",
+      "summary": "Le groupe Banque mondiale a nommé l’économiste ivoirien Sylvain Kakou au poste de Senior Country Manager pour le Gabon, une fonction qu’il occupe officiellement depuis le 1er juillet 2026 à Libreville. À ce poste, il est appelé à piloter les opérations unifiées de l’institution dans le pays, en coordonnant l’action des entités du groupe dans le pays.\nAvant cette nomination, Sylvain Kakou exerçait depuis août 2023 comme gestionnaire principal de la Société financière…",
+      "country": "CIV",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-05T07:22:53+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/05/banque-mondiale-livoirien-sylvain-kakou-nomme-senior-country-manager-pour-le-gabon/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/05/banque-mondiale-livoirien-sylvain-kakou-nomme-senior-country-manager-pour-le-gabon/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "51ebeec96e",
       "title": "En Guinée, l’autisme condamne les familles à l’isolement",
       "summary": "Faute de statistiques officielles et de politique publique dédiée, l'autisme reste largement méconnu en Guinée",
@@ -3259,6 +3470,36 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/sport/football/articles/cy4e22gqe50o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b209f6545f",
+      "title": "Mauritanie : « Le déficit commercial de 400 millions de dollars est essentiellement conjoncturel », selon Mohamed Lemine Vayda",
+      "summary": "En marge d’une intervention consacrée aux enjeux du commerce extérieur, Mohamed Lemine Vayda, directeur du Commerce extérieur au ministère mauritanien du Commerce et du Tourisme, a apporté un éclairage sur la structure des échanges du pays et la lecture qu’il convient de faire de ses indicateurs commerciaux.\nPour le responsable mauritanien, la notion de commerce ne saurait être réduite aux seules transactions de marchandises. « Le commerce est un terme polysémique »,…",
+      "country": "MRT",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-04T18:48:28+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/04/mauritanie-le-deficit-commercial-de-400-millions-de-dollars-est-essentiellement-conjoncturel-selon-mohamed-lemine-vayda/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/04/mauritanie-le-deficit-commercial-de-400-millions-de-dollars-est-essentiellement-conjoncturel-selon-mohamed-lemine-vayda/"
         }
       ],
       "confirmation_count": 1
@@ -3714,6 +3955,66 @@
       "confirmation_count": 1
     },
     {
+      "id": "c032fd5c55",
+      "title": "Match économique : Colombie – Ghana, l’autre 16e de finale qui oppose la taille à l’élan",
+      "summary": "À première vue, le match paraît déséquilibré. La Colombie évolue dans une autre catégorie par la masse : son PIB atteint 457,4 milliards de dollars en 2025, contre 114,2 milliards pour le Ghana. Le revenu par habitant raconte la même hiérarchie, avec 8.561 dollars côté colombien contre 3.257 dollars côté ghanéen. Même en population, Bogota conserve l’avantage, avec 53,4 millions d’habitants contre 35,1 millions. Sur la photo de groupe des agrégats, la Colombie reste donc…",
+      "country": "GHA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-03T19:52:15+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/03/match-economique-colombie-ghana-lautre-16e-de-finale-qui-oppose-la-taille-a-lelan/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/03/match-economique-colombie-ghana-lautre-16e-de-finale-qui-oppose-la-taille-a-lelan/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "714ea6c94d",
+      "title": "Burkina Faso : création de CIM-SAHEL, nouvelle cimenterie publique-privée",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "BFA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-03T18:23:10+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/03/burkina-faso-creation-de-cim-sahel-nouvelle-cimenterie-publique-privee/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/03/burkina-faso-creation-de-cim-sahel-nouvelle-cimenterie-publique-privee/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "343c3aa5a7",
       "title": "The friends who drove from Ghana to the World Cup",
       "summary": "Six fans of the Black Stars are living proof of how football can drive supporters to extreme lengths to follow their team.",
@@ -3739,6 +4040,66 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/sport/football/videos/cvgmz5jnr37o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d6a22bf8da",
+      "title": "Cameroun : Danpullo entend investir l’équivalent de 92% de sa fortune dans le transport aérien",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-03T16:56:59+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/03/cameroun-danpullo-entend-investir-lequivalent-de-92-de-sa-fortune-dans-le-transport-aerien/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/03/cameroun-danpullo-entend-investir-lequivalent-de-92-de-sa-fortune-dans-le-transport-aerien/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "843ef40cea",
+      "title": "REGIONAL HEALTH INVEST FORUM 2026« Renforcer le commerce et l’investissement intra-OCI dans le secteur pharmaceutique : de la stratégie à l’action »",
+      "summary": "Par Dia El Hadj ibrahima –\nLes 13 et 14 juillet 2026, au Centre International de Conférences Moktar Ould Daddah à Nouakchott, capitale de la République islamique de Mauritanie, se tiendra le Regional Health Invest Forum 2026, organisé par le Centre Islamique pour le Développement du Commerce (CIDC), le Ministère mauritanien de la Santé, l’Organisation mondiale de la Santé (OMS) et l’Agence de Promotion des Investissements en Mauritanie (APIM). Cette rencontre…",
+      "country": "MRT",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-03T16:56:25+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/03/regional-health-invest-forum-2026-renforcer-le-commerce-et-linvestissement-intra-oci-dans-le-secteur-pharmaceutique-de-la-strategie-a-laction/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/03/regional-health-invest-forum-2026-renforcer-le-commerce-et-linvestissement-intra-oci-dans-le-secteur-pharmaceutique-de-la-strategie-a-laction/"
         }
       ],
       "confirmation_count": 1
@@ -4309,6 +4670,36 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607030417.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "06234d4399",
+      "title": "Cameroun : le gouvernement retire une cinquantaine de permis de recherche d’or",
+      "summary": "Dans un communiqué de presse rendu public le 30 juin 2026, le ministre des Mines, de l’Industrie et du Développement technologique (Minmidt), Fuh Calistus Gentry, a officiellement retiré 53 permis de recherche d’or pour « non-conformité au Code minier ». « Cette décision marque une étape clé dans la reprise en main d’un secteur longtemps caractérisé par des pratiques opaques », indique un cadre du Minmidt. Elle s’inscrit dans une stratégie plus large d’assainissement et…",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-07-03T15:13:10+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/03/cameroun-le-gouvernement-retire-une-cinquantaine-de-permis-de-recherche-dor/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/03/cameroun-le-gouvernement-retire-une-cinquantaine-de-permis-de-recherche-dor/"
         }
       ],
       "confirmation_count": 1
@@ -6174,36 +6565,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "d4776921ba",
-      "title": "KRA Destroys Illicit Goods Worth Sh218mn in Crackdown",
-      "summary": "[Capital FM] Nairobi -- The Kenya Revenue Authority (KRA), working with other government agencies, has destroyed contraband goods worth Sh218 million seized during enforcement operations in Nairobi and the Coast region.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-02T14:06:47+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607020535.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607020535.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "9c043fd3fc",
       "title": "Des Malawites dénoncent des violences xénophobes en Afrique du Sud",
       "summary": "Après plusieurs jours de manifestations et de violences, un retour au calme a été constaté en Afrique du Sud. Ces derniers mois, des violences xénophobes ont éclaté dans le pays, menées par des groupes de citoyens exigeant le départ des étrangers du pays. 25 000 d’entre eux ont déjà quitté le pays et sont rentrés chez eux au Zimbabwe, Mozambique, Ghana, Nigeria... ou encore au Malawi, où nous emmène Héloïse Mélan.",
@@ -6294,66 +6655,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3e6aa17e3e",
-      "title": "New UN report links Joseph Kabila more closely to AFC/M23",
-      "summary": "A new United Nations Group of Experts report paints the clearest picture yet of the AFC/M23’s military strength and political ambitions in eastern Democratic Republic of the Congo, while highlighting the movement’s increasingly close ties with former President Joseph Kabila.",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-02T12:21:50+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/02/new-un-report-links-joseph-kabila-more-closely-to-afcm23/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/02/new-un-report-links-joseph-kabila-more-closely-to-afcm23/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c99f4fd20f",
-      "title": "RDC : l'ONU évalue les effectifs de l'AFC/M23 et ses liens avec Kabila",
-      "summary": "Un nouveau rapport du Groupe d’experts des Nations unies dresse le tableau le plus précis à ce jour de la puissance militaire et des ambitions politiques de l’AFC/M23 dans l’est de la RDC, tout en soulignant les liens de plus en plus étroits entre ce mouvement et l’ex-président Joseph Kabila.",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-02T12:07:53+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/02/rdc-lonu-evalue-les-effectifs-de-lafcm23-et-ses-liens-avec-joseph-kabila/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/02/rdc-lonu-evalue-les-effectifs-de-lafcm23-et-ses-liens-avec-joseph-kabila/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "7bc59b6c52",
       "title": "At least 16 arrested as Niger expands anti-LGBTQ measures",
       "summary": "Nigerian authorities have arrested at least 16 people following the introduction of harsh new penalties for same-sex sexual relations, marking a significant escalation in the country's stance on LGBTQ rights.",
@@ -6439,6 +6740,36 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607020395.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7585ad64b7",
+      "title": "Govt to Receive Sh200bn Safaricom Sale Proceeds Tomorrow",
+      "summary": "[Capital FM] Nairobi -- National Treasury Cabinet Secretary John Mbadi says the government expects to receive more than Sh200 billion on Friday from the sale of its 15 percent stake in Safaricom to South Africa's Vodacom.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "published": "2026-07-02T11:04:39+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607020393.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607020393.html"
         }
       ],
       "confirmation_count": 1
@@ -6649,36 +6980,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1808709/politique/maroc-etats-unis-250-ans-dalliance-au-service-dinterets-bien-calcules/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bd636105a0",
-      "title": "De la finance à la minoterie, les ambitions contrariées de Yariv Elbaz au Maroc",
-      "summary": "Il voulait en faire « un champion africain » mais aujourd’hui, Yariv Elbaz a perdu le contrôle du géant marocain de la minoterie, Forafric. Jeune Afrique retrace l’itinéraire de cet homme d’affaires qui fut rattrapé par les réalités du marché et les contraintes financières.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-01T18:15:22+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1807291/economie-entreprises/de-la-finance-a-la-minoterie-les-ambitions-contrariees-de-yariv-elbaz-au-maroc/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1807291/economie-entreprises/de-la-finance-a-la-minoterie-les-ambitions-contrariees-de-yariv-elbaz-au-maroc/"
         }
       ],
       "confirmation_count": 1
