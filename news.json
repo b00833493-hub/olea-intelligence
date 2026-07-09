@@ -1,36 +1,34 @@
 {
-  "generated_at": "2026-07-09T08:53:13.994878+00:00",
+  "generated_at": "2026-07-09T12:15:04.648036+00:00",
   "stats": {
-    "total_signals": 247,
-    "verified_signals": 3,
-    "countries_covered": 26,
+    "total_signals": 251,
+    "verified_signals": 5,
+    "countries_covered": 24,
     "sources_active": 16,
     "per_country": {
-      "COD": 14,
-      "KEN": 44,
+      "NGA": 38,
+      "MAR": 28,
+      "KEN": 43,
       "UGA": 4,
       "TZA": 4,
-      "NGA": 36,
-      "MDG": 1,
+      "COD": 14,
       "ZAF": 7,
-      "ETH": 4,
-      "MLI": 23,
-      "CIV": 21,
-      "MAR": 25,
+      "ETH": 3,
+      "MLI": 24,
+      "CIV": 25,
       "CAF": 5,
-      "GIN": 7,
+      "GIN": 5,
       "ZWE": 9,
-      "GHA": 4,
+      "GHA": 5,
+      "MDG": 1,
+      "SEN": 15,
+      "CMR": 5,
       "NER": 2,
-      "SEN": 18,
-      "CMR": 4,
-      "BFA": 3,
-      "DZA": 2,
-      "TUN": 2,
+      "BFA": 4,
+      "DZA": 1,
+      "TUN": 4,
       "BEN": 3,
-      "AGO": 2,
-      "BWA": 1,
-      "MRT": 1,
+      "AGO": 1,
       "SLE": 1
     }
   },
@@ -134,11 +132,11 @@
   ],
   "signals": [
     {
-      "id": "daeb19cc29",
-      "title": "Confirmed Ebola deaths in DR Congo hit 600",
-      "summary": "The number of deaths comes as healthcare workers threaten to walk off the job over a delay in payments.",
-      "country": "COD",
-      "category": "SANTE",
+      "id": "421b7342b0",
+      "title": "Oyo Abduction - Bandits Threaten to Kill Pupils If Troops Advance - Defence Minister",
+      "summary": "[Vanguard] The Minister of Defence, Christopher Musa, has revealed that the bandits holding abducted pupils and teachers from schools in Oyo State have threatened to kill the victims if security forces attempt a rescue operation.",
+      "country": "NGA",
+      "category": "AUTRE",
       "severity": 4,
       "credibility": 2,
       "verified": false,
@@ -146,22 +144,58 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "published": "2026-07-09T01:48:42+00:00",
+      "published": "2026-07-09T10:26:54+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090193.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090193.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3938746579",
+      "title": "Fireworks as Morocco and France fans party ahead of World Cup match",
+      "summary": "Fireworks as Morocco and France fans party ahead of World Cup match",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T08:30:42+00:00",
       "lead_source": {
         "id": "aljazeera",
         "name": "Al Jazeera",
         "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/7/9/confirmed-ebola-deaths-in-dr-congo-hit-600?traffic_source=rss"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/9/fireworks-as-morocco-and-france-fans-party-ahead-of-world-cup-match?traffic_source=rss"
       },
       "confirming_sources": [
         {
           "id": "aljazeera",
           "name": "Al Jazeera",
           "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/7/9/confirmed-ebola-deaths-in-dr-congo-hit-600?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/9/fireworks-as-morocco-and-france-fans-party-ahead-of-world-cup-match?traffic_source=rss"
+        },
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/09/world-cup-fans-hopeful-but-wary-ahead-of-morocco-france-quarterfinal/"
         }
       ],
-      "confirmation_count": 1
+      "confirmation_count": 2
     },
     {
       "id": "ad63c5306c",
@@ -314,66 +348,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "da46535acd",
-      "title": "Police Kill Two Suspected Kidnappers, Hunt Five Others After Highway Gun Battle in Ondo",
-      "summary": "[Premium Times] Two of the suspected kidnappers were killed during the exchange, while five others escaped into nearby bushes with suspected gunshot wounds.",
-      "country": "NGA",
-      "category": "INFRASTRUCTURE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T10:59:27+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080337.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080337.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1516ac9e8c",
-      "title": "Madagascar: le gouvernement promet d’«en finir» avec des vagues d'assassinats et de disparitions relayés sur Internet",
-      "summary": "Les autorités malgaches ont décidé d'employer la manière forte face à la multiplication des disparitions et assassinats – en particulier d’enfants – rapportés ces dernières semaines sur les réseaux sociaux : 172 disparitions recensées, dont plusieurs personnes retrouvées mortes. Alors que la psychose gagne du terrain à Antananarivo, la présidence a annoncé, mardi 7 juillet, le déploiement immédiat de la garde présidentielle et de 400 éléments des forces de défense et de…",
-      "country": "MDG",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T10:19:21+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260708-madagascar-le-gouvernement-promet-d-en-finir-avec-des-vagues-d-assassinats-et-de-disparitions-relay%C3%A9s-sur-internet"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260708-madagascar-le-gouvernement-promet-d-en-finir-avec-des-vagues-d-assassinats-et-de-disparitions-relay%C3%A9s-sur-internet"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0b2c6bb77e",
       "title": "South Africa arrests over 200 in illegal mining crackdown",
       "summary": "South African security forces have arrested more than 200 people, most of them undocumented foreign nationals, in a major raid targeting illegal mining. The operation took place on Tuesday at a gold mine shaft west of Johannesburg.",
@@ -399,36 +373,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/08/south-africa-arrests-over-200-in-illegal-mining-crackdown/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c87e7cf97a",
-      "title": "One Killed, Another Injured in Farmers-Herders Clash in Niger Community",
-      "summary": "[Premium Times] A dispute over alleged destruction of farmland by grazing cattle has left one person dead and another injured",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T08:58:23+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080143.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080143.html"
         }
       ],
       "confirmation_count": 1
@@ -519,36 +463,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/07/nigerian-medical-student-killed-in-russian-strike-days-before-graduation/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1f569f99a6",
-      "title": "Kenya crushes Saba Saba march in latest crackdown on dissent",
-      "summary": "Kenyan police blocked a planned Saba Saba Day march in Nairobi on Tuesday, detaining protesters and sealing off the capital as President William Ruto's government intensified its crackdown on dissent amid lingering anger over police violence, economic hardship and shrinking civic freedoms.",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-07T12:16:43+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/07/kenya-crushes-saba-saba-march-in-latest-crackdown-on-dissent/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/07/kenya-crushes-saba-saba-march-in-latest-crackdown-on-dissent/"
         }
       ],
       "confirmation_count": 1
@@ -764,6 +678,66 @@
       "confirmation_count": 1
     },
     {
+      "id": "4c2f9e9dfb",
+      "title": "High Court Orders ODPP to Pay Advocate Sh6.9mn Over Dusitd2 Terror Prosecution",
+      "summary": "[Capital FM] Nairobi -- The High Court has ordered the Office of the Director of Public Prosecutions (ODPP) to pay advocate Abdinoor Maalim Ismail Sh6.9 million in damages after finding that he was prosecuted without sufficient evidence in connection with the 2019 DusitD2 terror attack.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T11:07:45+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090243.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090243.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "803a2b4ba4",
+      "title": "Ebola en RDC : des soignants en grève pour des questions salariales",
+      "summary": "En République démocratique du Congo, les professionnels de santé en première ligne face à l’épidémie d’Ebola  débrayent pour protester contre les retards de paiement de leurs salaires.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:35:28+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/08/ebola-en-rdc-les-soignants-entrent-en-greve-pour-des-questions-salariales/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/08/ebola-en-rdc-les-soignants-entrent-en-greve-pour-des-questions-salariales/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "bdaa519a95",
       "title": "Student Injured By Stray Bullet During Chaos At Gatundu North Public Event",
       "summary": "[Capital FM] Nairobi -- A student from St Francis Girls High School Mang'u was injured after being struck by a stray bullet during chaos that erupted at a public event in Mang'u, Gatundu North Sub-County.",
@@ -819,36 +793,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607090024.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "be02a33e0d",
-      "title": "Morocco dealt huge blow as injured Saibari out of World Cup quarterfinal",
-      "summary": "Ismael Saibari will miss the match against France in Boston due to a hamstring injury sustained last week.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T00:51:48+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/sports/2026/7/9/morocco-dealt-huge-blow-as-injured-saibari-out-of-world-cup-quarterfinal?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/sports/2026/7/9/morocco-dealt-huge-blow-as-injured-saibari-out-of-world-cup-quarterfinal?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -939,36 +883,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607080719.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "601a8eeceb",
-      "title": "Ebola en RDC : les soignants entrent en grève pour des questions salariales",
-      "summary": "En République démocratique du Congo, les professionnels de santé en première ligne face à l’épidémie d’Ebola  débrayent pour protester contre les retards de paiement de leurs salaires.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T17:44:36+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/08/ebola-en-rdc-les-soignants-entrent-en-greve-pour-des-questions-salariales/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/08/ebola-en-rdc-les-soignants-entrent-en-greve-pour-des-questions-salariales/"
         }
       ],
       "confirmation_count": 1
@@ -1094,36 +1008,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "32e43a9c6f",
-      "title": "Bandit Attacks On Niger, Kaduna Farming Communities Threaten Food Production",
-      "summary": "[Premium Times] For rural communities, avoiding the fields is not an option as farming is not just a profession; it is the sole means of survival.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T10:32:51+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080269.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080269.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "af4c6142c7",
       "title": "MINUSCA steps up security after attack on northern CAR base",
       "summary": "The United Nations mission in the Central African Republic (MINUSCA) is stepping up security at its base in the northeastern town of Am Dafock, following an attack there last month.",
@@ -1149,36 +1033,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/08/minusca-steps-up-security-after-attack-on-northern-car-base/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "53a04a3ff5",
-      "title": "Foreign Office Summons South Sudan Envoy Over Blocked Consular Access to Detained Kenyan",
-      "summary": "[Capital FM] Nairobi -- Kenya has summoned South Sudan's diplomatic mission in Nairobi over the continued mistreatment of its citizens, citing the eight-month detention without charge of Kenyan Timothy Maina Nderi, denial of consular access, and escalating attacks on Kenyan truck drivers operating in the neighboring country.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T08:53:35+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080131.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080131.html"
         }
       ],
       "confirmation_count": 1
@@ -1484,36 +1338,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "6f0dc9a8f2",
-      "title": "Mali : ce que l’on sait des combats pour le contrôle de la ville d’Anéfis",
-      "summary": "Les attaques lancées samedi 4 juillet par le FLA et le Jnim sur plusieurs villes maliennes ont été repoussées, mais les combats continuent de faire rage pour le contrôle de la ville stratégique d’Anéfis.",
-      "country": "MLI",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-06T12:51:46+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1809907/politique/mali-ce-que-lon-sait-des-combats-pour-le-controle-de-la-ville-danefis/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1809907/politique/mali-ce-que-lon-sait-des-combats-pour-le-controle-de-la-ville-danefis/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "9bec56dd9b",
       "title": "Ounahi Fires Morocco Into Historic Second Straight World Cup Quarter-Final",
       "summary": "[CAF] Morocco became the first African nation to reach the World Cup quarter-finals more than once after beating co-hosts Canada 3-0 in Houston on Saturday.",
@@ -1809,6 +1633,192 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202606300136.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5f05252928",
+      "title": "Côte d'Ivoire: 80 milliards de dollars promis par les partenaires pour le Plan national de développement",
+      "summary": "La Côte d’Ivoire est en quête de financements pour son nouveau Plan national de développement (PND). Objectif : mobiliser plus de 114 000 milliards de francs CFA sur les cinq prochaines années. Réunis le 8 juillet 2026 à Abidjan, partenaires techniques, bailleurs de fonds et investisseurs ont déjà annoncé plusieurs engagements dès la première journée de réunion du groupe consultatif.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T12:02:33+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260709-c%C3%B4te-d-ivoire-80-milliards-de-dollars-promis-par-des-partenaires-pour-financer-le-plan-national-de-d%C3%A9veloppement"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260709-c%C3%B4te-d-ivoire-80-milliards-de-dollars-promis-par-des-partenaires-pour-financer-le-plan-national-de-d%C3%A9veloppement"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "980c1aadab",
+      "title": "Madagascar: le gouvernement promet d’«en finir» avec des vagues d'assassinats",
+      "summary": "🇲🇬A Madagascar, 172 cas de disparitions ont été recensés, selon le bilan de la police nationale. Face à cette situation, le gouvernement a déployé 400 forces de sécurité dans la capitale.",
+      "country": "MDG",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T11:25:37+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260709-madagascar-le-gouvernement-promet-d-en-finir-avec-des-vagues-d-assassinats"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260709-madagascar-le-gouvernement-promet-d-en-finir-avec-des-vagues-d-assassinats"
+        },
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260708-madagascar-le-gouvernement-promet-d-en-finir-avec-des-vagues-d-assassinats-et-de-disparitions-relay%C3%A9s-sur-internet"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "278a952289",
+      "title": "Collateral Consequences of Tinubu's Healthcare Reforms",
+      "summary": "[Premium Times] The significance of the reforms extend well beyond governance.",
+      "country": "NGA",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:47:52+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090203.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090203.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6f60026acc",
+      "title": "Sénégal : le président Diomaye Faye a saisi le Conseil constitutionnel",
+      "summary": "🇸🇳 Au Sénégal, nouvelles dissensions entre Bassirou Diomaye Faye et le Pastef. Le chef de l'État a saisi le Conseil constitutionnel au sujet de la réforme de la Constitution adoptée le 29 juin par l'Assemblée nationale. Cette réforme réduit les pouvoirs du chef de l'Etat tout en renforçant ceux de l'Assemblée.",
+      "country": "SEN",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:36:47+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260709-s%C3%A9n%C3%A9gal-le-pr%C3%A9sident-diomaye-faye-a-saisi-le-conseil-constitutionnel"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260709-s%C3%A9n%C3%A9gal-le-pr%C3%A9sident-diomaye-faye-a-saisi-le-conseil-constitutionnel"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ddf44fd8a6",
+      "title": "IEBC Launches Probe Into Alleged Bribery, Violence and Campaign Malpractices in Ol Kalou By-Election",
+      "summary": "[Capital FM] Nairobi -- The Independent Electoral and Boundaries Commission (IEBC) has dispatched investigation teams to Ol Kalou to probe a series of allegations surrounding the ongoing by-election campaign, including voter bribery, illegal late-night campaigns, violence and the presence of suspected criminal gangs in the constituency.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:27:18+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090195.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090195.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d344dc143a",
+      "title": "Cameroun: Trois militants du MRC contestent la légitimité de Maurice Kamto à la tête du parti d’opposition",
+      "summary": "Trois militants contestent en justice la légitimité de Maurice Kamto à la tête du Mouvement pour la renaissance du Cameroun (MRC), un parti d'opposition. Une audience est prévue ce jeudi 9 juillet à Yaoundé. De son côté, la formation a annoncé l’exclusion de l’un des plaignants.",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:06:42+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260709-cameroun-trois-militants-du-mrc-contestent-la-l%C3%A9gitimit%C3%A9-de-maurice-kamto-%C3%A0-la-t%C3%AAte-du-parti-d-opposition"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260709-cameroun-trois-militants-du-mrc-contestent-la-l%C3%A9gitimit%C3%A9-de-maurice-kamto-%C3%A0-la-t%C3%AAte-du-parti-d-opposition"
         }
       ],
       "confirmation_count": 1
@@ -2110,7 +2120,7 @@
     {
       "id": "59cb8d0110",
       "title": "France: la demande d’asile du lanceur d’alerte centrafricain Ephrem Yalike a été rejetée",
-      "summary": "Le journaliste Ephrem Yalike vient de voir sa demande d’asile rejetée par l’administration française. Un appel va être déposé aujourd’hui François Mazet.",
+      "summary": "Ephrem Yalike vient de voir sa demande d’asile rejetée par l’administration française. Un appel va être déposé aujourd’hui. Ce journaliste a permis fin 2024 de documenter les ressorts de la machine de propagande russe en Centrafrique, entre violence, corruption et diffusion de fausses informations",
       "country": "CAF",
       "category": "AUTRE",
       "severity": 2,
@@ -2133,36 +2143,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/france/20260708-france-la-demande-d-asile-du-lanceur-d-alerte-centrafricain-ephrem-yalike-a-%C3%A9t%C3%A9-rejet%C3%A9e"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8ef3ec69b7",
-      "title": "Sénégal : le président Diomaye Faye saisi le Conseil constitutionnel",
-      "summary": "Au Sénégal, nouvelle dissension entre Bassirou Diomaye Faye et le Pastef. Le président de la République a saisi le Conseil constitutionnel sur la réforme de la Constitution adoptée le 29 juin par l'Assemblée nationale. Cette réforme réduit les pouvoirs du chef de l'État tout en renforçant ceux de l'Assemblée.",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T21:24:14+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260708-s%C3%A9n%C3%A9gal-le-pr%C3%A9sident-diomaye-faye-saisi-le-conseil-constitutionnel"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260708-s%C3%A9n%C3%A9gal-le-pr%C3%A9sident-diomaye-faye-saisi-le-conseil-constitutionnel"
         }
       ],
       "confirmation_count": 1
@@ -2193,96 +2173,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607080531.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "923b20bb5d",
-      "title": "Dele Oye's Alliance Seeks Single-Digit Loans, Commends Boi's Impact-Driven Lending",
-      "summary": "[This Day] Abuja -- The Alliance for Economic Research and Ethics Ltd/GTE has called for sweeping policy reforms to revive Nigeria's struggling manufacturing sector, arguing that although the Bank of Industry's (BOI) record N644.9 billion disbursement in 2025 marked a significant milestone, it remains insufficient to drive the country's industrial transformation.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T11:55:36+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080455.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080455.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1cfb310609",
-      "title": "Over 202,000 Students Secure University Degree Placements",
-      "summary": "[Capital FM] Nairobi -- More than 202,000 students who qualified for university admission have secured degree placements for the 2026/2027 academic year, Education Cabinet Secretary Julius Ogamba has announced.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T11:35:50+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080398.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080398.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e2d802cd1a",
-      "title": "CS Ogamba Announces University Placements, Extends Kuccps Transfer Window",
-      "summary": "[Capital FM] Nairobi -- Education Cabinet Secretary Julius Migos Ogamba has officially released the 2026/2027 university and college placement results, paving the way for thousands of students who sat the 2025 Kenya Certificate of Secondary Education (KCSE) examination to join institutions of higher learning.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T10:55:24+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080311.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080311.html"
         }
       ],
       "confirmation_count": 1
@@ -2408,96 +2298,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ff336ff960",
-      "title": "Maroc: l'archevêque de Rabat se met en retrait après des accusations de violences sexuelles",
-      "summary": "Au Maroc, l’archevêque de Rabat a annoncé mardi se mettre en retrait. Cristobal Lopez Romero est accusé de violences sexuelles par plusieurs femmes. Le Vatican a ouvert une enquête. Le prélat espagnol nie avoir commis toute « agression ».",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T00:38:27+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260708-maroc-l-archev%C3%AAque-de-rabat-se-met-en-retrait-apr%C3%A8s-des-accusations-de-violences-sexuelles"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260708-maroc-l-archev%C3%AAque-de-rabat-se-met-en-retrait-apr%C3%A8s-des-accusations-de-violences-sexuelles"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f03a6219f6",
-      "title": "Guinée-Bissau: le référendum sur la réforme constitutionnelle aura lieu le 30 août",
-      "summary": "En Guinée-Bissau, la junte au pouvoir a fixé le référendum constitutionnel au 30 août. Cette révision de la Constitution intervient à cinq mois du scrutin présidentiel fixé par les militaires et censé aboutir à une transition civile.",
-      "country": "GIN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-07T21:41:59+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260707-guin%C3%A9e-bissau-le-r%C3%A9f%C3%A9rendum-sur-la-r%C3%A9forme-constitutionnelle-aura-lieu-le-30-ao%C3%BBt"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260707-guin%C3%A9e-bissau-le-r%C3%A9f%C3%A9rendum-sur-la-r%C3%A9forme-constitutionnelle-aura-lieu-le-30-ao%C3%BBt"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cf38fdf71d",
-      "title": "Au Sénégal, le président saisit le Conseil constitutionnel sur la réforme de la Constitution",
-      "summary": "La réforme de la Constitution sénégalaise, adoptée le 29 juin dernier au terme d’une session houleuse, viole-t-elle la Constitution ? C’est la question que pose le chef de l’État Bassirou Diomaye Faye, qui a saisi le Conseil constitutionnel lundi  6 juillet, pour « violation de la procédure de révision constitutionnelle ».",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-07T19:28:35+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260707-au-s%C3%A9n%C3%A9gal-le-pr%C3%A9sident-saisit-le-conseil-constitutionnel-sur-la-r%C3%A9forme-de-la-constitution"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260707-au-s%C3%A9n%C3%A9gal-le-pr%C3%A9sident-saisit-le-conseil-constitutionnel-sur-la-r%C3%A9forme-de-la-constitution"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "cbcdc6ac6d",
       "title": "Zimbabwe's Mnangagwa signs law extending presidency to 2030",
       "summary": "Zimbabwean President Emmerson Mnangagwa has signed into law constitutional changes extending his time in office to 2030. The legislation, approved by Parliament last month, also introduces a provision allowing future presidents to be elected by lawmakers instead of a direct public vote.",
@@ -2613,36 +2413,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260707-burkina-faso-la-france-retire-ses-diplomates-apr%C3%A8s-la-rupture-annonc%C3%A9e-par-ouaga"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5ddaa3e8dc",
-      "title": "Sénégal : Bassirou Diomaye Faye va lancer son propre parti politique",
-      "summary": "Jusqu'à présent, Bassirou Diomaye Faye était membre du Pastef, le parti au pouvoir dirigé par Ousmane Sonko, qui occupait le poste de Premier ministre. Il a été limogé en mai dernier, mettant fin à plusieurs mois de désaccord et de pics indirects entre les deux anciens partenaires.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-07T08:50:26+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/06/senegal-bassirou-diomaye-faye-va-lancer-son-propre-parti-politique/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/06/senegal-bassirou-diomaye-faye-va-lancer-son-propre-parti-politique/"
         }
       ],
       "confirmation_count": 1
@@ -2864,6 +2634,1026 @@
       "confirmation_count": 1
     },
     {
+      "id": "d5c52f6c13",
+      "title": "Au Maroc, le PJD et Al Adl Wal Ihsane ravivent leur querelle sur l’utilité des élections",
+      "summary": "Le désaccord entre le PJD et Al Adl Wal Ihsane sur la participation aux élections refait surface à l’occasion de la campagne pour les législatives de septembre. Mais la question, qui divise l’islam politique marocain depuis des décennies, n’a toujours pas été tranchée.",
+      "country": "MAR",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T12:56:07+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1810855/politique/au-maroc-le-pjd-et-al-adl-wal-ihsane-ravivent-leur-querelle-sur-lutilite-des-elections/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1810855/politique/au-maroc-le-pjd-et-al-adl-wal-ihsane-ravivent-leur-querelle-sur-lutilite-des-elections/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0309205e47",
+      "title": "10 choses à savoir sur Emmanuel Assiak, nouveau patron de la filiale d’investissement d’Afreximbank",
+      "summary": "Le Nigérian Emmanuel Assiak prend officiellement la tête du Feda, filiale de la Banque africaine d’import-export. Objectif de ce capital-investisseur aguerri : dynamiser le commerce intra-africain.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "published": "2026-07-09T12:30:00+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1808781/economie-entreprises/10-choses-a-savoir-sur-emmanuel-assiak-nouveau-patron-de-la-filiale-dinvestissement-dafreximbank/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1808781/economie-entreprises/10-choses-a-savoir-sur-emmanuel-assiak-nouveau-patron-de-la-filiale-dinvestissement-dafreximbank/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f7495d1bf6",
+      "title": "Dialogue en RDC : Évariste Ndayishimiye est-il un médiateur crédible ?",
+      "summary": "Plusieurs représentants de l’opposition et des Églises congolaises ont été reçus le 6 juillet à Bujumbura par le président en exercice de l’Union africaine. Le principal allié militaire de Félix Tshisekedi peut-il être l’homme du consensus ?",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T12:03:38+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1810660/politique/dialogue-en-rdc-evariste-ndayishimiye-est-il-un-mediateur-credible/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1810660/politique/dialogue-en-rdc-evariste-ndayishimiye-est-il-un-mediateur-credible/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a370ce7ff7",
+      "title": "Diezani steps up bid to reclaim Nigerian assets after UK acquittal",
+      "summary": "Fresh from her acquittal on bribery charges in Britain, Nigeria’s former petroleum minister Diezani Alison-Madueke is seeking to recover assets seized and auctioned by the country’s anti-corruption agency during her decade-long legal battle abroad.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T12:00:00+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/424557/diezani-steps-up-bid-to-reclaim-nigerian-assets-after-uk-acquittal/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/424557/diezani-steps-up-bid-to-reclaim-nigerian-assets-after-uk-acquittal/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "681fa6b47e",
+      "title": "Parliament to Appeal Ruling Declaring Cabinet Unconstitutional",
+      "summary": "[Capital FM] Nairobi -- Parliament will appeal a High Court ruling declaring President William Ruto's Cabinet unconstitutional for failing to comply with the constitutional two-thirds gender rule.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "JURIS_OHADA",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-07-09T11:52:31+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090294.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090294.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5c789b9291",
+      "title": "Uganda judges push back against lawyers' bid to scrap 'colonial titles'",
+      "summary": "Lawyers are calling for an end to traditions like bowing before judges and addressing them as \"My Lord or \"My Lady\".",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T11:31:21+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cwydzr9p1geo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwydzr9p1geo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9bafd3fa2f",
+      "title": "Can OPEC-style alliance help Ghana, Ivory Coast beat cocoa slump? [Business Africa]",
+      "summary": "Presidents Alassane Ouattara and John Mahama have agreed to revive what's being called the 'Cocoa OPEC', a coordinated strategy to harmonize farmgate prices and align crop calendars across both countries. They have invited Cameroon and Nigeria, the region's smaller producers, to join",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T11:31:18+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/09/can-opec-style-alliance-help-ghana-ivory-coast-beat-cocoa-slump-business-africa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/09/can-opec-style-alliance-help-ghana-ivory-coast-beat-cocoa-slump-business-africa/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0b29803fe8",
+      "title": "Mali : reprise de l'approvisionnement en eau potable à Bamako",
+      "summary": "Au Mali, l’approvisionnement en eau a repris mercredi à Bamako après un acte de sabotage sur une ligne électrique.",
+      "country": "MLI",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T11:11:19+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/09/mali-reprise-de-lapprovisionnement-en-eau-potable-a-bamako/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/09/mali-reprise-de-lapprovisionnement-en-eau-potable-a-bamako/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f6d32df979",
+      "title": "Watch World Cup Preview: Morocco plays France in quarterfinal opener",
+      "summary": "Latest match highlights, reaction and previews from the FIFA World Cup 2026 in North America.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T11:10:41+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/2026/7/9/video-world-cup-2026-highlights?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/2026/7/9/video-world-cup-2026-highlights?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a6f017ad96",
+      "title": "Exporters Tell Government to Tackle Freight, Energy Costs",
+      "summary": "[Capital FM] Nairobi -- Exporters have urged the government to address structural challenges undermining Kenya's export competitiveness, warning that high energy prices, costly freight, trade barriers and expensive packaging materials are eroding the country's position in international markets.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T11:08:49+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090244.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090244.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "31ae0677a5",
+      "title": "La Côte d'Ivoire accueille un salon africain dédié aux technologies spatiales",
+      "summary": "Abidjan, la capitale économique de la Côte d’Ivoire, accueille la deuxième édition d’un salon africain dédié aux technologies spatiales, baptisé « African Space Solutions Market », du 7 au 9 juillet 2026.",
+      "country": "CIV",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T11:01:04+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/09/cote-divoire-abidjan-accueille-un-salon-africain-dedie-aux-technologies-spatiales/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/09/cote-divoire-abidjan-accueille-un-salon-africain-dedie-aux-technologies-spatiales/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "070a12bede",
+      "title": "'Banditry, Kidnappings Are Driving Filmmakers Away From Epic Movies' - - Ibrahim Chatta",
+      "summary": "[Premium Times] The actor said the decline in epic productions has forced him to stop expanding his horse stable after years of supplying animals to Nollywood films.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:55:36+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090239.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090239.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8405ef6862",
+      "title": "U.S. Publishes Names, Photos of 124 Nigerians Marked for Deportation",
+      "summary": "[Vanguard] The United States Department of Homeland Security (DHS) has published the names and photographs of 124 Nigerians it says are among foreign nationals facing deportation over criminal convictions.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:54:26+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090220.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090220.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1ee9181ed2",
+      "title": "Brvm Sees Notable Gains - Seven Stocks Show Strong Upward Momentum",
+      "summary": "[Daba Finance] The Bourse Régionale des Valeurs Mobilières (BRVM) is experiencing a period of notable upward momentum, with seven listed companies recording significant price movements across various timeframes. These gains highlight the vibrant investment landscape within West African markets.",
+      "country": "CIV",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:52:30+00:00",
+      "lead_source": {
+        "id": "aa-civ",
+        "name": "AllAfrica · Côte d'Ivoire",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090212.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-civ",
+          "name": "AllAfrica · Côte d'Ivoire",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090212.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "978d4da3c9",
+      "title": "Treasury Releases Sh1.5bn As Govt Clears Outstanding Payments for KCSE and KJSEA Examiners",
+      "summary": "[Capital FM] Nairobi -- Thousands of teachers and professionals who participated in the marking of the 2025 national examinations have received the balance of their marking allowances following the release of funds by the National Treasury.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:51:54+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090207.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090207.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f263880d60",
+      "title": "Senate Advances Bill to Strengthen Fight Against Counterfeit Drugs, Proposes 15-Year Jail Term for Offenders",
+      "summary": "[Premium Times] The Senate noted that counterfeit medicines have become silent weapons of mass destruction because they destroy lives, weaken healthcare delivery and undermine public confidence in genuine pharmaceutical products.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:48:35+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090205.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090205.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "98faf152ae",
+      "title": "Senate Approves Customs' 2026 Budget, Backs N11.074trn Revenue Target",
+      "summary": "[Premium Times] The proposed N1.295 trillion expenditure consists of N421 billion for personnel costs, N307 billion for overheads and N565 billion for capital projects.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:48:07+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090204.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090204.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "932fdad407",
+      "title": "'We Have Our Own Local Identity' - Morocco's Jazzablanca Festival Founder",
+      "summary": "[RFI] Casablanca - As the Jazzablanca festival celebrates its 19th edition, RFI spoke to its founder Moulay Ahmed Alami about how the event has evolved, its support for Moroccan artists and the wider cultural and economic impact on Casablanca.",
+      "country": "MAR",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:46:42+00:00",
+      "lead_source": {
+        "id": "aa-mar",
+        "name": "AllAfrica · Maroc",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090202.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-mar",
+          "name": "AllAfrica · Maroc",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090202.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4fafc64aa9",
+      "title": "Tunisie : le Festival de jazz de Tabarka renaît de ses cendres",
+      "summary": "''Je suis vraiment ravie que le festival ait été relancé cette année, j’ai entendu dire qu’il n’avait pas eu lieu depuis six ans'', Bridgewater",
+      "country": "TUN",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:38:55+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/09/tunisie-le-festival-de-jazz-de-tabarka-renait-de-ses-cendres/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/09/tunisie-le-festival-de-jazz-de-tabarka-renait-de-ses-cendres/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9249674739",
+      "title": "Mali: Water returns to Bamako after sabotage disrupts power supply",
+      "summary": "Water was back on in Bamako on Wednesday, following sabotage to an electrical supply line that left much of the Malian capital without power for several days.",
+      "country": "MLI",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:34:03+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/09/mali-water-returns-to-bamako-after-sabotage-disrupts-power-supply/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/09/mali-water-returns-to-bamako-after-sabotage-disrupts-power-supply/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3859126f67",
+      "title": "U.S., Nigeria Join Rwanda in Marking Kwibohora 32",
+      "summary": "[New Times] Rwanda's 32nd Liberation Day was commemorated in the United States and Nigeria this week, with government officials, diplomats, members of the Rwandan diaspora and friends of Rwanda celebrating the country's transformation since liberation while reaffirming the partnerships that have continued to deepen over the past three decades.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:27:17+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090194.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090194.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cfd13824cf",
+      "title": "Afrique du Sud: l'État gèle une dotation de 200 millions de dollars destinée Johannesburg, épinglée pour sa mauvaise gestion",
+      "summary": "Le Trésor public sud-africain a gelé 200 millions de dollars de dotation à la plus grande ville du pays dont la gestion est jugée particulièrement mauvaise, entre infrastructures délabrés, corruption et très fort déficit. La décision intervient à quatre mois des élections municipales en Afrique du Sud.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:14:41+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260709-afrique-du-sud-l-%C3%A9tat-g%C3%A8le-une-dotation-de-200-millions-de-dollars-destin%C3%A9e-johannesburg-%C3%A9pingl%C3%A9e-pour-sa-mauvaise-gestion"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260709-afrique-du-sud-l-%C3%A9tat-g%C3%A8le-une-dotation-de-200-millions-de-dollars-destin%C3%A9e-johannesburg-%C3%A9pingl%C3%A9e-pour-sa-mauvaise-gestion"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ae7323f7af",
+      "title": "Tinubu Orders Investigation Into Pfipc Scandal",
+      "summary": "[Leadership] | Gives ICPC 30 days to complete probe, submit report",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T10:02:21+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090160.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090160.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6804ef6ace",
+      "title": "Sénégal: la filière riz presse l’État d’agir face à l'accumulation des stocks de production locale",
+      "summary": "Au Sénégal, la filière rizicole tire la sonnette d’alarme : près de 250 000 tonnes de production locale se retrouvent stockées faute d’acheteurs, le marché étant saturé par du riz importé à moindre coût. Dans ce contexte, les opérateurs du secteur peinent à survivre et appellent l’État à un sursaut, alors que le pays prône sa souveraineté alimentaire.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:50:16+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260709-s%C3%A9n%C3%A9gal-la-fili%C3%A8re-riz-presse-l-%C3%A9tat-d-agir-face-%C3%A0-l-accumulation-des-stocks-de-production-locale"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260709-s%C3%A9n%C3%A9gal-la-fili%C3%A8re-riz-presse-l-%C3%A9tat-d-agir-face-%C3%A0-l-accumulation-des-stocks-de-production-locale"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1d946ae51c",
+      "title": "World Cup: France vs Morocco prediction, schedule, Hakimi vs Mbappe rivalry",
+      "summary": "Hakimi meets Mbappe as France face Morocco in the opening World Cup quarterfinal, with Opta backing Les Bleus to win.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:48:47+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/7/9/world-cup-france-vs-morocco-prediction-schedule-hakimi-vs-mbappe-rivalry?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/7/9/world-cup-france-vs-morocco-prediction-schedule-hakimi-vs-mbappe-rivalry?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f8fdbfc2ad",
+      "title": "Fans and locals welcome return of Tunisia's Tabarka Jazz Festival",
+      "summary": "Tunisia's famous Tabarka Jazz Festival is back after a six-year hiatus.",
+      "country": "TUN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:39:58+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/09/fans-and-locals-welcome-return-of-tunisias-tabarka-jazz-festival/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/09/fans-and-locals-welcome-return-of-tunisias-tabarka-jazz-festival/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6a715a948f",
+      "title": "Nigéria : de fortes pluies provoquent des inondations généralisées",
+      "summary": "Suite à des prévisions annonçant des pluies abondantes et persistantes, l’Agence nigériane des services hydrologiques (NIHSA) a émis une alerte concernant un risque accru de crues soudaines dans plusieurs États jusqu'au 10 juillet.",
+      "country": "NGA",
+      "category": "CLIMAT",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:36:45+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/08/nigeria-de-fortes-pluies-provoquent-des-inondations-generalisees/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/08/nigeria-de-fortes-pluies-provoquent-des-inondations-generalisees/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7e7ead4240",
+      "title": "Inspector General Defends June 25 Security Measures, Denies Police Defied Court Orders",
+      "summary": "[Capital FM] Nairobi -- The Inspector General of Police has defended the security measures implemented during the June 25, 2026, protests, telling the High Court that roadblocks and security checkpoints mounted across Nairobi were lawful operational responses to emerging security threats and did not amount to a violation of court orders.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:24:16+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090133.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090133.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e2b13a1c68",
+      "title": "2nd African Space Solutions Market opens in Abidjan",
+      "summary": "Abidjan, the economic capital of Ivory Coast, hosts the second edition of an African space technology trade show known as the African Space Solutions Market from July 7 to 9, 2026.",
+      "country": "CIV",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:20:34+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/09/2nd-african-space-solutions-market-opens-in-abidjan/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/09/2nd-african-space-solutions-market-opens-in-abidjan/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4a0963218c",
+      "title": "Le Burkina Faso veut renforcer l’encadrement des appels à la solidarité et des collectes de ressources",
+      "summary": "Dans un communiqué daté du 7 juillet 2026, le ministère burkinabè de la Famille et de la Solidarité presse « les citoyens, organisations de la société civile, associations, partenaires et influenceurs » d'utiliser une plateforme mise en ligne par les autorités « pour toute initiative de mobilisation » dans le pays. Ouagadougou affirme que « certains appels publics à la solidarité sont organisés en dehors du cadre réglementaire » et que leur promotion peut parfois porter…",
+      "country": "BFA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:04:40+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260709-le-burkina-faso-veut-renforcer-l-encadrement-des-appels-%C3%A0-la-solidarit%C3%A9-et-des-collectes-de-ressources"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260709-le-burkina-faso-veut-renforcer-l-encadrement-des-appels-%C3%A0-la-solidarit%C3%A9-et-des-collectes-de-ressources"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5c164920bd",
+      "title": "Le Ghana et la Côte d'Ivoire veulent créer une \"OPEP du cacao\" [Business Africa]",
+      "summary": "Le Ghana et la Côte d'Ivoire, qui représentent plus de 60 % de la production mondiale de cacao, souhaitent renforcer leur coopération afin d'influencer davantage les prix du cacao sur les marchés internationaux.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:04:15+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/09/le-ghana-et-la-cote-divoire-veulent-creer-une-opep-du-cacao-business-africa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/09/le-ghana-et-la-cote-divoire-veulent-creer-une-opep-du-cacao-business-africa/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9ab2edcc1f",
+      "title": "Four Arrested Over Fake NIS Recruitment Scam After Job Seeker Loses Sh600,000",
+      "summary": "[Capital FM] Nairobi -- Detectives have arrested four suspects linked to an alleged employment fraud syndicate accused of conning unsuspecting job seekers by falsely promising to secure them jobs in the National Intelligence Service.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:01:18+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090127.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090127.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a9587efed6",
+      "title": "'We've Done So Much for Tinubu, We Expect Courtesy From Him' - El-Rufai's Wife",
+      "summary": "[Vanguard] The wife of former Kaduna State Governor Nasir El-Rufai, Asiya El-Rufai, has appealed to President Bola Tinubu to ensure her husband is treated fairly while facing criminal prosecution, saying the family's support for Tinubu's presidency entitles them to basic courtesy from his administration.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:00:47+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090124.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090124.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "014aa8036e",
+      "title": "Tunisie : HRW dénonce la condamnation de 8 défenseurs des droits humains",
+      "summary": "Human Rights Watch dénonce la condamnation de huit défenseurs des droits humains en Tunisie, estimant qu'elle s'inscrit dans une répression croissante contre la société civile.",
+      "country": "TUN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T08:52:51+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/08/tunisie-hrw-denonce-la-condamnation-de-huit-defenseurs-des-droits-humains/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/08/tunisie-hrw-denonce-la-condamnation-de-huit-defenseurs-des-droits-humains/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "b547f78329",
       "title": "Morocco, France Kick Off Blockbuster Quarter-Final Battles",
       "summary": "[Premium Times] Morocco booked their place in the last eight with an impressive 3-0 victory over Canada, while France edged Paraguay 1-0 thanks to Kylian Mbappé's second-half penalty to maintain their perfect record",
@@ -2889,6 +3679,36 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607090119.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9792b2fa66",
+      "title": "Morocco fans paint Boston red but remain wary of France at FIFA World Cup",
+      "summary": "On the eve of the quarterfinal, Morocco's supporters take over downtown Boston, showing unwavering belief in their team.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T08:32:29+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/sports/2026/7/9/morocco-fans-paint-boston-red-but-remain-wary-of-france-at-fifa-world-cup?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/sports/2026/7/9/morocco-fans-paint-boston-red-but-remain-wary-of-france-at-fifa-world-cup?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -2979,6 +3799,36 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607090100.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7d4609ac14",
+      "title": "High Court Upholds Inheritance Rights of Second Wife Despite Invalid Marriage",
+      "summary": "[Capital FM] Nairobi -- The High Court has ruled that a woman whose marriage to a deceased man was legally invalid because he was still in an existing monogamous union is nevertheless entitled to inherit from his estate under Kenya's succession laws.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T08:06:51+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607090098.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607090098.html"
         }
       ],
       "confirmation_count": 1
@@ -3134,9 +3984,9 @@
       "confirmation_count": 1
     },
     {
-      "id": "b6c47fb196",
-      "title": "World Cup: Fans hopeful but wary ahead of Morocco-France quarterfinal",
-      "summary": "France and Morocco soccer fans gathered outside a hotel hosting the French national squad expressed hopes for their respective teams to advance at the World Cup one day before the two teams kickoff the quarterfinal stage of the tournament when the meet outside Boston.",
+      "id": "943f929a86",
+      "title": "'This oxygen is spreading' - inside Morocco's mission to become a powerhouse",
+      "summary": "Morocco face France in the 2026 World Cup quarter-finals on Thursday as the Atlas Lions look to reach the last four once again.",
       "country": "MAR",
       "category": "AUTRE",
       "severity": 1,
@@ -3146,19 +3996,19 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "published": "2026-07-09T07:46:58+00:00",
+      "published": "2026-07-09T07:50:17+00:00",
       "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/09/world-cup-fans-hopeful-but-wary-ahead-of-morocco-france-quarterfinal/"
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/sport/football/articles/cewqqxz4ye9o?at_medium=RSS&at_campaign=rss"
       },
       "confirming_sources": [
         {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/09/world-cup-fans-hopeful-but-wary-ahead-of-morocco-france-quarterfinal/"
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/sport/football/articles/cewqqxz4ye9o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
@@ -3279,36 +4129,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/424043/ethiopia-10-things-to-know-about-tplfs-fetlework-gebregziabher/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5b55ec1550",
-      "title": "France vs Morocco: World Cup quarterfinal – prediction, start time, lineups",
-      "summary": "Title favourites France face African champions Morocco, as football's 2026 World Cup enters the last-eight phase.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T05:22:46+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/sports/2026/7/9/france-morocco-world-cup-quarterfinal-mbappe-saibari-prediction-start-time-lineups?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/sports/2026/7/9/france-morocco-world-cup-quarterfinal-mbappe-saibari-prediction-start-time-lineups?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -3974,36 +4794,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "fd54a2ddcf",
-      "title": "Tunisie : HRW dénonce la condamnation de huit défenseurs des droits humains",
-      "summary": "L'ONG affirme que ces condamnations illustrent le rétrécissement de l'espace civique en Tunisie et appelle les partenaires internationaux",
-      "country": "TUN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T19:01:12+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/08/tunisie-hrw-denonce-la-condamnation-de-huit-defenseurs-des-droits-humains/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/08/tunisie-hrw-denonce-la-condamnation-de-huit-defenseurs-des-droits-humains/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "feb03ee5c2",
       "title": "Mali : comment la bataille d’Anéfis fragilise la stratégie d’Assimi Goïta face au FLA-Jnim",
       "summary": "Face à l’alliance entre les indépendantistes et les jihadistes, les soldats maliens et les mercenaires russes d’Africa Corps, encerclés dans leur base, attendent des renforts qui peinent à arriver. Un affrontement crucial pour l’avenir du nord du Mali.",
@@ -4064,8 +4854,8 @@
       "confirmation_count": 1
     },
     {
-      "id": "eae7c2661c",
-      "title": "Aéroports, mines, télécoms… La liste des 20 chantiers qui vont transformer l’Afrique",
+      "id": "9ef0ca3831",
+      "title": "Aéroport, mines, télécoms… La liste des 20 chantiers qui vont transformer l’Afrique",
       "summary": "De l’autoroute Abidjan-Lagos au câble sous-marin Medusa, l’Afrique multiplie les mégaprojets structurants. Tour d’horizon de 20 d’entre eux qui pourraient remodeler durablement l’économie du continent.",
       "country": "CIV",
       "category": "INFRASTRUCTURE",
@@ -4299,36 +5089,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607080654.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6a715a948f",
-      "title": "Nigéria : de fortes pluies provoquent des inondations généralisées",
-      "summary": "Suite à des prévisions annonçant des pluies abondantes et persistantes, l’Agence nigériane des services hydrologiques (NIHSA) a émis une alerte concernant un risque accru de crues soudaines dans plusieurs États jusqu'au 10 juillet.",
-      "country": "NGA",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T15:05:06+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/08/nigeria-de-fortes-pluies-provoquent-des-inondations-generalisees/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/08/nigeria-de-fortes-pluies-provoquent-des-inondations-generalisees/"
         }
       ],
       "confirmation_count": 1
@@ -4634,6 +5394,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "444a45a88a",
+      "title": "Owalo Reveals 2027 Plan As He Unveils New Party",
+      "summary": "[Capital FM] Nairobi -- Former ICT Cabinet Secretary Eliud Owalo on Wednesday officially declared his bid for the presidency in the 2027 General Election after unveiling the People's Prosperity Party (PPP) and announcing that he will seek the party's presidential ticket.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-08T13:02:14+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607080530.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607080530.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "92aa67c8bc",
       "title": "Garissa Police Arrest Three, Recover Assorted Crude Weapons in Intelligence-Led Raid",
       "summary": "[Capital FM] Nairobi -- Police have arrested three suspects and recovered an assortment of crude weapons after disrupting what authorities described as a planned criminal operation in Garissa Town, with six other suspects escaping and now being pursued.",
@@ -4784,36 +5574,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ab98a2c426",
-      "title": "'We Are Not Going to the TotalEnergies Wafcon to Participate' - Kenya Coach Beldine Odemba",
-      "summary": "[CAF] A decade after their historic debut, Kenya's national women's football team, the Harambee Starlets, are set to return to Africa's biggest women's football stage after securing qualification for the TotalEnergies CAF Women's Africa Cup of Nations (WAFCON), Morocco 2026.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T11:56:24+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080457.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080457.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "e5175e180b",
       "title": "Rafale, F-16, F-35 : le Maroc veut-il mettre ses alliés en concurrence ?",
       "summary": "Face aux retards de livraison des F-16 américains, le Maroc rouvre le dossier Rafale. Un choix pragmatique qui illustre la doctrine de diversification de Rabat.",
@@ -4839,96 +5599,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1810506/politique/rafale-f-16-f-35-le-maroc-veut-il-mettre-ses-allies-en-concurrence/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "53e9b6f147",
-      "title": "Tony Elumelu's 12-Year UBA Odyssey - the Man, the Bank, the Legacy",
-      "summary": "[This Day] In the annals and the glittering pantheons of African banking, few stories are as improbable, as audacious and as profoundly transformative as the journey of Dr Tony Onyemachi Elumelu CFR and the United Bank for Africa. When Elumelu took his first bold step into the Nigerian banking scene, naysayers dismissed him as a \"joker\" for acquiring a struggling financial institution and daring to dream of something bigger. That \"joke\" has now become one of the most…",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T11:54:07+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080454.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080454.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "053d0f55cd",
-      "title": "The Non-Story of Cross-Border Power Debt, and the Story Worth Telling, By Tobi Oluwatola",
-      "summary": "[Premium Times] So what is the ₦17.45 billion? It is a residual service charge, the regulated fee that covers the regulator, the transmission company, the bulk trader and the market and system operator.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-07-08T11:34:55+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080397.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080397.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d12c5215dc",
-      "title": "Plateau PDP Opposes Life Pension for Lawmakers Bill, Urges Public Resistance",
-      "summary": "[Premium Times] In a statement issued on Wednesday by its Publicity Secretary, Choji Felix, the opposition party described the proposed legislation as \"self-serving\"",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T11:31:55+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080395.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080395.html"
         }
       ],
       "confirmation_count": 1
@@ -5019,36 +5689,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/07/08/tanzanie-des-manifestations-antigouvernementales-prevues-le-7-juillet-reprimees/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "eec3f7d5fc",
-      "title": "Former Kenyatta University VCs Summoned Over Sh6.2bn Audit Queries",
-      "summary": "[Capital FM] Nairobi -- A parliamentary watchdog committee has summoned former Kenyatta University Vice Chancellors Prof. Olive Mugenda and Prof. Paul Wainaina to appear before it over audit queries relating to an alleged Sh6.2 billion loss of public funds.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T10:43:36+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080289.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080289.html"
         }
       ],
       "confirmation_count": 1
@@ -5174,66 +5814,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c069f0e4cd",
-      "title": "Parliament to Vet CBK Deputy Governor Nominees Under New Law",
-      "summary": "[Capital FM] Nairobi -- Individuals nominated for appointment as Deputy Governors of the Central Bank of Kenya will now be subject to approval by the National Assembly following President William Ruto's assent to the Central Bank of Kenya (Amendment) Act, 2026.",
-      "country": "KEN",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "MA_GOUV",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-07-08T10:17:19+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080243.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080243.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8549759643",
-      "title": "Police Seize Sh3 Million Cannabis Haul in Psv",
-      "summary": "[Capital FM] Nairobi -- Police have intercepted a public service vehicle (PSV) along the Webuye-Eldoret highway and arrested a passenger found transporting 100 kilograms of cannabis sativa valued at approximately Sh3 million.",
-      "country": "KEN",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T10:16:57+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080242.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080242.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "925aab069b",
       "title": "La Russie soutient la participation \"accrue\" de l'Afrique au Conseil de sécurité",
       "summary": "Le ministre russe des Affaires étrangères, Sergueï Lavrov, a échangé mardi avec le président de la Commission de l’Union africaine, Mahamat Saleh Annadif, à Addis-Abeba, en Éthiopie.",
@@ -5294,66 +5874,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "dbb135ab2f",
-      "title": "NCAA Warns National Assembly Proposed Funding Cuts Could Threaten Aviation Safety",
-      "summary": "[Premium Times] \"The NCAA needs more funding, not less. If you weaken the regulator financially, you weaken safety oversight. Aviation regulators all over the world are adequately funded because they are responsible for protecting lives,\" says Michael Achimugu, Director of Public Affairs and Consumer Protection, NCAA",
-      "country": "NGA",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-07-08T08:58:23+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080142.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080142.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "005e5d51a5",
-      "title": "How Bank Waived Due Process for Emefiele's Multi-Billion Naira Transactions - Witness",
-      "summary": "[Premium Times] The witness, a Zenith Bank official, said some of the suspicious transactions linked to Mr Emefiele took place outside the normal banking hours.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T08:58:22+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080141.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080141.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "4f5faa9e36",
       "title": "'We Fear for Our Lives' - Kisumu Activists Explain Absence From Saba Saba Protests",
       "summary": "[Capital FM] Kisumu -- For the first time in recent memory, Kisumu remained calm during the annual Saba Saba commemorations, with businesses operating normally, public transport running uninterrupted and traffic flowing freely across the lakeside city as organisers of planned protests cited security concerns for staying away from the streets.",
@@ -5384,36 +5904,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b1b96fe6b4",
-      "title": "High Court Asked to Halt Adverse Possession Claims in Landmark Constitutional Challenge",
-      "summary": "[Capital FM] Nairobi -- A constitutional petition filed before the High Court is seeking to halt the application of the doctrine of adverse possession in Kenya, arguing that the legal principle allowing individuals to acquire ownership rights over land through prolonged occupation is inconsistent with the Constitution.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T08:53:37+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080135.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080135.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "fb7f561f50",
       "title": "Activists Push for Parliamentary Probe Into Alleged Rights Violations By Security Agencies",
       "summary": "[Capital FM] Nairobi -- Human rights campaigners are seeking the formation of a joint parliamentary committee to investigate allegations of extrajudicial killings, enforced disappearances, torture, abductions and the excessive use of force by security agencies.",
@@ -5439,36 +5929,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607080133.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "71becbdc69",
-      "title": "Court Orders Former Nairobi Finance CECM Charles Kerich to Surrender for Three-Month Jail Term",
-      "summary": "[Capital FM] Nairobi -- The High Court has directed former Nairobi County Finance Executive Charles Kerich to surrender to authorities within three days to begin serving a three-month prison sentence after being found guilty of contempt of court.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T08:53:36+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607080132.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607080132.html"
         }
       ],
       "confirmation_count": 1
@@ -5714,66 +6174,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "852b07615e",
-      "title": "Sénégal: malgré une décision de la Cour suprême, un gisement de zircon est toujours exploité",
-      "summary": "Une exploitation minière au cœur d’un bras de fer à Niafrang en Casamance dans le sud du Sénégal. Il s’agit d’un gisement de zircon opéré par la société G-SAND, société gambienne aux capitaux chinois. La Cour suprême sénégalaise a annulé en décembre dernier le permis d’exploitation. Mais sur place, l'extraction se poursuit et les communautés locales sont vent debout.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "JURIS_OHADA",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-07-08T01:59:09+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260708-s%C3%A9n%C3%A9gal-malgr%C3%A9-une-d%C3%A9cision-de-la-cour-supr%C3%AAme-un-gisement-de-zircon-est-toujours-exploit%C3%A9"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260708-s%C3%A9n%C3%A9gal-malgr%C3%A9-une-d%C3%A9cision-de-la-cour-supr%C3%AAme-un-gisement-de-zircon-est-toujours-exploit%C3%A9"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b96cd22c79",
-      "title": "Le chef de la diplomatie russe Sergueï Lavrov en Éthiopie avant une visite au Niger",
-      "summary": "Le ministre russe des Affaires étrangères Sergueï Lavrov était mardi 7 juillet à Addis Abeba pour une visite de travail, dans le cadre de sa tournée africaine. Il est attendu ce mercredi au Niger.",
-      "country": "ETH",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-08T00:28:23+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260708-le-chef-de-la-diplomatie-russe-sergue%C3%AF-lavrov-en-%C3%A9thiopie-avant-une-visite-au-niger"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260708-le-chef-de-la-diplomatie-russe-sergue%C3%AF-lavrov-en-%C3%A9thiopie-avant-une-visite-au-niger"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "35f9f97db9",
       "title": "Comment Bassirou Diomaye Faye reprend la main sur le secteur extractif sénégalais",
       "summary": "Bassirou Diomaye Faye reprend la main sur deux piliers stratégiques de l’économie sénégalaise. Les nouveaux directeurs de Petrosen Holding et de Somisen sont choisis pour leur expertise technique, loin des réseaux de Pastef.",
@@ -5864,66 +6264,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c6e41bb4e7",
-      "title": "Schengen Area: The politics behind Europe’s visa lottery",
-      "summary": "Why is a Senegalese applicant more likely to be refused a European visa than an Ivorian one? Drawing on a cross-analysis of data, our infographics reveal how the Schengen system dispenses trust unevenly, shaping who gets to travel and who is left behind.",
-      "country": "SEN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-07T17:00:00+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/424163/schengen-area-the-politics-behind-europes-visa-lottery/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/424163/schengen-area-the-politics-behind-europes-visa-lottery/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a886522a3b",
-      "title": "Ghana halts visit by South African president amid row over anti-migrant protests",
-      "summary": "Many in Ghana feared his presence would lead to mass protests, and officials say it is postponed for now.",
-      "country": "GHA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-07T16:25:59+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/cy8dmelnjk7o?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cy8dmelnjk7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6d7a6172e4",
       "title": "Former Ivory Coast defence minister released after 'terrorism' charges",
       "summary": "Former Ivory Coast Defence Minister Moise Lida Kouassi has been released after spending nearly a year in detention on terrorism-related charges.",
@@ -5949,36 +6289,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/07/former-ivory-coast-defence-minister-released-after-terrorism-charges/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "aaef0489a8",
-      "title": "Cows, Botswana’s brown diamonds, sparkle in the new economy",
-      "summary": "Cattle once played a pivotal role in Botswana’s nation building; now the country’s prized bovine herds create a crucial part in helping the country move beyond its economic reliance on diamonds.",
-      "country": "BWA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-07T16:00:00+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/423712/cows-botswanas-brown-diamonds-sparkle-in-the-new-economy/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/423712/cows-botswanas-brown-diamonds-sparkle-in-the-new-economy/"
         }
       ],
       "confirmation_count": 1
@@ -6134,126 +6444,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "036a3274bd",
-      "title": "Ugandan farmers take TotalEnergies' oil pipeline fight to UK courts",
-      "summary": "Four Ugandan farmers are taking on French energy giant TotalEnergies in what campaigners are calling a landmark legal challenge over East Africa's controversial crude oil pipeline.",
-      "country": "UGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-07T10:53:50+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/07/ugandan-farmers-take-totalenergies-oil-pipeline-fight-to-uk-courts/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/07/ugandan-farmers-take-totalenergies-oil-pipeline-fight-to-uk-courts/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "19abae490d",
-      "title": "Cap-Vert : les Requins bleus savourent leur parcours \"historique\" au Mondial 2026",
-      "summary": "Le Cap-Vert est rentré au bercail après un parcours au Mondial 2026 considéré comme la plus grande surprise du tournoi. Les Requins bleus apprécient cette opportunité qui leur a permis de se frotter à la crème du football à l’échelle mondiale.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-07T10:04:54+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/07/cap-vert-les-requins-bleus-savourent-leur-parcours-historique-au-mondial/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/07/cap-vert-les-requins-bleus-savourent-leur-parcours-historique-au-mondial/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "28bca40199",
-      "title": "Algérie : le FLN remporte les législatives, taux record d'abstention",
-      "summary": "Le FLN a remporté 90 des 407 sièges du Parlement lors du scrutin du 2 juillet, entaché par l'apathie de la population et la polémique suscitée par la disqualification par le gouvernement d'environ un tiers des candidats potentiels.",
-      "country": "DZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-07T08:39:36+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/06/legislatives-en-algerie-le-fln-remporte-la-majorite-des-sieges-au-parlement/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/06/legislatives-en-algerie-le-fln-remporte-la-majorite-des-sieges-au-parlement/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7997c3daf7",
-      "title": "Guinée-Bissau : référendum le 30 août pour passer au régime présidentiel",
-      "summary": "Les électeurs sont appelés aux urnes le 30 août en Guinée-Bissau à la faveur d’un référendum constitutionnel selon un décret publié lundi.",
-      "country": "GIN",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-07-07T08:18:22+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/07/guinee-bissau-referendum-constitutionnel-le-30-aout/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/07/guinee-bissau-referendum-constitutionnel-le-30-aout/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1ed46fb636",
       "title": "Au Bénin, Patrice Talon briguera-t-il la présidence du nouveau Sénat ?",
       "summary": "Vingt-cinq noms pour un Sénat inédit. Dévoilée le 1er juillet, la liste des sénateurs béninois soulève déjà des interrogations : peu de femmes, peu d’opposants et l’ombre de l’ancien président qui plane sur l’institution.",
@@ -6374,36 +6564,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ea95ba0258",
-      "title": "Minerais critiques : entre Lobito et Tazara, la bataille des corridors s’intensifie",
-      "summary": "Pékin et Washington tentent de sécuriser l’acheminement du cuivre et du cobalt africains vers leurs industries de la transition énergétique.",
-      "country": "AGO",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-06T12:32:01+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1803536/economie-entreprises/minerais-critiques-entre-lobito-et-tazara-la-bataille-des-corridors-sintensifie/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1803536/economie-entreprises/minerais-critiques-entre-lobito-et-tazara-la-bataille-des-corridors-sintensifie/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "160320b8b2",
       "title": "France Beat Stubborn Paraguay to Set Morocco Q'final Clash",
       "summary": "[This Day] World Cup favourites France were made to sweat to book their quarter-final place but Kylian Mbappe's second-half penalty proved enough to help them past a resolute Paraguay in Philadelphia.",
@@ -6459,36 +6619,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607060462.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a9cd0c1011",
-      "title": "BAD, FMI, OIF… Comment le Mauritanien Ould Ghazouani construit sa stratégie d’influence",
-      "summary": "En un an, Nouakchott a décroché la direction de la BAD, du département Afrique du FMI, et vise désormais la tête de l’OCI et celle de l’OIF. Derrière cette montée en puissance, un président longtemps resté discret, qui a fait de la scène internationale un terrain d’action privilégié.",
-      "country": "MRT",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-06T09:30:59+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1803933/politique/bad-fmi-oif-comment-le-mauritanien-ould-ghazouani-construit-sa-strategie-dinfluence/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1803933/politique/bad-fmi-oif-comment-le-mauritanien-ould-ghazouani-construit-sa-strategie-dinfluence/"
         }
       ],
       "confirmation_count": 1
