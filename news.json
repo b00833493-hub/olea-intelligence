@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-07-12T09:14:58.500696+00:00",
+  "generated_at": "2026-07-12T10:43:53.258295+00:00",
   "stats": {
-    "total_signals": 260,
+    "total_signals": 259,
     "verified_signals": 6,
     "countries_covered": 32,
     "sources_active": 16,
     "per_country": {
-      "ZAF": 20,
+      "ZAF": 21,
+      "GIN": 4,
       "COD": 15,
       "NGA": 41,
       "KEN": 40,
-      "MLI": 18,
-      "CIV": 18,
-      "CMR": 6,
-      "GIN": 4,
+      "MLI": 17,
+      "CIV": 19,
+      "CMR": 5,
       "MAR": 28,
       "DZA": 4,
-      "SEN": 25,
+      "SEN": 23,
       "ZWE": 3,
       "BFA": 3,
       "BEN": 3,
       "CAF": 2,
-      "NER": 1,
+      "MDG": 1,
+      "SLE": 4,
       "GHA": 3,
       "UGA": 1,
       "TUN": 1,
@@ -36,8 +37,7 @@
       "MOZ": 2,
       "COG": 1,
       "ETH": 1,
-      "SLE": 3,
-      "MDG": 1
+      "NER": 1
     }
   },
   "sources": [
@@ -139,6 +139,72 @@
     }
   ],
   "signals": [
+    {
+      "id": "305888c0f3",
+      "title": "Afrique du Sud : Jayden Adams décède à 25 ans après avoir disputé le mondial",
+      "summary": "Le milieu de terrain de l’équipe d’Afrique du Sud, Jayden Adams, est mort à seulement 25 ans. Il venait tout juste de rentrer de la Coupe du Monde où il avait disputé trois rencontres pour les Bafana Bafana. La cause de son décès est encore inconnue.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-12T10:09:13+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260712-afrique-du-sud-jayden-adams-d%C3%A9c%C3%A8de-%C3%A0-25-ans-apr%C3%A8s-avoir-disput%C3%A9-le-mondial"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260712-afrique-du-sud-jayden-adams-d%C3%A9c%C3%A8de-%C3%A0-25-ans-apr%C3%A8s-avoir-disput%C3%A9-le-mondial"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5859f478a6",
+      "title": "En Guinée-Bissau, l'opposant Domingos Simões Pereira placé en détention provisoire",
+      "summary": "En Guinée-Bissau, Domingos Simões Pereira, principal opposant au pouvoir, retourne en prison. Le leader du PAIGC a été écroué vendredi à l'issue d'une nouvelle audition devant le Tribunal militaire. Les autorités l'accusent d'être impliqué dans une tentative de coup d'État présumée, tandis que ses avocats dénoncent une procédure illégale et un acharnement politique.",
+      "country": "GIN",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-12T10:06:58+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260712-en-guin%C3%A9e-bissau-l-opposant-domingos-sim%C3%B5es-pereira-plac%C3%A9-en-d%C3%A9tention-provisoire"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260712-en-guin%C3%A9e-bissau-l-opposant-domingos-sim%C3%B5es-pereira-plac%C3%A9-en-d%C3%A9tention-provisoire"
+        },
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1812641/politique/guinee-bissau-ce-que-lon-sait-de-larrestation-de-domingos-simoes-pereira/"
+        }
+      ],
+      "confirmation_count": 2
+    },
     {
       "id": "afc0f24f93",
       "title": "Le footballeur sud-africain Jayden Adams meurt brutalement à 25 ans",
@@ -1688,36 +1754,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7f7fa8fe31",
-      "title": "Sénégal: une grève générale de 24h, le bras de fer entre les syndicats et les autorités se poursuit",
-      "summary": "Parmi les doléances, un manque de concertations sur des réformes qui concernent les droits des travailleurs, et une série de licenciements dans des institutions que les syndicats veulent voir annulés. Après un nouvel échec des négociations avec le ministère de la Fonction publique, une grève de 24h a été déclarée vendredi.",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-11T04:40:12+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260711-s%C3%A9n%C3%A9gal-une-gr%C3%A8ve-g%C3%A9n%C3%A9ral-de-24h-le-bras-de-fer-entre-les-syndicats-et-les-autorit%C3%A9s-se-poursuit"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260711-s%C3%A9n%C3%A9gal-une-gr%C3%A8ve-g%C3%A9n%C3%A9ral-de-24h-le-bras-de-fer-entre-les-syndicats-et-les-autorit%C3%A9s-se-poursuit"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "811fcbf55f",
       "title": "BRVM Sees Notable Upward Moves - Ecobank Transnational Inc Leads With +36.17 Percent Gain",
       "summary": "[Daba Finance] The Bourse Régionale des Valeurs Mobilières (BRVM) has recently showcased dynamic activity, with four key stocks registering significant upward price movements over the past seven days. These notable shifts provide valuable insights for investors tracking opportunities across African markets.",
@@ -2222,72 +2258,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "6f60026acc",
-      "title": "Sénégal : le président Diomaye Faye a saisi le Conseil constitutionnel",
-      "summary": "🇸🇳 Au Sénégal, nouvelles dissensions entre Bassirou Diomaye Faye et le Pastef. Le chef de l'État a saisi le Conseil constitutionnel au sujet de la réforme de la Constitution adoptée le 29 juin par l'Assemblée nationale. Cette réforme réduit les pouvoirs du chef de l'Etat tout en renforçant ceux de l'Assemblée.",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T10:36:47+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260709-s%C3%A9n%C3%A9gal-le-pr%C3%A9sident-diomaye-faye-a-saisi-le-conseil-constitutionnel"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260709-s%C3%A9n%C3%A9gal-le-pr%C3%A9sident-diomaye-faye-a-saisi-le-conseil-constitutionnel"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "95e0838d78",
-      "title": "La Russie poursuivra son \"soutien\" militaire aux États du Sahel, assure Sergueï Lavrov à Niamey",
-      "summary": "À Niamey, le ministre russe des Affaires étrangères, Sergueï Lavrov, a participé mercredi à des consultations de \"haut niveau\" avec les chefs de la diplomatie du Mali, du Burkina Faso et du Niger, trois pays réunis dans l'Alliance des États du Sahel. Selon un communiqué, Moscou \"a confirmé sa volonté de poursuivre son soutien au renforcement des capacités opérationnelles des forces armées de l'AES\".",
-      "country": "NER",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T00:46:10+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260709-russie-poursuivra-soutien-militaire-etats-sahel-assure-serguei-lavrov-niamey-aes-mali-burkina-faso-niger-diplomatie-militaire"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260709-russie-poursuivra-soutien-militaire-etats-sahel-assure-serguei-lavrov-niamey-aes-mali-burkina-faso-niger-diplomatie-militaire"
-        },
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1810859/politique/la-russie-poursuivra-son-soutien-militaire-aux-etats-du-sahel/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "adf5cd8bb8",
       "title": "Ivory Coast Bets On Private Capital to Power New $209b Growth Plan",
       "summary": "[Daba Finance] Ivory Coast's parliament has signed off on a new National Development Plan, mapping out the country's economic path through 2030. The centerpiece is an investment push of FCFA 114,838.5 billion, equivalent to roughly $209 billion or €175 billion, built around six pillars spanning security, agriculture, private investment, human capital, infrastructure, and governance. Unlike past cycles, the government wants the private sector to carry most of the load this…",
@@ -2438,6 +2408,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "a0e031120b",
+      "title": "Qui, aux côtés du colonel Randrianirina, gouverne vraiment Madagascar ?",
+      "summary": "Autour du colonel-président, gravite une garde rapprochée mêlant loyaux camarades de promotion, personnalités recasées et entrepreneurs proches du pouvoir. Ces hommes et femmes de l’ombre dessinent les contours du nouveau régime.",
+      "country": "MDG",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-12T12:32:53+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1810474/politique/qui-aux-cotes-du-colonel-randrianirina-gouverne-vraiment-madagascar/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1810474/politique/qui-aux-cotes-du-colonel-randrianirina-gouverne-vraiment-madagascar/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "af0043d411",
       "title": "Le repreneur de Shell au Nigeria peut-il devenir « le leader africain de l’énergie » ?",
       "summary": "Renaissance Africa Energy relance l’exploitation d’un gisement découvert en 1967 mais resté inexploité depuis. Une preuve supplémentaire de la reprise en main locale des ressources du Nigeria.",
@@ -2463,6 +2463,66 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1812255/economie-entreprises/le-repreneur-de-shell-au-nigeria-peut-il-devenir-le-leader-africain-de-lenergie/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "582221ceb7",
+      "title": "Cobalt, lithium, graphite, cuivre... l’Afrique veut transformer ses minerais sur son propre sol",
+      "summary": "Longtemps cantonnée au rôle de fournisseur de matières premières, l’Afrique veut désormais transformer davantage de ses minerais sur son propre sol. Cobalt, lithium, graphite ou encore cuivre sont au cœur de la transition énergétique mondiale. À Abidjan, responsables politiques, industriels et investisseurs réfléchissent aux moyens de développer des chaînes de valeur locales et de capter une plus grande part des richesses générées par ces ressources.",
+      "country": "CIV",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-12T10:03:22+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260712-cobalt-lithium-graphite-cuivre-l-afrique-veut-transformer-ses-minerais-sur-son-propre-sol"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260712-cobalt-lithium-graphite-cuivre-l-afrique-veut-transformer-ses-minerais-sur-son-propre-sol"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c7e88e8603",
+      "title": "La Sierra Leone se prépare à accueillir le sommet de la Cédéao, une vitrine diplomatique onéreuse?",
+      "summary": "En Sierra Leone, les réunions préparatoires du 69e sommet de la Cédéao débutent, ce dimanche 12 juillet, avant la rencontre des chefs d’État prévue dans une semaine le dimanche 19 juillet. C’est la première fois que le pays accueille ce type de sommet régional et les autorités n’ont pas lésiné sur les moyens tels qu’une logistique renforcée, de nouvelles infrastructures et surtout une salle de conférences, construite à Lungi pour l’occasion. Le coût global de l’événement…",
+      "country": "SLE",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-12T09:21:07+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260712-la-sierra-leone-se-pr%C3%A9pare-%C3%A0-accueillir-le-sommet-de-la-c%C3%A9d%C3%A9ao-une-vitrine-diplomatique-on%C3%A9reuse"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260712-la-sierra-leone-se-pr%C3%A9pare-%C3%A0-accueillir-le-sommet-de-la-c%C3%A9d%C3%A9ao-une-vitrine-diplomatique-on%C3%A9reuse"
         }
       ],
       "confirmation_count": 1
@@ -2530,7 +2590,7 @@
     {
       "id": "38c39d912e",
       "title": "Centrafrique: à Am Dafok, de nombreux déplacés et une situation «calme mais imprévisible», selon la Minusca",
-      "summary": "Dans le nord de la Centrafrique, à la frontière avec le Soudan, une semaine après la reprise par les forces armées centrafricaines de la localité d'Am Dafok le 5 juillet des mains des groupes rebelles, la quasi totalité de la population de la zone est rassemblée près de la base temporaire de la MinuscaL La mission des Nations unies en Centrafrique dit suivre la situation de près.",
+      "summary": "Dans le nord de la Centrafrique, à la frontière avec le Soudan, une semaine après la reprise par les forces armées centrafricaines de la localité d'Am Dafok le 5 juillet des mains des groupes rebelles, la quasi-totalité de la population de la zone est rassemblée près de la base temporaire de la Minusca. La mission des Nations unies en Centrafrique dit suivre la situation de près.",
       "country": "CAF",
       "category": "POLITIQUE",
       "severity": 1,
@@ -2823,36 +2883,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/cvgljevwy82o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1447e9ccbd",
-      "title": "Guinée-Bissau : ce que l’on sait de l’arrestation de Domingos Simões Pereira",
-      "summary": "De nouveau appréhendé, l’ancien Premier ministre a été placé en détention le 10 juillet par la justice militaire bissau-guinéenne. L’opposition accuse la junte de vouloir l’écarter avant plusieurs consultations électorales.",
-      "country": "GIN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-11T16:00:25+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1812641/politique/guinee-bissau-ce-que-lon-sait-de-larrestation-de-domingos-simoes-pereira/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1812641/politique/guinee-bissau-ce-que-lon-sait-de-larrestation-de-domingos-simoes-pereira/"
         }
       ],
       "confirmation_count": 1
@@ -6788,66 +6818,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "980c1aadab",
-      "title": "Madagascar: le gouvernement promet d’«en finir» avec des vagues d'assassinats",
-      "summary": "🇲🇬A Madagascar, 172 cas de disparitions ont été recensés, selon le bilan de la police nationale. Face à cette situation, le gouvernement a déployé 400 forces de sécurité dans la capitale.",
-      "country": "MDG",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T11:25:37+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260709-madagascar-le-gouvernement-promet-d-en-finir-avec-des-vagues-d-assassinats"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260709-madagascar-le-gouvernement-promet-d-en-finir-avec-des-vagues-d-assassinats"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0b29803fe8",
-      "title": "Mali : reprise de l'approvisionnement en eau potable à Bamako",
-      "summary": "Au Mali, l’approvisionnement en eau a repris mercredi à Bamako après un acte de sabotage sur une ligne électrique.",
-      "country": "MLI",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T11:11:19+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/09/mali-reprise-de-lapprovisionnement-en-eau-potable-a-bamako/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/09/mali-reprise-de-lapprovisionnement-en-eau-potable-a-bamako/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1ee9181ed2",
       "title": "Brvm Sees Notable Gains - Seven Stocks Show Strong Upward Momentum",
       "summary": "[Daba Finance] The Bourse Régionale des Valeurs Mobilières (BRVM) is experiencing a period of notable upward momentum, with seven listed companies recording significant price movements across various timeframes. These gains highlight the vibrant investment landscape within West African markets.",
@@ -6908,6 +6878,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "4c02566914",
+      "title": "La Russie poursuivra « son soutien » militaire aux États du Sahel",
+      "summary": "Lors d’une visite à Niamey pour une session de consultations avec les chefs de la diplomatie du Mali, du Burkina Faso et du Niger, le ministre russe des affaires étrangères, Sergueï Lavrov, a insisté sur leur volonté commune de « poursuivre le renforcement de leur coopération ».",
+      "country": "NER",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-09T09:12:09+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1810859/politique/la-russie-poursuivra-son-soutien-militaire-aux-etats-du-sahel/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1810859/politique/la-russie-poursuivra-son-soutien-militaire-aux-etats-du-sahel/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "b547f78329",
       "title": "Morocco, France Kick Off Blockbuster Quarter-Final Battles",
       "summary": "[Premium Times] Morocco booked their place in the last eight with an impressive 3-0 victory over Canada, while France edged Paraguay 1-0 thanks to Kylian Mbappé's second-half penalty to maintain their perfect record",
@@ -6933,36 +6933,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607090119.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c96e7adcfd",
-      "title": "Cameroun : pourquoi le procès d’Alice Nkom s’éternise et pourrait embarrasser Yaoundé",
-      "summary": "L’affaire du Redhac s’enlise devant le tribunal de Douala-Bonanjo, avec onze audiences en un an pour les défenseuses des droits humains Alice Nkom et Maximilienne Ngo Mbe. Un procès qui est aussi très politique.",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T07:55:12+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1810471/politique/cameroun-pourquoi-le-proces-dalice-nkom-seternise-et-pourrait-embarrasser-yaounde/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1810471/politique/cameroun-pourquoi-le-proces-dalice-nkom-seternise-et-pourrait-embarrasser-yaounde/"
         }
       ],
       "confirmation_count": 1
