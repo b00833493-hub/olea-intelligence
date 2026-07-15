@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-07-15T11:46:55.216881+00:00",
+  "generated_at": "2026-07-15T14:07:15.830666+00:00",
   "stats": {
-    "total_signals": 252,
-    "verified_signals": 6,
+    "total_signals": 254,
+    "verified_signals": 7,
     "countries_covered": 25,
     "sources_active": 16,
     "per_country": {
+      "COD": 20,
+      "ZAF": 21,
+      "MLI": 18,
       "SLE": 3,
-      "NGA": 45,
-      "KEN": 41,
+      "NGA": 44,
+      "KEN": 42,
       "GIN": 4,
-      "COD": 18,
-      "MAR": 22,
-      "ZAF": 22,
-      "MLI": 17,
-      "CIV": 18,
-      "SEN": 22,
+      "MAR": 21,
+      "CIV": 16,
+      "SEN": 23,
       "CAF": 2,
-      "BFA": 2,
-      "BWA": 1,
+      "BFA": 3,
       "DZA": 2,
       "CMR": 8,
       "BEN": 6,
       "GHA": 4,
+      "ZWE": 1,
+      "RWA": 2,
       "COG": 2,
       "MWI": 1,
       "MDG": 3,
-      "RWA": 1,
       "TCD": 3,
       "MRT": 1,
       "ETH": 1,
@@ -132,6 +132,132 @@
     }
   ],
   "signals": [
+    {
+      "id": "5d9766801b",
+      "title": "RDC: deux mois après l’annonce d’une 17e épidémie d’Ebola, un virus qui progresse plus vite que la riposte",
+      "summary": "Le 15 mai 2026, la République démocratique du Congo (RDC) annonçait qu’une 17ᵉ épidémie d’Ebola avait été détectée dans l’est de son territoire, avec la province de l’Ituri comme épicentre. Deux mois plus tard, la progression du virus Bundibugyo est plus rapide que la riposte mise en place. Explications.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T13:44:11+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260715-rdc-deux-mois-apr%C3%A8s-l-annonce-d-une-17e-%C3%A9pid%C3%A9mie-d-ebola-un-virus-qui-progresse-plus-vite-que-la-riposte"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260715-rdc-deux-mois-apr%C3%A8s-l-annonce-d-une-17e-%C3%A9pid%C3%A9mie-d-ebola-un-virus-qui-progresse-plus-vite-que-la-riposte"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/14/rdc-le-virus-ebola-progresse-encore-plus-vite-malgre-la-riposte/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "8db14ecac2",
+      "title": "Hundreds of Malawians seek repatriation as anti-immigrant protests surge in South Africa",
+      "summary": "Hundreds of Malawi nationals gathered outside their country's embassy in Johannesburg on Tuesday as the forced return of migrants continued.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T13:11:06+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/15/hundreds-of-malawians-seek-repatriation-as-anti-immigrant-protests-surge-in-south-africa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/15/hundreds-of-malawians-seek-repatriation-as-anti-immigrant-protests-surge-in-south-africa/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bdfded55bf",
+      "title": "Ebola en RDC : les soignants dénoncent leurs conditions de travail",
+      "summary": "L’ampleur de l'épidémie actuelle d'Ebola pourrait représenter deux à quatre fois les estimations officielles annonces faites par l'OMS. Le dernier bilan officiel des autorités congolaises publié mardi fait état de 719 morts et 1963 personnes contaminées. Dans l’Ituri, des soignants ont protesté ce mardi pour dénoncer leurs conditions de travail.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T12:14:45+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260715-ebola-en-rdc-les-soignants-d%C3%A9noncent-leurs-conditions-de-travail"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260715-ebola-en-rdc-les-soignants-d%C3%A9noncent-leurs-conditions-de-travail"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2bd5b74000",
+      "title": "Mali: Six former Bah N'Daw allies on Trial Over Alleged Coup Plot",
+      "summary": "In Mali, six men linked to former transitional president Bah N'Daw are on trial over an alleged coup plot. The case is before the Bamako Court of Appeal on Tuesday, July 14.",
+      "country": "MLI",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T12:00:39+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/15/mali-six-former-bah-ndaw-allies-on-trial-over-alleged-coup-plot/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/15/mali-six-former-bah-ndaw-allies-on-trial-over-alleged-coup-plot/"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "5ef19fa847",
       "title": "Sierra Leone drops treason charge against ex-president over attempted coup",
@@ -385,96 +511,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "18fa74c57a",
-      "title": "RDC : le virus Ebola progresse encore plus vite malgré la riposte",
-      "summary": "Le responsable des situations d'urgence à l'Organisation mondiale de la Santé, le Dr Chikwe Ihekweazu, a déclaré mardi que sa visite au cœur de l'épidémie d'Ebola en République démocratique du Congo s'était révélée « assez encourageante à bien des égards, mais aussi profondément préoccupante ».",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T15:05:39+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/14/rdc-le-virus-ebola-progresse-encore-plus-vite-malgre-la-riposte/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/14/rdc-le-virus-ebola-progresse-encore-plus-vite-malgre-la-riposte/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bbbec16e06",
-      "title": "No Evidence Two People Killed in Shooting At Political Event in Kenya's Nakuru County",
-      "summary": "[Africa Check] No evidence two people killed in shooting at political event in Kenya's Nakuru county",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T12:44:24+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607140466.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607140466.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ae28a91b11",
-      "title": "Four Charged With Manslaughter Over Fatal South C Mamliz Towers Project",
-      "summary": "[Capital FM] Nairobi -- Four suspects who worked for Nairobi county have been arraigned before the Milimani Law Courts and charged with two counts of manslaughter over the deaths of two people linked to the construction of the Mamliz Towers building in Nairobi's South C estate.",
-      "country": "KEN",
-      "category": "REGULATION",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T12:38:42+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607140455.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607140455.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "3d13d8835b",
       "title": "Moroccan Authorities Arrest Journalist Ali Lmrabet Over Alleged False Information",
       "summary": "[CPJ] New York -- Moroccan authorities must immediately and unconditionally release French-Moroccan freelance journalist Ali Lmrabet, who has faced decades of pressure over his critical reporting, the Committee to Protect Journalists said Tuesday.",
@@ -715,6 +751,66 @@
       "confirmation_count": 1
     },
     {
+      "id": "d8150aa2c1",
+      "title": "Sustained Attacks On IEBC Could Fuel Rejection of 2027 Election Results, Warns Commissioner Atulala",
+      "summary": "[Capital FM] Nairobi -- Independent Electoral and Boundaries Commission (IEBC) Commissioner Moses Atulala has warned that continued political attacks on the electoral body risk undermining public confidence in the commission and could trigger widespread rejection of the 2027 General Election results.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T13:43:24+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607150527.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607150527.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f982d5c0fb",
+      "title": "Sénégal : la FSF blâme Pape Thiaw pour l'échec au Mondial 2026",
+      "summary": "Au Sénégal, la Fédération sénégalaise de football attribue une partie de l’échec des Lions de la Teranga à la Coupe du monde aux tensions avec leur désormais ex-sélectionneur, Pape Thiaw.",
+      "country": "SEN",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T12:24:41+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/14/senegal-la-federation-de-football-attribue-lechec-du-mondial-au-selectionneur/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/14/senegal-la-federation-de-football-attribue-lechec-du-mondial-au-selectionneur/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "2986010abe",
       "title": "Démissions, limogeages, exclusions : Diomaye et Sonko purgent leurs rangs",
       "summary": "La rupture entre le chef de l’État sénégalais et son ancien Premier ministre entraîne un vaste coup de balai dans l’administration et au sein de Pastef, tandis que le projet de révision constitutionnelle alimente les tensions.",
@@ -925,36 +1021,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "24db7a97ac",
-      "title": "Afrique du Sud : le dossier d'extradition de Kemi Seba renvoyé au 11 août",
-      "summary": "Le Bénin l’accuse d’incitation à la violence et de blanchiment d’argent, après son soutien au coup d’état manqué de décembre 2025.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": "AML_CFT",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-07-14T18:40:47+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/14/afrique-du-sud-le-dossier-dextradition-de-kemi-seba-renvoye-au-11-aout/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/14/afrique-du-sud-le-dossier-dextradition-de-kemi-seba-renvoye-au-11-aout/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "64b9c5f3fe",
       "title": "South African court pushes Kemi Seba extradition case to August 11",
       "summary": "Pan-African activist Kemi Seba will remain in custody after a South African court postponed proceedings in his extradition case until August 11. Benin is seeking his extradition over allegations of incitement to rebellion following the failed coup attempt of December 2025.",
@@ -1010,36 +1076,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260714-ebola-en-rdc-les-employ%C3%A9s-d-un-centre-de-traitement-en-gr%C3%A8ve-%C3%A0-rwampara"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bcc61047c6",
-      "title": "Sénégal : la Fédération de football attribue l'échec du Mondial au sélectionneur",
-      "summary": "Au Sénégal, la Fédération sénégalaise de football attribue une partie de l’échec des Lions de la Teranga à la Coupe du monde aux tensions avec leur désormais ex-sélectionneur, Pape Thiaw.",
-      "country": "SEN",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T16:22:59+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/14/senegal-la-federation-de-football-attribue-lechec-du-mondial-au-selectionneur/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/14/senegal-la-federation-de-football-attribue-lechec-du-mondial-au-selectionneur/"
         }
       ],
       "confirmation_count": 1
@@ -1130,36 +1166,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260714-la-rdc-envoie-trois-officiers-pour-le-m%C3%A9canisme-de-cessez-le-feu-dans-l-est-o%C3%B9-arm%C3%A9e-et-afc-m23-s-accusent-de-violations"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "27e447675a",
-      "title": "Botswana: un couple conteste la constitutionnalité des lois interdisant le mariage homosexuel",
-      "summary": "C’est une première au Botswana : un couple de même sexe est devant la justice ce 14 juillet 2026 pour contester la constitutionnalité des lois qui interdisent le mariage homosexuel. L’affaire a été portée devant un tribunal par deux femmes qui remettent en cause l’interprétation de la loi sur le mariage. Elles sont entendues depuis ce mardi matin par la Haute Cour du pays, dans la capitale.",
-      "country": "BWA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T11:49:10+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260714-botswana-un-couple-conteste-la-constitutionnalit%C3%A9-des-lois-interdisant-le-mariage-homosexuel"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260714-botswana-un-couple-conteste-la-constitutionnalit%C3%A9-des-lois-interdisant-le-mariage-homosexuel"
         }
       ],
       "confirmation_count": 1
@@ -1370,36 +1376,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1804311/politique/apres-les-attaques-au-mali-cetait-la-psychose-la-guinee-face-a-la-menace-jihadiste/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4dc32af29c",
-      "title": "Pourquoi la xénophobie gagne du terrain en Afrique du Sud",
-      "summary": "Les attaques contre des migrants africains se multiplient en Afrique du Sud depuis le début de l’année. Trente ans après la naissance de la \"nation arc-en-ciel\", près de 50 000 migrants illégaux ont quitté le pays ces dernières semaines, tandis que des mouvements anti-immigration gagnent en visibilité. Philippe Gervais-Lambony, professeur émérite à l’Université Paris Nanterre et spécialiste de l’Afrique du Sud analyse les racines de cette poussée xénophobe.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-12T21:02:19+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260712-violences-x%C3%A9nophobes-en-afrique-du-sud-quelles-sont-les-raisons-de-la-col%C3%A8re"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260712-violences-x%C3%A9nophobes-en-afrique-du-sud-quelles-sont-les-raisons-de-la-col%C3%A8re"
         }
       ],
       "confirmation_count": 1
@@ -2149,36 +2125,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "a59580e070",
-      "title": "DCI Probe Death of Grade 9 Student After Fall At Citam School Ngong",
-      "summary": "[Capital FM] Nairobi -- The Directorate of Criminal Investigations (DCI) has launched investigations into the death of a Grade 9 student at CITAM Schools Ngong after she reportedly fell from the rooftop of one of the school's buildings on Monday morning.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T12:27:22+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607140438.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607140438.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1304df9fe4",
       "title": "Cameroun : 1 400 églises de réveil illégales bientôt fermées après un meurtre",
       "summary": "Au Cameroun, 1 400 églises de réveil seront bientôt fermées, a annoncé le ministre de l’Administration territoriale. Cette décision fait suite au meurtre d’une fillette de 11 ans à Yaoundé. L'auteure présumée du crime, fidèle d'une de ces églises, avait déclaré avoir agi sous l'influence d'un prétendu prophète.",
@@ -2851,6 +2797,156 @@
       "confirmation_count": 1
     },
     {
+      "id": "66e575da07",
+      "title": "Au Sénégal, les supporters réclament la démission du président de la FSF",
+      "summary": "Au Sénégal, la colère monte. Des supporters réclament la démission du président de la FSF après l'échec du Mondial 2026. Ils dénoncent aussi les dysfonctionnements extra-sportifs qui ont marqué la campagne des Lions aux USA.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T13:39:59+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260715-au-s%C3%A9n%C3%A9gal-les-supporters-r%C3%A9clament-la-d%C3%A9mission-du-pr%C3%A9sident-de-la-fsf"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260715-au-s%C3%A9n%C3%A9gal-les-supporters-r%C3%A9clament-la-d%C3%A9mission-du-pr%C3%A9sident-de-la-fsf"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f34e255400",
+      "title": "Zimbabwe : 80 000 rapatriés après les violences en Afrique du Sud",
+      "summary": "Près de 80 000 Zimbabwéens ont regagné leur pays après les violences xénophobes en Afrique du Sud. La majorité est revenue par ses propres moyens, malgré un dispositif de rapatriement mis en place par les autorités. De retour chez eux, ils racontent les épreuves et les traumatismes qu'ils ont vécus.",
+      "country": "ZWE",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T13:12:28+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260715-zimbabwe-80-000-rapatri%C3%A9s-apr%C3%A8s-les-violences-en-afrique-du-sud"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260715-zimbabwe-80-000-rapatri%C3%A9s-apr%C3%A8s-les-violences-en-afrique-du-sud"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6460f5f091",
+      "title": "Génocide des Tutsis au Rwanda: trente ans de prison requis en appel contre le médecin Eugène Rwamucyo",
+      "summary": "Après six semaines de débats, l'avocate générale a requis, ce 15 juillet 2026 à Paris, 30 années de réclusion criminelle contre Eugène Rwamucyo, durant le procès de ce médecin rwandais condamné en première instance à 27 ans de prison pour complicité de génocide contre les Tutsis en 1994 au Rwanda. Le verdict est attendu le 17 juillet.",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T12:47:08+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260715-g%C3%A9nocide-des-tutsis-au-rwanda-trente-ans-de-prison-requis-en-appel-contre-le-m%C3%A9decin-eug%C3%A8ne-rwamucyo"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260715-g%C3%A9nocide-des-tutsis-au-rwanda-trente-ans-de-prison-requis-en-appel-contre-le-m%C3%A9decin-eug%C3%A8ne-rwamucyo"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d3a478685e",
+      "title": "Kenya : les \"Maiani Grannies\" jouent au football pour rester en forme",
+      "summary": "Au Kenya, dans un village du comté de Makueni, des femmes âgées entre 50 et 80 ans jouent au football au sein du club des \"Maiani Grannies\". Pour elles, jouer au ballon rond, c'est la santé.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T12:45:15+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/14/kenya-des-femmes-agees-jouent-au-football-pour-la-sante/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/14/kenya-des-femmes-agees-jouent-au-football-pour-la-sante/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "28f2549b0b",
+      "title": "Sénégal : rencontre prévue entre Macky Sally et Diomaye Faye",
+      "summary": "Macky Sall est attendu à Dakar vendredi. L’ancien président fait son retour dans la capitale sénégalaise, deux ans après avoir quitté le pouvoir. Au menu de sa visite \"éclair\", une rencontre avec Bassirou Diomaye Faye.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T12:36:11+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/14/senegal-macky-sall-recu-par-diomaye-faye-vendredi/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/14/senegal-macky-sall-recu-par-diomaye-faye-vendredi/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a523ca6ced",
       "title": "Comment Christian Yoka a crédibilisé les finances du Congo",
       "summary": "Le ministre congolais des Finances et du Budget a réussi à redresser la trajectoire d’endettement de Brazzaville. Il a notamment pu mettre à profit son expérience à la tête du département Afrique de l’AFD pour rassurer les investisseurs.",
@@ -2876,6 +2972,216 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1801259/economie-entreprises/comment-christian-yoka-a-credibilise-les-finances-du-congo/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e83796cd4d",
+      "title": "Mali : des officiers jugés pour complot contre l'État",
+      "summary": "Au Mali, six proches de l'ancien président de transition Bah N'Daw ont comparu mardi devant la chambre criminelle de la cour d'appel de Bamako. Ils sont poursuivis pour un présumé complot contre le gouvernement, après près de cinq ans de détention.",
+      "country": "MLI",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "JURIS_OHADA",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-07-15T12:25:36+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/15/mali-des-officiers-juges-pour-complot-contre-letat/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/15/mali-des-officiers-juges-pour-complot-contre-letat/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e1678d87f6",
+      "title": "DRC Ebola cases surpass 2,000 as more health workers begin strike",
+      "summary": "Health workers in Democratic Republic of the Congo's Ituri province strike over unpaid wages as death toll rises to 754.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T12:07:43+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/7/15/drc-ebola-cases-surpass-2000-as-more-health-workers-begin-strike?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/7/15/drc-ebola-cases-surpass-2000-as-more-health-workers-begin-strike?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c87dba93c0",
+      "title": "Afrique du Sud : le procès d'extradition de Kemi Seba renvoyé au 11 août",
+      "summary": "Kemi Seba doit encore patienter dans une cellule de prison en Afrique du Sud. Alors que la justice sud-africaine devait examiner ce mardi la demande de son extradition introduite par le Bénin, le dossier a été renvoyé au 11 août 2026.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T11:59:37+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/14/afrique-du-sud-le-dossier-dextradition-de-kemi-seba-renvoye-au-11-aout/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/14/afrique-du-sud-le-dossier-dextradition-de-kemi-seba-renvoye-au-11-aout/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9701dcf8f7",
+      "title": "High Court Rules Cannabis Not Proven Essential to Rastafarian Faith, Rejects Exemption Bid",
+      "summary": "[Capital FM] Nairobi -- The High Court has rejected a constitutional challenge by Kenya's Rastafari community seeking an exemption from cannabis laws for religious worship, ruling that the petitioners failed to prove the drug is an essential tenet of their faith.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T11:55:09+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607150459.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607150459.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "12445d6491",
+      "title": "Mwamuye Urges National Cannabis Debate Despite Rejecting Rastafarian Case",
+      "summary": "[Capital FM] Nairobi -- High Court Judge Bahati Mwamuye has called for a national conversation on cannabis policy in Kenya, saying the country's current approach may no longer reflect social realities despite dismissing a petition seeking a religious exemption for its use by Rastafarians.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T11:54:37+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607150458.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607150458.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0bcc650de1",
+      "title": "Parliament Petitioned to Recognise Low Libido, Female Sexual Desire Disorder As Disabilities",
+      "summary": "[Capital FM] Nairobi -- Parliament has received a petition seeking to have male low libido and female Hypoactive Sexual Desire Disorder (HSDD) recognised as disabilities.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T11:54:12+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607150457.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607150457.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "459a6a0302",
+      "title": "Kenyan court rejects Rastafarians' bid to use cannabis for religion",
+      "summary": "A Kenyan court refused to grant Rastafarians the right to smoke weed on religious grounds in a ruling Wednesday.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T11:27:43+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/15/kenyan-court-rejects-rastafarians-bid-to-use-cannabis-for-religion/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/15/kenyan-court-rejects-rastafarians-bid-to-use-cannabis-for-religion/"
         }
       ],
       "confirmation_count": 1
@@ -2936,6 +3242,36 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/cpq3q75y40do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "63ba77b6a2",
+      "title": "Kenya : la demande de légalisation du cannabis pour les rastafaris rejetée",
+      "summary": "La communauté rastafari entretient un lien particulier avec l’histoire du Kenya, notamment à travers le port des dreadlocks.",
+      "country": "KEN",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T11:07:10+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/15/kenya-la-demande-legaliser-du-cannabis-pour-les-rastafaris-rejetee/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/15/kenya-la-demande-legaliser-du-cannabis-pour-les-rastafaris-rejetee/"
         }
       ],
       "confirmation_count": 1
@@ -3061,8 +3397,38 @@
       "confirmation_count": 1
     },
     {
-      "id": "f11a2f7593",
-      "title": "Kenyan court dismisses Rastafarians' bid to legalise cannabis",
+      "id": "a5091e30ba",
+      "title": "Burkina: deux responsables de la délégation de l’Union européenne à Ouagadougou déclarés persona non grata",
+      "summary": "Nouvelle escalade dans la crise diplomatique entre le Burkina Faso et l’Union européenne : deux responsables de la délégation de l’UE à Ouagadougou ont été déclarés persona non grata, selon l’Agence d’information du Burkina (AIB). D’après les informations de RFI, la décision leur a été notifiée le 14 juillet. Les autorités burkinabè leur ont donnés 72 heures pour quitter le pays. Pour l’heure, aucune explication officielle. Mais cette décision s’inscrit dans un contexte…",
+      "country": "BFA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T10:51:00+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/en-bref/20260715-burkina-faso-deux-responsables-de-la-d%C3%A9l%C3%A9gation-de-l-union-europ%C3%A9enne-%C3%A0-ouagadougou-d%C3%A9clar%C3%A9s-persona-non-grata"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/en-bref/20260715-burkina-faso-deux-responsables-de-la-d%C3%A9l%C3%A9gation-de-l-union-europ%C3%A9enne-%C3%A0-ouagadougou-d%C3%A9clar%C3%A9s-persona-non-grata"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6a8d8fb641",
+      "title": "Rastafarians in Kenya fail in bid to get cannabis legalised for religious purposes",
       "summary": "The court acknowledged the need for a broader national debate on cannabis policy in Kenya.",
       "country": "KEN",
       "category": "AUTRE",
@@ -3116,36 +3482,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607150298.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "63ba77b6a2",
-      "title": "Kenya : la demande de légalisation du cannabis pour les rastafaris rejetée",
-      "summary": "La communauté rastafari entretient un lien particulier avec l’histoire du Kenya, notamment à travers le port des dreadlocks.",
-      "country": "KEN",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-15T10:42:05+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/15/kenya-la-demande-legaliser-du-cannabis-pour-les-rastafaris-rejetee/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/15/kenya-la-demande-legaliser-du-cannabis-pour-les-rastafaris-rejetee/"
         }
       ],
       "confirmation_count": 1
@@ -3601,11 +3937,41 @@
       "confirmation_count": 1
     },
     {
-      "id": "e49f6920f5",
-      "title": "France - Maroc : Sébastien Lecornu se rend à Rabat pour renforcer la coopération",
-      "summary": "Le Premier ministre français est attendu au Maroc, mercredi, pour une \"rencontre de haut niveau\", la première depuis 2019, afin de consolider un rapprochement diplomatique et économique. Le point d'orgue de la relation pourrait être une visite de Mohammed VI en France, accompagnée de la signature d'un traité consacrant un partenariat franco-marocain \"d'exception\".",
+      "id": "b580d04931",
+      "title": "Kenya: la justice rejette la demande des rastafaris d’utiliser le cannabis pour leur culte",
+      "summary": "La Haute Cour du Kenya a rejeté ce 15 juillet 2026 la demande de la communauté rastafari visant à obtenir une exemption religieuse pour utiliser le cannabis dans le cadre de son culte. Les juges ont estimé que les requérants n’avaient pas démontré que l’interdiction du cannabis porte atteinte à leurs droits constitutionnels. Selon les premiers éléments du jugement, la Cour a également considéré que l’usage du cannabis ne constitue pas un élément central de la foi…",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T08:17:04+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/en-bref/20260715-kenya-la-justice-rejette-la-demande-des-rastafaris-d-utiliser-le-cannabis-pour-leur-culte"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/en-bref/20260715-kenya-la-justice-rejette-la-demande-des-rastafaris-d-utiliser-le-cannabis-pour-leur-culte"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ebcddc5e5f",
+      "title": "France-Maroc : Sébastien Lecornu en visite à Rabat pour renforcer la coopération",
+      "summary": "Le Premier ministre français est attendu mercredi soir à Rabat pour consolider le rapprochement entre la France et le Maroc, avec un possible déplacement de Mohammed VI à Paris en ligne de mire.",
       "country": "MAR",
-      "category": "ECONOMIE",
+      "category": "AUTRE",
       "severity": 1,
       "credibility": 2,
       "verified": false,
@@ -4016,6 +4382,36 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607150099.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6dd5d1a4d2",
+      "title": "Nigeria, U.S. Deepen Defence Ties to Tackle Terrorism, Regional Threats",
+      "summary": "[Vanguard] The Chief of Defence Staff (CDS), Gen. Olufemi Oluyede, has reaffirmed Nigeria's commitment to strengthening defence cooperation with the United States to address terrorism, violent extremism and other emerging security threats.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T05:44:18+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607150100.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607150100.html"
         }
       ],
       "confirmation_count": 1
@@ -4501,36 +4897,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1a86d80f14",
-      "title": "Sénégal : Macky Sall reçu par Diomaye Faye vendredi",
-      "summary": "L'ancien président vient solliciter le soutien de Dakar à sa candidature au poste de secrétaire général de l'ONU.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T15:12:40+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/14/senegal-macky-sall-recu-par-diomaye-faye-vendredi/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/14/senegal-macky-sall-recu-par-diomaye-faye-vendredi/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5871bbee0a",
       "title": "Kenyan grandmothers find health, friendship and purpose through football",
       "summary": "For these women, football is about far more than the final score. It is helping them stay healthy, reduce isolation and build confidence—showing that it's never too late to embrace sport and that ageing can be active, joyful and full of new possibilities",
@@ -4586,36 +4952,6 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607140546.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "011a8ba25d",
-      "title": "Kenya : des femmes âgées jouent au football pour la santé",
-      "summary": "Ce sport joue un rôle essentiel en aidant les femmes âgées à rester en bonne santé et à socialiser.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T14:10:02+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/14/kenya-des-femmes-agees-jouent-au-football-pour-la-sante/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/14/kenya-des-femmes-agees-jouent-au-football-pour-la-sante/"
         }
       ],
       "confirmation_count": 1
@@ -4891,126 +5227,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2b9ac4fe4b",
-      "title": "Yobe, Adamawa Tighten Security to Curb Illegal Mining",
-      "summary": "[Premium Times] The measures may not be unconnected with the allegations associating solid minerals, such as gold, with banditry and insurgency in some parts of the country",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T12:46:11+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607140470.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607140470.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "11db93184c",
-      "title": "Leader of Kenya's DCP Did Not Endorse Cabinet Minister Wycliffe Oparanya As Ruto's Running Mate",
-      "summary": "[Africa Check] IN SHORT: A doctored video falsely shows Cleophas Malala endorsing Wycliffe Oparanya as Kenyan president William Ruto's preferred running mate for the 2027 election. The original footage shows Malala-backed Nairobi county senator Edwin Sifuna.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T12:44:54+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607140467.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607140467.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "01b076c672",
-      "title": "Fake Newspaper Front Page Falsely Claims Kenyan Opposition Politician Fred Matiang'i Barred From Running for President",
-      "summary": "[Africa Check] IN SHORT: A newspaper front page resembling Kenya's Standard newspaper is circulating on social media with the claim that opposition politician Fred Matiang'i has been barred from running for president. However, the front page is fake.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T12:43:27+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607140461.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607140461.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5b5bd3506a",
-      "title": "Motorists Given Six Months to Collect Physical Logbooks",
-      "summary": "[Capital FM] Nairobi -- Motor vehicle owners have six months to collect printed logbooks lying at National Transport and Safety Authority (NTSA) offices or risk having the documents disposed of under the agency's records management policy, as government accelerates the transition to a fully digital vehicle registration system.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T12:38:17+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607140454.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607140454.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "a3b7053abc",
       "title": "Govt Extends 8 Percent VAT On Fuel for Three More Months Amid Middle East Volatility",
       "summary": "[Capital FM] Nairobi -- The government has extended the application of the reduced 8 percent Value Added Tax (VAT) on petroleum products for an additional three months in a move aimed at cushioning consumers from a possible rise in fuel prices.",
@@ -5156,6 +5372,36 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/424909/nigeria-danladi-umar-the-tribunal-chairman-who-acquitted-tinubu-is-now-on-trial/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1bdb8c4302",
+      "title": "Petition Seeks Postponement of Ol Kalou By-Election Over Integrity Concerns",
+      "summary": "[Capital FM] Nairobi -- A petition has been lodged seeking the postponement of the Ol Kalou parliamentary by-election slated for July 16, 2026, over concerns that the prevailing political climate could undermine the integrity and credibility of the poll.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-14T11:43:21+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607140346.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607140346.html"
         }
       ],
       "confirmation_count": 1
@@ -5336,6 +5582,36 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/424898/south-africa-four-months-to-local-polls-the-anc-is-facing-a-mayoral-conundrum/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8d9f2b1d0c",
+      "title": "IEBC Declares All Set for Ol Kalou Poll, Bans Phones Inside Voting Booths",
+      "summary": "[Capital FM] Nairobi -- The Independent Electoral and Boundaries Commission (IEBC) has declared all logistical and technological preparations complete for Thursday's Ol Kalou parliamentary by-election, vowing efforts to protect the integrity of the vote.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-14T09:50:13+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607140193.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607140193.html"
         }
       ],
       "confirmation_count": 1
@@ -5611,36 +5887,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "60912655d0",
-      "title": "Maroc: le journaliste Ali Lmrabet en détention, une association de défense des droits humains s'insurge",
-      "summary": "Au Maroc, le journaliste Ali Lmrabet a passé une nouvelle nuit en détention. Figure de la presse indépendante vivant en exil depuis plusieurs années, il a été interpellé à son entrée sur le territoire marocain le 12 juillet alors qu’il venait d’Espagne. Il est accusé de « diffusion présumée de fausses informations », selon Reporters sans frontières (RSF). Transféré à la Brigade nationale de la police judiciaire pour y être auditionné, il s’y trouvait toujours le 13…",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T06:48:26+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260714-maroc-le-journaliste-ali-lmrabet-en-d%C3%A9tention-l-association-nationale-des-droits-humains-s-insurge"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260714-maroc-le-journaliste-ali-lmrabet-en-d%C3%A9tention-l-association-nationale-des-droits-humains-s-insurge"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "d0cb482ffe",
       "title": "Ethiopia: Axum’s ‘holy town’ declaration puts church and constitution on a collision course",
       "summary": "A church ordinance banning alcohol and khat, while requiring “symbols of sanctity”, has reignited a decades-old dispute over mosque access in the northern Tigrayan town. Two months later, the church officials behind the declaration came under gunfire.",
@@ -5786,36 +6032,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1816626/economie-entreprises/petrole-le-nigeria-a-produit-plus-que-son-quota-opep/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "01334f197d",
-      "title": "Mali: le Comité des disparitions forcées de l'ONU demande à Bamako de «localiser et protéger» Mountaga Tall",
-      "summary": "Au Mali, près de deux mois et demi après l'enlèvement, par la Sécurité d'État, de Maître Mountaga Tall, le Comité des disparitions forcées des Nations unies demande aux autorités maliennes de transition de « prendre des mesures immédiates pour rechercher, localiser et protéger » l'ancien ministre et défenseur de la démocratie. Une demande qui concerne également son fils, Cheick Mamadou Tall, enlevé à son tour deux semaines plus tard. C'est ce qu'indique le comité onusien…",
-      "country": "MLI",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-13T17:35:23+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260713-l-afrique-du-sud-pr%C3%A9voit-de-stocker-deux-mois-de-r%C3%A9serves-strat%C3%A9giques-de-carburant-1"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260713-l-afrique-du-sud-pr%C3%A9voit-de-stocker-deux-mois-de-r%C3%A9serves-strat%C3%A9giques-de-carburant-1"
         }
       ],
       "confirmation_count": 1
@@ -5996,36 +6212,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/07/13/kenya-le-phenomene-des-hommes-de-main-dits-goons-inquiete-les-ong/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1ce6491f9f",
-      "title": "Côte d'Ivoire : des dissidents demandent la démission de Tidjane Thiam de la tête du PDCI-RDA",
-      "summary": "En Côte d'Ivoire, nouvelle crise au sein du PDCI-RDA. Des militants dissidents réclament la démission du président du parti, Tidjane Thiam, qu'ils jugent trop absent. Ils demandent la tenue d'un nouveau congrès.",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-13T13:06:50+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260713-c%C3%B4te-d-ivoire-des-dissidents-demandent-la-d%C3%A9mission-de-tidjane-thiam-de-la-t%C3%AAte-du-pdci-rda"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260713-c%C3%B4te-d-ivoire-des-dissidents-demandent-la-d%C3%A9mission-de-tidjane-thiam-de-la-t%C3%AAte-du-pdci-rda"
         }
       ],
       "confirmation_count": 1
@@ -6271,36 +6457,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3a2887583a",
-      "title": "Nigeria : le soulagement des parents après la libération d'élèves enlevés",
-      "summary": "Au Nigeria, les enlèvements dans les écoles sont fréquents. Des groupes armés les prennent pour cible afin de faire pression sur le gouvernement et d’obtenir des rançons.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-13T08:04:48+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/13/nigeria-le-soulagement-des-parents-apres-la-liberation-deleves-enleves/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/13/nigeria-le-soulagement-des-parents-apres-la-liberation-deleves-enleves/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "ef6d9b241e",
       "title": "Paul Biya et le Cameroun : d’un 13 juillet à l’autre, chronique d’une année folle",
       "summary": "Le 13 juillet 2025, Paul Biya mettait fin à un faux suspense, déclarant sa candidature à la présidentielle, 43 ans après son arrivée au pouvoir. Le début d’une surprenante campagne électorale et d’une étrange année politique, à l’issue de laquelle la nouvelle ère attendue n’est toujours pas advenue.",
@@ -6361,66 +6517,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f67c4d05de",
-      "title": "À Abidjan, l'Afrique repense l'avenir de ses minerais stratégiques",
-      "summary": "Longtemps cantonnée au rôle de fournisseur de matières premières, l'Afrique veut désormais transformer davantage de ses minerais sur son propre sol. Cobalt, lithium, graphite ou encore cuivre sont au cœur de la transition énergétique mondiale. À Abidjan, responsables politiques, industriels et investisseurs réfléchissent aux moyens de développer des chaînes locales et de capter une plus grande part des richesses générées par ces ressources.",
-      "country": "CIV",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-12T20:37:16+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260712-sommet-sur-les-minerais-critiques-%C3%A0-abidjan-l-afrique-veut-transformer-davantage"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260712-sommet-sur-les-minerais-critiques-%C3%A0-abidjan-l-afrique-veut-transformer-davantage"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0b906e0044",
-      "title": "Kenya: MSF trains health workers to be sent to Ebola-hit DR Congo",
-      "summary": "An Ebola training facility set up by Doctors Without Borders in Kenya is a chance for health workers to prepare for one of the most complex emergencies they are ever likely to face.",
-      "country": "KEN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-12T13:53:37+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/12/kenya-msf-trains-health-workers-to-be-sent-to-ebola-hit-dr-congo/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/12/kenya-msf-trains-health-workers-to-be-sent-to-ebola-hit-dr-congo/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "a0e031120b",
       "title": "Qui, aux côtés du colonel Randrianirina, gouverne vraiment Madagascar ?",
       "summary": "Autour du colonel-président gravite une garde rapprochée mêlant loyaux camarades de promotion, personnalités recasées et entrepreneurs proches du pouvoir. Ces hommes et femmes de l’ombre dessinent les contours du nouveau régime.",
@@ -6451,38 +6547,8 @@
       "confirmation_count": 1
     },
     {
-      "id": "5b1a3472bf",
-      "title": "Zimbabweans return home from South Africa amid anti-immigrant tensions",
-      "summary": "Zimbabweans fleeing xenophobic violence and threats in South Africa arrived at a reception centre in the border town of Beitbridge, Zimbabwe",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-12T12:20:08+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/12/zimbabweans-return-home-from-south-africa-amid-anti-immigrant-tensions/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/12/zimbabweans-return-home-from-south-africa-amid-anti-immigrant-tensions/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "af0043d411",
-      "title": "Le repreneur de Shell au Nigeria peut-il devenir « le leader africain de l’énergie » ?",
+      "id": "c1ce4abe4f",
+      "title": "Le repreneur de Shell au Nigeria peut-il devenir « le leader africain de l’énergie » ?",
       "summary": "Renaissance Africa Energy relance l’exploitation d’un gisement découvert en 1967 mais resté inexploité depuis. Une preuve supplémentaire de la reprise en main locale des ressources du Nigeria.",
       "country": "NGA",
       "category": "AUTRE",
