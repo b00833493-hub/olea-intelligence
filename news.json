@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-07-16T14:20:19.717618+00:00",
+  "generated_at": "2026-07-16T16:40:03.541574+00:00",
   "stats": {
-    "total_signals": 260,
-    "verified_signals": 7,
+    "total_signals": 258,
+    "verified_signals": 8,
     "countries_covered": 24,
     "sources_active": 16,
     "per_country": {
+      "DZA": 11,
       "UGA": 5,
-      "COD": 22,
+      "COD": 19,
       "CAF": 2,
-      "NGA": 45,
-      "DZA": 12,
+      "NGA": 44,
       "SEN": 18,
-      "KEN": 44,
       "MLI": 17,
-      "ZAF": 10,
+      "ZAF": 11,
       "SLE": 3,
       "MAR": 29,
-      "BEN": 4,
-      "GIN": 2,
-      "CMR": 9,
+      "TCD": 3,
+      "BEN": 5,
+      "CMR": 8,
+      "KEN": 43,
       "ZMB": 3,
+      "GIN": 2,
       "COG": 3,
-      "CIV": 17,
+      "CIV": 18,
+      "GHA": 5,
       "ZWE": 3,
-      "GHA": 4,
       "NER": 1,
-      "TCD": 2,
       "RWA": 2,
       "BFA": 2,
       "MRT": 1
@@ -131,6 +131,72 @@
     }
   ],
   "signals": [
+    {
+      "id": "03743961af",
+      "title": "Children among dead at Algeria foster care home blaze - president",
+      "summary": "Eleven people have died and 19 other have suffered injuries in the overnight fire, the authorities say.",
+      "country": "DZA",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T16:14:45+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cvgwd4nz344o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cvgwd4nz344o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1fd2899735",
+      "title": "Algérie : 11 morts dans l'incendie d'un orphelinat",
+      "summary": "En Algérie, onze corps dont certains calcinés, ont été retrouvés dans un orphelinat près de la banlieue d'Alger. Le bâtiment a été ravagé par les flammes. Plusieurs enfants sont parmi les victimes.",
+      "country": "DZA",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T16:12:26+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260716-alg%C3%A9rie-11-mort-dans-l-incendie-d-un-orphelinat"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260716-alg%C3%A9rie-11-mort-dans-l-incendie-d-un-orphelinat"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/16/algerie-au-moins-11-morts-dans-lincendie-dun-orphelinat-pres-dalger/"
+        }
+      ],
+      "confirmation_count": 2
+    },
     {
       "id": "f9cf147e92",
       "title": "L'Ouganda annonce la guérison du dernier patient d'Ebola",
@@ -492,42 +558,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2330eacb89",
-      "title": "Algérie : au moins 11 morts et 19 blessés dans l'incendie d'un orphelinat",
-      "summary": "La protection civile algérienne a indiqué jeudi qu'un incendie en cours dans un orphelinat de la commune de Mohammadia, située dans la banlieue d'Alger, a fait au moins 11 morts et 19 blessés. Le président algérien a déploré la mort de \"plusieurs enfants\" dans l'incendie. Les causes de ce feu ne sont pas encore connues.",
-      "country": "DZA",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-16T07:40:59+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260716-alg%C3%A9rie-au-moins-11-morts-19-bless%C3%A9s-dans-incendie-orphelinat"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260716-alg%C3%A9rie-au-moins-11-morts-19-bless%C3%A9s-dans-incendie-orphelinat"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/16/algerie-au-moins-11-morts-dans-lincendie-dun-orphelinat-pres-dalger/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "4457c4bbfd",
       "title": "Nigeria Jails Journalist for 2 Months Pending Trial Over Corruption Reporting",
       "summary": "[CPJ] Abuja -- The Committee to Protect Journalists calls on Nigerian authorities to immediately release Secret Reporters journalist Stanley Ugagbe, who was remanded to prison on Tuesday for two months of pretrial detention, and to drop the cybercrime and defamation charges against him and his publisher, Tega Oghenedoro, also known as Fejiro Oliver.",
@@ -613,36 +643,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260716-s%C3%A9n%C3%A9gal-col%C3%A8re-des-familles-de-victimes-apr%C3%A8s-la-rencontre-entre-bassirou-diomaye-faye-et-macky-sall"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7b1c4a4606",
-      "title": "Harambee Starlets' Tears Turn to Joy As Government Finally Clears Arrears",
-      "summary": "[Capital FM] NAIROBI -- After much push and pull, the government has finally fulfilled its pledge to clear the allowances owed to the national women's football team, in addition to a handsome reward, as promised by President William Ruto on Tuesday.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-15T16:28:24+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607150603.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607150603.html"
         }
       ],
       "confirmation_count": 1
@@ -924,6 +924,42 @@
       "confirmation_count": 1
     },
     {
+      "id": "24323501db",
+      "title": "Au Forum africain de l’eau, le Tchad annonce la suppression des visas pour les Africains dès 2027",
+      "summary": "Le Forum africain de l’eau, organisé par le gouvernement tchadien et la Banque mondiale, aura été le théâtre d’une annonce politique majeure dépassant largement le seul cadre des enjeux hydriques. À l’ouverture officielle de ce Forum, le président tchadien Mahamat Idriss Déby Itno a annoncé la suppression du visa d’entrée pour tous les ressortissants africains à compter du 1er janvier 2027, faisant de ce rendez-vous continental la tribune d’un engagement fort en faveur de…",
+      "country": "TCD",
+      "category": "ECONOMIE",
+      "severity": 3,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T14:05:13+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/16/au-forum-africain-de-leau-le-tchad-annonce-la-suppression-des-visas-pour-les-africains-des-2027/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/16/au-forum-africain-de-leau-le-tchad-annonce-la-suppression-des-visas-pour-les-africains-des-2027/"
+        },
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1820512/politique/tchad-ce-que-lon-sait-de-la-suppression-des-visas-pour-les-africains-a-compter-de-2027/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
       "id": "fcf1859cfe",
       "title": "Au Sénégal, une chasse ancestrale endiablée invoque la pluie",
       "summary": "Au son d’une frénésie de tambours, de chants et de coups de feu, quelques centaines d’hommes sérères défilent dans un état de transe, brandissant le butin de la chasse du jour — chacals, varans, singes et oiseaux — dans l’espoir d’accélérer l’arrivée de la saison des pluies au Sénégal.",
@@ -1009,66 +1045,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607160457.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9719e153b5",
-      "title": "Fire at orphanage in Algeria kills 11 people, including children",
-      "summary": "Eleven people died and 19 were injured after a fire swept through a state-run child welfare home in east Algiers.",
-      "country": "DZA",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-16T10:41:41+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/7/16/fire-at-orphanage-in-algeria-kills-11-people-including-children?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/7/16/fire-at-orphanage-in-algeria-kills-11-people-including-children?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "59528408f1",
-      "title": "Eleven people die in fire at Algerian children's care home",
-      "summary": "Along with the fatalities, 19 people suffered injuries, the authorities say.",
-      "country": "DZA",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-16T10:34:21+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/cvgwd4nz344o?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cvgwd4nz344o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
@@ -1464,66 +1440,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f1996977e6",
-      "title": "Léopards congolais au Mondial : à la découverte des ateliers de couture",
-      "summary": "En République démocratique du Congo, c’est l’histoire d’une véritable success story : celle de la veste portée par les Léopards à leur arrivée aux États-Unis pour la Coupe du monde. Une création imaginée par un jeune styliste congolais et entièrement fabriquée à Kinshasa. Reportage d’Aurélie Bazzara-Kibangula.",
-      "country": "COD",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T09:18:20+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260714-l%C3%A9opards-congolais-au-mondial-%C3%A0-la-d%C3%A9couverte-des-ateliers-de-couture"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260714-l%C3%A9opards-congolais-au-mondial-%C3%A0-la-d%C3%A9couverte-des-ateliers-de-couture"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7f484a04d6",
-      "title": "« Après les attaques au Mali, c’était la psychose » : la Guinée face à la menace jihadiste",
-      "summary": "Le blocus jihadiste qui a paralysé Kourémalé, au nord-est de la Guinée, en avril dernier, a sérieusement ébranlé les échanges entre le pays et le Mali. Commerçants, transporteurs et orpailleurs vivent désormais dans l’incertitude. Reportage.",
-      "country": "GIN",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-13T07:59:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1804311/politique/apres-les-attaques-au-mali-cetait-la-psychose-la-guinee-face-a-la-menace-jihadiste/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1804311/politique/apres-les-attaques-au-mali-cetait-la-psychose-la-guinee-face-a-la-menace-jihadiste/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "fdbadaf0e9",
       "title": "Mali Rebels Attack Convoy of Soldiers, Russian Mercenaries",
       "summary": "[DW] The convoy was bringing hundreds of personnel in reinforcement in northern Mali, where the Malian army and Russian paramilitaries are fighting jihadist and separatist militants.",
@@ -1579,36 +1495,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607100023.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a9b8fb219f",
-      "title": "France – Maroc : deux économies à l’échelle très différente dans l’arène du premier quart de finale",
-      "summary": "Avant leur quart de finale de la Coupe du monde, programmé ce jeudi 9 juillet, la France et le Maroc se présentent avec des profils économiques sans commune mesure en taille, mais avec des trajectoires distinctes. La première reste une grande économie développée, à revenu élevé. Le second évolue à une échelle bien plus réduite, mais avec une croissance nettement plus rapide.\nEn valeur nominale, le PIB de la France a atteint 3.000 milliards de dollars en 2025, contre…",
-      "country": "MAR",
-      "category": "ECONOMIE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T14:35:49+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/09/france-maroc-deux-economies-a-lechelle-tres-differente-dans-larene-du-premier-quart-de-finale/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/09/france-maroc-deux-economies-a-lechelle-tres-differente-dans-larene-du-premier-quart-de-finale/"
         }
       ],
       "confirmation_count": 1
@@ -1944,6 +1830,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "a74a7af51b",
+      "title": "Nigeria : Abuja annonce un fonds agricole de 500 millions USD pour le delta du Niger",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T09:23:48+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/16/nigeria-abuja-annonce-un-fonds-agricole-de-500-millions-usd-pour-le-delta-du-niger/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/16/nigeria-abuja-annonce-un-fonds-agricole-de-500-millions-usd-pour-le-delta-du-niger/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a95c984367",
       "title": "Gulf Tensions Expose Kenya to Higher Fertilizer Costs - WTO",
       "summary": "[Capital FM] Nairobi -- Rising geopolitical tensions in the Gulf could push up fertilizer prices in Kenya and increase production costs for farmers, with the World Trade Organization (WTO) identifying the country among the most vulnerable import-dependent economies.",
@@ -2220,6 +2136,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "31c1ec22fd",
+      "title": "La Guinée dévoile son programme « Champions Nationaux » : un nouveau chapitre dans l’histoire économique du pays",
+      "summary": "Lac Gbasikolo, Guinée — Sous le leadership du Président Mamadi Doumbouya, la Guinée a officiellement lancé son programme « Champions Nationaux », une initiative audacieuse conçue pour identifier, célébrer et autonomiser les entrepreneurs qui façonnent l’avenir économique du pays. La cérémonie de lancement, organisée sur le site nouvellement aménagé de Lac Gbasikolo, a réuni des dirigeants gouvernementaux, des partenaires au développement et — surtout — les jeunes hommes…",
+      "country": "GIN",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T23:58:58+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/16/la-guinee-devoile-son-programme-champions-nationaux-un-nouveau-chapitre-dans-lhistoire-economique-du-pays/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/16/la-guinee-devoile-son-programme-champions-nationaux-un-nouveau-chapitre-dans-lhistoire-economique-du-pays/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ce6489a7b8",
       "title": "Mali : la crise diplomatique avec l'Algérie touche-t-elle à sa fin ?",
       "summary": "Après quinze mois de brouille diplomatique, assiste-t-on à un retour des relations diplomatiques entre le Mali et l'Algérie ? Vendredi dernier, Alger et Bamako ont annoncé le retour de leur ambassade respective ainsi que la réouverture de leur espace aérien.",
@@ -2245,36 +2191,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260715-mali-la-crise-diplomatique-avec-l-alg%C3%A9rie-touche-t-elle-%C3%A0-sa-fin"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "60962f6e1d",
-      "title": "Seven Priests Suspended As Maralal Diocese Moves to Restore Accountability",
-      "summary": "[Capital FM] Nairobi -- Bishop Hieronymus Joya of the Catholic Diocese of Maralal has suspended seven priests and introduced sweeping disciplinary reforms following investigations into allegations of financial mismanagement, administrative negligence and violations of clerical conduct within the Samburu-based diocese.",
-      "country": "KEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-15T16:18:12+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607150584.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607150584.html"
         }
       ],
       "confirmation_count": 1
@@ -2538,36 +2454,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "e4c72cee12",
-      "title": "Meurtre d'une fillette au Cameroun : fermeture de 1 400 églises de réveil",
-      "summary": "Au Cameroun, le ministre de l’Administration territoriale annonce la fermeture prochaine de 1 400 églises de réveil à travers le pays. Cette annonce intervient quelques jours après le meurtre à Yaoundé d'une fillette de 11 ans. L'auteure présumée du crime, fidèle d'une de ces églises, avait déclaré avoir agi sous l'influence d'un responsable religieux.",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T09:14:04+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260714-meurtre-d-une-fillette-au-cameroun-fermeture-de-1-400-%C3%A9glises-de-r%C3%A9veil"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260714-meurtre-d-une-fillette-au-cameroun-fermeture-de-1-400-%C3%A9glises-de-r%C3%A9veil"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5497f21c40",
       "title": "Cameroun : Paul Atanga Nji le Pieux, ministre de l’État et de la foi",
       "summary": "Fervent catholique et mécène de l’Église, Paul Atanga Nji, le ministre camerounais de l’Administration territoriale, s’est lancé dans une vaste croisade contre ce qu’il considère comme des dérives religieuses.",
@@ -2694,66 +2580,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "934f0ffd29",
-      "title": "France : la demande d’asile du lanceur d’alerte ayant révélé le système de propagande de Wagner rejetée, un recours déposé",
-      "summary": "La demande d’asile d’Ephrem Yalike-Ngonzo, journaliste centrafricain à l’origine de révélations sur le dispositif de propagande du groupe Wagner en République centrafricaine (RCA), a été rejetée par les autorités françaises. La Plateforme de protection des lanceurs d’alerte en Afrique (PPLAAF) a annoncé, jeudi 9 juillet, avoir déposé un recours contre cette décision, qu’elle juge contraire aux engagements de la France.\nSelon la PPLAAF, Ephrem Yalike-Ngonzo avait été…",
-      "country": "CAF",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T11:30:18+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/09/france-la-demande-dasile-du-lanceur-dalerte-ayant-revele-le-systeme-de-propagande-de-wagner-rejetee-un-recours-depose/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/09/france-la-demande-dasile-du-lanceur-dalerte-ayant-revele-le-systeme-de-propagande-de-wagner-rejetee-un-recours-depose/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c1fcfa1e69",
-      "title": "Maroc : Baisse de 17,3% du chiffre d’affaires consolidé du groupe COSUMAR au premier trimestre 2026",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T11:09:24+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/09/maroc-baisse-de-173-du-chiffre-daffaires-consolide-du-groupe-cosumar-au-premier-trimestre-2026/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/09/maroc-baisse-de-173-du-chiffre-daffaires-consolide-du-groupe-cosumar-au-premier-trimestre-2026/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "adf5cd8bb8",
       "title": "Ivory Coast Bets On Private Capital to Power New $209b Growth Plan",
       "summary": "[Daba Finance] Ivory Coast's parliament has signed off on a new National Development Plan, mapping out the country's economic path through 2030. The centerpiece is an investment push of FCFA 114,838.5 billion, equivalent to roughly $209 billion or €175 billion, built around six pillars spanning security, agriculture, private investment, human capital, infrastructure, and governance. Unlike past cycles, the government wants the private sector to carry most of the load this…",
@@ -2874,6 +2700,216 @@
       "confirmation_count": 1
     },
     {
+      "id": "84df69eab9",
+      "title": "Côte d’Ivoire : à Yamoussoukro, les fantômes de Félix Houphouët-Boigny",
+      "summary": "Dans le palais endormi de la capitale politique ivoirienne, le temps s’est figé après le décès de l’ancien président, en 1993. Son petit-neveu Augustin Thiam nous en ouvre les portes, entre mémoire familiale et interrogations sur l’avenir d’une ville en attente.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T18:00:17+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1811025/politique/cote-divoire-a-yamoussoukro-les-fantomes-de-felix-houphouet-boigny/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1811025/politique/cote-divoire-a-yamoussoukro-les-fantomes-de-felix-houphouet-boigny/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8dff856ced",
+      "title": "Murkomen Warns Ol Kalou Violence Perpetrators of Tough Action",
+      "summary": "[Capital FM] Nairobi -- Interior CS Kipchumba Murkomen has warned that anybody found to have instigated violence or chaos during the Ol Kalou by-election will face the full force of the law.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T16:35:42+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607160661.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607160661.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a0e80372a4",
+      "title": "Ghana, Senegal and Morocco: Why Ukraine’s strikes on Russian exports could drive up fuel costs",
+      "summary": "By targeting Russia’s refineries alongside its ports and grain export routes, Ukraine’s expanding drone campaign is disrupting diesel supplies and wheat shipments, exposing African economies to higher costs and renewed questions about their dependence on Moscow.",
+      "country": "GHA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T16:00:00+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/425118/ghana-senegal-and-morocco-why-ukraines-strikes-on-russian-exports-could-drive-up-fuel-costs/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/425118/ghana-senegal-and-morocco-why-ukraines-strikes-on-russian-exports-could-drive-up-fuel-costs/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8d455f7c1f",
+      "title": "Centrafrique : la Banque mondiale alerte sur l’état des finances publiques",
+      "summary": "En Centrafrique, la communauté financière internationale alerte sur l’état des finances publiques. Fragilisé par les conflits, le pays dépend essentiellement de l’aide extérieure. La Banque mondiale finance notamment des salaires dans la santé et l’éducation.",
+      "country": "CAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T14:58:36+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260716-centrafrique-la-banque-mondiale-alerte-sur-l-%C3%A9tat-des-finances-publiques"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260716-centrafrique-la-banque-mondiale-alerte-sur-l-%C3%A9tat-des-finances-publiques"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0deacb6ae0",
+      "title": "Macky Sall attendu au Sénégal : une rencontre à visée électoraliste pour le président Diomaye Faye ?",
+      "summary": "L’ancien président Macky Sall sera reçu vendredi à Dakar par son successeur Bassirou Diomaye Faye pour évoquer sa candidature au poste de secrétaire général de l’ONU. Une visite qui intervient en pleine recomposition politique au Sénégal. Le pays vit un affrontement entre le chef de l’État et son ancien Premier ministre Ousmane Sonko, désormais à la tête de l’Assemblée nationale.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T14:49:40+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/afrique/20260716-macky-sall-attendu-s%C3%A9n%C3%A9gal-rencontre-%C3%A9lectoraliste-pr%C3%A9sident-diomaye-faye-sonko-pastef"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20260716-macky-sall-attendu-s%C3%A9n%C3%A9gal-rencontre-%C3%A9lectoraliste-pr%C3%A9sident-diomaye-faye-sonko-pastef"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b8d6504c11",
+      "title": "French PM says Paris ready to scale up bilateral relations with Morocco",
+      "summary": "Prime Minister Sébastien Lecornu is on a two-day visit to Rabat as France hopes to cement their recent rapprochement.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T14:08:38+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/16/french-pm-says-paris-ready-to-scale-up-bilateral-relations-with-morocco/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/16/french-pm-says-paris-ready-to-scale-up-bilateral-relations-with-morocco/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d30f5d8dc3",
+      "title": "Centuries-old hunt beckons the rain in western Senegal",
+      "summary": "In western Senegal, armed men on motorcycles took part in the 723rd edition of the \"Miss de Diobaye” hunt, a centuries-old tradition believing to bring rain and protect the community.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T14:05:00+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/16/centuries-old-hunt-beckons-the-rain-in-western-senegal/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/16/centuries-old-hunt-beckons-the-rain-in-western-senegal/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "488f8df0bf",
       "title": "US Congress votes to freeze all aid to ‘corrupt’ Nigeria despite ‘wonderful’ visit by Trump Africa envoy",
       "summary": "US Republican lawmakers move to tie up security assistance to Abuja over anti-Christian violence, even as US Assistant Secretary of State Frank Garcia pursues counterterrorism cooperation.",
@@ -2899,6 +2935,36 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/425084/us-congress-votes-to-freeze-all-aid-to-corrupt-nigeria-despite-wonderful-visit-by-trump-africa-envoy/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "987b23c888",
+      "title": "La France et le Maroc consolident leur nouveau rapprochement",
+      "summary": "La visite officielle du ministre français Sébastien Lecornu s'inscrit dans cette optique",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T13:56:43+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/16/la-france-et-le-maroc-consolident-leur-nouveau-rapprochement/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/16/la-france-et-le-maroc-consolident-leur-nouveau-rapprochement/"
         }
       ],
       "confirmation_count": 1
@@ -2959,6 +3025,36 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/07/16/nigeria-des-eleves-enleves-par-des-hommes-armes-retrouvent-leurs-proches/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e27fcf0422",
+      "title": "Le baptême continental de Romuald Wadagni : l’eau comme première vitrine",
+      "summary": "Pour sa première participation à un grand rendez-vous continental depuis son investiture le 24 mai dernier, le président béninois Romuald Wadagni a pris part, ce mardi 15 juillet à N’Djamena, à la cérémonie d’ouverture du Forum africain de l’Eau, aux côtés de plusieurs chefs d’État africains, parmi lesquels Mahamat Idriss Déby Itno (Tchad), Félix Tshisekedi (République démocratique du Congo), Brice Clotaire Oligui Nguema (Gabon) et Mohamed Ould Cheikh El Ghazouani…",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T13:13:00+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/16/le-bapteme-continental-de-romuald-wadagni-leau-comme-premiere-vitrine/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/16/le-bapteme-continental-de-romuald-wadagni-leau-comme-premiere-vitrine/"
         }
       ],
       "confirmation_count": 1
@@ -3384,6 +3480,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "4049248cbb",
+      "title": "Forum africain de l’eau : à N’Djamena, l’Afrique met ses solutions sur la table",
+      "summary": "Les 15 et 16 juillet 2026, N’Djamena a accueilli le premier Forum africain de l’eau, coorganisé par la République du Tchad et le Groupe de la Banque mondiale. Placée sous le thème « De la vision à l’action », cette rencontre a réuni plusieurs chefs d’État africains, des institutions financières internationales, des organisations de bassins transfrontaliers et des représentants du secteur privé, autour d’un même constat : l’Afrique regorge d’eau, mais des centaines de…",
+      "country": "TCD",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T12:06:00+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/16/forum-africain-de-leau-a-ndjamena-lafrique-met-ses-solutions-sur-la-table/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/16/forum-africain-de-leau-a-ndjamena-lafrique-met-ses-solutions-sur-la-table/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "8c6c19683f",
       "title": "Viral Video of Flood 'Looting' From Accra, Not Lagos",
       "summary": "[Africa Check] IN SHORT: Social media posts claim a viral video shows residents in Lagos, Nigeria, looting goods swept away by floods. But the footage was filmed in Accra, Ghana, following flooding in late June 2026.",
@@ -3409,6 +3535,36 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607160483.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "137db8fd5a",
+      "title": "No, Kenyan Politician Gideon Moi Didn't Endorse Nairobi County Senator Edwin Sifuna for President - Viral Quote Fabricated",
+      "summary": "[Africa Check] IN SHORT: Graphics quoting Kenyan politician Gideon Moi as endorsing Nairobi county senator Edwin Sifuna for president in 2027 are circulating on social media. However, the quote is fabricated.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T12:04:55+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607160482.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607160482.html"
         }
       ],
       "confirmation_count": 1
@@ -3469,6 +3625,36 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607160479.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "009a670374",
+      "title": "Ruto Pledges Greater Access to Public Information in Push for Open Government",
+      "summary": "[Capital FM] NAIROBI, Kenya Juy 16 - President William Ruto has said the Government is strengthening transparency and expanding access tRuto Pledges Greater Access to Public Information in Push for Open Governmento public information as part of efforts to build public trust and combat misinformation, disinformation and fake news.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-16T12:02:51+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607160477.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607160477.html"
         }
       ],
       "confirmation_count": 1
@@ -4734,6 +4920,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "fef6bbe56d",
+      "title": "« Si les assureurs n’écoutent pas les 50 % de femmes qui peuplent le continent, ils ne vendront rien » (Evelyne Fassinou)",
+      "summary": "Quarante ans d’assurance, dont une vingtaine passés au sein de groupes internationaux en Côte d’Ivoire, puis douze années à la tête d’une compagnie qu’elle a fondée elle-même avant de la fusionner avec un acteur de référence du marché béninois. Le parcours d’Evelyne Fassinou, présidente du conseil d’administration de SUNU Assurances Vie Bénin, se confond avec plusieurs des grandes étapes de la structuration du secteur sur le continent. Invitée du plateau de Financial…",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "MA_GOUV",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": true,
+      "published": "2026-07-16T07:11:39+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/16/si-les-assureurs-necoutent-pas-les-50-de-femmes-qui-peuplent-le-continent-ils-ne-vendront-rien-evelyne-fassinou/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/16/si-les-assureurs-necoutent-pas-les-50-de-femmes-qui-peuplent-le-continent-ils-ne-vendront-rien-evelyne-fassinou/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "3383001749",
       "title": "South Africa: 10 things about Tony Leon, the politician at the centre of a lobbying row",
       "summary": "Once the face of South Africa’s opposition, Tony Leon is back in the spotlight after his communications firm was accused of using his political connections to influence DA ministers, lawmakers and municipalities, allegations he denies.",
@@ -4759,36 +4975,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/425053/south-africa-10-things-about-tony-leon-the-politician-at-the-centre-of-a-lobbying-row/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "48a54fff27",
-      "title": "Tchad : ce que l’on sait de la suppression des visas pour les Africains à compter de 2027",
-      "summary": "En levant l’obligation de visa pour les citoyens africains à partir de 2027, le Tchad rejoint le cercle encore restreint des États du continent qui ont fait le choix de la libre circulation. Une mesure à forte portée politique, qui s’accompagne désormais d’importants défis de mise en œuvre.",
-      "country": "TCD",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-16T06:59:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1820512/politique/tchad-ce-que-lon-sait-de-la-suppression-des-visas-pour-les-africains-a-compter-de-2027/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1820512/politique/tchad-ce-que-lon-sait-de-la-suppression-des-visas-pour-les-africains-a-compter-de-2027/"
         }
       ],
       "confirmation_count": 1
@@ -5214,6 +5400,66 @@
       "confirmation_count": 1
     },
     {
+      "id": "beee1cb172",
+      "title": "Afrique du Sud : l’exemption de visa pour 32 pays africains, un tournant diplomatique face au défi de la xénophobie ?",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T23:30:42+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/16/afrique-du-sud-lexemption-de-visa-pour-32-pays-africains-un-tournant-diplomatique-face-au-defi-de-la-xenophobie/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/16/afrique-du-sud-lexemption-de-visa-pour-32-pays-africains-un-tournant-diplomatique-face-au-defi-de-la-xenophobie/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b4c8280c2b",
+      "title": "La Banque mondiale accorde 140 millions de dollars supplémentaires pour les routes agricoles au Sénégal",
+      "summary": "La Banque mondiale renforce son engagement en faveur de la transformation économique du Sénégal avec l’approbation d’un financement additionnel de 140 millions de dollars destiné à améliorer les infrastructures routières dans les principaux bassins de production agricole du nord et du centre du pays.\nAccordée par l’Association internationale de développement (IDA) et complétée par une contribution de 2 millions de dollars du gouvernement sénégalais, cette nouvelle…",
+      "country": "SEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-15T23:03:56+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/16/la-banque-mondiale-accorde-140-millions-de-dollars-supplementaires-pour-les-routes-agricoles-au-senegal/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/16/la-banque-mondiale-accorde-140-millions-de-dollars-supplementaires-pour-les-routes-agricoles-au-senegal/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "cce3535082",
       "title": "New monkey species with orange lips found 'hiding' in DR Congo forest",
       "summary": "Scientists describe \"amazing feeling\" to look into the face of an animal that so few people knew existed.",
@@ -5509,36 +5755,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/425001/ghanas-grand-plan-for-a-new-green-city-will-not-wash-away-accras-planning-failures/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "68d93ac4a3",
-      "title": "KHRC Raises Alarm Over Violence, Intimidation Ahead of Ol Kalou By-Election",
-      "summary": "[Capital FM] Nairobi -- The Kenya Human Rights Commission (KHRC) has raised concerns over escalating violence, voter intimidation and alleged electoral malpractices ahead of Thursday's Ol Kalou parliamentary by-election, warning that the incidents threaten the credibility of the poll.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-15T16:27:26+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607150602.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607150602.html"
         }
       ],
       "confirmation_count": 1
@@ -5994,36 +6210,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "6cda24c350",
-      "title": "Kenya’s shadow army: How cheap thugs became a political necessity",
-      "summary": "With crucial elections looming, desperate and unemployed youth in Nairobi are being hired for pennies to crush political dissent while the police turn a blind eye.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-15T10:22:35+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/424990/kenyas-shadow-army-how-cheap-thugs-became-a-political-necessity/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/424990/kenyas-shadow-army-how-cheap-thugs-became-a-political-necessity/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "7d435ecadb",
       "title": "Senegal government silences Football Federation amid World Cup row",
       "summary": "As tensions are escalating following Senegal's exit from the World Cup, the Senegalese government has stepped in and ordered the country's Football Federation to refrain from giving interviews or making public statements until further notice.",
@@ -6474,36 +6660,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "fe62ee6c2a",
-      "title": "RDC : près de 50 films au 13e Festival international de Kinshasa",
-      "summary": "Né de la conviction que les Africains doivent pouvoir voir des films africains et raconter leurs propres histoires, le Festival international du film de Kinshasa a ouvert ses portes pour la 13e année consécutive dans la capitale congolaise.",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T13:42:18+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/14/rdc-treizieme-festival-international-du-film-de-kinshasa/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/14/rdc-treizieme-festival-international-du-film-de-kinshasa/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "62c72af729",
       "title": "Comment un groupe terroriste comme Boko Haram utilise l’intelligence artificielle",
       "summary": "Pour la première fois, un rapport publié vendredi par l’université de Cambridge compile des témoignages d’anciens membres du mouvement terroriste Boko Haram au Nigeria qui expliquent comment l'organisation utilise l’IA depuis 2023. Un constat qui s’applique probablement à d’autres groupes terroristes, assurent les experts interrogés.",
@@ -6559,66 +6715,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260714-au-nig%C3%A9ria-l-interdiction-d-alcool-en-sachets-peine-%C3%A0-%C3%AAtre-appliqu%C3%A9e"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c8260739a8",
-      "title": "Sénégal :  Ousmane Diagne nommé à la tête du Conseil constitutionnel",
-      "summary": "Au Sénégal, Ousmane Diagne a été nommé à la tête du Conseil constitutionnel par le président Bassirou Diomaye Faye selon le décret daté du 13 juillet. L’ancien ministre de la Justice succède à ce poste au défunt Mamadou Badio Camara.",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-07-14T12:58:22+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/14/senegal-ousmane-diagne-prend-la-tete-du-conseil-constitutionnel/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/14/senegal-ousmane-diagne-prend-la-tete-du-conseil-constitutionnel/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "921dff90db",
-      "title": "13th Kinshasa International Film Festival opens",
-      "summary": "Born out of a belief that Africans should watch African films and tell their own stories, the Kinshasa International Film Festival opened its doors for its 13th year in the Congolese capital",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T12:56:56+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/14/13th-kinshasa-international-film-festival-opens/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/14/13th-kinshasa-international-film-festival-opens/"
         }
       ],
       "confirmation_count": 1
@@ -6769,36 +6865,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1802775/societe/le-legendaire-chemin-de-fer-congo-ocean-bientot-pret-a-reprendre-du-service/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "19412358af",
-      "title": "Interdiction de l'alcool en sachet Nigeria : une mesure appliquée ?",
-      "summary": "Au Nigeria, les sachets d’alcool auraient dû disparaître des étals. Interdits depuis fin 2025 pour limiter notamment la consommation chez les mineurs, ils restent pourtant largement vendus dans le pays. Entre difficultés d’application de la loi, enjeux économiques et préoccupations de santé publique, le commerce se poursuit.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-14T09:16:52+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260714-interdiction-de-l-alcool-en-sachet-nigeria-une-mesure-appliqu%C3%A9e"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260714-interdiction-de-l-alcool-en-sachet-nigeria-une-mesure-appliqu%C3%A9e"
         }
       ],
       "confirmation_count": 1
@@ -7249,126 +7315,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607100112.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4bbf4ed3dd",
-      "title": "Le Trésor Public Béninois encaisse 22 milliards de FCFA au niveau du marché financier de l’UMOA",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "BEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T21:42:11+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/09/le-tresor-public-beninois-encaisse-22-milliards-de-fcfa-au-niveau-du-marche-financier-de-lumoa/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/09/le-tresor-public-beninois-encaisse-22-milliards-de-fcfa-au-niveau-du-marche-financier-de-lumoa/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cfd67fdb4a",
-      "title": "BREAKING NEWS – Sénégal : le Conseil constitutionnel invalide la révision de la Constitution",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T19:04:34+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/09/breaking-news-senegal-le-conseil-constitutionnel-invalide-la-revision-de-la-constitution/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/09/breaking-news-senegal-le-conseil-constitutionnel-invalide-la-revision-de-la-constitution/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f502e853c9",
-      "title": "Sénégal: ASCOMA déboutée dans un litige commercial qui l’oppose à PATISEN",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T14:16:13+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/09/senegal-ascoma-deboutee-dans-un-litige-commercial-qui-loppose-a-patisen/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/09/senegal-ascoma-deboutee-dans-un-litige-commercial-qui-loppose-a-patisen/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "706f214d07",
-      "title": "Nigéria: la CBN absorbe 772 millions USD de liquidités après le remboursement de titres OMO",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-09T14:12:09+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/09/nigeria-la-cbn-absorbe-772-millions-usd-de-liquidites-apres-le-remboursement-de-titres-omo/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/09/nigeria-la-cbn-absorbe-772-millions-usd-de-liquidites-apres-le-remboursement-de-titres-omo/"
         }
       ],
       "confirmation_count": 1
