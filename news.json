@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-07-19T21:06:08.544531+00:00",
+  "generated_at": "2026-07-19T22:08:13.761394+00:00",
   "stats": {
     "total_signals": 257,
     "verified_signals": 6,
     "countries_covered": 26,
     "sources_active": 16,
     "per_country": {
+      "NER": 2,
       "MLI": 20,
       "COD": 14,
       "MDG": 1,
-      "CMR": 14,
+      "CMR": 13,
       "UGA": 5,
       "SEN": 20,
       "NGA": 40,
-      "DZA": 15,
+      "DZA": 16,
       "MAR": 27,
       "CAF": 5,
       "GIN": 6,
@@ -28,8 +29,7 @@
       "MWI": 1,
       "ETH": 3,
       "MRT": 1,
-      "NER": 1,
-      "GHA": 6,
+      "GHA": 5,
       "RWA": 2,
       "ZWE": 2
     }
@@ -133,6 +133,36 @@
     }
   ],
   "signals": [
+    {
+      "id": "accba3ca2b",
+      "title": "Niger : Une attaque jihadiste dans la zone des «trois frontières», 16 soldats tués",
+      "summary": "Le Niger visé par une attaque terroriste, dans la région de Téra, dans l'ouest. Cela s'est passé dans la région de Téra... Une unité de l'armée nigérienne a été prise pour cible. Plusieurs terroristes ont également été tués dans les combats.",
+      "country": "NER",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-19T21:17:31+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260719-niger-une-attaque-jihadiste-dans-la-zone-des-trois-fronti%C3%A8res-16-soldats-tu%C3%A9s"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260719-niger-une-attaque-jihadiste-dans-la-zone-des-trois-fronti%C3%A8res-16-soldats-tu%C3%A9s"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "8140b1e485",
       "title": "At least 50 Malian soldiers killed in attack on military convoy",
@@ -2510,6 +2540,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "3543d8bdbf",
+      "title": "France: le Quai d'Orsay recadre après la polémique sur les visas accordés aux ressortissants algériens",
+      "summary": "L'ambassadeur de France en Algérie, Stéphane Romatet, avait provoqué un tollé au sein de la droite et de l'extrême-droite françaises en annonçant une augmentation des visas délivrés aux Algériens, lors d'un entretien avec le média local Tout sur l'Algérie. Depuis, le ministère des Affaires étrangères français a été obligé d'apporter des précisions.",
+      "country": "DZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "SOLVABILITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "published": "2026-07-19T21:00:52+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/france/20260719-france-le-quai-d-orsay-recadre-apr%C3%A8s-la-pol%C3%A9mique-sur-les-visas-accord%C3%A9s-aux-ressortissants-alg%C3%A9riens"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/france/20260719-france-le-quai-d-orsay-recadre-apr%C3%A8s-la-pol%C3%A9mique-sur-les-visas-accord%C3%A9s-aux-ressortissants-alg%C3%A9riens"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "7c2afbcc99",
       "title": "RDC: les premiers enseignements des consultations entre l'opposition et les Églises",
       "summary": "En République démocratique du Congo (RDC), la coalition d'opposition C64 doit décider, lundi 20 juillet, si elle maintient ou non la marche prévue le 22 juillet à Kinshasa. Mais au-delà de cette décision, les consultations menées par la Conférence épiscopale nationale (Cenco) et les Églises catholique et protestante (ECC), auprès de l'opposition, apportent aussi des éléments nouveaux sur la préparation du dialogue national voulu par le président Félix Tshisekedi.",
@@ -3465,36 +3525,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/18/nigeria-unicef-chief-urges-child-protection-amid-security-humanitarian-crises/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "98d1a7a619",
-      "title": "Ghana: une influenceuse condamnée à un an de prison pour avoir accusé le président de sorcellerie",
-      "summary": "Une influenceuse ghanéenne de TikTok a été emprisonnée pour avoir diffusé de fausses informations sur le président ghanéen. Camilla Alhassan, influenceuse de 43 ans sur les réseaux sociaux, avait affirmé dans une série de vidéos TikTok que le président John Dramani Mahama avait sacrifié 32 vaches pour s'assurer le pouvoir politique. Arrêtée la semaine dernière, elle a été condamnée jeudi 16 juillet à un an de prison.",
-      "country": "GHA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-18T07:14:21+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260718-ghana-une-influenceuse-condamn%C3%A9e-%C3%A0-un-an-de-prison-pour-avoir-accus%C3%A9-le-pr%C3%A9sident-de-sorcellerie"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260718-ghana-une-influenceuse-condamn%C3%A9e-%C3%A0-un-an-de-prison-pour-avoir-accus%C3%A9-le-pr%C3%A9sident-de-sorcellerie"
         }
       ],
       "confirmation_count": 1
@@ -6555,36 +6585,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/16/centuries-old-hunt-beckons-the-rain-in-western-senegal/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b796cde821",
-      "title": "Cameroun : le procès Martinez Zogo se poursuit",
-      "summary": "Direction le Cameroun ou le procès Martinez Zogo se poursuit avec la déposition du 34e témoin, le colonel Ottoulou, ancien commandant de la légion de gendarmerie de la région du Centre au moment des faits. Correspondance de Marcel Amoko à Yaoundé pour France 24.",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-16T13:53:55+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260716-cameroun-le-proc%C3%A8s-martinez-zogo-se-poursuit"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260716-cameroun-le-proc%C3%A8s-martinez-zogo-se-poursuit"
         }
       ],
       "confirmation_count": 1
