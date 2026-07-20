@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-07-20T18:17:56.272857+00:00",
+  "generated_at": "2026-07-20T20:39:36.089828+00:00",
   "stats": {
-    "total_signals": 241,
-    "verified_signals": 8,
-    "countries_covered": 28,
+    "total_signals": 246,
+    "verified_signals": 9,
+    "countries_covered": 27,
     "sources_active": 16,
     "per_country": {
+      "DZA": 10,
       "MLI": 18,
       "COD": 10,
       "NGA": 49,
@@ -14,13 +15,12 @@
       "NER": 3,
       "CMR": 8,
       "UGA": 2,
-      "SEN": 21,
-      "DZA": 7,
       "MAR": 21,
-      "CAF": 5,
+      "CAF": 4,
       "GIN": 3,
+      "SEN": 24,
       "ZAF": 7,
-      "GAB": 7,
+      "GAB": 9,
       "BEN": 2,
       "BWA": 3,
       "CIV": 16,
@@ -29,10 +29,9 @@
       "TGO": 1,
       "GHA": 4,
       "COG": 2,
-      "RWA": 3,
+      "RWA": 2,
       "MRT": 1,
       "TUN": 2,
-      "MWI": 1,
       "ETH": 2
     }
   },
@@ -135,6 +134,36 @@
     }
   ],
   "signals": [
+    {
+      "id": "a8a9ae72e3",
+      "title": "L'Algérie toujours sous le choc après le drame de l'orphelinat",
+      "summary": "En Algérie, les funérailles des 11 victimes de l'incendie qui a ravagé un orphelinat de Mohammadia, près d'Alger, ont eu lieu jeudi. Les enquêteurs privilégient la piste d'un dysfonctionnement électrique. Le pays est toujours sous le choc.",
+      "country": "DZA",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T18:38:34+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260720-l-alg%C3%A9rie-toujours-sous-le-choc-apr%C3%A8s-le-drame-de-l-orphelinat"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260720-l-alg%C3%A9rie-toujours-sous-le-choc-apr%C3%A8s-le-drame-de-l-orphelinat"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "2b1ed70cb4",
       "title": "Mali : Mbareck Ag Akli, le « ministre de la Défense » du FLA qu’Africa Corps a cru avoir tué",
@@ -616,36 +645,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0ae29e2182",
-      "title": "Au Sénégal, un collectif s’insurge contre l'arrivée de Macky Sall à Dakar",
-      "summary": "L'ancien président doit rencontrer ce vendredi le chef de l'État sénégalais dans le cadre de sa campagne pour le secrétariat général de l’ONU. Le collectif l'accuse d'avoir durement réprimé les manifestations de l'opposition entre 2021 et 2024, qui ont fait des dizaines de morts.",
-      "country": "SEN",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-17T13:21:17+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260717-au-s%C3%A9n%C3%A9gal-un-collectif-s-insurge-contre-l-arriv%C3%A9e-de-macky-sall-%C3%A0-dakar"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260717-au-s%C3%A9n%C3%A9gal-un-collectif-s-insurge-contre-l-arriv%C3%A9e-de-macky-sall-%C3%A0-dakar"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1744f9538b",
       "title": "Ouganda : 21 morts dans une sortie de route d'un bus scolaire",
       "summary": "En Ouganda, un bus transportant des écoliers de retour d'une sortie scolaire a fait une sortie de route, tuant 20 enfants et un adulte. Un accident tragique dans un pays au bilan routier particulièrement lourd.",
@@ -671,36 +670,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/07/17/ouganda-un-bus-scolaire-fait-une-sortie-de-route-bilan-20-morts/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "96a8603e6d",
-      "title": "RDC : plus de 20 morts dans différentes attaques des ADF à Béni",
-      "summary": "Les violences se poursuivent dans l'est de la République démocratique du Congo. De nouvelles attaques attribuées aux rebelles des ADF",
-      "country": "COD",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-17T08:24:16+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/17/rdc-plus-dune-vingtaine-de-morts-dans-differentes-attaques-des-adf-a-beni/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/17/rdc-plus-dune-vingtaine-de-morts-dans-differentes-attaques-des-adf-a-beni/"
         }
       ],
       "confirmation_count": 1
@@ -1504,6 +1473,102 @@
       "confirmation_count": 1
     },
     {
+      "id": "70b9b881e6",
+      "title": "Le président gabonais Brice Oligui Nguéma entame une visite d'état de 3 jours en France",
+      "summary": "Le président Brice Oligui Nguéma entame une visite d’état de trois jours en France. L'Elysée a sorti le grand jeu pour recevoir le président du Gabon, un pays qui entretient depuis toujours une relation privilégiée avec l’hexagone. Antoine Glaser était notre invité pour décrypter les enjeux de cette visite",
+      "country": "GAB",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T20:28:11+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260720-le-pr%C3%A9sident-gabonais-brice-oligui-ngu%C3%A9ma-entame-une-visite-d-%C3%A9tat-de-3-jours-en-france"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260720-le-pr%C3%A9sident-gabonais-brice-oligui-ngu%C3%A9ma-entame-une-visite-d-%C3%A9tat-de-3-jours-en-france"
+        },
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260720-gabon-les-enjeux-de-la-visite-du-pr%C3%A9sident-brice-oligui-nguema-en-france"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "b8f848e419",
+      "title": "Le Sénégal change d'avis et soutient désormais la candidature à l'ONU de son ex-président Macky Sall",
+      "summary": "Longtemps opposé à la candidature à l'ONU de Macky Sall, président du Sénégal de 2012 à 2024, son successeur Bassirou Diomaye Faye a changé d'avis pour finalement annoncer lundi le \"plein soutien\" du Sénégal à cette candidature et celui de \"l'ensemble du réseau diplomatique sénégalais\".",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T19:23:29+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/afrique/20260720-senegal-annonce-soutenir-candidature-onu-de-macky-sall"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20260720-senegal-annonce-soutenir-candidature-onu-de-macky-sall"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5a83d2b8db",
+      "title": "RDC: la manifestation du 22 juillet 2026 reportée par l'opposition",
+      "summary": "En République démocratique du Congo (RDC), l'opposition, réunie autour de la plateforme politique C64, a annoncé, lundi 20 juillet, le report de sa marche prévue le 22 juillet. Les opposants avaient prévu un rassemblement dans le centre-ville de Kinshasa pour s'opposer au projet de modification de la Constitution du camp présidentiel.",
+      "country": "COD",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T19:12:02+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260720-rdc-la-manifestation-du-22-juillet-2026-report%C3%A9e-par-l-opposition"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260720-rdc-la-manifestation-du-22-juillet-2026-report%C3%A9e-par-l-opposition"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "94ba5a5945",
       "title": "Secrétariat général de l’ONU : Bassirou Diomaye Faye officialise son soutien à Macky Sall",
       "summary": "Trois jours après la visite éclair à Dakar de son prédécesseur, lancé dans une campagne intensive pour succéder dans quelques mois à António Guterres, le chef de l’État a fait connaître le soutien du Sénégal à celui qui fut son adversaire en politique.",
@@ -1564,6 +1629,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "f4990f1947",
+      "title": "CEDEAO : Bassirou Diomaye Faye désigné président pour un mandat d'un an",
+      "summary": "Pour ce mandat d'un an, le président senegalais dit vouloir faire de la lutte contre le terrorisme, la réforme institutionnelle ainsi que le renforcement de l’autonomie financière de l’organisation ses principales priorités.",
+      "country": "SEN",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T17:46:33+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/20/cedeao-bassirou-diomaye-faye-designe-president-pour-un-mandat-dun-an/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/20/cedeao-bassirou-diomaye-faye-designe-president-pour-un-mandat-dun-an/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "e08720c90e",
       "title": "BSIC Bénin : quand la finance devient un levier au service du logement abordable",
       "summary": "Avec le lancement du compartiment FCTC ZAKA BSIC Bénin 2026-2033, la banque franchit une nouvelle étape dans sa stratégie de financement de l’habitat. Première obligation sociale du programme ZAKA, cette émission illustre l’évolution du rôle des banques dans le financement du développement : au-delà du crédit, elles mobilisent désormais le marché financier pour accompagner durablement les besoins des populations.\nLe logement, un enjeu qui dépasse le secteur bancaire\nAu…",
@@ -1589,36 +1684,6 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/07/20/bsic-benin-quand-la-finance-devient-un-levier-au-service-du-logement-abordable/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f4990f1947",
-      "title": "CEDEAO : Bassirou Diomaye Faye désigné président pour un mandat d'un an",
-      "summary": "Pour ce mandat d'un an, le président senegalais dit vouloir faire de la lutte contre le terrorisme, la réforme institutionnelle ainsi que le renforcement de l’autonomie financière de l’organisation ses principales priorités.",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-20T14:56:51+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/20/cedeao-bassirou-diomaye-faye-designe-president-pour-un-mandat-dun-an/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/20/cedeao-bassirou-diomaye-faye-designe-president-pour-un-mandat-dun-an/"
         }
       ],
       "confirmation_count": 1
@@ -1996,36 +2061,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "0738d2a8c6",
-      "title": "Gabon: les enjeux de la visite du président Brice Oligui Nguema en France",
-      "summary": "Le président gabonais Brice Clotaire Oligui Nguema entame ce lundi 20 juillet 2026 une visite d’État en France, à la tête d'une délégation de plus de 80 membres composée de ministres, d'hommes d’affaires et de journalistes. Il sera reçu ce lundi par son homologue Emmanuel Macron au palais de l’Élysée. La visite est placée sous le signe de l’économie et du rééquilibrage des relations bilatérales.",
-      "country": "GAB",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-20T02:17:38+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260720-gabon-les-enjeux-de-la-visite-du-pr%C3%A9sident-brice-oligui-nguema-en-france"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260720-gabon-les-enjeux-de-la-visite-du-pr%C3%A9sident-brice-oligui-nguema-en-france"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "9ab30de240",
       "title": "Est de la RDC: le M23 redevient le principal auteur de violences contre les civils, indique le Baromètre sécuritaire du Kivu",
       "summary": "En RDC, le nombre d'incidents sécuritaires a reculé au mois de juin dans l'est du pays. Mais cette baisse masque une recomposition de la violence. Selon le dernier rapport du Baromètre sécuritaire du Kivu, projet de recherche qui surveille les incidents sécuritaires dans cette région, le M23 est redevenu le groupe armé le plus meurtrier, tandis que les ADF poursuivent leur expansion vers de nouvelles zones.",
@@ -2111,36 +2146,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1819730/politique/algerie-loperation-importation-de-moutons-pour-laid-vire-au-scandale/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b8099b64df",
-      "title": "La Centrafrique et l'ONU lancent un pôle de développement à Birao pour développer la paix et l'économie locale",
-      "summary": "Le gouvernement centrafricain et les agences des Nations unies ont inauguré samedi 18 juillet un pôle de développement à Birao, dans le nord-est du pays. Cette initiative conjointe vise à renforcer le développement socio-économique local, consolider la paix et améliorer l’accès aux services sociaux de base, notamment pour favoriser le retour des réfugiés, des déplacés, et le quotidien des communautés locales.",
-      "country": "CAF",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-19T12:55:15+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260719-la-centrafrique-et-l-onu-lancent-un-p%C3%B4le-de-d%C3%A9veloppement-%C3%A0-birao-pour-d%C3%A9velopper-la-paix-et-l-%C3%A9conomie-locale"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260719-la-centrafrique-et-l-onu-lancent-un-p%C3%B4le-de-d%C3%A9veloppement-%C3%A0-birao-pour-d%C3%A9velopper-la-paix-et-l-%C3%A9conomie-locale"
         }
       ],
       "confirmation_count": 1
@@ -2614,6 +2619,246 @@
       "confirmation_count": 1
     },
     {
+      "id": "2d5fe3a060",
+      "title": "Le Sénégal fait volte-face et apporte son soutien à l'ancien président Sall pour la tête de l'ONU",
+      "summary": "vvv",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T19:22:16+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/20/le-senegal-fait-volte-face-et-apporte-son-soutien-a-lancien-president-sall-pour-la-tete-de/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/20/le-senegal-fait-volte-face-et-apporte-son-soutien-a-lancien-president-sall-pour-la-tete-de/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "61a40f7b12",
+      "title": "Senegal backs Macky Sall's bid for UN Secretary-General",
+      "summary": "Senegal has officially thrown its support behind former President Macky Sall's bid to become the next United Nations Secretary-General, marking a dramatic policy shift.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T19:15:13+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/20/senegal-backs-macky-salls-bid-for-un-secretary-general/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/20/senegal-backs-macky-salls-bid-for-un-secretary-general/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cfa168546c",
+      "title": "Le Premier ministre espagnol Pedro Sánchez en Algérie pour sceller la reprise du dialogue",
+      "summary": "Une visite officielle visant à sceller la réconciliation entre deux pays. Le premier ministre espagnol Pedro Sánchez est arrivé ce lundi à Alger. Une première depuis quatre ans.",
+      "country": "DZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T18:54:08+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/20/le-premier-ministre-espagnol-pedro-sanchez-en-algerie-pour-sceller-la-reprise-du-dialogue/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/20/le-premier-ministre-espagnol-pedro-sanchez-en-algerie-pour-sceller-la-reprise-du-dialogue/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "68c43c87a4",
+      "title": "Protests in Italy after Moroccan man dies during arrest",
+      "summary": "Outrage across Italy's political spectrum following death in Bologna likened to killing of George Floyd in 2020.",
+      "country": "MAR",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T18:53:13+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/7/20/protests-in-italy-after-moroccan-man-dies-during-arrest?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/7/20/protests-in-italy-after-moroccan-man-dies-during-arrest?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "67b82de023",
+      "title": "Gabon : les avocats d’un opposant en prison demandent l’intervention de la France [Africanews Today]",
+      "summary": "Africanews Today du 20/07/2026",
+      "country": "GAB",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T18:48:49+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/20/gabon-les-avocats-dun-opposant-en-prison-demandent-lintervention-de-la-france-africanews-t/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/20/gabon-les-avocats-dun-opposant-en-prison-demandent-lintervention-de-la-france-africanews-t/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5aae8951bc",
+      "title": "Gabon: Opposition leader’s lawyers request France’s intervention [Africanews Today]",
+      "summary": "Brice Clotaire Oligui Nguema is in France. The three-day state visit by the Gabonese president will focus on economic, cultural and military issues. The lawyers of Gabonese opposition figure Bilie-By-Nze, who has been detained since April, are calling on France to put pressure on the Gabonese head o",
+      "country": "GAB",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T18:47:07+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/20/gabon-opposition-leaders-lawyers-request-frances-intervention-africanews-today/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/20/gabon-opposition-leaders-lawyers-request-frances-intervention-africanews-today/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "14ffc52695",
+      "title": "Spain, Algeria seek fresh start as Sánchez visits Algiers",
+      "summary": "Spanish Prime Minister Pedro Sánchez says he wants to deepen ties with Algeria as the two countries rebuild relations following a diplomatic rift over Western Sahara.",
+      "country": "DZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T18:41:57+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/20/spain-algeria-seek-fresh-start-as-sanchez-visits-algiers/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/20/spain-algeria-seek-fresh-start-as-sanchez-visits-algiers/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2cad5b6157",
+      "title": "Andrew, Tristan Tate Arrested in US On New Charges of Rape, Trafficking",
+      "summary": "[Leadership] Social media influencers Andrew and Tristan Tate have been arrested in the United States after British authorities issued 38 new charges against the brothers, including rape, actual bodily harm and human trafficking. Britain is seeking to extradite the brothers to face prosecution for both the new charges and pre-existing ones.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T18:38:29+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607200662.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607200662.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "abaa6fe614",
       "title": "Pourquoi Olam peine encore à redresser le coton togolais",
       "summary": "Six ans après son arrivée dans le coton togolais via sa filiale Olam Agri, le groupe singapourien n’a pas réussi à remettre durablement sur pied la filière. Et ce, malgré un rendement historique proche de 1 tonne à l’hectare lors de la dernière campagne.",
@@ -2639,6 +2884,36 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1808187/economie-entreprises/pourquoi-olam-peine-encore-a-redresser-le-coton-togolais/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c87006bc0e",
+      "title": "Migrations: l'ONG Horizon sans frontières appelle à la mise en place d'une conférence africaine",
+      "summary": "En Afrique de l'Ouest, les tentatives de passage de pirogues vers l'archipel espagnol des Canaries se multiplient depuis début juin. Ce week-end du 18-19 juillet, deux embarcations ont été secourues par les gardes-côte mauritaniens. Si 216 migrants ont été récupérés, près de 120 personnes sont portées disparues. L'une des pirogues parties de Banjul dérivait depuis trois semaines. Le Sénégalais Boubacar Seye, président de l'ONG Horizon sans frontières, est l'invité…",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-20T18:09:02+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260720-migrations-l-ong-horizon-sans-fronti%C3%A8res-appelle-%C3%A0-la-mise-en-place-d-une-conf%C3%A9rence-africaine"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260720-migrations-l-ong-horizon-sans-fronti%C3%A8res-appelle-%C3%A0-la-mise-en-place-d-une-conf%C3%A9rence-africaine"
         }
       ],
       "confirmation_count": 1
@@ -4654,36 +4929,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0a1aa02c9c",
-      "title": "Abia Govt Speaks On Viral Video of Flooded Building",
-      "summary": "[Premium Times] The Abia State Government has responded to a viral video of flooding along the Owerinta Road reconstruction corridor, attributing the incident to heavy rainfall, difficult terrain, and ongoing construction, while promising engineering adjustments to address residents' concerns.",
-      "country": "NGA",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-20T07:47:19+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607200104.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607200104.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "e0ae0ae78d",
       "title": "\"Shangwe, le bal\": a dance project full of joy",
       "summary": "On a sweltering afternoon in the French city of Lyon, around 60 dancers fully ignored the heat to immerse themselves in a festive performance brought to them by Kenyan-American choreographer and dancer Wanjiru Kamuyu.",
@@ -5614,36 +5859,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2d61f0c613",
-      "title": "«Au moins, on a la paix» : rentrés au Malawi, ils témoignent des violences xénophobes en Afrique du Sud",
-      "summary": "En Afrique du Sud, les violences xénophobes se poursuivent. Cette semaine, de nouvelles marches se sont transformées en chasse aux étrangers, avec violences, intimidations et arrestations arbitraires. Plusieurs dizaines de milliers de ressortissants étrangers ont déjà fui le pays. Un immense camp de réfugiés à été installé au nord du pays pour coordonner les rapatriements. La plupart sont originaires du Malawi. De retour dans ce pays, dans leur village, deux amis…",
-      "country": "MWI",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-19T03:00:10+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260719-au-moins-on-a-la-paix-rentr%C3%A9s-au-malawi-ils-t%C3%A9moignent-des-violences-x%C3%A9nophobes-en-afrique-du-sud"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260719-au-moins-on-a-la-paix-rentr%C3%A9s-au-malawi-ils-t%C3%A9moignent-des-violences-x%C3%A9nophobes-en-afrique-du-sud"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "99a500ffd1",
       "title": "Visite d’État d’Oligui Nguema en France : que va-t-il négocier avec Macron ?",
       "summary": "Attendu lundi 20 juillet à Paris, le président gabonais, Brice Clotaire Oligui Nguema, rencontrera son homologue français, Emmanuel Macron, au cours de ce séjour officiel de trois jours. Deux sujets sont déjà au menu : le manganèse et la base militaire française de Libreville.",
@@ -6244,36 +6459,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "e86a85ff55",
-      "title": "La France et le Maroc affichent leur \"confiance retrouvée\"",
-      "summary": "Après le dégel en mai 2024, à la suite de la reconnaissance par la France de la souveraineté du Maroc sur le Sahara occidental, la visite ce jeudi de Sébastien Lecornu au Maroc vient entériner la lune de miel entre Paris et Rabat. Accompagné d'une importante délégation composée de douze membres de son gouvernement, le Premier ministre français a participé à une réunion de haut niveau avec l'exécutif marocain.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-17T14:02:21+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260717-la-france-et-le-maroc-affichent-leur-confiance-retrouv%C3%A9e"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260717-la-france-et-le-maroc-affichent-leur-confiance-retrouv%C3%A9e"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "299ee6d58a",
       "title": "Bénin-Burkina Faso : non, il n’y a pas eu d’opération conjointe à la frontière",
       "summary": "Des images partagées sur les réseaux sociaux et reprises par plusieurs médias ont laissé croire qu’une opération militaire conjointe était en cours entre le Bénin et le Burkina Faso. La réalité est plus complexe : un différend territorial ancien est au cœur de l’affaire.",
@@ -6479,36 +6664,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/c171g7w058zo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4fee3a6c83",
-      "title": "DRC: Uvira's displaced lose hope as US ultimatum on Rwanda troops expires",
-      "summary": "The US ultimatum for Rwandan troops to withdraw from eastern DRC expired on Wednesday but there’s been no let up in the fighting. Now thousands of displaced families in Uvira are seeing their hopes of returning home slip away.",
-      "country": "RWA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-17T09:09:28+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/17/drc-uviras-displaced-lose-hope-as-us-ultimatum-on-rwanda-troops-expires/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/17/drc-uviras-displaced-lose-hope-as-us-ultimatum-on-rwanda-troops-expires/"
         }
       ],
       "confirmation_count": 1
