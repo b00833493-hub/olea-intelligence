@@ -1,33 +1,34 @@
 {
-  "generated_at": "2026-07-22T20:19:59.837791+00:00",
+  "generated_at": "2026-07-22T22:15:28.253218+00:00",
   "stats": {
-    "total_signals": 275,
+    "total_signals": 271,
     "verified_signals": 7,
-    "countries_covered": 26,
+    "countries_covered": 27,
     "sources_active": 16,
     "per_country": {
-      "COD": 16,
+      "MDG": 2,
+      "COD": 15,
       "MRT": 5,
       "UGA": 6,
-      "NGA": 46,
-      "MAR": 32,
+      "NGA": 45,
+      "MAR": 31,
       "GIN": 7,
       "DZA": 8,
-      "KEN": 39,
+      "KEN": 38,
       "SEN": 20,
-      "MLI": 13,
+      "MLI": 12,
       "NER": 3,
-      "BFA": 9,
+      "BFA": 8,
       "CAF": 3,
       "CMR": 10,
       "ZAF": 11,
       "CIV": 16,
       "GAB": 10,
+      "BDI": 1,
       "BEN": 1,
       "AGO": 1,
       "TGO": 2,
       "LBR": 3,
-      "MDG": 1,
       "ETH": 3,
       "GHA": 3,
       "RWA": 5,
@@ -133,6 +134,36 @@
     }
   ],
   "signals": [
+    {
+      "id": "4d5478b13e",
+      "title": "Psychose à Antananarivo : les autorités tentent de rassurer après les disparitions d'enfants",
+      "summary": "Depuis fin juin, une vague de disparitions frappe la capitale malgache, touchant en majorité des enfants et des adolescents. En une semaine, quatre personnes ont été retrouvées mortes, dont une fillette de douze ans et un adolescent de dix-sept ans. Entre fugues, négligences et soupçons de meurtres, les autorités peinent à rassurer une population qui bascule dans la psychose.",
+      "country": "MDG",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T20:19:54+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260722-psychose-%C3%A0-antananarivo-les-autorit%C3%A9s-tentent-de-rassurer-apr%C3%A8s-les-disparitions-d-enfants"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260722-psychose-%C3%A0-antananarivo-les-autorit%C3%A9s-tentent-de-rassurer-apr%C3%A8s-les-disparitions-d-enfants"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "b2ca608ed3",
       "title": "RDC: l'épidémie d'Ebola franchit le seuil symbolique des 1000 morts",
@@ -620,36 +651,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c9e5d8b7b4",
-      "title": "Kenya: ouverture du procès de six accusés présumés pour la mort en détention du militant Albert Ojwang",
-      "summary": "C’est un procès très suivi au Kenya qui s’est ouvert lundi 20 et mardi 21 juillet 2026 à la Haute Cour de Kibera, à Nairobi. Celui d’Albert Ojwang, un jeune Kényan de 31 ans décédé dans sa cellule dans la nuit des 7 et 8 juin 2025. Il avait été arrêté après avoir publié des messages accusant le numéro deux de la police de corruption. Son décès avait provoqué la colère dans le pays et entraîné plusieurs journées de manifestations. Six personnes sont aujourd’hui accusées de…",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T02:38:07+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260722-kenya-ouverture-du-proc%C3%A8s-de-six-accus%C3%A9s-pr%C3%A9sum%C3%A9s-pour-la-mort-en-d%C3%A9tention-du-militant-albert-ojwang"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260722-kenya-ouverture-du-proc%C3%A8s-de-six-accus%C3%A9s-pr%C3%A9sum%C3%A9s-pour-la-mort-en-d%C3%A9tention-du-militant-albert-ojwang"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "f408b9b602",
       "title": "Ebola en RDC: Kinshasa assouplit la quarantaine et privilégie l’évaluation du risque au cas par cas",
       "summary": "En République démocratique du Congo (RDC), l'épidémie d'Ebola ne cesse de faire des victimes. Des dizaines de nouvelles victimes ont été enregistrées ces 24 dernières heures avec un bilan qui approche les 1000 morts parmi 2 423 cas en seulement deux mois d'épidémie. Le gouvernement assouplit certaines restrictions de voyage imposées et adopte désormais une approche fondée sur l'évaluation individuelle du risque.",
@@ -1125,36 +1126,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260719-l-%C3%A9pid%C3%A9mie-d-ebola-en-rd-congo-se-propage-%C3%A0-une-vitesse-record-pr%C3%A9vient-l-oms"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8f3dd4f1c0",
-      "title": "Mali : au moins 50 militaires tués dans l'attaque des indépendantistes et des jihadistes à Anéfis",
-      "summary": "Le bilan de l'attaque menée samedi contre un convoi de l'armée malienne près d'Anéfis, dans le nord du pays, se précise. Au moins 50 militaires ont été tués, selon des sources locales et militaires jointes par l'AFP dimanche. Cette attaque menée par des indépendantistes touaregs et des jihadistes est l'une des plus meurtrières subies par l'armée malienne.",
-      "country": "MLI",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-19T10:20:07+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260719-mali-au-moins-50-militaires-tu%C3%A9s-attaque-ind%C3%A9pendantistes-jihadistes-an%C3%A9fis"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260719-mali-au-moins-50-militaires-tu%C3%A9s-attaque-ind%C3%A9pendantistes-jihadistes-an%C3%A9fis"
         }
       ],
       "confirmation_count": 1
@@ -2570,36 +2541,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1360a12a44",
-      "title": "Projet de gazoduc Nigeria-Maroc: «L'accord de la Cédéao marque une étape majeure»",
-      "summary": "La Communauté économique des États de l’Afrique de l'Ouest (Cédéao) a signé le 19 juillet 2026 à Freetown un accord soutenant ce projet de gazoduc atlantique. Une idée lancée en 2016 par Rabat et Abuja, conçue pour transporter jusqu'à 30 milliards de mètres cubes de gaz naturel par an. Entretien avec Amina Benkhadra, directrice générale de l’Office national des hydrocarbures et des mines du Maroc, l’opérateur chargé de la mise en œuvre du projet, côté marocain.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-21T12:11:08+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260721-projet-de-gazoduc-nigeria-maroc-l-accord-de-la-c%C3%A9d%C3%A9ao-marque-une-%C3%A9tape-majeure"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260721-projet-de-gazoduc-nigeria-maroc-l-accord-de-la-c%C3%A9d%C3%A9ao-marque-une-%C3%A9tape-majeure"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5a0f497c3c",
       "title": "Sénégal : Diomaye Faye prend la présidence de la CEDEAO pour un an",
       "summary": "Pour ce mandat d'un an, le président senegalais dit vouloir faire de la lutte contre le terrorisme, la réforme institutionnelle ainsi que le renforcement de l’autonomie financière de l’organisation ses principales priorités.",
@@ -3152,6 +3093,36 @@
       "confirmation_count": 2
     },
     {
+      "id": "3ec8645142",
+      "title": "Burundi: dix ans après la disparition du journaliste d'Iwacu Jean Bigirimana, le mystère reste entier",
+      "summary": "Au Burundi, cela fait dix ans qu’a disparu le journaliste du média indépendant Iwacu, Jean Bigirimana. Enlevé sur le terrain le 22 juillet 2016 et emmené dans un pick-up, selon des témoins, il n’a jamais été retrouvé. Reporters sans frontières (RSF) dénonce cette impunité persistante et appelle les autorités à sortir de leur silence afin de faire toute la lumière sur son sort.",
+      "country": "BDI",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T22:10:37+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260722-burundi-dix-ans-apr%C3%A8s-la-disparition-du-journaliste-d-iwacu-jean-bigirimana-le-myst%C3%A8re-reste-entier"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260722-burundi-dix-ans-apr%C3%A8s-la-disparition-du-journaliste-d-iwacu-jean-bigirimana-le-myst%C3%A8re-reste-entier"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "926f02f651",
       "title": "Mines : le Gabon a-t-il les moyens de ses ambitions de transformation locale ?",
       "summary": "En signant un protocole d’accord avec Eramet, Libreville franchit une nouvelle étape vers la transformation locale de son manganèse. Mais, en dépit des signatures et des discours, la réalité économique risque de s’imposer aux autorités gabonaises.",
@@ -3542,36 +3513,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "5301d01a2a",
-      "title": "The Morocco-Algeria rivalry is remaking Europe’s North Africa policy",
-      "summary": "As Rabat and Algiers compete for influence, closer ties with one now carry consequences for relations with the other.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T15:23:56+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/opinions/2026/7/22/the-morocco-algeria-rivalry-is-remaking-europes-north-africa-policy?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/opinions/2026/7/22/the-morocco-algeria-rivalry-is-remaking-europes-north-africa-policy?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "beed17ac12",
       "title": "All you need to know about Wafcon 2026",
       "summary": "Find out the favourites, format and kick-off times for the delayed 2026 Women's Africa Cup of Nations in Morocco, which starts on 26 July.",
@@ -3597,36 +3538,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/sport/football/articles/c89kd259jvyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "995c5e4f87",
-      "title": "Why Traore has opened a new front with Burkina Faso’s Muslim community",
-      "summary": "New legislation and arrests are driving a rift between Burkina Faso's military government and Muslim scholars.",
-      "country": "BFA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T14:53:43+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/7/22/why-traore-has-opened-a-new-front-with-burkina-fasos-muslim-community?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/7/22/why-traore-has-opened-a-new-front-with-burkina-fasos-muslim-community?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -3837,36 +3748,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1825991/politique/espagne-algerie-ce-que-cache-vraiment-la-reconciliation/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b101d503cb",
-      "title": "Nearly 1,000 people have died from Ebola in DR Congo",
-      "summary": "According to WHO figures, 999 people have died in DRC and two in Uganda due to the Bundibugyo strain of the virus.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T14:01:10+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/7/22/nearly-1000-people-have-died-from-ebola-in-dr-congo?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/7/22/nearly-1000-people-have-died-from-ebola-in-dr-congo?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
