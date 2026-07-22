@@ -1,29 +1,30 @@
 {
-  "generated_at": "2026-07-22T16:43:22.701582+00:00",
+  "generated_at": "2026-07-22T18:20:31.388230+00:00",
   "stats": {
-    "total_signals": 270,
-    "verified_signals": 8,
-    "countries_covered": 27,
+    "total_signals": 274,
+    "verified_signals": 7,
+    "countries_covered": 28,
     "sources_active": 16,
     "per_country": {
+      "MRT": 5,
+      "UGA": 5,
       "NGA": 46,
       "COD": 15,
       "MAR": 32,
-      "GIN": 6,
-      "UGA": 4,
+      "GIN": 7,
       "DZA": 8,
       "KEN": 40,
-      "MRT": 4,
-      "SEN": 19,
+      "SEN": 20,
       "MLI": 13,
       "BDI": 1,
       "NER": 3,
       "BFA": 9,
       "CAF": 3,
-      "CMR": 11,
+      "CMR": 10,
       "ZAF": 10,
       "CIV": 16,
       "GAB": 9,
+      "BEN": 1,
       "AGO": 1,
       "TGO": 2,
       "LBR": 3,
@@ -134,6 +135,72 @@
     }
   ],
   "signals": [
+    {
+      "id": "9db59aee52",
+      "title": "Près de 150 migrants morts ou disparus au large de la Mauritanie en une semaine",
+      "summary": "Nouveau drame migratoire au large de la Mauritanie. Près de 150 personnes sont mortes ou portées disparues en tentant de rejoindre les îles Canaries. L'ONU appelle à renforcer les voies de migration sûres.",
+      "country": "MRT",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T16:46:25+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260722-pr%C3%A8s-de-150-migrants-morts-ou-disparus-au-large-de-la-mauritanie-en-une-semaine"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260722-pr%C3%A8s-de-150-migrants-morts-ou-disparus-au-large-de-la-mauritanie-en-une-semaine"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/22/drame-au-large-des-cotes-mauritaniennes-lonu-deplore-144-morts-ou-disparus/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "56db5a3555",
+      "title": "WHO says Ebola death toll in DRC and Uganda has surpassed 1,000",
+      "summary": "All but two of the deaths took place in the Congo, which as of Monday had recorded 2,473 cases in the latest outbreak of the haemorrhagic virus.",
+      "country": "UGA",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T16:02:34+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/22/who-says-ebola-death-toll-in-drc-and-uganda-has-surpassed-1000/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/22/who-says-ebola-death-toll-in-drc-and-uganda-has-surpassed-1000/"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "2e6b549ec3",
       "title": "Gunmen Kill Rivers Vigilante Leader, Three Women in Omoku",
@@ -465,66 +532,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "e70f9e8628",
-      "title": "Senate Extends Panel's Deadline for $30 Million Safe Schools Programme Probe",
-      "summary": "[Premium Times] The programme was introduced in the wake of the 2014 Chibok schoolgirls' abduction and was designed to operate at different levels, including state-led efforts and national coordination through some agencies.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T05:00:48+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607220126.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607220126.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1682e3f42d",
-      "title": "Nigerian Lawmakers Worry Over 53,000 Annual Deaths Linked to Unsafe Food",
-      "summary": "[Premium Times] The lawmakers urged the Federal Ministry of Health and Social Welfare, NAFDAC, SON and the NCDC to strengthen nationwide surveillance, routine inspections and certification processes covering the entire food production and distribution chain.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T05:00:43+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607220119.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607220119.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "f3eac6c4a4",
       "title": "CCTV Forensic Analysis Shows Albert Ojwang Entered Police Station Alive, Left Unresponsive",
       "summary": "[Capital FM] Nairobi -- The murder trial of Albert Ojwang heard Tuesday that forensic analysis of CCTV footage recovered from Central Police Station shows the deceased entered the station alive and responsive but was later removed while unresponsive, as prosecutors sought to strengthen their case with digital evidence.",
@@ -550,6 +557,36 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607220047.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c835abd623",
+      "title": "Nigeria Eyes Reset in UK Relations As Govt Congratulates New Prime Minister Burnham",
+      "summary": "[This Day] Abuja -- Nigeria on Tuesday signalled its readiness to deepen economic, security, and diplomatic ties with the United Kingdom following the emergence of Right Honourable Andy Burnham as the country's new Prime Minister.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T03:51:54+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607220031.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607220031.html"
         }
       ],
       "confirmation_count": 1
@@ -771,8 +808,8 @@
       "country": "MRT",
       "category": "SINISTRE",
       "severity": 4,
-      "credibility": 4,
-      "verified": true,
+      "credibility": 2,
+      "verified": false,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
@@ -790,15 +827,9 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260721-naufrages-en-s%C3%A9rie-au-large-de-la-mauritanie-144-morts-ou-disparus"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/22/drame-au-large-des-cotes-mauritaniennes-lonu-deplore-144-morts-ou-disparus/"
         }
       ],
-      "confirmation_count": 2
+      "confirmation_count": 1
     },
     {
       "id": "a8a9ae72e3",
@@ -1186,6 +1217,36 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/videos/cx2jv3vgy5lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b21e88abe4",
+      "title": "Guinée : Siguiri, capitale du RPG, tourne lentement la page Alpha Condé",
+      "summary": "Dans l’historique bastion de l’ancien parti au pouvoir, au nord-est du pays, les fidèles d’Alpha Condé se font discrets depuis le coup d’État de 2021. Entre nostalgie et ralliements opportunistes au nouveau président Mamadi Doumbouya, le fief du parti dissous cherche ses repères. Reportage.",
+      "country": "GIN",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T18:58:34+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1807797/politique/guinee-siguiri-capitale-du-rpg-tourne-lentement-la-page-alpha-conde/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1807797/politique/guinee-siguiri-capitale-du-rpg-tourne-lentement-la-page-alpha-conde/"
         }
       ],
       "confirmation_count": 1
@@ -1798,6 +1859,36 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607100023.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "389fee9c9d",
+      "title": "Le groupe BSIC initie une opération de titrisation multicédantes de 45 milliards FCFA sur le marché financier régional pour renforcer le financement des PME/PMI dans l’UEMOA",
+      "summary": "Dakar, le 15 juin 2026 – Dans le cadre de sa stratégie de diversification de ses sources de financement et de soutien renforcé à l’économie réelle, le Groupe BSIC (Banque Sahélo-Saharienne pour l’Investissement et le Commerce) franchit une étape majeure de son développement. Le Groupe annonce le lancement de sa première opération de titrisation sur le Marché Financier Régional de l’UEMOA, pour un montant nominal global de 45 milliards de FCFA.\nCette opération…",
+      "country": "SEN",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T16:16:36+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/22/le-groupe-bsic-initie-une-operation-de-titrisation-multicedantes-de-45-milliards-fcfa-sur-le-marche-financier-regional-pour-renforcer-le-financement-des-pme-pmi-dans-luemoa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/22/le-groupe-bsic-initie-une-operation-de-titrisation-multicedantes-de-45-milliards-fcfa-sur-le-marche-financier-regional-pour-renforcer-le-financement-des-pme-pmi-dans-luemoa/"
         }
       ],
       "confirmation_count": 1
@@ -2691,42 +2782,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "8209efd5d9",
-      "title": "West African Leaders Back $25b Nigeria-Morocco Gas Pipeline",
-      "summary": "[Daba Finance] West African leaders have endorsed the Nigeria-Morocco Gas Pipeline, giving political backing to a $25 billion project designed to transport natural gas across West Africa and into Europe as the continent looks to strengthen energy security and expand regional integration.",
-      "country": "MAR",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-21T07:52:45+00:00",
-      "lead_source": {
-        "id": "aa-mar",
-        "name": "AllAfrica · Maroc",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607210144.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-mar",
-          "name": "AllAfrica · Maroc",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607210144.html"
-        },
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/20/west-african-leaders-approve-nigeria-morocco-gas-pipeline/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "94ba5a5945",
       "title": "Secrétariat général de l’ONU : Bassirou Diomaye Faye officialise son soutien à Macky Sall",
       "summary": "Trois jours après la visite éclair à Dakar de son prédécesseur, lancé dans une campagne intensive pour succéder dans quelques mois à António Guterres, le chef de l’État a fait connaître le soutien du Sénégal à celui qui fut son adversaire en politique.",
@@ -3124,6 +3179,96 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1826154/politique/mali-burkina-faso-niger-comment-les-mines-dor-alimentent-la-guerre-au-sahel/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "eb3b9aac7d",
+      "title": "Bénin: Alofa Cossi Codjo condamné à 30 ans de réclusion criminelle dans l'affaire Dangnivo",
+      "summary": "Au Bénin, le verdict est tombé dans l'affaire Dangnivo, du nom de ce syndicaliste et opposant béninois porté disparu et jamais retrouvé depuis 2010, sous le régime de l'ancien président Boni Yayi. Le tribunal a prononcé une lourde peine de 30 ans de réclusion criminelle contre Alofa Cossi Codjo, présenté comme l'assassin principal. Son co-accusé, en revanche, a été acquitté purement et simplement après 16 ans de détention provisoire. Une sentence prononcée en l'absence…",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T18:11:51+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260722-b%C3%A9nin-alofa-cossi-codjo-condamn%C3%A9-%C3%A0-30-ans-de-r%C3%A9clusion-criminelle-dans-l-affaire-dangnivo"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260722-b%C3%A9nin-alofa-cossi-codjo-condamn%C3%A9-%C3%A0-30-ans-de-r%C3%A9clusion-criminelle-dans-l-affaire-dangnivo"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "fe38d477a7",
+      "title": "Nigerian Students Emerge Champions At 2026 Spelling Bee World Cup in China",
+      "summary": "[Vanguard] Team Nigeria has emerged victorious at the 2026 Spelling Bee World Cup in Shanghai, China, winning the Gold Award in the Middle School Group category.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T17:10:32+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607220686.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607220686.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b33dda315f",
+      "title": "Maroc : 74,5 millions de dollars pour sécuriser la production céréalière face à la sécheresse",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MAR",
+      "category": "CLIMAT",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T16:44:09+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/22/maroc-745-millions-de-dollars-pour-securiser-la-production-cerealiere-face-a-la-secheresse/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/22/maroc-745-millions-de-dollars-pour-securiser-la-production-cerealiere-face-a-la-secheresse/"
         }
       ],
       "confirmation_count": 1
@@ -3641,7 +3786,7 @@
     {
       "id": "28b236ebb3",
       "title": "Ipswich sign Diop from Fulham",
-      "summary": "Ipswich Town sign Morocco defender Issa Diop from Fulham for an undisclosed fee.",
+      "summary": "Ipswich Town sign Morocco defender Issa Diop from Fulham for £8.5m",
       "country": "MAR",
       "category": "AUTRE",
       "severity": 1,
@@ -5799,36 +5944,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b46fcac6f1",
-      "title": "Femmes de la terre: au Maroc, Wissal Ben Moussa régénère ce qui a été détruit [3/5]",
-      "summary": "Wissal Ben Moussa a cofondé Sand to Green en 2022, une start-up qui s’appuie sur des technologies de pointe et s’inspire de la nature pour proposer aux paysans des solutions plus durables et mieux adaptées au changement climatique. Des pratiques qui permettent de régénérer les sols quand l’agriculture conventionnelle les appauvrit.",
-      "country": "MAR",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-21T22:07:04+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260721-femmes-de-la-terre-au-maroc-wissal-ben-moussa-r%C3%A9g%C3%A9n%C3%A8re-ce-qui-a-%C3%A9t%C3%A9-d%C3%A9truit-3-5"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260721-femmes-de-la-terre-au-maroc-wissal-ben-moussa-r%C3%A9g%C3%A9n%C3%A8re-ce-qui-a-%C3%A9t%C3%A9-d%C3%A9truit-3-5"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "ac0d57f936",
       "title": "Au Kenya, du miel et de l’agroforesterie pour préserver l’environnement",
       "summary": "Le sud-est du Kenya, la région de Taita-Taveta, abrite éléphants, zèbres, girafes… Une faune sauvage très prisée des touristes, dont la protection nécessite d'importants efforts de conservation. Répartis entre une trentaine de ranchs et de réserves, ces espaces sont fédérés par la Taita Taveta Wildlife Conservancies Association. Soutenue notamment par le Fonds international pour la protection des animaux (Ifaw), l’organisation tente de concilier protection de la nature et…",
@@ -6639,6 +6754,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "8209efd5d9",
+      "title": "West African Leaders Back $25b Nigeria-Morocco Gas Pipeline",
+      "summary": "[Daba Finance] West African leaders have endorsed the Nigeria-Morocco Gas Pipeline, giving political backing to a $25 billion project designed to transport natural gas across West Africa and into Europe as the continent looks to strengthen energy security and expand regional integration.",
+      "country": "MAR",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-21T07:52:45+00:00",
+      "lead_source": {
+        "id": "aa-mar",
+        "name": "AllAfrica · Maroc",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607210144.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-mar",
+          "name": "AllAfrica · Maroc",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607210144.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "cfe63c9143",
       "title": "Morocco prepares for 2030 FIFA World Cup with major hotel expansion",
       "summary": "For the first time in its history, Morocco will co-host the tournament with Spain and Portugal. To make sure the event runs smoothly, the country plans to add 60,000 hotel beds by 2030, according to the tourism minister.",
@@ -7234,36 +7379,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1823301/economie-entreprises/apres-la-bad-que-devient-adesina-infatigable-promoteur-de-lafrique/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "dcfa4eb62b",
-      "title": "Cameroun : Titus Edzoa, ou la trahison d’un Rose-Croix",
-      "summary": "Son ascension en étonna plus d’un. Chirurgien de formation, Titus Edzoa gravit les échelons politiques grâce à sa proximité personnelle et spirituelle avec Paul Biya. Il finit par vouloir affronter ce dernier dans les urnes, ce qui provoqua sa chute.",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-20T07:01:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1808723/politique/cameroun-titus-edzoa-ou-la-trahison-dun-rose-croix/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1808723/politique/cameroun-titus-edzoa-ou-la-trahison-dun-rose-croix/"
         }
       ],
       "confirmation_count": 1
