@@ -12,7 +12,7 @@
 //   puis coller le résultat dans EXPECTED_HASH ci-dessous.
 //   Ou exécuter ./set-password.sh
 
-const EXPECTED_HASH = "997a2f65ec5d5f2e7166b1b59fea6f11138a92d6bb2a44a135b2fb5030904f8f"; // code généré aléatoirement (cf .access-code-DO-NOT-COMMIT.txt)
+const EXPECTED_HASH = "4ac4042cd7d7107186a00b14f6ee9f3d682bd953ee8f2f6f7a86539af9ad4073"; // code généré aléatoirement (cf .access-code-DO-NOT-COMMIT.txt)
 const SESSION_KEY   = "olea-intel-unlock";
 
 async function sha256Hex(text) {
