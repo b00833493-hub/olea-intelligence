@@ -28,7 +28,12 @@ const state = {
   fdi: null,            // fdi.json (IDE World Bank par pays)
   route: "home",        // home | regulatory | markets
   conv: { from: "EUR", to: "MAD", amount: 1, period: "1Y" },
+  sector: null,         // filtre secteur (home) : null = tous
+  fdiSelectedCountry: null, // pays sélectionné dans le dropdown IDE
 };
+
+// Année en cours (pour filtres YTD)
+const YEAR_START_ISO = new Date(new Date().getFullYear(), 0, 1).toISOString();
 
 // Normalise pour matching : minuscules + sans accents.
 function normForSearch(s) {
@@ -367,9 +372,15 @@ function filteredSignals() {
   let out = state.signals.slice();
   if (state.selectedCountry) out = out.filter((s) => s.country === state.selectedCountry);
   if (state.activeCategory)  out = out.filter((s) => s.category === state.activeCategory);
+  if (state.sector) out = out.filter((s) => (s.sectors || []).includes(state.sector));
   if (state.searchQuery.trim()) out = out.filter(signalMatchesSearch);
   out.sort(SORT_FNS[state.sortMode] || SORT_FNS.severity);
   return out;
+}
+
+// Filtre YTD (année en cours) — utilisé pour le drawer IDE & la fiche pays
+function isYTD(s) {
+  return s.published && s.published >= YEAR_START_ISO;
 }
 
 function renderSortControls() {
@@ -644,6 +655,69 @@ function renderSnapshot() {
 }
 
 // ============================================================
+// Sector picker (home)
+// ============================================================
+function initSectorPicker() {
+  const sel = $("#sector-select");
+  if (!sel) return;
+  const all = (typeof t === "function") ? t("sector.all") : "Tous secteurs";
+  const opts = [`<option value="">${escapeHtml(all)}</option>`];
+  // Ordre : par nombre de signaux disponibles décroissant
+  const counts = {};
+  for (const s of state.signals) for (const k of (s.sectors || [])) counts[k] = (counts[k] || 0) + 1;
+  const sorted = Object.keys(SECTORS)
+    .filter((k) => (counts[k] || 0) > 0)
+    .sort((a, b) => (counts[b] || 0) - (counts[a] || 0));
+  for (const k of sorted) {
+    const meta = SECTORS[k];
+    const label = (typeof t === "function") ? t("sector." + k) : k;
+    opts.push(`<option value="${k}">${meta.icon}  ${escapeHtml(label)}  (${counts[k]})</option>`);
+  }
+  const prev = sel.value;
+  sel.innerHTML = opts.join("");
+  if (prev) sel.value = prev;
+  sel.value = state.sector || "";
+  if (!sel._bound) {
+    sel.addEventListener("change", () => {
+      state.sector = sel.value || null;
+      renderFeed();
+      renderCategoryFilters();
+    });
+    sel._bound = true;
+  }
+}
+
+// ============================================================
+// Language switcher
+// ============================================================
+function bindLangSwitcher() {
+  document.querySelectorAll(".lang-switcher [data-lang]").forEach((btn) => {
+    btn.addEventListener("click", () => setLang(btn.dataset.lang));
+  });
+}
+
+// Callback quand la langue change → re-render tout ce qui produit du texte via t()
+window.onLangChanged = function () {
+  initSectorPicker();
+  if (state.conv && state.conv._initialized) renderConverter();
+  if (state.signals?.length) {
+    renderFeed();
+    renderCategoryFilters();
+    renderChips();
+    renderRegulatoryKPIs();
+    renderRegulatoryThemes();
+    renderRegulatoryStatuses();
+    renderRegulatoryFeed();
+    renderFXDashboardCard();
+    // Reset FDI picker to rebuild placeholder
+    const fdiSel = $("#fdi-country-select");
+    if (fdiSel) { fdiSel._initialized = false; }
+    renderMarketsSection();
+    renderSortControls();
+  }
+};
+
+// ============================================================
 // Router SPA (hash-based)
 // ============================================================
 const ROUTES = new Set(["home", "regulatory", "markets"]);
@@ -835,58 +909,94 @@ function renderMarketsSection() {
     tbody.innerHTML = html;
   }
 
-  // ---- FDI table (tri par valeur décroissante) ----
-  const fdibody = $("#fdi-tbody");
-  if (state.fdi && fdibody) {
-    const items = OLEA_COUNTRIES.map((c) => {
-      const data = state.fdi.countries?.[c.code] || null;
-      return { country: c, data };
-    }).sort((a, b) => {
-      const va = a.data?.latest?.value ?? -Infinity;
-      const vb = b.data?.latest?.value ?? -Infinity;
-      return vb - va;
-    });
+  // ---- FDI : dropdown pays ----
+  const fdiSelect = $("#fdi-country-select");
+  if (fdiSelect && !fdiSelect._initialized) {
+    initFdiPicker();
+    fdiSelect._initialized = true;
+  }
+  renderFdiDetail();
+}
 
-    let html = "";
-    for (const { country: c, data } of items) {
-      if (!data || !data.latest) {
-        html += `
-          <tr>
-            <td class="col-flag fdi-flag-cell">${c.flag}</td>
-            <td class="col-iso">${c.code}</td>
-            <td class="col-country">${escapeHtml(c.name)}</td>
-            <td colspan="5" class="fdi-empty">— données indisponibles World Bank</td>
-          </tr>`;
-        continue;
-      }
-      const latest = data.latest;
-      const yoy = data.yoy_pct;
-      let arrow = "·", cls = "tick-flat", yoyStr = "—";
-      if (yoy == null) { /* keep defaults */ }
-      else if (yoy > 1)   { arrow = "▲"; cls = "tick-up";   yoyStr = "+" + yoy.toFixed(1) + "%"; }
-      else if (yoy < -1)  { arrow = "▼"; cls = "tick-down"; yoyStr = yoy.toFixed(1) + "%"; }
-      else                { arrow = "·"; cls = "tick-flat"; yoyStr = yoy.toFixed(1) + "%"; }
+function initFdiPicker() {
+  const sel = $("#fdi-country-select");
+  if (!sel) return;
+  // Tri : par valeur IDE dernière année, décroissant
+  const items = OLEA_COUNTRIES.slice().sort((a, b) => {
+    const va = state.fdi?.countries?.[a.code]?.latest?.value ?? -Infinity;
+    const vb = state.fdi?.countries?.[b.code]?.latest?.value ?? -Infinity;
+    return vb - va;
+  });
+  const placeholder = (typeof t === "function") ? t("fdi.dropdown.placeholder") : "— Choisir un marché OLEA —";
+  const options = [`<option value="">${escapeHtml(placeholder)}</option>`];
+  for (const c of items) {
+    const data = state.fdi?.countries?.[c.code];
+    const latest = data?.latest?.value;
+    const flow = latest ? `$${formatUSD(latest)}` : "—";
+    options.push(`<option value="${c.code}">${c.flag}  ${escapeHtml(c.name)}  ·  ${flow}</option>`);
+  }
+  sel.innerHTML = options.join("");
+  sel.value = state.fdiSelectedCountry || "";
+  sel.addEventListener("change", () => {
+    state.fdiSelectedCountry = sel.value || null;
+    renderFdiDetail();
+  });
+}
 
-      const histVals = (data.history || []).filter((h) => h.value != null).slice(-7).map((h) => h.value);
-      const sparkHtml = buildSparkSVG(histVals);
-      const avg5Str = data.avg_5y_usd ? "$" + formatUSD(data.avg_5y_usd) : "—";
+function renderFdiDetail() {
+  const detail = $("#fdi-detail");
+  const empty  = $("#fdi-empty");
+  if (!detail || !empty) return;
 
-      html += `
-        <tr data-fdi-country="${c.code}" title="Cliquer pour voir les news IDE de ${escapeHtml(c.name)}">
-          <td class="col-flag fdi-flag-cell">${c.flag}</td>
-          <td class="col-iso">${c.code}</td>
-          <td class="col-country">${escapeHtml(c.name)}</td>
-          <td class="col-num" style="font-weight:500;color:var(--ink-3)">${latest.year}</td>
-          <td class="col-num col-last-big">$${formatUSD(latest.value)}</td>
-          <td class="tick-cell ${cls}"><span class="arrow">${arrow}</span>${yoyStr}</td>
-          <td class="col-num fdi-avg" style="color:var(--ink-3)">${avg5Str}</td>
-          <td class="col-spark">${sparkHtml}</td>
-        </tr>`;
-    }
-    fdibody.innerHTML = html;
-    // Clic ligne → drawer
-    fdibody.querySelectorAll("tr[data-fdi-country]").forEach((row) => {
-      row.addEventListener("click", () => openFdiDrawer(row.dataset.fdiCountry));
+  const code = state.fdiSelectedCountry;
+  if (!code) {
+    detail.hidden = true;
+    empty.hidden = false;
+    return;
+  }
+  empty.hidden = true;
+  detail.hidden = false;
+
+  const c = countryByCode(code);
+  const data = state.fdi?.countries?.[code];
+  if (!c) return;
+
+  const latest = data?.latest;
+  $("#fdi-detail-value").textContent = latest ? `$${formatUSD(latest.value)}` : "—";
+  $("#fdi-detail-year").textContent  = latest ? `${c.flag}  ${c.name}  ·  ${latest.year}` : c.name;
+
+  // YoY
+  const yoy = data?.yoy_pct;
+  const yoyEl = $("#fdi-detail-yoy");
+  if (yoy == null) { yoyEl.textContent = "—"; yoyEl.style.color = "var(--ink-3)"; }
+  else if (yoy > 1)  { yoyEl.innerHTML = `▲ +${yoy.toFixed(1)}%`; yoyEl.style.color = "#15803D"; }
+  else if (yoy < -1) { yoyEl.innerHTML = `▼ ${yoy.toFixed(1)}%`;  yoyEl.style.color = "var(--primary)"; }
+  else               { yoyEl.innerHTML = `${yoy.toFixed(1)}%`;    yoyEl.style.color = "var(--ink-3)"; }
+
+  $("#fdi-detail-avg").textContent = data?.avg_5y_usd ? `$${formatUSD(data.avg_5y_usd)}` : "—";
+
+  // Sparkline
+  const histVals = (data?.history || []).filter((h) => h.value != null).map((h) => h.value);
+  const sparkEl = $("#fdi-detail-spark");
+  sparkEl.innerHTML = buildSparkSVG(histVals, { width: 220, height: 42 });
+
+  // News IDE YTD pour ce pays, sources sérieuses (tier ≤ 2)
+  const news = state.signals.filter((s) =>
+    s.country === code && s.fdi && (s.lead_source?.tier || 99) <= 2 && isYTD(s)
+  ).sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0));
+
+  const listEl = $("#fdi-detail-news-list");
+  const cnt = $("#fdi-detail-news-count");
+  cnt.textContent = `${news.length} ${news.length === 1 ? "signal" : "signaux"}`;
+  if (news.length === 0) {
+    listEl.innerHTML = `<div class="fdi-detail-news-empty">${escapeHtml((typeof t === "function") ? t("fdi.noNews") : "Aucun signal IDE pour ce pays cette année.")}</div>`;
+  } else {
+    listEl.innerHTML = news.map(renderSignal).join("");
+    listEl.querySelectorAll(".signal").forEach((el) => {
+      el.addEventListener("click", () => {
+        const url = el.dataset.url;
+        if (url && url !== "#") window.open(url, "_blank", "noopener");
+      });
     });
   }
 }
@@ -1200,9 +1310,9 @@ function drawConverterChart(series) {
 function openFdiDrawer(countryCode) {
   const c = countryByCode(countryCode);
   if (!c) return;
-  // Filtre : country = code, fdi = true, source tier <= 2 (sources sérieuses)
+  // Filtre : country = code, fdi = true, source tier <= 2, YTD (année en cours)
   const news = state.signals.filter((s) =>
-    s.country === countryCode && s.fdi && (s.lead_source?.tier || 99) <= 2
+    s.country === countryCode && s.fdi && (s.lead_source?.tier || 99) <= 2 && isYTD(s)
   ).sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0));
 
   // FDI data du pays
@@ -1537,6 +1647,8 @@ async function autoRefresh(opts = {}) {
 // BOOT
 // ============================================================
 (async function init() {
+  if (typeof initI18n === "function") initI18n();
+  bindLangSwitcher();
   await Promise.all([loadNews(), loadFX(), loadFXHistory(), loadFDI()]);
   await renderMap();
   renderChips();
@@ -1555,6 +1667,7 @@ async function autoRefresh(opts = {}) {
   renderFXDashboardCard();
   renderMarketsSection();
   renderSourcesFooter();
+  initSectorPicker();
   navigate(); // active la route initiale depuis location.hash
   setInterval(autoRefresh, REFRESH_MS);
 })();

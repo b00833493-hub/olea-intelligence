@@ -101,3 +101,30 @@ const LEGAL_STATUSES = {
   PROMULGUE:  { label: "Promulgué",       short: "Promulgué",  order: 3, color: "#7C3AED" },
   EN_VIGUEUR: { label: "En vigueur",      short: "En vigueur", order: 4, color: "#15803D" },
 };
+
+// ============================================================
+// Secteurs métier — branches OLEA courtage assurance
+// Labels affichables dans SECTOR_LABELS (multi-langues via i18n)
+// ============================================================
+const SECTORS = {
+  AUTO:               { icon: "▲", color: "#0EA5E9" },
+  PROPERTY:           { icon: "▣", color: "#DC2626" },
+  LIABILITY:          { icon: "§", color: "#7C3AED" },
+  CYBER:              { icon: "◐", color: "#1E40AF" },
+  POLITICAL_VIOLENCE: { icon: "⚠", color: "#EA580C" },
+  HEALTH:             { icon: "+", color: "#BE185D" },
+  MARINE_TRANSPORT:   { icon: "⚓", color: "#0E7C5C" },
+  AVIATION:           { icon: "✈", color: "#0369A1" },
+  ENERGY:             { icon: "⚡", color: "#92400E" },
+  CONSTRUCTION:       { icon: "◊", color: "#B45309" },
+  AGRICULTURE:        { icon: "❋", color: "#65A30D" },
+};
+
+const REGION_KEY = {
+  "Afrique de l'Ouest": "region.west",
+  "Afrique Centrale":   "region.central",
+  "Afrique du Nord":    "region.north",
+  "Afrique de l'Est":   "region.east",
+  "Afrique Australe":   "region.south",
+  "Océan Indien":       "region.indian",
+};

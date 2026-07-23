@@ -32,7 +32,7 @@ USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
               "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36 "
               "OLEA-Intelligence-Aggregator/1.0")
 TIMEOUT = 12
-MAX_AGE_DAYS = 14  # ignore articles older than this
+MAX_AGE_DAYS = 250  # couvre YTD (les news accumulées par le bot horaire)
 
 # =============================================================================
 # SOURCES — tier 1 = wire services / pure-play news ; tier 2 = Afrique reconnue
@@ -62,6 +62,32 @@ SOURCES = [
     {"id": "africa-rep", "name": "The Africa Report",   "tier": 2, "lang": "en",
      "url": "https://www.theafricareport.com/feed/"},
 
+    # ---- Est-Afrique en anglais (tier 2) ----------------------------------
+    {"id": "east-afr",   "name": "The East African",       "tier": 2, "lang": "en",
+     "url": "https://www.theeastafrican.co.ke/rss.xml"},
+    {"id": "addis-fort", "name": "Addis Fortune",          "tier": 2, "lang": "en",
+     "url": "https://addisfortune.news/feed/"},
+    {"id": "ethio-rep",  "name": "Ethiopian Reporter",     "tier": 2, "lang": "en",
+     "url": "https://www.ethiopianreporter.com/feed"},
+    {"id": "cio-afr",    "name": "CIO Africa",             "tier": 2, "lang": "en",
+     "url": "https://cioafrica.co/feed/"},
+    {"id": "daily-mav",  "name": "Daily Maverick",         "tier": 2, "lang": "en",
+     "url": "https://www.dailymaverick.co.za/rss"},
+    {"id": "further-af", "name": "Further Africa",         "tier": 2, "lang": "en",
+     "url": "https://furtherafrica.com/feed/"},
+
+    # ---- Afrique lusophone (tier 2) ---------------------------------------
+    {"id": "rfi-pt",     "name": "RFI Português",          "tier": 1, "lang": "pt",
+     "url": "https://www.rfi.fr/pt/rss"},
+    {"id": "lusa",       "name": "Lusa (Agência)",         "tier": 1, "lang": "pt",
+     "url": "https://www.lusa.pt/rss"},
+    {"id": "jorn-ang",   "name": "Jornal de Angola",       "tier": 2, "lang": "pt",
+     "url": "https://www.jornaldeangola.ao/rss"},
+    {"id": "club-moz",   "name": "Club of Mozambique",     "tier": 2, "lang": "en", "force_country": "MOZ",
+     "url": "https://clubofmozambique.com/feed/"},
+    {"id": "observador", "name": "Observador",             "tier": 2, "lang": "pt",
+     "url": "https://observador.pt/seccao/mundo/feed/"},
+
     # ---- AllAfrica per-country (tier 2, fallback) --------------------------
     # Slugs vérifiés ; les autres sont skippés s'ils ne répondent pas.
     {"id": "aa-civ",     "name": "AllAfrica · Côte d'Ivoire", "tier": 2, "lang": "fr", "force_country": "CIV",
@@ -76,6 +102,16 @@ SOURCES = [
      "url": "https://allafrica.com/tools/headlines/rdf/morocco/headlines.rdf"},
     {"id": "aa-ken",     "name": "AllAfrica · Kenya",         "tier": 2, "lang": "en", "force_country": "KEN",
      "url": "https://allafrica.com/tools/headlines/rdf/kenya/headlines.rdf"},
+    {"id": "aa-tza",     "name": "AllAfrica · Tanzanie",      "tier": 2, "lang": "en", "force_country": "TZA",
+     "url": "https://allafrica.com/tools/headlines/rdf/tanzania/headlines.rdf"},
+    {"id": "aa-uga",     "name": "AllAfrica · Ouganda",       "tier": 2, "lang": "en", "force_country": "UGA",
+     "url": "https://allafrica.com/tools/headlines/rdf/uganda/headlines.rdf"},
+    {"id": "aa-zaf",     "name": "AllAfrica · Afrique du Sud","tier": 2, "lang": "en", "force_country": "ZAF",
+     "url": "https://allafrica.com/tools/headlines/rdf/southafrica/headlines.rdf"},
+    {"id": "aa-moz",     "name": "AllAfrica · Mozambique",    "tier": 2, "lang": "en", "force_country": "MOZ",
+     "url": "https://allafrica.com/tools/headlines/rdf/mozambique/headlines.rdf"},
+    {"id": "aa-ago",     "name": "AllAfrica · Angola",        "tier": 2, "lang": "en", "force_country": "AGO",
+     "url": "https://allafrica.com/tools/headlines/rdf/angola/headlines.rdf"},
 ]
 
 # =============================================================================
@@ -300,6 +336,138 @@ LEGAL_STATUSES = {
 # Pour qu'un article soit considéré "réglementaire", il doit soit
 # (a) matcher au moins un thème, soit
 # (b) contenir un mot-clé "régulateur" générique.
+# =============================================================================
+# SECTEURS D'ACTIVITÉ (métiers OLEA en tant que courtier assurance)
+# =============================================================================
+# Source : olea.africa/fr/offres — branches d'assurance principales couvertes
+# par OLEA en tant que broker pour ses clients corporate.
+SECTORS = {
+    "AUTO": {
+        "label": "Automobile",
+        "kw": [
+            "automobile", "auto ", "voiture", "flotte auto", "flotte de véhicules",
+            "car ", "vehicle", "vehicles", "car fleet", "trucks",
+            "accident de la route", "accident de circulation",
+            "code de la route", "road traffic", "car crash",
+            "assurance auto", "car insurance",
+        ],
+    },
+    "PROPERTY": {
+        "label": "Dommages aux biens",
+        "kw": [
+            "incendie", "fire", "blaze",
+            "dommages aux biens", "property damage", "property insurance",
+            "vol", "burglary", "theft",
+            "dégât des eaux", "water damage", "flood damage",
+            "sinistre habitation", "commercial property",
+            "immeuble", "building damage",
+        ],
+    },
+    "LIABILITY": {
+        "label": "Responsabilité civile",
+        "kw": [
+            "responsabilité civile", "rc ",
+            "liability", "third-party", "third party liability",
+            "rc décennale", "rc professionnelle",
+            "faute professionnelle", "professional liability",
+            "d&o ", "directors and officers",
+            "malpractice",
+        ],
+    },
+    "CYBER": {
+        "label": "Cyber",
+        "kw": [
+            "cyber", "cyberattack", "cyberattaque",
+            "ransomware", "rançongiciel", "malware", "phishing",
+            "hack", "hacking", "hacker", "piratage",
+            "data breach", "fuite de données", "cyber insurance",
+            "ddos", "cybersécurité", "cybersecurity",
+        ],
+    },
+    "POLITICAL_VIOLENCE": {
+        "label": "Violence politique & terrorisme",
+        "kw": [
+            "attentat", "terroriste", "terrorism", "terrorist",
+            "attaque terroriste", "terror attack",
+            "coup d'état", "coup", "putsch", "junta", "junte",
+            "insurrection", "rebellion", "rebels", "rebelle",
+            "émeute", "riot", "violence politique", "political violence",
+            "jihad", "djihad", "boko haram", "isis", "al-shabaab", "shabaab",
+            "adf ", "m23",
+        ],
+    },
+    "HEALTH": {
+        "label": "Santé & prévoyance",
+        "kw": [
+            "assurance santé", "assurance maladie", "couverture maladie",
+            "health insurance", "medical insurance",
+            "épidémie", "epidemic", "outbreak", "pandemic", "pandémie",
+            "ebola", "mpox", "cholera", "choléra", "covid",
+            "hôpital", "hospital", "vaccination", "vaccin",
+            "cmu", "prévoyance",
+        ],
+    },
+    "MARINE_TRANSPORT": {
+        "label": "Transport & marine",
+        "kw": [
+            "transport", "trucking", "trucker",
+            "cargo", "conteneur", "container",
+            "port ", "terminal portuaire", "shipping", "shipwreck", "vessel",
+            "navire", "cargo ship", "tanker",
+            "marine insurance", "assurance marine", "assurance cargo",
+            "logistique", "logistics", "supply chain",
+        ],
+    },
+    "AVIATION": {
+        "label": "Aviation",
+        "kw": [
+            "aviation", "airline", "compagnie aérienne", "airport", "aéroport",
+            "avion", "airplane", "plane crash", "crash aérien",
+            "vol ", "flight", "flights",
+            "boeing", "airbus", "atr ",
+            "assurance aviation", "aviation insurance",
+        ],
+    },
+    "ENERGY": {
+        "label": "Énergie",
+        "kw": [
+            "pétrole", "oil", "oilfield", "champ pétrolier",
+            "gaz", "gas", "lng", "lpg",
+            "raffinerie", "refinery", "pipeline",
+            "centrale électrique", "power plant", "électricité", "electricity",
+            "énergie", "energy", "renewable",
+            "solaire", "solar", "éolien", "wind farm", "hydroélectrique", "hydropower",
+            "totalenergies", "shell", "eni ", "chevron", "exxonmobil",
+        ],
+    },
+    "CONSTRUCTION": {
+        "label": "Construction & BTP",
+        "kw": [
+            "construction", "btp",
+            "chantier", "worksite", "construction site",
+            "immeuble en construction", "building site",
+            "grue", "crane", "excavator",
+            "car ", "ear ", "all risk construction",
+            "décennale", "10-year warranty",
+            "génie civil", "civil engineering",
+            "route", "autoroute", "highway", "pont", "bridge",
+            "barrage", "dam ",
+        ],
+    },
+    "AGRICULTURE": {
+        "label": "Agriculture",
+        "kw": [
+            "agriculture", "agricole", "agricultural",
+            "récolte", "harvest", "crop",
+            "farmer", "agriculteur", "élevage", "livestock",
+            "cacao", "cocoa", "café", "coffee", "cotton", "coton",
+            "vanille", "vanilla", "cashew", "anacarde",
+            "sécheresse", "drought", "famine",
+            "assurance récolte", "crop insurance", "index-based",
+        ],
+    },
+}
+
 # Mots-clés "IDE" — investissements directs étrangers / capital étranger
 FDI_KEYWORDS = [
     # FR
@@ -598,6 +766,17 @@ def is_fdi_news(text_norm):
             return True
     return False
 
+def detect_sectors(text_norm):
+    """Retourne la liste des codes secteur détectés (peut être multiple)."""
+    hits = []
+    for code, meta in SECTORS.items():
+        for kw in meta["kw"]:
+            kwn = norm(kw)
+            if re.search(r"(?<![a-z])" + re.escape(kwn), text_norm):
+                hits.append(code)
+                break
+    return hits
+
 # =============================================================================
 # DEDUPE & CROSS-VERIFICATION
 # =============================================================================
@@ -691,6 +870,7 @@ def main():
                 lstatus = detect_legal_status(text_norm)
                 regu = is_regulatory(text_norm, theme)
                 fdi  = is_fdi_news(text_norm)
+                sectors = detect_sectors(text_norm)
                 all_articles.append({
                     "title": it["title"],
                     "summary": it["summary"],
@@ -707,6 +887,8 @@ def main():
                     "legal_status": lstatus,
                     "regulatory": regu,
                     "fdi": fdi,
+                    "sectors": sectors,
+                    "lang": src.get("lang", "fr"),
                     "_sig": signature(it["title"]),
                 })
                 kept += 1
@@ -770,6 +952,8 @@ def main():
             "legal_status": c.get("legal_status"),
             "regulatory": c.get("regulatory", False),
             "fdi": c.get("fdi", False),
+            "sectors": c.get("sectors", []),
+            "lang": c.get("lang", "fr"),
             "published": c["published"],
             "lead_source": {"id": c["source_id"], "name": c["source_name"], "tier": c["source_tier"], "url": c["link"]},
             "confirming_sources": c["confirming_sources"],

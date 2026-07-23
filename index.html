@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:wght@500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css?v=15" />
+<link rel="stylesheet" href="styles.css?v=16" />
 </head>
 <body class="locked">
 
@@ -56,9 +56,9 @@
     </a>
 
     <nav class="topnav">
-      <a href="#/"           data-route="home">Accueil</a>
-      <a href="#/regulatory" data-route="regulatory">Veille réglementaire</a>
-      <a href="#/markets"    data-route="markets">Marchés &amp; IDE</a>
+      <a href="#/"           data-route="home"       data-i18n="nav.home">Accueil</a>
+      <a href="#/regulatory" data-route="regulatory" data-i18n="nav.regulatory">Veille réglementaire</a>
+      <a href="#/markets"    data-route="markets"    data-i18n="nav.markets">Marchés &amp; IDE</a>
     </nav>
 
     <div class="topbar-search">
@@ -66,15 +66,21 @@
         <path d="M11.4 10.5c.7-1 1.1-2.1 1.1-3.4 0-3-2.5-5.5-5.5-5.5S1.5 4.1 1.5 7.1 4 12.6 7 12.6c1.3 0 2.4-.4 3.4-1.1l3.3 3.3 1.1-1.1-3.4-3.2zM7 11C4.8 11 3 9.2 3 7s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"/>
       </svg>
       <input id="search-input" type="search" autocomplete="off" spellcheck="false"
+             data-i18n-attr="placeholder:search.placeholder"
              placeholder="Rechercher : Mali, fiscalité, OHADA, projet de loi…" />
       <button class="search-clear" id="search-clear" hidden aria-label="Effacer">×</button>
       <kbd class="search-kbd">⌘K</kbd>
     </div>
 
     <div class="topbar-right">
+      <div class="lang-switcher" role="group" aria-label="Langue / Language / Idioma">
+        <button data-lang="fr" title="Français">FR</button>
+        <button data-lang="en" title="English">EN</button>
+        <button data-lang="pt" title="Português">PT</button>
+      </div>
       <div class="live-pill">
         <span class="live-dot"></span>
-        <span class="live-label">LIVE</span>
+        <span class="live-label" data-i18n="live">LIVE</span>
         <span class="live-time" id="live-time">--:--:--</span>
       </div>
     </div>
@@ -95,12 +101,12 @@
 <section class="hero">
   <div class="hero-inner">
     <div class="hero-text">
-      <div class="hero-tagline">Plateforme propriétaire · pitch concept</div>
-      <h1 class="hero-title">
+      <div class="hero-tagline" data-i18n="hero.tagline">Plateforme propriétaire · pitch concept</div>
+      <h1 class="hero-title" data-i18n="hero.title" data-i18n-html="1">
         L'asymétrie d'information n'a plus<br/>
         sa place dans le courtage africain.
       </h1>
-      <p class="hero-lede">
+      <p class="hero-lede" data-i18n="hero.lede" data-i18n-html="1">
         OLEA Intelligence agrège en continu les <strong>sources de presse de confiance</strong>
         couvrant les <strong>26 filiales</strong> et <strong>13 partenariats</strong> du réseau OLEA
         à travers l'Afrique. Sinistres majeurs, climat, réglementation, cyber, politique :
@@ -110,19 +116,19 @@
       <div class="hero-kpis">
         <div class="kpi">
           <div class="kpi-value" id="kpi-countries">39</div>
-          <div class="kpi-label" id="kpi-countries-label">26 filiales · 13 partenariats</div>
+          <div class="kpi-label" id="kpi-countries-label" data-i18n="kpi.countries.label">26 filiales · 13 partenariats</div>
         </div>
         <div class="kpi">
           <div class="kpi-value" id="kpi-sources">--</div>
-          <div class="kpi-label">Sources monitorées</div>
+          <div class="kpi-label" data-i18n="kpi.sources">Sources monitorées</div>
         </div>
         <div class="kpi">
           <div class="kpi-value" id="kpi-articles">--</div>
-          <div class="kpi-label">Articles cette semaine</div>
+          <div class="kpi-label" data-i18n="kpi.articles">Articles cette semaine</div>
         </div>
         <div class="kpi kpi-alert">
           <div class="kpi-value" id="kpi-critical">--</div>
-          <div class="kpi-label">Alertes critiques 24h</div>
+          <div class="kpi-label" data-i18n="kpi.critical">Alertes critiques 24h</div>
         </div>
       </div>
     </div>
@@ -137,22 +143,22 @@
     <div class="panel panel-map">
       <div class="panel-head">
         <div>
-          <div class="panel-eyebrow">Cartographie active</div>
-          <h2 class="panel-title">Présence OLEA &amp; signaux du jour</h2>
+          <div class="panel-eyebrow" data-i18n="map.eyebrow">Cartographie active</div>
+          <h2 class="panel-title" data-i18n="map.title">Présence OLEA &amp; signaux du jour</h2>
         </div>
         <div class="legend">
           <div class="legend-group">
-            <span class="legend-eyebrow">Réseau</span>
-            <div class="legend-item"><span class="dot dot-filiale"></span>Filiale</div>
-            <div class="legend-item"><span class="dot dot-partner"></span>Partenariat</div>
+            <span class="legend-eyebrow" data-i18n="legend.network">Réseau</span>
+            <div class="legend-item"><span class="dot dot-filiale"></span><span data-i18n="legend.subsidiary">Filiale</span></div>
+            <div class="legend-item"><span class="dot dot-partner"></span><span data-i18n="legend.partnership">Partenariat</span></div>
           </div>
           <div class="legend-sep"></div>
           <div class="legend-group">
-            <span class="legend-eyebrow">Niveau</span>
-            <div class="legend-item"><span class="dot dot-1"></span>Calme</div>
-            <div class="legend-item"><span class="dot dot-2"></span>Vigilance</div>
-            <div class="legend-item"><span class="dot dot-3"></span>Alerte</div>
-            <div class="legend-item"><span class="dot dot-4"></span>Critique</div>
+            <span class="legend-eyebrow" data-i18n="legend.level">Niveau</span>
+            <div class="legend-item"><span class="dot dot-1"></span><span data-i18n="legend.calm">Calme</span></div>
+            <div class="legend-item"><span class="dot dot-2"></span><span data-i18n="legend.vigilance">Vigilance</span></div>
+            <div class="legend-item"><span class="dot dot-3"></span><span data-i18n="legend.alert">Alerte</span></div>
+            <div class="legend-item"><span class="dot dot-4"></span><span data-i18n="legend.critical">Critique</span></div>
           </div>
         </div>
       </div>
@@ -160,7 +166,7 @@
       <div class="map-wrapper">
         <svg id="africa-map" viewBox="0 0 1000 940" preserveAspectRatio="xMidYMid meet"></svg>
         <div class="map-hint" id="map-hint">
-          <span>Cliquez sur un pays pour filtrer le fil de news</span>
+          <span data-i18n="map.hint">Cliquez sur un pays pour filtrer le fil de news</span>
         </div>
       </div>
 
@@ -169,23 +175,29 @@
       </div>
     </div>
 
-    <!-- RIGHT : Feed -->
-    <div class="panel panel-feed" id="feed">
+    <!-- RIGHT : Feed avec filtre secteur -->
+    <div class="panel panel-feed" id="feed"><!-- Section sector-picker injectée ci-après -->
       <div class="feed-head">
         <div class="feed-head-row">
           <div>
-            <div class="panel-eyebrow">Fil temps réel</div>
-            <h2 class="panel-title" id="feed-title">Toute l'Afrique OLEA</h2>
+            <div class="panel-eyebrow" data-i18n="feed.eyebrow">Fil temps réel</div>
+            <h2 class="panel-title" id="feed-title" data-i18n="feed.title.all">Toute l'Afrique OLEA</h2>
           </div>
           <button class="reset-btn" id="reset-filter" hidden>← Tous les pays</button>
         </div>
 
+        <div class="sector-row">
+          <label class="sector-label" for="sector-select" data-i18n="sector.eyebrow">Filtre secteur</label>
+          <select id="sector-select" class="sector-select"></select>
+          <span class="sector-help" data-i18n="sector.explainer">Sélectionnez le secteur d'assurance à surveiller : le fil se limite aux signaux touchant à cette branche.</span>
+        </div>
+
         <div class="sort-row">
-          <span class="sort-label">Trier par</span>
+          <span class="sort-label" data-i18n="sort.label">Trier par</span>
           <div class="sort-group" role="group" aria-label="Trier les signaux">
-            <button class="sort-btn" data-sort="severity"    title="Sévérité décroissante puis récence">Critiques</button>
-            <button class="sort-btn" data-sort="recent"      title="Date de publication décroissante">Récentes</button>
-            <button class="sort-btn" data-sort="credibility" title="Score de fiabilité décroissant">Fiables</button>
+            <button class="sort-btn" data-sort="severity"    title="Sévérité décroissante puis récence" data-i18n="sort.severity">Critiques</button>
+            <button class="sort-btn" data-sort="recent"      title="Date de publication décroissante" data-i18n="sort.recent">Récentes</button>
+            <button class="sort-btn" data-sort="credibility" title="Score de fiabilité décroissant" data-i18n="sort.credibility">Fiables</button>
           </div>
         </div>
 
@@ -208,30 +220,30 @@
 <section class="dashboard" id="dashboard">
   <div class="dashboard-inner">
     <div class="section-head">
-      <div class="panel-eyebrow">Dashboard de pilotage</div>
-      <h2 class="section-title">Vue d'ensemble du risque pan-africain</h2>
+      <div class="panel-eyebrow" data-i18n="dash.eyebrow">Dashboard de pilotage</div>
+      <h2 class="section-title" data-i18n="dash.title">Vue d'ensemble du risque pan-africain</h2>
     </div>
 
     <div class="dashboard-grid">
       <div class="card card-categories">
         <div class="card-head">
-          <h3>Par catégorie de risque</h3>
-          <span class="card-sub">7 derniers jours</span>
+          <h3 data-i18n="dash.byCategory">Par catégorie de risque</h3>
+          <span class="card-sub" data-i18n="dash.last7days">7 derniers jours</span>
         </div>
         <div class="cat-bars" id="cat-bars"></div>
       </div>
 
       <div class="card card-regions">
         <div class="card-head">
-          <h3>Par région</h3>
-          <span class="card-sub">Sévérité moyenne</span>
+          <h3 data-i18n="dash.byRegion">Par région</h3>
+          <span class="card-sub" data-i18n="dash.avgSeverity">Sévérité moyenne</span>
         </div>
         <div class="region-list" id="region-list"></div>
       </div>
 
       <div class="card card-alerts" id="alerts">
         <div class="card-head">
-          <h3>Alertes critiques en cours</h3>
+          <h3 data-i18n="dash.criticalAlerts">Alertes critiques en cours</h3>
           <span class="card-badge" id="critical-badge">--</span>
         </div>
         <div class="alerts-list" id="alerts-list"></div>
@@ -239,7 +251,7 @@
 
       <div class="card card-fx" id="card-fx">
         <div class="card-head">
-          <h3>Devises clés &amp; EUR</h3>
+          <h3 data-i18n="dash.fxCard.title">Devises clés &amp; EUR</h3>
           <span class="card-sub" id="fx-card-sub">MAJ —</span>
         </div>
         <div class="fx-mini-list" id="fx-mini-list"></div>
@@ -260,8 +272,8 @@
 <section class="regulatory" id="regulatory">
   <div class="regulatory-inner">
     <div class="section-head">
-      <div class="panel-eyebrow">Conformité · juridique</div>
-      <h2 class="section-title">Veille réglementaire pan-africaine</h2>
+      <div class="panel-eyebrow" data-i18n="regu.eyebrow">Conformité · juridique</div>
+      <h2 class="section-title" data-i18n="regu.title">Veille réglementaire pan-africaine</h2>
       <p class="section-lede">
         Détection automatique des signaux juridiques dans les sources monitorées,
         classifiés par <strong>thème métier</strong> (solvabilité, réassurance, AML/CFT, données,
@@ -273,19 +285,19 @@
     <div class="regu-kpis">
       <div class="regu-kpi">
         <div class="regu-kpi-value" id="regu-total">--</div>
-        <div class="regu-kpi-label">Signaux réglementaires 14j</div>
+        <div class="regu-kpi-label" data-i18n="regu.kpi.total">Signaux réglementaires 14j</div>
       </div>
       <div class="regu-kpi regu-kpi-vigueur">
         <div class="regu-kpi-value" id="regu-en-vigueur">--</div>
-        <div class="regu-kpi-label">Entrés en vigueur</div>
+        <div class="regu-kpi-label" data-i18n="regu.kpi.vigueur">Entrés en vigueur</div>
       </div>
       <div class="regu-kpi regu-kpi-adopte">
         <div class="regu-kpi-value" id="regu-adopte">--</div>
-        <div class="regu-kpi-label">Adoptés / promulgués</div>
+        <div class="regu-kpi-label" data-i18n="regu.kpi.adopte">Adoptés / promulgués</div>
       </div>
       <div class="regu-kpi regu-kpi-projet">
         <div class="regu-kpi-value" id="regu-projet">--</div>
-        <div class="regu-kpi-label">Projets en discussion</div>
+        <div class="regu-kpi-label" data-i18n="regu.kpi.projet">Projets en discussion</div>
       </div>
     </div>
 
@@ -339,19 +351,19 @@
     <div class="markets-kpis">
       <div class="markets-kpi">
         <div class="markets-kpi-value" id="fx-count">--</div>
-        <div class="markets-kpi-label">Devises monitorées</div>
+        <div class="markets-kpi-label" data-i18n="markets.kpi.fx">Devises monitorées</div>
       </div>
       <div class="markets-kpi">
         <div class="markets-kpi-value" id="fx-updated">—</div>
-        <div class="markets-kpi-label">Dernière MAJ taux</div>
+        <div class="markets-kpi-label" data-i18n="markets.kpi.fxMaj">Dernière MAJ taux</div>
       </div>
       <div class="markets-kpi">
         <div class="markets-kpi-value" id="fdi-coverage">--</div>
-        <div class="markets-kpi-label">Pays avec donnée IDE</div>
+        <div class="markets-kpi-label" data-i18n="markets.kpi.fdiCov">Pays avec donnée IDE</div>
       </div>
       <div class="markets-kpi markets-kpi-total">
         <div class="markets-kpi-value" id="fdi-total">--</div>
-        <div class="markets-kpi-label">Flux IDE agrégé (USD)</div>
+        <div class="markets-kpi-label" data-i18n="markets.kpi.fdiTotal">Flux IDE agrégé (USD)</div>
       </div>
     </div>
 
@@ -443,34 +455,57 @@
       </div>
     </div>
 
-    <!-- Bloc IDE (style terminal financier) -->
+    <!-- Bloc IDE — sélecteur pays -->
     <div class="markets-block">
       <div class="terminal-head">
         <div class="terminal-head-left">
-          <h3>FDI INFLOWS <span class="terminal-head-meta">USD courants · World Bank</span></h3>
-          <div class="terminal-head-sub">Indicateur BX.KLT.DINV.CD.WD · dernière année disponible · trié par flux décroissant</div>
+          <h3 data-i18n="fdi.title">FDI INFLOWS</h3>
+          <div class="terminal-head-sub" data-i18n="fdi.subtitle">
+            Choisissez un pays pour voir son flux annuel, tendance et news IDE de l'année en cours (sources vérifiées).
+          </div>
         </div>
         <div class="terminal-head-right">
-          <span class="terminal-legend"><span class="tick-up">▲</span> YoY positif</span>
-          <span class="terminal-legend"><span class="tick-down">▼</span> YoY négatif</span>
+          <span class="terminal-legend" data-i18n="fdi.trusted">Sources vérifiées tier 1 & 2 uniquement</span>
         </div>
       </div>
-      <div class="terminal-table-wrap">
-        <table class="fdi-table" id="fdi-table">
-          <thead>
-            <tr>
-              <th class="col-flag"></th>
-              <th class="col-code">ISO</th>
-              <th class="col-country">PAYS</th>
-              <th class="col-year">YR</th>
-              <th class="col-num">DERN. FLUX (USD)</th>
-              <th class="col-num">YOY</th>
-              <th class="col-num">AVG 5Y</th>
-              <th class="col-spark">HIST</th>
-            </tr>
-          </thead>
-          <tbody id="fdi-tbody"></tbody>
-        </table>
+
+      <div class="fdi-select-wrap">
+        <label class="fdi-select-label" for="fdi-country-select" data-i18n="fdi.dropdown.label">Sélection pays</label>
+        <select id="fdi-country-select" class="fdi-country-select"></select>
+      </div>
+
+      <div id="fdi-detail" class="fdi-detail" hidden>
+        <div class="fdi-detail-stats">
+          <div class="fdi-detail-stat">
+            <div class="fdi-detail-stat-label" data-i18n="fdi.latestValue">Flux IDE dernière année</div>
+            <div class="fdi-detail-stat-value" id="fdi-detail-value">—</div>
+            <div class="fdi-detail-stat-sub" id="fdi-detail-year">—</div>
+          </div>
+          <div class="fdi-detail-stat">
+            <div class="fdi-detail-stat-label" data-i18n="fdi.yoy">Variation YoY</div>
+            <div class="fdi-detail-stat-value" id="fdi-detail-yoy">—</div>
+          </div>
+          <div class="fdi-detail-stat">
+            <div class="fdi-detail-stat-label" data-i18n="fdi.avg5">Moyenne 5 ans</div>
+            <div class="fdi-detail-stat-value" id="fdi-detail-avg">—</div>
+          </div>
+          <div class="fdi-detail-stat fdi-detail-spark">
+            <div class="fdi-detail-stat-label">HISTORIQUE</div>
+            <div id="fdi-detail-spark"></div>
+          </div>
+        </div>
+
+        <div class="fdi-detail-news">
+          <div class="fdi-detail-news-head">
+            <h4 data-i18n="fdi.newsYTD">News IDE année en cours</h4>
+            <span class="fdi-detail-news-count" id="fdi-detail-news-count">—</span>
+          </div>
+          <div id="fdi-detail-news-list" class="fdi-detail-news-list"></div>
+        </div>
+      </div>
+
+      <div id="fdi-empty" class="fdi-picker-empty" data-i18n="fdi.chooseCountry">
+        Sélectionnez un pays dans la liste ci-dessus pour voir sa fiche IDE et l'actualité investissement étranger.
       </div>
     </div>
 
@@ -590,10 +625,11 @@
 </div>
 
 <!-- Libraries (CDN) -->
+<script src="i18n.js?v=1"></script>
 <script src="gate.js?v=1"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-<script src="data.js?v=15"></script>
-<script src="app.js?v=15"></script>
+<script src="data.js?v=16"></script>
+<script src="app.js?v=16"></script>
 </body>
 </html>
