@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-07-22T23:17:13.795525+00:00",
+  "generated_at": "2026-07-23T03:42:46.366140+00:00",
   "stats": {
-    "total_signals": 273,
-    "verified_signals": 7,
-    "countries_covered": 27,
+    "total_signals": 275,
+    "verified_signals": 9,
+    "countries_covered": 28,
     "sources_active": 16,
     "per_country": {
+      "BFA": 8,
+      "ZAF": 11,
       "MDG": 2,
       "COD": 15,
       "MRT": 5,
       "UGA": 6,
-      "NGA": 45,
-      "MAR": 31,
+      "NGA": 43,
+      "MAR": 32,
       "GIN": 6,
       "DZA": 8,
-      "KEN": 39,
-      "SEN": 21,
+      "KEN": 38,
+      "SEN": 22,
       "MLI": 12,
       "NER": 3,
-      "BFA": 8,
       "CAF": 4,
-      "CMR": 10,
-      "ZAF": 11,
-      "CIV": 16,
-      "GAB": 10,
+      "CMR": 8,
+      "GAB": 11,
+      "SLE": 1,
+      "CIV": 17,
+      "AGO": 2,
       "BDI": 1,
-      "BEN": 1,
-      "AGO": 1,
+      "BEN": 2,
       "TGO": 2,
       "LBR": 3,
       "ETH": 3,
@@ -134,6 +135,72 @@
     }
   ],
   "signals": [
+    {
+      "id": "01c8a154cd",
+      "title": "Burkina Faso: le capitaine Ibrahim Traoré met la junte au pas face aux rumeurs de rivalités internes",
+      "summary": "Le capitaine Ibrahim Traoré a coupé court aux rumeurs de rivalités au sommet de l’État. La semaine dernière, le chef de l’État a multiplié les déclarations pour affirmer qu’il est le seul homme fort à la tête du pays et qu’il punit tout comportement « anti-révolutionnaire » très sévèrement.",
+      "country": "BFA",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-23T02:52:38+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260723-burkina-faso-le-capitaine-ibrahim-traor%C3%A9-met-la-junte-au-pas-face-aux-rumeurs-de-rivalit%C3%A9s-internes"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260723-burkina-faso-le-capitaine-ibrahim-traor%C3%A9-met-la-junte-au-pas-face-aux-rumeurs-de-rivalit%C3%A9s-internes"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/22/burkina-faso-ibrahim-traore-reaffirme-son-autorite-face-aux-rumeurs/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "a677162b07",
+      "title": "Afrique du Sud: les manifestations anti-migrants provoquent des pénuries de main-d’œuvre dans les fermes",
+      "summary": "Selon les données de plusieurs pays africains, plus de 150 000 ressortissants auraient quitté l’Afrique du Sud face à cette nouvelle vague de xénophobie qui touche le pays et qui a déjà fait au moins quatre morts, selon les autorités sud-africaines. Poumon économique du pays, la nation arc-en-ciel attire de nombreux étrangers en quête d’une vie meilleure, mais les manifestants leur attribuent tous les maux de la société, alors qu’ils ne représentent que 5 % de la…",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-23T02:51:33+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260723-afrique-du-sud-les-manifestations-anti-migrants-provoquent-des-p%C3%A9nuries-de-main-d-%C5%93uvre-dans-les-fermes"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260723-afrique-du-sud-les-manifestations-anti-migrants-provoquent-des-p%C3%A9nuries-de-main-d-%C5%93uvre-dans-les-fermes"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "4d5478b13e",
       "title": "Psychose à Antananarivo : les autorités tentent de rassurer après les disparitions d'enfants",
@@ -681,36 +748,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f408b9b602",
-      "title": "Ebola en RDC: Kinshasa assouplit la quarantaine et privilégie l’évaluation du risque au cas par cas",
-      "summary": "En République démocratique du Congo (RDC), l'épidémie d'Ebola ne cesse de faire des victimes. Des dizaines de nouvelles victimes ont été enregistrées ces 24 dernières heures avec un bilan qui approche les 1000 morts parmi 2 423 cas en seulement deux mois d'épidémie. Le gouvernement assouplit certaines restrictions de voyage imposées et adopte désormais une approche fondée sur l'évaluation individuelle du risque.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T02:37:40+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260722-ebola-en-rdc-kinshasa-assouplit-la-quarantaine-et-privil%C3%A9gie-l-%C3%A9valuation-du-risque-au-cas-par-cas"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260722-ebola-en-rdc-kinshasa-assouplit-la-quarantaine-et-privil%C3%A9gie-l-%C3%A9valuation-du-risque-au-cas-par-cas"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "62b82d53f4",
       "title": "Sénégal: réactions contrastées à Dakar après la candidature de Macky Sall au secrétariat général de l’ONU",
       "summary": "Les réactions se multiplient à Dakar après l'annonce du soutien du Sénégal à la candidature de Macky Sall à l'ONU, le 20 juillet 2026. Du côté de l'ancien président et de son parti, c'est la satisfaction. Du côté des familles de victimes de la répression, l'incompréhension. Quant au Pastef, le parti reste silencieux, aucune communication pour l'instant.",
@@ -1191,6 +1228,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "55d21ec5a4",
+      "title": "Armed attackers kill more than 20 in northwest Nigeria",
+      "summary": "The attacks reflect a surge in violence as armed gangs continue raiding villages in northwest and central Nigeria.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-23T03:21:00+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/7/23/armed-attackers-kill-more-than-20-in-northwest-nigeria?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/7/23/armed-attackers-kill-more-than-20-in-northwest-nigeria?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "b21e88abe4",
       "title": "Guinée : Siguiri, capitale du RPG, tourne lentement la page Alpha Condé",
       "summary": "Dans l’historique bastion de l’ancien parti au pouvoir, au nord-est du pays, les fidèles d’Alpha Condé se font discrets depuis le coup d’État de 2021. Entre nostalgie et ralliements opportunistes au nouveau président Mamadi Doumbouya, le fief du parti dissous cherche ses repères. Reportage.",
@@ -1246,36 +1313,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/07/22/angleterre-le-marocain-issa-diop-quitte-fulham-pour-sengager-avec-ipswich/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7347a9f6a1",
-      "title": "Burkina Faso : Ibrahim Traoré réaffirme son autorité face aux rumeurs",
-      "summary": "Le chef de la junte burkinabè, le capitaine Ibrahim Traoré, a coupé court aux rumeurs de rivalités au sommet de l'État en assurant qu'il restait seul aux commandes.",
-      "country": "BFA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T13:54:13+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/22/burkina-faso-ibrahim-traore-reaffirme-son-autorite-face-aux-rumeurs/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/22/burkina-faso-ibrahim-traore-reaffirme-son-autorite-face-aux-rumeurs/"
         }
       ],
       "confirmation_count": 1
@@ -1456,36 +1493,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607220159.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e6b43361f7",
-      "title": "Nigeria: deux chefs jihadistes d’Ansaru condamnés à la prison à vie, les autorités sécuritaires font appel",
-      "summary": "Au Nigeria, le Département des services de sécurité (DSS) annonce faire appel de la peine de prison à perpétuité prononcée lundi 20 juillet 2026 par la Haute Cour fédérale d’Abuja contre deux hauts commandants de l’organisation terroriste Ansaru, affiliée à al-Qaïda. Mahmud Muhammad Usman, autoproclamé émir d’Ansaru, et Abubakar Abba ont plaidé coupable des 32 chefs d’accusation retenus contre eux.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T02:39:58+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260722-nigeria-deux-chefs-jihadistes-d-ansaru-condamn%C3%A9s-%C3%A0-la-prison-%C3%A0-vie-les-autorit%C3%A9s-s%C3%A9curitaires-font-appel"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260722-nigeria-deux-chefs-jihadistes-d-ansaru-condamn%C3%A9s-%C3%A0-la-prison-%C3%A0-vie-les-autorit%C3%A9s-s%C3%A9curitaires-font-appel"
         }
       ],
       "confirmation_count": 1
@@ -1792,6 +1799,162 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607100023.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a16525e1aa",
+      "title": "Gabon: bilan économique de la visite du président Brice Oligui Nguema en France",
+      "summary": "Fin de visite d’État en France pour le président gabonais Brice Clothaire Oligui Nguema. Depuis lundi 20 juillet 2026, le chef de l’État gabonais a été reçu à Paris pour une première visite d’État, qui fait suite au déplacement d’Emmanuel Macron à Libreville en novembre dernier. Après une séquence mémorielle et des discussions sur l’avenir du camp De Gaulle, ce déplacement a surtout été marqué par un volet économique : financement de la voie ferrée du Transgabonais et…",
+      "country": "GAB",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-23T02:53:08+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260723-gabon-bilan-%C3%A9conomique-de-la-visite-du-pr%C3%A9sident-brice-oligui-nguema-en-france"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260723-gabon-bilan-%C3%A9conomique-de-la-visite-du-pr%C3%A9sident-brice-oligui-nguema-en-france"
+        },
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260720-le-pr%C3%A9sident-gabonais-brice-oligui-ngu%C3%A9ma-entame-une-visite-d-%C3%A9tat-de-3-jours-en-france"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "ccf9fd790a",
+      "title": "RDC: dans l'attente du dialogue national, la discrète implication de l'ex-président guinéen Alpha Condé",
+      "summary": "En République démocratique du Congo, les opposants et les confessions religieuses attendent désormais l’ordonnance présidentielle qui doit officiellement lancer les préparatifs du dialogue national. Annoncé par la présidence congolaise le 17 juillet 2026, ce dialogue est le résultat de discussions entre Félix Tshisekedi, plusieurs chefs d’État de la région et les responsables religieux du pays. Selon RFI, l’ancien président guinéen Alpha Condé a également pris part à ces…",
+      "country": "COD",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-23T02:50:46+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260723-rdc-dans-l-attente-du-dialogue-national-la-discr%C3%A8te-implication-de-l-ex-pr%C3%A9sident-guin%C3%A9en-alpha-cond%C3%A9"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260723-rdc-dans-l-attente-du-dialogue-national-la-discr%C3%A8te-implication-de-l-ex-pr%C3%A9sident-guin%C3%A9en-alpha-cond%C3%A9"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6ce09d1a94",
+      "title": "Why Abderrahim Fakir’s death reignited Italy’s police accountability debate",
+      "summary": "A Moroccan-born man’s death in Bologna has prompted anger and renewed scrutiny of Italy’s policing and legal reforms.",
+      "country": "MAR",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-23T01:44:30+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/7/23/why-abderrahim-fakirs-death-reignited-italys-police-accountability-debate?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/7/23/why-abderrahim-fakirs-death-reignited-italys-police-accountability-debate?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "eb04603876",
+      "title": "Freetown 2026 : le G2A et l’ECO à l’heure de la concrétisation",
+      "summary": "De la gouvernance énergétique à l’intégration monétaire, le 69ᵉ Sommet de la CEDEAO a posé deux jalons structurants pour l’Afrique de l’Ouest \nLe 69ᵉ Sommet ordinaire de la CEDEAO, tenu le 19 juillet 2026 à Freetown, a consacré deux avancées majeures pour l’intégration régionale : l’endossement de l’Accord intergouvernemental relatif au Gazoduc Africain Atlantique et la confirmation du lancement progressif de la monnaie unique ECO à partir de 2027.\nLire la suite»",
+      "country": "SLE",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T21:57:28+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/22/freetown-2026-le-g2a-et-leco-a-lheure-de-la-concretisation/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/22/freetown-2026-le-g2a-et-leco-a-lheure-de-la-concretisation/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4818d634bd",
+      "title": "Aviation : Baisse de 36% du bénéfice de la société Servair Abidjan au premier trimestre 2026",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T21:29:32+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/22/aviation-baisse-de-36-du-benefice-de-la-societe-servair-abidjan-au-premier-trimestre-2026/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/22/aviation-baisse-de-36-du-benefice-de-la-societe-servair-abidjan-au-premier-trimestre-2026/"
         }
       ],
       "confirmation_count": 1
@@ -3063,6 +3226,36 @@
       "confirmation_count": 2
     },
     {
+      "id": "a91df3fd26",
+      "title": "Désinformation russe en Angola: deux citoyens condamnés à 8 et 11 ans de prison pour espionnage et terrorisme à Luanda",
+      "summary": "Deux citoyens russes ont été condamnés en Angola à de lourdes peines de prison. Arrêtés en août 2025 à Luanda, Igor Ratchin et Lev Lakshtanov écopent de 8 et 11 ans pour association de malfaiteurs, espionnage, terrorisme et détention illégale de devises. Officiellement en mission pour ouvrir un centre culturel, ils sont accusés d’avoir voulu peser sur les élections de 2027. Les deux hommes sont liés aux réseaux de désinformation russes.",
+      "country": "AGO",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-23T02:50:22+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260723-d%C3%A9sinformation-russe-en-angola-deux-citoyens-condamn%C3%A9s-%C3%A0-8-et-11-ans-de-prison-pour-espionnage-et-terrorisme-%C3%A0-luanda"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260723-d%C3%A9sinformation-russe-en-angola-deux-citoyens-condamn%C3%A9s-%C3%A0-8-et-11-ans-de-prison-pour-espionnage-et-terrorisme-%C3%A0-luanda"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "3ec8645142",
       "title": "Burundi: dix ans après la disparition du journaliste d'Iwacu Jean Bigirimana, le mystère reste entier",
       "summary": "Au Burundi, cela fait dix ans qu’a disparu le journaliste du média indépendant Iwacu, Jean Bigirimana. Enlevé sur le terrain le 22 juillet 2016 et emmené dans un pick-up, selon des témoins, il n’a jamais été retrouvé. Reporters sans frontières (RSF) dénonce cette impunité persistante et appelle les autorités à sortir de leur silence afin de faire toute la lumière sur son sort.",
@@ -3178,6 +3371,66 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/podcasts/reportage-international/20260722-%C3%A0-100-jours-des-jeux-olympiques-de-la-jeunesse-dakar-est-pr%C3%AAt-ou-presque"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f9c40ac5b4",
+      "title": "La date de paiement du dividende 2025 de la Loterie Nationale du Bénin fixée au 3 août 2026",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T21:32:50+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/22/la-date-de-paiement-du-dividende-2025-de-la-loterie-nationale-du-benin-fixee-au-3-aout-2026/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/22/la-date-de-paiement-du-dividende-2025-de-la-loterie-nationale-du-benin-fixee-au-3-aout-2026/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b3df402af1",
+      "title": "Au Gabon, des femmes transforment leur avenir grâce au Fonds « La Francophonie avec Elles »",
+      "summary": "Paris, le 22 juillet 2026 – Dans le nord du Gabon, à Bitam et Minvoul, des femmes développent des activités agricoles qui transforment durablement leurs conditions de vie grâce au Fonds « La Francophonie avec Elles ». Une mission menée du 20 au 22 juillet par l’OIF et son partenaire TotalEnergies a permis de constater les résultats concrets de…",
+      "country": "GAB",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T21:15:15+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/22/au-gabon-des-femmes-transforment-leur-avenir-grace-au-fonds-la-francophonie-avec-elles/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/22/au-gabon-des-femmes-transforment-leur-avenir-grace-au-fonds-la-francophonie-avec-elles/"
         }
       ],
       "confirmation_count": 1
@@ -3358,6 +3611,36 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/07/22/le-nigeria-et-lallemagne-sengagent-a-renforcer-leurs-relations-commerciales/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "14f10cda5b",
+      "title": "Sénégal : la BIS obtient la confirmation d’une créance de 143,5 millions FCFA contre Secotras SUARL",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T18:12:33+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/22/senegal-la-bis-obtient-la-confirmation-dune-creance-de-1435-millions-fcfa-contre-secotras-suarl/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/22/senegal-la-bis-obtient-la-confirmation-dune-creance-de-1435-millions-fcfa-contre-secotras-suarl/"
         }
       ],
       "confirmation_count": 1
@@ -4233,36 +4516,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3725396a9a",
-      "title": "Nigeria : les dépôts des banques auprès de la CBN via le SDF ont progressé de 14,24 % à 4,74 billions de nairas",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T11:57:30+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/22/nigeria-les-depots-des-banques-aupres-de-la-cbn-via-le-sdf-ont-progresse-de-1424-a-474-billions-de-nairas/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/22/nigeria-les-depots-des-banques-aupres-de-la-cbn-via-le-sdf-ont-progresse-de-1424-a-474-billions-de-nairas/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "f11efaa392",
       "title": "En RDC, l'opposition suspend sa manifestation et ouvre le dialogue avec Tshisekedi",
       "summary": "Se dirige-t-on vers un apaisement du climat politique en RDC ? Rien n'est moins sûr. La plateforme C64 a reporté la marche prévue ce mercredi contre le projet de révision de la Constitution, après plusieurs réunions avec des responsables religieux.",
@@ -4948,36 +5201,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/22/ethiopia-opposition-accuses-government-of-pushing-tigray-towards-new-war/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7f9a7b9f98",
-      "title": "L’Afrique centrale entre dans un nouveau cycle de développement",
-      "summary": "Par Christian Din Dika, PDG du Groupe Emrald Securities Services (ESS)\nPendant longtemps, l’Afrique centrale a été perçue comme une région dont la croissance reposait essentiellement sur l’exploitation des ressources naturelles. Si le pétrole, le gaz, le bois ou les minerais demeurent des piliers économiques pour le Cameroun, le Gabon, la République du Congo, la Guinée équatoriale, le Tchad et la République centrafricaine, un autre phénomène plus discret et pourtant plus…",
-      "country": "CMR",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T09:23:55+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/22/lafrique-centrale-entre-dans-un-nouveau-cycle-de-developpement/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/22/lafrique-centrale-entre-dans-un-nouveau-cycle-de-developpement/"
         }
       ],
       "confirmation_count": 1
@@ -5793,6 +6016,36 @@
       "confirmation_count": 1
     },
     {
+      "id": "cd3ebf632f",
+      "title": "Mother, Daughter and Son-in-Law Arrested As Dci Busts Alleged Online Sex Trafficking Ring in Embakasi East",
+      "summary": "[Capital FM] Nairobi -- Detectives have dismantled a suspected family-run online sexual exploitation network in Nairobi, arresting a mother, her daughter and her husband after rescuing five women allegedly trafficked through fake job offers and forced to produce explicit online content.",
+      "country": "KEN",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "published": "2026-07-22T03:55:49+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607220040.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607220040.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "2eee10dd06",
       "title": "Africa Must Deepen Security Cooperation to Tackle Terrorism, Crime, Gambian President, Nigeria Coas, IGP Charge",
       "summary": "[This Day] The Gambia -- African leaders and security chiefs have called for stronger regional cooperation, intelligence sharing and community engagement to tackle the continent's growing security challenges, warning that terrorism, organised crime, cybercrime and violent extremism can no longer be addressed by individual countries acting alone.",
@@ -5973,126 +6226,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b21124efeb",
-      "title": "Cameroun: Georges-Gilbert Baongla, fils auto-proclamé de Paul Biya, arrêté",
-      "summary": "Au Cameroun, Georges Gilbert Baongla, l’homme qui se déclare fils aîné du président Paul Biya, est aux arrêts. Il était recherché depuis plusieurs mois pour des faits présumés d’usurpation, diffamation et cybercriminalité. L’homme de 62 ans, président d’un parti politique, connu aussi pour être un ancien patron de presse, est au cœur d’une bruyante revendication de filiation au président camerounais depuis des années.",
-      "country": "CMR",
-      "category": "CYBER",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-22T02:36:33+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260722-cameroun-georges-gilbert-baongla-fils-auto-proclam%C3%A9-de-paul-biya-arr%C3%AAt%C3%A9"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260722-cameroun-georges-gilbert-baongla-fils-auto-proclam%C3%A9-de-paul-biya-arr%C3%AAt%C3%A9"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2d690bc730",
-      "title": "Nigeria : la Banque centrale maintient son taux directeur à 26,50 % pour endiguer l’inflation",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "NGA",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-21T22:35:37+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/21/nigeria-la-banque-centrale-maintient-son-taux-directeur-a-2650-pour-endiguer-linflation/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/21/nigeria-la-banque-centrale-maintient-son-taux-directeur-a-2650-pour-endiguer-linflation/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "96902a0b26",
-      "title": "Kénya: Nedbank acquiert 66 % de NCBA Group pour 794 millions USD",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "published": "2026-07-21T21:20:28+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/21/kenya-nedbank-acquiert-66-de-ncba-group-pour-794-millions-usd/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/21/kenya-nedbank-acquiert-66-de-ncba-group-pour-794-millions-usd/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "25e2e066fd",
-      "title": "Afrique du Sud : la Banque Mondiale approuve un prêt de 1,5 milliard USD pour les infrastructures",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-21T21:15:08+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/21/afrique-du-sud-la-banque-mondiale-approuve-un-pret-de-15-milliard-usd-pour-les-infrastructures/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/21/afrique-du-sud-la-banque-mondiale-approuve-un-pret-de-15-milliard-usd-pour-les-infrastructures/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8f49401c07",
       "title": "Adnoc : comment les Émirats tissent leur toile énergétique en Afrique",
       "summary": "De l’Afrique du Sud, à l’Égypte, le géant émirati multiplie les acquisitions dans la distribution pétrolière et le gaz. Derrière ces acquisitions, une stratégie énergétique qui prolonge l’influence croissante des Émirats sur le continent.",
@@ -6268,36 +6401,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/425596/miatta-fahnbulleh-the-liberian-refugee-now-leading-britains-energy-future/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a0e110c7e0",
-      "title": "Treasury Misses Tax Revenue Target By Nearly Sh7bn",
-      "summary": "[Capital FM] Nairobi -- The National Treasury fell short of its revised tax revenue target by nearly Sh7 billion in the 2025/26 financial year, underscoring the challenges of meeting revenue collection goals.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "FISCALITE",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "published": "2026-07-21T13:49:12+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607210635.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607210635.html"
         }
       ],
       "confirmation_count": 1
@@ -6898,36 +7001,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/21/france-confirms-27-year-sentence-for-rwandan-ex-doctor-eugene-rwamucyo/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "70b9b881e6",
-      "title": "Le président gabonais Brice Oligui Nguéma entame une visite d'état de 3 jours en France",
-      "summary": "Le président Brice Oligui Nguéma entame une visite d’état de trois jours en France. L'Elysée a sorti le grand jeu pour recevoir le président du Gabon, un pays qui entretient depuis toujours une relation privilégiée avec l’Hexagone. Antoine Glaser était notre invité pour décrypter les enjeux de cette visite",
-      "country": "GAB",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "published": "2026-07-20T20:28:11+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260720-le-pr%C3%A9sident-gabonais-brice-oligui-ngu%C3%A9ma-entame-une-visite-d-%C3%A9tat-de-3-jours-en-france"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260720-le-pr%C3%A9sident-gabonais-brice-oligui-ngu%C3%A9ma-entame-une-visite-d-%C3%A9tat-de-3-jours-en-france"
         }
       ],
       "confirmation_count": 1
