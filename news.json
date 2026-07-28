@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-07-28T16:50:18.487139+00:00",
+  "generated_at": "2026-07-28T18:44:06.078470+00:00",
   "stats": {
     "total_signals": 525,
-    "verified_signals": 17,
+    "verified_signals": 16,
     "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
+      "TUN": 12,
       "GAB": 2,
       "KEN": 50,
-      "UGA": 40,
-      "TUN": 11,
-      "ZAF": 54,
-      "COG": 2,
-      "COD": 19,
+      "ZAF": 52,
+      "COG": 3,
+      "COD": 18,
       "MOZ": 38,
-      "NGA": 56,
+      "NGA": 55,
       "GIN": 4,
-      "CIV": 28,
+      "UGA": 41,
+      "CIV": 29,
       "TZA": 31,
       "AGO": 29,
-      "MAR": 37,
-      "MLI": 24,
-      "SEN": 34,
-      "TCD": 4,
-      "NER": 6,
-      "DZA": 3,
+      "MAR": 39,
+      "MLI": 23,
+      "TCD": 5,
+      "NER": 5,
       "ZMB": 2,
       "MDG": 4,
+      "SEN": 35,
       "CAF": 1,
       "TGO": 7,
-      "BFA": 2,
+      "BFA": 3,
       "GHA": 10,
-      "ZWE": 5,
-      "CMR": 11,
       "BEN": 6,
+      "DZA": 2,
       "RWA": 2,
-      "ETH": 2,
-      "SLE": 1
+      "ZWE": 5,
+      "CMR": 8,
+      "SLE": 2,
+      "ETH": 2
     }
   },
   "sources": [
@@ -235,6 +235,41 @@
   ],
   "signals": [
     {
+      "id": "a733a9845b",
+      "title": "Tunisie : des fermiers évoquent des ''pertes énormes''  après les coupures d'électricité",
+      "summary": "Un vétérinaire estime que jusqu'à 200 000 poulets sont morts, qualifiant cela de « perte énorme »",
+      "country": "TUN",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE",
+        "ENERGY"
+      ],
+      "lang": "fr",
+      "published": "2026-07-28T18:03:11+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/28/tunisie-des-fermiers-evoquent-des-pertes-enormes-apres-les-coupures-delectricite/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/28/tunisie-des-fermiers-evoquent-des-pertes-enormes-apres-les-coupures-delectricite/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "29781757f5",
       "title": "Comment le Gabon tente de s’émanciper de Karpowership",
       "summary": "Deux ans après avoir fait appel aux usines flottantes du fournisseur d’électricité turc pour faire face à l’urgence énergétique, Libreville tente de renégocier un contrat très coûteux.",
@@ -328,40 +363,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607280486.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "65bdcb4830",
-      "title": "Governo do Uganda declara país livre de Ébola",
-      "summary": "Após 42 dias sem novas infeções, o Governo do Uganda declarou o país livre de Ébola. O último caso tinha sido importado da RDCongo e a estirpe tem uma taxa de mortalidade entre os 30% e 50%.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": "FISCALITE",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "pt",
-      "published": "2026-07-28T14:29:21+00:00",
-      "lead_source": {
-        "id": "observador",
-        "name": "Observador",
-        "tier": 2,
-        "url": "https://observador.pt/2026/07/28/governo-do-uganda-declara-pais-livre-de-ebola/"
-      },
-      "confirming_sources": [
-        {
-          "id": "observador",
-          "name": "Observador",
-          "tier": 2,
-          "url": "https://observador.pt/2026/07/28/governo-do-uganda-declara-pais-livre-de-ebola/"
         }
       ],
       "confirmation_count": 1
@@ -1220,40 +1221,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f3af3805a5",
-      "title": "RDC: «Nous avons un manque criant de prise en charge» des malades atteints d'Ebola",
-      "summary": "L'épidémie d'Ebola continue de progresser en République démocratique du Congo, malgré la riposte. Plus de 350 décès supplémentaires ont été recensés en cinq jours, selon les autorités congolaises. Le bilan dépasse désormais les 1 405 morts, pour plus de 3 200 cas confirmés. Pour en parler, le professeur Thierno Baldé, responsable des incidents de l'OMS pour la réponse à Ebola en RDC, est l'invité d'Afrique Midi.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-07-27T14:20:38+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260727-rdc-nous-avons-un-manque-criant-de-prise-en-charge-des-malades-atteints-d-ebola"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260727-rdc-nous-avons-un-manque-criant-de-prise-en-charge-des-malades-atteints-d-ebola"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "ea5c9d4953",
       "title": "The Hidden Dangers of Delaying Uti Treatment",
       "summary": "[Daily News] Dar es Salaam -- What often begins as a mild burning sensation during urination or an increased urge to visit the toilet can quickly become a serious medical emergency if left untreated.",
@@ -1910,6 +1877,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "f44c7e5f1e",
+      "title": "Uganda declares end to Ebola outbreak",
+      "summary": "Health minister urges people in the country 'to remain alert' and continue observing public health measures.",
+      "country": "UGA",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-07-28T18:02:03+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/7/28/uganda-declares-end-to-ebola-outbreak?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/7/28/uganda-declares-end-to-ebola-outbreak?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "3356ab4174",
       "title": "Liberty Motors Director Remanded Over King David Junior School Bus Crash",
       "summary": "[Nile Post] The Director of Liberty Motors Uganda Limited, Muhangi Shadaya, has been charged in connection with the fatal King David Junior School bus crash, with police alleging that the driver involved was operating the vehicle using his brother's driving licence.",
@@ -2010,6 +2011,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "c97362acf8",
+      "title": "«C'est quand la Cour a cessé de ne viser que des Africains qu'elle est attaquée», selon l'avocat Reed Brody",
+      "summary": "Le Tchad se retire de la Cour pénale internationale. Il a annoncé, lundi 27 juillet, sa décision de se retirer du Statut de Rome. L'avocat américain Reed Broody, spécialisé dans les droits humains, que l'on connait notamment pour avoir contribué à faire condamner l'ancien dictateur tchadien Hissène Habré, est l'invité d'Afrique Midi.",
+      "country": "TCD",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-28T14:35:25+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260728-c-est-parce-que-la-cpi-n-a-cess%C3%A9-de-viser-les-africains-qu-elle-est-attaqu%C3%A9e-estime-l-avocat-reed-broody"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260728-c-est-parce-que-la-cpi-n-a-cess%C3%A9-de-viser-les-africains-qu-elle-est-attaqu%C3%A9e-estime-l-avocat-reed-broody"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f857058b87",
       "title": "Fouzi Lekjaâ au PAM : le coup politique qui bouscule la campagne électorale marocaine",
       "summary": "En rejoignant le PAM à moins de deux mois des législatives du 23 septembre, Fouzi Lekjaâ a rebattu les cartes d’une campagne jusque-là polarisée autour du duel Aziz Akhannouch-Abdelilah Benkirane. Un « coup » qui dit autant sur l’homme que sur l’état du champ politique au Maroc.",
@@ -2039,38 +2072,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1827538/politique/fouzi-lekjaa-au-pam-le-coup-politique-qui-bouscule-la-campagne-electorale-marocaine/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "be1c1dc60f",
-      "title": "Sénégal : l’effondrement des investissements directs étrangers en 2025 interpelle",
-      "summary": "Pr Amath Ndiaye, FASEG-UCAD\nLes dernières données du World Investment Report 2026 de la CNUCED mettent en évidence un retournement spectaculaire des investissements directs étrangers (IDE) au Sénégal. Après plusieurs années de flux exceptionnellement élevés, les IDE se sont brutalement contractés en 2025.\nSelon la CNUCED, les entrées d’IDE se sont élevées à :\n– 2020 : 1,846 milliard de dollars ;\n– 2021 : 2,588 milliards de dollars ;\n– 2022 : 2,929 milliards de dollars ;\n–…",
-      "country": "SEN",
-      "category": "ECONOMIE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-28T09:18:06+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/28/senegal-leffondrement-des-investissements-directs-etrangers-en-2025-interpelle/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/28/senegal-leffondrement-des-investissements-directs-etrangers-en-2025-interpelle/"
         }
       ],
       "confirmation_count": 1
@@ -2917,40 +2918,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "567fc0eb66",
-      "title": "L'Algérie, le Maroc et la Tunisie frappés par une vague d'incendies",
-      "summary": "L'Algérie, le Maroc et la Tunisie affrontent une vague de chaleur d'une intensité exceptionnelle. Le mercure frôle les 50 °C dans plusieurs régions de ces pays. Attisés par les vents, des centaines de feux de forêt mobilisent les secours depuis plusieurs jours.",
-      "country": "DZA",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY"
-      ],
-      "lang": "fr",
-      "published": "2026-07-24T18:28:06+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260724-l-alg%C3%A9rie-le-maroc-et-la-tunisie-frapp%C3%A9s-par-une-vague-d-incendies"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260724-l-alg%C3%A9rie-le-maroc-et-la-tunisie-frapp%C3%A9s-par-une-vague-d-incendies"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "3c21dab1ed",
       "title": "Filda 2026 - SPCB Registers Over 50 Incidents in Three Days",
       "summary": "[ANGOP] Icolo &amp; Bengo -- The Civil Protection and Fire Service (SPCB) of the Icolo e Bengo Provincial Command recorded 55 various incidents during the first 3 days of the 41st Edition of the Luanda International Fair (FILDA).",
@@ -3285,6 +3252,74 @@
       "confirmation_count": 1
     },
     {
+      "id": "24d0eaef5a",
+      "title": "L’émirati Etihad s’offre le ciel ouest-africain avec le nigérian Air Peace",
+      "summary": "En quelques jours, Etihad Airways a signé des accords interlignes avec Air Peace au Nigeria et Africa World Airlines au Ghana. La compagnie émiratie, qui s’ouvre ainsi des accès futurs à Abidjan, Douala ou Dakar, privilégie les alliances locales pour concurrencer Emirates et Qatar Airways sur le continent.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "fr",
+      "published": "2026-07-28T18:50:15+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1827665/economie-entreprises/lemirati-etihad-soffre-le-ciel-ouest-africain-avec-le-nigerian-air-peace/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1827665/economie-entreprises/lemirati-etihad-soffre-le-ciel-ouest-africain-avec-le-nigerian-air-peace/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6ca4d256a9",
+      "title": "DRC: United Nations announces confirmed ebola cases top 3,200",
+      "summary": "The spokesman for the UN secretary general has announced that the number of confirmed cases of the virus in the Democratic Republic of Congo has risen to 3200, putting strain on response efforts.",
+      "country": "COG",
+      "category": "SANTE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-07-28T16:13:17+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/07/28/drc-united-nations-announces-confirmed-ebola-cases-top-3200/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/07/28/drc-united-nations-announces-confirmed-ebola-cases-top-3200/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a38cec5d5f",
       "title": "Commercial Banks Mandatory Reserves Increase to 308.9 Billion Meticais",
       "summary": "[AIM] Maputo -- The mandatory reserves held by Mozambique's commercial banks increased to 308.9 billion meticais (4.8 billion US dollars at the current exchange rate) last May, which corresponds to almost 31 percent.",
@@ -3382,40 +3417,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/28/zambias-election-puts-debt-recovery-and-economic-growth-in-focus/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6ca4d256a9",
-      "title": "DRC: United Nations announces confirmed ebola cases top 3,200",
-      "summary": "The spokesman for the UN secretary general has announced that the number of confirmed cases of the virus in the Democratic Republic of Congo has risen to 3200, putting strain on response efforts.",
-      "country": "COG",
-      "category": "SANTE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-07-28T14:48:50+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/28/drc-united-nations-announces-confirmed-ebola-cases-top-3200/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/28/drc-united-nations-announces-confirmed-ebola-cases-top-3200/"
         }
       ],
       "confirmation_count": 1
@@ -3520,38 +3521,6 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-plans-e305-8-million-investment-to-expand-pre-school-education-coverage-to-10-by-2035/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a257473cc1",
-      "title": "AFINHAB clôture avec succès son émission de Social Bond de 40 milliards de FCFA et franchit le cap des 100 milliards de FCFA d’obligations sociales",
-      "summary": "Lomé, le 27 juillet 2026 — AFINHAB (anciennement CRRH-UEMOA), l’institution financière régionale de référence dédiée au financement de l’habitat dans l’Union Économique et Monétaire Ouest Africaine (UEMOA), annonce la clôture réussie de son deuxième Social Bond, d’un montant de 40 milliards FCFA.\n\nUne sursouscription qui traduit la confiance des investisseurs\nOuverte le 9 juillet 2026, la période de souscription du Social Bond AFINHAB 6,00% 2026-2041 s’est clôturée le 24…",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-28T13:42:15+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/28/afinhab-cloture-avec-succes-son-emission-de-social-bond-de-40-milliards-de-fcfa-et-franchit-le-cap-des-100-milliards-de-fcfa-dobligations-sociales/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/28/afinhab-cloture-avec-succes-son-emission-de-social-bond-de-40-milliards-de-fcfa-et-franchit-le-cap-des-100-milliards-de-fcfa-dobligations-sociales/"
         }
       ],
       "confirmation_count": 1
@@ -4423,44 +4392,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "9535df3c22",
-      "title": "Tunisie: l’inscription au patrimoine mondial de l’Unesco de Sidi Bou Saïd «doit faire bouger les choses»",
-      "summary": "En Tunisie, Sidi Bou Saïd a obtenu le 25 juillet son inscription au patrimoine mondial de l'Unesco. Une bonne nouvelle pour ses habitants après les nombreux problèmes qu'a subi ce village touristique suite aux inondations de janvier 2026. Beaucoup espèrent que le label onusien lui apportera un renouveau.",
-      "country": "TUN",
-      "category": "CLIMAT",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-27T09:09:48+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260727-tunisie-l-inscription-au-patrimoine-mondial-de-l-unesco-de-sidi-bou-sa%C3%AFd-doit-faire-bouger-les-choses"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260727-tunisie-l-inscription-au-patrimoine-mondial-de-l-unesco-de-sidi-bou-sa%C3%AFd-doit-faire-bouger-les-choses"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/26/tunisie-la-ville-de-sidi-bou-said-au-patrimoine-mondial-de-lunesco/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "9c2242c65c",
       "title": "Sénégal : le président Diomaye Faye lance officiellement son parti politique",
       "summary": "Ancien membre du Pastel dirigé par Ousmane Sonko, le président sénégalais Bassirou Diomaye Faye crée le parti Kiiraay: les patriotes républicains et officialise une scission qui se préparait depuis des mois.",
@@ -4593,38 +4524,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "5700164377",
-      "title": "Sénégal : Bassirou Diomaye Faye lance Kiiraay – Les Patriotes républicains, son nouveau parti",
-      "summary": "Le président sénégalais Bassirou Diomaye Faye a lancé ce samedi 25 juillet à Dakar son nouveau parti politique, officialisant sa rupture très médiatisée avec son ancien mentor et ex-Premier ministre, Ousmane Sonko.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-26T11:29:35+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1827058/politique/senegal-bassirou-diomaye-faye-lance-kiiraay-son-nouveau-parti/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1827058/politique/senegal-bassirou-diomaye-faye-lance-kiiraay-son-nouveau-parti/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5cfdfd5a2c",
       "title": "Sénégal: le président lance son nouveau parti, rupture consommée avec l'ex-Premier ministre Sonko",
       "summary": "Le président du Sénégal Bassirou Diomaye Faye a lancé samedi à Dakar son nouveau parti politique, officialisant sa rupture très médiatisée avec son ancien mentor et ex-Premier ministre, Ousmane Sonko. M. Sonko dirige le parti panafricaniste Pastef, auquel les deux hommes appartenaient et qui a porté M. Faye au pouvoir en 2024. Les précisions à Dakar avec Elimane Ndao.",
@@ -4723,6 +4622,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "06928c9ded",
+      "title": "Sénégal : Bassirou Diomaye Faye lance « KIIRAAY », son nouveau parti, et ouvre une nouvelle phase politique",
+      "summary": "Le président sénégalais Bassirou Diomaye Faye a officiellement lancé, samedi 25 juillet à Dakar, sa nouvelle formation politique, « KIIRAAY – Les Patriotes Républicains », marquant une nouvelle étape dans la recomposition du paysage politique sénégalais après sa rupture avec le PASTEF, dirigé par son désormais ex-mentor Ousmane Sonko.\nDévoilé lors de l’assemblée générale constitutive organisée dans un hôtel de la place, le nouveau parti adopte pour devise « La Patrie…",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-25T19:55:08+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/senegal-bassirou-diomaye-faye-lance-kiiraay-son-nouveau-parti-et-ouvre-une-nouvelle-phase-politique/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/senegal-bassirou-diomaye-faye-lance-kiiraay-son-nouveau-parti-et-ouvre-une-nouvelle-phase-politique/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a2bae24fd4",
       "title": "Supergroup humback whale sightings on the increase in South Africa",
       "summary": "Together with dolphins, they are one of at least 37 species of marine mammals that can be found in South African waters.",
@@ -4755,11 +4686,11 @@
       "confirmation_count": 1
     },
     {
-      "id": "583ae84eb1",
-      "title": "Nigeria : Bola Tinubu lance le recrutement de 28 000 militaires face à l'insécurité",
-      "summary": "Face à la recrudescence des violences et à l'insécurité persistante, le président nigérian Bola Tinubu a autorisé le recrutement de 28 000 militaires supplémentaires",
-      "country": "NGA",
-      "category": "AUTRE",
+      "id": "9ab8c6773b",
+      "title": "Entretien exclusif | Lansana Gagny Sakho appelle à restaurer la crédibilité économique du Sénégal",
+      "summary": "Invité spécial de Financial Afrik vendredi 24 juillet 2026, Lansana Gagny Sakho, président du Conseil d’administration de l’APIX, livre une analyse sans concession de la situation économique du Sénégal. S’il reconnaît la gravité de la crise de la dette, l’expert estime que le véritable défi est d’aborder  les réformes afin de restaurer la confiance des investisseurs,renouer avec les partenaires financiers et de remettre le secteur privé au cœur de la stratégie de…",
+      "country": "SEN",
+      "category": "ECONOMIE",
       "severity": 2,
       "credibility": 2,
       "verified": false,
@@ -4769,19 +4700,19 @@
       "fdi": false,
       "sectors": [],
       "lang": "fr",
-      "published": "2026-07-24T15:34:36+00:00",
+      "published": "2026-07-24T19:56:10+00:00",
       "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
+        "id": "financ-afr",
+        "name": "Financial Afrik",
         "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/24/nigeria-bola-tinubu-lance-le-recrutement-de-28-000-militaires-face-a-linsecurite/"
+        "url": "https://www.financialafrik.com/2026/07/24/entretien-exclusif-lansana-gagny-sakho-appelle-a-restaurer-la-credibilite-economique-du-senegal/"
       },
       "confirming_sources": [
         {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
+          "id": "financ-afr",
+          "name": "Financial Afrik",
           "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/24/nigeria-bola-tinubu-lance-le-recrutement-de-28-000-militaires-face-a-linsecurite/"
+          "url": "https://www.financialafrik.com/2026/07/24/entretien-exclusif-lansana-gagny-sakho-appelle-a-restaurer-la-credibilite-economique-du-senegal/"
         }
       ],
       "confirmation_count": 1
@@ -5838,6 +5769,136 @@
       "confirmation_count": 1
     },
     {
+      "id": "3410a90699",
+      "title": "En RDC, la Cour constitutionnelle valide la loi ouvrant la voie à un 3e mandat pour Félix Tshisekedi",
+      "summary": "En RDC, la plus haute instance judiciaire juge conforme à la Constitution la loi ouvrant la voie à un référendum constitutionnel. Félix Tshisekedi pourrait ainsi briguer un troisième mandat dès 2028.",
+      "country": "COD",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-28T20:30:07+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1828031/politique/en-rdc-la-cour-constitutionnelle-valide-la-loi-ouvrant-la-voie-a-un-3e-mandat-pour-felix-tshisekedi/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1828031/politique/en-rdc-la-cour-constitutionnelle-valide-la-loi-ouvrant-la-voie-a-un-3e-mandat-pour-felix-tshisekedi/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4422c08220",
+      "title": "Football en Côte d’Ivoire : la discrète médiation ministérielle entre Yacine Idriss Diallo et Malick Tohé",
+      "summary": "À l’approche de l’élection à la tête de la Fédération ivoirienne de football, une guerre des candidatures se livre en coulisses. Quatre ministres tentent de convaincre le vice-président Malick Tohé de renoncer à se présenter face au dirigeant sortant Yacine Idriss Diallo.",
+      "country": "CIV",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-28T19:37:46+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1827283/politique/football-en-cote-divoire-la-discrete-mediation-ministerielle-entre-yacine-idriss-diallo-et-malick-tohe/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1827283/politique/football-en-cote-divoire-la-discrete-mediation-ministerielle-entre-yacine-idriss-diallo-et-malick-tohe/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "479a2af497",
+      "title": "Ghana mourns its tallest man - a 'generous and popular giant'",
+      "summary": "Sulemana Abdul Samed, who was diagnosed with gigantism several years ago, has died at the age of 33.",
+      "country": "GHA",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-07-28T18:19:57+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/crk52jk0131o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/crk52jk0131o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b332c5693e",
+      "title": "Bassirou Diomaye Faye affirme «la disponibilité» du Sénégal à «accompagner le Mali», sans citer la Cédéao",
+      "summary": "Le président sénégalais était à Bamako ce mardi 28 juillet. Une visite express de moins de cinq heures au cours de laquelle Bassirou Diomaye Faye s'est entretenu avec le président malien de transition, le général Assimi Goïta. Au cœur de leurs échanges : la lutte contre le terrorisme. Les pays de l'Alliance des États du Sahel, Mali-Niger-Burkina, ont quitté la Cédéao, dont Bassirou Diomaye Faye est actuellement président en exercice. Le président sénégalais est reparti de…",
+      "country": "SEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-07-28T18:00:48+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260728-bassirou-diomaye-faye-affirme-la-disponibilit%C3%A9-du-s%C3%A9n%C3%A9gal-%C3%A0-accompagner-le-mali-sans-citer-la-c%C3%A9d%C3%A9ao"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260728-bassirou-diomaye-faye-affirme-la-disponibilit%C3%A9-du-s%C3%A9n%C3%A9gal-%C3%A0-accompagner-le-mali-sans-citer-la-c%C3%A9d%C3%A9ao"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d0803d904f",
       "title": "Secrétariat général de l’ONU : Macky Sall face à un rival africain inattendu",
       "summary": "Au surlendemain des interviews accordées par les six prétendants en lice, l’Ouganda a déposé la candidature d’Olara Otunnu en vue de succéder, en janvier 2027, à António Guterres. Au grand dam du Sénégalais Macky Sall, jusqu’alors seul Africain dans la course.",
@@ -5867,6 +5928,102 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1827572/politique/secretariat-general-de-lonu-macky-sall-face-a-un-rival-africain-inattendu/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5b132f0bf1",
+      "title": "Designer Miguel Vieira encerra Semana da Moda de Milão",
+      "summary": "Normalmente a semana é fechada por marcas italianas, mas este ano é Miguel Vieira quem faz as honras. \"Luxo\" e \"sofisticação\" são o tema do evento, a decorrer entre 22 e 28 de setembro.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-07-28T17:56:55+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/07/28/designer-miguel-vieira-encerra-semana-da-moda-de-milao-a-preto-com-flores-e-cristais/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/07/28/designer-miguel-vieira-encerra-semana-da-moda-de-milao-a-preto-com-flores-e-cristais/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2dc9a58b8c",
+      "title": "Silvéria Nédio e Varsénia da Luz sem pressão antes da estreia no CAN",
+      "summary": "Cabo Verde vai fazer a sua estreia num Campeonato Africano das Nações de futebol feminino a 29 de Julho diante do Gana em Casablanca, em território marroquino.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-07-28T17:42:34+00:00",
+      "lead_source": {
+        "id": "rfi-pt",
+        "name": "RFI Português",
+        "tier": 1,
+        "url": "https://www.rfi.fr/pt/%C3%A1frica-lus%C3%B3fona/20260728-silv%C3%A9ria-n%C3%A9dio-e-vars%C3%A9nia-da-luz-sem-press%C3%A3o-antes-da-estreia-no-can"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-pt",
+          "name": "RFI Português",
+          "tier": 1,
+          "url": "https://www.rfi.fr/pt/%C3%A1frica-lus%C3%B3fona/20260728-silv%C3%A9ria-n%C3%A9dio-e-vars%C3%A9nia-da-luz-sem-press%C3%A3o-antes-da-estreia-no-can"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5e7c4e58bd",
+      "title": "Bénin : les masques ancestraux à l’honneur à Porto-Novo",
+      "summary": "Le Bénin célèbre son patrimoine à travers le Festival des masques de Porto-Novo, un événement qui rassemble traditions, culture et spiritualité. Le pays ambitionne d'en faire un rendez-vous incontournable à l'échelle mondiale.",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-28T17:04:01+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260728-b%C3%A9nin-les-masques-ancestraux-%C3%A0-l-honneur-%C3%A0-porto-novo"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260728-b%C3%A9nin-les-masques-ancestraux-%C3%A0-l-honneur-%C3%A0-porto-novo"
         }
       ],
       "confirmation_count": 1
@@ -6620,6 +6777,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "1a6db96629",
+      "title": "Rwanda to phase out 2G, 3G networks",
+      "summary": "The nationwide switch-off of 3G services is scheduled for June 30, 2027, followed by the...",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-07-28T15:15:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/rwanda-to-phase-out-2g-3g-networks-5539830"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/rwanda-to-phase-out-2g-3g-networks-5539830"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "4b2e5827a8",
       "title": "THE CONVERSATION: It takes a village: How community can be a lifeline for improving family wellbeing",
       "summary": "Community connections play a crucial role in improving family wellbeing, as demonstrated by findings from Ghana, Mozambique and the United States on the importance of shared parenting responsibilities.",
@@ -6841,6 +7030,38 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/426240/mali-deploys-shahed-136-type-drones-for-first-time-in-conflict/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f0a7f22095",
+      "title": "NMG Uganda to resume operations after Museveni nod",
+      "summary": "Rostam Azizi affirms Group’s commitment to impactful journalism.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-07-28T13:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/nmg-uganda-to-resume-operations-5539640"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/nmg-uganda-to-resume-operations-5539640"
         }
       ],
       "confirmation_count": 1
@@ -7145,38 +7366,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0f9eb55001",
-      "title": "Entretien avec Dr Badié Hima : « Les minerais critiques sont le nouveau visage de la géopolitique mondiale »",
-      "summary": "À Accra, en marge de la conférence de haut niveau consacrée à la gouvernance des minerais critiques et aux conflits en Afrique, Dr Badié Hima, directeur fondateur du laboratoire MAT, livre son analyse des enjeux qui se jouent aujourd’hui sur le continent. Ancien directeur-résident du National Democratic Institute (NDI) au Togo puis au Mali, et spécialiste des questions de gouvernance démocratique, il alerte sur la place centrale qu’occupent désormais ces ressources dans…",
-      "country": "GHA",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-28T11:52:00+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/28/interview-badie-hima-minerais-critiques-sont-le-nouveau-visage-geopolitique-mondiale/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/28/interview-badie-hima-minerais-critiques-sont-le-nouveau-visage-geopolitique-mondiale/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0334c31a7f",
       "title": "Uganda 'now Ebola-free,' but region remains on high alert",
       "summary": "The last Ebola patient in Uganda was discharged on June 16.",
@@ -7304,38 +7493,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260728-biens-mal-acquis-gabonais-en-france-renvoi-en-correctionnelle-requis-de-18-personnes-dont-neuf-enfants-d-omar-bongo"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3aa5ac1ab8",
-      "title": "Sénégal : BOA Sénégal obtient la condamnation de l’Établissement Modou Mbacké MAR SUARL pour une créance de 84 millions de FCFA",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-28T11:32:38+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/28/senegal-boa-senegal-obtient-la-condamnation-de-letablissement-modou-mbacke-mar-suarl-pour-une-creance-de-84-millions-de-fcfa/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/28/senegal-boa-senegal-obtient-la-condamnation-de-letablissement-modou-mbacke-mar-suarl-pour-une-creance-de-84-millions-de-fcfa/"
         }
       ],
       "confirmation_count": 1
@@ -9539,102 +9696,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "6de60ebbfe",
-      "title": "Arbitrage minier : le Cameroun condamné à verser plus de 600 millions USD à  Sundance Resources",
-      "summary": "Dans le contentieux minier opposant l’État du Cameroun notamment à Sundance Resources, au sujet de l’exploitation du gisement de fer de Mbalam-Nabeba, un tribunal arbitral de la Cour internationale d’arbitrage de la Chambre de commerce internationale (CCI) de Paris, en France, a condamné le pays à payer près de 350 milliards de FCFA (plus de 600 millions USD) à la junior entreprise minière australienne. L’information est révélée dans un communiqué de presse rendu public…",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "JURIS_OHADA",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-27T17:35:05+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/27/arbitrage-minier-le-cameroun-condamne-a-verser-plus-de-600-millions-usd-a-sundance-resources/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/27/arbitrage-minier-le-cameroun-condamne-a-verser-plus-de-600-millions-usd-a-sundance-resources/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f436fc4a95",
-      "title": "Niger : le Général Abdourahamane Tiani, l’arme au point, l’histoire en étendard …",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "NER",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-27T17:31:30+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/27/niger-le-general-abdourahamane-tiani-larme-au-point-lhistoire-en-etendard/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/27/niger-le-general-abdourahamane-tiani-larme-au-point-lhistoire-en-etendard/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "58f3ebb137",
-      "title": "Cameroun : la CAA veut devenir le guichet national du Fonds vert pour le climat",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "CMR",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-27T17:17:40+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/27/cameroun-la-caa-veut-devenir-le-guichet-national-du-fonds-vert-pour-le-climat/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/27/cameroun-la-caa-veut-devenir-le-guichet-national-du-fonds-vert-pour-le-climat/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1306ee8515",
       "title": "'Every country wants to beat Nigeria' - Super Falcons hunt 11th Wafcon title",
       "summary": "Nigeria face Malawi, Zambia and Egypt at the 2026 Women's Africa Cup of Nations, looking to defend their crown and claim an 11th title.",
@@ -9793,38 +9854,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/cr7k8y5272eo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b9948fea69",
-      "title": "Marché financier UMOA : 55 milliards de FCFA dans les caisses du Trésor Public malien",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "MLI",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-27T16:10:44+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/27/marche-financier-umoa-55-milliards-de-fcfa-dans-les-caisses-du-tresor-public-malien/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/27/marche-financier-umoa-55-milliards-de-fcfa-dans-les-caisses-du-tresor-public-malien/"
         }
       ],
       "confirmation_count": 1
@@ -11062,6 +11091,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "0c9ab6cef2",
+      "title": "Tunisie : la ville de Sidi Bou Saïd au patrimoine mondial de l'UNESCO",
+      "summary": "Célèbre pour ses maisons bleues et blanches, la ville côtière de Sidi Bou Saïd en Tunisie a été inscrite sur la Liste du patrimoine mondial de l'UNESCO.",
+      "country": "TUN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-27T09:02:52+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/07/26/tunisie-la-ville-de-sidi-bou-said-au-patrimoine-mondial-de-lunesco/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/07/26/tunisie-la-ville-de-sidi-bou-said-au-patrimoine-mondial-de-lunesco/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "75db896cd5",
       "title": "Togo : mobilisation de l’opposition contre la Constitution adoptée en 2024",
       "summary": "Des centaines de personnes se sont réunies dans la capitale togolaise, à l'appel de partis d'opposition et d'organisations de la société civile, pour manifester contre la nouvelle Constitution favorable à Faure Gnassingbé.",
@@ -11514,40 +11575,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c02bb87491",
-      "title": "RDC: l'ONG Human Rights Watch accuse l'entreprise Perenco de pollution au Kongo-Central",
-      "summary": "Human Rights Watch alerte sur un risque de pollution au Kongo-Central, province de l'ouest de la République démocratique du Congo (RDC). L'ONG de défense des droits humains s'inquiète des activités de Perenco dans cette région. La multinationale franco-britannique est actuellement la seule productrice de pétrole en RDC. HRW l'accuse d'activités illégales pouvant mettre en danger la santé des populations.",
-      "country": "COD",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "fr",
-      "published": "2026-07-27T04:01:21+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260727-rdc-l-ong-human-rights-watch-accuse-l-entreprise-perenco-de-pollution-au-kongo-central"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260727-rdc-l-ong-human-rights-watch-accuse-l-entreprise-perenco-de-pollution-au-kongo-central"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "ea79bf56df",
       "title": "Heritage, love and Zimbabwe's dark past",
       "summary": "The 70-minute film blends and balances political history and a personal narrative.",
@@ -11641,72 +11668,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/26/ugandan-diplomat-olara-otunnu-joins-race-to-lead-the-united-nations/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d414d78c86",
-      "title": "Ghana : autour de l’aéroport d’Accra, une enclave pour happy few?",
-      "summary": "Airport City concentre hôtels, sièges sociaux et ambassades aux abords de l’aéroport d’Accra. Un boom immobilier qui révèle les fractures d’une métropole à deux vitesses.",
-      "country": "GHA",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AVIATION"
-      ],
-      "lang": "fr",
-      "published": "2026-07-26T12:30:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1825954/economie-entreprises/ghana-autour-de-laeroport-daccra-une-enclave-pour-happy-few/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1825954/economie-entreprises/ghana-autour-de-laeroport-daccra-une-enclave-pour-happy-few/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "56a15339d9",
-      "title": "Bénin : le réseau des fidèles de Joseph Djogbénou, président de l’Assemblée nationale",
-      "summary": "Élu à la tête de l’hémicycle le 8 février, celui qui est aussi le président du parti majoritaire, l’UPR, s’appuie sur des alliés et amis de longue date rencontrés tout au long de son parcours politique, judiciaire et militant.",
-      "country": "BEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-26T12:20:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1826266/politique/benin-le-reseau-des-fideles-de-joseph-djogbenou-president-de-lassemblee-nationale/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1826266/politique/benin-le-reseau-des-fideles-de-joseph-djogbenou-president-de-lassemblee-nationale/"
         }
       ],
       "confirmation_count": 1
@@ -11840,6 +11801,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "4083109084",
+      "title": "COFEB : 30 auditeurs de la 48e promotion achèvent la phase théorique de leur formation",
+      "summary": "Le Centre ouest-africain de formation et d’études bancaires (COFEB), centre de formation et de recherche de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO), a organisé, samedi 25 juillet à Dakar, une cérémonie marquant la fin de la première phase de formation de la 48e promotion de son cycle diplômant.\nCette étape intervient avant l’obtention du diplôme du COFEB. Elle marque l’achèvement de la phase théorique d’une formation axée sur les disciplines…",
+      "country": "SEN",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-25T17:10:14+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/cofeb-30-auditeurs-de-la-48e-promotion-achevent-la-phase-theorique-de-leur-formation/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/cofeb-30-auditeurs-de-la-48e-promotion-achevent-la-phase-theorique-de-leur-formation/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a487d4eec3",
+      "title": "Burkina Faso : la justice annule un contrat de streaming aurifère de Franco-Nevada et Sandstorm, un jugement aux répercussions sur l’Afrique",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "BFA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-25T16:24:03+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/burkina-faso-la-justice-annule-un-contrat-de-streaming-aurifere-de-franco-nevada-et-sandstorm-un-jugement-aux-repercussions-sur-lafrique/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/burkina-faso-la-justice-annule-un-contrat-de-streaming-aurifere-de-franco-nevada-et-sandstorm-un-jugement-aux-repercussions-sur-lafrique/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "469f72c081",
       "title": "Ouganda : 12 girafes transférées dans un effort de restauration écologique",
       "summary": "Ces derniers mois, les activités de forage pétrolier se sont intensifiées, avec notamment le passage de gros engins dans le parc national, malgré des années d’opposition de la part des écologistes. Outre les girafes, d’autres animaux sauvages seront réintroduits dans la réserve naturelle d’Ajai.",
@@ -11933,6 +11958,104 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607250157.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "166d15c87f",
+      "title": "Création monétaire, investissement manquant : ce que montrent neuf années de données sur l’économie de la Sierra Leone",
+      "summary": "Par Aboubakr Kaira Barry, CFA, Directeur Général de Results Associates et Président du conseil d’Omou Financial Literacy Center\nChaque année, les Sierra-Léonais voient les prix grimper. Le Leone s’affaiblit. La dette publique augmente. Les routes, les écoles et les hôpitaux s’améliorent à peine. Ce n’est pas de la malchance. C’est le résultat prévisible de deux décisions, répétées année après année. L’État crée trop de monnaie. Il s’endette aussi sans que cela se traduise…",
+      "country": "SLE",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "fr",
+      "published": "2026-07-25T10:57:51+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/creation-monetaire-investissement-manquant-ce-que-montrent-neuf-annees-de-donnees-sur-leconomie-de-la-sierra-leone/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/creation-monetaire-investissement-manquant-ce-que-montrent-neuf-annees-de-donnees-sur-leconomie-de-la-sierra-leone/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1d745f6b30",
+      "title": "RDC : S&P confirme la note souveraine « B-/B » et maintient une perspective positive",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-25T10:01:15+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/rdc-sp-confirme-la-note-souveraine-b-b-et-maintient-une-perspective-positive/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/rdc-sp-confirme-la-note-souveraine-b-b-et-maintient-une-perspective-positive/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b9bb651ed0",
+      "title": "Congo-Brazzaville : S&P maintient la note souveraine « CCC+/C » avec une perspective stable",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "COG",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-25T09:56:16+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/congo-brazzaville-sp-maintient-la-note-souveraine-ccc-c-avec-une-perspective-stable/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/congo-brazzaville-sp-maintient-la-note-souveraine-ccc-c-avec-une-perspective-stable/"
         }
       ],
       "confirmation_count": 1
@@ -12166,6 +12289,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "0c15db748e",
+      "title": "Maroc : Progression de 6,5% du PIB nominal au terme de l’année 2025",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MAR",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-24T19:42:46+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/24/maroc-progression-de-65-du-pib-nominal-au-terme-de-lannee-2025/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/24/maroc-progression-de-65-du-pib-nominal-au-terme-de-lannee-2025/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "951110cb03",
+      "title": "Le Trésor Public Togolais obtient 22 milliards de FCFA sur le marché financier de l’UMOA",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "TGO",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-24T19:37:22+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/24/le-tresor-public-togolais-obtient-22-milliards-de-fcfa-sur-le-marche-financier-de-lumoa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/24/le-tresor-public-togolais-obtient-22-milliards-de-fcfa-sur-le-marche-financier-de-lumoa/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "c865cd5601",
       "title": "Seven stars to watch at Wafcon 2026 and why",
       "summary": "As the biggest ever Women's Africa Cup of Nations gets ready for kick-off, BBC Sport Africa picks seven players to keep an eye on in Morocco.",
@@ -12326,38 +12513,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "e54a833447",
-      "title": "Fuel Hikes Threaten Central Bank Inflation Target",
-      "summary": "[Independent (Kampala)] Kampala -- Fuel prices continue to oscillate between 6,300 shilling (1.68 dollars) and 6,700 shillings per litre for both petrol and diesel, contributing most to the high average prices of goods and services in the second quarter of 2026.",
-      "country": "UGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-07-24T16:58:58+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607240542.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607240542.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "81134463a6",
       "title": "23 Face Terrorism Charges Following Illegal Gathering",
       "summary": "[Daily News] Mwanza -- TWENTY-three people have been arraigned before the Mwanza Resident Magistrate's Court over alleged participation in meetings linked to terrorism held in Mwanza city earlier this month.",
@@ -12387,38 +12542,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607240537.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "740b73c9c3",
-      "title": "Togo : les Evala, un rite de passage au cœur de la tradition kabyè",
-      "summary": "Dans la région de la Kara, des milliers de jeunes Kabyè âgés de 18 à 20 ans participent chaque année aux Evala, une tradition ancestrale mêlant rites initiatiques, scarifications et combats de lutte.",
-      "country": "TGO",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-24T16:20:21+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/07/24/togo-les-evala-un-rite-de-passage-au-coeur-de-la-tradition-kabye/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/07/24/togo-les-evala-un-rite-de-passage-au-coeur-de-la-tradition-kabye/"
         }
       ],
       "confirmation_count": 1
@@ -12483,6 +12606,38 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/24/wrestling-to-become-a-man-in-togos-ancestral-rite-of-passage/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "16221d23c8",
+      "title": "Sénégal – Côte d’Ivoire : Tiémoko Meyliet Koné à Dakar sur fond de 88,5 millions de dollars d’exportations sénégalaises",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-24T15:17:37+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/24/senegal-cote-divoire-tiemoko-meyliet-kone-a-dakar-sur-fond-de-885-millions-de-dollars-dexportations-senegalaises/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/24/senegal-cote-divoire-tiemoko-meyliet-kone-a-dakar-sur-fond-de-885-millions-de-dollars-dexportations-senegalaises/"
         }
       ],
       "confirmation_count": 1
@@ -12579,38 +12734,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/07/24/postponing-the-inevitable-south-africa-opposition-reacts-to-ramaphosa-impeachment-ruling/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6f139a4f98",
-      "title": "Lagos beach break becoming too expensive for locals",
-      "summary": "Much of the 180-kilometre-long coastline is being privatised for exclusive urban residences and public-private enterprise.",
-      "country": "NGA",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-07-24T13:49:15+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/07/24/lagos-beach-break-becoming-too-expensive-for-locals/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/07/24/lagos-beach-break-becoming-too-expensive-for-locals/"
         }
       ],
       "confirmation_count": 1
@@ -13334,6 +13457,42 @@
       "confirmation_count": 1
     },
     {
+      "id": "7c60f62070",
+      "title": "80 Sudanese Leave Uganda On Voluntary Return Flight",
+      "summary": "[Dabanga] Amsterdam / Kampala -- The 11th voluntary return flight carrying Sudanese refugees from Uganda to Sudan departed on Thursday with 80 returnees on board. The flight travelled to Port Sudan Airport aboard a Tarco Aviation aircraft and was sponsored by Sudan's General Intelligence Service.",
+      "country": "UGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY",
+        "MARINE_TRANSPORT",
+        "AVIATION"
+      ],
+      "lang": "en",
+      "published": "2026-07-23T23:31:46+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607230891.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607230891.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "495c9797ae",
       "title": "Swansea sign Ghana winger Opoku",
       "summary": "Championship club Swansea City complete the signing of Ghana winger Joseph Opoku from Belgian side Zulte Waregem.",
@@ -13790,38 +13949,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "57a664ce28",
-      "title": "Cameroon's ruling party meets as Biya's long absence draws criticism",
-      "summary": "President Biya left Cameroon on June 7 for what the civil cabinet described as \"a brief private...",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-07-23T09:47:22+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/africa/cameroon-ruling-party-meets-biya-long-absence-draws-criticism-5535018"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/africa/cameroon-ruling-party-meets-biya-long-absence-draws-criticism-5535018"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "62ee83d8f6",
       "title": "Africa prepares for historic Olympic moment at Dakar 2026",
       "summary": "The Dakar 2026 Youth Olympics are set to have a \"monumental\" impact when the Senegalese capital becomes the first African city to host an Olympic event.",
@@ -14050,38 +14177,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2b220d3112",
-      "title": "Congo: Tshisekedi opens door for political dialogue but obstacles remain",
-      "summary": "The decision does not mean the Democratic Republic of the Congo is close to resolving its...",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-07-23T03:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/congo-tshisekedi-opens-door-for-political-dialogue-5534900"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/congo-tshisekedi-opens-door-for-political-dialogue-5534900"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "f864c63c4c",
       "title": "National Agency of Petroleum Offers 85 Internal and External Scholarships",
       "summary": "[ANGOP] Luanda -- At least 85 Angolan students will benefit from internal and external scholarships, from the next academic year, within the framework of the social project 'Okutanga', of the National Agency of Petroleum, Gas and Biodiversity (ANPG).",
@@ -14275,38 +14370,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607220433.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c054b22aa1",
-      "title": "Sall-Faye alliance built on UN contest, with an eye on domestic politics",
-      "summary": "Senegal's decision to back Sall may not be a free lunch...",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-07-22T13:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/west-africa/sall-faye-alliance-senegal-5534268"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/west-africa/sall-faye-alliance-senegal-5534268"
         }
       ],
       "confirmation_count": 1
@@ -14700,40 +14763,6 @@
           "name": "CIO Africa",
           "tier": 2,
           "url": "https://cioafrica.co/kenya-to-host-africa-technology-leadership-conference-2026/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b09494b327",
-      "title": "Kagame: Where do you want M23 to go?",
-      "summary": "He says Kigali needs guarantees that M23 will not become a burden for Rwanda to carry.",
-      "country": "RWA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "en",
-      "published": "2026-07-22T05:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kagame-m23-dr-congo-5533880"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kagame-m23-dr-congo-5533880"
         }
       ],
       "confirmation_count": 1
@@ -16163,38 +16192,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/c75ygy71wdgo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2a9487b114",
-      "title": "South Africa World Cup midfielder Adams dies aged 25",
-      "summary": "South Africa and Mamelodi Sundowns midfielder Jayden Adams dies at the age of 25, just weeks after featuring for his country at the World Cup.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-07-11T14:47:47+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
