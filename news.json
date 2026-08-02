@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T22:10:06.044304+00:00",
+  "generated_at": "2026-08-02T23:10:22.236898+00:00",
   "stats": {
-    "total_signals": 555,
-    "verified_signals": 18,
+    "total_signals": 556,
+    "verified_signals": 17,
     "countries_covered": 29,
     "sources_active": 32,
     "per_country": {
@@ -10,10 +10,10 @@
       "MAR": 60,
       "ZAF": 61,
       "COD": 14,
-      "CMR": 11,
+      "CMR": 12,
       "DZA": 7,
       "KEN": 60,
-      "MLI": 25,
+      "MLI": 24,
       "AGO": 33,
       "NGA": 49,
       "UGA": 44,
@@ -21,20 +21,20 @@
       "TZA": 31,
       "SEN": 35,
       "MOZ": 39,
-      "GIN": 3,
-      "TCD": 2,
       "ETH": 8,
+      "GIN": 3,
+      "COG": 2,
       "LBR": 4,
       "RWA": 6,
       "GHA": 10,
       "ZMB": 4,
       "GAB": 2,
       "TGO": 3,
+      "MDG": 2,
       "BEN": 4,
+      "TCD": 1,
       "SLE": 1,
-      "COG": 1,
-      "ZWE": 1,
-      "MDG": 1
+      "ZWE": 1
     }
   },
   "sources": [
@@ -1385,6 +1385,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "68787d2ef3",
+      "title": "Éthiopie : reprise des combats entre l'armée et les rebelles au Tigré",
+      "summary": "Les rebelles du Front de libération du peuple du Tigré accusent l'armée d'avoir attaqué leurs positions près de la frontière avec le Soudan.",
+      "country": "ETH",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-02T09:54:23+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/02/ethiopie-reprise-des-combats-entre-larmee-et-les-rebelles-au-tigre/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/02/ethiopie-reprise-des-combats-entre-larmee-et-les-rebelles-au-tigre/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "583fed1345",
       "title": "Ebola en RDC: l'Africa CDC alerte sur la propagation du virus la plus rapide jamais enregistrée",
       "summary": "C'est la propagation la plus rapide du virus Ebola en République démocratique du Congo jamais enregistrée. C'est une des conclusions du rapport d'Africa CDC paru jeudi 30 juillet 2026, alors que l'Ouganda a déclaré la fin de l'épidémie le 28 juillet. La RDC, de son côté, a vu son nombre de cas détectés augmenter considérablement ces dernières semaines.",
@@ -1455,40 +1489,6 @@
         }
       ],
       "confirmation_count": 2
-    },
-    {
-      "id": "249d95bbd7",
-      "title": "Tchad: attaques de chacals qui pourraient être infectés par la rage dans la commune de Gouro",
-      "summary": "Au Tchad, l'inquiétude grimpe dans la province de l'Ennedi-Ouest, dans le nord du pays. Plusieurs attaques de chacals ont été enregistrées au cours des dernières semaines, notamment dans la commune de Gouro. L'ONG Nimè Tomba, qui craint que ces animaux soient infectés par la rage, tire la sonnette d'alarme. Elle appelle les autorités à fournir des vaccins antirabiques et à identifier les animaux potentiellement malades.",
-      "country": "TCD",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-08-01T15:40:50+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260801-tchad-attaques-de-chacals-qui-pourraient-%C3%AAtre-infect%C3%A9s-par-la-rage-dans-la-commune-de-gouro"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260801-tchad-attaques-de-chacals-qui-pourraient-%C3%AAtre-infect%C3%A9s-par-la-rage-dans-la-commune-de-gouro"
-        }
-      ],
-      "confirmation_count": 1
     },
     {
       "id": "de3643b14b",
@@ -2358,6 +2358,72 @@
       "confirmation_count": 1
     },
     {
+      "id": "a80e3ad2c9",
+      "title": "Congolais de Paris: les sapeurs de la diaspora congolaise [1/5]",
+      "summary": "Originaire du Congo-Brazzaville, la Sape est un marqueur identitaire puissant pour les Congolais de la diaspora. Plus qu’une passion pour une forme d’élégance, c’est aussi un trait d’union entre les continents. Costumes trois pièces, pantalon zébré et démarche millimétrée, les sapeurs de la diaspora font aussi de ce mouvement un divertissement atypique. Un reportage haut en couleurs signé Tom Schneider.",
+      "country": "COG",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-02T22:05:07+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260802-congolais-de-paris-les-sapeurs-de-la-diaspora-congolaise-1-5"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260802-congolais-de-paris-les-sapeurs-de-la-diaspora-congolaise-1-5"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "21a56c35eb",
+      "title": "Cameroun: un premier financement pour la réalisation du corridor routier Douala-Bangui",
+      "summary": "Une première phase de financement pour les 800 km de route entre Douala, au Cameroun, et Bangui, en République centrafricaine. Elle vient d'être annoncée par la Banque mondiale et se monte à 425 millions de USD. Le début des travaux sur ce tronçon communément appelé corridor économique Douala-Bangui est fixé pour l’an prochain. 80 % des produits vers la RCA, et 70 % vers le Tchad transitent par cet axe aujourd'hui en mauvais état.",
+      "country": "CMR",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "fr",
+      "published": "2026-08-02T22:01:31+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260802-cameroun-un-premier-financement-pour-la-r%C3%A9alisation-du-corridor-routier-douala-bangui"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260802-cameroun-un-premier-financement-pour-la-r%C3%A9alisation-du-corridor-routier-douala-bangui"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "08f7f62d9c",
       "title": "Pourquoi certains États veulent quitter la Cour Pénale internationale",
       "summary": "Après le Burkina Faso, le Mali et le Niger, le Tchad a annoncé le 27 juillet son retrait de la Cour pénale internationale. C’est une nouvelle étape dans la stratégie diplomatique de ces États du Sahel. Après leur départ de la CEDEAO et de l'OIF, les Etats de l’AES dénoncent désormais une institution qu'elles jugent instrumentalisée par les puissances occidentales.",
@@ -2585,46 +2651,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/02/maroc-liberte-provisoire-pour-le-rappeur-mehdi-black-wind/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
-      "id": "d363506617",
-      "title": "Éthiopie: reprise des combats entre l’armée et les rebelles tigréens",
-      "summary": "De nouveaux combats ont éclaté, ce samedi 1er août, dans le nord de l'Éthiopie entre l'armée fédérale et le Front de libération du peuple du Tigré (TPLF), le mouvement qui contrôle cette région du pays. Les affrontements se déroulent dans le Tigré occidental, près de la frontière avec le Soudan, et ravivent les craintes d'un retour à la guerre, près de quatre ans après l'accord de paix de Pretoria.",
-      "country": "ETH",
-      "category": "POLITIQUE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "fr",
-      "published": "2026-08-01T12:40:29+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260801-%C3%A9thiopie-reprise-des-combats-entre-l-arm%C3%A9e-et-les-rebelles-tigr%C3%A9ens"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260801-%C3%A9thiopie-reprise-des-combats-entre-l-arm%C3%A9e-et-les-rebelles-tigr%C3%A9ens"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/02/ethiopie-reprise-des-combats-entre-larmee-et-les-rebelles-au-tigre/"
         }
       ],
       "confirmation_count": 2
@@ -5409,6 +5435,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "42766ce436",
+      "title": "[Appel à candidatures] «Bourse Ghislaine Dupont et Claude Verlon» 2026",
+      "summary": "La Bourse Ghislaine Dupont et Claude Verlon, qui se déroulera en octobre à Madagascar, débute aujourd’hui, avec l’appel à candidature. C’est la 13ᵉ édition de cet évènement et de cette formation créée pour rendre hommage aux deux reporters de RFI assassinés au Mali le 2 novembre 2013. Chaque année, cette bourse forme des journalistes radio et des techniciens de reportage. Les candidats ont jusqu'au dimanche 23 août, minuit heure de Paris, pour déposer leur dossier via le…",
+      "country": "MDG",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-02T22:01:43+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260802-appel-%C3%A0-candidatures-bourse-ghislaine-dupont-et-claude-verlon-2026"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260802-appel-%C3%A0-candidatures-bourse-ghislaine-dupont-et-claude-verlon-2026"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "80b0932b91",
       "title": "Football : Renard, Deschamps, Touré… Qui pour entraîner la Côte d'Ivoire après Faé ?",
       "summary": "Malgré un parcours historique au Mondial 2026, Emerse Faé n'a pas été reconduit à la tête de la Côte d'Ivoire. Alors que la Fédération ivoirienne de football s'active pour lui trouver un successeur d'ici les qualifications pour la CAN 2027, plusieurs profils de haut niveau émergent : du retour attendu d'Hervé Renard à l'option locale Kolo Touré, jusqu'à la piste plus audacieuse menant à Didier Deschamps.",
@@ -6372,40 +6430,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260801-diaspora-africaine-pourquoi-le-retour-vers-le-continent-s%C3%A9duit-de-plus-en-plus"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a810dff3cb",
-      "title": "Prix Marc-Vivien Foé 2026, Mamadou Sangaré quitte Lens et s'engage avec Brentford",
-      "summary": "Le milieu de terrain malien Mamadou Sangaré, révélation de la saison avec le RC Lens et lauréat du prix Marc-Vivien Foé RFI-France 24 récompensant le meilleur joueur africain de Ligue 1 lors de la saison 2025-2026, s'est engagé officiellement samedi 1ᵉʳ août avec Brentford, neuvième du championnat anglais la saison dernière. Un transfert record estimé à plus de 45 millions d'euros.",
-      "country": "MLI",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "LIABILITY"
-      ],
-      "lang": "fr",
-      "published": "2026-08-01T17:45:29+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique-foot/20260801-prix-marc-vivien-fo%C3%A9-2026-mamadou-sangar%C3%A9-quitte-lens-et-s-engage-avec-brentford"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique-foot/20260801-prix-marc-vivien-fo%C3%A9-2026-mamadou-sangar%C3%A9-quitte-lens-et-s-engage-avec-brentford"
         }
       ],
       "confirmation_count": 1
@@ -12456,38 +12480,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0e38c3aebd",
-      "title": "Antibiotic Resistance Is Spreading Through South Africa's Water Systems - Study Explains How",
-      "summary": "[The Conversation Africa] Antimicrobial resistance (AMR) is defined as the ability of disease-causing microorganisms to withstand treatments like antibiotics.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-07-30T10:54:02+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607300195.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607300195.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6997f01e34",
       "title": "Ghana, Gabon Decries Xenophobia - Commits to African Integration",
       "summary": "[Ghanaian Times] Ghana and Gabon have decried xenophobia, underscoring the need for Africans to collectively shun and decisively address the menace and all forms of discrimination.",
@@ -12649,6 +12641,38 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/us-seeks-role-in-ethiopian-airlines-12-5-billion-airport-project-5541342"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "99505edb1d",
+      "title": "Air and Water Pollution Harming Joburg's Poorest Communities",
+      "summary": "[GroundUp] Failing wastewater treatment works, ageing sewage infrastructure, smouldering illegal dumps, industrial and urban runoff and a legacy of mining activities have ruined Joburg's air and water",
+      "country": "ZAF",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-07-30T07:04:15+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202607300035.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202607300035.html"
         }
       ],
       "confirmation_count": 1
