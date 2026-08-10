@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-08-10T21:56:55.351372+00:00",
+  "generated_at": "2026-08-10T22:55:45.600771+00:00",
   "stats": {
-    "total_signals": 528,
-    "verified_signals": 13,
+    "total_signals": 530,
+    "verified_signals": 12,
     "countries_covered": 32,
     "sources_active": 32,
     "per_country": {
-      "COD": 17,
+      "SEN": 33,
+      "KEN": 64,
+      "COD": 16,
       "TZA": 34,
-      "NGA": 53,
+      "NGA": 54,
       "UGA": 38,
       "GHA": 6,
       "AGO": 31,
-      "MOZ": 40,
+      "MOZ": 41,
       "MLI": 18,
-      "KEN": 63,
       "ZAF": 63,
       "MAR": 37,
-      "SEN": 32,
       "MWI": 2,
       "COG": 3,
       "CMR": 7,
       "MDG": 2,
       "SLE": 5,
-      "CIV": 30,
-      "GIN": 2,
-      "DZA": 3,
+      "CIV": 29,
       "BFA": 5,
       "RWA": 5,
       "TUN": 2,
       "BEN": 4,
-      "TCD": 5,
+      "TCD": 6,
       "ZMB": 8,
+      "GIN": 2,
       "GAB": 2,
+      "DZA": 2,
       "ZWE": 1,
       "NER": 2,
       "ETH": 6,
@@ -235,6 +235,72 @@
     }
   ],
   "signals": [
+    {
+      "id": "abc1568ba4",
+      "title": "Sénégal: session parlementaire sur fond de rivalité entre le Premier ministre et le président",
+      "summary": "Au Sénégal, le président de l’Assemblée nationale Ousmane Sonko a ouvert, ce lundi 10 août, la première session extraordinaire de l’année. L’ordre du jour est chargé. Ces quinze prochains jours, les députés vont se pencher sur cinq textes de loi en tout. Deux de ces textes, portés par la majorité Pastef, seront examinés en procédure d’urgence. Très politiques, ils prolongent de nouveau dans l’hémicycle le face-à-face entre le camp d’Ousmane Sonko et celui de Bassirou…",
+      "country": "SEN",
+      "category": "REGULATION",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-10T22:36:08+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260810-s%C3%A9n%C3%A9gal-session-parlementaire-sur-fond-de-rivalit%C3%A9-entre-le-premier-ministre-et-le-pr%C3%A9sident"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260810-s%C3%A9n%C3%A9gal-session-parlementaire-sur-fond-de-rivalit%C3%A9-entre-le-premier-ministre-et-le-pr%C3%A9sident"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e430609b88",
+      "title": "Les actrices des luttes anticoloniales: Muthoni wa Kirima, figure féminine des Mau Mau",
+      "summary": "Au Kenya, Field Marshall Muthoni wa Kirima est reconnue comme l’une des figures des Mau Mau. Ce mouvement d’insurrection s’est battu pour l’indépendance du Kenya dans les années 1950. Il a été très violemment réprimé par les colons britanniques. Au moins 10 000 Kényans ont été tués, jusqu’à 90 000 selon certains chiffres. Le mouvement a largement contribué à pousser le Kenya vers l’indépendance, déclarée le 12 décembre 1963. Née en 1930, décédée en septembre 2023, Field…",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-10T22:02:04+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260810-les-actrices-des-luttes-anticoloniales-muthoni-wa-kirima-figure-f%C3%A9minine-des-mau-mau"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260810-les-actrices-des-luttes-anticoloniales-muthoni-wa-kirima-figure-f%C3%A9minine-des-mau-mau"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "76d2757151",
       "title": "Ebola en RDC : l'OMS appelle à organiser un essai clinique avec le vaccin Ervebo",
@@ -2601,6 +2667,40 @@
       "confirmation_count": 6
     },
     {
+      "id": "f62a1869ea",
+      "title": "Nigeria's Metered Customers Rise By 111,654 to 7.44 Million in One Month",
+      "summary": "[This Day] The number of metered electricity customers in Nigeria increased by 111,654 in April 2026, rising from 7,324,079 in March to 7,435,733, as the country continued to make gradual progress in closing its metering deficit.",
+      "country": "NGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "en",
+      "published": "2026-08-10T05:36:07+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608100088.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608100088.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ad67480ea1",
       "title": "RDC: «Les leaders politiques et militaires des FDLR sont pleinement impliqués dans le processus de démobilisation»",
       "summary": "En RDC, le gouvernement assure que les responsables politiques et militaires des FDLR ont donné leur accord au protocole de désarmement et de démobilisation annoncé fin juillet. Mais plusieurs questions restent ouvertes : le calendrier opérationnel n’est toujours pas validé, le nombre de combattants concernés reste inconnu et le sort de ceux qui refuseraient de rentrer au Rwanda doit encore être réglé. Kinshasa affirme avoir obtenu l’accord d’un pays africain pour…",
@@ -2766,76 +2866,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608100004.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6e49085bd6",
-      "title": "Guinée: l'activiste Bella Bah porté disparu après son interpellation",
-      "summary": "Bella Bah est connu en Guinée pour ses prises de position critiques qui font débat et polémiques sur les réseaux sociaux et depuis samedi 8 août, les proches du militant sont sans nouvelles de lui. Samedi soir, dans un post sur Facebook, c'est son épouse qui a donné l'alerte.",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-10T02:40:05+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260810-guin%C3%A9e-l-activiste-bella-bah-port%C3%A9-disparu-apr%C3%A8s-son-interpellation"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260810-guin%C3%A9e-l-activiste-bella-bah-port%C3%A9-disparu-apr%C3%A8s-son-interpellation"
-        },
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1830846/politique/lactiviste-guineen-bella-bah-porte-disparu-apres-son-interpellation-dans-une-ecole/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
-      "id": "aca6c93ccd",
-      "title": "Un ex-otage allemand kidnappé au Niger récupéré par les autorités algériennes",
-      "summary": "Le ministère algérien de la Défense nationale a annoncé samedi 8 août la prise en charge d'un ressortissant allemand, Ulumaskan Sinan, kidnappé il y a plus de deux semaines au Niger. Les services de sécurité algériens ont récupéré l'ex-otage, enlevé par un groupe criminel armé. Très peu d'informations existent sur les contours de l'opération, mais le ressortissant allemand s'est tout de même exprimé et a livré quelques détails.",
-      "country": "DZA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-10T02:35:05+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260810-un-ex-otage-allemand-kidnapp%C3%A9-au-niger-r%C3%A9cup%C3%A9r%C3%A9-par-les-autorit%C3%A9s-alg%C3%A9riennes"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260810-un-ex-otage-allemand-kidnapp%C3%A9-au-niger-r%C3%A9cup%C3%A9r%C3%A9-par-les-autorit%C3%A9s-alg%C3%A9riennes"
         }
       ],
       "confirmation_count": 1
@@ -3705,38 +3735,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608060387.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "19f17e8fb0",
-      "title": "Financial Illiteracy Undermines Mining Compensation Benefits",
-      "summary": "[Daily News] Dar es Salaam -- FOR many families living in Tanzania's rural communities, the announcement of a new mining project often brings hope of a brighter future.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-06T10:36:15+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608060333.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608060333.html"
         }
       ],
       "confirmation_count": 1
@@ -4674,6 +4672,38 @@
       "confirmation_count": 2
     },
     {
+      "id": "ad66a539fb",
+      "title": "ANALYSIS: As US primaries wrap up, what does it mean for SA?",
+      "summary": "A look at the dynamics shaping the ongoing American primary elections, what they signal for November’s vote, and finally, how it might impact South Africa, Africa, and the global South.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-11T00:08:48+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-08-11-as-us-primaries-wrap-up-what-does-it-mean-for-sa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-08-11-as-us-primaries-wrap-up-what-does-it-mean-for-sa/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "30f9a61b3f",
       "title": "COURTING INVESTORS: Cape Town’s built-for-business push — from tourism to global investment",
       "summary": "The City prioritises ease of doing business, fast-tracking permits and licences, and courting global investors, while a R120bn, 10-year infrastructure plan involves acute socioeconomic trade-offs.",
@@ -4765,6 +4795,104 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-08-10-prasa-s-r5-6bn-siyangena-scandal-demands-npa-action/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b97a4eff08",
+      "title": "Ces entreprises africaines qui investissent en France: Creativo El Matador, le pari d'un transformateur nigérian [2/5]",
+      "summary": "Deuxième épisode de notre série consacrée aux entreprises africaines qui investissent en France avec la nigériane Creativo El Matador, spécialisée dans la transformation de matières premières agricoles et qui voit dans l'Hexagone de nouvelles opportunités de croissance.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-10T22:07:04+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260810-ces-entreprises-africaines-qui-investissent-en-france-creativo-el-matador-le-pari-d-un-transformateur-nig%C3%A9rian-2-5"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260810-ces-entreprises-africaines-qui-investissent-en-france-creativo-el-matador-le-pari-d-un-transformateur-nig%C3%A9rian-2-5"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d3fef3bb3d",
+      "title": "Daniel Chapo desafia jovens à independência económica",
+      "summary": "Na abertura da XIX Conferência Nacional da Juventude, em Pemba, o Presidente moçambicano anunciou o \"Pro-Jovem\", que substitui o FAIJ, e prometeu duplicar o contrato-programa em 2026.",
+      "country": "MOZ",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-08-10T22:04:55+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/08/10/chapo-pede-aos-jovens-que-escrevam-novo-capitulo-em-mocambique-e-anuncia-programa-de-financiamento-pro-jovem/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/08/10/chapo-pede-aos-jovens-que-escrevam-novo-capitulo-em-mocambique-e-anuncia-programa-de-financiamento-pro-jovem/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3a15ddee44",
+      "title": "Portraits des diasporas africaines: Hissein Mahamoud Barkai, le chef pâtissier venu du désert [2/5]",
+      "summary": "Chirurgienne, patineuse, éditeur, pâtissier, leurs parcours singuliers racontent la France d’aujourd’hui, riche de ses talents et de ses diversités. Né(e)s ici ou venus d’ailleurs, ces femmes et ces hommes inspirent par leur engagement et leur réussite. Leurs portraits sont autant de modèles pour les générations futures. Dans ce deuxième épisode, Hissein Mahamoud Barkai, originaire du Tchad, est l'un des seuls chefs pâtissiers venus du désert. Un parcours qui bouscule les…",
+      "country": "TCD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-10T22:03:04+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20260810-portraits-des-diasporas-africaines-hissein-mahamoud-barkai-le-chef-p%C3%A2tissier-venu-du-d%C3%A9sert-2-5"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20260810-portraits-des-diasporas-africaines-hissein-mahamoud-barkai-le-chef-p%C3%A2tissier-venu-du-d%C3%A9sert-2-5"
         }
       ],
       "confirmation_count": 1
@@ -7054,6 +7182,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "1707feb89f",
+      "title": "L’activiste guinéen Bella Bah porté disparu après son interpellation dans une école",
+      "summary": "Selon le mouvement citoyen Tournons La Page-Guinée, l’enseignant a été interpellé à Conakry ce samedi 8 août par « des hommes en tenue de la gendarmerie nationale, cagoulés, dans l’enceinte de sa propre école ». Sa disparition intervient quelques heures après une prise de position controversée visant un imam.",
+      "country": "GIN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-10T11:20:15+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1830846/politique/lactiviste-guineen-bella-bah-porte-disparu-apres-son-interpellation-dans-une-ecole/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1830846/politique/lactiviste-guineen-bella-bah-porte-disparu-apres-son-interpellation-dans-une-ecole/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f09a893bc1",
       "title": "Rwanda Crush Mozambique to Open U19 World Cup Qualifying Run in Style",
       "summary": "[New Times] Rwanda made a commanding start to their ICC Men's U19 World Cup Africa Qualifier Division 2 campaign on Sunday, crushing Mozambique by 322 runs in their opening match at the Gahanga Stadium Main Oval.",
@@ -7308,38 +7468,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608100280.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d52dfd81da",
-      "title": "Cameroon Ends Nigeria's WAFCON Title Defense",
-      "summary": "[Premium Times] Nigeria entered the quarter-final as the most successful team in WAFCON history and had dominated previous meetings with Cameroon.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-10T10:28:18+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608100278.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608100278.html"
         }
       ],
       "confirmation_count": 1
@@ -8869,41 +8997,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "fba056b8d1",
-      "title": "RDC: après la libération de 15 détenus, les divergences persistent entre Kinshasa et l’AFC/M23",
-      "summary": "En RDC, la remise de quinze détenus à l’AFC/M23 a été saluée par le Qatar et les États-Unis comme une première mesure de confiance dans le processus de Doha. Mais derrière cette opération réussie sur le plan logistique, les divergences restent nombreuses. L’AFC/M23 conteste la composition du groupe qui lui a été remis et affirme que la procédure prévue n’a pas été entièrement respectée. Surtout, les différentes listes établies au fil des négociations ne correspondent plus…",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE",
-        "MARINE_TRANSPORT"
-      ],
-      "lang": "fr",
-      "published": "2026-08-10T02:45:04+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260810-rdc-apr%C3%A8s-la-lib%C3%A9ration-de-15-d%C3%A9tenus-les-divergences-persistent-entre-kinshasa-et-l-afc-m23"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260810-rdc-apr%C3%A8s-la-lib%C3%A9ration-de-15-d%C3%A9tenus-les-divergences-persistent-entre-kinshasa-et-l-afc-m23"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "162143bc4c",
       "title": "Evidence that South African special forces murdered top detective shared with BBC",
       "summary": "Frans Mathipa was shot while driving - we got access to the prosecution case against eight accused men.",
@@ -8963,38 +9056,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/sport/football/articles/c4gw456e3xxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2c1718005e",
-      "title": "Les actrices des luttes anticoloniales: en Côte d'Ivoire, les marcheuses de Grand-Bassam [1/10]",
-      "summary": "En décembre 1949, plusieurs centaines de femmes quittent Abidjan pour marcher jusqu’à Grand-Bassam afin d’exiger la libération des dirigeants emprisonnés du parti de Félix Houphouët-Boigny, le PDCI-RDA, mis derrière les barreaux par l’administration coloniale française. Une mobilisation historique, brutalement réprimée, mais qui demeure aujourd’hui un symbole de courage et de résistance. Plus de 75 ans après, que reste-t-il de l’héritage des Dames glorieuses de…",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-09T22:01:33+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260809-les-actrices-des-luttes-anticoloniales-en-c%C3%B4te-d-ivoire-les-marcheuses-de-grand-bassam-1-10"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260809-les-actrices-des-luttes-anticoloniales-en-c%C3%B4te-d-ivoire-les-marcheuses-de-grand-bassam-1-10"
         }
       ],
       "confirmation_count": 1
@@ -9422,40 +9483,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "819ee8e69d",
-      "title": "WEEKEND WRAP: Madlanga effect, Cape Town housing squeeze, and why buy books we never read",
-      "summary": "This edition of the Weekend Wrap pays tribute to the life and work of Estelle Ellis, whose fearless reporting exposed broken hospitals, failing infrastructure and broken promises. We also unpack the so-called Madlanga Effect on civic governance, ask whether Cape Town is doing enough to tackle its inner-city housing crisis, and examine the policy debate over starting Grade 1 at age five.",
-      "country": "ZAF",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-08T12:47:15+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-08-08-madlanga-effect-cape-town-housing-squeeze-and-why-buy-books-we-never-read/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-08-08-madlanga-effect-cape-town-housing-squeeze-and-why-buy-books-we-never-read/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "d0d6dd9cd5",
       "title": "Freed hostages in Nigeria describe their ordeal during captivity",
       "summary": "Newly released hostages in Nigeria spoke to the media on Friday, describing their ordeal during months of captivity.",
@@ -9871,6 +9898,40 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608070694.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2e44d21859",
+      "title": "Uganda Airlines - The Architecture of a Turnaround",
+      "summary": "[Independent (Kampala)] Five months into the job, Ato Girma Wake is quietly rebuilding Uganda Airlines from the inside out",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "en",
+      "published": "2026-08-07T18:45:40+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608070693.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608070693.html"
         }
       ],
       "confirmation_count": 1
@@ -11736,38 +11797,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1232f7b76e",
-      "title": "Every Dish Has a Face, and Other Peri-Hot Insights",
-      "summary": "[Daily Maverick] Everybody has their own peri-peri (or piri-piri) sauce, right? What's your peri-peri secret? We asked for your hot tips. You sent them.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-07T10:44:03+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608070239.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608070239.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8220d56ac0",
       "title": "Kijaji Inspects Tactic Projects, Calls for Value for Money",
       "summary": "[Daily News] Kagera -- MINISTER for Natural Resources and Tourism, Dr Ashatu Kijaji has directed government officials to closely monitor the implementation of development projects and urged contractors to complete them on schedule to ensure value for public money.",
@@ -12387,6 +12416,40 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608070087.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e927b4538a",
+      "title": "Mind the Gap - State Execs Earn Millions",
+      "summary": "[GroundUp] Civil Aviation Authority CEO salary is 93x that of lowest earners",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "en",
+      "published": "2026-08-07T06:05:18+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608070083.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608070083.html"
         }
       ],
       "confirmation_count": 1
@@ -13430,6 +13493,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "9253cd7fd5",
+      "title": "Singida BS Appoint Kimoto As Coach",
+      "summary": "[Daily News] Singida -- SINGIDA Black Stars have appointed Congolese coach Papy Kimoto as their new head coach as part of a reshuffle of the technical bench ahead of the 2026/27 season.",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-06T11:21:05+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608060384.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608060384.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "8c175343b9",
       "title": "Ending FGM Begins With Communities",
       "summary": "[Daily News] Dar es Salaam -- FOR generations, female genital mutilation (FGM) has been defended in some communities as a cultural tradition.",
@@ -13555,38 +13650,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608060360.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6d4af7ee74",
-      "title": "Uganda Needs a Conversation About Marriage",
-      "summary": "[Independent (Kampala)] NANTEZA SARAH KYOBE -- Recent remarks by President Yoweri Museveni on the rising cost of bride price and lavish weddings have reignited an important national conversation. Whether one agrees with every aspect of his argument or not, his central concern deserves serious reflection. Marriage, which should be the foundation of family and society, is increasingly becoming financially out of reach for many young Ugandans.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-06T10:34:00+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608060330.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608060330.html"
         }
       ],
       "confirmation_count": 1
