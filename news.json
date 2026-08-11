@@ -1,40 +1,42 @@
 {
-  "generated_at": "2026-08-11T13:41:00.858747+00:00",
+  "generated_at": "2026-08-11T15:15:55.116703+00:00",
   "stats": {
-    "total_signals": 520,
-    "verified_signals": 11,
-    "countries_covered": 29,
+    "total_signals": 521,
+    "verified_signals": 10,
+    "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
+      "NGA": 54,
       "UGA": 40,
       "AGO": 32,
-      "ZAF": 62,
-      "MOZ": 41,
-      "ETH": 10,
-      "NGA": 52,
-      "COD": 16,
+      "ZAF": 65,
+      "MOZ": 43,
+      "ETH": 9,
+      "COD": 15,
       "KEN": 61,
-      "TZA": 33,
-      "SEN": 33,
-      "MLI": 19,
-      "MAR": 34,
+      "TZA": 34,
+      "SEN": 29,
+      "MLI": 20,
+      "MAR": 32,
       "MWI": 2,
-      "COG": 3,
+      "COG": 2,
       "ZMB": 13,
-      "SLE": 7,
-      "CMR": 7,
+      "SLE": 6,
+      "CMR": 8,
       "MDG": 2,
-      "BFA": 5,
+      "BFA": 3,
       "RWA": 5,
       "CIV": 25,
+      "CAF": 1,
+      "GAB": 1,
+      "TUN": 1,
       "TCD": 7,
       "GHA": 3,
-      "MRT": 1,
+      "MRT": 2,
       "BEN": 2,
       "GIN": 1,
       "DZA": 2,
-      "NER": 1,
-      "TGO": 1
+      "NER": 1
     }
   },
   "sources": [
@@ -233,6 +235,40 @@
   ],
   "signals": [
     {
+      "id": "2e58a43345",
+      "title": "Ten police and 17 “bandits” killed in firefight in northwestern Nigeria",
+      "summary": "Police say 17 suspected gang members and two civilians were also killed in Kebbi State.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY"
+      ],
+      "lang": "en",
+      "published": "2026-08-11T14:44:10+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/8/11/dozens-killed-in-firefight-between-nigerian-armed-group-and-police?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/8/11/dozens-killed-in-firefight-between-nigerian-armed-group-and-police?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "2ce9f52dc2",
       "title": "Africa Health Agencies Urge Faster Ebola Response in DRC As Cases Rise",
       "summary": "[Independent (Kampala)] The Democratic Republic of Congo needs to urgently expand its community-led response to Ebola as new infections and deaths continue to outpace efforts to contain the outbreak, the World Health Organization and Africa Centres for Disease Control and Prevention said.",
@@ -401,8 +437,8 @@
       "country": "ZAF",
       "category": "AUTRE",
       "severity": 4,
-      "credibility": 4,
-      "verified": true,
+      "credibility": 2,
+      "verified": false,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
@@ -422,15 +458,9 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/11/14-clandestine-miners-killed-in-disused-south-africa-mine/"
-        },
-        {
-          "id": "club-moz",
-          "name": "Club of Mozambique",
-          "tier": 2,
-          "url": "https://clubofmozambique.com/news/14-clandestine-miners-killed-in-disused-s-africa-mine/"
         }
       ],
-      "confirmation_count": 2
+      "confirmation_count": 1
     },
     {
       "id": "2bce1060ae",
@@ -1421,6 +1451,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "f0d92faea8",
+      "title": "South Africa dump site collapse kills 14 suspected illegal miners",
+      "summary": "The authorities are searching for anyone who may still be trapped under the rubble.",
+      "country": "ZAF",
+      "category": "SINISTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-11T13:57:56+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cq6djprvevlo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cq6djprvevlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "9b6e72987f",
       "title": "U.S. Pledges $242mn for Ebola Response As Kenya Strengthens Regional Preparedness",
       "summary": "[Capital FM] Nairobi -- The United States has announced an additional $242 million to support immediate Ebola response, preparedness and humanitarian efforts in countries affected by or at risk from the outbreak in East and Central Africa.",
@@ -1718,6 +1780,40 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/11/who-drc-ebola-outbreak-began-months-before-it-was-officially-declared/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2178b5ab33",
+      "title": "RDC: Kinshasa défend son milliard de dollars issu d'eurobonds pour des grands projets",
+      "summary": "En République démocratique du Congo, l’eurobond de 1,25 milliard de dollars très attendu sur de gros projets. Quatre mois après son émission avec succès, une question s’impose : fallait-il mobiliser d’un seul coup l’intégralité de cette dette, alors qu’une partie des fonds n’est pas encore utilisée ? Un député du parti présidentiel met en garde contre un coût financier jugé prématuré. Une lecture que le ministère des Finances rejette fermement. Pour lui, un eurobond…",
+      "country": "COD",
+      "category": "ECONOMIE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-11T05:06:23+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260811-rdc-pol%C3%A9mique-apr%C3%A8s-la-d%C3%A9couverte-d-une-dette-de-centaines-de-millions-de-dollars-lev%C3%A9e-mais-non-utilis%C3%A9e"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260811-rdc-pol%C3%A9mique-apr%C3%A8s-la-d%C3%A9couverte-d-une-dette-de-centaines-de-millions-de-dollars-lev%C3%A9e-mais-non-utilis%C3%A9e"
         }
       ],
       "confirmation_count": 1
@@ -2355,6 +2451,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "dccb5b8293",
+      "title": "Mozambique: President Chapo launches Pró-Jovem to expand financing for youth-led projects",
+      "summary": "President Daniel Chapo yesterday announced in Pemba, Cabo Delgado province, northern Mozambique, the launch of the Pró-Jovem programme, aimed at replacing the Fund for Support to Youth Initiatives (FAIJ) and expanding financing opportunities for youth projects in all districts of the country. The announcement was made during the opening of the 9th National Youth Conference,…\nSource",
+      "country": "MOZ",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-11T14:38:29+00:00",
+      "lead_source": {
+        "id": "club-moz",
+        "name": "Club of Mozambique",
+        "tier": 2,
+        "url": "https://clubofmozambique.com/news/mozambique-president-chapo-launches-pro-jovem-to-expand-financing-for-youth-led-projects/"
+      },
+      "confirming_sources": [
+        {
+          "id": "club-moz",
+          "name": "Club of Mozambique",
+          "tier": 2,
+          "url": "https://clubofmozambique.com/news/mozambique-president-chapo-launches-pro-jovem-to-expand-financing-for-youth-led-projects/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6c3cf813a4",
+      "title": "TVS Motor Launches iQube Electric Scooter In Kenya",
+      "summary": "TVS Motor Company has launched its iQube electric scooter in Kenya, the Indian manufacturer’s first entry into the African market....\nSource",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-11T14:13:22+00:00",
+      "lead_source": {
+        "id": "cio-afr",
+        "name": "CIO Africa",
+        "tier": 2,
+        "url": "https://cioafrica.co/tvs-motor-launches-iqube-electric-scooter-in-kenya/"
+      },
+      "confirming_sources": [
+        {
+          "id": "cio-afr",
+          "name": "CIO Africa",
+          "tier": 2,
+          "url": "https://cioafrica.co/tvs-motor-launches-iqube-electric-scooter-in-kenya/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "b00c9ac874",
       "title": "Angola Foresees Drone Production Line",
       "summary": "[ANGOP] Luanda -- The president of American Chamber of Commerce in Angola (AMCHAM), Pedro Godinho, announced on Monday (10) in Luanda, that the country is set to produce drones in the near future for use in agriculture, mining, oil and gas, research, and other sectors.",
@@ -2592,40 +2752,6 @@
         }
       ],
       "confirmation_count": 2
-    },
-    {
-      "id": "2cbae96414",
-      "title": "Mozambique: Gueta Chapo Foundation launched — Photos",
-      "summary": "Mozambique’s First Lady, Gueta Chapo, officially launched the Gueta Chapo Foundation on Monday (10) in Bobole, an initiative aimed at supporting vulnerable families, children and other groups in need of assistance. The ceremony took place at the 19 October Basic School, where the foundation stone was also laid for the construction of 21 classrooms and…\nSource",
-      "country": "MOZ",
-      "category": "INFRASTRUCTURE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CONSTRUCTION"
-      ],
-      "lang": "en",
-      "published": "2026-08-11T10:23:00+00:00",
-      "lead_source": {
-        "id": "club-moz",
-        "name": "Club of Mozambique",
-        "tier": 2,
-        "url": "https://clubofmozambique.com/news/mozambique-gueta-chapo-foundation-launched-photos/"
-      },
-      "confirming_sources": [
-        {
-          "id": "club-moz",
-          "name": "Club of Mozambique",
-          "tier": 2,
-          "url": "https://clubofmozambique.com/news/mozambique-gueta-chapo-foundation-launched-photos/"
-        }
-      ],
-      "confirmation_count": 1
     },
     {
       "id": "d0f502323f",
@@ -4120,70 +4246,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "06928c9ded",
-      "title": "Sénégal : Bassirou Diomaye Faye lance « KIIRAAY », son nouveau parti, et ouvre une nouvelle phase politique",
-      "summary": "Le président sénégalais Bassirou Diomaye Faye a officiellement lancé, samedi 25 juillet à Dakar, sa nouvelle formation politique, « KIIRAAY – Les Patriotes Républicains », marquant une nouvelle étape dans la recomposition du paysage politique sénégalais après sa rupture avec le PASTEF, dirigé par son désormais ex-mentor Ousmane Sonko.\nDévoilé lors de l’assemblée générale constitutive organisée dans un hôtel de la place, le nouveau parti adopte pour devise « La Patrie…",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-25T19:55:08+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/25/senegal-bassirou-diomaye-faye-lance-kiiraay-son-nouveau-parti-et-ouvre-une-nouvelle-phase-politique/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/25/senegal-bassirou-diomaye-faye-lance-kiiraay-son-nouveau-parti-et-ouvre-une-nouvelle-phase-politique/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9ab8c6773b",
-      "title": "Entretien exclusif | Lansana Gagny Sakho appelle à restaurer la crédibilité économique du Sénégal",
-      "summary": "Invité spécial de Financial Afrik vendredi 24 juillet 2026, Lansana Gagny Sakho, président du Conseil d’administration de l’APIX, livre une analyse sans concession de la situation économique du Sénégal. S’il reconnaît la gravité de la crise de la dette, l’expert estime que le véritable défi est d’aborder  les réformes afin de restaurer la confiance des investisseurs,renouer avec les partenaires financiers et de remettre le secteur privé au cœur de la stratégie de…",
-      "country": "SEN",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-24T19:56:10+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/24/entretien-exclusif-lansana-gagny-sakho-appelle-a-restaurer-la-credibilite-economique-du-senegal/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/24/entretien-exclusif-lansana-gagny-sakho-appelle-a-restaurer-la-credibilite-economique-du-senegal/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2832bd58b8",
       "title": "Ericsson Launches Telecoms Learnership Programme For South African Youth",
       "summary": "Ericsson South Africa has launched the first intake of a new field operations learnership programme aimed at developing technical skills...\nSource",
@@ -4581,6 +4643,298 @@
       "confirmation_count": 1
     },
     {
+      "id": "16db5aa79a",
+      "title": "Kenya, Botswana, Ghana: Africa’s sovereign wealth fund boom gathers pace",
+      "summary": "2025 was a record year for sovereign wealth funds on the continent, and the trend is continuing in 2026. Beyond the headlines, do these increasingly popular vehicles have the means to fulfil their ambitions?",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "sectors": [
+        "AUTO"
+      ],
+      "lang": "en",
+      "published": "2026-08-11T15:00:00+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/427364/kenya-botswana-ghana-africas-sovereign-wealth-fund-boom-gathers-pace/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/427364/kenya-botswana-ghana-africas-sovereign-wealth-fund-boom-gathers-pace/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1076016332",
+      "title": "South Africa hit by icy blast as snow blankets several provinces",
+      "summary": "A bitter cold snap is sweeping across South Africa, bringing heavy snow, freezing temperatures and strong winds to several provinces. Snow has covered high-lying areas while forecasters warn of more wintry weather and rough seas along the coast.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-11T14:26:53+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/11/south-africa-hit-by-icy-blast-as-snow-blankets-several-provinces/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/11/south-africa-hit-by-icy-blast-as-snow-blankets-several-provinces/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e1d168f57a",
+      "title": "Afrique du Sud : la vague de froid se poursuit, les citoyens invités à la prudence",
+      "summary": "Une vague de froid se poursuit en Afrique du Sud alors que des conditions météorologiques difficiles perturbent les services dans plusieurs régions du pays. Des vents violents, des fortes pluies et de la neige étaient attendus mardi dans le nord et l'est du pays.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-11T14:23:37+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/11/afrique-du-sud-la-vague-de-froid-se-poursuit-les-citoyens-invites-a-la-prudence/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/11/afrique-du-sud-la-vague-de-froid-se-poursuit-les-citoyens-invites-a-la-prudence/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f97fae338e",
+      "title": "Cameroun : Canyon Resources conteste l’OPA d’A2PM sur le gisement de bauxite de Minim-Martap",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-11T14:15:28+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/11/cameroun-canyon-resources-conteste-lopa-da2pm-sur-le-gisement-de-bauxite-de-minim-martap/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/11/cameroun-canyon-resources-conteste-lopa-da2pm-sur-le-gisement-de-bauxite-de-minim-martap/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ea13651b31",
+      "title": "Mozambique: LAM to strengthen central-northern air links with Beira-based aircraft",
+      "summary": "Linhas Aéreas de Moçambique (LAM) will strengthen air links between the central and northern regions of the country by stationing an aircraft in the city of Beira, Sofala province, according to a company press release. The measure will establish air links between Beira and the cities of Tete, Quelimane, Nampula, Pemba and Nacala, creating more…\nSource",
+      "country": "MOZ",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-11T14:04:50+00:00",
+      "lead_source": {
+        "id": "club-moz",
+        "name": "Club of Mozambique",
+        "tier": 2,
+        "url": "https://clubofmozambique.com/news/mozambique-lam-to-strengthen-central-northern-air-links-with-beira-based-aircraft/"
+      },
+      "confirming_sources": [
+        {
+          "id": "club-moz",
+          "name": "Club of Mozambique",
+          "tier": 2,
+          "url": "https://clubofmozambique.com/news/mozambique-lam-to-strengthen-central-northern-air-links-with-beira-based-aircraft/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0561c89142",
+      "title": "Centrafrique : les 3,1% de croissance de la BEAC butent sur les risques électoraux du FMI",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "CAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-11T14:00:42+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/11/centrafrique-les-31-de-croissance-de-la-beac-butent-sur-les-risques-electoraux-du-fmi/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/11/centrafrique-les-31-de-croissance-de-la-beac-butent-sur-les-risques-electoraux-du-fmi/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "717c0d9934",
+      "title": "Gabon : l’accélération de la croissance couvre une économie financée à crédit",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "GAB",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-11T13:53:36+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/11/gabon-lacceleration-de-la-croissance-couvre-une-economie-financee-a-credit/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/11/gabon-lacceleration-de-la-croissance-couvre-une-economie-financee-a-credit/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "46bcd27970",
+      "title": "Mozambique Sovereign Fund to base 70% of investments on US indices",
+      "summary": "Mozambique’s Sovereign Fund (FSM) will manage 70% of its investments based on US indices and 30% on European indices, while being prohibited from investing in Mozambican companies or assets and in the oil and gas sector. The guidelines are set out in the FSM’s Investment Master Plan, recently approved by the Government and accessed by…\nSource",
+      "country": "MOZ",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "en",
+      "published": "2026-08-11T13:47:43+00:00",
+      "lead_source": {
+        "id": "club-moz",
+        "name": "Club of Mozambique",
+        "tier": 2,
+        "url": "https://clubofmozambique.com/news/mozambique-sovereign-fund-to-base-70-of-investments-on-us-indices/"
+      },
+      "confirming_sources": [
+        {
+          "id": "club-moz",
+          "name": "Club of Mozambique",
+          "tier": 2,
+          "url": "https://clubofmozambique.com/news/mozambique-sovereign-fund-to-base-70-of-investments-on-us-indices/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3f0dc56150",
+      "title": "Detained Malian journalist Ras Bath rejects charges as trial opens",
+      "summary": "The trial of Malian commentator Youssouf Bathily, known as Ras Bath, and activist Rose opened on August 10 before the Bamako Court of Appeal, with both denying accusations of criminal association and undermining state institutions.",
+      "country": "MLI",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-11T13:42:56+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/11/detained-malian-journalist-ras-bath-rejects-charges-as-trial-opens/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/11/detained-malian-journalist-ras-bath-rejects-charges-as-trial-opens/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "bd77af2cef",
       "title": "Seguro considera que \"interior não é um fardo\"",
       "summary": "Nesta visita à Beira Baixa, o Presidente da República defendeu a necessidade de \"uma visão estratégica\" e de \"investimento público que potencie o investimento privado\"",
@@ -4640,6 +4994,38 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-southern-region-at-risk-of-urban-flooding-and-erosion/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a262458c86",
+      "title": "Tunisie : La société Tawasol Group Holding fait une perte de 981 500 dinars au terme de l’exercice 2025",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "TUN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-11T13:12:28+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/11/tunisie-la-societe-tawasol-group-holding-fait-une-perte-de-981-500-dinars-au-terme-de-lexercice-2025/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/11/tunisie-la-societe-tawasol-group-holding-fait-une-perte-de-981-500-dinars-au-terme-de-lexercice-2025/"
         }
       ],
       "confirmation_count": 1
@@ -4963,6 +5349,38 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110435.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3470f8df14",
+      "title": "Africa50 mobilise 20 millions de dollars de BII et multiplie les accords d’infrastructures en Tanzanie",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "TZA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-11T12:46:40+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/11/africa50-mobilise-20-millions-de-dollars-de-bii-et-multiplie-les-accords-dinfrastructures-en-tanzanie/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/11/africa50-mobilise-20-millions-de-dollars-de-bii-et-multiplie-les-accords-dinfrastructures-en-tanzanie/"
         }
       ],
       "confirmation_count": 1
@@ -5650,6 +6068,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "1ab2f6b795",
+      "title": "Nigeria : le gouvernement suspend des frais de recapitalisation contestés par deux assureurs",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "SOLVABILITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-11T11:25:20+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/11/nigeria-le-gouvernement-suspend-des-frais-de-recapitalisation-contestes-par-deux-assureurs/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/11/nigeria-le-gouvernement-suspend-des-frais-de-recapitalisation-contestes-par-deux-assureurs/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "cf923d22a8",
       "title": "Bank CEOs Criminal Case Stalls After High Court Orders Halt Proceedings",
       "summary": "[Capital FM] Nairobi -- Proceedings in a criminal case involving several accused persons, including senior bank executives, were halted after the court was informed that some of the accused had obtained High Court orders staying the trial and restraining their arrest.",
@@ -6067,38 +6517,6 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110269.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "aa29d07d3c",
-      "title": "Mozambique: Lack of maintenance may discourage new investments – WaterAid",
-      "summary": "The WaterAid, an international NGO, has warned that Mozambique may lose funds and investments in the water sector if already built systems remain out of function due to a lack of maintenance or technical capacity. This warning was issued on Monday during the Seminar on the Sustainability, Operation, and Maintenance of WASH Infrastructure in Primary…\nSource",
-      "country": "MOZ",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-11T10:50:37+00:00",
-      "lead_source": {
-        "id": "club-moz",
-        "name": "Club of Mozambique",
-        "tier": 2,
-        "url": "https://clubofmozambique.com/news/mozambique-lack-of-maintenance-may-discourage-new-investments-wateraid/"
-      },
-      "confirming_sources": [
-        {
-          "id": "club-moz",
-          "name": "Club of Mozambique",
-          "tier": 2,
-          "url": "https://clubofmozambique.com/news/mozambique-lack-of-maintenance-may-discourage-new-investments-wateraid/"
         }
       ],
       "confirmation_count": 1
@@ -6989,6 +7407,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "bfef6776bd",
+      "title": "Standard Bank Mozambique réalise 30 millions d’euros de bénéfice au premier semestre 2026",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MOZ",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-11T06:23:05+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/11/standard-bank-mozambique-realise-30-millions-deuros-de-benefice-au-premier-semestre-2026/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/11/standard-bank-mozambique-realise-30-millions-deuros-de-benefice-au-premier-semestre-2026/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "95dd599177",
       "title": "Éthiopie: une nouvelle guerre au Tigré «s'étendrait à l'ensemble de la Corne» au vu du «jeu des alliances»",
       "summary": "De nouveaux combats ont eu lieu début août dans l’ouest du Tigré, à la frontière avec le Soudan. Il s’agit des deuxièmes affrontements signalés entre les forces fédérales éthiopiennes et les forces tigréennes depuis le début de l’année. Alors que le gouvernement fédéral et le Front de libération du peuple du Tigré (TPLF) ont multiplié les déclarations de plus en plus hostiles ces derniers mois, faut-il craindre une reprise du conflit entre Addis-Abeba et le Tigré ?…",
@@ -7240,38 +7690,6 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110110.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "23e838e692",
-      "title": "RDC: la polémique enfle sur des millions empruntés via des eurobonds mais non utilisés",
-      "summary": "Le gouvernement de la République démocratique du Congo est sous le feu des critiques après l’émission de 1,25 milliard de dollars de dettes eurobonds. Si le montant est très attendu pour des projets, quatre mois après, une partie des fonds dort dans des banques sans être utilisée, alors que l’État doit payer des intérêts importants. Certains se demandent si Kinshasa n’a pas jugé ses besoins de manière prématurée et levé trop d’obligations.",
-      "country": "COD",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T05:06:23+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260811-rdc-pol%C3%A9mique-apr%C3%A8s-la-d%C3%A9couverte-d-une-dette-de-centaines-de-millions-de-dollars-lev%C3%A9e-mais-non-utilis%C3%A9e"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260811-rdc-pol%C3%A9mique-apr%C3%A8s-la-d%C3%A9couverte-d-une-dette-de-centaines-de-millions-de-dollars-lev%C3%A9e-mais-non-utilis%C3%A9e"
         }
       ],
       "confirmation_count": 1
@@ -8152,6 +8570,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "aacdfadae2",
+      "title": "Mauritanie : le budget 2026 révisé à 140,3 milliards MRU, soit 3,5 milliards de dollars",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MRT",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-11T00:11:09+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/11/mauritanie-le-budget-2026-revise-a-1403-milliards-mru-soit-35-milliards-de-dollars/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/11/mauritanie-le-budget-2026-revise-a-1403-milliards-mru-soit-35-milliards-de-dollars/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ad66a539fb",
       "title": "ANALYSIS: As US primaries wrap up, what does it mean for SA?",
       "summary": "A look at the dynamics shaping the ongoing American primary elections, what they signal for November’s vote, and finally, how it might impact South Africa, Africa, and the global South.",
@@ -8636,6 +9086,38 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20260810-portraits-des-diasporas-africaines-hissein-mahamoud-barkai-le-chef-p%C3%A2tissier-venu-du-d%C3%A9sert-2-5"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d34e6f63e0",
+      "title": "Credibility is the real challenge facing South Africa’s AI policy",
+      "summary": "The revised draft must win back public trust after the embarrassing withdrawal of the policy earlier this year.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-10T21:42:26+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/opinionista/2026-08-10-credibility-is-the-real-challenge-facing-south-africa-s-ai-policy/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/opinionista/2026-08-10-credibility-is-the-real-challenge-facing-south-africa-s-ai-policy/"
         }
       ],
       "confirmation_count": 1
@@ -9310,38 +9792,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/10/afrique-du-sud-une-importante-vague-de-froid-perturbe-les-deplacements/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "69456cae3d",
-      "title": "Burkina Faso: interdiction de 18 évènements culturels dits contraires aux bonnes mœurs",
-      "summary": "Au Burkina Faso, les restrictions des militaires au pouvoir contre le secteur culturel se poursuivent. Le ministère de la Culture a adressé des mises en demeure aux organisateurs de plusieurs événements festifs dans le pays. Ces suspensions interviennent dans le cadre d’une politique, dite « d'assainissement dans le secteur artistique et culturel », engagée par le ministère de la Culture depuis mars 2025.",
-      "country": "BFA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-10T15:27:31+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260810-burkina-faso-interdiction-de-18-%C3%A9v%C3%A8nements-culturels-dits-contraires-aux-bonnes-m%C5%93urs"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260810-burkina-faso-interdiction-de-18-%C3%A9v%C3%A8nements-culturels-dits-contraires-aux-bonnes-m%C5%93urs"
         }
       ],
       "confirmation_count": 1
@@ -11773,38 +12223,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "10cde35b0e",
-      "title": "Moroccan rights group blames Rabat and Madrid as Ceuta death toll hit 141",
-      "summary": "A Moroccan human rights group says at least 141 people have died trying to reach Spain's Ceuta enclave, accusing Morocco and Spain of prioritising border security over human lives. The NGO is calling for an independent investigation and safer migration pathways.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-07T18:55:47+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/07/moroccan-rights-group-blames-rabat-and-madrid-as-ceuta-death-toll-hit-141/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/07/moroccan-rights-group-blames-rabat-and-madrid-as-ceuta-death-toll-hit-141/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "01df4a3381",
       "title": "Coventry sign Ghana's Yirenkyi for record fee",
       "summary": "Premier League newcomers Coventry City have completed the club-record signing of Ghana midfielder Caleb Yirenkyi.",
@@ -12128,40 +12546,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260807-s%C3%A9n%C3%A9gal-la-banque-mondiale-accorde-un-pr%C3%AAt-de-340-milliards-de-fcfa"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "14ef8bc0a7",
-      "title": "Kenyan farmers reject cyanide claims after 15 elephants die in Amboseli",
-      "summary": "Farmers bordering Kenya's Amboseli National Park have denied using cyanide after 15 elephants died from suspected poisoning. Wildlife authorities say preliminary tests detected cyanide, but investigations are continuing to determine its source and concentration.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "MA_GOUV",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "en",
-      "published": "2026-08-07T16:29:36+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/07/kenyan-farmers-reject-cyanide-claims-after-15-elephants-die-in-amboseli/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/07/kenyan-farmers-reject-cyanide-claims-after-15-elephants-die-in-amboseli/"
         }
       ],
       "confirmation_count": 1
@@ -14191,38 +14575,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "fd66c1fee0",
-      "title": "Ethiopia rides on cultural ties to tap regional tourism market",
-      "summary": "Traditionally, Ethiopia, one of the oldest civilisations in Africa, had struggled to market...",
-      "country": "ETH",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-05T03:45:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/ethiopia-rides-on-cultural-ties-to-tap-regional-tourism-market-5546802"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/ethiopia-rides-on-cultural-ties-to-tap-regional-tourism-market-5546802"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "3a204f5217",
       "title": "Why deepening intra-BRICS agricultural trade is essential for SA",
       "summary": "High tariffs and phytosanitary barriers restrict South Africa’s agricultural exports to BRICS partners, driving urgent calls for preferential trade agreements ahead of the upcoming New Delhi summit.",
@@ -15367,38 +15719,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "18c8bac42b",
-      "title": "My son's not just a champion South African swimmer – he made me change my life",
-      "summary": "Bert le Clos stopped smoking after his son Chad, the most decorated athlete in Commonwealth Games history, convinced him to quit.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-07-30T05:11:37+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/cvgl59egq5no?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cvgl59egq5no?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "4a4896dd5f",
       "title": "The athlete from Cameroon who has never held her Olympic medal",
       "summary": "The story of Cameroon Olympic medallist Madias Ngake's remarkable journey from sleeping rough and seeking asylum to winning silver for England at Glasgow 2026.",
@@ -15983,70 +16303,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "4083109084",
-      "title": "COFEB : 30 auditeurs de la 48e promotion achèvent la phase théorique de leur formation",
-      "summary": "Le Centre ouest-africain de formation et d’études bancaires (COFEB), centre de formation et de recherche de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO), a organisé, samedi 25 juillet à Dakar, une cérémonie marquant la fin de la première phase de formation de la 48e promotion de son cycle diplômant.\nCette étape intervient avant l’obtention du diplôme du COFEB. Elle marque l’achèvement de la phase théorique d’une formation axée sur les disciplines…",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-25T17:10:14+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/25/cofeb-30-auditeurs-de-la-48e-promotion-achevent-la-phase-theorique-de-leur-formation/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/25/cofeb-30-auditeurs-de-la-48e-promotion-achevent-la-phase-theorique-de-leur-formation/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a487d4eec3",
-      "title": "Burkina Faso : la justice annule un contrat de streaming aurifère de Franco-Nevada et Sandstorm, un jugement aux répercussions sur l’Afrique",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "BFA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-25T16:24:03+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/25/burkina-faso-la-justice-annule-un-contrat-de-streaming-aurifere-de-franco-nevada-et-sandstorm-un-jugement-aux-repercussions-sur-lafrique/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/25/burkina-faso-la-justice-annule-un-contrat-de-streaming-aurifere-de-franco-nevada-et-sandstorm-un-jugement-aux-repercussions-sur-lafrique/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "504879b09d",
       "title": "How Mali's Ancient Craft Is Building New Economic Futures",
       "summary": "[Bird Story Agency] Mali's iconic mud-dyed textile, bogolan, is creating new opportunities beyond its cultural significance. As the centuries-old craft gains protected status, women artisans and entrepreneurs are turning tradition into thriving businesses while preserving indigenous knowledge.",
@@ -16074,104 +16330,6 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607250157.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "166d15c87f",
-      "title": "Création monétaire, investissement manquant : ce que montrent neuf années de données sur l’économie de la Sierra Leone",
-      "summary": "Par Aboubakr Kaira Barry, CFA, Directeur Général de Results Associates et Président du conseil d’Omou Financial Literacy Center\nChaque année, les Sierra-Léonais voient les prix grimper. Le Leone s’affaiblit. La dette publique augmente. Les routes, les écoles et les hôpitaux s’améliorent à peine. Ce n’est pas de la malchance. C’est le résultat prévisible de deux décisions, répétées année après année. L’État crée trop de monnaie. Il s’endette aussi sans que cela se traduise…",
-      "country": "SLE",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CONSTRUCTION"
-      ],
-      "lang": "fr",
-      "published": "2026-07-25T10:57:51+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/25/creation-monetaire-investissement-manquant-ce-que-montrent-neuf-annees-de-donnees-sur-leconomie-de-la-sierra-leone/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/25/creation-monetaire-investissement-manquant-ce-que-montrent-neuf-annees-de-donnees-sur-leconomie-de-la-sierra-leone/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1d745f6b30",
-      "title": "RDC : S&P confirme la note souveraine « B-/B » et maintient une perspective positive",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-25T10:01:15+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/25/rdc-sp-confirme-la-note-souveraine-b-b-et-maintient-une-perspective-positive/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/25/rdc-sp-confirme-la-note-souveraine-b-b-et-maintient-une-perspective-positive/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b9bb651ed0",
-      "title": "Congo-Brazzaville : S&P maintient la note souveraine « CCC+/C » avec une perspective stable",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "COG",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-25T09:56:16+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/25/congo-brazzaville-sp-maintient-la-note-souveraine-ccc-c-avec-une-perspective-stable/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/25/congo-brazzaville-sp-maintient-la-note-souveraine-ccc-c-avec-une-perspective-stable/"
         }
       ],
       "confirmation_count": 1
@@ -16209,70 +16367,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0c15db748e",
-      "title": "Maroc : Progression de 6,5% du PIB nominal au terme de l’année 2025",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "MAR",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-24T19:42:46+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/24/maroc-progression-de-65-du-pib-nominal-au-terme-de-lannee-2025/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/24/maroc-progression-de-65-du-pib-nominal-au-terme-de-lannee-2025/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "951110cb03",
-      "title": "Le Trésor Public Togolais obtient 22 milliards de FCFA sur le marché financier de l’UMOA",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "TGO",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-24T19:37:22+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/24/le-tresor-public-togolais-obtient-22-milliards-de-fcfa-sur-le-marche-financier-de-lumoa/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/24/le-tresor-public-togolais-obtient-22-milliards-de-fcfa-sur-le-marche-financier-de-lumoa/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6d6241e3d1",
       "title": "Glasgow Aglow With Pride As Team Nigeria, 73 Other Countries Kickoff 2026 Commonwealth Games",
       "summary": "[This Day] The 23rd edition of the Commonwealth Games will officially begin today in Glasgow, Scotland with Team Nigeria aiming to better her previous record at the multi-sport fiesta formerly known as the Empire Games. This will be the fourth edition that Scotland is hosting after the ones held in 1970, 1986, 2014 and now 2026. Glasgow 2026 will take place from July 23 to August 2, featuring about 3,000 athletes from 74 Commonwealth Games Associations competing for 215…",
@@ -16300,38 +16394,6 @@
           "name": "AllAfrica · Côte d'Ivoire",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607240571.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "16221d23c8",
-      "title": "Sénégal – Côte d’Ivoire : Tiémoko Meyliet Koné à Dakar sur fond de 88,5 millions de dollars d’exportations sénégalaises",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-24T15:17:37+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/07/24/senegal-cote-divoire-tiemoko-meyliet-kone-a-dakar-sur-fond-de-885-millions-de-dollars-dexportations-senegalaises/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/07/24/senegal-cote-divoire-tiemoko-meyliet-kone-a-dakar-sur-fond-de-885-millions-de-dollars-dexportations-senegalaises/"
         }
       ],
       "confirmation_count": 1
@@ -16692,38 +16754,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607220368.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "eb8592f12d",
-      "title": "Kenya To Host Africa Technology Leadership Conference 2026",
-      "summary": "The government of Kenya,  through the State Department for Science, Research & Innovation (SDSRI) and supported by the Ministry of...\nSource",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-07-22T06:27:15+00:00",
-      "lead_source": {
-        "id": "cio-afr",
-        "name": "CIO Africa",
-        "tier": 2,
-        "url": "https://cioafrica.co/kenya-to-host-africa-technology-leadership-conference-2026/"
-      },
-      "confirming_sources": [
-        {
-          "id": "cio-afr",
-          "name": "CIO Africa",
-          "tier": 2,
-          "url": "https://cioafrica.co/kenya-to-host-africa-technology-leadership-conference-2026/"
         }
       ],
       "confirmation_count": 1
