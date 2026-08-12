@@ -1,42 +1,41 @@
 {
-  "generated_at": "2026-08-12T02:43:15.309493+00:00",
+  "generated_at": "2026-08-12T05:01:03.315145+00:00",
   "stats": {
     "total_signals": 513,
     "verified_signals": 11,
-    "countries_covered": 31,
+    "countries_covered": 30,
     "sources_active": 32,
     "per_country": {
-      "MAR": 31,
+      "GIN": 5,
+      "ZWE": 1,
+      "MAR": 32,
       "ZAF": 58,
-      "MOZ": 45,
-      "COD": 16,
+      "MOZ": 44,
+      "COD": 17,
       "DZA": 3,
-      "NGA": 49,
-      "UGA": 40,
-      "AGO": 33,
-      "ETH": 11,
-      "KEN": 60,
-      "TZA": 34,
-      "SEN": 28,
+      "NGA": 48,
+      "UGA": 39,
+      "AGO": 32,
+      "ETH": 10,
+      "KEN": 58,
+      "TZA": 32,
       "MLI": 20,
+      "SEN": 32,
       "MWI": 2,
+      "CIV": 26,
       "ZMB": 14,
-      "GIN": 4,
-      "SLE": 5,
-      "CMR": 8,
-      "MDG": 2,
+      "SLE": 6,
+      "CMR": 7,
+      "MDG": 3,
       "RWA": 5,
-      "CIV": 25,
-      "LBR": 1,
-      "COG": 3,
-      "CAF": 1,
       "GAB": 1,
-      "TUN": 1,
-      "BFA": 1,
-      "TCD": 6,
+      "LBR": 1,
+      "COG": 4,
+      "BFA": 2,
       "GHA": 3,
-      "MRT": 1,
-      "BEN": 2
+      "TCD": 5,
+      "BEN": 2,
+      "TGO": 1
     }
   },
   "sources": [
@@ -234,6 +233,73 @@
     }
   ],
   "signals": [
+    {
+      "id": "490bd089fc",
+      "title": "Guinée: un nouvel immeuble s'effondre à Conakry et fait plusieurs morts",
+      "summary": "C’est un nouveau drame qui frappe Conakry après l’effondrement d’un immeuble en construction dans la proche banlieue de la capitale. Tard dans la nuit du lundi 10 au mardi 11 août, un bâtiment de cinq étages encore en chantier s’est écroulé moins d’un mois après qu’un autre drame similaire s’est produit dans un autre quartier, non loin de là. Sous les décombres, les secours ont trouvé plusieurs victimes. Le bilan provisoire fait état de cinq morts et de neuf personnes…",
+      "country": "GIN",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY",
+        "CONSTRUCTION"
+      ],
+      "lang": "fr",
+      "published": "2026-08-12T02:55:06+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260812-guin%C3%A9e-un-nouvel-immeuble-s-effondre-%C3%A0-conakry-et-fait-plusieurs-morts"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260812-guin%C3%A9e-un-nouvel-immeuble-s-effondre-%C3%A0-conakry-et-fait-plusieurs-morts"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "73af378e55",
+      "title": "Dozens dead and missing after ferry capsizes in Zimbabwe",
+      "summary": "An overloaded ferry capsized on Zimbabwe’s Lake Kariba, killing at least 15 people and leaving 27 missing.",
+      "country": "ZWE",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-12T02:47:36+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_overloaded-ferry-capsizes-in-zimbabwe-110826?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_overloaded-ferry-capsizes-in-zimbabwe-110826?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "cc606e79a5",
       "title": "Morocco Expects Scorching Heat From Sunday to Tuesday",
@@ -533,44 +599,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "dbcd6c9392",
-      "title": "South Africa mine collapse kills 14 suspected illegal miners",
-      "summary": "At least 14 suspected illegal miners were killed and eight injured when a mine dump collapsed in South Africa.",
-      "country": "ZAF",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-11T18:31:54+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/south-africa-mine-collapse-kills-14-suspected-illegal-miners?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/south-africa-mine-collapse-kills-14-suspected-illegal-miners?traffic_source=rss"
-        },
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cq6djprvevlo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "cad02a543d",
       "title": "10 Police Officers, Two Civilians Killed in Kebbi Battle With Bandits",
       "summary": "[Premium Times] Kebbi police said at least 17 suspected bandits were also killed after officers intercepted a heavily armed group along the Rafin Makuku axis of Sakaba LGA.",
@@ -730,38 +758,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110438.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c86bfb6212",
-      "title": "Afrique du Sud : 14 mineurs clandestins tués dans l’éboulement d’une mine",
-      "summary": "Plusieurs autres personnes pourraient encore être piégées sous terre. Le drame ravive les inquiétudes liées à l’exploitation minière illégale, particulièrement meurtrière en Afrique du Sud.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T12:42:16+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/11/afrique-du-sud-14-mineurs-clandestins-tues-dans-leboulement-dune-mine/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/11/afrique-du-sud-14-mineurs-clandestins-tues-dans-leboulement-dune-mine/"
         }
       ],
       "confirmation_count": 1
@@ -1122,72 +1118,6 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608100729.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9be21a4d03",
-      "title": "Sénégal: session parlementaire sur fond de rivalité entre le président de l’Assemblée et le chef de l'État",
-      "summary": "Au Sénégal, le président de l’Assemblée nationale Ousmane Sonko a ouvert, ce lundi 10 août, la première session extraordinaire de l’année. L’ordre du jour est chargé. Ces quinze prochains jours, les députés vont se pencher sur cinq textes de loi en tout. Deux de ces textes, portés par la majorité Pastef, seront examinés en procédure d’urgence. Très politiques, ils prolongent de nouveau dans l’hémicycle le face-à-face entre le camp d’Ousmane Sonko et celui de Bassirou…",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-10T22:36:08+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260810-s%C3%A9n%C3%A9gal-session-parlementaire-sur-fond-de-rivalit%C3%A9-entre-le-premier-ministre-et-le-pr%C3%A9sident"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260810-s%C3%A9n%C3%A9gal-session-parlementaire-sur-fond-de-rivalit%C3%A9-entre-le-premier-ministre-et-le-pr%C3%A9sident"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "dd9b83416e",
-      "title": "Les actrices des luttes anticoloniales: Muthoni wa Kirima, figure féminine des Mau Mau [2/10]",
-      "summary": "Au Kenya, Field Marshall Muthoni wa Kirima est reconnue comme l’une des figures des Mau Mau. Ce mouvement d’insurrection s’est battu pour l’indépendance du Kenya dans les années 1950. Il a été très violemment réprimé par les colons britanniques. Au moins 10 000 Kényans ont été tués, jusqu’à 90 000 selon certains chiffres. Le mouvement a largement contribué à pousser le Kenya vers l’indépendance, déclarée le 12 décembre 1963. Née en 1930, décédée en septembre 2023, Field…",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "fr",
-      "published": "2026-08-10T22:02:04+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260810-les-actrices-des-luttes-anticoloniales-muthoni-wa-kirima-figure-f%C3%A9minine-des-mau-mau"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260810-les-actrices-des-luttes-anticoloniales-muthoni-wa-kirima-figure-f%C3%A9minine-des-mau-mau"
         }
       ],
       "confirmation_count": 1
@@ -1783,6 +1713,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "f0d92faea8",
+      "title": "South Africa dump site collapse kills 14 suspected illegal miners",
+      "summary": "The authorities are searching for anyone who may still be trapped under the rubble.",
+      "country": "ZAF",
+      "category": "SINISTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-11T13:57:56+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cq6djprvevlo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cq6djprvevlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "9b6e72987f",
       "title": "U.S. Pledges $242mn for Ebola Response As Kenya Strengthens Regional Preparedness",
       "summary": "[Capital FM] Nairobi -- The United States has announced an additional $242 million to support immediate Ebola response, preparedness and humanitarian efforts in countries affected by or at risk from the outbreak in East and Central Africa.",
@@ -2146,38 +2108,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110098.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7a486c1b26",
-      "title": "Angola: l'Unita revendique 32 blessés par la police lors d'un hommage à Jonas Savimbi",
-      "summary": "À un an des élections présidentielles en Angola, prévues en août 2027, la répression d'un meeting politique de l'opposition ravive les craintes d'un climat social tendu. C'était dans le nord du pays, dans la province d'Uige, lors d'un hommage organisé à l'occasion du 92e anniversaire du père fondateur de l'Unita, Jonas Savimbi. L'intervention de la police a fait 31 blessés, dont dix « graves », selon le parti. Depuis, les réactions s'enchaînent.",
-      "country": "AGO",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T02:50:04+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260811-angola-l-unita-revendique-32-bless%C3%A9s-par-la-police-lors-d-un-hommage-%C3%A0-jonas-savimbi"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260811-angola-l-unita-revendique-32-bless%C3%A9s-par-la-police-lors-d-un-hommage-%C3%A0-jonas-savimbi"
         }
       ],
       "confirmation_count": 1
@@ -2580,6 +2510,78 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607310024.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "48a7530169",
+      "title": "Afrique du Sud: des mineurs clandestins meurent dans un nouvel éboulement dans une mine illégale",
+      "summary": "En Afrique du Sud, la question des activités minières artisanales illégales reste un défi majeur. Elles se déroulent au sein des quelque 6 000 anciennes mines abandonnées sans avoir été réhabilitées et attirent souvent les travailleurs de la sous-région, le tout chapeauté par des gangs. Un nouvel accident, survenu dans une mine désaffectée de platine et touchant principalement des migrants originaires du Lesotho, est venu rappeler ce mardi 11 août les dangers qui…",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-12T02:40:05+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260812-afrique-du-sud-des-mineurs-clandestins-meurent-dans-un-nouvel-%C3%A9boulement-dans-une-mine-ill%C3%A9gale"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260812-afrique-du-sud-des-mineurs-clandestins-meurent-dans-un-nouvel-%C3%A9boulement-dans-une-mine-ill%C3%A9gale"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/11/afrique-du-sud-14-mineurs-clandestins-tues-dans-leboulement-dune-mine/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "30a3638534",
+      "title": "Côte d'Ivoire: fin de l’enlèvement des stocks résiduels de cacao, des organisations demandent des comptes",
+      "summary": "En Côte d’Ivoire, alors que le Conseil café-cacao annonce la fin de l’opération d’enlèvement des stocks résiduels de la campagne principale, sept organisations de producteurs maintiennent la pression. Elles affirment que des milliers de tonnes de cacao, pourtant inventoriées par le régulateur, seraient toujours stockées dans des coopératives. Réunis face à la presse ce mardi 11 août, leurs responsables réclament davantage de transparence sur l’opération.",
+      "country": "CIV",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-12T02:35:03+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260812-c%C3%B4te-d-ivoire-fin-de-l-enl%C3%A8vement-des-stocks-r%C3%A9siduels-de-cacao-des-organisations-demandent-des-comptes"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260812-c%C3%B4te-d-ivoire-fin-de-l-enl%C3%A8vement-des-stocks-r%C3%A9siduels-de-cacao-des-organisations-demandent-des-comptes"
         }
       ],
       "confirmation_count": 1
@@ -4214,6 +4216,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "06928c9ded",
+      "title": "Sénégal : Bassirou Diomaye Faye lance « KIIRAAY », son nouveau parti, et ouvre une nouvelle phase politique",
+      "summary": "Le président sénégalais Bassirou Diomaye Faye a officiellement lancé, samedi 25 juillet à Dakar, sa nouvelle formation politique, « KIIRAAY – Les Patriotes Républicains », marquant une nouvelle étape dans la recomposition du paysage politique sénégalais après sa rupture avec le PASTEF, dirigé par son désormais ex-mentor Ousmane Sonko.\nDévoilé lors de l’assemblée générale constitutive organisée dans un hôtel de la place, le nouveau parti adopte pour devise « La Patrie…",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-25T19:55:08+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/senegal-bassirou-diomaye-faye-lance-kiiraay-son-nouveau-parti-et-ouvre-une-nouvelle-phase-politique/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/senegal-bassirou-diomaye-faye-lance-kiiraay-son-nouveau-parti-et-ouvre-une-nouvelle-phase-politique/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9ab8c6773b",
+      "title": "Entretien exclusif | Lansana Gagny Sakho appelle à restaurer la crédibilité économique du Sénégal",
+      "summary": "Invité spécial de Financial Afrik vendredi 24 juillet 2026, Lansana Gagny Sakho, président du Conseil d’administration de l’APIX, livre une analyse sans concession de la situation économique du Sénégal. S’il reconnaît la gravité de la crise de la dette, l’expert estime que le véritable défi est d’aborder  les réformes afin de restaurer la confiance des investisseurs,renouer avec les partenaires financiers et de remettre le secteur privé au cœur de la stratégie de…",
+      "country": "SEN",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-24T19:56:10+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/24/entretien-exclusif-lansana-gagny-sakho-appelle-a-restaurer-la-credibilite-economique-du-senegal/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/24/entretien-exclusif-lansana-gagny-sakho-appelle-a-restaurer-la-credibilite-economique-du-senegal/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "2832bd58b8",
       "title": "Ericsson Launches Telecoms Learnership Programme For South African Youth",
       "summary": "Ericsson South Africa has launched the first intake of a new field operations learnership programme aimed at developing technical skills...\nSource",
@@ -4571,6 +4637,102 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607130011.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "398e468fcc",
+      "title": "Gabon: suspension du site d’information 241 par la Haute Autorité de la communication",
+      "summary": "Au Gabon, le média en ligne Info 241 vient d’être frappé d’une suspension jusqu’à nouvel ordre par la Haute Autorité de la communication, l’organe de régulation de la communication au Gabon. Cette lourde sanction à durée indéterminée fait suite à la publication d’un article jugé injurieux contre le président gabonais, Brice Clotaire Oligui Nguema, et sa famille.",
+      "country": "GAB",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-12T02:50:05+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260812-gabon-suspension-du-site-d-information-241-par-la-haute-autorit%C3%A9-de-la-communication"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260812-gabon-suspension-du-site-d-information-241-par-la-haute-autorit%C3%A9-de-la-communication"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f6df8277a9",
+      "title": "Madagascar: la justice se saisit d'une affaire de corruption dans le parascolaire",
+      "summary": "À Madagascar, une affaire de corruption vient d'être transmise à la justice. Au cœur du dossier figurent plus de 18 000 tables-bancs, achetées avec de l'argent public pour des écoles, mais jamais livrées. Un préjudice estimé à plus de 800 millions d'ariary, l’équivalent de près de 160 000 euros. Le pôle anti-corruption enquête sur neuf personnes et trois sociétés. Cinq suspects sont déjà en détention.",
+      "country": "MDG",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-12T02:45:05+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260812-madagascar-la-justice-se-saisit-d-une-affaire-de-corruption-dans-le-parascolaire"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260812-madagascar-la-justice-se-saisit-d-une-affaire-de-corruption-dans-le-parascolaire"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "927cb466b3",
+      "title": "Sénégal: l’Ofnac publie son bilan sur l’opération de transparence du patrimoine des élus",
+      "summary": "C'est une première au Sénégal. L'Office national de lutte contre la fraude et la corruption, l'Ofnac, publie ce mercredi 12 août deux listes provisoires : celle des personnes qui se sont pliées à leur obligation de déclarer leur patrimoine, et celle des défaillants, qui ne l'ont pas fait. Ministres, chefs d'institutions, juges, agents de la présidence ou ministères avaient jusqu'au 31 juillet pour se mettre en règle.",
+      "country": "SEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-12T02:30:08+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260812-s%C3%A9n%C3%A9gal-l-ofnac-publie-son-bilan-sur-l-op%C3%A9ration-de-transparence-du-patrimoine-des-%C3%A9lus"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260812-s%C3%A9n%C3%A9gal-l-ofnac-publie-son-bilan-sur-l-op%C3%A9ration-de-transparence-du-patrimoine-des-%C3%A9lus"
         }
       ],
       "confirmation_count": 1
@@ -6062,38 +6224,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f97fae338e",
-      "title": "Cameroun : Canyon Resources conteste l’OPA d’A2PM sur le gisement de bauxite de Minim-Martap",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T14:15:28+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/11/cameroun-canyon-resources-conteste-lopa-da2pm-sur-le-gisement-de-bauxite-de-minim-martap/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/11/cameroun-canyon-resources-conteste-lopa-da2pm-sur-le-gisement-de-bauxite-de-minim-martap/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "ea13651b31",
       "title": "Mozambique: LAM to strengthen central-northern air links with Beira-based aircraft",
       "summary": "Linhas Aéreas de Moçambique (LAM) will strengthen air links between the central and northern regions of the country by stationing an aircraft in the city of Beira, Sofala province, according to a company press release. The measure will establish air links between Beira and the cities of Tete, Quelimane, Nampula, Pemba and Nacala, creating more…\nSource",
@@ -6121,70 +6251,6 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-lam-to-strengthen-central-northern-air-links-with-beira-based-aircraft/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0561c89142",
-      "title": "Centrafrique : les 3,1% de croissance de la BEAC butent sur les risques électoraux du FMI",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "CAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T14:00:42+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/11/centrafrique-les-31-de-croissance-de-la-beac-butent-sur-les-risques-electoraux-du-fmi/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/11/centrafrique-les-31-de-croissance-de-la-beac-butent-sur-les-risques-electoraux-du-fmi/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "717c0d9934",
-      "title": "Gabon : l’accélération de la croissance couvre une économie financée à crédit",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GAB",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T13:53:36+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/11/gabon-lacceleration-de-la-croissance-couvre-une-economie-financee-a-credit/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/11/gabon-lacceleration-de-la-croissance-couvre-une-economie-financee-a-credit/"
         }
       ],
       "confirmation_count": 1
@@ -6283,38 +6349,6 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-southern-region-at-risk-of-urban-flooding-and-erosion/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a262458c86",
-      "title": "Tunisie : La société Tawasol Group Holding fait une perte de 981 500 dinars au terme de l’exercice 2025",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "TUN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T13:12:28+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/11/tunisie-la-societe-tawasol-group-holding-fait-une-perte-de-981-500-dinars-au-terme-de-lexercice-2025/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/11/tunisie-la-societe-tawasol-group-holding-fait-une-perte-de-981-500-dinars-au-terme-de-lexercice-2025/"
         }
       ],
       "confirmation_count": 1
@@ -6638,38 +6672,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110435.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3470f8df14",
-      "title": "Africa50 mobilise 20 millions de dollars de BII et multiplie les accords d’infrastructures en Tanzanie",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "TZA",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T12:46:40+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/11/africa50-mobilise-20-millions-de-dollars-de-bii-et-multiplie-les-accords-dinfrastructures-en-tanzanie/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/11/africa50-mobilise-20-millions-de-dollars-de-bii-et-multiplie-les-accords-dinfrastructures-en-tanzanie/"
         }
       ],
       "confirmation_count": 1
@@ -7035,38 +7037,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "8740ec6c29",
-      "title": "À la Une: va-t-on vers un apaisement politique au Tchad?",
-      "summary": "",
-      "country": "TCD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T11:47:44+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260811-%C3%A0-la-une-va-t-on-vers-un-apaisement-politique-au-tchad"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260811-%C3%A0-la-une-va-t-on-vers-un-apaisement-politique-au-tchad"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "353383e5c6",
       "title": "Standard Bank Records Profit of 2.244 Billion Meticais",
       "summary": "[AIM] Maputo -- Mozambican branch of the South African Standard Bank has recorded, in the first half of 2026, a profit of 2.244 billion meticais (34.7 million US dollars at the current exchange rate).",
@@ -7288,38 +7258,6 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-tzu-chi-to-hand-over-new-nhamatanda-institute-of-health-sciences-19th-educational-institution-built-under-post-idai-reconstruction-support-in-sofala/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1ab2f6b795",
-      "title": "Nigeria : le gouvernement suspend des frais de recapitalisation contestés par deux assureurs",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "SOLVABILITE",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T11:25:20+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/11/nigeria-le-gouvernement-suspend-des-frais-de-recapitalisation-contestes-par-deux-assureurs/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/11/nigeria-le-gouvernement-suspend-des-frais-de-recapitalisation-contestes-par-deux-assureurs/"
         }
       ],
       "confirmation_count": 1
@@ -8597,70 +8535,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "bfef6776bd",
-      "title": "Standard Bank Mozambique réalise 30 millions d’euros de bénéfice au premier semestre 2026",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "MOZ",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T06:23:05+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/11/standard-bank-mozambique-realise-30-millions-deuros-de-benefice-au-premier-semestre-2026/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/11/standard-bank-mozambique-realise-30-millions-deuros-de-benefice-au-premier-semestre-2026/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "95dd599177",
-      "title": "Éthiopie: une nouvelle guerre au Tigré «s'étendrait à l'ensemble de la Corne» au vu du «jeu des alliances»",
-      "summary": "De nouveaux combats ont eu lieu début août dans l’ouest du Tigré, à la frontière avec le Soudan. Il s’agit des deuxièmes affrontements signalés entre les forces fédérales éthiopiennes et les forces tigréennes depuis le début de l’année. Alors que le gouvernement fédéral et le Front de libération du peuple du Tigré (TPLF) ont multiplié les déclarations de plus en plus hostiles ces derniers mois, faut-il craindre une reprise du conflit entre Addis-Abeba et le Tigré ?…",
-      "country": "ETH",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T06:11:45+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260811-%C3%A9thiopie-une-nouvelle-guerre-au-tigr%C3%A9-s-%C3%A9tendrait-%C3%A0-l-ensemble-de-la-corne-au-vu-du-jeu-des-alliances"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260811-%C3%A9thiopie-une-nouvelle-guerre-au-tigr%C3%A9-s-%C3%A9tendrait-%C3%A0-l-ensemble-de-la-corne-au-vu-du-jeu-des-alliances"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "255c26311a",
       "title": "Immigrant Traders See Their Livelihoods Destroyed By March and March",
       "summary": "[GroundUp] Traders with documents and permits chased away, leaving Bellville bus terminus market almost empty",
@@ -9600,38 +9474,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "aacdfadae2",
-      "title": "Mauritanie : le budget 2026 révisé à 140,3 milliards MRU, soit 3,5 milliards de dollars",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "MRT",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-11T00:11:09+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/11/mauritanie-le-budget-2026-revise-a-1403-milliards-mru-soit-35-milliards-de-dollars/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/11/mauritanie-le-budget-2026-revise-a-1403-milliards-mru-soit-35-milliards-de-dollars/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "ae339ae216",
       "title": "South African in Malawi for Miracle Cure At Prophet Has Car Stolen By 'Friend'",
       "summary": "[Nyasa Times] A man has been arrested after stealing a vehicle belonging to a South African national who had travelled to Malawi seeking spiritual healing from a renowned prophet, in a betrayal that saw him vanish into the night while his companion lay fast asleep.",
@@ -9829,38 +9671,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "def860085c",
-      "title": "Ouganda: derrière les élections de paroisse, la bataille pour le pouvoir local",
-      "summary": "En Ouganda, les conseils de paroisse, peu connus du grand public, jouent pourtant un rôle concret dans le règlement des litiges, le maintien de l’ordre et le relais avec les autorités. Leur renouvellement, ce lundi 10 août, doit aussi permettre de mesurer le rapport de force politique au niveau local, dans un système où le NRM, parti au pouvoir, part avec un net avantage.",
-      "country": "UGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-10T21:37:47+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260810-ouganda-derri%C3%A8re-les-%C3%A9lections-de-paroisse-la-bataille-pour-le-pouvoir-local"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260810-ouganda-derri%C3%A8re-les-%C3%A9lections-de-paroisse-la-bataille-pour-le-pouvoir-local"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "99f0eba0c7",
       "title": "Zimbabweans Fleeing Xenophobia in South Africa Battle to Get HIV Medicine Back Home",
       "summary": "[New Zimbabwe] FOR the past two decades, 49-year-old Renious Gumbi from Mberengwa in Zimbabwe lived in South Africa, where he worked as a bricklayer.",
@@ -10016,38 +9826,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1828890/politique/tchad-succes-masra-un-an-de-prison-et-de-negociations-secretes-avec-mahamat-idriss-deby-itno/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "fed4b5d01c",
-      "title": "Tanzanie: reprise du procès de Tundu Lissu, leader du Chadema, principal parti d’opposition",
-      "summary": "En Tanzanie, le procès pour haute trahison de Tundu Lissu, président du principal parti d’opposition tanzanien, a repris, ce lundi 10 août. Après près de six mois d’interruption, le procès reprend devant la Haute Cour de Dar es Salaam qui devra trancher si le dossier, transmis par l'accusation, est suffisamment solide pour poursuivre Tundu Lissu, à défaut de quoi l'affaire sera classée sans suite.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-10T18:40:28+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260810-tanzanie-reprise-du-proc%C3%A8s-de-tundu-lissu-leader-du-chadema-principal-parti-d-opposition"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260810-tanzanie-reprise-du-proc%C3%A8s-de-tundu-lissu-leader-du-chadema-principal-parti-d-opposition"
         }
       ],
       "confirmation_count": 1
@@ -11307,38 +11085,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/10/71-men-arrested-in-senegal-for-unnatural-acts-as-crackdown-intensifies/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "62d682a71f",
-      "title": "Kenya: EABL ends three-year capex cuts amid anticipated rollout of Asahi brands",
-      "summary": "After years of keeping a tight lid on spending, EABL may be preparing to open its purse strings again. The arrival of Asahi could usher in a new wave of brands, factory upgrades and expansion, but at what cost to shareholders?",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-10T10:00:00+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/427242/kenya-eabl-ends-three-year-capex-cuts-amid-anticipated-rollout-of-asahi-brands/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/427242/kenya-eabl-ends-three-year-capex-cuts-amid-anticipated-rollout-of-asahi-brands/"
         }
       ],
       "confirmation_count": 1
@@ -16289,6 +16035,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "4083109084",
+      "title": "COFEB : 30 auditeurs de la 48e promotion achèvent la phase théorique de leur formation",
+      "summary": "Le Centre ouest-africain de formation et d’études bancaires (COFEB), centre de formation et de recherche de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO), a organisé, samedi 25 juillet à Dakar, une cérémonie marquant la fin de la première phase de formation de la 48e promotion de son cycle diplômant.\nCette étape intervient avant l’obtention du diplôme du COFEB. Elle marque l’achèvement de la phase théorique d’une formation axée sur les disciplines…",
+      "country": "SEN",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-25T17:10:14+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/cofeb-30-auditeurs-de-la-48e-promotion-achevent-la-phase-theorique-de-leur-formation/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/cofeb-30-auditeurs-de-la-48e-promotion-achevent-la-phase-theorique-de-leur-formation/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a487d4eec3",
+      "title": "Burkina Faso : la justice annule un contrat de streaming aurifère de Franco-Nevada et Sandstorm, un jugement aux répercussions sur l’Afrique",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "BFA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-25T16:24:03+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/burkina-faso-la-justice-annule-un-contrat-de-streaming-aurifere-de-franco-nevada-et-sandstorm-un-jugement-aux-repercussions-sur-lafrique/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/burkina-faso-la-justice-annule-un-contrat-de-streaming-aurifere-de-franco-nevada-et-sandstorm-un-jugement-aux-repercussions-sur-lafrique/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "504879b09d",
       "title": "How Mali's Ancient Craft Is Building New Economic Futures",
       "summary": "[Bird Story Agency] Mali's iconic mud-dyed textile, bogolan, is creating new opportunities beyond its cultural significance. As the centuries-old craft gains protected status, women artisans and entrepreneurs are turning tradition into thriving businesses while preserving indigenous knowledge.",
@@ -16316,6 +16126,104 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607250157.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "166d15c87f",
+      "title": "Création monétaire, investissement manquant : ce que montrent neuf années de données sur l’économie de la Sierra Leone",
+      "summary": "Par Aboubakr Kaira Barry, CFA, Directeur Général de Results Associates et Président du conseil d’Omou Financial Literacy Center\nChaque année, les Sierra-Léonais voient les prix grimper. Le Leone s’affaiblit. La dette publique augmente. Les routes, les écoles et les hôpitaux s’améliorent à peine. Ce n’est pas de la malchance. C’est le résultat prévisible de deux décisions, répétées année après année. L’État crée trop de monnaie. Il s’endette aussi sans que cela se traduise…",
+      "country": "SLE",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "fr",
+      "published": "2026-07-25T10:57:51+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/creation-monetaire-investissement-manquant-ce-que-montrent-neuf-annees-de-donnees-sur-leconomie-de-la-sierra-leone/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/creation-monetaire-investissement-manquant-ce-que-montrent-neuf-annees-de-donnees-sur-leconomie-de-la-sierra-leone/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1d745f6b30",
+      "title": "RDC : S&P confirme la note souveraine « B-/B » et maintient une perspective positive",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-25T10:01:15+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/rdc-sp-confirme-la-note-souveraine-b-b-et-maintient-une-perspective-positive/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/rdc-sp-confirme-la-note-souveraine-b-b-et-maintient-une-perspective-positive/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b9bb651ed0",
+      "title": "Congo-Brazzaville : S&P maintient la note souveraine « CCC+/C » avec une perspective stable",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "COG",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-25T09:56:16+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/25/congo-brazzaville-sp-maintient-la-note-souveraine-ccc-c-avec-une-perspective-stable/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/25/congo-brazzaville-sp-maintient-la-note-souveraine-ccc-c-avec-une-perspective-stable/"
         }
       ],
       "confirmation_count": 1
@@ -16353,6 +16261,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "0c15db748e",
+      "title": "Maroc : Progression de 6,5% du PIB nominal au terme de l’année 2025",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MAR",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-24T19:42:46+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/24/maroc-progression-de-65-du-pib-nominal-au-terme-de-lannee-2025/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/24/maroc-progression-de-65-du-pib-nominal-au-terme-de-lannee-2025/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "951110cb03",
+      "title": "Le Trésor Public Togolais obtient 22 milliards de FCFA sur le marché financier de l’UMOA",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "TGO",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-24T19:37:22+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/24/le-tresor-public-togolais-obtient-22-milliards-de-fcfa-sur-le-marche-financier-de-lumoa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/24/le-tresor-public-togolais-obtient-22-milliards-de-fcfa-sur-le-marche-financier-de-lumoa/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "6d6241e3d1",
       "title": "Glasgow Aglow With Pride As Team Nigeria, 73 Other Countries Kickoff 2026 Commonwealth Games",
       "summary": "[This Day] The 23rd edition of the Commonwealth Games will officially begin today in Glasgow, Scotland with Team Nigeria aiming to better her previous record at the multi-sport fiesta formerly known as the Empire Games. This will be the fourth edition that Scotland is hosting after the ones held in 1970, 1986, 2014 and now 2026. Glasgow 2026 will take place from July 23 to August 2, featuring about 3,000 athletes from 74 Commonwealth Games Associations competing for 215…",
@@ -16380,6 +16352,38 @@
           "name": "AllAfrica · Côte d'Ivoire",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607240571.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "16221d23c8",
+      "title": "Sénégal – Côte d’Ivoire : Tiémoko Meyliet Koné à Dakar sur fond de 88,5 millions de dollars d’exportations sénégalaises",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-07-24T15:17:37+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/07/24/senegal-cote-divoire-tiemoko-meyliet-kone-a-dakar-sur-fond-de-885-millions-de-dollars-dexportations-senegalaises/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/07/24/senegal-cote-divoire-tiemoko-meyliet-kone-a-dakar-sur-fond-de-885-millions-de-dollars-dexportations-senegalaises/"
         }
       ],
       "confirmation_count": 1
