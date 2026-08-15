@@ -1,22 +1,21 @@
 {
-  "generated_at": "2026-08-15T06:56:41.672063+00:00",
+  "generated_at": "2026-08-15T07:43:30.153324+00:00",
   "stats": {
-    "total_signals": 517,
-    "verified_signals": 13,
-    "countries_covered": 30,
+    "total_signals": 519,
+    "verified_signals": 12,
+    "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
-      "ZAF": 50,
+      "COD": 15,
+      "ZAF": 52,
       "ZWE": 5,
       "AGO": 29,
-      "MOZ": 43,
-      "MAR": 40,
-      "KEN": 59,
+      "MOZ": 44,
+      "MAR": 41,
+      "KEN": 57,
       "NGA": 52,
-      "COD": 16,
       "TZA": 30,
-      "BFA": 5,
-      "UGA": 35,
+      "UGA": 36,
       "SEN": 22,
       "CMR": 10,
       "MDG": 2,
@@ -24,15 +23,17 @@
       "ETH": 12,
       "MLI": 24,
       "GAB": 2,
-      "TCD": 6,
+      "TCD": 7,
       "MWI": 3,
+      "COG": 1,
       "DZA": 5,
       "GIN": 4,
       "CIV": 22,
       "NER": 3,
       "CAF": 4,
-      "RWA": 5,
+      "RWA": 4,
       "TUN": 2,
+      "BFA": 4,
       "GHA": 5,
       "BEN": 1,
       "LBR": 1
@@ -233,6 +234,40 @@
     }
   ],
   "signals": [
+    {
+      "id": "c05375105d",
+      "title": "Ebola en RDC: un décès toutes les 30 minutes, alerte l'ONU",
+      "summary": "L'épidémie d'Ebola en RDC fait un mort toutes les 30 minutes, a alerté vendredi 14 août le chef des affaires humanitaires de l'ONU, appelant la communauté internationale à « se réveiller et se mobiliser ».",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "fr",
+      "published": "2026-08-15T07:31:28+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260815-ebola-en-rdc-un-d%C3%A9c%C3%A8s-toutes-les-30-minutes-alerte-l-onu"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260815-ebola-en-rdc-un-d%C3%A9c%C3%A8s-toutes-les-30-minutes-alerte-l-onu"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "3649baa538",
       "title": "Solide &#xE9;quipe des SA Proteas s&#xE9;lectionn&#xE9;e pour la tourn&#xE9;e en Namibie",
@@ -869,38 +904,6 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/south-sudan-embassy-in-kenya-cuts-operating-hours-5557420"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f1ce419e3a",
-      "title": "Burkina Faso: plusieurs personnalités devront répondre d'assassinat dans l'affaire Norbert Zongo",
-      "summary": "Au Burkina Faso, nouveau développement dans l’affaire Norbert Zongo, du nom de ce journaliste d’investigation assassiné le 13 décembre 1998 avec trois de ses compagnons alors qu’il enquêtait sur la mort suspecte du chauffeur du petit frère de l’ancien président Blaise Compaoré. Dans un communiqué, le procureur général près la cour d’appel d Ouagadougou informe que trois personnes, dont François Compaoré, le frère cadet de l’ex-président Blaise Compaoré devront comparaitre…",
-      "country": "BFA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T00:56:27+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260814-burkina-faso-plusieurs-personnalit%C3%A9s-devront-r%C3%A9pondre-d-assassinat-dans-l-affaire-norbert-zongo"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260814-burkina-faso-plusieurs-personnalit%C3%A9s-devront-r%C3%A9pondre-d-assassinat-dans-l-affaire-norbert-zongo"
         }
       ],
       "confirmation_count": 1
@@ -2270,40 +2273,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "9fb3bd7bbb",
-      "title": "Ebola en RDC : l’OMS appelle à un essai clinique du vaccin Ervebo",
-      "summary": "En République démocratique du Congo, l’épidémie d’Ebola progresse à une vitesse inédite et dépasse désormais les 4 000 cas déclarés. Face au variant Bundibugyo, l’OMS appelle à un essai clinique du vaccin Ervebo, seul vaccin disponible contre Ebola.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-08-11T11:22:01+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260811-ebola-en-rdc-l-oms-appelle-%C3%A0-un-essai-clinique-du-vaccin-ervebo"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260811-ebola-en-rdc-l-oms-appelle-%C3%A0-un-essai-clinique-du-vaccin-ervebo"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "71f346b5a1",
       "title": "Nigeria's mass wedding - and how telling lovers from fraudsters is proving tricky",
       "summary": "The scheme is for couples who cannot afford the significant financial costs associated with marriage.",
@@ -2433,6 +2402,70 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607310024.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "54c011b9fc",
+      "title": "Morocco and Spain boost security in Ceuta as another call for border rush seen online",
+      "summary": "Moroccan authorities on Wednesday announced measures to counter a new influx of migrants to the Spanish territory of Ceuta, after monitoring a new wave of online disinformation.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T07:16:05+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/15/morocco-and-spain-boost-security-in-ceuta-as-another-call-for-border-rush-seen-online/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/15/morocco-and-spain-boost-security-in-ceuta-as-another-call-for-border-rush-seen-online/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8a99c583c8",
+      "title": "Congo’s constitution debate: Reform, power, and a missing national vision",
+      "summary": "The Democratic Republic of Congo does not lack talent, resources, or ideas. It lacks a shared...",
+      "country": "COG",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/congo-s-constitution-debate-5558266"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/congo-s-constitution-debate-5558266"
         }
       ],
       "confirmation_count": 1
@@ -2979,6 +3012,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "2b37c071ec",
+      "title": "2027 Presidency - Sdp's Adebayo Pledges Economic Revival, 75,000mw Power",
+      "summary": "[Leadership] The presidential candidate of the Social Democratic Party (SDP), Prince Adewole Adebayo, has pledged to revive Nigeria's economy, tackle insecurity, create full employment and increase electricity generation to between 50,000 and 75,000 megawatts if elected in the 2027 presidential election.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "en",
+      "published": "2026-08-14T10:42:08+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608140176.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608140176.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a4d643e70c",
       "title": "1.4 Tons of Fentanyl Seized At Maputo International Airport",
       "summary": "[AIM] Maputo -- Mozambique's National Criminal Investigation Service (SERNIC) has announced the seizure of 1.4 tons of fentanyl at the Maputo International Airport cargo terminal.",
@@ -3318,78 +3385,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "38ca99c762",
-      "title": "Exclusive - What Nigerian Delegates, African Group of Negotiators Will Demand At COP17",
-      "summary": "[Premium Times] Nigeria and other African countries will push for a legally binding instrument on drought management and increased financing to tackle desertification, land degradation and drought at the 17th session of the Conference of the Parties to the United Nations Convention to Combat Desertification (UNCCD COP17) in Mongolia.",
-      "country": "NGA",
-      "category": "CLIMAT",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "en",
-      "published": "2026-08-14T07:09:27+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140039.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140039.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b213b50451",
-      "title": "Nigeria to Miss Women's World Cup for First Time in Over 30 Years",
-      "summary": "[Premium Times] The Super Falcons had hoped to recover from their disappointing WAFCON quarter-final exit against Cameroon, but South Africa proved too strong in Thursday's crucial play-off.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T07:08:38+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140037.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140037.html"
-        },
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140037.html"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "bf98fa0613",
       "title": "UDB Boosts 2026 Rwenzori Marathon With Shs20m Sponsorship",
       "summary": "[Nile Post] Uganda Development Bank Limited (UDB) has announced a Shs20 million sponsorship towards the 2026 Tusker Lite Rwenzori Marathon as part of its support for the tourism sector.",
@@ -3515,40 +3510,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/13/mali-larmee-annonce-la-liberation-de-82-soldats-et-goita-gracie-un-francais/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0fb9a21f90",
-      "title": "Ebola en RDC: derrière les millions annoncés pour la riposte, le défi de coordonner les financements",
-      "summary": "En République démocratique du Congo (RDC), le coût prévu de la riposte à Ebola change fortement d’échelle. Prévu pour une durée de trois mois, le premier plan national avait été budgété à 240 millions de dollars. Non finalisé encore, le nouveau plan présenté par le gouvernement qui doit financer non seulement la lutte contre le virus, mais aussi la continuité des services essentiels de santé, atteint, lui, désormais, 940 millions de dollars, selon Anne Ancia,…",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-08-13T15:49:18+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260813-ebola-en-rdc-derri%C3%A8re-les-millions-annonc%C3%A9s-pour-la-riposte-le-d%C3%A9fi-de-coordonner-les-financements"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260813-ebola-en-rdc-derri%C3%A8re-les-millions-annonc%C3%A9s-pour-la-riposte-le-d%C3%A9fi-de-coordonner-les-financements"
         }
       ],
       "confirmation_count": 1
@@ -3872,70 +3833,6 @@
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608120175.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1fff69db32",
-      "title": "MPs to Consider Six Bills Seeking Sweeping Reforms in Education Sector",
-      "summary": "[Capital FM] Nairobi -- The National Assembly is set to consider six Bills proposing far-reaching reforms across Kenya's education sector, with the proposed legislation targeting basic education governance, national assessments, curriculum development, teacher training, tertiary education funding and the recognition of academic and professional qualifications.",
-      "country": "KEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-12T07:44:42+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608120068.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608120068.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f07ee10ca3",
-      "title": "MPs Put Kenya Law Reform Commission On Spot Over Sh2.1mn Unauthorised Spending",
-      "summary": "[Capital FM] Nairobi -- Members of Parliament have put the Kenya Law Reform Commission (KLRC) on the spot over millions of shillings in expenditure that was not approved by the commission, with the Auditor-General warning that the institution failed to follow budget reallocation procedures.",
-      "country": "KEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-12T07:09:10+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608120025.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608120025.html"
         }
       ],
       "confirmation_count": 1
@@ -4878,6 +4775,72 @@
       "confirmation_count": 1
     },
     {
+      "id": "73ac96f6b2",
+      "title": "From Boom to Bust and Back: Kenya's Long Cotton Journey",
+      "summary": "[allAfrica] There was a time when cotton was more than just another crop in Kenya. In parts of the country, it was white gold. Farmers planted it knowing that the harvest could pay school fees, put food on the table and keep money circulating in rural communities. Cooperatives provided a link between farmers and markets, ginneries kept workers employed and textile mills had a ready source of raw material. In Mpeketoni, Lamu County, David Njuguna, chairman of the Lake…",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "en",
+      "published": "2026-08-15T07:37:43+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608150001.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608150001.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3d31e89155",
+      "title": "«Maintenant, il est libre»: le récit de la sortie de prison de l'opposant tchadien Succès Masra",
+      "summary": "Au Tchad, l'opposant Succès Masra est libre. Le président des Transformateurs, principal parti d'opposition a été grâcié vendredi 14 août par le chef de l'État Mahamat Idriss Déby. Huit autres opposants, tous membres du Groupe de concertation des acteurs politiques ont aussi été graciés et libérés. RFI était cette nuit au siège du parti.",
+      "country": "TCD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-15T07:16:38+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260815-maintenant-il-est-libre-le-r%C3%A9cit-de-la-sortie-de-prison-de-l-opposant-tchadien-succ%C3%A8s-masra"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260815-maintenant-il-est-libre-le-r%C3%A9cit-de-la-sortie-de-prison-de-l-opposant-tchadien-succ%C3%A8s-masra"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a344f2fd56",
       "title": "Otage américain au Niger : comment l’administration Trump a obtenu la libération",
       "summary": "Enlevé à Niamey en octobre 2024, le missionnaire américain Kevin Rideout a été libéré aprés dix mois de captivité. Une coopération discrète entre Washington et les pays de l’Alliance des États du Sahel a permis son retour.",
@@ -4910,6 +4873,72 @@
       "confirmation_count": 1
     },
     {
+      "id": "544bafd8ad",
+      "title": "South Africa’s Trevor Manuel: ‘Our democracy needs a lot of repair work’",
+      "summary": "Lived experience is what Trevor Manuel brings to the table regarding the features and flaws of the continent’s biggest economy. The Africa Report sits down with South Africa’s former finance minister, who talks about politics, Polokwane and more.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "REASSURANCE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T07:00:00+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/427418/south-africas-trevor-manuel-our-democracy-needs-a-lot-of-repair-work/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/427418/south-africas-trevor-manuel-our-democracy-needs-a-lot-of-repair-work/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d1c924effe",
+      "title": "UN calls for negotiations to end the conflict in Mozambique",
+      "summary": "A military victory over jihadist insurgents in Mozambique's Cabo Delgado province does not appear imminent, according to a report by a United Nations special rapporteur released Friday.",
+      "country": "MOZ",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "en",
+      "published": "2026-08-15T06:21:25+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/15/un-calls-for-negotiations-to-end-the-conflict-in-mozambique/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/15/un-calls-for-negotiations-to-end-the-conflict-in-mozambique/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "405f1d77eb",
       "title": "Mozambique : l’ONU alerte sur l’impasse militaire face aux djihadistes",
       "summary": "Au Mozambique, l’ONU estime qu’une victoire militaire contre l’insurrection djihadiste est encore hors de portée. Après une mission de dix jours à Cabo Delgado, le rapporteur spécial Ben Saul appelle les autorités à privilégier une issue négociée au conflit.",
@@ -4926,7 +4955,7 @@
         "POLITICAL_VIOLENCE"
       ],
       "lang": "fr",
-      "published": "2026-08-15T06:13:43+00:00",
+      "published": "2026-08-15T06:14:02+00:00",
       "lead_source": {
         "id": "afnews-fr",
         "name": "Africanews FR",
@@ -4976,6 +5005,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "1bc3219b4c",
+      "title": "EAC asks partner states to stop plugging budget shortfalls with central bank ‘tool’",
+      "summary": "Nairobi is expected to table recommendations on phasing out overdraft facilities as bloc races...",
+      "country": "KEN",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T05:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/eac-partner-states-central-bank-budget-shortfalls-5558444"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/eac-partner-states-central-bank-budget-shortfalls-5558444"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "947596072a",
+      "title": "Uganda sovereignty law on trial in new case",
+      "summary": "At the centre of the dispute is the balance between Uganda’s sovereign authority to regulate...",
+      "country": "UGA",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T05:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/uganda-sovereignty-law-on-trial-in-new-case-5558514"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/uganda-sovereignty-law-on-trial-in-new-case-5558514"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "83b5626f77",
       "title": "Morocco boosts Ceuta security amid calls for mass migrant crossing",
       "summary": "Morocco has added barbed wire and more police near Spain’s Ceuta enclave after online calls for another mass crossing.",
@@ -5003,6 +5096,70 @@
           "name": "Al Jazeera",
           "tier": 1,
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-26-morocco-ceuta-foritfication-clip-mp4?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "302e0dd351",
+      "title": "Uganda joins Kenya in opposing Rwanda ban on alcoholic drinks",
+      "summary": "The Ugandan standards body says that no technical or scientific justification was presented to...",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T03:45:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-joins-kenya-in-opposing-rwanda-alcohol-ban-5558630"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-joins-kenya-in-opposing-rwanda-alcohol-ban-5558630"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "febabd5847",
+      "title": "South Africa’s anti-migrant purge raises costs, tensions",
+      "summary": "Regional countries already at odds with Pretoria could be saddled with compensation claims for...",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/south-africa-anti-migrant-purge-5558150"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/south-africa-anti-migrant-purge-5558150"
         }
       ],
       "confirmation_count": 1
@@ -6508,6 +6665,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "cb18a4fc14",
+      "title": "Telco Deploys Over 1,000 New 5G Sites As Data Use Surges 31 Percent",
+      "summary": "[Leadership] Airtel Nigeria has accelerated the expansion of its fifth-generation (5G) network, integrating more than 1,000 new 5G sites in the last one year as rising data consumption puts increasing pressure on mobile networks across the country.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T15:34:59+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608140375.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608140375.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ab2b5563c6",
       "title": "Court Victory for Wild Coast Activists",
       "summary": "[GroundUp] Apex court sets aside Shell and Impact Africa's exploration right",
@@ -6635,6 +6824,38 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608140370.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6935101e78",
+      "title": "Police Arrest Two With 132 Sachets of Tramadol in Delta",
+      "summary": "[Daily Trust] Benin -- Operatives of the Delta State Police Command have arrested two suspects over alleged drug trafficking in the state.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T15:30:50+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608140368.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608140368.html"
         }
       ],
       "confirmation_count": 1
@@ -8366,41 +8587,9 @@
       "confirmation_count": 1
     },
     {
-      "id": "42f4393d62",
-      "title": "#osundecides2026 - Residents Speak On Election-Day Expectations, Demand Transparent, Violence-Free Polls",
-      "summary": "[Premium Times] Their responses reveal a state caught between fear and determination, as they are aware of the risks posed by the violence and yet remain unwilling to surrender their right to participate in choosing who governs Osun State.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T07:08:02+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140036.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140036.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "25322f657f",
-      "title": "'Death Pact' Bound Julius Mkhwanazi and Co-Accused to Secrecy in Murder Case, Court Hears",
-      "summary": "[Daily Maverick] Former Ekurhuleni Metro Police Department deputy chief Julius Mkhwanazi and his co-accused in Emmanuel Mbense's murder allegedly agreed to stay silent. Four of those originally implicated have since died.",
+      "id": "48f0e5e8e6",
+      "title": "Nigeria to Miss Women's World Cup for First Time in Over 30 Years",
+      "summary": "[Premium Times] The Super Falcons had hoped to recover from their disappointing WAFCON quarter-final exit against Cameroon, but South Africa proved too strong in Thursday's crucial play-off.",
       "country": "ZAF",
       "category": "AUTRE",
       "severity": 1,
@@ -8412,19 +8601,19 @@
       "fdi": false,
       "sectors": [],
       "lang": "en",
-      "published": "2026-08-14T07:04:30+00:00",
+      "published": "2026-08-14T07:08:38+00:00",
       "lead_source": {
         "id": "aa-zaf",
         "name": "AllAfrica · Afrique du Sud",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202608140035.html"
+        "url": "https://allafrica.com/stories/202608140037.html"
       },
       "confirming_sources": [
         {
           "id": "aa-zaf",
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202608140035.html"
+          "url": "https://allafrica.com/stories/202608140037.html"
         }
       ],
       "confirmation_count": 1
@@ -9177,6 +9366,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "af8856c79b",
+      "title": "Media Statement - Unemployment Crisis Requires More Than Another Stimulus Package, Says Committee Chair",
+      "summary": "[Parliament of South Africa] The latest unemployment figures should concern every South African, irrespective of political affiliation, the Chairperson of Select Committee on Economic Development and Trade Ms Sonja Boshoff has said.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T15:15:40+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608130391.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608130391.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "dfc6e32310",
       "title": "Dangote refinery fuels push to reconnect Nigeria’s ports and railways",
       "summary": "Nigeria is pushing ahead with plans to link its ports, refineries and fuel depots to the national railway network as the expansion of domestic refining exposes longstanding weaknesses in the country’s distribution infrastructure.",
@@ -9597,40 +9818,6 @@
           "name": "CIO Africa",
           "tier": 2,
           "url": "https://cioafrica.co/kenya-aws-move-to-scale-digital-skills-and-ai/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "74ff8e72a2",
-      "title": "How South Africa overtook Spain to become the world’s citrus export leader",
-      "summary": "A record-breaking harvest has propelled South Africa’s zesty produce, as the country now seeks new markets in the East.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "en",
-      "published": "2026-08-13T13:00:00+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/427304/how-south-africa-overtook-spain-to-become-the-worlds-citrus-export-leader/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/427304/how-south-africa-overtook-spain-to-become-the-worlds-citrus-export-leader/"
         }
       ],
       "confirmation_count": 1
@@ -12051,6 +12238,41 @@
       "confirmation_count": 1
     },
     {
+      "id": "cbe1d9a024",
+      "title": "High Court Orders NTSA to Keep Recognising Physical Logbooks Amid e-Logbook Case",
+      "summary": "[Capital FM] Nairobi -- The High Court has directed the National Transport and Safety Authority (NTSA) to continue recognising existing physical motor vehicle logbooks as valid documents pending the hearing and determination of a petition challenging the implementation of the electronic motor vehicle registration certificate, commonly known as the e-Logbook.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AUTO",
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "en",
+      "published": "2026-08-12T10:51:56+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608120184.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608120184.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "95973cfb06",
       "title": "Government Collects 183.3 Million Meticais in Revenue",
       "summary": "[AIM] Maputo -- The Mozambican government has collected, during the first half of 2026, 183.3 million meticais (2.9 million US dollars at the current exchange rate) in revenue, which corresponds to 45 percent of target set in the Economic and Social Plan.",
@@ -14228,38 +14450,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ffd3e7875a",
-      "title": "Rwanda in talks with Italy to resettle irregular migrants",
-      "summary": "Rwanda says it wants to provide safe shelter to fellow Africans.",
-      "country": "RWA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-08T03:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/rwanda-in-talks-with-italy-to-resettle-irregular-migrants-5550588"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/rwanda-in-talks-with-italy-to-resettle-irregular-migrants-5550588"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "416cbd81fc",
       "title": "From Ivory Coast to Real Madrid - Malawi's James Woods On Africa's Most Expensive Footballer, Yan Diomande",
       "summary": "[Nyasa Times] James Woods, the Malawian diplomat and sports-business figure who was part of a sports group who backed Yan Diomande in the early years of his career, reflects on the making of a €140m footballer",
@@ -14324,40 +14514,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b7dcbc12a0",
-      "title": "Uganda gets parliamentary nod to send troops to Gaza",
-      "summary": "Defence officials said they had been approached by Washington to contribute troops to a...",
-      "country": "UGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-08-07T17:43:39+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/uganda-seeks-parliamentary-nod-to-send-troops-to-gaza-5549136"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/uganda-seeks-parliamentary-nod-to-send-troops-to-gaza-5549136"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "e9e969c077",
       "title": "TCB to Distribute 20 Million Improved Seedlings",
       "summary": "[Daily News] Dodoma -- THE Tanzania Coffee Board (TCB) is planning to distribute 22 million improved coffee seedlings to the farmers in Kagera Region during 2026/27 season, in efforts to transform the agricultural sector.",
@@ -14387,72 +14543,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608070326.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b5c2f997a7",
-      "title": "Court: Kenya General Election due this year not 2027, but...",
-      "summary": "Judge, however, suspends decision to avoid chaos.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-07T12:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/court-kenya-general-election-due-this-year-not-2027-5549808"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/court-kenya-general-election-due-this-year-not-2027-5549808"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ccc7bf3719",
-      "title": "Kenya imposes travel insurance on visitors, raising debate on barriers",
-      "summary": "International visitors are required to obtain travel health insurance with a minimum total...",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-07T11:45:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-imposes-travel-insurance-on-visitors-5549798"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-imposes-travel-insurance-on-visitors-5549798"
         }
       ],
       "confirmation_count": 1
@@ -14651,38 +14741,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608070007.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b32377c576",
-      "title": "Kenya next in line as Letshego advances sale of Uganda, Rwanda and Tanzania units",
-      "summary": "The Gaborone-based microfinancier seeks to completely exit its markets in East and West Africa.",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-07T03:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-next-in-line-as-letshego-advances-sale-of-uganda-rwanda-and-tanzania-units-5549348"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-next-in-line-as-letshego-advances-sale-of-uganda-rwanda-and-tanzania-units-5549348"
         }
       ],
       "confirmation_count": 1
