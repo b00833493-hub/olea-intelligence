@@ -1,31 +1,33 @@
 {
-  "generated_at": "2026-08-16T15:34:59.274404+00:00",
+  "generated_at": "2026-08-16T16:42:26.725447+00:00",
   "stats": {
-    "total_signals": 500,
-    "verified_signals": 13,
-    "countries_covered": 30,
+    "total_signals": 501,
+    "verified_signals": 16,
+    "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
+      "KEN": 50,
       "ZWE": 7,
-      "NGA": 51,
+      "NGA": 50,
       "MOZ": 45,
       "COD": 12,
       "AGO": 29,
-      "MAR": 45,
-      "KEN": 50,
+      "MAR": 46,
       "TZA": 30,
-      "ZAF": 47,
+      "ZAF": 45,
       "UGA": 35,
-      "SEN": 25,
+      "SEN": 26,
       "CIV": 22,
       "MLI": 23,
       "MRT": 1,
       "CMR": 8,
-      "ZMB": 17,
-      "TCD": 12,
+      "ZMB": 18,
+      "TCD": 11,
       "MWI": 4,
+      "RWA": 3,
       "BFA": 7,
       "DZA": 3,
+      "BWA": 1,
       "TGO": 1,
       "MDG": 2,
       "TUN": 3,
@@ -34,8 +36,7 @@
       "NER": 2,
       "GAB": 1,
       "GIN": 2,
-      "GHA": 3,
-      "RWA": 2
+      "GHA": 3
     }
   },
   "sources": [
@@ -233,6 +234,46 @@
     }
   ],
   "signals": [
+    {
+      "id": "52ecc8e441",
+      "title": "Kenya : un mal mystérieux décime les éléphants",
+      "summary": "Au Kenya, un mystérieux mal décime les éléphants dans une région touristique du sud du pays. Au moins 20 pachydermes sont morts depuis juin. Les autorités évoquent des traces de cyanure, une piste qui laisse sceptiques agriculteurs et scientifiques.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-16T15:55:54+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-kenya-un-mal-myst%C3%A9rieux-d%C3%A9cime-les-%C3%A9l%C3%A9phants"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-kenya-un-mal-myst%C3%A9rieux-d%C3%A9cime-les-%C3%A9l%C3%A9phants"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/14/kenya-une-mysterieuse-affection-decime-les-elephants/"
+        }
+      ],
+      "confirmation_count": 2
+    },
     {
       "id": "09f5a129fb",
       "title": "Zimbabwe : le bilan monte à 80 morts dans le naufrage d'un ferry sur le lac Kariba",
@@ -710,38 +751,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "51f14c54e7",
-      "title": "Kenya : une mystérieuse affection décime les éléphants",
-      "summary": "Au moins 19 éléphants sont morts depuis juin dans le sud du Kenya, principalement des femelles et de jeunes mâles. Les animaux présentaient des symptômes similaires, notamment une paralysie partielle, mais l’origine exacte de cette mortalité reste incertaine.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T16:00:38+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/14/kenya-une-mysterieuse-affection-decime-les-elephants/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/14/kenya-une-mysterieuse-affection-decime-les-elephants/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "b73eed45d7",
       "title": "U.S. Flags Civilian Deaths, Funding Gaps As Nigeria Pushes for CPC Delisting",
       "summary": "[Vanguard] Despite Nigeria's reported prosecution of hundreds of terror suspects and recruitment of 50,000 police officers, the United States said continuing challenges remained in the fight to remove Nigeria from its Country of Particular Concern, CPC, list.",
@@ -1042,38 +1051,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "a9715953c5",
-      "title": "Au Nigéria, le village d'Orimedu menacé par l'érosion côtière",
-      "summary": "À Orimedu, village de pêcheurs sur le littoral de l’État de Lagos, au Nigeria, l’érosion côtière et la montée des eaux gagnent du terrain. Des maisons sont endommagées et les activités de pêche menacées. Habitants et scientifiques expérimentent des réponses face à cette urgence.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-12T13:54:46+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260812-au-nig%C3%A9ria-le-village-d-orimedu-menac%C3%A9-par-l-%C3%A9rosion-c%C3%B4ti%C3%A8re"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260812-au-nig%C3%A9ria-le-village-d-orimedu-menac%C3%A9-par-l-%C3%A9rosion-c%C3%B4ti%C3%A8re"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "3e8058af98",
       "title": "Taxi Driver or Potential Killer? Uganda's Deadly Culture of Reckless Driving",
       "summary": "[Nile Post] Fourteen people died in Lwera. Two more died days later in Kakira. Now, 11 commuter taxi drivers have been arrested for allegedly engaging in dangerous loading during a night operation at Maya along the Kampala-Masaka Highway.",
@@ -1108,33 +1085,33 @@
       "confirmation_count": 1
     },
     {
-      "id": "df3b0c3be9",
-      "title": "Afrique du Sud : 14 morts après un éboulement dans une mine près de Rustenburg",
-      "summary": "En Afrique du Sud, 14 mineurs sont morts après l’effondrement, lundi soir, d’un puits abandonné près de Rustenburg. Huit autres ont été grièvement blessés et plusieurs personnes seraient encore piégées sous terre.",
-      "country": "ZAF",
-      "category": "SINISTRE",
+      "id": "276c0f2c9a",
+      "title": "Mortgage Approval Does Not Guarantee the Keys to Your Home, Absa Says",
+      "summary": "[Capital FM] Nairobi -- Getting a mortgage approved does not necessarily mean a homebuyer is immediately ready to take possession of a property, with Absa Bank Kenya highlighting the legal and conveyancing steps that must be completed before financing can be disbursed.",
+      "country": "KEN",
+      "category": "AUTRE",
       "severity": 4,
       "credibility": 2,
       "verified": false,
-      "theme": null,
+      "theme": "MA_GOUV",
       "legal_status": null,
-      "regulatory": false,
+      "regulatory": true,
       "fdi": false,
       "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-12T11:50:42+00:00",
+      "lang": "en",
+      "published": "2026-08-12T12:21:15+00:00",
       "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260812-afrique-du-sud-14-morts-apr%C3%A8s-un-%C3%A9boulement-dans-une-mine-pr%C3%A8s-de-rustenburg"
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608120281.html"
       },
       "confirming_sources": [
         {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260812-afrique-du-sud-14-morts-apr%C3%A8s-un-%C3%A9boulement-dans-une-mine-pr%C3%A8s-de-rustenburg"
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608120281.html"
         }
       ],
       "confirmation_count": 1
@@ -2240,6 +2217,110 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607310024.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3404db222f",
+      "title": "Tchad : l'opposant Succès Masra s’exprime après sa libération",
+      "summary": "L’opposant tchadien et ancien Premier ministre Succès Masra, fondateur du parti Les Transformateurs et candidat face au président Mahamat Idriss Déby à la présidentielle de 2024, avait été condamné à 20 ans de prison en 2025. Gracié par le président Déby le 14 août après plus d’un an derrière les barreaux, il s’est confié à FRANCE 24 sur la situation politique au Tchad et sur son avenir politique.",
+      "country": "TCD",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-16T16:00:42+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-tchad-l-opposant-succ%C3%A8s-masra-s-exprime-apr%C3%A8s-sa-lib%C3%A9ration"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-tchad-l-opposant-succ%C3%A8s-masra-s-exprime-apr%C3%A8s-sa-lib%C3%A9ration"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/16/tchad-succes-masra-appelle-a-la-reconciliation-apres-sa-liberation/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "c35a4495b9",
+      "title": "RD Congo : un protocole pour démobiliser les rebelles rwandais des FDLR",
+      "summary": "En République démocratique du Congo, les États-Unis disent avoir pris bonne note du protocole de démobilisation des FDLR, un groupe rebelle rwandais, présenté par Kinshasa fin juillet. Pour le gouvernement congolais, ce protocole constitue une première traduction concrète des engagements pris dans le cadre de l'accord de paix signé à Washington.",
+      "country": "RWA",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-16T15:58:32+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-rd-congo-un-protocole-pour-d%C3%A9mobiliser-les-rebelles-rwandais-des-fdlr"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-rd-congo-un-protocole-pour-d%C3%A9mobiliser-les-rebelles-rwandais-des-fdlr"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4793c173e0",
+      "title": "Élections générales en Zambie: les observateurs internationaux font part de leurs préoccupations",
+      "summary": "Le décompte des voix se poursuit en Zambie après les élections générales du jeudi 13 août dans le cadre desquelles le président sortant, Hakainde Hichilema, brigue un second mandat à la présidence. En attendant l'annonce des résultats finaux, les observateurs internationaux qui ont supervisés le vote ont livré leurs premières conclusions.",
+      "country": "ZMB",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-16T15:57:58+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260816-%C3%A9lections-g%C3%A9n%C3%A9rales-en-zambie-les-observateurs-internationaux-font-part-de-leurs-pr%C3%A9occupations"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260816-%C3%A9lections-g%C3%A9n%C3%A9rales-en-zambie-les-observateurs-internationaux-font-part-de-leurs-pr%C3%A9occupations"
         }
       ],
       "confirmation_count": 1
@@ -3693,6 +3774,44 @@
       "confirmation_count": 1
     },
     {
+      "id": "8256696741",
+      "title": "South Africa Vs Nigeria - Five Key Players Who Could Decide Super Falcons' World Cup Play-Off Fixture",
+      "summary": "[Premium Times] Both nations possess experienced squads packed with players who have performed at the highest level for club and country. But in a match this tight, individual moments could make the difference",
+      "country": "NGA",
+      "category": "SANTE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T08:35:23+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608130039.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608130039.html"
+        },
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608130039.html"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
       "id": "b9882f305b",
       "title": "Zanzibar Steps Up Football Reforms Ahead of Afcon",
       "summary": "[Daily News] Zanzibar -- ZANZIBAR Second Vice-President, Hemed Suleiman Abdulla, has called for stronger regulations and greater investment in football as the Isles prepare for opportunities linked to the 2027 Africa Cup of Nations (AFCON).",
@@ -4654,6 +4773,166 @@
       "confirmation_count": 1
     },
     {
+      "id": "71a14921bb",
+      "title": "Sénégal : les régates de pirogues, une tradition vieille de deux siècles à Saint-Louis",
+      "summary": "À Saint-Louis, au Sénégal, les traditionnelles régates de pirogues perpétuent une tradition vieille de près de deux siècles. Dans le quartier de pêcheurs de Guet Ndar, cette course de 3,5 km rassemble chaque année rameurs et habitants autour d'un événement culturel et sportif majeur. Mais malgré son succès populaire et les revenus qu'elle génère, les participants ne sont pas rémunérés et réclament davantage de reconnaissance pour cette discipline.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-16T16:03:10+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-s%C3%A9n%C3%A9gal-les-r%C3%A9gates-de-pirogues-une-tradition-vieille-de-deux-si%C3%A8cles-%C3%A0-saint-louis"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-s%C3%A9n%C3%A9gal-les-r%C3%A9gates-de-pirogues-une-tradition-vieille-de-deux-si%C3%A8cles-%C3%A0-saint-louis"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "51957b2fc8",
+      "title": "Moroccan migrants stage sit-in as thousands remain stranded in Ceuta",
+      "summary": "Moroccan migrants are protesting in Ceuta, demanding asylum two weeks after more than a massive migrant surge.",
+      "country": "MAR",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-16T15:51:26+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/moroccan-migrants-stage-sit-in-as-thousands-remain-stranded-in-ceuta?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/moroccan-migrants-stage-sit-in-as-thousands-remain-stranded-in-ceuta?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "268b4f7ac9",
+      "title": "#osundecides20226 - NYSC Hails Corps Members' Discipline, Commitment During Poll",
+      "summary": "[Premium Times] Mr Kubiangha said the corps members adhered to instructions, operational guidelines and safety advisories issued during the sensitisation tour of the local government areas.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-16T15:50:07+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608160010.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608160010.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4ffe935988",
+      "title": "O Jardim de Kalahari: o conjunto de joias da noiva Georgina",
+      "summary": "Do Botswana à red carpet da Met Gala, por onde passou em maio, o diamante Rainha Kalahari é o mais precioso da alta-joalharia Chopard, marca da qual Gio é embaixadora, e que usou na sua boda.",
+      "country": "BWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-08-16T15:49:24+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/08/16/flores-pureza-e-muitos-milhoes-o-jardim-de-kalahari-o-conjunto-de-joias-da-noiva-georgina/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/08/16/flores-pureza-e-muitos-milhoes-o-jardim-de-kalahari-o-conjunto-de-joias-da-noiva-georgina/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8577556220",
+      "title": "#osundecides2026: INEC Declares Accord's Ademola Adeleke Winner of Governorship Election",
+      "summary": "[Premium Times] The incumbent governor defeated his closest challenger, Bola Oyebamiji of the APC, by 66,252 votes after polling 511,067 votes across the state.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-16T15:48:46+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608160009.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608160009.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "65dd88e586",
       "title": "Mali: une soixantaine de civils retenus en otage par le Jnim ont été libérés",
       "summary": "Une soixantaine de civils retenus en otage par le Groupe de soutien à l'islam eu aux musulmans (Jnim) ont été libérés entre jeudi 13 et et vendredi 14 août. Enlevés sur plusieurs axes routiers de l'ouest du pays qui vit sous blocus djihadiste, ils ont pu retrouver leurs familles à Nioro, Bamako ou Kayes. Cette vague de libérations intervient au même moment que celle de 82 militaires maliens détenus par le Front de libération de l'Azawad (FLA), allié du Jnim.",
@@ -4737,7 +5016,7 @@
         "MARINE_TRANSPORT"
       ],
       "lang": "fr",
-      "published": "2026-08-16T14:39:07+00:00",
+      "published": "2026-08-16T14:46:59+00:00",
       "lead_source": {
         "id": "afnews-fr",
         "name": "Africanews FR",
@@ -5046,38 +5325,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "539cf7a495",
-      "title": "Tchad : Succès Masra appelle à la réconciliation après sa libération",
-      "summary": "Au Tchad, après la prison, place au message d’apaisement. Libéré grâce à une grâce présidentielle, l’opposant Succès Masra appelle désormais à dépasser les rancœurs et à ouvrir une nouvelle page fondée sur le pardon et la réconciliation nationale.",
-      "country": "TCD",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-16T09:28:08+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/16/tchad-succes-masra-appelle-a-la-reconciliation-apres-sa-liberation/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/16/tchad-succes-masra-appelle-a-la-reconciliation-apres-sa-liberation/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "60ec2a4ee4",
       "title": "À Ceuta, les mineurs marocains refusent le retour réclamé par Rabat",
       "summary": "Depuis la crise de Ceuta, Rabat réclame le retour de l'ensemble des mineurs marocains non accompagnés présents en Espagne. Ils sont nombreux à se trouver actuellement dans l'enclave espagnole depuis la dernière crise migratoire.",
@@ -5269,38 +5516,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0042c01869",
-      "title": "L'opposant Succès Masra s'exprime sur France 24 le lendemain de sa libération",
-      "summary": "Au Tchad, Succès Masra est désormais libre. L’ancien Premier ministre et opposant, condamné à 20 ans de prison, a bénéficié d’une grâce présidentielle. Ce soir, sa première interview depuis sa libération.",
-      "country": "TCD",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-15T20:20:10+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260815-l-opposant-succ%C3%A8s-masra-s-exprime-sur-france-24-le-lendemain-de-sa-lib%C3%A9ration"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260815-l-opposant-succ%C3%A8s-masra-s-exprime-sur-france-24-le-lendemain-de-sa-lib%C3%A9ration"
         }
       ],
       "confirmation_count": 1
@@ -6285,6 +6500,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "e65e45bdb2",
+      "title": "Osun 2026 - Un appel &#xE0; une &#xE9;lection pacifique",
+      "summary": "[This Day] Opeyemi BAMIDELE urges all to play by the rules in the governorship election",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T19:58:27+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608140537.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608140537.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a82fd273b5",
       "title": "Après Ceuta : le pari jeunesse",
       "summary": "Par Dr Mohamed H’MIDOUCHE*\nLe drame de Ceuta interdit de réduire la migration au seul contrôle des frontières. Il oblige le Maroc, l’Espagne et l’Europe à protéger les vies, organiser les mobilités et offrir aux jeunes des perspectives crédibles dans leur pays. Notre jeunesse n’est pas une menace à contenir : elle est le premier capital du Maroc et de l’Afrique.\nEn ce 14 août 2026, fête nationale et jour férié dans tout le Royaume chérifien, le 47e anniversaire de la…",
@@ -7064,38 +7311,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "d7655d9a2d",
-      "title": "Adegoke Remains Oyo Adc Guber Candidate, Says Media Team",
-      "summary": "[This Day] Ibadan -- The Media Team of the African Democratic Congress (ADC) governorship candidate in Oyo State, Adegboyega Taofeek Adegoke, on Friday, described the claim to the party's governorship ticket by one of the gubernatorial aspirants, Mr. Gbemileke Alagbe, as \"wishful thinking\".",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T15:43:44+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140387.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140387.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1d711f5223",
       "title": "At Washington Talks, Nigeria Reinforces Defence, Security Partnership With Us",
       "summary": "[This Day] Abuja -- The Federal Government has reinforced its defence and security partnership with the United States Government with a view to deepening military-to-military relations and strengthening counter-terrorism cooperation between Nigeria and the United States.",
@@ -7157,171 +7372,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608140385.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7b57aef2d0",
-      "title": "Aptech Nigeria Makes History With First National Convocation",
-      "summary": "[Premium Times] Over 130 graduates honoured, ₦60 million in UK scholarships awarded as more than 400 guests gather in Lagos for a landmark celebration during Aptech's 40th anniversary year",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T15:42:27+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140383.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140383.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a85e335d11",
-      "title": "Falling Tree Kills Motorcyclist in Uyo, Raising Questions Over Government's Management of Aged Trees",
-      "summary": "[Premium Times] A fatal tree fall on Uyo's Abak Road exposes concerns over ageing roadside trees and questions about the Akwa Ibom government's failure to allocate funds for their inspection, pruning, and removal.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T15:41:44+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140382.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140382.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9cb4bbee8a",
-      "title": "Rarara - Anti-Social Poetry, Invective and Political Contests, By Jibrin Ibrahim",
-      "summary": "[Premium Times] For centuries, one of the most effective weapons of political combat, especially in very hierarchical societies, has been the deployment of invective. Recipients feel devalued, ridiculed and humiliated. Issues are evacuated and emotive responses takeover the political terrain. Sir Louis Phillip Odumegwu Ojukwu, OBE (1909 - 1966), Nigeria's first billionaire who lent his car for the use of Queen Elizabeth, abandoned politics the day a \"common thug\" abused…",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "MA_GOUV",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [
-        "AUTO",
-        "CONSTRUCTION"
-      ],
-      "lang": "en",
-      "published": "2026-08-14T15:41:25+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140381.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140381.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9a791f2ac5",
-      "title": "2027 - We Can Only Secure Victory Through Grassroots Engagements - APC Concerned Stakeholders",
-      "summary": "[Leadership] The Concerned National All Progressives Congress (APC) Stakeholders Forum, has said, the only way the party can secure victory in the 2027 general election is through grassroots engagement and mobilisation.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T15:37:06+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140377.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140377.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b48b79fb42",
-      "title": "Nasarawa Begins Lafia Drainage Redesign After Flood Submerges Homes",
-      "summary": "[Leadership] The Nasarawa State Government has commenced a reassessment and redesign of the stormwater drainage system in Lafia following a heavy flood that submerged houses and cut off the Federal Highway in the metropolis in the early hours of Wednesday.",
-      "country": "NGA",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CONSTRUCTION"
-      ],
-      "lang": "en",
-      "published": "2026-08-14T15:35:53+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140376.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140376.html"
         }
       ],
       "confirmation_count": 1
@@ -7950,6 +8000,38 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-08-14-i-sell-sex-and-chicken-feet-to-feed-my-children-says-mom-of-three/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9e47586446",
+      "title": "U.S. and Nigeria Hold Talks to Protect Christian Communities",
+      "summary": "[State Department] Office of the Spokesperson",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T12:12:49+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608140253.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608140253.html"
         }
       ],
       "confirmation_count": 1
@@ -9021,6 +9103,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "42f4393d62",
+      "title": "#osundecides2026 - Residents Speak On Election-Day Expectations, Demand Transparent, Violence-Free Polls",
+      "summary": "[Premium Times] Their responses reveal a state caught between fear and determination, as they are aware of the risks posed by the violence and yet remain unwilling to surrender their right to participate in choosing who governs Osun State.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T07:08:02+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608140036.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608140036.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "25322f657f",
       "title": "'Death Pact' Bound Julius Mkhwanazi and Co-Accused to Secrecy in Murder Case, Court Hears",
       "summary": "[Daily Maverick] Former Ekurhuleni Metro Police Department deputy chief Julius Mkhwanazi and his co-accused in Emmanuel Mbense's murder allegedly agreed to stay silent. Four of those originally implicated have since died.",
@@ -9601,38 +9715,6 @@
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608130442.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "684ba862de",
-      "title": "Parliamentary Committees Scrutinise Central Drug Agency Performance",
-      "summary": "[Parliament of South Africa] The Central Drug Agency's (CDA) performance in fighting substance abuse came under scrutiny from Members of Parliament during a joint meeting of the Portfolio Committee Social Development and the Select Committee on Social Services.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-13T15:27:09+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608130412.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608130412.html"
         }
       ],
       "confirmation_count": 1
@@ -10843,6 +10925,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "d02d5e8842",
+      "title": "Murder, Apartheid Poison Plot and Bail Battles Grip Gauteng",
+      "summary": "[Scrolla] · Reverend Frank Chikane faces questions about the prosecution and pardons of men involved in the 1989 attempt to poison the anti-apartheid activist.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T10:01:38+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608130131.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608130131.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "7a05dc440b",
       "title": "No, Doctored Image Does Not Show Kenyan Opposition Leader Kalonzo Musyoka Backing President Ruto for Second Term",
       "summary": "[Africa Check] No, doctored image does not show Kenyan opposition leader Kalonzo Musyoka backing president Ruto for second term",
@@ -10934,38 +11048,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608130043.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d993ec0c87",
-      "title": "South Africa Vs Nigeria - Five Key Players Who Could Decide Super Falcons' World Cup Play-Off Fixture",
-      "summary": "[Premium Times] Both nations possess experienced squads packed with players who have performed at the highest level for club and country. But in a match this tight, individual moments could make the difference",
-      "country": "ZAF",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-13T08:35:23+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608130039.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608130039.html"
         }
       ],
       "confirmation_count": 1
@@ -11229,6 +11311,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "aa850952ce",
+      "title": "Entebbe Hospital Staffing At 21 Percent As MPs Warn of Growing Pressure On Health Services",
+      "summary": "[Nile Post] Entebbe Regional Referral Hospital is operating with just 21.8% of its approved staffing structure, raising concerns about the pressure on health workers and the quality of care at a facility serving a growing population.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-08-12T22:41:24+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608120656.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608120656.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a452c24ad7",
       "title": "Doctors Give Government 14 Days to Resolve Medical Intern Crisis",
       "summary": "[Nile Post] The Uganda Medical Association (UMA) has given government 14 days to resolve the standoff over the deployment and welfare of medical interns, warning that doctors will otherwise begin nationwide industrial action.",
@@ -11389,38 +11505,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608120512.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e470481112",
-      "title": "KFS Turns to Space Technology to Track Kenya's Forests and Boost Tree-Growing Drive",
-      "summary": "[Capital FM] Nairobi -- The Kenya Forest Service (KFS) is turning to satellite technology and Earth observation data to strengthen monitoring of the country's forests as Kenya accelerates efforts to expand national tree cover.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-12T16:36:04+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608120510.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608120510.html"
         }
       ],
       "confirmation_count": 1
@@ -13178,38 +13262,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110076.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "49ecdc44d1",
-      "title": "Uganda's Widows Need More Than Laws On Matters Land",
-      "summary": "[Independent (Kampala)] The gap we face today is no longer primarily legislative; it is a crisis of enforcement, awareness, and institutional practice",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-11T04:22:30+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608110074.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608110074.html"
         }
       ],
       "confirmation_count": 1
