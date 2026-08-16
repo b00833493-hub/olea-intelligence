@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-15T23:34:02.177857+00:00",
+  "generated_at": "2026-08-16T01:57:34.392737+00:00",
   "stats": {
     "total_signals": 525,
     "verified_signals": 13,
     "countries_covered": 32,
     "sources_active": 32,
     "per_country": {
+      "NGA": 51,
       "ZWE": 6,
       "MOZ": 46,
-      "COD": 15,
+      "COD": 14,
       "AGO": 29,
-      "MAR": 45,
+      "MAR": 44,
       "KEN": 56,
-      "NGA": 50,
       "TZA": 30,
       "ZAF": 52,
-      "UGA": 36,
+      "UGA": 37,
       "SEN": 25,
+      "MLI": 26,
       "MRT": 1,
       "CMR": 9,
       "MDG": 2,
       "ZMB": 18,
-      "MLI": 25,
       "TCD": 9,
       "MWI": 3,
       "BFA": 6,
@@ -31,7 +31,7 @@
       "CIV": 21,
       "RWA": 5,
       "CAF": 5,
-      "NER": 3,
+      "NER": 2,
       "GIN": 3,
       "GAB": 1,
       "TUN": 2,
@@ -235,6 +235,38 @@
     }
   ],
   "signals": [
+    {
+      "id": "bc0aeee7c6",
+      "title": "Nigeria: nouveaux affrontements intercommunautaires meurtriers dans le centre du pays",
+      "summary": "Des violences ont fait une vingtaine de morts le soir du 14 août au centre-ouest du Nigeria dans l’État du Niger. Selon un député local, il s’agit d’affrontements communautaires impliquant également des milices locales. La région est également la cible d'attaques de groupes armés appelés « bandits ». Les autorités locales dénoncent un manque de moyens sécuritaires pour assurer la protection des communautés.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-16T00:42:59+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260816-nigeria-nouveaux-affrontements-intercommunautaires-meurtriers-dans-le-centre-du-pays"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260816-nigeria-nouveaux-affrontements-intercommunautaires-meurtriers-dans-le-centre-du-pays"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "015e98d3cd",
       "title": "Death toll from Zimbabwe ferry disaster rises to 72",
@@ -1154,38 +1186,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "276c0f2c9a",
-      "title": "Mortgage Approval Does Not Guarantee the Keys to Your Home, Absa Says",
-      "summary": "[Capital FM] Nairobi -- Getting a mortgage approved does not necessarily mean a homebuyer is immediately ready to take possession of a property, with Absa Bank Kenya highlighting the legal and conveyancing steps that must be completed before financing can be disbursed.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": "MA_GOUV",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-12T12:21:15+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608120281.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608120281.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "df3b0c3be9",
       "title": "Afrique du Sud : 14 morts après un éboulement dans une mine près de Rustenburg",
       "summary": "En Afrique du Sud, 14 mineurs sont morts après l’effondrement, lundi soir, d’un puits abandonné près de Rustenburg. Huit autres ont été grièvement blessés et plusieurs personnes seraient encore piégées sous terre.",
@@ -1277,40 +1277,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110710.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2ce9f52dc2",
-      "title": "Africa Health Agencies Urge Faster Ebola Response in DRC As Cases Rise",
-      "summary": "[Independent (Kampala)] The Democratic Republic of Congo needs to urgently expand its community-led response to Ebola as new infections and deaths continue to outpace efforts to contain the outbreak, the World Health Organization and Africa Centres for Disease Control and Prevention said.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-11T12:55:33+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608110467.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608110467.html"
         }
       ],
       "confirmation_count": 1
@@ -1511,6 +1477,40 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/videos/cx2jv3vgy5lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "92d0823ce6",
+      "title": "Mali: drogue, munitions et portables saisis lors d'une vaste opération de fouille dans les prisons",
+      "summary": "Au Mali, opération coup de poing dans les prisons. De grandes fouilles en cours ont déjà permis la découverte de produits et d’objets interdits dans les prisons. Plusieurs téléphones portables saisis dans une seule maison d’arrêt près de Bamako. Autres saisies, de la drogue, et des médicaments périmés utilisés comme excitants.",
+      "country": "MLI",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-15T23:56:11+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260815-mali-drogue-munitions-et-portables-saisis-lors-d-une-vaste-op%C3%A9ration-de-fouille-dans-les-prisons"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260815-mali-drogue-munitions-et-portables-saisis-lors-d-une-vaste-op%C3%A9ration-de-fouille-dans-les-prisons"
         }
       ],
       "confirmation_count": 1
@@ -2354,38 +2354,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "522e63952e",
-      "title": "How the Ceuta Border Crossing Incident Immediately Played Into the Hands of Spain's Far Right",
-      "summary": "[The Conversation Africa] It is estimated that more than 50,000 migrants crossed entered the small Spanish enclave of Ceuta in the course of a single day after the border effectively collapsed. Ceuta, an autonomous city, sits on Morocco's northern coast. The Spanish government has said almost all of the migrants have since returned to Morocco, and at least 57 have died.",
-      "country": "MAR",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-03T12:49:33+00:00",
-      "lead_source": {
-        "id": "aa-mar",
-        "name": "AllAfrica · Maroc",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608030667.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-mar",
-          "name": "AllAfrica · Maroc",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608030667.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2cc5fa3994",
       "title": "Russia's 'Africa Corps' Airstrikes Kill Civilians",
       "summary": "[HRW] Nairobi -- Apparent Indiscriminate Attack in Village Held by Islamist Armed Group",
@@ -2413,6 +2381,40 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607310024.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "17efcfca20",
+      "title": "L'Ouganda maintiendra des troupes en Somalie, annonce Kampala",
+      "summary": "Les États-Unis ont annoncé début juillet qu'ils ne renouveleront pas leurs financements au Bureau des Nations unies en Somalie, dont la mission de stabilisation de l'Union africaine (AUSSOM) dépendait. Indispensable à la lutte contre les jihadistes Shebab, qui contrôlent de large pans du sud et du centre du pays, cette mission devrait donc s'arrêter fin 2026, après plus de trente ans de présence dans le pays. L'Ouganda, l'un des six pays qui fournissent des hommes pour…",
+      "country": "UGA",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-16T00:59:39+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260816-l-ouganda-maintiendra-des-troupes-en-somalie-annonce-kampala"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260816-l-ouganda-maintiendra-des-troupes-en-somalie-annonce-kampala"
         }
       ],
       "confirmation_count": 1
@@ -2827,38 +2829,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/14/afrique-du-sud-larmee-peine-a-freiner-la-violence-des-gangs/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "40d12cdda5",
-      "title": "RDC: nombreux signes de décrispation politique, la loi référendaire renvoyée devant le Parlement",
-      "summary": "Reprise des discussions autour d’un dialogue national, restitution de passeports à certains opposants, évolution de dossiers judiciaires et, désormais, nouvelle délibération devant le Parlement demandée par le président Félix Tshisekedi sur le texte organisant le référendum : en République démocratique du Congo (RDC), plusieurs évolutions intervenues ces dernières semaines sont présentées ou perçues comme des signes de décrispation politique. Ces gestes interviennent à…",
-      "country": "COD",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T16:39:50+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260814-rdc-nombreux-signes-de-d%C3%A9crispation-politique-la-loi-r%C3%A9f%C3%A9rendaire-renvoy%C3%A9e-devant-le-parlement"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260814-rdc-nombreux-signes-de-d%C3%A9crispation-politique-la-loi-r%C3%A9f%C3%A9rendaire-renvoy%C3%A9e-devant-le-parlement"
         }
       ],
       "confirmation_count": 1
@@ -8142,38 +8112,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "9e47586446",
-      "title": "U.S. and Nigeria Hold Talks to Protect Christian Communities",
-      "summary": "[State Department] Office of the Spokesperson",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T12:12:49+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140253.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140253.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5deb23632a",
       "title": "Raila Junior: Can he inherit his late father’s political base in Nairobi?",
       "summary": "Raila Junior is taking the decisive move to try and follow in his late father Raila Odinga’s big political footsteps, and specifically inherit Baba’s largest political base, in Kenya’s capital, Nairobi.",
@@ -8201,38 +8139,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/427637/raila-junior-can-he-inherit-his-late-fathers-political-base-in-nairobi/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f5cafebc55",
-      "title": "Un missionnaire américain enlevé au Niger libéré après plus de neuf mois de captivité",
-      "summary": "Au Niger, le pilote missionnaire américain Kevin Rideout a été libéré après plus de neuf mois de captivité. Il avait été enlevé en octobre 2025 à Niamey, où il travaillait pour l’organisation évangélique SIM International. Sa libération intervient alors que la situation sécuritaire reste très tendue dans le pays.",
-      "country": "NER",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T11:49:03+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260814-un-missionnaire-am%C3%A9ricain-enlev%C3%A9-au-niger-lib%C3%A9r%C3%A9-apr%C3%A8s-plus-de-neuf-mois-de-captivit%C3%A9"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260814-un-missionnaire-am%C3%A9ricain-enlev%C3%A9-au-niger-lib%C3%A9r%C3%A9-apr%C3%A8s-plus-de-neuf-mois-de-captivit%C3%A9"
         }
       ],
       "confirmation_count": 1
@@ -8751,6 +8657,38 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608140139.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "58da868e0f",
+      "title": "Osun Election - Apm, PDP Candidates Withdraw, Endorse Adeleke",
+      "summary": "[Vanguard] Two governorship candidates in Saturday's Osun State election, Adebayo Simon Adewale of the Allied Peoples Movement (APM) and Adedamola Adebayo of the Peoples Democratic Party (PDP), have withdrawn from the race and endorsed the incumbent governor, Senator Ademola Adeleke.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T10:05:13+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608140132.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608140132.html"
         }
       ],
       "confirmation_count": 1
@@ -9568,38 +9506,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3ea23376de",
-      "title": "Ceuta: ce que cachent les appels à traverser la frontière le 15 août",
-      "summary": "Il y a deux semaines, les 30 et 31 juillet 2026, Ceuta a traversé l’une des pires crises migratoires de son histoire. En 48 heures seulement, plus de 70 000 personnes sont parvenues à rejoindre illégalement l'enclave espagnole depuis le Maroc. Plus de 141 personnes y ont perdu la vie, selon des ONG marocaines. Alors que plusieurs enquêtes montrent aujourd’hui le rôle déterminant joué par les réseaux sociaux et la désinformation dans cette séquence, des appels à traverser…",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T02:58:55+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260814-ceuta-ce-que-cachent-les-appels-%C3%A0-traverser-la-fronti%C3%A8re-le-15-ao%C3%BBt"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260814-ceuta-ce-que-cachent-les-appels-%C3%A0-traverser-la-fronti%C3%A8re-le-15-ao%C3%BBt"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8524fb0bad",
       "title": "Apprentices Tipped On Discipline, Lifelong Learning",
       "summary": "[Nile Post] Apprentices have been urged to embrace discipline, confidence and lifelong learning to excel in their respective trades and build successful careers.",
@@ -10050,6 +9956,70 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/lungu-s-ghost-looms-in-zambia-elections-5557034"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "684ba862de",
+      "title": "Parliamentary Committees Scrutinise Central Drug Agency Performance",
+      "summary": "[Parliament of South Africa] The Central Drug Agency's (CDA) performance in fighting substance abuse came under scrutiny from Members of Parliament during a joint meeting of the Portfolio Committee Social Development and the Select Committee on Social Services.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T15:27:09+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608130412.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608130412.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "37c31d92e1",
+      "title": "Media Statement - Joint Oversight Committees Call for Measurable Turnaround At Matlosana and Ditsobotla",
+      "summary": "[Parliament of South Africa] The Committee on Cooperative Governance and Traditional Affairs (COGTA) and the Standing Committee on Public Accounts (SCOPA) on Wednesday called on the City of Matlosana and Ditsobotla Local Municipality to move beyond corrective plans and demonstrate measurable improvement in governance, financial management and service delivery.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T15:16:05+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608130392.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608130392.html"
         }
       ],
       "confirmation_count": 1
@@ -11000,38 +10970,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1c44491db3",
-      "title": "Dr Jana&#xEF;s Delport On a Mission to Protect SA's Honey From Fraud",
-      "summary": "[UCT] From a small town of Tzaneen in Limpopo to the forefront of cutting-edge honey research at the University of Cape Town (UCT), Dr Janaïs Delport is helping to safeguard one of South Africa's sweetest natural treasures.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-13T11:39:03+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608130191.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608130191.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "e58b3ccc07",
       "title": "RSF claims key victory in Sudan’s Blue Nile region",
       "summary": "Sudan’s paramilitary Rapid Support Forces, or RSF, say they have taken full control of Geissan, in the Blue Nile region, near the Ethiopian border.",
@@ -11810,6 +11748,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "ac39396441",
+      "title": "Justice for Susan Magara Must Not Become Collective Blame Against Muslims",
+      "summary": "[Nile Post] The judgment delivered by the High Court of Uganda on August 3, 2026, in Uganda v Lubega Yusuf &amp; Eight Others, Criminal Session Case No. 0810 of 2020, has understandably revived public discussion about the brutal kidnapping and murder of Susan Magara.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-12T22:41:24+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608120655.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608120655.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a452c24ad7",
       "title": "Doctors Give Government 14 Days to Resolve Medical Intern Crisis",
       "summary": "[Nile Post] The Uganda Medical Association (UMA) has given government 14 days to resolve the standoff over the deployment and welfare of medical interns, warning that doctors will otherwise begin nationwide industrial action.",
@@ -11975,6 +11945,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "e470481112",
+      "title": "KFS Turns to Space Technology to Track Kenya's Forests and Boost Tree-Growing Drive",
+      "summary": "[Capital FM] Nairobi -- The Kenya Forest Service (KFS) is turning to satellite technology and Earth observation data to strengthen monitoring of the country's forests as Kenya accelerates efforts to expand national tree cover.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-12T16:36:04+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608120510.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608120510.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "c3f76ca5db",
       "title": "Freestyle fundamentals with Nigeria's national champion",
       "summary": "Meet Evelyn Okafor – a four-time Nigerian champion, three-time African champion, and the first African woman to qualify for the World Freestyle Football Championship.",
@@ -12098,6 +12100,38 @@
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608120419.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "df9356e854",
+      "title": "Five in Custody As Two More Suspects Surrender Over Wasama Murder",
+      "summary": "[Capital FM] Nairobi -- The number of suspects in custody over the killing of former Chesikaki councilor and Mt Elgon parliamentary hopeful Nathan Masai Wasama has risen to five after two more suspects surrendered to police, as detectives intensify investigations into the high-profile murder.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-12T14:35:28+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608120416.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608120416.html"
         }
       ],
       "confirmation_count": 1
@@ -12361,70 +12395,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608120287.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "168920bf8c",
-      "title": "Government Gets Tougher On Illegal Mining",
-      "summary": "[Scrolla] · The proposed General Mining Laws Amendment Bill would change several laws and introduce a specific offence aimed at cracking down on illegal mining.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-12T12:25:56+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608120285.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608120285.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c45bb16ffb",
-      "title": "HELB to Be Scrapped Under New Bill, Replaced By Funding Authority",
-      "summary": "[Capital FM] Nairobi -- The Higher Education Loans Board (HELB), Universities Fund Board and TVET Funding Board will be replaced by the Tertiary Education Funding Authority if a new Bill sponsored by Majority Leader Kimani Ichung'wah is passed into law.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-12T12:24:13+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608120282.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608120282.html"
         }
       ],
       "confirmation_count": 1
@@ -12886,6 +12856,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "8a271c76b5",
+      "title": "Dakhla's White Dune That Captivated Christopher Nolan - Inside 'The Odyssey's Moroccan Shoot",
+      "summary": "[MAP] Rabat -- Renowned Moroccan executive producer Zakaria Alaoui has offered a rare behind-the-scenes account of Christopher Nolan's latest epic, The Odyssey, shot across several regions of the Kingdom. He revealed how the acclaimed filmmaker fell under the spell of Dakhla's White Dune, in southern Morocco.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-11T22:44:33+00:00",
+      "lead_source": {
+        "id": "aa-mar",
+        "name": "AllAfrica · Maroc",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608110706.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-mar",
+          "name": "AllAfrica · Maroc",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608110706.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "b67eb5d634",
       "title": "Morocco-Colombia Ties Poised to Regain Full Vitality, Strategic Significance - Ambassador",
       "summary": "[MAP] Bogota -- Relations between Morocco and Colombia, built on nearly half a century of friendship, are poised to regain their full vitality and strategic significance, Morocco's Ambassador to Colombia, Farida Loudaya, said.",
@@ -13107,38 +13109,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110435.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "31e09e5b2f",
-      "title": "Rice Import Traders Accuse Brokers of Hijacking Business",
-      "summary": "[Independent (Kampala)] Kampala -- Rice importers say brokers are allegedly working with officials in the Ministry of Trade, Industry and Cooperatives to take control of the country's rice import business through a permit allocation system. They claim that the permit allocation system has locked genuine traders out of the market.",
-      "country": "UGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-11T12:42:20+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608110426.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608110426.html"
         }
       ],
       "confirmation_count": 1
@@ -13793,6 +13763,38 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110076.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "49ecdc44d1",
+      "title": "Uganda's Widows Need More Than Laws On Matters Land",
+      "summary": "[Independent (Kampala)] The gap we face today is no longer primarily legislative; it is a crisis of enforcement, awareness, and institutional practice",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-11T04:22:30+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608110074.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608110074.html"
         }
       ],
       "confirmation_count": 1
