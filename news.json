@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-17T17:43:02.585917+00:00",
+  "generated_at": "2026-08-17T18:55:57.942965+00:00",
   "stats": {
-    "total_signals": 541,
+    "total_signals": 537,
     "verified_signals": 12,
     "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
+      "ZWE": 5,
+      "COD": 17,
       "DZA": 4,
-      "COD": 15,
-      "NGA": 54,
-      "SEN": 30,
+      "NGA": 52,
+      "SEN": 29,
       "ZAF": 61,
       "CMR": 16,
       "NER": 4,
-      "ZWE": 4,
       "UGA": 36,
-      "CIV": 22,
+      "CIV": 21,
       "KEN": 54,
       "MOZ": 44,
       "AGO": 30,
@@ -32,11 +32,11 @@
       "MWI": 3,
       "GHA": 3,
       "TGO": 1,
-      "MDG": 2,
-      "BFA": 5,
+      "BFA": 3,
       "ETH": 6,
       "CAF": 2,
-      "TUN": 1
+      "TUN": 1,
+      "MDG": 1
     }
   },
   "sources": [
@@ -234,6 +234,80 @@
     }
   ],
   "signals": [
+    {
+      "id": "4240700c30",
+      "title": "Zimbabwe: le bilan du naufrage d’un ferry sur le lac Kariba grimpe à au moins 80 morts, une enquête ouverte",
+      "summary": "Le Zimbabwe est en deuil après le naufrage, mardi 11 août, d'un ferry sur le lac Kariba. Avec un bilan qui s'élève désormais à au moins 80 morts, il s'agit de la pire catastrophe fluviale de l'histoire du pays. Alors que 77 passagers ont pu être sauvés, les autorités zimbabwéennes ont annoncé, dimanche 16 août, l'ouverture d'une enquête. Exploité par une agence étatique, le navire impliqué reliait la ville de Kariba à celle de Chalala. Les premiers éléments de l'enquête…",
+      "country": "ZWE",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "fr",
+      "published": "2026-08-17T18:48:07+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260817-zimbabwe-le-bilan-du-naufrage-d-un-ferry-sur-le-lac-kariba-grimpe-%C3%A0-au-moins-80-morts-une-enqu%C3%AAte-ouverte"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260817-zimbabwe-le-bilan-du-naufrage-d-un-ferry-sur-le-lac-kariba-grimpe-%C3%A0-au-moins-80-morts-une-enqu%C3%AAte-ouverte"
+        },
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20260816-zimbabwe-bilan-monte-80-morts-dans-naufrage-ferry-sur-le-lac-kariba-victimes"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "3483b35d05",
+      "title": "Ebola DRC: The Deadliest Outbreak in the Country's History [Africanews Today]",
+      "summary": "The Ebola outbreak currently ravaging the Democratic Republic of the Congo has officially become the deadliest in the country's history. According to the United Nations, the virus is now killing one person every 30 minutes in the Democratic Republic of the Congo.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-08-17T18:22:56+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/17/ebola-drc-the-deadliest-outbreak-in-the-countrys-history-africanews-today/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/17/ebola-drc-the-deadliest-outbreak-in-the-countrys-history-africanews-today/"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "f8911438b5",
       "title": "France : tués en Algérie il y a 30 ans, les moines de Tibhirine honorés à Lourdes",
@@ -708,7 +782,7 @@
           "id": "afnews-fr",
           "name": "Africanews FR",
           "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/17/rdc-lepidemie-actuelle-debola-devient-la-plus-meurtriere-de-lhistoire-du-pays/"
+          "url": "http://fr.africanews.com/2026/08/17/ebola-rdc-lepidemie-la-plus-meurtriere-de-lhistoire-du-pays-africanews-today/"
         }
       ],
       "confirmation_count": 2
@@ -1054,46 +1128,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "8f18af4cbc",
-      "title": "Au Zimbabwe, le bilan monte à 84 morts dans le naufrage d'un ferry sur le lac Kariba",
-      "summary": "Un ferry surchargé qui avait chaviré en début de semaine sur le lac Kariba, au Zimbabwe, a entraîné la mort de 84 personnes, selon un bilan revu à la hausse dimanche, a déclaré la police. Selon les autorités, le ferry était autorisé à transporter 90 personnes mais comptait à son bord plus d'une centaine de passagers.",
-      "country": "ZWE",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "MARINE_TRANSPORT"
-      ],
-      "lang": "fr",
-      "published": "2026-08-16T14:36:02+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260816-zimbabwe-bilan-monte-80-morts-dans-naufrage-ferry-sur-le-lac-kariba-victimes"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260816-zimbabwe-bilan-monte-80-morts-dans-naufrage-ferry-sur-le-lac-kariba-victimes"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/14/zimbabwe-le-bilan-du-naufrage-sur-le-lac-kariba-salourdit-a-46-morts/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "788a66c292",
       "title": "ONU alerta para violações de direitos humanos em Cabo Delgado",
       "summary": "O relator da ONU para os direitos humanos, Ben Saul, alertou em Maputo para alegadas violações no combate ao terrorismo em Cabo Delgado, referindo que mais de 70 pescadores foram mortos desde 2024 e que há 13 casos sob investigação. O responsável falou ainda em 506 mil deslocados.",
@@ -1157,6 +1191,40 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260815-virus-ebola-en-rd-congo-un-d%C3%A9c%C3%A8s-toutes-les-30-minutes-l-%C3%A9pid%C3%A9mie-s-%C3%A9tend-%C3%A0-une-6e-province"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "58a7e284f9",
+      "title": "Zimbabwe : le bilan du naufrage sur le lac Kariba s’alourdit à 46 morts",
+      "summary": "Le naufrage d’un ferry gouvernemental sur le lac Kariba, au Zimbabwe, a fait au moins 46 morts, selon un nouveau bilan communiqué jeudi par la police. Le navire, surchargé et pris dans des vents violents, transportait plus d’une centaine de passagers.",
+      "country": "ZWE",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "fr",
+      "published": "2026-08-14T20:39:27+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/14/zimbabwe-le-bilan-du-naufrage-sur-le-lac-kariba-salourdit-a-46-morts/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/14/zimbabwe-le-bilan-du-naufrage-sur-le-lac-kariba-salourdit-a-46-morts/"
         }
       ],
       "confirmation_count": 1
@@ -1693,6 +1761,42 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/videos/cx2jv3vgy5lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "785bc1f28b",
+      "title": "RDC : avant même d’avoir atteint son pic, l’épidémie d’Ebola est la plus importante jamais enregistrée dans le pays",
+      "summary": "Avec 2 325 décès confirmés au 15 août, la 17e épidémie d’Ebola que connaît la République démocratique du Congo (RDC) vient de franchir un seuil historique. Elle dépasse désormais le bilan de la flambée de 2018-2020, jusqu’ici la plus meurtrière jamais enregistrée dans le pays. Et contrairement à cette dernière, son bilan n’est pas définitif, car la transmission reste active.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AUTO",
+        "HEALTH",
+        "CONSTRUCTION"
+      ],
+      "lang": "fr",
+      "published": "2026-08-17T18:10:30+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260817-rdc-avant-m%C3%AAme-d-avoir-atteint-son-pic-l-%C3%A9pid%C3%A9mie-d-ebola-est-la-plus-importante-jamais-enregistr%C3%A9e-dans-le-pays"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260817-rdc-avant-m%C3%AAme-d-avoir-atteint-son-pic-l-%C3%A9pid%C3%A9mie-d-ebola-est-la-plus-importante-jamais-enregistr%C3%A9e-dans-le-pays"
         }
       ],
       "confirmation_count": 1
@@ -2274,40 +2378,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1832144/politique/attentat-de-skhirat-coup-detat-des-aviateurs-la-malediction-dazrou/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b0da6e51b2",
-      "title": "En Côte d’Ivoire, des chercheurs testent une bio-solution contre le Swollen Shoot, la maladie du cacao",
-      "summary": "En Côte d’Ivoire, des chercheurs de l’université Nangui Abrogoua, à Abidjan, ont développé une solution à base de matières organiques naturelles pour combattre le Swollen Shoot, une maladie virale qui s’attaque aux cacaoyers et menace une partie de la production du pays. Baptisée « Vital Plus », cette méthode a déjà été expérimentée sur plusieurs centaines d’hectares dans les zones de production à travers le pays.",
-      "country": "CIV",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "fr",
-      "published": "2026-08-16T11:47:37+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260816-c%C3%B4te-d-ivoire-des-chercheurs-testent-une-bio-solution-contre-le-swollen-shoot-la-maladie-du-cacao"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260816-c%C3%B4te-d-ivoire-des-chercheurs-testent-une-bio-solution-contre-le-swollen-shoot-la-maladie-du-cacao"
         }
       ],
       "confirmation_count": 1
@@ -3806,38 +3876,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2b8abba3d3",
-      "title": "Nigeria : des dignitaires musulmans et chrétiens signent un accord de paix",
-      "summary": "Au Nigeria, plus de 50 dignitaires musulmans et chrétiens ont signé mercredi un accord de paix interconfessionnel, lors d'une conférence organisée par la Ligue islamique mondiale à Abuja.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T08:45:46+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/14/nigeria-des-dignitaires-musulmans-et-chretiens-signent-un-accord-de-paix/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/14/nigeria-des-dignitaires-musulmans-et-chretiens-signent-un-accord-de-paix/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1ae885f6a5",
       "title": "Electricity and Paraffin Now Cost Families R122 More",
       "summary": "[Scrolla] PMBEJD found 350kWh of prepaid electricity rose by R81.57 a month after a 6.9% tariff increase.   Buying 20 litres of paraffin now costs R40.60 more, taking the combined monthly increase to R122.17.",
@@ -4844,6 +4882,38 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1833133/politique/rencontre-avec-aurelien-mintsa-nguema-frere-et-conseiller-du-president/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e97117cc51",
+      "title": "Nigeria : Ayetoro, un village peu à peu englouti par l’Atlantique",
+      "summary": "À Ayetoro, dans le sud du Nigeria, l’océan Atlantique gagne du terrain, emportant progressivement maisons, rues et infrastructures. Dans cette communauté de pêcheurs d’environ 10 000 habitants, certaines familles ont déjà été contraintes de déménager plusieurs fois.",
+      "country": "NGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-17T17:07:58+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/17/nigeria-ayetoro-un-village-peu-a-peu-englouti-par-latlantique/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/17/nigeria-ayetoro-un-village-peu-a-peu-englouti-par-latlantique/"
         }
       ],
       "confirmation_count": 1
@@ -6017,38 +6087,6 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/08/17/nigeria-union-bank-obtient-la-certification-pci-dss-v4-0-1/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cccb45732e",
-      "title": "UE dá 2,3 milhões de euros a África para contenção de cólera",
-      "summary": "Destinada a Nigéria, Camarões, República Centro-Africana e Chade, será utilizada para combater os 61 mil casos da doença que assola o continente. A Nigéria será a maior beneficiária, com 1,5 milhões.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "pt",
-      "published": "2026-08-17T13:25:26+00:00",
-      "lead_source": {
-        "id": "observador",
-        "name": "Observador",
-        "tier": 2,
-        "url": "https://observador.pt/2026/08/17/uniao-europeia-disponibiliza-23-milhoes-de-euros-a-paises-da-africa-central-e-ocidental-para-contencao-de-surtos-de-colera/"
-      },
-      "confirming_sources": [
-        {
-          "id": "observador",
-          "name": "Observador",
-          "tier": 2,
-          "url": "https://observador.pt/2026/08/17/uniao-europeia-disponibiliza-23-milhoes-de-euros-a-paises-da-africa-central-e-ocidental-para-contencao-de-surtos-de-colera/"
         }
       ],
       "confirmation_count": 1
@@ -9524,38 +9562,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "60c1b3a9d2",
-      "title": "Osun 2026 - CJID Midday Election Assessment",
-      "summary": "[CJID] The 2026 Osun Governorship Election is being held today, 15 August, across 30 Local Government Areas, 332 wards and 3,763 polling units. According to INEC, Osun has 2,339,233 registered voters, of whom 1,906,390, or 81.5 per cent, collected their Permanent Voter Cards.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T04:18:41+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170068.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170068.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1edd3cc58a",
       "title": "CJID Deploys Observers, Fact-Checkers and Analysts Across Osun for 2026 Governorship Election",
       "summary": "[CJID] ABUJA, Nigeria, 14 August 2026 -- The Centre for Journalism Innovation and Development (CJID) has deployed observers, fact-checkers and analysts across all 30 Local Government Areas of Osun State ahead of the governorship election scheduled for Saturday, 15 August 2026.",
@@ -10683,41 +10689,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1805020/politique/militaires-technocrates-et-hommes-daffaires-sur-qui-faure-essozimna-gnassingbe-sappuie-t-il-pour-gouverner-le-togo/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a1ad051435",
-      "title": "Madagascar: accord trouvé pour le déchargement du pétrole à Tamatave",
-      "summary": "À Madagascar, le conflit autour des deux navires de carburant, arrivés en même temps à Tamatave, trouve une issue. L’Office malgache des hydrocarbures a tranché dans la nuit, pour que les deux bateaux puissent décharger leur cargaison à tour de rôle.",
-      "country": "MDG",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "MARINE_TRANSPORT",
-        "ENERGY"
-      ],
-      "lang": "fr",
-      "published": "2026-08-16T11:31:57+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260816-madagascar-accord-trouv%C3%A9-pour-le-d%C3%A9chargement-du-p%C3%A9trole-%C3%A0-tamatave"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260816-madagascar-accord-trouv%C3%A9-pour-le-d%C3%A9chargement-du-p%C3%A9trole-%C3%A0-tamatave"
         }
       ],
       "confirmation_count": 1
@@ -12769,70 +12740,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "9f23d09e09",
-      "title": "Burkina Faso :  affaire Norbert Zongo, François Comparé bientôt devant un tribunal ?",
-      "summary": "La justice burkinabè assure qu’elle met tout en œuvre pour parvenir à une issue diligente de ce dossier.",
-      "country": "BFA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T08:51:19+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/14/burkina-faso-affaire-norbert-zongo-francois-compare-bientot-devant-un-tribunal/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/14/burkina-faso-affaire-norbert-zongo-francois-compare-bientot-devant-un-tribunal/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4e2c70ea93",
-      "title": "Burkina Faso: Appeal delays trial of Norbert Zongo murder accused",
-      "summary": "The Attorney General said three prominent figures were to go on trial to answer to charges of murder, aggravated destruction of property, and complicity in murder.",
-      "country": "BFA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T08:50:14+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/14/burkina-faso-appeal-delays-trial-of-norbert-zongo-murder-accused/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/14/burkina-faso-appeal-delays-trial-of-norbert-zongo-murder-accused/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "647fd80958",
       "title": "Nearly Half of Young People Are Not Working or in Training",
       "summary": "[GroundUp] NEET rate for 15-34 year olds has risen from 38% to 45% since 2012",
@@ -13252,40 +13159,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260813-madagascar-des-d%C3%A9put%C3%A9s-du-pr%C3%A9sident-d%C3%A9chu-rallient-le-pouvoir-en-place"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "218504ebb5",
-      "title": "Eclipse : à Dakar, passionnés et curieux réunis la tête dans les nuages",
-      "summary": "L’éclipse solaire partielle a été observée ce mercredi dans plusieurs pays africains. En Tunisie, le phénomène a atteint 59,06 % d’occultation à Tabarka, tandis qu’à Dakar et dans plusieurs régions du Sénégal, près de 37 % du disque solaire a été masqué. À Dakar, de nombreux curieux se sont rassemblés pour assister à ce spectacle céleste, entre émerveillement et enthousiasme.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "fr",
-      "published": "2026-08-13T12:12:30+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260813-eclipse-%C3%A0-dakar-passionn%C3%A9s-et-curieux-r%C3%A9unis-la-t%C3%AAte-dans-les-nuages"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260813-eclipse-%C3%A0-dakar-passionn%C3%A9s-et-curieux-r%C3%A9unis-la-t%C3%AAte-dans-les-nuages"
         }
       ],
       "confirmation_count": 1
