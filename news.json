@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-08-17T07:15:59.826844+00:00",
+  "generated_at": "2026-08-17T08:03:21.733646+00:00",
   "stats": {
-    "total_signals": 504,
+    "total_signals": 517,
     "verified_signals": 17,
     "countries_covered": 30,
     "sources_active": 32,
     "per_country": {
-      "ZAF": 53,
-      "NGA": 50,
-      "UGA": 35,
-      "CIV": 22,
+      "NER": 2,
+      "ZAF": 54,
       "COD": 13,
-      "KEN": 51,
-      "ZWE": 8,
+      "NGA": 48,
+      "UGA": 37,
+      "CIV": 23,
+      "KEN": 56,
+      "ZWE": 7,
       "MOZ": 41,
       "AGO": 29,
       "MAR": 43,
-      "TZA": 30,
+      "TZA": 31,
       "SEN": 26,
       "MLI": 22,
-      "ZMB": 19,
       "TCD": 11,
       "CMR": 11,
-      "RWA": 2,
-      "BFA": 7,
+      "RWA": 5,
+      "ZMB": 21,
+      "BFA": 6,
+      "COG": 2,
       "DZA": 2,
       "GIN": 3,
-      "COG": 1,
       "MWI": 4,
       "GHA": 4,
       "TGO": 1,
@@ -34,7 +35,6 @@
       "TUN": 3,
       "ETH": 6,
       "CAF": 3,
-      "NER": 1,
       "GAB": 1
     }
   },
@@ -234,6 +234,40 @@
   ],
   "signals": [
     {
+      "id": "49f2bd1be3",
+      "title": "Niger : le MPLJ, mouvement pro-Bazoum, intensifie ses attaques contre la junte",
+      "summary": "Les rebelles du Mouvement patriotique pour la liberté et la justice ont tué plusieurs soldats lors d’une série d’attaques menées vendredi 14 août contre les forces nigériennes à Séguédine, une petite localité située dans l’extrême nord du pays.",
+      "country": "NER",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-17T09:25:19+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1835023/politique/niger-le-mplj-mouvement-pro-bazoum-intensifie-ses-attaques-contre-la-junte/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1835023/politique/niger-le-mplj-mouvement-pro-bazoum-intensifie-ses-attaques-contre-la-junte/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "8185b4675b",
       "title": "THE EDUCATION DESK: No data, no deadline, no dedicated funding: SA’s blind and deaf children face an ECD crisis",
       "summary": "South Africa does not know how many blind and deaf children are missing out on early childhood development – and the government cannot say when it will have a national framework in place to ensure they are included. This comes a quarter of a century after the gazetting of a government blueprint on inclusive education.",
@@ -394,6 +428,52 @@
         }
       ],
       "confirmation_count": 1
+    },
+    {
+      "id": "64b7c6f1aa",
+      "title": "Ebola outbreak in DR Congo becomes deadliest in its history",
+      "summary": "The outbreak was already the fastest growing on record, caused by a rare species of Ebola called Bundibugyo.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 5,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-08-17T04:41:31+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cvgll74vvydo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cvgll74vvydo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/8/17/ebola-outbreak-in-dr-congo-becomes-deadliest-in-countrys-history?traffic_source=rss"
+        },
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-08-17-ebola-outbreak-in-democratic-republic-of-congo-becomes-deadliest-in-country-s-history/"
+        }
+      ],
+      "confirmation_count": 3
     },
     {
       "id": "05de5de283",
@@ -558,46 +638,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "d3f86e3d09",
-      "title": "Ebola outbreak in DR Congo becomes deadliest in country’s history",
-      "summary": "A top UN official says 'speed, scale, and solidarity' needed 'before this virus gets even further ahead of us'.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-17T01:41:40+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/8/17/ebola-outbreak-in-dr-congo-becomes-deadliest-in-countrys-history?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/8/17/ebola-outbreak-in-dr-congo-becomes-deadliest-in-countrys-history?traffic_source=rss"
-        },
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-08-17-ebola-outbreak-in-democratic-republic-of-congo-becomes-deadliest-in-country-s-history/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "027cb188c4",
@@ -1182,6 +1222,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "48c39e5b20",
+      "title": "South Sudan embassy in Kenya cuts operating hours on cash crunch",
+      "summary": "On Tuesday, there were reports that the embassy has not paid rent for four months.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T07:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/south-sudan-embassy-in-kenya-cuts-operating-hours-5557420"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/south-sudan-embassy-in-kenya-cuts-operating-hours-5557420"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "b24c3c14b4",
       "title": "Lac Kariba : le Zimbabwe rend hommage aux victimes du naufrage d’un ferry",
       "summary": "Le lac Kariba a continué jeudi de livrer les corps d’un naufrage qui a déjà décimé plusieurs familles et plongé des villages entiers dans le deuil. Deux jours après le chavirement du ferry gouvernemental, la police zimbabwéenne a porté à 46 le nombre de morts.",
@@ -1243,6 +1315,38 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/13/zimbabwes-kariba-ferry-disaster-victims-honoured-as-death-toll-reaches-44/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c2184599e3",
+      "title": "Ramaphosa Mourns 44 Killed in Lake Kariba Disaster",
+      "summary": "[Scrolla] · At least 44 people died after a ferry carrying passengers on Lake Kariba overturned after hitting strong waves on Tuesday.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T12:12:39+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608130203.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608130203.html"
         }
       ],
       "confirmation_count": 1
@@ -1825,40 +1929,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "41d9206add",
-      "title": "Zambia vote counting resumes after pause over alleged attacks on polling staff",
-      "summary": "The electoral commission said violence had \"resulted in the theft of marked ballot papers\".",
-      "country": "ZMB",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY"
-      ],
-      "lang": "en",
-      "published": "2026-08-14T16:28:59+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/c5yr8r04edvo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/c5yr8r04edvo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "609e537dab",
       "title": "State, Determinants, Dynamics, and Fate of Media and Free Expression Rights in Burkina Faso, Mali, Niger and Guinea",
       "summary": "[MFWA] This report examines the state of press freedom and freedom of expression in Burkina Faso, Mali, Niger and Guinea, four West African countries under military-led governments that have experienced coups since 2021.",
@@ -1954,38 +2024,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260814-tchad-ex-premier-ministre-masra-opposants-grace-prison"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7fcec38083",
-      "title": "Super Falcons to Miss 2027 World Cup After Crashing Out of Wafcon",
-      "summary": "[Daily Trust] The Super Falcons of Nigeria have failed to advance in their quest for a women's World Cup ticket following a 2-1 defeat by South Africa in the continental play-in match at the Moulay Rachid Stadium in Casablanca, Morocco.",
-      "country": "ZAF",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T07:44:30+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140066.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140066.html"
         }
       ],
       "confirmation_count": 1
@@ -2088,6 +2126,40 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1832514/economie-entreprises/maroc-les-promoteurs-immobiliers-en-plein-age-dor/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1b09f0c9fb",
+      "title": "Super Falcons Coach Madugu Fires Back At Critics Ahead of South Africa World Cup Play-Off",
+      "summary": "[Premium Times] Justin Madugu has defended his team selection and tactical decisions, insisting Nigeria are focused on beating South Africa and keeping their 2027 World Cup hopes alive.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY"
+      ],
+      "lang": "en",
+      "published": "2026-08-13T10:31:18+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608130159.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608130159.html"
         }
       ],
       "confirmation_count": 1
@@ -2511,38 +2583,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "e5405508ec",
-      "title": "Call for Applications - CJID 2026 Excellence in Journalism Awards",
-      "summary": "[CJID] The Centre for Journalism Innovation and Development (CJID) is pleased to announce the call for applications for the 2026 edition of its Excellence in Journalism Awards.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T04:18:37+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170061.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170061.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6c19bb6f34",
       "title": "Parliament Moves to Curb Long MP Trips, Tayebwa Announces Seven-Day Limit",
       "summary": "[Nile Post] Parliament is tightening controls on legislators' official travel, with Deputy Speaker Thomas Tayebwa announcing that Members of Parliament will no longer undertake trips lasting more than seven days.",
@@ -2755,44 +2795,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "3404db222f",
-      "title": "Tchad : l'opposant Succès Masra s’exprime après sa libération",
-      "summary": "L’opposant tchadien et ancien Premier ministre Succès Masra, fondateur du parti Les Transformateurs et candidat face au président Mahamat Idriss Déby à la présidentielle de 2024, avait été condamné à 20 ans de prison en 2025. Gracié par le président Déby le 14 août après plus d’un an derrière les barreaux, il s’est confié à FRANCE 24 sur la situation politique au Tchad et sur son avenir politique.",
-      "country": "TCD",
-      "category": "POLITIQUE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-16T16:00:42+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-tchad-l-opposant-succ%C3%A8s-masra-s-exprime-apr%C3%A8s-sa-lib%C3%A9ration"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-tchad-l-opposant-succ%C3%A8s-masra-s-exprime-apr%C3%A8s-sa-lib%C3%A9ration"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/16/tchad-succes-masra-appelle-a-la-reconciliation-apres-sa-liberation/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "c35a4495b9",
@@ -3174,6 +3176,76 @@
         }
       ],
       "confirmation_count": 1
+    },
+    {
+      "id": "8a99c583c8",
+      "title": "Congo’s constitution debate: Reform, power, and a missing national vision",
+      "summary": "The Democratic Republic of Congo does not lack talent, resources, or ideas. It lacks a shared...",
+      "country": "COG",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/congo-s-constitution-debate-5558266"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/congo-s-constitution-debate-5558266"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2e0fa1a2b8",
+      "title": "Tchad : l'opposant Succès Masra gracié par Mahamat Idriss Déby",
+      "summary": "Le président tchadien Mahamat Idriss Déby a gracié l'opposant Succès Masra, ainsi que huit autres dirigeants de partis d'opposition. Le chef des Transformateurs purgeait depuis plus d'un an une peine de 20 ans de prison ferme. Cette grâce ouvre-t-elle de nouvelles perspectives pour l'opposition ?",
+      "country": "TCD",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-14T20:24:52+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260814-le-pr%C3%A9sident-tchadien-gracie-l-opposant-succ%C3%A8s-masra"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260814-le-pr%C3%A9sident-tchadien-gracie-l-opposant-succ%C3%A8s-masra"
+        },
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1833016/politique/au-tchad-mahamat-idriss-deby-itno-gracie-lopposant-succes-masra/"
+        }
+      ],
+      "confirmation_count": 2
     },
     {
       "id": "3ece82ded1",
@@ -4024,38 +4096,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1fff69db32",
-      "title": "MPs to Consider Six Bills Seeking Sweeping Reforms in Education Sector",
-      "summary": "[Capital FM] Nairobi -- The National Assembly is set to consider six Bills proposing far-reaching reforms across Kenya's education sector, with the proposed legislation targeting basic education governance, national assessments, curriculum development, teacher training, tertiary education funding and the recognition of academic and professional qualifications.",
-      "country": "KEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-12T07:44:42+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608120068.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608120068.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "85c2184d84",
       "title": "Prodel Announces Recovery of 13 Generators At Chibodo Power Plant in Cabinda",
       "summary": "[ANGOP] Cabinda -- The CEO of PRODEL, Pedro Afonso announced on Friday that 13 generator sets that have been out of service for three months at the Chibodo Thermal Power Plant in Cabinda will be repaired by September.",
@@ -4877,6 +4917,106 @@
       "confirmation_count": 1
     },
     {
+      "id": "cfc523ca4f",
+      "title": "CTA calls for partnerships between Mozambican companies and major investors in Rovuma LNG project – Watch",
+      "summary": "The Confederation of Economic Associations of Mozambique (CTA) on Friday called for Mozambican companies to pursue partnerships with major investors to take advantage of opportunities arising from the Rovuma LNG project, led by ExxonMobil in the Rovuma Basin. Speaking after a meeting with Anthony Pryde, ExxonMobil’s Mozambique Development Director, CTA Local Content Bureau President Adrian…\nSource",
+      "country": "MOZ",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "en",
+      "published": "2026-08-17T07:40:45+00:00",
+      "lead_source": {
+        "id": "club-moz",
+        "name": "Club of Mozambique",
+        "tier": 2,
+        "url": "https://clubofmozambique.com/news/cta-calls-for-partnerships-between-mozambican-companies-and-major-investors-in-rovuma-lng-project-watch/"
+      },
+      "confirming_sources": [
+        {
+          "id": "club-moz",
+          "name": "Club of Mozambique",
+          "tier": 2,
+          "url": "https://clubofmozambique.com/news/cta-calls-for-partnerships-between-mozambican-companies-and-major-investors-in-rovuma-lng-project-watch/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "53056253b9",
+      "title": "Les lieux de pouvoir: le palais présidentiel à Abidjan, un lieu chargé d’histoire",
+      "summary": "Une nouvelle série commence ce matin sur RFI, consacrée aux lieux de pouvoir. Et pour son premier épisode, direction la Côte d’Ivoire. L’essentiel du pouvoir politique est concentré à Abidjan. Focus sur le palais de la présidence.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-17T07:37:09+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/la-fabrique-du-monde/20260817-les-lieux-de-pouvoir-le-palais-pr%C3%A9sidentiel-%C3%A0-abidjan-un-lieu-charg%C3%A9-d-histoire"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/la-fabrique-du-monde/20260817-les-lieux-de-pouvoir-le-palais-pr%C3%A9sidentiel-%C3%A0-abidjan-un-lieu-charg%C3%A9-d-histoire"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "476f713c82",
+      "title": "Top Zambian opposition figures arrested days after presidential vote",
+      "summary": "The authorities allege they were involved in an insurrection plot but the leading opposition candidate says there was an attempt on his life.",
+      "country": "ZMB",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "en",
+      "published": "2026-08-17T07:31:36+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cn0nj3ln8r5o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cn0nj3ln8r5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d84a39f0a0",
       "title": "Kushner to meet Netanyahu after talks with Hamas on Gaza plan",
       "summary": "US envoy Jared Kushner is due to meet Israeli Prime Minister Benjamin Netanyahu on Monday after holding talks with Hamas leaders in Egypt aimed at reviving a US-backed Gaza peace plan that Israel has so far rejected. The meeting comes two weeks after Hamas endorsed the latest stage of Trump’s Gaza plan, which Netanyahu has…\nSource",
@@ -4940,6 +5080,38 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-opposition-parties-podemos-renamo-call-for-investigation-into-police-firing-on-mondlane-supporters/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "49b4399c16",
+      "title": "Zambia: Will the next government care for Lusaka’s endangered forest reserve?",
+      "summary": "Five years ago environmentalists had some hope that a Lusaka forest and water catchment area would be restored to its former glory after encroachment by properties for politically-connected individuals, but illegal loggers are still destroying trees.",
+      "country": "ZMB",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T07:00:00+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/427716/zambia-will-the-next-government-care-for-lusakas-endangered-forest-reserve/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/427716/zambia-will-the-next-government-care-for-lusakas-endangered-forest-reserve/"
         }
       ],
       "confirmation_count": 1
@@ -6402,6 +6574,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "d70be87f87",
+      "title": "CJID Preliminary Statement On the 2026 Osun Governorship Election",
+      "summary": "[CJID] The Centre for Journalism Innovation and Development (CJID), through its Election Analysis Centre and observers deployed across Osun State, monitored the August 15, 2026, governorship election from the opening of polls through voting, counting, collation and the declaration of results.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T04:18:43+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608170071.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608170071.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "14391cc264",
       "title": "South Africa's Small Sugar Farms Are Producing Less Than They Could - Study Finds Ways to Boost Them",
       "summary": "[The Conversation Africa] South Africa has around 25,653 small-scale sugarcane growers, making the industry a lifeline for rural communities in Mpumalanga and KwaZulu-Natal provinces. By generating 65,000 direct and 270,000 indirect jobs, its agricultural and milling operations support more than a million livelihoods in these areas. But the productivity of many small-scale growers remains well below potential. Production constraints are limiting both farm profitability…",
@@ -6431,38 +6635,6 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608170073.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0928501309",
-      "title": "Osun 2026 - End-of-Voting Election Statement",
-      "summary": "[CJID] 15 August, 2026",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T04:18:42+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170070.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170070.html"
         }
       ],
       "confirmation_count": 1
@@ -6500,33 +6672,33 @@
       "confirmation_count": 1
     },
     {
-      "id": "1edd3cc58a",
-      "title": "CJID Deploys Observers, Fact-Checkers and Analysts Across Osun for 2026 Governorship Election",
-      "summary": "[CJID] ABUJA, Nigeria, 14 August 2026 -- The Centre for Journalism Innovation and Development (CJID) has deployed observers, fact-checkers and analysts across all 30 Local Government Areas of Osun State ahead of the governorship election scheduled for Saturday, 15 August 2026.",
+      "id": "60c1b3a9d2",
+      "title": "Osun 2026 - CJID Midday Election Assessment",
+      "summary": "[CJID] The 2026 Osun Governorship Election is being held today, 15 August, across 30 Local Government Areas, 332 wards and 3,763 polling units. According to INEC, Osun has 2,339,233 registered voters, of whom 1,906,390, or 81.5 per cent, collected their Permanent Voter Cards.",
       "country": "NGA",
       "category": "POLITIQUE",
       "severity": 1,
       "credibility": 2,
       "verified": false,
       "theme": null,
-      "legal_status": null,
+      "legal_status": "ADOPTE",
       "regulatory": false,
       "fdi": false,
       "sectors": [],
       "lang": "en",
-      "published": "2026-08-17T04:18:35+00:00",
+      "published": "2026-08-17T04:18:41+00:00",
       "lead_source": {
         "id": "aa-nga",
         "name": "AllAfrica · Nigeria",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202608170057.html"
+        "url": "https://allafrica.com/stories/202608170068.html"
       },
       "confirming_sources": [
         {
           "id": "aa-nga",
           "name": "AllAfrica · Nigeria",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202608170057.html"
+          "url": "https://allafrica.com/stories/202608170068.html"
         }
       ],
       "confirmation_count": 1
@@ -7409,44 +7581,9 @@
       "confirmation_count": 1
     },
     {
-      "id": "f2e291d2a6",
-      "title": "Mozambique: South Korea donates $7.7M to build Maputo district hospital",
-      "summary": "South Korea has provided $7.7 million (€6.6 million) for the construction of a district hospital in KaTembe, Maputo, with the aim of improving access to healthcare. “Building a hospital in KaTembe will be a major boon. It will improve access and bring healthcare closer to the people. Pregnant women from KaTembe, for example, will be…\nSource",
-      "country": "MOZ",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH",
-        "CONSTRUCTION"
-      ],
-      "lang": "en",
-      "published": "2026-08-16T22:00:50+00:00",
-      "lead_source": {
-        "id": "club-moz",
-        "name": "Club of Mozambique",
-        "tier": 2,
-        "url": "https://clubofmozambique.com/news/mozambique-south-korea-donates-7-7m-to-build-maputo-district-hospital/"
-      },
-      "confirming_sources": [
-        {
-          "id": "club-moz",
-          "name": "Club of Mozambique",
-          "tier": 2,
-          "url": "https://clubofmozambique.com/news/mozambique-south-korea-donates-7-7m-to-build-maputo-district-hospital/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f3e8ddab2b",
-      "title": "Le ministre de la communication tchadien nous répond sur France 24",
-      "summary": "Se dirige t-on vers un apaisement du climat politique au Tchad ? Une question légitime après la grâce accordée vendredi à 9 opposants par le président Déby. Le ministre de la communication tchadien Gassim Chérif est notre invité.",
+      "id": "7b6a5b34c1",
+      "title": "Tchad : après la libération d'opposants, le ministre de la Communication s'exprime sur France 24",
+      "summary": "Se dirige-t-on vers un apaisement du climat politique au Tchad ? Une question légitime après la grâce accordée vendredi à neuf opposants politiques par le président Déby, dont l'ancien Premier ministre Succès Masra, précédemment condamné à 20 ans de prison. Le ministre de la Communication tchadien Gassim Chérif est notre invité.",
       "country": "TCD",
       "category": "CLIMAT",
       "severity": 1,
@@ -7571,6 +7708,38 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-s%C3%A9n%C3%A9gal-les-r%C3%A9gates-de-pirogues-une-tradition-vieille-de-deux-si%C3%A8cles-%C3%A0-saint-louis"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3404db222f",
+      "title": "Tchad : l'opposant Succès Masra s’exprime après sa libération",
+      "summary": "L’opposant tchadien et ancien Premier ministre Succès Masra, fondateur du parti Les Transformateurs et candidat face au président Mahamat Idriss Déby à la présidentielle de 2024, avait été condamné à 20 ans de prison en 2025. Gracié par le président Déby le 14 août après plus d’un an derrière les barreaux, il s’est confié à FRANCE 24 sur la situation politique au Tchad et sur son avenir politique.",
+      "country": "TCD",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-16T16:00:42+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-tchad-l-opposant-succ%C3%A8s-masra-s-exprime-apr%C3%A8s-sa-lib%C3%A9ration"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-tchad-l-opposant-succ%C3%A8s-masra-s-exprime-apr%C3%A8s-sa-lib%C3%A9ration"
         }
       ],
       "confirmation_count": 1
@@ -7936,6 +8105,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "539cf7a495",
+      "title": "Tchad : Succès Masra appelle à la réconciliation après sa libération",
+      "summary": "Au Tchad, après la prison, place au message d’apaisement. Libéré grâce à une grâce présidentielle, l’opposant Succès Masra appelle désormais à dépasser les rancœurs et à ouvrir une nouvelle page fondée sur le pardon et la réconciliation nationale.",
+      "country": "TCD",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-16T09:28:08+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/16/tchad-succes-masra-appelle-a-la-reconciliation-apres-sa-liberation/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/16/tchad-succes-masra-appelle-a-la-reconciliation-apres-sa-liberation/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "60ec2a4ee4",
       "title": "À Ceuta, les mineurs marocains refusent le retour réclamé par Rabat",
       "summary": "Depuis la crise de Ceuta, Rabat réclame le retour de l'ensemble des mineurs marocains non accompagnés présents en Espagne. Ils sont nombreux à se trouver actuellement dans l'enclave espagnole depuis la dernière crise migratoire.",
@@ -7995,6 +8196,38 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260816-tchad-apr%C3%A8s-sa-lib%C3%A9ration-succ%C3%A8s-masra-laisse-la-porte-ouverte-%C3%A0-un-gouvernement-d-union-nationale"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "64780c1710",
+      "title": "Tanzania orders online businesses to display tax IDs",
+      "summary": "This comes hot on the heels of Kenya’s move to bring gig workers and content creators into the...",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-16T06:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/tanzania-orders-online-businesses-to-display-tax-ids-5558568"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/tanzania-orders-online-businesses-to-display-tax-ids-5558568"
         }
       ],
       "confirmation_count": 1
@@ -8362,6 +8595,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "43ee7ef4ba",
+      "title": "How artists are tapping into Rwanda’s tourism promotion",
+      "summary": "The art gallery is among the top places tourists in Rwanda visit after the Kigali Genocide...",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T09:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/magazine/how-artists-are-tapping-into-rwanda-tourism-promotion-5558472"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/magazine/how-artists-are-tapping-into-rwanda-tourism-promotion-5558472"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "30d379a946",
       "title": "Succès Masra gracié, Assimi Goïta et Abdelmadjid Tebboune se réconcilient, la crise d’Ormuz profite aux majors… Les 5 infos qu’il ne fallait pas manquer",
       "summary": "Cette semaine, le Brief de Jeune Afrique revient sur la grâce accordée à l’opposant tchadien Succès Masra, décrypte la réconciliation entre le Mali et l’Algérie, analyse les bénéfices tirés par les majors de la crise d’Ormuz et le regain d’attractivité des hydrocarbures africains, s’interroge sur un possible report des élections locales au Sénégal et fait le point sur les dernières tractations autour du dialogue national en RDC.",
@@ -8556,6 +8821,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "28f20eaab8",
+      "title": "Kenya in blueprint talks amid poll-season scepticism",
+      "summary": "President says the new blueprint could help push Kenya towards first-world status by 2060.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T07:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-in-blueprint-talks-amid-poll-season-scepticism-5558516"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-in-blueprint-talks-amid-poll-season-scepticism-5558516"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d1c924effe",
       "title": "UN calls for negotiations to end the conflict in Mozambique",
       "summary": "A military victory over jihadist insurgents in Mozambique's Cabo Delgado province does not appear imminent, according to a report by a United Nations special rapporteur released Friday.",
@@ -8619,6 +8916,134 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/15/mozambique-lonu-alerte-sur-limpasse-militaire-face-aux-djihadistes/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1bc3219b4c",
+      "title": "EAC asks partner states to stop plugging budget shortfalls with central bank ‘tool’",
+      "summary": "Nairobi is expected to table recommendations on phasing out overdraft facilities as bloc races...",
+      "country": "KEN",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T05:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/eac-partner-states-central-bank-budget-shortfalls-5558444"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/eac-partner-states-central-bank-budget-shortfalls-5558444"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "947596072a",
+      "title": "Uganda sovereignty law on trial in new case",
+      "summary": "At the centre of the dispute is the balance between Uganda’s sovereign authority to regulate...",
+      "country": "UGA",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T05:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/uganda-sovereignty-law-on-trial-in-new-case-5558514"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/uganda-sovereignty-law-on-trial-in-new-case-5558514"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "302e0dd351",
+      "title": "Uganda joins Kenya in opposing Rwanda ban on alcoholic drinks",
+      "summary": "The Ugandan standards body says that no technical or scientific justification was presented to...",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T03:45:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-joins-kenya-in-opposing-rwanda-alcohol-ban-5558630"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-joins-kenya-in-opposing-rwanda-alcohol-ban-5558630"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "febabd5847",
+      "title": "South Africa’s anti-migrant purge raises costs, tensions",
+      "summary": "Regional countries already at odds with Pretoria could be saddled with compensation claims for...",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/south-africa-anti-migrant-purge-5558150"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/south-africa-anti-migrant-purge-5558150"
         }
       ],
       "confirmation_count": 1
@@ -8853,38 +9278,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "8f04078655",
-      "title": "Le président tchadien gracie l'opposant Succès Masra",
-      "summary": "Le président tchadien Mahamat Idriss Deby accorde une grâce à l'opposant Succès Masra huit autres dirigeants de partis. Le chef des Transformateurs purgeait depuis plus d'un an une peine de 20 ans de prison ferme. Cette grâce ouvre-t-elle de nouvelles perspectives pour l'opposition ?",
-      "country": "TCD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T20:24:52+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260814-le-pr%C3%A9sident-tchadien-gracie-l-opposant-succ%C3%A8s-masra"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260814-le-pr%C3%A9sident-tchadien-gracie-l-opposant-succ%C3%A8s-masra"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6e2b8a6310",
       "title": "Central African Republic: Muslims return as Sibut rebuilds",
       "summary": "Years after civil war drove many Muslims from Sibut, the call to prayer is echoing again from the town’s rebuilt central mosque. Returning residents and Christian neighbours are seeking to restore trust and revive a community once known for peaceful coexistence.",
@@ -9043,6 +9436,38 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1832284/politique/guinee-bella-bah-un-activiste-dans-lame-qui-derange-mamadi-doumbouya/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0777bacf15",
+      "title": "Rwanda FDA chief arrested amid crackdown on illicit liquors",
+      "summary": "Emile Bienvenu is being investigated for allegedly providing documents without complying with...",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T18:45:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/rwanda-fda-chief-arrested-amid-crackdown-on-illicit-liquors-5558206"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/rwanda-fda-chief-arrested-amid-crackdown-on-illicit-liquors-5558206"
         }
       ],
       "confirmation_count": 1
@@ -9927,6 +10352,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "23671275bb",
+      "title": "US Senate backs Agoa extension to 2028",
+      "summary": "Kenya remains the largest beneficiary of Agoa in the garment sector.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T14:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/us-senate-backs-agoa-extension-to-2028-5558124"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/us-senate-backs-agoa-extension-to-2028-5558124"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "295c382fb7",
       "title": "Maroc : les actifs des OPCVM atteignent 91,4 milliards de dollars début août",
       "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
@@ -10148,38 +10605,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608140163.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4ef85953d0",
-      "title": "Tchad : Succès Masra gracié par Mahamat Idriss Déby Itno, l’espoir d’une « nouvelle page » pour l’opposant",
-      "summary": "Le président tchadien a accordé ce 14 août une grâce à neuf personnalités, dont l’opposant Succès Masra. Pour ce dernier, de nouvelles tractations commencent, avec comme objectif un nouveau retour au premier plan de la politique tchadienne.",
-      "country": "TCD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T10:35:03+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1833016/politique/au-tchad-mahamat-idriss-deby-itno-gracie-lopposant-succes-masra/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1833016/politique/au-tchad-mahamat-idriss-deby-itno-gracie-lopposant-succes-masra/"
         }
       ],
       "confirmation_count": 1
@@ -10543,70 +10968,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2fd80eacc6",
-      "title": "The Story of a Vegetable Garden in Rural South Africa Shows How Communities Can Drive Climate Action",
-      "summary": "[The Conversation Africa] A long-standing idea in environmental research is that people are more likely to care about the environment, and do something to prevent environmental damage, once they earn enough to stop worrying about paying their bills. But what happens in rural communities with high levels of poverty, where money is scarce and environmental changes directly affect people's livelihoods?",
-      "country": "ZAF",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T07:34:04+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140063.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140063.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c74545c1e4",
-      "title": "Childhood Hunger - When School Meals Stop, One Free State Community Steps in",
-      "summary": "[Health-e] For some children at a Nyakallong school in the Free State, the school term means at least one guaranteed meal a day.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T07:27:28+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140054.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140054.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "647fd80958",
       "title": "Nearly Half of Young People Are Not Working or in Training",
       "summary": "[GroundUp] NEET rate for 15-34 year olds has risen from 38% to 45% since 2012",
@@ -10762,38 +11123,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/427640/you-have-to-take-fintechs-head-on-says-paul-russo-as-kcb-eyes-digital-expansion-in-southern-and-west-africa/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8f1f4e3905",
-      "title": "Zimbabwe: How Rautenbach is elbowing the Kelly family out of a Zambezi Valley safari camp",
-      "summary": "The forced closure of Terry William Kelly’s popular Chewore Safari Lodge and Campsite after Zimbabwe courts ruled his 25-year lease on the area was invalid has triggered far-reaching criticism from investors and visitors to the region.",
-      "country": "ZWE",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T06:00:00+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/427633/zimbabwe-how-rautenbach-is-elbowing-the-kelly-family-out-of-a-zambezi-valley-safari-camp/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/427633/zimbabwe-how-rautenbach-is-elbowing-the-kelly-family-out-of-a-zambezi-valley-safari-camp/"
         }
       ],
       "confirmation_count": 1
@@ -10959,41 +11288,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "10922fb103",
-      "title": "« Africa Corps Airline » : comment la Russie achemine armes et troupes au Sahel",
-      "summary": "Un rapport de l’ONG américaine C4ADS lève le voile sur la logistique aérienne d’Africa Corps. Sept compagnies, dont des opérateurs publics russes et africains, alimentent les bases au Mali, au Burkina Faso et au Niger.",
-      "country": "BFA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "MARINE_TRANSPORT",
-        "AVIATION"
-      ],
-      "lang": "fr",
-      "published": "2026-08-13T18:57:05+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1832019/politique/africa-corps-airline-comment-la-russie-achemine-armes-et-troupes-au-sahel/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1832019/politique/africa-corps-airline-comment-la-russie-achemine-armes-et-troupes-au-sahel/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2bc2ab8e59",
       "title": "Côte d'Ivoire : l'urbanisation et l'érosion côtière menacent les cocoteraies",
       "summary": "En Côte d’Ivoire, les cocoteraies reculent face à l’urbanisation et au recul du littoral. Une menace pour des milliers de familles qui en vivent, mais aussi pour la protection des côtes.",
@@ -11055,6 +11349,38 @@
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608130442.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cb164b2e7b",
+      "title": "Lungu’s ghost looms in Zambia elections as Hichilema bids second term",
+      "summary": "The election on August 13 has far greater international significance than the country's...",
+      "country": "ZMB",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T15:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/lungu-s-ghost-looms-in-zambia-elections-5557034"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/lungu-s-ghost-looms-in-zambia-elections-5557034"
         }
       ],
       "confirmation_count": 1
@@ -11187,6 +11513,38 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608130376.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d73125274c",
+      "title": "Protests Force CPUT to Withdraw Student Payment Plan",
+      "summary": "[GroundUp] The university had proposed that students pay up to R7,000 to start the year",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T14:05:36+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608130375.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608130375.html"
         }
       ],
       "confirmation_count": 1
@@ -11580,6 +11938,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "ad6cf99d58",
+      "title": "Kenya-Rwanda alcohol dispute tests EAC standards regime",
+      "summary": "The row began after the Rwanda Food and Drugs Authority (Rwanda FDA) suspended five Kenyan brands.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T11:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-rwanda-alcohol-dispute-tests-eac-standards-regime-5556420"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-rwanda-alcohol-dispute-tests-eac-standards-regime-5556420"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "22aab5ec26",
       "title": "Ending FGM Through Women's Voices",
       "summary": "[Daily News] WHEN Yasinta Zakaria speaks about Female Genital Mutilation (FGM), she does not speak from theory. She speaks from memory from pain she says has stayed with her for years.",
@@ -11840,6 +12230,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "e9be70adac",
+      "title": "500 Drones Light Up Nairobi Sky in Spectacular Celebration of Kenya-China Ties",
+      "summary": "[Capital FM] Nairobi -- Nairobi's skyline became a giant canvas on Thursday night as 500 drones took to the skies above Nyayo National Stadium, delivering a spectacular display celebrating Kenya-China relations and the growing ties between China and Africa.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T08:52:06+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608130043.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608130043.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d993ec0c87",
       "title": "South Africa Vs Nigeria - Five Key Players Who Could Decide Super Falcons' World Cup Play-Off Fixture",
       "summary": "[Premium Times] Both nations possess experienced squads packed with players who have performed at the highest level for club and country. But in a match this tight, individual moments could make the difference",
@@ -11965,6 +12387,38 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608130013.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b94c462e5b",
+      "title": "How Congo-Rwanda war tensions are spilling into football",
+      "summary": "Rwanda’s military-backed side, APR FC, threatened to boycott a football fixture against Les...",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/how-congo-rwanda-war-tensions-are-spilling-into-football-5555448"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/how-congo-rwanda-war-tensions-are-spilling-into-football-5555448"
         }
       ],
       "confirmation_count": 1
@@ -15325,38 +15779,6 @@
           "name": "CIO Africa",
           "tier": 2,
           "url": "https://cioafrica.co/nigeria-to-require-independent-software-testing-for-government-it-projects-from-2027/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "58a2536ad9",
-      "title": "Final medal table as Nigeria lead for Africa at Glasgow 2026",
-      "summary": "Australia finish the 2026 Commonwealth Games with 70 golds and 171 medals overall, while England finish a distant second in the standings.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-02T18:26:59+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/sport/articles/crl788216dro?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/sport/articles/crl788216dro?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
