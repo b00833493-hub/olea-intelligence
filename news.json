@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-17T18:55:57.942965+00:00",
+  "generated_at": "2026-08-17T19:41:27.694740+00:00",
   "stats": {
-    "total_signals": 537,
-    "verified_signals": 12,
-    "countries_covered": 31,
+    "total_signals": 536,
+    "verified_signals": 13,
+    "countries_covered": 30,
     "sources_active": 32,
     "per_country": {
-      "ZWE": 5,
+      "ZWE": 6,
       "COD": 17,
       "DZA": 4,
-      "NGA": 52,
+      "NGA": 51,
       "SEN": 29,
       "ZAF": 61,
-      "CMR": 16,
+      "CMR": 15,
       "NER": 4,
       "UGA": 36,
       "CIV": 21,
@@ -25,7 +25,7 @@
       "TCD": 10,
       "GAB": 2,
       "COG": 3,
-      "GIN": 4,
+      "GIN": 5,
       "RWA": 4,
       "ZMB": 19,
       "NAM": 1,
@@ -35,8 +35,7 @@
       "BFA": 3,
       "ETH": 6,
       "CAF": 2,
-      "TUN": 1,
-      "MDG": 1
+      "TUN": 1
     }
   },
   "sources": [
@@ -234,6 +233,84 @@
     }
   ],
   "signals": [
+    {
+      "id": "b094b61b85",
+      "title": "Death toll from capsized ferry in Zimbabwe rises to 92",
+      "summary": "Search efforts to recover the remaining victims are still underway.",
+      "country": "ZWE",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T19:12:19+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/8/17/death-toll-from-capsized-ferry-in-zimbabwe-rises-to-92?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/8/17/death-toll-from-capsized-ferry-in-zimbabwe-rises-to-92?traffic_source=rss"
+        },
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/16/zimbabwe-ferry-death-toll-rises-to-68-after-lake-kariba-capsizing/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "2942fb5680",
+      "title": "Ebola en RDC : l'actuelle épidémie devient la plus meurtrière de l'histoire du pays",
+      "summary": "En RDC, l’épidémie d’Ebola a déjà fait plus de 2 300 morts, dépassant le bilan de la crise de 2018-2020, jusque-là la plus meurtrière. Face à l’urgence, les appels se multiplient pour accélérer la mise sur le marché des vaccins encore en expérimentation.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "fr",
+      "published": "2026-08-17T18:58:44+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260817-ebola-en-rdc-l-actuelle-%C3%A9pid%C3%A9mie-devient-la-plus-meurtri%C3%A8re-de-l-histoire-du-pays"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260817-ebola-en-rdc-l-actuelle-%C3%A9pid%C3%A9mie-devient-la-plus-meurtri%C3%A8re-de-l-histoire-du-pays"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/17/ebola-rdc-lepidemie-la-plus-meurtriere-de-lhistoire-du-pays-africanews-today/"
+        }
+      ],
+      "confirmation_count": 2
+    },
     {
       "id": "4240700c30",
       "title": "Zimbabwe: le bilan du naufrage d’un ferry sur le lac Kariba grimpe à au moins 80 morts, une enquête ouverte",
@@ -748,46 +825,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "46db67c278",
-      "title": "L'épidémie d'Ebola devient la plus meurtrière de l'histoire de la RD Congo",
-      "summary": "Le bilan de l'épidémie d'Ebola qui sévit en République démocratique du Congo vient de dépasser celui de la précédente flambée (2018-2020), avec plus de 2 300 morts, selon les autorités congolaises, lundi. Plusieurs vaccins sont à l'essai contre la souche du virus actuel. L'OMS espère inverser la tendance dans le pays d'ici trois mois.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-08-17T08:32:19+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260817-l-%C3%A9pid%C3%A9mie-d-ebola-devient-la-plus-meurtri%C3%A8re-de-l-histoire-de-la-rd-congo"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260817-l-%C3%A9pid%C3%A9mie-d-ebola-devient-la-plus-meurtri%C3%A8re-de-l-histoire-de-la-rd-congo"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/17/ebola-rdc-lepidemie-la-plus-meurtriere-de-lhistoire-du-pays-africanews-today/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "331d25c0c3",
       "title": "Two-Thirds of Public School Staff Remain Unvetted for Child Abuse As Court Deadline Looms",
       "summary": "[Daily Maverick] With less than eight months to go until a strict court-mandated deadline, the Department of Basic Education is racing to close a staggering 66% vetting gap, leaving more than 300,000 public school staff completely unchecked for child abuse records.",
@@ -1225,6 +1262,40 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/14/zimbabwe-le-bilan-du-naufrage-sur-le-lac-kariba-salourdit-a-46-morts/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "da0ca9ce57",
+      "title": "Survivors recount horror as Zimbabwe Lake Kariba ferry death toll hits 46",
+      "summary": "Grieving families gathered at a mortuary in Kariba on Thursday as the death toll from Tuesday’s ferry disaster on Lake Kariba rose to 46, while survivors described the desperate struggle to escape the sinking vessel.",
+      "country": "ZWE",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "en",
+      "published": "2026-08-14T18:52:22+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/14/survivors-recount-horror-as-zimbabwe-lake-kariba-ferry-death-toll-hits-46/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/14/survivors-recount-horror-as-zimbabwe-lake-kariba-ferry-death-toll-hits-46/"
         }
       ],
       "confirmation_count": 1
@@ -3844,38 +3915,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "555a9f6b96",
-      "title": "Nigeria’s Muslim and Christian leaders sign new peace accord",
-      "summary": "More than 50 Muslim and Christian leaders have signed a new peace accord in Nigeria, aiming to ease religious tensions and promote harmony.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T09:10:50+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/14/nigerias-muslim-and-christian-leaders-sign-new-peace-accord/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/14/nigerias-muslim-and-christian-leaders-sign-new-peace-accord/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1ae885f6a5",
       "title": "Electricity and Paraffin Now Cost Families R122 More",
       "summary": "[Scrolla] PMBEJD found 350kWh of prepaid electricity rose by R81.57 a month after a 6.9% tariff increase.   Buying 20 litres of paraffin now costs R40.60 more, taking the combined monthly increase to R122.17.",
@@ -4882,6 +4921,38 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1833133/politique/rencontre-avec-aurelien-mintsa-nguema-frere-et-conseiller-du-president/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "85bc2c7fc0",
+      "title": "Guinée équatoriale : le gouvernement table sur un budget 2027 équilibré malgré un déclin pétrolier structurel",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "GIN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-17T18:23:37+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/17/guinee-equatoriale-le-gouvernement-table-sur-un-budget-2027-equilibre-malgre-un-declin-petrolier-structurel/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/17/guinee-equatoriale-le-gouvernement-table-sur-un-budget-2027-equilibre-malgre-un-declin-petrolier-structurel/"
         }
       ],
       "confirmation_count": 1
@@ -6153,38 +6224,6 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/opinionista/2026-08-17-if-sa-keeps-failing-to-implement-plans-it-s-time-to-rethink-planning/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "63cb0c26f6",
-      "title": "Cameroon celebrates after winning first ever WAFCON title",
-      "summary": "Cameroon wins its first WAFCON title, beating Malawi 3–0 in the final.",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T13:06:47+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/cameroon-celebrates-after-winning-first-ever-wafcon-title?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/cameroon-celebrates-after-winning-first-ever-wafcon-title?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -10566,38 +10605,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f0c095daf1",
-      "title": "Zimbabwe ferry death toll rises to 80 after Lake Kariba capsizing",
-      "summary": "The death toll after a ferry capsized on Zimbabwe's Lake Kariba this week has risen to 80 after more bodies were recovered on Sunday, the police said.",
-      "country": "ZWE",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-16T14:22:16+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/16/zimbabwe-ferry-death-toll-rises-to-68-after-lake-kariba-capsizing/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/16/zimbabwe-ferry-death-toll-rises-to-68-after-lake-kariba-capsizing/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0279813a21",
       "title": "Observers say Zambia's vote marred by intimidation, counting pause",
       "summary": "International observers of Zambia's elections said Saturday the poll was marred by claims of intimidation, abductions and an hours-long pause in the vote count.",
@@ -12381,6 +12388,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "1744340ee1",
+      "title": "Why Do Joburg's Taps Keep Running Dry?",
+      "summary": "[GroundUp] Poor management has caused frequent, prolonged water outages and left many families dependent on water tankers",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "en",
+      "published": "2026-08-14T15:33:42+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608140372.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608140372.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "e6f4ccbdeb",
       "title": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
       "summary": "Sisters Tabitha and Temwa Chawinga are the undoubted stars of Malawi's unexpected run to the final of the 2026 Women's Africa Cup of Nations.",
@@ -12735,38 +12776,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608140081.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "647fd80958",
-      "title": "Nearly Half of Young People Are Not Working or in Training",
-      "summary": "[GroundUp] NEET rate for 15-34 year olds has risen from 38% to 45% since 2012",
-      "country": "ZAF",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-14T07:16:51+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608140048.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608140048.html"
         }
       ],
       "confirmation_count": 1
@@ -13127,38 +13136,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608130281.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "310de96865",
-      "title": "Madagascar : des députés du président déchu rallient le pouvoir en place",
-      "summary": "🇲🇬 À Madagascar, une nouvelle formation politique voit le jour. Elle réunit 80 députés issus de l’opposition, dont certains membres de l’IRMAR, le parti de l’ancien président Andry Rajoelina. Cette plateforme se veut un soutien du pouvoir en place.",
-      "country": "MDG",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-13T12:52:16+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260813-madagascar-des-d%C3%A9put%C3%A9s-du-pr%C3%A9sident-d%C3%A9chu-rallient-le-pouvoir-en-place"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260813-madagascar-des-d%C3%A9put%C3%A9s-du-pr%C3%A9sident-d%C3%A9chu-rallient-le-pouvoir-en-place"
         }
       ],
       "confirmation_count": 1
