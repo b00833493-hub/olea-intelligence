@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-08-17T09:00:01.675971+00:00",
+  "generated_at": "2026-08-17T09:56:23.984813+00:00",
   "stats": {
-    "total_signals": 506,
-    "verified_signals": 15,
+    "total_signals": 524,
+    "verified_signals": 16,
     "countries_covered": 30,
     "sources_active": 32,
     "per_country": {
+      "COD": 14,
       "NER": 3,
-      "ZAF": 55,
+      "ZAF": 57,
       "ZWE": 6,
-      "COD": 12,
-      "MOZ": 42,
+      "MOZ": 43,
       "NGA": 48,
-      "UGA": 35,
+      "UGA": 37,
       "CIV": 23,
-      "KEN": 50,
+      "KEN": 55,
       "AGO": 30,
       "MAR": 43,
-      "TZA": 30,
+      "TZA": 31,
       "SEN": 26,
       "MLI": 21,
       "TCD": 11,
-      "COG": 2,
+      "COG": 3,
       "GIN": 4,
       "CMR": 11,
-      "RWA": 2,
-      "ZMB": 20,
+      "RWA": 5,
+      "ZMB": 21,
       "BFA": 6,
       "DZA": 2,
       "MWI": 4,
@@ -234,6 +234,41 @@
   ],
   "signals": [
     {
+      "id": "380a22b6ba",
+      "title": "Est de la RDC: une cinquantaine de personnes enlevées lors d'une incursion des ADF dans le territoire de Mambasa",
+      "summary": "Dans l’est de la RDC, la société civile du territoire de Mambasa dénonce l’enlèvement d’une cinquantaine de civils ce week-end dans le village Kilibо, en province de l’Ituri. Selon l’organisation, Protection plus, les victimes sont des agriculteurs qui ont été pris en otage lors d’une incursion des ADF dans la zone au champ en chefferie des Babila-Babombi.",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE",
+        "AGRICULTURE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-17T09:29:03+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260817-est-de-la-rdc-une-cinquantaine-de-personnes-enlev%C3%A9es-lors-d-une-incursion-des-adf-dans-le-territoire-de-mambasa"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260817-est-de-la-rdc-une-cinquantaine-de-personnes-enlev%C3%A9es-lors-d-une-incursion-des-adf-dans-le-territoire-de-mambasa"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "49f2bd1be3",
       "title": "Niger : le MPLJ, mouvement pro-Bazoum, intensifie ses attaques contre la junte",
       "summary": "Les rebelles du Mouvement patriotique pour la liberté et la justice ont tué plusieurs soldats lors d’une série d’attaques menées vendredi 14 août contre les forces nigériennes à Séguédine, une petite localité située dans l’extrême nord du pays.",
@@ -263,6 +298,40 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1835023/politique/niger-le-mplj-mouvement-pro-bazoum-intensifie-ses-attaques-contre-la-junte/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "06ec3c108a",
+      "title": "DRC Ebola outbreak deadliest ever with one death every 30 minutes",
+      "summary": "The Ebola outbreak in the DR Congo is the deadliest ever, new data shows, with one person dying from the virus every thirty minutes.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-08-17T09:16:50+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/17/drc-ebola-outbreak-deadliest-ever-with-one-death-every-30-minutes/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/17/drc-ebola-outbreak-deadliest-ever-with-one-death-every-30-minutes/"
         }
       ],
       "confirmation_count": 1
@@ -340,8 +409,8 @@
       "country": "COD",
       "category": "SANTE",
       "severity": 4,
-      "credibility": 2,
-      "verified": false,
+      "credibility": 4,
+      "verified": true,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
@@ -363,9 +432,15 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260817-l-%C3%A9pid%C3%A9mie-d-ebola-devient-la-plus-meurtri%C3%A8re-de-l-histoire-de-la-rd-congo"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/17/rdc-lepidemie-actuelle-debola-devient-la-plus-meurtriere-de-lhistoire-du-pays/"
         }
       ],
-      "confirmation_count": 1
+      "confirmation_count": 2
     },
     {
       "id": "48a97278bd",
@@ -633,38 +708,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608170106.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e45a89e953",
-      "title": "Many Feared Killed in Fresh Attacks On Benue Communities",
-      "summary": "[Daily Trust] Many people have been feared killed early hours of Sunday after armed invaders attacked several communities in Ukum Local Government Area of Benue State.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T04:37:07+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170104.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170104.html"
         }
       ],
       "confirmation_count": 1
@@ -1256,6 +1299,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "48c39e5b20",
+      "title": "South Sudan embassy in Kenya cuts operating hours on cash crunch",
+      "summary": "On Tuesday, there were reports that the embassy has not paid rent for four months.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T07:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/south-sudan-embassy-in-kenya-cuts-operating-hours-5557420"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/south-sudan-embassy-in-kenya-cuts-operating-hours-5557420"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "b24c3c14b4",
       "title": "Lac Kariba : le Zimbabwe rend hommage aux victimes du naufrage d’un ferry",
       "summary": "Le lac Kariba a continué jeudi de livrer les corps d’un naufrage qui a déjà décimé plusieurs familles et plongé des villages entiers dans le deuil. Deux jours après le chavirement du ferry gouvernemental, la police zimbabwéenne a porté à 46 le nombre de morts.",
@@ -1317,38 +1392,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/13/zimbabwes-kariba-ferry-disaster-victims-honoured-as-death-toll-reaches-44/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c2184599e3",
-      "title": "Ramaphosa Mourns 44 Killed in Lake Kariba Disaster",
-      "summary": "[Scrolla] · At least 44 people died after a ferry carrying passengers on Lake Kariba overturned after hitting strong waves on Tuesday.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-13T12:12:39+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608130203.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608130203.html"
         }
       ],
       "confirmation_count": 1
@@ -2058,40 +2101,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/14/rdc-une-sixieme-province-touchee-par-lepidemie-debola/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3d6e37d859",
-      "title": "Maroc : les promoteurs immobiliers en plein âge d’or ?",
-      "summary": "Addoha, Alliances, Résidences Dar Saada : l’immobilier marocain renoue avec la croissance. Portés par la Coupe du monde 2030 et l’aide directe au logement, les grands promoteurs du royaume affichent des bilans assainis et des carnets de commandes bien garnis.",
-      "country": "MAR",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "fr",
-      "published": "2026-08-13T18:58:02+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1832514/economie-entreprises/maroc-les-promoteurs-immobiliers-en-plein-age-dor/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1832514/economie-entreprises/maroc-les-promoteurs-immobiliers-en-plein-age-dor/"
         }
       ],
       "confirmation_count": 1
@@ -3087,6 +3096,38 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/15/morocco-and-spain-boost-security-in-ceuta-as-another-call-for-border-rush-seen-online/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8a99c583c8",
+      "title": "Congo’s constitution debate: Reform, power, and a missing national vision",
+      "summary": "The Democratic Republic of Congo does not lack talent, resources, or ideas. It lacks a shared...",
+      "country": "COG",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/congo-s-constitution-debate-5558266"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/congo-s-constitution-debate-5558266"
         }
       ],
       "confirmation_count": 1
@@ -4767,6 +4808,238 @@
       "confirmation_count": 1
     },
     {
+      "id": "60b84d40e7",
+      "title": "Maroc-Émirats : derrière les milliards, un nouvel axe de l’Atlantique au Golfe",
+      "summary": "Des ports, de l’énergie, des milliards de dollars d’échanges et d’investissement, et l’Afrique en ligne de mire. Entre Rabat et Abou Dhabi, les grands projets commencent à donner corps à une alliance qui dépasse largement les affaires. Une étude décrypte les ambitions géopolitiques des deux monarchies, du Sahara aux accords d’Abraham.",
+      "country": "MAR",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "fr",
+      "published": "2026-08-17T11:34:55+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1833337/politique/maroc-emirats-derriere-les-milliards-un-nouvel-axe-de-latlantique-au-golfe/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1833337/politique/maroc-emirats-derriere-les-milliards-un-nouvel-axe-de-latlantique-au-golfe/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ef25cc45dd",
+      "title": "ONU estima 500 combatentes insurgentes em Cabo Delgado",
+      "summary": "ONU destaca que grupo terrorista \"intensificou os esforços de recrutamento\", apesar de esforços militares. Extorsão no mar e raptos são as principais fontes de rendimento, para movimentar dinheiro.",
+      "country": "MOZ",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "pt",
+      "published": "2026-08-17T09:38:28+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/08/17/onu-aponta-para-ate-500-combatentes-insurgentes-do-estado-islamico-em-cabo-delgado/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/08/17/onu-aponta-para-ate-500-combatentes-insurgentes-do-estado-islamico-em-cabo-delgado/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a043a6ded8",
+      "title": "Ayra Starr Releases Highly Anticipated Album, 'Starrgirl'",
+      "summary": "[Capital FM] 2x GRAMMY-nominated, 3x MOBO Award-winning global Afrobeats superstar Ayra Starr has released her new album Starrgirl. Listen HERE - out now via Mavin Records/Republic Records.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T09:01:35+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608170192.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608170192.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "431d9d977a",
+      "title": "AI Will Take Some Jobs - but Create 78 Million More, Kenya's Tech Envoy Forecasts",
+      "summary": "[Capital FM] Nairobi -- The global artificial intelligence revolution could result in a net gain of about 78 million jobs by 2030, despite the expected displacement of millions of workers, Kenya's Special Envoy on Technology has said.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T09:01:34+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608170191.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608170191.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "eb9879c444",
+      "title": "Stronger SANDF-SAPS Intelligence Cooperation Key to Operation Prosper's Success in the Western Cape",
+      "summary": "[Parliament of South Africa] Members of the Joint Standing Committee on Defence (JSCD) and the Portfolio Committee on Police have called for stronger cooperation between the South African National Defence Force (SANDF) and the South African Police Service (SAPS) at ground level as part of Operation Prosper in the Western Cape.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T09:01:33+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608170189.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608170189.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "fd32d08cad",
+      "title": "Over 400 Children Receive Free Heart Surgery Through Nairobi Hospital Charity Fund",
+      "summary": "[Capital FM] Nairobi -- The Nairobi Hospital held its 2026 Children's Charity Heart Fund Golf Tournament, bringing together corporate partners, sponsors, golfers, philanthropists and members of the public to mobilise support for children from disadvantaged backgrounds requiring specialised cardiac treatment.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-08-17T09:01:31+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608170188.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608170188.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "476f713c82",
+      "title": "Top Zambian opposition figures arrested days after presidential vote",
+      "summary": "The authorities allege they were involved in an insurrection plot but the leading opposition candidate says there was an attempt on his life.",
+      "country": "ZMB",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "en",
+      "published": "2026-08-17T09:01:06+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cn0nj3ln8r5o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cn0nj3ln8r5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "92aa624cc5",
       "title": "FINANCIAL WELLNESS COACH: US asset may not be the best bet when it comes to estate planning",
       "summary": "South African residents owning US‑based investments risk punitive US estate tax, cross‑border probate and cash‑flow pain.",
@@ -4900,7 +5173,7 @@
     {
       "id": "c85200de72",
       "title": "Afrique du Sud : des dirigeants de la SADC rendent hommage à Oliver Tambo",
-      "summary": "Le militant anti-apartheid est décédé en 1993 à l'âge de 75 ans.",
+      "summary": "Le président sud-africain Cyril Ramaphosa et plusieurs de ses homologues de la Communauté de développement d'Afrique australe ont rendu hommage dimanche au militant anti-apartheid Oliver Tambo, décédé en 1993.",
       "country": "ZAF",
       "category": "AUTRE",
       "severity": 1,
@@ -4912,7 +5185,7 @@
       "fdi": false,
       "sectors": [],
       "lang": "fr",
-      "published": "2026-08-17T08:25:06+00:00",
+      "published": "2026-08-17T08:42:15+00:00",
       "lead_source": {
         "id": "afnews-fr",
         "name": "Africanews FR",
@@ -4925,6 +5198,38 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/17/afrique-du-sud-des-dirigeants-de-la-sadc-rendent-hommage-a-oliver-tambo/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "83923316ce",
+      "title": "SADC leaders pay tribute to anti-apartheid activist ahead of Durban summit",
+      "summary": "Heads of state and government from across the Southern African Development Community paid tribute to the late anti-apartheid activist Oliver Reginald Tambo on Sunday, laying a wreath at his statue in Durban.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T08:26:06+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/17/sadc-leaders-pay-tribute-to-anti-apartheid-activist-ahead-of-durban-summit/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/17/sadc-leaders-pay-tribute-to-anti-apartheid-activist-ahead-of-durban-summit/"
         }
       ],
       "confirmation_count": 1
@@ -5186,40 +5491,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/podcasts/la-fabrique-du-monde/20260817-les-lieux-de-pouvoir-le-palais-pr%C3%A9sidentiel-%C3%A0-abidjan-un-lieu-charg%C3%A9-d-histoire"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "476f713c82",
-      "title": "Top Zambian opposition figures arrested days after presidential vote",
-      "summary": "The authorities allege they were involved in an insurrection plot but the leading opposition candidate says there was an attempt on his life.",
-      "country": "ZMB",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "en",
-      "published": "2026-08-17T07:31:36+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/cn0nj3ln8r5o?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cn0nj3ln8r5o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
@@ -6718,38 +6989,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "d70be87f87",
-      "title": "CJID Preliminary Statement On the 2026 Osun Governorship Election",
-      "summary": "[CJID] The Centre for Journalism Innovation and Development (CJID), through its Election Analysis Centre and observers deployed across Osun State, monitored the August 15, 2026, governorship election from the opening of polls through voting, counting, collation and the declaration of results.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T04:18:43+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170071.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170071.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "14391cc264",
       "title": "South Africa's Small Sugar Farms Are Producing Less Than They Could - Study Finds Ways to Boost Them",
       "summary": "[The Conversation Africa] South Africa has around 25,653 small-scale sugarcane growers, making the industry a lifeline for rural communities in Mpumalanga and KwaZulu-Natal provinces. By generating 65,000 direct and 270,000 indirect jobs, its agricultural and milling operations support more than a million livelihoods in these areas. But the productivity of many small-scale growers remains well below potential. Production constraints are limiting both farm profitability…",
@@ -6779,6 +7018,38 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608170073.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0928501309",
+      "title": "Osun 2026 - End-of-Voting Election Statement",
+      "summary": "[CJID] 15 August, 2026",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T04:18:42+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608170070.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608170070.html"
         }
       ],
       "confirmation_count": 1
@@ -8246,6 +8517,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "64780c1710",
+      "title": "Tanzania orders online businesses to display tax IDs",
+      "summary": "This comes hot on the heels of Kenya’s move to bring gig workers and content creators into the...",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-16T06:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/tanzania-orders-online-businesses-to-display-tax-ids-5558568"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/tanzania-orders-online-businesses-to-display-tax-ids-5558568"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "b21808ac19",
       "title": "CAN féminine 2026: Malawi-Cameroun, une finale inédite",
       "summary": "Le Cameroun, vainqueur au tirs au but du Maroc, joue ce dimanche 16 août la finale de la CAN féminine contre le Malawi, tombeur de l'Algérie.",
@@ -8640,6 +8943,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "43ee7ef4ba",
+      "title": "How artists are tapping into Rwanda’s tourism promotion",
+      "summary": "The art gallery is among the top places tourists in Rwanda visit after the Kigali Genocide...",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T09:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/magazine/how-artists-are-tapping-into-rwanda-tourism-promotion-5558472"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/magazine/how-artists-are-tapping-into-rwanda-tourism-promotion-5558472"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "30d379a946",
       "title": "Succès Masra gracié, Assimi Goïta et Abdelmadjid Tebboune se réconcilient, la crise d’Ormuz profite aux majors… Les 5 infos qu’il ne fallait pas manquer",
       "summary": "Cette semaine, le Brief de Jeune Afrique revient sur la grâce accordée à l’opposant tchadien Succès Masra, décrypte la réconciliation entre le Mali et l’Algérie, analyse les bénéfices tirés par les majors de la crise d’Ormuz et le regain d’attractivité des hydrocarbures africains, s’interroge sur un possible report des élections locales au Sénégal et fait le point sur les dernières tractations autour du dialogue national en RDC.",
@@ -8834,6 +9169,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "28f20eaab8",
+      "title": "Kenya in blueprint talks amid poll-season scepticism",
+      "summary": "President says the new blueprint could help push Kenya towards first-world status by 2060.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T07:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-in-blueprint-talks-amid-poll-season-scepticism-5558516"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-in-blueprint-talks-amid-poll-season-scepticism-5558516"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d1c924effe",
       "title": "UN calls for negotiations to end the conflict in Mozambique",
       "summary": "A military victory over jihadist insurgents in Mozambique's Cabo Delgado province does not appear imminent, according to a report by a United Nations special rapporteur released Friday.",
@@ -8897,6 +9264,134 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/15/mozambique-lonu-alerte-sur-limpasse-militaire-face-aux-djihadistes/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1bc3219b4c",
+      "title": "EAC asks partner states to stop plugging budget shortfalls with central bank ‘tool’",
+      "summary": "Nairobi is expected to table recommendations on phasing out overdraft facilities as bloc races...",
+      "country": "KEN",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T05:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/eac-partner-states-central-bank-budget-shortfalls-5558444"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/eac-partner-states-central-bank-budget-shortfalls-5558444"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "947596072a",
+      "title": "Uganda sovereignty law on trial in new case",
+      "summary": "At the centre of the dispute is the balance between Uganda’s sovereign authority to regulate...",
+      "country": "UGA",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T05:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/uganda-sovereignty-law-on-trial-in-new-case-5558514"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/uganda-sovereignty-law-on-trial-in-new-case-5558514"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "302e0dd351",
+      "title": "Uganda joins Kenya in opposing Rwanda ban on alcoholic drinks",
+      "summary": "The Ugandan standards body says that no technical or scientific justification was presented to...",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T03:45:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-joins-kenya-in-opposing-rwanda-alcohol-ban-5558630"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-joins-kenya-in-opposing-rwanda-alcohol-ban-5558630"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "febabd5847",
+      "title": "South Africa’s anti-migrant purge raises costs, tensions",
+      "summary": "Regional countries already at odds with Pretoria could be saddled with compensation claims for...",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-15T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/south-africa-anti-migrant-purge-5558150"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/south-africa-anti-migrant-purge-5558150"
         }
       ],
       "confirmation_count": 1
@@ -9289,6 +9784,38 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1832284/politique/guinee-bella-bah-un-activiste-dans-lame-qui-derange-mamadi-doumbouya/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0777bacf15",
+      "title": "Rwanda FDA chief arrested amid crackdown on illicit liquors",
+      "summary": "Emile Bienvenu is being investigated for allegedly providing documents without complying with...",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T18:45:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/rwanda-fda-chief-arrested-amid-crackdown-on-illicit-liquors-5558206"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/rwanda-fda-chief-arrested-amid-crackdown-on-illicit-liquors-5558206"
         }
       ],
       "confirmation_count": 1
@@ -10168,6 +10695,38 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/14/worries-grow-over-mysterious-illness-killing-kenyan-elephants/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "23671275bb",
+      "title": "US Senate backs Agoa extension to 2028",
+      "summary": "Kenya remains the largest beneficiary of Agoa in the garment sector.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-14T14:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/us-senate-backs-agoa-extension-to-2028-5558124"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/us-senate-backs-agoa-extension-to-2028-5558124"
         }
       ],
       "confirmation_count": 1
@@ -11143,6 +11702,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "cb164b2e7b",
+      "title": "Lungu’s ghost looms in Zambia elections as Hichilema bids second term",
+      "summary": "The election on August 13 has far greater international significance than the country's...",
+      "country": "ZMB",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T15:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/lungu-s-ghost-looms-in-zambia-elections-5557034"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/lungu-s-ghost-looms-in-zambia-elections-5557034"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "e1190705a8",
       "title": "Mali : \"grâce présidentielle\" accordée à un agent français de la DGSE condamné à 20 ans de prison",
       "summary": "Le chef de la junte malienne Assimi Goïta a gracié Yann Vézilier, un agent français de la DGSE condamné en juin au Mali à 20 ans de prison, selon un communiqué du gouvernement malien publié jeudi sur Facebook.",
@@ -11695,6 +12286,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "ad6cf99d58",
+      "title": "Kenya-Rwanda alcohol dispute tests EAC standards regime",
+      "summary": "The row began after the Rwanda Food and Drugs Authority (Rwanda FDA) suspended five Kenyan brands.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T11:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-rwanda-alcohol-dispute-tests-eac-standards-regime-5556420"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-rwanda-alcohol-dispute-tests-eac-standards-regime-5556420"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "22aab5ec26",
       "title": "Ending FGM Through Women's Voices",
       "summary": "[Daily News] WHEN Yasinta Zakaria speaks about Female Genital Mutilation (FGM), she does not speak from theory. She speaks from memory from pain she says has stayed with her for years.",
@@ -12053,6 +12676,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "b94c462e5b",
+      "title": "How Congo-Rwanda war tensions are spilling into football",
+      "summary": "Rwanda’s military-backed side, APR FC, threatened to boycott a football fixture against Les...",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-13T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/how-congo-rwanda-war-tensions-are-spilling-into-football-5555448"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/how-congo-rwanda-war-tensions-are-spilling-into-football-5555448"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "2d70b38008",
       "title": "En Zambie, des élections à valeur de test pour le bilan économique du président sortant \"HH\"",
       "summary": "Près de 8,7 millions de Zambiens sont appelés aux urnes, jeudi, pour choisir leur président. Le chef d'État sortant Hakainde Hichilema, salué pour son redressement économique, affronte l'opposant Brian Mundubile, qui accuse le gouvernement d'avoir entravé sa campagne.",
@@ -12245,38 +12900,6 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/opinionista/2026-08-12-sa-s-maths-teacher-shortage-the-numbers-and-what-could-actually-fix-it/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6b62572ccb",
-      "title": "Gachagua Accuses Ruto of Humiliating Kindiki As Kenya Kwanza-ODM Alliance Takes Shape",
-      "summary": "[Capital FM] Nairobi -- Former Deputy President Rigathi Gachagua has accused President William Ruto of deliberately humiliating his successor, Deputy President Kithure Kindiki, amid growing political ties between the ruling Kenya Kwanza coalition and the Orange Democratic Movement (ODM) ahead of the 2027 General Election.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-12T16:37:18+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608120512.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608120512.html"
         }
       ],
       "confirmation_count": 1
@@ -12539,38 +13162,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608120146.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "785c21a1a9",
-      "title": "Ruto - Next Election Will Come and Go, Kenya Must Think Beyond 2027",
-      "summary": "[Capital FM] Nairobi -- President William Ruto has told Kenyans to look beyond the 2027 General Election and focus on developing a long-term national plan that puts the interests of future generations ahead of political cycles.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-12T09:39:20+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608120109.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608120109.html"
         }
       ],
       "confirmation_count": 1
