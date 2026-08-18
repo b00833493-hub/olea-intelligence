@@ -1,34 +1,35 @@
 {
-  "generated_at": "2026-08-18T14:51:41.185495+00:00",
+  "generated_at": "2026-08-18T15:45:59.536574+00:00",
   "stats": {
-    "total_signals": 539,
+    "total_signals": 538,
     "verified_signals": 17,
     "countries_covered": 32,
     "sources_active": 32,
     "per_country": {
+      "ZWE": 7,
       "MOZ": 40,
-      "ZWE": 6,
       "TZA": 31,
-      "COD": 18,
-      "NGA": 52,
+      "COD": 17,
+      "NGA": 51,
       "ZMB": 25,
       "ZAF": 56,
       "KEN": 55,
       "DZA": 3,
-      "CMR": 17,
+      "CMR": 16,
       "NER": 2,
-      "UGA": 38,
+      "UGA": 37,
       "AGO": 29,
       "MAR": 39,
-      "SEN": 29,
-      "ETH": 8,
+      "SEN": 30,
+      "ETH": 9,
       "MLI": 24,
       "TCD": 11,
-      "CIV": 18,
+      "CIV": 19,
       "MDG": 1,
-      "GAB": 3,
       "COG": 3,
-      "RWA": 4,
+      "RWA": 3,
+      "CAF": 3,
+      "GAB": 2,
       "BDI": 1,
       "BEN": 1,
       "GIN": 6,
@@ -36,8 +37,7 @@
       "GHA": 8,
       "TGO": 2,
       "MWI": 3,
-      "BFA": 2,
-      "CAF": 2
+      "BFA": 2
     }
   },
   "sources": [
@@ -235,6 +235,38 @@
     }
   ],
   "signals": [
+    {
+      "id": "0b38ffcdf3",
+      "title": "Zimbabwe: cette vidéo ne documente pas le naufrage mortel sur le lac Kariba",
+      "summary": "Il s’agit de la pire catastrophe fluviale de l’histoire du Zimbabwe. Mercredi 11 août, au moins 80 personnes ont perdu la vie dans le naufrage d’un ferry sur le lac Kariba. Le bateau assurait la liaison entre les villes de Kariba et Chalala. Une semaine après la catastrophe, une vidéo diffusée sur les réseaux sociaux prétend, à tort, documenter l’accident.",
+      "country": "ZWE",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-18T15:12:56+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260818-zimbabwe-cette-vid%C3%A9o-ne-documente-pas-le-naufrage-mortel-sur-le-lac-kariba"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260818-zimbabwe-cette-vid%C3%A9o-ne-documente-pas-le-naufrage-mortel-sur-le-lac-kariba"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "78c45c6235",
       "title": "Mozambique regulator orders recall of all batches of Remedica methyldopa 250 mg tablets over quality concerns",
@@ -2493,40 +2525,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3f210d0185",
-      "title": "Le Clos' home destroyed by fire after he sets Commonwealths record",
-      "summary": "Chad le Clos reveals his apartment in South Africa was destroyed by a fatal fire in a \"heartbreaking tragedy\" - the night after he became the most decorated athlete in Commonwealth Games history.",
-      "country": "ZAF",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY"
-      ],
-      "lang": "en",
-      "published": "2026-08-04T21:44:59+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/sport/swimming/articles/c141p18xl30o?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/sport/swimming/articles/c141p18xl30o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2cc5fa3994",
       "title": "Russia's 'Africa Corps' Airstrikes Kill Civilians",
       "summary": "[HRW] Nairobi -- Apparent Indiscriminate Attack in Village Held by Islamist Armed Group",
@@ -2554,6 +2552,70 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607310024.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e47e8a948e",
+      "title": "Absa Group to earn $15.5m dividend from Kenyan subsidiary ahead of stake increase",
+      "summary": "Absa Bank Kenya more than doubled its interim dividend to KSh0.50 per share, delivering about KSh2bn to its South African parent group as the lender positions the Nairobi subsidiary as a major dividend channel despite a 10% dip in half-year profits.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T15:10:16+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/427958/absa-group-to-earn-15-5m-dividend-from-kenyan-subsidiary-ahead-of-stake-increase/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/427958/absa-group-to-earn-15-5m-dividend-from-kenyan-subsidiary-ahead-of-stake-increase/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6ef5dc1bb6",
+      "title": "Ethiopia: Authorities in Tigray accuse Addis Ababa of drone strike near Mekelle",
+      "summary": "Authorities in Ethiopia's Tigray region have accused the federal government of launching a drone strike near the state capital Mekelle. Tensions between Tigray and Addis Ababa have been mounting in recent weeks, with both parties massing forces on either side of the regional border.",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T14:44:00+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/18/ethiopia-authorities-in-tigray-accuse-addis-ababa-of-drone-strike-near-mekelle/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/18/ethiopia-authorities-in-tigray-accuse-addis-ababa-of-drone-strike-near-mekelle/"
         }
       ],
       "confirmation_count": 1
@@ -2633,38 +2695,6 @@
         }
       ],
       "confirmation_count": 2
-    },
-    {
-      "id": "5bbb6c04fc",
-      "title": "Integration is South Africa’s key to unlocking SADC’s massive economic potential",
-      "summary": "As South Africa assumes the SADC chairpersonship, a fundamental strategy shift from extraction to regional partnership is essential to secure long-term competitiveness and economic growth.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T12:57:01+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/opinionista/2026-08-18-integration-is-south-africa-s-key-to-unlocking-sadc-s-massive-economic-potential/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/opinionista/2026-08-18-integration-is-south-africa-s-key-to-unlocking-sadc-s-massive-economic-potential/"
-        }
-      ],
-      "confirmation_count": 1
     },
     {
       "id": "c061bf2c30",
@@ -3625,38 +3655,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608170684.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e2928ea072",
-      "title": "Gabon: le président annonce des restrictions pour les bourses attribuées aux étudiants suivant un cursus en Europe",
-      "summary": "Le Gabon célèbre, ce lundi 17 août, le 66e anniversaire de son indépendance. Une grande parade militaire a lieu en milieu de matinée sur le boulevard du front de mer en présence de deux chefs d’État des pays amis : Félix Tshisekedi, de la République démocratique du Congo (RDC) et le général Horta Ntam, de la Guinée-Bissau. À la veille de cet anniversaire, Brice Oligui Nguema s'est adressé à la nation. Il a notamment évoqué la question des bourses accordées aux étudiants…",
-      "country": "GAB",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-17T10:59:32+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260817-gabon-le-pr%C3%A9sident-annonce-des-restrictions-pour-les-bourses-attribu%C3%A9es-aux-%C3%A9tudiants-suivant-un-cursus-en-europe"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260817-gabon-le-pr%C3%A9sident-annonce-des-restrictions-pour-les-bourses-attribu%C3%A9es-aux-%C3%A9tudiants-suivant-un-cursus-en-europe"
         }
       ],
       "confirmation_count": 1
@@ -4736,6 +4734,102 @@
       "confirmation_count": 1
     },
     {
+      "id": "6c3e010eb8",
+      "title": "RECYCLING ECONOMY: Unemployed rural women turning cans into cash as hunger bites",
+      "summary": "In Embo, west of Durban, hunger is forcing mostly unemployed women to collect and crush aluminium cans to sell to scrap dealers – Nokulunga Nkabinde earns about R300 per full bag and between R550-R800 a month from recycling to buy basic food.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T17:09:53+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-08-18-unemployed-rural-women-turning-cans-into-cash-as-hunger-bites/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-08-18-unemployed-rural-women-turning-cans-into-cash-as-hunger-bites/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c650bc0d36",
+      "title": "En Centrafrique, François Bozizé mis en cause dans la disparition de Charles Massi lors du procès « Bossembélé »",
+      "summary": "L’ex-compagne de l’ancien président a livré un témoignage accablant devant la Cour pénale spéciale, où François Bozizé est jugé par contumace pour ces crimes de guerre commis au camp militaire de Bossembélé.",
+      "country": "CAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-18T16:03:05+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1835897/politique/en-centrafrique-francois-bozize-mis-en-cause-dans-la-disparition-de-charles-massi-lors-du-proces-bossembele/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1835897/politique/en-centrafrique-francois-bozize-mis-en-cause-dans-la-disparition-de-charles-massi-lors-du-proces-bossembele/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "dac1caf994",
+      "title": "Patrick Vieira appointed Senegal head coach with AFCON qualifiers looming",
+      "summary": "Former France, Arsenal and Manchester City midfielder Patrick Vieira replaces Pape Thiaw as Senegal coach.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T14:46:59+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/sports/2026/8/18/patrick-vieira-appointed-senegal-head-coach-with-afcon-qualifiers-looming?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/sports/2026/8/18/patrick-vieira-appointed-senegal-head-coach-with-afcon-qualifiers-looming?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "82d0efc969",
       "title": "Vieira named new Senegal head coach",
       "summary": "Former Arsenal and France captain Patrick Vieira is appointed as the new head coach of the Senegal men's national team.",
@@ -5183,38 +5277,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260818-tunisie-lors-de-la-kharja-de-sidi-bou-sa%C3%AFd-la-procession-r%C3%A9unit-deux-confr%C3%A9ries-soufies"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0fa9d1401e",
-      "title": "CJID Opens 2026 Awards to Reporters and Editors, Introduces Human Rights Category.",
-      "summary": "[CJID] 18 August, 2026 - Abuja, Nigeria",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T12:33:43+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180503.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180503.html"
         }
       ],
       "confirmation_count": 1
@@ -9428,8 +9490,8 @@
       "confirmation_count": 1
     },
     {
-      "id": "e4ddabafc5",
-      "title": "Gabon : Aurélien Mintsa Nguema, le discret mais influent frère et conseiller du président",
+      "id": "29f5b2606e",
+      "title": "Gabon : Aurélien Mintsa Nguema, le discret mais influent frère, trésorier et diplomate du président",
       "summary": "Le frère cadet de Brice Clotaire Oligui Nguema a longtemps tenté de se tenir à l’écart des médias et des querelles de cour. De passage à Paris, le nouvel ambassadeur du Gabon en Inde a toutefois accepté de se confier à Jeune Afrique.",
       "country": "GAB",
       "category": "AUTRE",
@@ -9880,38 +9942,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "728ff5065c",
-      "title": "Queen Manyaku's Birthday Puts Mineral Wealth in Spotlight",
-      "summary": "[Scrolla] Julius Malema told traditional leaders at Queen Manyaku Thulare's birthday that mineral wealth should create jobs and economic development for their communities.   King Misuzulu kaZwelithini joined Queen Manyaku's 74th birthday celebration, while the African National Congress honoured the Bapedi Queen with five cattle.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T15:36:25+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170686.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170686.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "302ffe229d",
       "title": "The Nigerian fishing community being eaten up by the Atlantic",
       "summary": "The beach shrinks every year in Ayetoro, in southern Nigeria, and what is left is peppered with the remains of homes swallowed by the ocean -- some years ago, some just months prior",
@@ -9944,38 +9974,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "5db0f20920",
-      "title": "Maskandi Stars Raise R200,000 for Scebi and Gupta Funerals",
-      "summary": "[Scrolla] Maskandi artists raised R200,000 through a WhatsApp group in less than a week to help the families bury Scebi Dlamini and Sipho Mchunu.   Thousands of grieving fans travelled from several provinces to uMsinga to say goodbye to award-winning musician Scebi Dlamini at Mzisho Stadium.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T15:31:25+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170685.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170685.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "d53149552f",
       "title": "COP17: \"A degradação dos solos não é um fenómeno natural, explica-se pela acção humana\"",
       "summary": "\"Restaurar a terra. restaurar a Esperança\": é o lema da COP17 - a conferência das Nações Unidas de combate à desertificação. De 17 a 28 de Agosto, reúnem-se em Ulan Bator, na Mongólia, líderes governamentais, empresariais e da sociedade civil, cientistas, representantes dos povos indígenas, pastores e pequenos agricultores. Em debate: a desertificação, a degradação dos solos e a seca. Quais são os grandes desafios, nomeadamente em Angola, de onde nos fala o ambientalista…",
@@ -10003,6 +10001,38 @@
           "name": "RFI Português",
           "tier": 1,
           "url": "https://www.rfi.fr/pt/programas/convidado/20260817-cop17-a-degrada%C3%A7%C3%A3o-dos-solos-n%C3%A3o-%C3%A9-um-fen%C3%B3meno-natural-explica-se-pela-ac%C3%A7%C3%A3o-humana"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c69534d3ef",
+      "title": "Ipswich sign Ivorian midfielder Ouattara from Strasbourg",
+      "summary": "Ipswich Town complete the signing of Julio Enciso and Abdoul Ouattara from French club Strasbourg.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T14:51:19+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/sport/football/articles/cwymzjwypezo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/sport/football/articles/cwymzjwypezo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
@@ -10067,6 +10097,38 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/opinionista/2026-08-17-from-ceuta-to-sa-how-viral-misinformation-and-political-framing-weaponise-migration/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0553fd393b",
+      "title": "Is All Blacks' tour of South Africa a new chapter for rugby union?",
+      "summary": "Is New Zealand's 'Greatest Rivalry' tour of world champions South Africa a signpost to the future of rugby union?",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T13:18:44+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c2dkz3k94dlo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c2dkz3k94dlo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
@@ -10421,6 +10483,38 @@
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608170456.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e3e43a2946",
+      "title": "Ramaphosa Issues Apology Over Violence Against Foreigners",
+      "summary": "[AIM] Durban -- South African President Cyril Ramaphosa apologized to his Mozambican counterpart, Daniel Chapo, for the recent violence perpetrated by South African citizens against African foreigners, including Mozambicans.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T11:39:09+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608170455.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608170455.html"
         }
       ],
       "confirmation_count": 1
@@ -11141,6 +11235,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "52e5227e3c",
+      "title": "Spaza Fund Faces Scrutiny - South African News Briefs - August 17, 2026",
+      "summary": "[allAfrica]",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-17T05:54:02+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608170152.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608170152.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d6c8b95776",
       "title": "$25bn Nigeria-Morocco Gas Pipeline Dream Drags",
       "summary": "[Daily Trust] The much-touted multi-billion-dollar Nigeria-Morocco Gas Pipeline is yet to take off owing to the alleged 'lukewarm' attitude of Nigerian authorities, Daily Trust learnt from credible sources.",
@@ -11367,9 +11493,9 @@
       "confirmation_count": 1
     },
     {
-      "id": "0928501309",
-      "title": "Osun 2026 - End-of-Voting Election Statement",
-      "summary": "[CJID] 15 August, 2026",
+      "id": "d70be87f87",
+      "title": "CJID Preliminary Statement On the 2026 Osun Governorship Election",
+      "summary": "[CJID] The Centre for Journalism Innovation and Development (CJID), through its Election Analysis Centre and observers deployed across Osun State, monitored the August 15, 2026, governorship election from the opening of polls through voting, counting, collation and the declaration of results.",
       "country": "NGA",
       "category": "POLITIQUE",
       "severity": 1,
@@ -11381,19 +11507,19 @@
       "fdi": false,
       "sectors": [],
       "lang": "en",
-      "published": "2026-08-17T04:18:42+00:00",
+      "published": "2026-08-17T04:18:43+00:00",
       "lead_source": {
         "id": "aa-nga",
         "name": "AllAfrica · Nigeria",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202608170070.html"
+        "url": "https://allafrica.com/stories/202608170071.html"
       },
       "confirming_sources": [
         {
           "id": "aa-nga",
           "name": "AllAfrica · Nigeria",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202608170070.html"
+          "url": "https://allafrica.com/stories/202608170071.html"
         }
       ],
       "confirmation_count": 1
@@ -11490,38 +11616,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608170032.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4a14440aea",
-      "title": "Ceuta: un Camerounais arrivé dans l'enclave espagnole témoigne sur ses conditions de vie",
-      "summary": "Yéménites, Soudanais, Tchadiens, Égyptiens, Sénégalais, Algériens, et surtout Marocains : des milliers d’exilés survivent dans l’enclave espagnole de Ceuta, au nord du Maroc, sans solution de logement, dans des conditions difficiles, dans l’espoir d’obtenir l’asile politique ou une régularisation. François Hume-Ferkatadji a rencontré un ressortissant camerounais arrivé depuis le Maroc lors du franchissement collectif de la frontière fin juillet. Il décrit les conditions…",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-17T00:33:43+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260817-ceuta-un-camerounais-arriv%C3%A9-dans-l-enclave-espagnole-t%C3%A9moigne-sur-ses-conditions-de-vie"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260817-ceuta-un-camerounais-arriv%C3%A9-dans-l-enclave-espagnole-t%C3%A9moigne-sur-ses-conditions-de-vie"
         }
       ],
       "confirmation_count": 1
@@ -13248,38 +13342,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0fc14b02a6",
-      "title": "RDC : la loi sur le référendum renvoyée devant le Parlement, Félix Tshisekedi maître des horloges",
-      "summary": "Le président, Félix Tshisekedi, a renvoyé au Parlement la loi référendaire en demandant la modification de certains de ses articles. Un report qui intervient au moment où l’opposition appelle à l’apaisement avant l’ouverture d’un potentiel dialogue national.",
-      "country": "COD",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T18:00:17+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1833165/politique/rdc-la-loi-sur-le-referendum-renvoyee-devant-le-parlement-felix-tshisekedi-maitre-des-horloges/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1833165/politique/rdc-la-loi-sur-le-referendum-renvoyee-devant-le-parlement-felix-tshisekedi-maitre-des-horloges/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8a41df6ecf",
       "title": "Zambia's opposition leader expresses 'grave concern' as vote count suspended",
       "summary": "Just hours after Zambia’s electoral commission suspended vote counting nationwide, opposition presidential candidate Brian Mundubile raised “grave concern,” calling for full transparency amid reports of violence.",
@@ -13736,38 +13798,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ad6cf99d58",
-      "title": "Kenya-Rwanda alcohol dispute tests EAC standards regime",
-      "summary": "The row began after the Rwanda Food and Drugs Authority (Rwanda FDA) suspended five Kenyan brands.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-13T11:30:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-rwanda-alcohol-dispute-tests-eac-standards-regime-5556420"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-rwanda-alcohol-dispute-tests-eac-standards-regime-5556420"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "22aab5ec26",
       "title": "Ending FGM Through Women's Voices",
       "summary": "[Daily News] WHEN Yasinta Zakaria speaks about Female Genital Mutilation (FGM), she does not speak from theory. She speaks from memory from pain she says has stayed with her for years.",
@@ -13863,38 +13893,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608130013.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b94c462e5b",
-      "title": "How Congo-Rwanda war tensions are spilling into football",
-      "summary": "Rwanda’s military-backed side, APR FC, threatened to boycott a football fixture against Les...",
-      "country": "RWA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-13T03:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/how-congo-rwanda-war-tensions-are-spilling-into-football-5555448"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/how-congo-rwanda-war-tensions-are-spilling-into-football-5555448"
         }
       ],
       "confirmation_count": 1
@@ -16237,38 +16235,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608060008.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ee63f01f61",
-      "title": "Uganda team manager has 'no idea' why boxers have disappeared",
-      "summary": "Commonwealth Games chef de mission Godwin Kayangwe says he hopes the athletes will return home before their visas expire in October.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-05T12:23:38+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/c5yv2w14nk3o?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/c5yv2w14nk3o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
