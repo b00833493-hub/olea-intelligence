@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-08-18T10:45:31.874734+00:00",
+  "generated_at": "2026-08-18T11:39:50.776103+00:00",
   "stats": {
-    "total_signals": 539,
+    "total_signals": 540,
     "verified_signals": 12,
     "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
+      "TZA": 31,
       "COD": 18,
-      "NGA": 52,
+      "NGA": 53,
       "ZMB": 27,
       "MOZ": 42,
-      "ZAF": 56,
+      "ZAF": 57,
       "KEN": 55,
       "ZWE": 5,
       "DZA": 3,
@@ -19,8 +20,7 @@
       "NER": 3,
       "UGA": 38,
       "AGO": 29,
-      "MAR": 41,
-      "TZA": 31,
+      "MAR": 40,
       "MLI": 24,
       "TCD": 11,
       "MDG": 1,
@@ -28,9 +28,9 @@
       "GAB": 2,
       "COG": 3,
       "RWA": 4,
-      "CIV": 19,
+      "CIV": 18,
+      "GIN": 6,
       "GHA": 5,
-      "GIN": 5,
       "MWI": 3,
       "NAM": 1,
       "TGO": 1,
@@ -235,6 +235,40 @@
   ],
   "signals": [
     {
+      "id": "e28b39b85c",
+      "title": "Appeal Court Affirms Death Penalty in Church Blast",
+      "summary": "[Daily News] Arusha -- THE Court of Appeal has upheld the death sentences imposed on six people for their roles in terrorist offences, including the bombing of Burka Roman Catholic Parish Church in Olasiti, Arusha City, which left three people dead and others injured.",
+      "country": "TZA",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "en",
+      "published": "2026-08-18T10:42:46+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180344.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180344.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "e8ec3d9521",
       "title": "Ouest de la RDC: Kinshasa affirme avancer dans la lutte contre le groupe armé Mobondo",
       "summary": "Face à la presse lundi 17 août, le ministre congolais Éliezer Ntambwe a affirmé que le gouvernement avait repris du terrain face au groupe armé Mobondo. Émergé à partir de 2022 dans le territoire de Kwamouth, dans la province du Maï-Ndombe, à l'Ouest, à la suite d’un conflit foncier entre les communautés Teke et Yaka, la violence de ce mouvement a fait plus de 5 000 morts et provoqué le déplacement de 280 000 personnes, selon des chiffres des humanitaires.",
@@ -395,40 +429,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "a62466d777",
-      "title": "Mozambique: EDM schedules power cuts in parts of Maputo city and province from Tuesday to Friday",
-      "summary": "Electricidade de Moçambique (EDM) has warned customers and the general public that electricity supply will be interrupted in several areas of Maputo city and province. The interruptions are part of preventive maintenance work on electricity infrastructure, aimed at ensuring the stability and safety of the electricity distribution network. The scheduled power cuts will take place…\nSource",
-      "country": "MOZ",
-      "category": "INFRASTRUCTURE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-08-18T06:31:19+00:00",
-      "lead_source": {
-        "id": "club-moz",
-        "name": "Club of Mozambique",
-        "tier": 2,
-        "url": "https://clubofmozambique.com/news/mozambique-edm-schedules-power-cuts-in-parts-of-maputo-city-and-province-from-tuesday-to-friday/"
-      },
-      "confirming_sources": [
-        {
-          "id": "club-moz",
-          "name": "Club of Mozambique",
-          "tier": 2,
-          "url": "https://clubofmozambique.com/news/mozambique-edm-schedules-power-cuts-in-parts-of-maputo-city-and-province-from-tuesday-to-friday/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "96ae65e331",
       "title": "Ebola en RDC : MSF sonne l'alarme face à une épidémie hors de contrôle",
       "summary": "L'épidémie d'Ebola progresse à un rythme inédit en RDC. Avec près de 5 000 cas et plus de 2 300 morts, Médecins Sans Frontières estime que les capacités de réponse sont désormais dépassées. Pour l'ONG, une mobilisation massive des communautés est devenue la clé pour freiner la propagation du virus.",
@@ -490,41 +490,6 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608180157.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "33161cc989",
-      "title": "Taking Ownership - Women in Jigawa Community Fund Emergency Transportation for Pregnant Women",
-      "summary": "[Nigeria Health Watch] \"My husband and I have always known that I would deliver at the hospital,\" says Azeema Hussaini, 25, while sitting on a bed in a muddy two-room house, nursing her three-week-old daughter, Maisara, whom she gave birth to at the General Hospital Jahun, Jigawa State. The mother of three had her previous deliveries at the same hospital. Three years ago, when she had her second child, she had to undergo a caesarean section. Her husband Hussaini Muhammad,…",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH",
-        "MARINE_TRANSPORT"
-      ],
-      "lang": "en",
-      "published": "2026-08-18T05:42:37+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180121.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180121.html"
         }
       ],
       "confirmation_count": 1
@@ -871,40 +836,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/427781/can-nigerias-herder-settlement-plan-end-the-long-deadly-conflict/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "415036cd8d",
-      "title": "No Data, No Deadline, No Dedicated Funding - SA's Blind and Deaf Children Face an ECD Crisis",
-      "summary": "[Daily Maverick] South Africa does not know how many blind and deaf children are missing out on early childhood development - and the government cannot say when it will have a national framework in place to ensure they are included. This comes a quarter of a century after the gazetting of a government blueprint on inclusive education.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-08-17T11:02:06+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170408.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170408.html"
         }
       ],
       "confirmation_count": 1
@@ -1757,6 +1688,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "ebb0209179",
+      "title": "Nigeria : la fin de l’eldorado des cryptos ?",
+      "summary": "Le Nigeria veut taxer les cryptomonnaies. Les opérateurs du secteur redoutent une fuite des capitaux vers des plateformes étrangères non réglementées, au détriment du premier marché d’actifs numériques du continent.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-18T12:57:44+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1835229/economie-entreprises/nigeria-la-fin-de-leldorado-des-cryptos/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1835229/economie-entreprises/nigeria-la-fin-de-leldorado-des-cryptos/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7f267cee82",
+      "title": "Residents Report Mass Killings in Plateau Community",
+      "summary": "[Premium Times] Residents of Binper in Mangu Local Government Area of Plateau State have reported that gunmen attacked the community, killing several people and injuring others.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T10:55:29+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180353.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180353.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "2b68ac807b",
       "title": "Xenophobia - Govt to Evacuate 83 Nigerians From South Africa",
       "summary": "[Vanguard] The Federal Government has announced the evacuation of another 83 Nigerians from South Africa, with the returnees expected to arrive the Murtala Mohammed International Airport, Lagos, tomorrow, August 19, 2026.",
@@ -2551,10 +2546,74 @@
       "confirmation_count": 1
     },
     {
-      "id": "53d4a33c53",
-      "title": "Absa Hikes Dividend 150pc to Sh0.5 Per Share Despite 10pc Profit Drop",
-      "summary": "[Capital FM] Nairobi -- Absa Group has increased its interim dividend payout by 150 percent to Sh0.5 per share despite a 10 percent decline in net profit.",
-      "country": "KEN",
+      "id": "5bbb6c04fc",
+      "title": "Integration is South Africa’s key to unlocking SADC’s massive economic potential",
+      "summary": "As South Africa assumes the SADC chairpersonship, a fundamental strategy shift from extraction to regional partnership is essential to secure long-term competitiveness and economic growth.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T12:57:01+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/opinionista/2026-08-18-integration-is-south-africa-s-key-to-unlocking-sadc-s-massive-economic-potential/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/opinionista/2026-08-18-integration-is-south-africa-s-key-to-unlocking-sadc-s-massive-economic-potential/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "fc0cd16958",
+      "title": "Media Statement - NCOP KZN Delegation Targets Stalled Infrastructure Projects in KZN",
+      "summary": "[Parliament of South Africa] A delegation of the KwaZulu-Natal's (KZN) permanent delegates to the NCOP has launched a firm accountability drive aimed at unblocking delayed and incomplete infrastructure projects across the province.",
+      "country": "ZAF",
+      "category": "INFRASTRUCTURE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:27:52+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180414.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180414.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "95a36d1c4d",
+      "title": "National Treasury Defers Fiscal Strategy Engagement",
+      "summary": "[SAnews.gov.za] The National Treasury has deferred the fiscal strategy public engagement on the 2027 Medium Term Expenditure Framework (MTEF) to October to coincide with the launch of the Fiscal Outreach campaign.",
+      "country": "ZAF",
       "category": "AUTRE",
       "severity": 2,
       "credibility": 2,
@@ -2565,19 +2624,83 @@
       "fdi": false,
       "sectors": [],
       "lang": "en",
-      "published": "2026-08-18T10:23:24+00:00",
+      "published": "2026-08-18T11:22:01+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180400.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180400.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0ddb001cc5",
+      "title": "Nigeria's Inflation Falls to 15.43 Percent in July As Food Prices Rise",
+      "summary": "[Premium Times] The latest NBS data show a slower increase in overall consumer prices, but food inflation accelerated sharply, with monthly food inflation rising to 5.56 per cent from 3.75 per cent in June.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:09:21+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180374.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180374.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "58a4219a87",
+      "title": "Enwealth Foundation Puts Entrepreneurial Capability At Centre of SME Growth",
+      "summary": "[Capital FM] Nairobi -- More than 50 Kenyan entrepreneurs have graduated from the inaugural cohort of the Enwealth Foundation SEED Programme, following a 12-week business education programme focused on leadership, governance and financial discipline.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:08:43+00:00",
       "lead_source": {
         "id": "aa-ken",
         "name": "AllAfrica · Kenya",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202608180330.html"
+        "url": "https://allafrica.com/stories/202608180373.html"
       },
       "confirming_sources": [
         {
           "id": "aa-ken",
           "name": "AllAfrica · Kenya",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202608180330.html"
+          "url": "https://allafrica.com/stories/202608180373.html"
         }
       ],
       "confirmation_count": 1
@@ -4158,74 +4281,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b1a272facd",
-      "title": "Songea DC Urges Farmers to Wait On Maize Price",
-      "summary": "[Daily News] Songea -- SONGEA District Commissioner, Wilman Kapenjama Ndile has urged maize farmers to avoid selling their harvest to middlemen at low prices as they await the government's official indicative maize purchase price expected to be announced this August.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "en",
-      "published": "2026-08-11T08:20:07+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608110142.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608110142.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2a3f5c9e90",
-      "title": "Zanzibar Launches Okoa Mvuvi Marine Safety Drive",
-      "summary": "[Daily News] Zanzibar -- ZANZIBAR has launched a new marine safety programme that will use tracking technology to monitor fishing vessels and reduce drowning incidents among fishermen.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "MARINE_TRANSPORT"
-      ],
-      "lang": "en",
-      "published": "2026-08-11T08:19:53+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608110141.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608110141.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "26194858b2",
       "title": "Morocco Plans $1.5b Casablanca Waste-to-Energy Plant",
       "summary": "[Daba Finance] A consortium led by Kanadevia Inova plans to begin building a $1.5 billion waste-to-energy project in Casablanca by the end of 2026, with full operations scheduled for mid-2030. The group, which includes Morocco's Nareva and Japan's Itochu, signed a concession agreement with the Casablanca city government on Aug. 3.",
@@ -4255,40 +4310,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608100004.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e5aee9aea6",
-      "title": "Badea Pledges to Disburse 21 Million Dollars for Health Facilities Construction",
-      "summary": "[AIM] Maputo -- The Mozambican government has announced that it will build two health facilities in the districts of Ngaúma and Mecanhelas, in the northern province of Niassa.",
-      "country": "MOZ",
-      "category": "INFRASTRUCTURE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CONSTRUCTION"
-      ],
-      "lang": "en",
-      "published": "2026-08-07T11:22:24+00:00",
-      "lead_source": {
-        "id": "aa-moz",
-        "name": "AllAfrica · Mozambique",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608070272.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-moz",
-          "name": "AllAfrica · Mozambique",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608070272.html"
         }
       ],
       "confirmation_count": 1
@@ -4680,6 +4701,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "b813d78de8",
+      "title": "REFLECTION: e.ID: A Fugue stages our digital identity crisis through vigorous choreography",
+      "summary": "Opening at the State Theatre in Pretoria this week, Louise Coetzer’s e.ID: A Fugue is as astonishing as it is bewildering. And as much as it’s an enlivening, exhilarating performance, it also feels like an elegy for a disappearing species, our final death knell concocted by a cabal of suited plutocrats.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T13:00:00+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-08-18-thrilling-bewildering-confounding-e-id-a-fugue-stages-our-digital-identity-crisis-through-brutal-choreography/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-08-18-thrilling-bewildering-confounding-e-id-a-fugue-stages-our-digital-identity-crisis-through-brutal-choreography/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "22e074d1d8",
       "title": "Cameroun : 5 questions pour comprendre le scandale des faux décrets de Paul Biya",
       "summary": "Le 12 juin, deux faux décrets présidentiels ont failli être lus à la CRTV. Deux mois plus tard, l’enquête s’oriente vers l’entourage de Paul Biya et met en lumière l’exacerbation de la lutte entre les clans qui se disputent le poste, encore vacant, de vice-président.",
@@ -4712,6 +4765,329 @@
       "confirmation_count": 1
     },
     {
+      "id": "838ed3a769",
+      "title": "Mozambique: Kaya Kwanga Complex remains municipal property, current operating contract runs through 2027",
+      "summary": "In 2023, the Kaya Kwanga Complex operating contract was renewed for an additional five years, Maputo municipality says. The Maputo Municipal Council on Monday (17 August) issued an official statement to put an end to rumours and false information circulating on social media regarding the ownership and operation of the Kaya Kwanga Complex. According to…\nSource",
+      "country": "MOZ",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:36:10+00:00",
+      "lead_source": {
+        "id": "club-moz",
+        "name": "Club of Mozambique",
+        "tier": 2,
+        "url": "https://clubofmozambique.com/news/mozambique-kaya-kwanga-complex-remains-municipal-property-current-operating-contract-runs-through-2027/"
+      },
+      "confirming_sources": [
+        {
+          "id": "club-moz",
+          "name": "Club of Mozambique",
+          "tier": 2,
+          "url": "https://clubofmozambique.com/news/mozambique-kaya-kwanga-complex-remains-municipal-property-current-operating-contract-runs-through-2027/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a02e46cd42",
+      "title": "Bolt Expands Motorbike Delivery Service in Mombasa",
+      "summary": "[Capital FM] Mombasa -- Bolt has expanded its Bolt Send delivery service in Mombasa to include motorbikes, offering individuals and businesses a faster and more flexible way to move small parcels across the city.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:34:21+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180422.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180422.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "64a10c86c3",
+      "title": "Media Statement - Mpumalanga NCOP Delegation Recommends Blacklisting of Rogue Contractors",
+      "summary": "[Parliament of South Africa] Mpumalanga permanent delegates to the National Council of Provinces (NCOP) have expressed serious concern about the lack of consequences for contractors who delay completing projects in Mpumalanga Province.",
+      "country": "ZAF",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:27:34+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180413.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180413.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1c6f392974",
+      "title": "Osun People Shouldn't Feel Betrayed By Adeleke's Endorsement of Tinubu - Aide",
+      "summary": "[Vanguard] Special Adviser and Spokesperson to Osun State Governor, Ademola Adeleke, Olawale Rasheed, has said that the people of Osun State should not feel betrayed by Governor Adeleke's endorsement of President Bola Tinubu's re-election bid, insisting that the endorsement predates the governor's victory at the polls.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:24:02+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180403.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180403.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "20c1ae1927",
+      "title": "Women in Media Mentoring Session Inspires Next Generation of Communicators",
+      "summary": "[SAnews.gov.za] Established women media professionals and aspiring journalists and communication students gathered in Pretoria last week for the annual Women in Media and Communication Speed Mentoring Session - an initiative aimed at equipping young women with the skills, confidence and knowledge needed to build successful careers in the media and communications industry.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:22:20+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180401.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180401.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a3163655ca",
+      "title": "Dimpane Commends Police for Courageous Response to Robertson Armed Standoff",
+      "summary": "[SAnews.gov.za] The swift and coordinated response by South African Police Service (SAPS) members to a prolonged armed standoff in Robertson, Western Cape, has been commended by Acting National Commissioner, Lieutenant General Puleng Dimpane.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:21:44+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180399.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180399.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1449bea447",
+      "title": "SARS Calls for Comments On New Digital Vat Model",
+      "summary": "[SAnews.gov.za] The South African Revenue Service (SARS) has called for public comment on the Value-Added Tax (VAT) Modernisation Discussion Paper of 2023, which outlines a new digital VAT model to modernise VAT administration.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:21:05+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180398.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180398.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "01f47d3767",
+      "title": "KCB Rfc Eyes Driftwood Sevens Dominance As Tusker Comes On Board",
+      "summary": "[Capital FM] Mombasa -- High-flying KCB RFC will be out to not only defend the Driftwood 7s title this weekend at the Mombasa Sports Club, but also solidify their lead at the overall National Sevens Circuit standings.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:16:04+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180380.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180380.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b185e30f8f",
+      "title": "Nif Policy Proposes 7PC Minimum Equity Return, Caps Project Exposure",
+      "summary": "[Capital FM] Nairobi -- The proposed Investment Policy for the National Infrastructure Fund (NIF) sets a minimum expected equity return of 7 percent and limits the fund's exposure to individual sectors and projects.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T11:06:31+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180369.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180369.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "654734e95f",
+      "title": "Koica Disburses 7.7 Dollars for Hospital in Katembe",
+      "summary": "[AIM] Maputo -- The South Korean International Cooperation Agency (KOICA) has disbursed 7.7 million US dollars for the construction of a district hospital in KaTembe, Maputo city.",
+      "country": "MOZ",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH",
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-08-18T11:02:36+00:00",
+      "lead_source": {
+        "id": "aa-moz",
+        "name": "AllAfrica · Mozambique",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180362.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-moz",
+          "name": "AllAfrica · Mozambique",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180362.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "8603369b43",
       "title": "WHAT’S COOKING: Creamy biltong and mushroom pasta with coriander",
       "summary": "Combine the traditional flavours that go with biltong, including coriander, with the happy marriage of mushrooms, cream and black pepper, for a pasta sauce that is one part Italian and another part South African.",
@@ -4739,6 +5115,137 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-08-18-creamy-biltong-and-mushroom-pasta-with-coriander/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "059af2b1b6",
+      "title": "Zambia's Hichilema re-elected president as main rival in hiding over alleged threats",
+      "summary": "Hakainde Hichilema says he was “truly humbled” by the victory and promised to work for all Zambians.",
+      "country": "ZMB",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T10:59:22+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/c5y6j4jl03xo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c5y6j4jl03xo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "218f285026",
+      "title": "Football: la CAF homologue le stade du 28-Septembre, la Guinée retrouve son enceinte fétiche",
+      "summary": "Après plusieurs années d’exil forcé, la Guinée va enfin pouvoir accueillir à nouveau des matchs internationaux sur son sol. La CAF vient d’accorder une homologation provisoire de catégorie 3 au stade du 28-Septembre, permettant notamment le retour du Syli National à domicile pour la première fois depuis juin 2022.",
+      "country": "GIN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-18T10:44:45+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique-foot/20260818-football-la-caf-homologue-le-stade-du-28-septembre-la-guin%C3%A9e-retrouve-son-enceinte-f%C3%A9tiche"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260818-football-la-caf-homologue-le-stade-du-28-septembre-la-guin%C3%A9e-retrouve-son-enceinte-f%C3%A9tiche"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2b120d1bdf",
+      "title": "Singida Tightens Grip On 10 Pc Loans, Demands Results",
+      "summary": "[Daily News] Singida -- SINGIDA Regional Secretariat has directed council officials to tighten supervision of the region's 10 per cent empowerment loan scheme, requiring closer follow-up and business training for beneficiaries to ensure the funds translate into actual income rather than idle capital.",
+      "country": "TZA",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T10:43:39+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180346.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180346.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a5b5b7ffe3",
+      "title": "Mwanza Water Project Hits 70pc",
+      "summary": "[Daily News] Mwanza -- THE construction of a major water infrastructure project involving five storage tanks, transmission pipelines and two pumping stations in Mwanza City has reached 70 per cent completion.",
+      "country": "TZA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY",
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-08-18T10:43:02+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180345.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180345.html"
         }
       ],
       "confirmation_count": 1
@@ -5032,70 +5539,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608180332.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "31933ba8fb",
-      "title": "Big Boost for East Africa School Games After Multi-Million Sponsorship From Eadb",
-      "summary": "[Capital FM] NAIROBI -- The East African Development Bank (EADB) has pumped USD USD 90,000 (approximately Ksh 11.6 million) into the ongoing Federation of East Africa Secondary Schools Sports Association (FEASSA) Games in Morogoro, Tanzania.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T10:24:07+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180331.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180331.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ab2ae3ce83",
-      "title": "Kayole Starlets Youngster Inks Deal With Turkish Giants",
-      "summary": "[Capital FM] NAIROBI -- FKF Women's Premier League side Kayole Starlets have confirmed the sale of Lavyne Achola to Turkish giants Haymana Spor Kulübü on a permanent deal.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T10:23:07+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180329.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180329.html"
         }
       ],
       "confirmation_count": 1
@@ -6168,6 +6611,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "c78d69515c",
+      "title": "Voters' Impossible Question - How to Factor in Parties' Coalition Choices?",
+      "summary": "[Daily Maverick] With more municipal coalitions expected in 2026, voters must take into account that parties' post-election partner choices -- not just manifestos -- will shape local governance and service delivery.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T08:09:01+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180194.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180194.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "71b05a7b69",
       "title": "Mozambique: Government hopes to reduce debt service to 6% of GDP by 2029",
       "summary": "Mozambique’s government plans to reduce the burden of public debt servicing to 6% of GDP by 2029, a scenario in which these costs are expected to amount to €1.69 billion, according to calculations Lusa made on Monday. According to the Medium-Term Fiscal Scenario (CFMP) 2027–2029, recently approved by the cabinet, public debt servicing costs, including…\nSource",
@@ -6195,38 +6670,6 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-government-hopes-to-reduce-debt-service-to-6-of-gdp-by-2029/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7eade07b88",
-      "title": "Zambia's president wins second term with 60% of the vote",
-      "summary": "Hakainde Hichilema says he was “truly humbled” by the victory and promised to work for all Zambians.",
-      "country": "ZMB",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T07:46:55+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/c5y6j4jl03xo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/c5y6j4jl03xo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
@@ -7012,38 +7455,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "072e0b237c",
-      "title": "Special Report - in Jigawa Communities, Nutrition Programmes Offer Hope Amid Child Hunger",
-      "summary": "[Premium Times] The interventions are part of broader efforts to improve nutrition outcomes among rural households in Jigawa, one of the states with the worst child malnutrition indicators in Nigeria.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T05:48:15+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180130.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180130.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "3291492e93",
       "title": "Cat Matlala Claims Brown Mogotsi 'Not His Friend'",
       "summary": "[Scrolla] Vusimuzi Matlala told the Madlanga Commission that Brown Mogotsi presented himself as linked to the police minister's office and sought financial help.   Matlala denied having a relationship with Senzo Mchunu and refused to fully discuss former Medicare chief executive Mike van Wyk, citing his criminal case.",
@@ -7167,38 +7578,6 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608180125.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4692e766ac",
-      "title": "Troops Recover Explosives, Arms During Raid On Extremist Enclaves in Anambra, Zamfara",
-      "summary": "[This Day] Abuja -- Troops of the newly established 15 Brigade, Nigerian Army, operating under the Joint Task Force in Southeast, Operation Udo Ka, have recovered arms, explosives, and other logistical items during a coordinated raid on three suspected Indigenous People of Biafra/Eastern Security Network (IPOB/ESN) camps.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T05:42:38+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180123.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180123.html"
         }
       ],
       "confirmation_count": 1
@@ -9690,38 +10069,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "e3e43a2946",
-      "title": "Ramaphosa Issues Apology Over Violence Against Foreigners",
-      "summary": "[AIM] Durban -- South African President Cyril Ramaphosa apologized to his Mozambican counterpart, Daniel Chapo, for the recent violence perpetrated by South African citizens against African foreigners, including Mozambicans.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T11:39:09+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170455.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170455.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "63f95ed106",
       "title": "CAN féminine 2026 : triomphe des Lionnes Indomptables sur fonds d’un financement public de près de 5 millions USD",
       "summary": "Le sacre continental des Lionnes Indomptables du Cameroun, ce dimanche 16 août 2026 à Rabat, ne doit rien au hasard. En s’imposant 3-0 face au Malawi au stade Moulay El Hassan, le Cameroun a décroché son tout premier titre continental féminin, après trois finales perdues en 2004, 2014 et 2016. Un exploit qui porte, en filigrane, la marque d’un choix politique fort d’un État qui a mis les moyens.\nSelon un échange de correspondances entre la Présidence, le ministère des…",
@@ -9749,38 +10096,6 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/08/17/can-feminine-2026-triomphe-des-lionnes-indomptables-sur-fonds-dun-financement-public-de-pres-de-5-millions-usd/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "561d0779fc",
-      "title": "Conciliatory Posture Exposes Decline in South Africa's Geopolitical Influence",
-      "summary": "[AIM] Durban -- The professor and political analyst Sipho Seepe argues that South African President Cyril Ramaphosa's \"conciliatory posture\" exposes the country's declining geopolitical influence among the 16 member-states of the Southern African Development Community (SADC).",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T11:38:09+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170454.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170454.html"
         }
       ],
       "confirmation_count": 1
@@ -9879,166 +10194,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/17/senegals-historic-pirogue-regatta-brings-saint-louis-to-life/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "05f3f71659",
-      "title": "Prima Facie Puts SA's Sexual Violence Crisis and Broken Legal System On Stage",
-      "summary": "[Daily Maverick] Suzie Miller's one-woman play about the terrible complicity between a defective legal system and the scourge of sexual violence is both hugely entertaining and deeply affecting.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T11:02:19+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170409.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170409.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "595d5c0a32",
-      "title": "'This Is How We Do It' -  30 Years of Caring For A Son With Cerebral Palsy",
-      "summary": "[Bhekisisa] His wheelchair no longer fits, and the local clinic often runs out of his medicine. Add to that three decades of living with cerebral palsy.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T10:59:18+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170404.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170404.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "543e9ea7de",
-      "title": "Government Warns Against 'Outsourcing Our Brains' to AI",
-      "summary": "[Capital FM] Nairobi -- Kenya's Special Envoy on Technology Phillip Thigo has warned against excessive dependence on artificial intelligence, saying it could undermine people's ability to think independently.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T10:58:05+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170401.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170401.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f625eac87f",
-      "title": "Fine and Warm to Cool Conditions to Dominate SA",
-      "summary": "[SAnews.gov.za] The South African Weather Service (SAWS) says a surface high-pressure system is expected to dominate most parts of the country this week, resulting in fine and warm to cool conditions.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T10:55:36+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170391.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170391.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "96faefed8c",
-      "title": "Sanral Warns Eastern Cape of R61 Blasting Between Baziya and All Saints",
-      "summary": "[SAnews.gov.za] The South African National Roads Agency SOC Limited (SANRAL) says blasting activities on the R61 between Baziya and All Saints will result in a temporary road closure in the Eastern Cape.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T10:55:23+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170390.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170390.html"
         }
       ],
       "confirmation_count": 1
@@ -10629,38 +10784,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "53056253b9",
-      "title": "Les lieux de pouvoir: le palais présidentiel à Abidjan, un lieu chargé d’histoire",
-      "summary": "Une nouvelle série commence ce matin sur RFI, consacrée aux lieux de pouvoir. Et pour son premier épisode, direction la Côte d’Ivoire. L’essentiel du pouvoir politique est concentré à Abidjan. Focus sur le palais de la présidence.",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-17T07:37:09+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/la-fabrique-du-monde/20260817-les-lieux-de-pouvoir-le-palais-pr%C3%A9sidentiel-%C3%A0-abidjan-un-lieu-charg%C3%A9-d-histoire"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/la-fabrique-du-monde/20260817-les-lieux-de-pouvoir-le-palais-pr%C3%A9sidentiel-%C3%A0-abidjan-un-lieu-charg%C3%A9-d-histoire"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "49b4399c16",
       "title": "Zambia: Will the next government care for Lusaka’s endangered forest reserve?",
       "summary": "Five years ago environmentalists had some hope that a Lusaka forest and water catchment area would be restored to its former glory after encroachment by properties for politically-connected individuals, but illegal loggers are still destroying trees.",
@@ -10914,38 +11037,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/16/cameroon-finally-wins-its-first-womens-africa-cup-of-nations-title/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1316af39fc",
-      "title": "«La SADC est devenue quasi impuissante», selon Al Kitenge, expert en stratégie économique et en innovation",
-      "summary": "La SADC peut-elle encore peser sur les crises qui secouent l'Afrique australe ? Cette organisation régionale, qui réunit seize pays du sud du continent, tient son sommet des chefs d'État ce lundi 17 août à Durban, en Afrique du Sud. Alors que le conflit dans l'est de la République démocratique du Congo a profondément mis à l'épreuve sa capacité à agir militairement et diplomatiquement, quel rôle peut-elle encore jouer face aux crises de la région ? Al Kitenge, expert en…",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-17T04:38:06+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260817-la-sadc-est-devenue-quasi-impuissante-selon-al-kitenge-expert-en-strat%C3%A9gie-%C3%A9conomique-et-en-innovation"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260817-la-sadc-est-devenue-quasi-impuissante-selon-al-kitenge-expert-en-strat%C3%A9gie-%C3%A9conomique-et-en-innovation"
         }
       ],
       "confirmation_count": 1
@@ -13120,38 +13211,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "cd24a2e39d",
-      "title": "Quand les élèves d’Azrou se retournent contre le Protectorat",
-      "summary": "La « politique berbère » du Protectorat reposait sur le maintien des élèves du collège d’Azrou à distance des courants qui agitaient le reste du Maroc. Pourtant, au début des années 1940, les certitudes de « la Résidence » se lézardent. Au cœur même de son dispositif scolaire émerge une conscience politique qu’elle n’a su ni anticiper ni contenir.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T17:12:04+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1831651/politique/quand-les-eleves-dazrou-se-retournent-contre-le-protectorat/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1831651/politique/quand-les-eleves-dazrou-se-retournent-contre-le-protectorat/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8a41df6ecf",
       "title": "Zambia's opposition leader expresses 'grave concern' as vote count suspended",
       "summary": "Just hours after Zambia’s electoral commission suspended vote counting nationwide, opposition presidential candidate Brian Mundubile raised “grave concern,” calling for full transparency amid reports of violence.",
@@ -14870,38 +14929,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608110126.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2e814b2803",
-      "title": "Tabora Schools Urged to Help Students Speak Out",
-      "summary": "[Daily News] Tabora -- EDUCATION stakeholders in Tabora have been urged to create school environments that enable students to speak openly about challenges affecting their education, including violence, gender discrimination, early pregnancy and child marriage.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-11T07:56:08+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608110125.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608110125.html"
         }
       ],
       "confirmation_count": 1
