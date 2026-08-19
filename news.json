@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-19T13:57:27.645572+00:00",
+  "generated_at": "2026-08-19T14:52:35.533148+00:00",
   "stats": {
-    "total_signals": 535,
-    "verified_signals": 15,
+    "total_signals": 536,
+    "verified_signals": 17,
     "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
+      "MOZ": 41,
+      "CAF": 6,
       "COD": 21,
-      "KEN": 57,
-      "CAF": 5,
+      "KEN": 56,
       "COG": 6,
       "CMR": 18,
-      "MOZ": 41,
       "NGA": 55,
-      "ZAF": 51,
+      "ZAF": 49,
       "TZA": 31,
-      "CIV": 20,
+      "CIV": 21,
       "ZWE": 3,
       "ZMB": 13,
       "DZA": 3,
       "NER": 1,
       "AGO": 29,
-      "MAR": 36,
+      "MAR": 34,
       "SEN": 40,
       "ETH": 11,
       "MLI": 20,
       "UGA": 34,
       "LBR": 5,
-      "GHA": 11,
+      "GHA": 12,
       "MDG": 1,
-      "TCD": 6,
+      "TCD": 5,
       "RWA": 3,
+      "TGO": 3,
+      "BEN": 3,
       "GAB": 3,
-      "GIN": 2,
-      "BEN": 2,
+      "GIN": 3,
       "BDI": 3,
-      "TGO": 1,
       "MWI": 3
     }
   },
@@ -235,6 +235,70 @@
   ],
   "signals": [
     {
+      "id": "80ab2a9d36",
+      "title": "Mozambique: CapacitaMoz reaches 100 SMEs trained in Cabo Delgado",
+      "summary": "The CapacitaMoz Business Development Programme has reached the milestone of 100 SMEs trained in Cabo Delgado after 25 companies graduated from its fourth and final cycle at a ceremony held in Pemba on Tuesday, 18 August. Closing the ceremony, Cabo Delgado Governor Valige Tauabo highlighted that 17 of the 100 companies supported by CapacitaMoz are…\nSource",
+      "country": "MOZ",
+      "category": "INFRASTRUCTURE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T14:04:29+00:00",
+      "lead_source": {
+        "id": "club-moz",
+        "name": "Club of Mozambique",
+        "tier": 2,
+        "url": "https://clubofmozambique.com/news/mozambique-capacitamoz-reaches-100-smes-trained-in-cabo-delgado/"
+      },
+      "confirming_sources": [
+        {
+          "id": "club-moz",
+          "name": "Club of Mozambique",
+          "tier": 2,
+          "url": "https://clubofmozambique.com/news/mozambique-capacitamoz-reaches-100-smes-trained-in-cabo-delgado/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5bf24a51e8",
+      "title": "Centrafrique : des dizaines de morts dans l’effondrement d’une mine d’or",
+      "summary": "En République centrafricaine, un glissement de terrain dans une mine d’or illégale a fait plusieurs dizaines de morts. L’effondrement s’est produit mardi à Zamboye, dans l’ouest du pays, près de la frontière avec le Cameroun.",
+      "country": "CAF",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T13:49:22+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/19/centrafrique-des-dizaines-de-morts-dans-leffondrement-dune-mine-dor/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/19/centrafrique-des-dizaines-de-morts-dans-leffondrement-dune-mine-dor/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "04b1b3d8c9",
       "title": "En RDC, l'épidémie d'Ebola est loin d'être \"maîtrisée\"",
       "summary": "En République démocratique du Congo, l’épidémie d’Ebola n’est toujours pas maîtrisée. Plus de 5 000 cas et 2 325 morts ont été recensés en trois mois. Six provinces sont touchées et l’OMS redoute une propagation internationale, sur fond de défiance d'une partie de la population envers la riposte.",
@@ -313,8 +377,8 @@
       "country": "CAF",
       "category": "SINISTRE",
       "severity": 4,
-      "credibility": 2,
-      "verified": false,
+      "credibility": 4,
+      "verified": true,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
@@ -334,9 +398,15 @@
           "name": "Al Jazeera",
           "tier": 1,
           "url": "https://www.aljazeera.com/news/2026/8/19/dozens-killed-after-gold-mine-collapse-in-central-african-republic?traffic_source=rss"
+        },
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/19/dozens-killed-in-central-african-republic-gold-mine-collapse/"
         }
       ],
-      "confirmation_count": 1
+      "confirmation_count": 2
     },
     {
       "id": "8b6a08b277",
@@ -405,40 +475,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "fdfb68ebbe",
-      "title": "Mozambique plans US$2bn investment to boost agricultural productivity",
-      "summary": "The Mozambican Government plans to make “massive” investments to increase agricultural productivity, mobilising around US$2 billion  over the next four years, the Minister of Planning and Development said on Tuesday. “We are talking about US$2 billion [€1.4 billion] over four years to make massive and substantial investments in agriculture to increase productivity, particularly among small-scale…\nSource",
-      "country": "MOZ",
-      "category": "ECONOMIE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "en",
-      "published": "2026-08-19T10:26:14+00:00",
-      "lead_source": {
-        "id": "club-moz",
-        "name": "Club of Mozambique",
-        "tier": 2,
-        "url": "https://clubofmozambique.com/news/mozambique-plans-us2bn-investment-to-boost-agricultural-productivity/"
-      },
-      "confirming_sources": [
-        {
-          "id": "club-moz",
-          "name": "Club of Mozambique",
-          "tier": 2,
-          "url": "https://clubofmozambique.com/news/mozambique-plans-us2bn-investment-to-boost-agricultural-productivity/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2acd8da4aa",
       "title": "WHO chief says the DR Congo's Ebola outbreak remains a global emergency",
       "summary": "Dr Tedros Adhanom Ghebreyesus said it was moving faster than any previous one and had a high risk of spreading to other countries in the region.",
@@ -500,6 +536,40 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608190200.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bb97d1dbb0",
+      "title": "Niger Raises Alarm Over Cracks in Kangimi Dam, Warns of Impending Danger",
+      "summary": "[Daily Trust] The Niger State Emergency Management Agency (NSEMA) has raised the alarm over reports of structural distress and visible cracks at the Kangimi Dam in Igabi Local Government Area of Kaduna State.",
+      "country": "NGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-08-19T07:31:11+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608190171.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608190171.html"
         }
       ],
       "confirmation_count": 1
@@ -2355,41 +2425,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "a5911fe889",
-      "title": "Attentat de Skhirat, « coup d’État des aviateurs »… La malédiction d’Azrou",
-      "summary": "L’ascension des anciens d’Azrou au sein des institutions du royaume les a conduits au plus près du trône. Lorsque cet équilibre vole en éclats, au début des années 1970, le collège hérite d’une réputation sulfureuse, qui occultera pendant des décennies certains acteurs et épisodes d’une histoire bien plus complexe, celle du Maroc moderne.",
-      "country": "MAR",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY",
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "fr",
-      "published": "2026-08-16T16:55:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1832144/politique/attentat-de-skhirat-coup-detat-des-aviateurs-la-malediction-dazrou/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1832144/politique/attentat-de-skhirat-coup-detat-des-aviateurs-la-malediction-dazrou/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "609e537dab",
       "title": "State, Determinants, Dynamics, and Fate of Media and Free Expression Rights in Burkina Faso, Mali, Niger and Guinea",
       "summary": "[MFWA] This report examines the state of press freedom and freedom of expression in Burkina Faso, Mali, Niger and Guinea, four West African countries under military-led governments that have experienced coups since 2021.",
@@ -2590,6 +2625,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "91de1aa1e2",
+      "title": "Nigeria : la campagne présidentielle débute face à une opposition divisée",
+      "summary": "Au Nigeria, la campagne pour l’élection présidentielle du 16 janvier est officiellement lancée. Le président Bola Tinubu brigue un second mandat face à 18 candidats d’opposition, dans un pays confronté à une grave crise économique et sécuritaire.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T13:33:21+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/19/nigeria-la-campagne-presidentielle-debute-face-a-une-opposition-divisee/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/19/nigeria-la-campagne-presidentielle-debute-face-a-une-opposition-divisee/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "88fdffdd78",
       "title": "Mozambique launches Topuito Industrial Park to link SMEs with Kenmare supply chain",
       "summary": "The Mozambican Government on Wednesday launched construction of the Topuito Industrial Park in Larde district, Nampula province, a 600 million metical infrastructure project designed to bring small and medium-sized enterprises (SMEs) closer to opportunities to supply goods and services generated by Kenmare, the company mining heavy mineral sands in the region. The laying of the…\nSource",
@@ -2654,38 +2721,6 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-nine-senior-lam-officials-to-face-trial-for-alleged-mismanagement-aim-report/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "91de1aa1e2",
-      "title": "Nigeria : la campagne présidentielle débute face à une opposition divisée",
-      "summary": "Au Nigeria, la campagne pour l’élection présidentielle du 16 janvier est officiellement lancée. Le président Bola Tinubu brigue un second mandat face à 18 candidats d’opposition, dans un pays confronté à une grave crise économique et sécuritaire.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-19T12:53:00+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/19/nigeria-la-campagne-presidentielle-debute-face-a-une-opposition-divisee/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/19/nigeria-la-campagne-presidentielle-debute-face-a-une-opposition-divisee/"
         }
       ],
       "confirmation_count": 1
@@ -2901,6 +2936,44 @@
       "confirmation_count": 2
     },
     {
+      "id": "3fa8fe9859",
+      "title": "Tanzania, DR Congo strengthen ties on trade",
+      "summary": "The two countries intend to diversify their trade beyond mining products.",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T10:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/tanzania-dr-congo-strengthen-ties-on-trade-5563216"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/tanzania-dr-congo-strengthen-ties-on-trade-5563216"
+        },
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608190121.html"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
       "id": "14d9c48e63",
       "title": "Nigeria to South Africa - Deliberate Targeting of Africans Must Stop",
       "summary": "[This Day] The Federal Government of Nigeria has sent a clear and unambiguous message that the government of South Africa should stop the deliberate targeting of Africans, including Nigerians, on the basis of their nationality and colour of their skin.",
@@ -3030,38 +3103,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260819-le-liberia-annonce-recevoir-1200-personnes-expuls%C3%A9es-des-%C3%A9tats-unis-d-ici-un-an"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "da9074fc31",
-      "title": "Mozambique: UN reports up to 500 insurgents in Cabo Delgado, names four leaders",
-      "summary": "The armed insurgency in Cabo Delgado has grown to between 400 and 500 fighters, has stepped up recruitment and is showing signs of expanding into the south of that Mozambican province, according to a United Nations report submitted to the Security Council. The data is contained in the 38th report by the United Nations Analytical…\nSource",
-      "country": "MOZ",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T07:35:46+00:00",
-      "lead_source": {
-        "id": "club-moz",
-        "name": "Club of Mozambique",
-        "tier": 2,
-        "url": "https://clubofmozambique.com/news/mozambique-un-reports-up-to-500-insurgents-in-cabo-delgado-names-four-leaders/"
-      },
-      "confirming_sources": [
-        {
-          "id": "club-moz",
-          "name": "Club of Mozambique",
-          "tier": 2,
-          "url": "https://clubofmozambique.com/news/mozambique-un-reports-up-to-500-insurgents-in-cabo-delgado-names-four-leaders/"
         }
       ],
       "confirmation_count": 1
@@ -3492,6 +3533,38 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/18/ethiopia-authorities-in-tigray-accuse-addis-ababa-of-drone-strike-near-mekelle/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3b925e1a1a",
+      "title": "Dividendes 2025 : La société Servair Abidjan revoie à la hausse le dividende global à verser à ses actionnaires",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-18T10:46:38+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/18/dividendes-2025-la-societe-servair-abidjan-revoie-a-la-hausse-le-dividende-global-a-verser-a-ses-actionnaires/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/18/dividendes-2025-la-societe-servair-abidjan-revoie-a-la-hausse-le-dividende-global-a-verser-a-ses-actionnaires/"
         }
       ],
       "confirmation_count": 1
@@ -4547,6 +4620,136 @@
       "confirmation_count": 1
     },
     {
+      "id": "97d05a4da9",
+      "title": "Togo : ce que l’on sait de l’arrestation des deux journalistes français placés en détention à Lomé",
+      "summary": "Deux journalistes français ainsi que leur collaborateur togolais, interpellés fin juillet dans le nord du pays, ont été placés en détention lundi 17 août. Ils sont poursuivis pour « fausses déclarations ». Selon nos informations, ils bénéficiaient pourtant d’une autorisation de tournage.",
+      "country": "TGO",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T16:43:40+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1836114/politique/togo-ce-que-lon-sait-de-larrestation-des-deux-journalistes-francais-places-en-detention-a-lome/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1836114/politique/togo-ce-que-lon-sait-de-larrestation-des-deux-journalistes-francais-places-en-detention-a-lome/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4ef13e8d16",
+      "title": "Angélique Kidjo makes history for Africa with star on Hollywood Walk of Fame",
+      "summary": "Without Africans, no music is possible on this planet, says the 66-year-old musical icon from Benin.",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T14:36:25+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/c62xyg6527go?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c62xyg6527go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a86a5bf5f4",
+      "title": "Statement by the Humanitarian Coordinator for Mozambique for World Humanitarian Day 2026",
+      "summary": "Statement by the Humanitarian Coordinator for Mozambique, Dr. Catherine Sozi World Humanitarian Day 2026 — Protect humanitarian action, #ActForHumanity On World Humanitarian Day, the United Nations pays tribute to the humanitarian workers who, every day, stand alongside people affected by crises. Across Mozambique, humanitarian workers are on the ground, supporting people affected by conflict, natural…\nSource",
+      "country": "MOZ",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T14:35:55+00:00",
+      "lead_source": {
+        "id": "club-moz",
+        "name": "Club of Mozambique",
+        "tier": 2,
+        "url": "https://clubofmozambique.com/news/statement-by-the-humanitarian-coordinator-for-mozambique-for-world-humanitarian-day-2026/"
+      },
+      "confirming_sources": [
+        {
+          "id": "club-moz",
+          "name": "Club of Mozambique",
+          "tier": 2,
+          "url": "https://clubofmozambique.com/news/statement-by-the-humanitarian-coordinator-for-mozambique-for-world-humanitarian-day-2026/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "be2c0997b5",
+      "title": "Mozambique: Manica accommodation fully booked ahead of Frelimo conference — Domingo",
+      "summary": "Accommodation is fully booked in the city of Chimoio and neighbouring districts including Vanduzi, Gondola, Manica and Sussundenga, putting pressure on the hospitality sector in the region, Domingo Online reports. According to Provincial Director of Culture and Tourism Ângelo Bande, the full occupancy at accommodation establishments is linked to the 11th National Conference of Frelimo…\nSource",
+      "country": "MOZ",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-08-19T14:24:22+00:00",
+      "lead_source": {
+        "id": "club-moz",
+        "name": "Club of Mozambique",
+        "tier": 2,
+        "url": "https://clubofmozambique.com/news/mozambique-manica-accommodation-fully-booked-ahead-of-frelimo-conference-domingo/"
+      },
+      "confirming_sources": [
+        {
+          "id": "club-moz",
+          "name": "Club of Mozambique",
+          "tier": 2,
+          "url": "https://clubofmozambique.com/news/mozambique-manica-accommodation-fully-booked-ahead-of-frelimo-conference-domingo/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "24681f8e05",
       "title": "Est de la RDC: regain de tension entre l'armée congolaise et l’AFC/M23 au Nord et Sud-Kivu",
       "summary": "Dans l’est de la République démocratique du Congo (RDC), les fronts se réactivent depuis quelques jours au Nord-Kivu et au Sud-Kivu. Des combats opposent l'armée congolaise (FARDC) et ses alliés à l’AFC/M23, mouvement politico-armé appuyé par le Rwanda. Les affrontements sont signalés notamment dans les territoires de Kalehe et Fizi.",
@@ -4608,6 +4811,40 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260819-au-cameroun-les-jeunes-footballeuses-inspir%C3%A9es-par-le-sacre-des-lionnes-indomptables-%C3%A0-la-can-f%C3%A9minine"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "508bc2b81d",
+      "title": "UN calls on Zambia to stop arbitrary arrests of opposition figures",
+      "summary": "The United Nations rights chief has called on Zambia to stop arbitrary arrests and uphold the rights of all those detained. The statement from UN High Commissioner Volker Türk follows reports of arrests and detention of opposition figures in Zambia before and after Thursday’s election.",
+      "country": "ZMB",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY"
+      ],
+      "lang": "en",
+      "published": "2026-08-19T13:28:31+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/19/un-calls-on-zambia-to-stop-arbitrary-arrests-of-opposition-figures/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/19/un-calls-on-zambia-to-stop-arbitrary-arrests-of-opposition-figures/"
         }
       ],
       "confirmation_count": 1
@@ -4744,38 +4981,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "682b92c904",
-      "title": "Absa Kenya relève son dividende malgré le recul du bénéfice",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-19T12:39:24+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/19/absa-kenya-releve-son-dividende-malgre-le-recul-du-benefice/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/19/absa-kenya-releve-son-dividende-malgre-le-recul-du-benefice/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "52ae69d98f",
       "title": "Liberia agrees to accept up to 1,200 US deportees under Trump migration deal",
       "summary": "Liberia has agreed to accept hundreds of people deported from the United States, in one of the largest such arrangements under the Trump administration’s migration policy. The deportees will arrive over a year, with the first group of 20 expected Thursday.",
@@ -4869,38 +5074,6 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608190483.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c054e94201",
-      "title": "Afrique du Sud: l’inflation ralentit à 4,3% en juillet",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-19T12:26:03+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/19/afrique-du-sud-linflation-ralentit-a-43-en-juillet/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/19/afrique-du-sud-linflation-ralentit-a-43-en-juillet/"
         }
       ],
       "confirmation_count": 1
@@ -6459,38 +6632,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "56f5f46952",
-      "title": "Mozambique: New rules prioritise mining cooperatives for artisanal mining licences, bring credit cooperatives under central bank oversight",
-      "summary": "Mozambican mining cooperatives will be given priority in obtaining licences for artisanal mining, while credit cooperatives will be subject to supervision by the Bank of Mozambique as financial institutions, under new regulations approved by the Government. Under the regulations, which will govern the 2009 General Cooperatives Law, mining cooperatives are defined as entities intended for…\nSource",
-      "country": "MOZ",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T10:08:44+00:00",
-      "lead_source": {
-        "id": "club-moz",
-        "name": "Club of Mozambique",
-        "tier": 2,
-        "url": "https://clubofmozambique.com/news/mozambique-new-rules-prioritise-mining-cooperatives-for-artisanal-mining-licences-bring-credit-cooperatives-under-central-bank-oversight/"
-      },
-      "confirming_sources": [
-        {
-          "id": "club-moz",
-          "name": "Club of Mozambique",
-          "tier": 2,
-          "url": "https://clubofmozambique.com/news/mozambique-new-rules-prioritise-mining-cooperatives-for-artisanal-mining-licences-bring-credit-cooperatives-under-central-bank-oversight/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "de7704f340",
       "title": "Fano’s fight for survival has gridlocked Abiy Ahmed’s government in Ethiopia",
       "summary": "A member of the Amhara central command argues that only political change in Addis Ababa can restore peace and stability in the country and the wider region.",
@@ -7861,38 +8002,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "6a85a436fa",
-      "title": "Tanzania, DR Congo Deepen Trade, Mining Ties",
-      "summary": "[Daily News] Zanzibar -- Tanzania and the Democratic Republic of Congo (DRC) have agreed to deepen cooperation in mining, trade, investment, infrastructure, peace and security as the two countries seek to strengthen their strategic partnership.",
-      "country": "TZA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T05:28:20+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608190121.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608190121.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "204d510d93",
       "title": "Dr Samia Suluhu Hassan Meets President Tshisekedi for Talks to Cement Ties in Transportation, Regional Affairs",
       "summary": "[Daily News] Zanzibar -- PRESIDENT Samia Suluhu Hassan has received President Félix Antoine Tshisekedi of the Democratic Republic of Congo at the State House in Zanzibar.",
@@ -9219,38 +9328,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "afe440c7c9",
-      "title": "Is the Trump-Tinubu Collaboration Working?",
-      "summary": "[CFR] Despite undeniable progress, insecurity in Nigeria remains by and large intractable.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T14:33:45+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180566.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180566.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "bbfd27e5d3",
       "title": "Can Mozambique's New Counter-Terrorism Centre Deliver?",
       "summary": "[ISS] The centre fills a major counter-insurgency gap in the north, but the challenge will be translating good intentions into results.",
@@ -9474,6 +9551,38 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/08/18/exclusif-emmanuel-macron-attendu-a-cotonou/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4efaa928ca",
+      "title": "Guinée équatoriale : l’Etat durcit le contrôle des recettes non pétrolières",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "GIN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-18T13:15:49+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/18/guinee-equatoriale-letat-durcit-le-controle-des-recettes-non-petrolieres/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/18/guinee-equatoriale-letat-durcit-le-controle-des-recettes-non-petrolieres/"
         }
       ],
       "confirmation_count": 1
@@ -10129,6 +10238,72 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608180332.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b95d823b0e",
+      "title": "MTN Ghana : un chiffre d’affaires de 1,36 milliard de dollars au premier semestre 2026",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-18T10:23:22+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/18/mtn-ghana-un-chiffre-daffaires-de-136-milliard-de-dollars-au-premier-semestre-2026/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/18/mtn-ghana-un-chiffre-daffaires-de-136-milliard-de-dollars-au-premier-semestre-2026/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f8faad19bf",
+      "title": "Togo : Faure Gnassingbé refonde le haut commandement militaire avec un vaste remaniement",
+      "summary": "Au Togo, le président du Conseil, Faure Gnassingbé, a procédé à un vaste remaniement au sommet des Forces armées togolaises (FAT) et de plusieurs agences stratégiques de l’État. Ce, à travers une série de huit décrets publiés dans la soirée du lundi 17 aout, lesquels redessinent la chaîne de commandement militaire, du renseignement et de l’aviation civile, dans un contexte sécuritaire toujours tendu au nord du pays.\nUn nouveau patron pour les armées\nAu cœur de ce…",
+      "country": "TGO",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "fr",
+      "published": "2026-08-18T10:11:40+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/18/togo-faure-gnassingbe-refonde-le-haut-commandement-militaire-avec-un-vaste-remaniement/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/18/togo-faure-gnassingbe-refonde-le-haut-commandement-militaire-avec-un-vaste-remaniement/"
         }
       ],
       "confirmation_count": 1
@@ -11682,38 +11857,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "a85dceeab5",
-      "title": "África do Sul: cimeira da SADC sobre as tensões migratórias e políticas na sub-região",
-      "summary": "Decorre esta segunda e terça-feira a 46.ª Cimeira Ordinária de Chefes de Estado e de Governo da SADC em Durban, na África do Sul, país que passa a assegurar oficialmente a presidência rotativa do bloco, depois de ter já desempenhado estas funções a título interino desde finais do ano passado, em substituição de Madagáscar, onde se deu um golpe de Estado em Outubro do ano passado.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "pt",
-      "published": "2026-08-17T11:52:54+00:00",
-      "lead_source": {
-        "id": "rfi-pt",
-        "name": "RFI Português",
-        "tier": 1,
-        "url": "https://www.rfi.fr/pt/%C3%A1frica/20260817-%C3%A1frica-do-sul-cimeira-da-sadc-sobre-as-tens%C3%B5es-migrat%C3%B3rias-e-pol%C3%ADticas-na-sub-regi%C3%A3o-1"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-pt",
-          "name": "RFI Português",
-          "tier": 1,
-          "url": "https://www.rfi.fr/pt/%C3%A1frica/20260817-%C3%A1frica-do-sul-cimeira-da-sadc-sobre-as-tens%C3%B5es-migrat%C3%B3rias-e-pol%C3%ADticas-na-sub-regi%C3%A3o-1"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "fc41c8eb62",
       "title": "Modernization of Machipanda Border Budgeted At 37.2 Million Dollars",
       "summary": "[AIM] Maputo -- The Integrated Project for the Modernization and Expansion of Machipanda Border is budgeted at 37.2 million US dollars.",
@@ -12197,38 +12340,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/17/sadc-leaders-pay-tribute-to-anti-apartheid-activist-ahead-of-durban-summit/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "539cf7a495",
-      "title": "Tchad : Succès Masra appelle à la réconciliation après sa libération",
-      "summary": "Au Tchad, après la prison, place au message d’apaisement. Libéré grâce à une grâce présidentielle, l’opposant Succès Masra appelle désormais à dépasser les rancœurs et à ouvrir une nouvelle page fondée sur le pardon et la réconciliation nationale.",
-      "country": "TCD",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-17T08:14:31+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/16/tchad-succes-masra-appelle-a-la-reconciliation-apres-sa-liberation/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/16/tchad-succes-masra-appelle-a-la-reconciliation-apres-sa-liberation/"
         }
       ],
       "confirmation_count": 1
@@ -12942,70 +13053,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260816-tchad-l-opposant-succ%C3%A8s-masra-s-exprime-apr%C3%A8s-sa-lib%C3%A9ration"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0279813a21",
-      "title": "Observers say Zambia's vote marred by intimidation, counting pause",
-      "summary": "International observers of Zambia's elections said Saturday the poll was marred by claims of intimidation, abductions and an hours-long pause in the vote count.",
-      "country": "ZMB",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-16T13:19:01+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/16/observers-say-zambias-vote-marred-by-intimidation-counting-pause/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/16/observers-say-zambias-vote-marred-by-intimidation-counting-pause/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "92041c8a40",
-      "title": "Hundreds of migrants intercepted near Morocco's border with Ceuta",
-      "summary": "Scores of would-be migrants, mostly from sub-Saharan Africa, were intercepted on Saturday in northern Morocco near the border with the Spanish exclave of Ceuta, an AFP correspondent saw, two weeks after thousands of migrants rushed into the tiny territory.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-16T12:18:59+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/16/hundreds-of-migrants-intercepted-near-moroccos-border-with-ceuta/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/16/hundreds-of-migrants-intercepted-near-moroccos-border-with-ceuta/"
         }
       ],
       "confirmation_count": 1
