@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-19T19:38:15.601030+00:00",
+  "generated_at": "2026-08-19T20:44:55.314722+00:00",
   "stats": {
-    "total_signals": 532,
-    "verified_signals": 17,
+    "total_signals": 533,
+    "verified_signals": 18,
     "countries_covered": 30,
     "sources_active": 32,
     "per_country": {
+      "CMR": 15,
+      "KEN": 60,
       "CAF": 7,
-      "CMR": 16,
-      "KEN": 57,
-      "COD": 21,
+      "COD": 20,
       "MOZ": 39,
       "COG": 6,
-      "NGA": 55,
-      "ZAF": 52,
+      "NGA": 57,
+      "ZAF": 55,
       "TZA": 33,
-      "CIV": 21,
+      "CIV": 20,
       "ZWE": 4,
-      "ZMB": 12,
+      "ZMB": 11,
       "DZA": 2,
-      "AGO": 30,
+      "AGO": 31,
       "MAR": 31,
       "SEN": 41,
-      "UGA": 34,
+      "UGA": 35,
       "ETH": 11,
       "MLI": 20,
-      "BEN": 3,
+      "BEN": 2,
       "LBR": 5,
-      "GHA": 9,
-      "MDG": 1,
-      "TCD": 5,
+      "GHA": 8,
+      "MDG": 2,
+      "TCD": 4,
       "RWA": 3,
-      "GIN": 4,
-      "TGO": 3,
+      "GIN": 3,
+      "TGO": 2,
       "GAB": 3,
-      "BDI": 3,
+      "BDI": 2,
       "MWI": 1
     }
   },
@@ -234,6 +234,108 @@
   ],
   "signals": [
     {
+      "id": "1cb69295b5",
+      "title": "L'éboulement d'une mine fait plus d'une centaine de morts à la frontière entre le Cameroun et la RCA",
+      "summary": "Un éboulement s’est produit dans l’après-midi du mardi 18 août sur un site d’exploitation aurifère situé à Zamboï, près de Garoua-Boulaï, à la frontière entre le Cameroun et la République centrafricaine. Selon les autorités locales, 107 victimes ont déjà été extraites de la boue. Les recherches se poursuivent et le bilan pourrait encore s’alourdir.",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T20:41:23+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260819-l-%C3%A9boulement-d-une-mine-fait-plus-d-une-centaine-de-morts-%C3%A0-la-fronti%C3%A8re-entre-le-cameroun-et-la-rca"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260819-l-%C3%A9boulement-d-une-mine-fait-plus-d-une-centaine-de-morts-%C3%A0-la-fronti%C3%A8re-entre-le-cameroun-et-la-rca"
+        },
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260819-%C3%A0-la-fronti%C3%A8re-du-cameroun-avec-la-rca-un-%C3%A9boulement-dans-une-mine-d-or-fait-plus-d-une-centaine-de-morts"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "db3362caea",
+      "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
+      "summary": "Michele Sensi-Contugi, and his wife Stephany Hollihan among the seven people killed in the crash.",
+      "country": "KEN",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T20:34:41+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ab388a105a",
+      "title": "Seven people, mostly foreign tourists, killed in helicopter crash in Kenya",
+      "summary": "Ecuador's intelligence chief Michele Sensi-Contugi and NBCUniversal journalist Jose Suarez are among the dead.",
+      "country": "KEN",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T19:53:12+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/8/19/seven-mostly-tourists-killed-in-helicopter-crash-in-northern-kenya?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/8/19/seven-mostly-tourists-killed-in-helicopter-crash-in-northern-kenya?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "db5c29af3b",
       "title": "Centrafrique : au moins 100 morts après l'effondrement d'une mine d'or dans l'ouest du pays",
       "summary": "L'effondrement d'une mine d'or artisanale de l'ouest de la Centrafrique a provoqué, mardi, la mort d'au moins 100 personnes. Ce drame illustre la dangerosité d'un secteur minier en majorité informel et qui échappe à tout contrôle étatique.",
@@ -261,6 +363,38 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260819-centrafrique-au-moins-100-morts-apr%C3%A8s-l-effondrement-d-une-mine-d-or-dans-l-ouest-du-pays"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "60700bff90",
+      "title": "UN flag at half-mast to honour humanitarian workers killed in line of duty",
+      "summary": "Marking World Humanitarian Day on Wednesday, the United Nations flag was lowered to half-mast at the UN headquarters in Nairobi.  The gesture recognises the humanitarian workers who lost their lives while serving others.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T19:27:13+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/19/un-flag-at-half-mast-to-honour-humanitarian-workers-killed-in-line-of-duty/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/19/un-flag-at-half-mast-to-honour-humanitarian-workers-killed-in-line-of-duty/"
         }
       ],
       "confirmation_count": 1
@@ -301,38 +435,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "db3362caea",
-      "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
-      "summary": "Michele Sensi-Contugi, and his wife Stephany Hollihan among the seven people killed in the crash.",
-      "country": "KEN",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T18:43:11+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "b4892014f2",
       "title": "L’ONU rend hommage aux humanitaires victimes de violences",
       "summary": "À l’occasion de la Journée mondiale de l’aide humanitaire, célébrée le 19 août, le drapeau des Nations Unies a été mis en berne au siège de l’ONU à Nairobi, au Kenya.",
@@ -347,7 +449,7 @@
       "fdi": false,
       "sectors": [],
       "lang": "fr",
-      "published": "2026-08-19T18:38:28+00:00",
+      "published": "2026-08-19T19:08:36+00:00",
       "lead_source": {
         "id": "afnews-fr",
         "name": "Africanews FR",
@@ -564,38 +666,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/19/ebola-fears-keep-pregnant-women-away-from-healthcare-in-eastern-drc/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1fd0280334",
-      "title": "À la frontière entre le Cameroun et la RCA, un éboulement dans une mine d’or fait plus d'une centaine de morts",
-      "summary": "Un éboulement s’est produit dans l’après-midi de mardi 18 août sur un site d’exploitation aurifère situé à Zamboï, près de Garoua-Boulaï, à la frontière entre le Cameroun et la République centrafricaine. Selon les autorités locales, 107 victimes ont déjà été extraites de la boue. Les recherches se poursuivent et le bilan pourrait s’alourdir.",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-19T11:30:04+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260819-%C3%A0-la-fronti%C3%A8re-du-cameroun-avec-la-rca-un-%C3%A9boulement-dans-une-mine-d-or-fait-plus-d-une-centaine-de-morts"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260819-%C3%A0-la-fronti%C3%A8re-du-cameroun-avec-la-rca-un-%C3%A9boulement-dans-une-mine-d-or-fait-plus-d-une-centaine-de-morts"
         }
       ],
       "confirmation_count": 1
@@ -1130,40 +1200,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/17/pilgrims-in-lourdes-remember-french-monks-murdered-during-algerian-civil-war/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c0046fb9ea",
-      "title": "Ebola: Water scarcity hampers control efforts in epicentre",
-      "summary": "A severe shortage of clean water and sanitation facilities is undermining efforts to contain the Ebola outbreak in Mongbwalu, a gold-mining town in the Democratic Republic of the Congo's Ituri province, where residents struggle to maintain basic hygiene while facing the deadly virus",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-17T13:31:01+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/17/ebola-water-scarcity-hampers-control-efforts-in-epicentre/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/17/ebola-water-scarcity-hampers-control-efforts-in-epicentre/"
         }
       ],
       "confirmation_count": 1
@@ -2649,6 +2685,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "beaf60e74e",
+      "title": "AFFILIATION TUSSLE: Athletics SA refuses to sanction centenary Comrades Marathon",
+      "summary": "The custodian of South African athletics says that if the 2027 Comrades Marathon proceeds under the current status quo, with the Comrades Marathon Association not affiliated to KZN Athletics, next year’s centenary race will not be officially sanctioned. In spite of this, the 100th race of the ultra marathon was officially launched on Wednesday, 19 August.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T22:17:43+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-08-19-athletics-sa-refuses-to-sanction-centenary-comrades-marathon/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-08-19-athletics-sa-refuses-to-sanction-centenary-comrades-marathon/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9f306ae84c",
+      "title": "Nigeria : la présidentielle 2027 dominée par l’économie et l’insécurité",
+      "summary": "La campagne pour l’élection présidentielle de 2027 est lancée au Nigeria. À cinq mois du scrutin, les candidats vont devoir convaincre des électeurs préoccupés avant tout par le coût de la vie, l’emploi et l’insécurité.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T19:32:29+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/19/nigeria-la-presidentielle-2027-dominee-par-leconomie-et-linsecurite/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/19/nigeria-la-presidentielle-2027-dominee-par-leconomie-et-linsecurite/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "8c14d7c202",
       "title": "'I Haven't Sold Anyone's Catalogue to a Distributor, Third Party or Anyone' - Dapper Debunks Rip-Off Claims",
       "summary": "[Premium Times] Music executive and founder of Dapper Group, Damilola \"Dapper\" Akinwunmi, has denied allegations made against him by his former signees, T.I Blaze, Seyi Vibez and Shallipopi.",
@@ -2774,6 +2874,40 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/19/afrique-du-sud-baisse-du-taux-dinflation-en-juin-une-premiere-en-cinq-mois/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a4153d3015",
+      "title": "Afrique du Sud : une nouvelle politique tarifaire pour soutenir les ménages et les investisseurs",
+      "summary": "L’Afrique du Sud engage une nouvelle étape dans la réforme de son marché de l’électricité. Le gouvernement a ouvert à la consultation publique une version révisée de sa politique tarifaire, destinée à remplacer le cadre adopté en 2008. Le texte prévoit notamment une trajectoire tarifaire sur dix ans, une meilleure prise en compte des coûts réels et un renforcement de la protection des ménages vulnérables.\nLe ministre de l’Électricité, Kgosientsho Ramokgopa, rappelle que…",
+      "country": "ZAF",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "fr",
+      "published": "2026-08-19T15:14:41+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/19/afrique-du-sud-une-nouvelle-politique-tarifaire-pour-soutenir-les-menages-et-les-investisseurs/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/19/afrique-du-sud-une-nouvelle-politique-tarifaire-pour-soutenir-les-menages-et-les-investisseurs/"
         }
       ],
       "confirmation_count": 1
@@ -3693,38 +3827,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/18/ethiopia-authorities-in-tigray-accuse-addis-ababa-of-drone-strike-near-mekelle/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3b925e1a1a",
-      "title": "Dividendes 2025 : La société Servair Abidjan revoie à la hausse le dividende global à verser à ses actionnaires",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T10:46:38+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/dividendes-2025-la-societe-servair-abidjan-revoie-a-la-hausse-le-dividende-global-a-verser-a-ses-actionnaires/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/dividendes-2025-la-societe-servair-abidjan-revoie-a-la-hausse-le-dividende-global-a-verser-a-ses-actionnaires/"
         }
       ],
       "confirmation_count": 1
@@ -4780,6 +4882,104 @@
       "confirmation_count": 1
     },
     {
+      "id": "4da8d55236",
+      "title": "INTERVIEW: Siviwe Gwarube targets 7 million children in structured ECD programmes by 2030",
+      "summary": "South Africa’s Basic Education Minister, Siviwe Gwarube, is targeting seven million children in structured early learning programmes by 2030, framing early childhood development as vital to fixing literacy and boosting GDP. Through the Bana Pele registration drive, expanded subsidy access and targeted nutrition initiatives, she aims to eliminate red tape and bridge the country’s stark inequality gap from the ground up.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-08-19T21:38:14+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-08-19-siviwe-gwarube-targets-7-million-children-in-structured-ecd-programmes-by-2030/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-08-19-siviwe-gwarube-targets-7-million-children-in-structured-ecd-programmes-by-2030/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5ac750a53f",
+      "title": "Two accused of drug trafficking after UK-Nigeria investigation",
+      "summary": "The Metropolitan Police say the man and woman were arrested following the seizure of more than 180kg (397lb) of cocaine this month.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T19:59:06+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/c77gpz8nd11o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c77gpz8nd11o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "878e78e526",
+      "title": "Higino Carneiro não desiste de candidatura ao MPLA",
+      "summary": "O pré-candidato à presidência do MPLA falou à saída do Tribunal Supremo, em Luanda, após a primeira sessão do processo de instrução. Considera-se inocente.",
+      "country": "AGO",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-08-19T19:56:46+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/08/19/mantenho-a-minha-decisao-higino-carneiro-nao-desiste-do-mpla-apesar-de-acusacao-por-peculato-e-branqueamento/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/08/19/mantenho-a-minha-decisao-higino-carneiro-nao-desiste-do-mpla-apesar-de-acusacao-por-peculato-e-branqueamento/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "627a39a3da",
       "title": "Cameroun : Nkolandom, chefferie et baronnie du ministre Jacques Fame Ndongo",
       "summary": "Propriété du ministre de l’Enseignement supérieur, le Centre touristique de Nkolandom, refuge naturel et espace de préservation de la mémoire patrimoniale, situé dans le sud du pays, est surtout un lieu de rencontres discrètes entre caciques du parti présidentiel.",
@@ -4839,6 +5039,40 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/opinionista/2026-08-19-regulatory-failure-not-criminality-lies-at-the-heart-of-sa-s-mining-crisis/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "980fd8cc74",
+      "title": "How Kenya Seed Company Rwanda Is Boosting Quality Seed Adoption, Farm Productivity",
+      "summary": "[New Times] When more than 300 farmers gathered in Cyuve Sector, Musanze District, for a Farmer Field Day ahead of Rwanda's 2027 Season A planting season, one message from Kenya Seed Company Rwanda Ltd stood out: a good harvest starts with quality seed.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "en",
+      "published": "2026-08-19T19:39:45+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608190626.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608190626.html"
         }
       ],
       "confirmation_count": 1
@@ -4924,7 +5158,7 @@
       "fdi": false,
       "sectors": [],
       "lang": "en",
-      "published": "2026-08-19T18:48:15+00:00",
+      "published": "2026-08-19T18:48:22+00:00",
       "lead_source": {
         "id": "afnews-en",
         "name": "Africanews",
@@ -5197,6 +5431,38 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1836139/economie-entreprises/fmi-au-senegal-trois-enjeux-cles-pour-sortir-de-limpasse-de-la-dette-cachee/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "819f2f4085",
+      "title": "L’Afrique doit changer sa manière de traiter avec les géants miniers",
+      "summary": "Par Emmanuel LoWilla*, président du Caucus d’Afrique de l’Est du Parlement panafricain\nRio Tinto a laissé Bougainville sans réparation pendant trente-sept ans. Le même scénario se dessine aujourd’hui à Madagascar, alors que de nouveaux projets stratégiques prennent forme en Guinée et au Mozambique.\nEn 1989, la mine de Panguna, sur l’île de Bougainville, en Papouasie-Nouvelle-Guinée, cessait ses activités. Rio Tinto y avait extrait du cuivre et de l’or pendant dix-sept…",
+      "country": "MDG",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T17:04:11+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/19/lafrique-doit-changer-sa-maniere-de-traiter-avec-les-geants-miniers/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/19/lafrique-doit-changer-sa-maniere-de-traiter-avec-les-geants-miniers/"
         }
       ],
       "confirmation_count": 1
@@ -5785,6 +6051,41 @@
       "confirmation_count": 1
     },
     {
+      "id": "73b94159d5",
+      "title": "Ugandan truckers stranded as South Sudan army seizes vehicles for military operations",
+      "summary": "They warn that warns that forced requisitioning of civilian vehicles severely compromises...",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AUTO",
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "en",
+      "published": "2026-08-19T14:45:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/ugandan-truckers-stranded-as-south-sudan-army-seizes-vehicles-5563480"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/ugandan-truckers-stranded-as-south-sudan-army-seizes-vehicles-5563480"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a86a5bf5f4",
       "title": "Statement by the Humanitarian Coordinator for Mozambique for World Humanitarian Day 2026",
       "summary": "Statement by the Humanitarian Coordinator for Mozambique, Dr. Catherine Sozi World Humanitarian Day 2026 — Protect humanitarian action, #ActForHumanity On World Humanitarian Day, the United Nations pays tribute to the humanitarian workers who, every day, stand alongside people affected by crises. Across Mozambique, humanitarian workers are on the ground, supporting people affected by conflict, natural…\nSource",
@@ -6146,6 +6447,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "682b92c904",
+      "title": "Absa Kenya relève son dividende malgré le recul du bénéfice",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T12:39:24+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/19/absa-kenya-releve-son-dividende-malgre-le-recul-du-benefice/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/19/absa-kenya-releve-son-dividende-malgre-le-recul-du-benefice/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "52ae69d98f",
       "title": "Liberia agrees to accept up to 1,200 US deportees under Trump migration deal",
       "summary": "Liberia has agreed to accept hundreds of people deported from the United States, in one of the largest such arrangements under the Trump administration’s migration policy. The deportees will arrive over a year, with the first group of 20 expected Thursday.",
@@ -6239,6 +6572,38 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608190483.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c054e94201",
+      "title": "Afrique du Sud: l’inflation ralentit à 4,3% en juillet",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T12:26:03+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/19/afrique-du-sud-linflation-ralentit-a-43-en-juillet/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/19/afrique-du-sud-linflation-ralentit-a-43-en-juillet/"
         }
       ],
       "confirmation_count": 1
@@ -9655,38 +10020,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "344d2efca2",
-      "title": "TRIBUTE: In Memoriam: Estelle Ellis, Daily Maverick’s ‘lisquito’-in-chief, is laid to rest",
-      "summary": "‘Estelle’s compassion shone through her writing and made me a more caring person too — her life was too short, but her memory will be a blessing!” Readers remember a journalist whom one calls the Mother Theresa of South Africa. An author, philanthropist, humanitarian and journalist, Estelle lived to comfort the afflicted and afflict the comfortable. Long live Estelle’s spirit, long live.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T00:08:08+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-08-19-in-memoriam-estelle-ellis-daily-maverick-s-lisquito-in-chief-is-laid-to-rest/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-08-19-in-memoriam-estelle-ellis-daily-maverick-s-lisquito-in-chief-is-laid-to-rest/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "4d2303dc11",
       "title": "Au Sénégal, quitter un emploi stable pour la vie d'artiste",
       "summary": "Ils ont décidé de tout plaquer : un emploi stable, un statut social « reconnu », pour se consacrer à leur passion : la culture. Portrait croisé de deux personnes en Côte d’Ivoire, qui ont pris le risque d’abandonner une carrière professionnelle prometteuse pour un emploi encore informel et peu reconnu dans la société. Rencontre avec l’artiste plasticienne Marie Adjoba et le slameur Bee Joe.",
@@ -10429,104 +10762,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "79647d37e7",
-      "title": "Burundi : le budget général face aux défis du terrain",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "BDI",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T13:32:13+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/burundi-le-budget-general-face-aux-defis-du-terrain/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/burundi-le-budget-general-face-aux-defis-du-terrain/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5cc0169f27",
-      "title": "Exclusif : Emmanuel Macron attendu à Cotonou",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "BEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "fr",
-      "published": "2026-08-18T13:20:38+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/exclusif-emmanuel-macron-attendu-a-cotonou/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/exclusif-emmanuel-macron-attendu-a-cotonou/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4efaa928ca",
-      "title": "Guinée équatoriale : l’Etat durcit le contrôle des recettes non pétrolières",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T13:15:49+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/guinee-equatoriale-letat-durcit-le-controle-des-recettes-non-petrolieres/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/guinee-equatoriale-letat-durcit-le-controle-des-recettes-non-petrolieres/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0fa9d1401e",
       "title": "CJID Opens 2026 Awards to Reporters and Editors, Introduces Human Rights Category.",
       "summary": "[CJID] 18 August, 2026 - Abuja, Nigeria",
@@ -10718,38 +10953,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608180446.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e455098984",
-      "title": "High Court Blocks DCI From Arresting Governor Badilisha After Weeks of Attempts",
-      "summary": "[Capital FM] Nairobi -- The High Court has barred the Director of Criminal Investigations (DCI) and other officers from arresting or detaining Nyandarua Governor Kiarie Badilisha, as he faces investigations by the Ethics and Anti-Corruption Commission (EACC) and the DCI.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T11:51:23+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180442.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180442.html"
         }
       ],
       "confirmation_count": 1
@@ -11120,6 +11323,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "a2a7d6a1d1",
+      "title": "NSSF Seeks Court Order to Take Full Possession of Temangalo Land",
+      "summary": "[Independent (Kampala)] Kampala -- The National Social Security Fund (NSSF) has started the process of seeking a High Court order to take full possession of its contested Temangalo land, as Parliament has given the Fund and businessman Amos Nzeyi until next Monday to resolve the long running dispute out of court.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-18T10:26:10+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608180334.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608180334.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a305863f5b",
       "title": "PFF Demands Medical Bail for Besigye",
       "summary": "[Independent (Kampala)] Kampala -- Uncertainty surrounds Dr. Kizza Besigye's expected return to court as the People's Front for Freedom (PFF) demands his immediate release on medical bail, saying his reported health condition could affect his ability to participate in the proceedings. The PFF also wants Justice Emmanuel Baguma, who is presiding over the case against Besigye and his co-accused Obed Lutale, to recuse himself, citing what party leaders described as concerns…",
@@ -11152,10 +11387,10 @@
       "confirmation_count": 1
     },
     {
-      "id": "b95d823b0e",
-      "title": "MTN Ghana : un chiffre d’affaires de 1,36 milliard de dollars au premier semestre 2026",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GHA",
+      "id": "0feedc8724",
+      "title": "Huawei Uganda Targets Young ICT Talent in Kyambogo Recruitment Drive",
+      "summary": "[Independent (Kampala)] Kampala -- Huawei Technologies Uganda Company Limited will on Friday, August 21, 2026, hold a campus recruitment drive at Kyambogo University as part of its efforts to identify and develop young ICT talent and strengthen the link between universities and industry.",
+      "country": "UGA",
       "category": "AUTRE",
       "severity": 1,
       "credibility": 2,
@@ -11165,54 +11400,20 @@
       "regulatory": false,
       "fdi": false,
       "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T10:23:22+00:00",
+      "lang": "en",
+      "published": "2026-08-18T10:24:39+00:00",
       "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
         "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/mtn-ghana-un-chiffre-daffaires-de-136-milliard-de-dollars-au-premier-semestre-2026/"
+        "url": "https://allafrica.com/stories/202608180332.html"
       },
       "confirming_sources": [
         {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
           "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/mtn-ghana-un-chiffre-daffaires-de-136-milliard-de-dollars-au-premier-semestre-2026/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f8faad19bf",
-      "title": "Togo : Faure Gnassingbé refonde le haut commandement militaire avec un vaste remaniement",
-      "summary": "Au Togo, le président du Conseil, Faure Gnassingbé, a procédé à un vaste remaniement au sommet des Forces armées togolaises (FAT) et de plusieurs agences stratégiques de l’État. Ce, à travers une série de huit décrets publiés dans la soirée du lundi 17 aout, lesquels redessinent la chaîne de commandement militaire, du renseignement et de l’aviation civile, dans un contexte sécuritaire toujours tendu au nord du pays.\nUn nouveau patron pour les armées\nAu cœur de ce…",
-      "country": "TGO",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [
-        "AVIATION"
-      ],
-      "lang": "fr",
-      "published": "2026-08-18T10:11:40+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/togo-faure-gnassingbe-refonde-le-haut-commandement-militaire-avec-un-vaste-remaniement/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/togo-faure-gnassingbe-refonde-le-haut-commandement-militaire-avec-un-vaste-remaniement/"
+          "url": "https://allafrica.com/stories/202608180332.html"
         }
       ],
       "confirmation_count": 1
@@ -11407,70 +11608,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608180211.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "45e0774475",
-      "title": "Namagunga Dismisses Anti-Government Allegations As 800 Girls Complete Patriotism Course",
-      "summary": "[Nile Post] Eight hundred students of Mt St Mary's College Namagunga in Mukono District have completed the National Patriotism Course, with school leaders dismissing allegations that the institution is opposed to government education policies.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T08:30:35+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180210.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180210.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "315aa46929",
-      "title": "Nzeyi Refuses to Cede Temangalo Land, Offers Refund",
-      "summary": "[Nile Post] Businessman Amos Nzeyi has refused to hand over the contested Temangalo land to the National Social Security Fund (NSSF), instead offering to refund the money paid for the disputed 55 acres.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-18T08:30:32+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180209.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180209.html"
         }
       ],
       "confirmation_count": 1
@@ -12508,38 +12645,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "9d5f4ea788",
-      "title": "Présidentielle en Zambie : Hakainde Hichilema se rapproche d’une réélection",
-      "summary": "En Zambie, Hakainde Hichilema est en tête de la présidentielle avec près de 59 % des voix après le dépouillement de plus de la moitié des circonscriptions. Le président sortant devance son principal rival Brian Mundubile et se rapproche d’une victoire dès le premier tour.",
-      "country": "ZMB",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-17T12:40:08+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/17/presidentielle-en-zambie-le-president-sortant-hichilema-se-rapproche-dune-reelection/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/17/presidentielle-en-zambie-le-president-sortant-hichilema-se-rapproche-dune-reelection/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0fff4d52f0",
       "title": "Au Mali, un chroniqueur et une influenceuse critiques de la junte condamnés à dix ans de prison",
       "summary": "Deux visages de l'opposition au Mali - le chroniqueur Mohamed Youssouf Bathily et l'influenceuse Rokia Doumbia -  ont été condamnés à Bamako à 10 ans de prison, dont trois avec sursis. Ils avaient été jugés en 2023 pour \"association de malfaiteurs\" et \"atteinte au crédit de l'État\" suite à une émission consacrée aux difficultés économiques de la population.",
@@ -13473,38 +13578,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260815-les-vignes-gagnent-du-terrain-en-ethiopie-gr%C3%A2ce-%C3%A0-un-partenariat-avec-la-france"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "25d47b9a52",
-      "title": "Le président tchadien gracie neuf opposants politiques : quel avenir pour l'opposition ?",
-      "summary": "Succès Masra a été gracié vendredi par le président Mahamat Idriss Déby. L'ancien premier ministre et chef du principal parti d'opposition, les Transformateurs, purgeait depuis plus d'un an une peine de 20 ans de prison ferme accusé d'avoir provoqué des violences intercommunautaires meurtrières. Décryptage avec notre invité Eric Topona, journaliste et fondateur du site Vent d'Afrique.",
-      "country": "TCD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-15T09:11:38+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260815-le-pr%C3%A9sident-tchadien-gracie-neuf-opposants-politiques-quel-avenir-pour-l-opposition"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260815-le-pr%C3%A9sident-tchadien-gracie-neuf-opposants-politiques-quel-avenir-pour-l-opposition"
         }
       ],
       "confirmation_count": 1
@@ -16986,38 +17059,6 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607300211.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4a4896dd5f",
-      "title": "The athlete from Cameroon who has never held her Olympic medal",
-      "summary": "The story of Cameroon Olympic medallist Madias Ngake's remarkable journey from sleeping rough and seeking asylum to winning silver for England at Glasgow 2026.",
-      "country": "CMR",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-07-29T19:38:24+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/sport/weightlifting/articles/cn8nxg5rvvko?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/sport/weightlifting/articles/cn8nxg5rvvko?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
