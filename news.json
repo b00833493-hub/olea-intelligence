@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-19T13:07:44.444485+00:00",
+  "generated_at": "2026-08-19T13:57:27.645572+00:00",
   "stats": {
-    "total_signals": 537,
-    "verified_signals": 16,
+    "total_signals": 535,
+    "verified_signals": 15,
     "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
-      "KEN": 56,
-      "CAF": 4,
-      "COG": 6,
-      "CMR": 17,
-      "MOZ": 41,
       "COD": 21,
-      "NGA": 54,
-      "ZAF": 50,
+      "KEN": 57,
+      "CAF": 5,
+      "COG": 6,
+      "CMR": 18,
+      "MOZ": 41,
+      "NGA": 55,
+      "ZAF": 51,
       "TZA": 31,
-      "CIV": 21,
-      "ZWE": 4,
-      "ZMB": 14,
+      "CIV": 20,
+      "ZWE": 3,
+      "ZMB": 13,
       "DZA": 3,
       "NER": 1,
-      "AGO": 30,
+      "AGO": 29,
       "MAR": 36,
-      "SEN": 39,
+      "SEN": 40,
       "ETH": 11,
       "MLI": 20,
       "UGA": 34,
       "LBR": 5,
-      "GHA": 12,
+      "GHA": 11,
       "MDG": 1,
       "TCD": 6,
       "RWA": 3,
-      "GAB": 4,
-      "GIN": 3,
+      "GAB": 3,
+      "GIN": 2,
       "BEN": 2,
       "BDI": 3,
-      "TGO": 2,
+      "TGO": 1,
       "MWI": 3
     }
   },
@@ -234,6 +234,46 @@
     }
   ],
   "signals": [
+    {
+      "id": "04b1b3d8c9",
+      "title": "En RDC, l'épidémie d'Ebola est loin d'être \"maîtrisée\"",
+      "summary": "En République démocratique du Congo, l’épidémie d’Ebola n’est toujours pas maîtrisée. Plus de 5 000 cas et 2 325 morts ont été recensés en trois mois. Six provinces sont touchées et l’OMS redoute une propagation internationale, sur fond de défiance d'une partie de la population envers la riposte.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "fr",
+      "published": "2026-08-19T13:45:38+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260819-en-rdc-l-%C3%A9pid%C3%A9mie-d-ebola-est-loin-d-%C3%AAtre-ma%C3%AEtris%C3%A9e"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260819-en-rdc-l-%C3%A9pid%C3%A9mie-d-ebola-est-loin-d-%C3%AAtre-ma%C3%AEtris%C3%A9e"
+        },
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260818-ebola-en-rdc-avec-pr%C3%A8s-de-5000-cas-l-%C3%A9pid%C3%A9mie-est-loin-d-%C3%AAtre-ma%C3%AEtris%C3%A9e-alerte-l-oms"
+        }
+      ],
+      "confirmation_count": 2
+    },
     {
       "id": "84bdbbd760",
       "title": "Six tourists and pilot killed in Kenya helicopter crash",
@@ -531,70 +571,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "dfe915e6dc",
-      "title": "Mozambique: Nine investigations regarding police corruption opened in H1",
-      "summary": "The Central Anti-Corruption Office (GCCC) announced on Tuesday that it had arrested and charged at least nine Mozambican police officers in the first half of the year for alleged involvement in offences of passive corruption, abuse of office and unlawful detention. At a press conference, the GCCC spokesperson, Romualdo Johnam, explained that authorities arrested three…\nSource",
-      "country": "MOZ",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T07:02:52+00:00",
-      "lead_source": {
-        "id": "club-moz",
-        "name": "Club of Mozambique",
-        "tier": 2,
-        "url": "https://clubofmozambique.com/news/mozambique-nine-investigations-regarding-police-corruption-opened-in-h1/"
-      },
-      "confirming_sources": [
-        {
-          "id": "club-moz",
-          "name": "Club of Mozambique",
-          "tier": 2,
-          "url": "https://clubofmozambique.com/news/mozambique-nine-investigations-regarding-police-corruption-opened-in-h1/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2ada780ccf",
-      "title": "Mozambique: SERNIC detains suspect with 28 passports at Ressano border",
-      "summary": "Mozambique’s National Criminal Investigation Service (SERNIC) detained a man on Tuesday at the Ressano Garcia border crossing on suspicion of involvement in corruption, facilitating illegal immigration and criminal association. According to a Miramar report, the suspect was caught in possession of 28 passports of various nationalities, bearing entry and exit stamps without the respective holders…\nSource",
-      "country": "MOZ",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T06:57:13+00:00",
-      "lead_source": {
-        "id": "club-moz",
-        "name": "Club of Mozambique",
-        "tier": 2,
-        "url": "https://clubofmozambique.com/news/mozambique-sernic-detains-suspect-with-28-passports-at-ressano-border/"
-      },
-      "confirming_sources": [
-        {
-          "id": "club-moz",
-          "name": "Club of Mozambique",
-          "tier": 2,
-          "url": "https://clubofmozambique.com/news/mozambique-sernic-detains-suspect-with-28-passports-at-ressano-border/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "127a451c26",
       "title": "Activists Call On Community in Arusha to Speak Out Against Child Abuse",
       "summary": "[Daily News] Arusha -- THE community has been urged to speak out and report cases of child abuse and work together to curb the vice to ensure victims receive the support they deserve.",
@@ -695,46 +671,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "8b54a68e2e",
-      "title": "Ebola en RDC: l’OMS juge l’épidémie «loin d’être maîtrisée», Kinshasa défend sa riposte",
-      "summary": "L’épidémie d’Ebola en République démocratique du Congo (RDC) est « loin d’être maîtrisée », a alerté mardi 18 août 2026 Tedros Adhanom Ghebreyesus, directeur général de l’Organisation mondiale de la santé (OMS). Un constat que nuance le gouvernement congolais, qui assure que sa riposte est « robuste ». Alors que le pays compte désormais plus de 5 000 cas confirmés et plus de 2 300 morts, les autorités préparent également la rentrée scolaire dans les six provinces touchées.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-08-18T22:23:12+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260818-ebola-en-rdc-avec-pr%C3%A8s-de-5000-cas-l-%C3%A9pid%C3%A9mie-est-loin-d-%C3%AAtre-ma%C3%AEtris%C3%A9e-alerte-l-oms"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260818-ebola-en-rdc-avec-pr%C3%A8s-de-5000-cas-l-%C3%A9pid%C3%A9mie-est-loin-d-%C3%AAtre-ma%C3%AEtris%C3%A9e-alerte-l-oms"
-        },
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260818-ebola-en-rd-congo-l-%C3%A9pid%C3%A9mie-est-loin-d-%C3%AAtre-ma%C3%AEtris%C3%A9e-alerte-l-oms"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "f8ebc3a512",
       "title": "Ruto Gets Glimpse of Kemsa's Digital Transformation At Health Summit",
       "summary": "[Capital FM] Nairobi -- President William Ruto was on Tuesday taken through KEMSA's digital transformation programme during a visit to its exhibition stand at the Kenya Health Summit in Nairobi.",
@@ -794,38 +730,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608180646.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0b38ffcdf3",
-      "title": "Zimbabwe: cette vidéo ne documente pas le naufrage mortel sur le lac Kariba",
-      "summary": "Il s’agit de la pire catastrophe fluviale de l’histoire du Zimbabwe. Mercredi 11 août, au moins 80 personnes ont perdu la vie dans le naufrage d’un ferry sur le lac Kariba. Le bateau assurait la liaison entre les villes de Kariba et Chalala. Une semaine après la catastrophe, une vidéo diffusée sur les réseaux sociaux prétend, à tort, documenter l’accident.",
-      "country": "ZWE",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T15:12:56+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260818-zimbabwe-cette-vid%C3%A9o-ne-documente-pas-le-naufrage-mortel-sur-le-lac-kariba"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260818-zimbabwe-cette-vid%C3%A9o-ne-documente-pas-le-naufrage-mortel-sur-le-lac-kariba"
         }
       ],
       "confirmation_count": 1
@@ -1351,40 +1255,6 @@
         }
       ],
       "confirmation_count": 2
-    },
-    {
-      "id": "b2c489ba1c",
-      "title": "RD Congo : un décès du virus Ebola toutes les 30 minutes, une sixième province touchée",
-      "summary": "L'épidémie d'Ebola en République démocratique du Congo – qui vient de s'étendre à une sixième province – fait un mort toutes les 30 minutes, a alerté vendredi Tom Fletcher, le chef des affaires humanitaires de l'ONU, appelant la communauté internationale à \"se réveiller et se mobiliser\".",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-08-15T05:56:54+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260815-virus-ebola-en-rd-congo-un-d%C3%A9c%C3%A8s-toutes-les-30-minutes-l-%C3%A9pid%C3%A9mie-s-%C3%A9tend-%C3%A0-une-6e-province"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260815-virus-ebola-en-rd-congo-un-d%C3%A9c%C3%A8s-toutes-les-30-minutes-l-%C3%A9pid%C3%A9mie-s-%C3%A9tend-%C3%A0-une-6e-province"
-        }
-      ],
-      "confirmation_count": 1
     },
     {
       "id": "e5592b6f75",
@@ -2340,10 +2210,10 @@
           "url": "https://www.france24.com/fr/afrique/20260818-president-sortant-hakainde-hichilema-reelu-tete-zambie-avec-60-des-voix-afrique-elections"
         },
         {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260818-zambie-le-pr%C3%A9sident-sortant-hichilema-r%C3%A9%C3%A9lu-avec-60-des-voix-selon-la-commission-%C3%A9lectorale"
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1835715/politique/zambie-hakainde-hichilema-reelu-president-avec-60-des-voix-malgre-des-tensions-inedites/"
         }
       ],
       "confirmation_count": 2
@@ -2686,6 +2556,75 @@
       "confirmation_count": 1
     },
     {
+      "id": "f3af647169",
+      "title": "Mozambique: Beira granted ‘tolerância de ponto’ as city turns 119",
+      "summary": "Workers in the city of Beira have been granted “tolerância de ponto” on Thursday, 20 August, to mark the 119th anniversary of the city’s elevation to city status. The decision was announced by the Minister of Labour, Gender and Social Action, Ivete Alane. The day off applies to workers in both the public and private…\nSource",
+      "country": "MOZ",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-08-19T13:39:58+00:00",
+      "lead_source": {
+        "id": "club-moz",
+        "name": "Club of Mozambique",
+        "tier": 2,
+        "url": "https://clubofmozambique.com/news/mozambique-beira-granted-tolerancia-de-ponto-as-city-turns-119/"
+      },
+      "confirming_sources": [
+        {
+          "id": "club-moz",
+          "name": "Club of Mozambique",
+          "tier": 2,
+          "url": "https://clubofmozambique.com/news/mozambique-beira-granted-tolerancia-de-ponto-as-city-turns-119/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "88fdffdd78",
+      "title": "Mozambique launches Topuito Industrial Park to link SMEs with Kenmare supply chain",
+      "summary": "The Mozambican Government on Wednesday launched construction of the Topuito Industrial Park in Larde district, Nampula province, a 600 million metical infrastructure project designed to bring small and medium-sized enterprises (SMEs) closer to opportunities to supply goods and services generated by Kenmare, the company mining heavy mineral sands in the region. The laying of the…\nSource",
+      "country": "MOZ",
+      "category": "INFRASTRUCTURE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT",
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-08-19T13:14:38+00:00",
+      "lead_source": {
+        "id": "club-moz",
+        "name": "Club of Mozambique",
+        "tier": 2,
+        "url": "https://clubofmozambique.com/news/mozambique-launches-topuito-industrial-park-to-link-smes-with-kenmare-supply-chain/"
+      },
+      "confirming_sources": [
+        {
+          "id": "club-moz",
+          "name": "Club of Mozambique",
+          "tier": 2,
+          "url": "https://clubofmozambique.com/news/mozambique-launches-topuito-industrial-park-to-link-smes-with-kenmare-supply-chain/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "c8ba21ded0",
       "title": "Mozambique: Nine senior LAM officials to face trial for alleged mismanagement — AIM report",
       "summary": "The Central Office for the Fight against Corruption (GCCC) has announced that nine senior officials of the publicly-owned company Air Mozambique (formerly known as Mozambique Airlines, LAM) will face court proceedings over alleged mismanagement. Over the last 10 years, LAM, which used to operate with just two airplanes, has been shaken by a financial crisis…\nSource",
@@ -2715,6 +2654,70 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-nine-senior-lam-officials-to-face-trial-for-alleged-mismanagement-aim-report/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "91de1aa1e2",
+      "title": "Nigeria : la campagne présidentielle débute face à une opposition divisée",
+      "summary": "Au Nigeria, la campagne pour l’élection présidentielle du 16 janvier est officiellement lancée. Le président Bola Tinubu brigue un second mandat face à 18 candidats d’opposition, dans un pays confronté à une grave crise économique et sécuritaire.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T12:53:00+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/19/nigeria-la-campagne-presidentielle-debute-face-a-une-opposition-divisee/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/19/nigeria-la-campagne-presidentielle-debute-face-a-une-opposition-divisee/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8876189bea",
+      "title": "Nigeria election 2027: Can Tinubu win a second term as cost of living bites?",
+      "summary": "Campaigning kicks off in Nigeria Wednesday, five months ahead of elections set to be dominated by crushing inflation and President Bola Tinubu's economic reforms.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T12:23:19+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/19/nigeria-election-2027-can-tinubu-win-a-second-term-as-cost-of-living-bites/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/19/nigeria-election-2027-can-tinubu-win-a-second-term-as-cost-of-living-bites/"
         }
       ],
       "confirmation_count": 1
@@ -2898,44 +2901,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "3fa8fe9859",
-      "title": "Tanzania, DR Congo strengthen ties on trade",
-      "summary": "The two countries intend to diversify their trade beyond mining products.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T10:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/tanzania-dr-congo-strengthen-ties-on-trade-5563216"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/tanzania-dr-congo-strengthen-ties-on-trade-5563216"
-        },
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608190121.html"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "14d9c48e63",
       "title": "Nigeria to South Africa - Deliberate Targeting of Africans Must Stop",
       "summary": "[This Day] The Federal Government of Nigeria has sent a clear and unambiguous message that the government of South Africa should stop the deliberate targeting of Africans, including Nigerians, on the basis of their nationality and colour of their skin.",
@@ -3033,38 +2998,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608190186.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8876189bea",
-      "title": "Nigeria election 2027: Can Tinubu win a second term as cost of living bites?",
-      "summary": "Campaigning kicks off in Nigeria Wednesday, five months ahead of elections set to be dominated by crushing inflation and President Bola Tinubu's economic reforms.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T08:41:12+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/19/nigeria-election-2027-can-tinubu-win-a-second-term-as-cost-of-living-bites/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/19/nigeria-election-2027-can-tinubu-win-a-second-term-as-cost-of-living-bites/"
         }
       ],
       "confirmation_count": 1
@@ -3559,38 +3492,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/18/ethiopia-authorities-in-tigray-accuse-addis-ababa-of-drone-strike-near-mekelle/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3b925e1a1a",
-      "title": "Dividendes 2025 : La société Servair Abidjan revoie à la hausse le dividende global à verser à ses actionnaires",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T10:46:38+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/dividendes-2025-la-societe-servair-abidjan-revoie-a-la-hausse-le-dividende-global-a-verser-a-ses-actionnaires/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/dividendes-2025-la-societe-servair-abidjan-revoie-a-la-hausse-le-dividende-global-a-verser-a-ses-actionnaires/"
         }
       ],
       "confirmation_count": 1
@@ -4646,6 +4547,136 @@
       "confirmation_count": 1
     },
     {
+      "id": "24681f8e05",
+      "title": "Est de la RDC: regain de tension entre l'armée congolaise et l’AFC/M23 au Nord et Sud-Kivu",
+      "summary": "Dans l’est de la République démocratique du Congo (RDC), les fronts se réactivent depuis quelques jours au Nord-Kivu et au Sud-Kivu. Des combats opposent l'armée congolaise (FARDC) et ses alliés à l’AFC/M23, mouvement politico-armé appuyé par le Rwanda. Les affrontements sont signalés notamment dans les territoires de Kalehe et Fizi.",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-19T13:50:37+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260819-est-de-la-rdc-regain-de-tension-entre-l-arm%C3%A9e-congolaise-et-l-afc-m23-au-nord-et-sud-kivu"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260819-est-de-la-rdc-regain-de-tension-entre-l-arm%C3%A9e-congolaise-et-l-afc-m23-au-nord-et-sud-kivu"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7942424ea2",
+      "title": "Au Cameroun, les jeunes footballeuses inspirées par le sacre des Lionnes indomptables à la CAN féminine",
+      "summary": "Au Cameroun, le titre de championne d’Afrique des Lionnes indomptables remporté dimanche 16 août 2026 face au Malawi inspire de nombreuses jeunes footballeuses au niveau local. Avec la victoire des Lionnes, elles sont de plus en plus déterminées sur les terrains poussiéreux au cours des tournois de quartiers. Malgré les réticences des parents, ces jeunes filles croient dur comme fer qu’elles pourront aussi faire carrière comme leurs aînées.",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T13:38:08+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260819-au-cameroun-les-jeunes-footballeuses-inspir%C3%A9es-par-le-sacre-des-lionnes-indomptables-%C3%A0-la-can-f%C3%A9minine"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260819-au-cameroun-les-jeunes-footballeuses-inspir%C3%A9es-par-le-sacre-des-lionnes-indomptables-%C3%A0-la-can-f%C3%A9minine"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e6293d45bb",
+      "title": "Sénégal: le parti présidentiel défend le report de la promulgation de deux textes voulus par le Pastef",
+      "summary": "Au Sénégal, le chef de l’État n’a pas l’intention de promulguer tout de suite les deux textes portés en ce moment par le Pastef à l’Assemblée nationale. Cette tournure juridique confirme le bras de fer engagé entre le camp de Bassirou Diomaye Faye et celui d’Ousmane Sonko, à travers deux propositions de loi. La première, déjà adoptée ce lundi par les députés, concerne la déclaration de patrimoine du président en fin de mandat. La seconde, encore en attente d’examen, vise…",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "PROMULGUE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T13:12:38+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260819-s%C3%A9n%C3%A9gal-la-pr%C3%A9sidence-d%C3%A9fend-le-report-de-la-promulgation-de-deux-textes-voulus-par-le-pastef"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260819-s%C3%A9n%C3%A9gal-la-pr%C3%A9sidence-d%C3%A9fend-le-report-de-la-promulgation-de-deux-textes-voulus-par-le-pastef"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2a6658837d",
+      "title": "Centrafrique: les travailleurs humanitaires exposés à de nombreux incidents",
+      "summary": "En Centrafrique, la crise humanitaire reste préoccupante malgré quelques améliorations enregistrées dans certaines préfectures. À l’occasion de la Journée mondiale de l’aide humanitaire, célébrée ce 19 août, l'Ocha  tire la sonnette d’alarme sur la situation de milliers de personnes vulnérables. Sur le terrain, les travailleurs humanitaires sont eux aussi exposés à des incidents, alors que le manque de financement réduit les moyens disponibles pour venir en aide aux…",
+      "country": "CAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T13:07:32+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260819-centrafrique-les-travailleurs-humanitaires-expos%C3%A9s-%C3%A0-de-nombreux-incidents"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260819-centrafrique-les-travailleurs-humanitaires-expos%C3%A9s-%C3%A0-de-nombreux-incidents"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "460dedcd8a",
       "title": "Mozambique: Mondlane accuses Frelimo of using FDS to intimidate opposition parties  — AIM report",
       "summary": "Venâncio Mondlane, former presidential candidate and leader of the National Alliance for a Free and Autonomous Mozambique (Anamola), accuses the ruling Frelimo party of using the country’s Defence and Security Forces (FDS) to intimidate opposition political parties. Mondlane was speaking in a live broadcast on his official Facebook page, addressing the disturbances that took place…\nSource",
@@ -4713,6 +4744,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "682b92c904",
+      "title": "Absa Kenya relève son dividende malgré le recul du bénéfice",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T12:39:24+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/19/absa-kenya-releve-son-dividende-malgre-le-recul-du-benefice/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/19/absa-kenya-releve-son-dividende-malgre-le-recul-du-benefice/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "52ae69d98f",
+      "title": "Liberia agrees to accept up to 1,200 US deportees under Trump migration deal",
+      "summary": "Liberia has agreed to accept hundreds of people deported from the United States, in one of the largest such arrangements under the Trump administration’s migration policy. The deportees will arrive over a year, with the first group of 20 expected Thursday.",
+      "country": "LBR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T12:32:13+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/19/liberia-agrees-to-accept-up-to-1200-us-deportees-under-trump-migration-deal/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/19/liberia-agrees-to-accept-up-to-1200-us-deportees-under-trump-migration-deal/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "4347efbcc1",
       "title": "Tony Elumelu, le tycoon qui rêve de faire de Seplat Energy un UBA du pétrole",
       "summary": "Élu président de Seplat Energy en juin 2025, Tony Elumelu ambitionne de bâtir un champion pétrolier nigérian à l’image de ce qu’il a réalisé avec UBA dans la banque. Un pari autrement plus contraint.",
@@ -4774,6 +4869,38 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608190483.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c054e94201",
+      "title": "Afrique du Sud: l’inflation ralentit à 4,3% en juillet",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-19T12:26:03+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/19/afrique-du-sud-linflation-ralentit-a-43-en-juillet/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/19/afrique-du-sud-linflation-ralentit-a-43-en-juillet/"
         }
       ],
       "confirmation_count": 1
@@ -6982,38 +7109,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "52ae69d98f",
-      "title": "Liberia agrees to accept up to 1,200 US deportees under Trump migration deal",
-      "summary": "Liberia has agreed to accept hundreds of people deported from the United States, in one of the largest such arrangements under the Trump administration’s migration policy. The deportees will arrive over a year, with the first group of 20 expected Thursday.",
-      "country": "LBR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T07:39:12+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/19/liberia-agrees-to-accept-up-to-1200-us-deportees-under-trump-migration-deal/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/19/liberia-agrees-to-accept-up-to-1200-us-deportees-under-trump-migration-deal/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "c8468d54e3",
       "title": "Govt Moves to Unlock Financing for 200,000-Acre Galana/Athi Dam Project",
       "summary": "[Capital FM] Nairobi -- The government has stepped up efforts to unlock financing and clear remaining hurdles standing in the way of the Galana/Athi Dam Project, a major irrigation scheme expected to transform agricultural production across about 200,000 acres.",
@@ -7761,6 +7856,38 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608190120.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6a85a436fa",
+      "title": "Tanzania, DR Congo Deepen Trade, Mining Ties",
+      "summary": "[Daily News] Zanzibar -- Tanzania and the Democratic Republic of Congo (DRC) have agreed to deepen cooperation in mining, trade, investment, infrastructure, peace and security as the two countries seek to strengthen their strategic partnership.",
+      "country": "TZA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T05:28:20+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608190121.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608190121.html"
         }
       ],
       "confirmation_count": 1
@@ -9286,38 +9413,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2796896dfb",
-      "title": "Du Gabon jusqu'à la Tanzanie, la diplomatie congolaise à la manœuvre",
-      "summary": "Le président congolais, Félix Tshisekedi, échange ce mardi 18 août 2026 à Zanzibar avec Samia Suluhu Hassan pour consolider la coopération sécuritaire et économique entre Kinshasa et Dodoma. Une séquence diplomatique entamée quelques jours plus tôt au Gabon. À Libreville, la visite du président congolais a permis de clarifier les attentes des deux pays et de sceller de nouveaux engagements bilatéraux.",
-      "country": "GAB",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T13:40:26+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260818-du-gabon-jusqu-%C3%A0-la-tanzanie-la-diplomatie-congolaise-%C3%A0-la-man%C5%93uvre"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260818-du-gabon-jusqu-%C3%A0-la-tanzanie-la-diplomatie-congolaise-%C3%A0-la-man%C5%93uvre"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "79647d37e7",
       "title": "Burundi : le budget général face aux défis du terrain",
       "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
@@ -9379,38 +9474,6 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/08/18/exclusif-emmanuel-macron-attendu-a-cotonou/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4efaa928ca",
-      "title": "Guinée équatoriale : l’Etat durcit le contrôle des recettes non pétrolières",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T13:15:49+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/guinee-equatoriale-letat-durcit-le-controle-des-recettes-non-petrolieres/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/guinee-equatoriale-letat-durcit-le-controle-des-recettes-non-petrolieres/"
         }
       ],
       "confirmation_count": 1
@@ -10066,104 +10129,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608180332.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b95d823b0e",
-      "title": "MTN Ghana : un chiffre d’affaires de 1,36 milliard de dollars au premier semestre 2026",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GHA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T10:23:22+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/mtn-ghana-un-chiffre-daffaires-de-136-milliard-de-dollars-au-premier-semestre-2026/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/mtn-ghana-un-chiffre-daffaires-de-136-milliard-de-dollars-au-premier-semestre-2026/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "78bf464e2a",
-      "title": "Zambie : Hakainde Hichilema réélu président avec 60 % des voix malgré des tensions inédites",
-      "summary": "Le président sortant a été réélu pour un deuxième mandat à la tête de la Zambie dans une confusion politique inhabituelle. Plusieurs opposants ont été arrêtés.",
-      "country": "ZMB",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T10:12:43+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1835715/politique/zambie-hakainde-hichilema-reelu-president-avec-60-des-voix-malgre-des-tensions-inedites/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1835715/politique/zambie-hakainde-hichilema-reelu-president-avec-60-des-voix-malgre-des-tensions-inedites/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f8faad19bf",
-      "title": "Togo : Faure Gnassingbé refonde le haut commandement militaire avec un vaste remaniement",
-      "summary": "Au Togo, le président du Conseil, Faure Gnassingbé, a procédé à un vaste remaniement au sommet des Forces armées togolaises (FAT) et de plusieurs agences stratégiques de l’État. Ce, à travers une série de huit décrets publiés dans la soirée du lundi 17 aout, lesquels redessinent la chaîne de commandement militaire, du renseignement et de l’aviation civile, dans un contexte sécuritaire toujours tendu au nord du pays.\nUn nouveau patron pour les armées\nAu cœur de ce…",
-      "country": "TGO",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [
-        "AVIATION"
-      ],
-      "lang": "fr",
-      "published": "2026-08-18T10:11:40+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/togo-faure-gnassingbe-refonde-le-haut-commandement-militaire-avec-un-vaste-remaniement/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/togo-faure-gnassingbe-refonde-le-haut-commandement-militaire-avec-un-vaste-remaniement/"
         }
       ],
       "confirmation_count": 1
@@ -11326,38 +11291,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/17/the-nigerian-fishing-community-being-eaten-up-by-the-atlantic/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d53149552f",
-      "title": "COP17: \"A degradação dos solos não é um fenómeno natural, explica-se pela acção humana\"",
-      "summary": "\"Restaurar a terra. restaurar a Esperança\": é o lema da COP17 - a conferência das Nações Unidas de combate à desertificação. De 17 a 28 de Agosto, reúnem-se em Ulan Bator, na Mongólia, líderes governamentais, empresariais e da sociedade civil, cientistas, representantes dos povos indígenas, pastores e pequenos agricultores. Em debate: a desertificação, a degradação dos solos e a seca. Quais são os grandes desafios, nomeadamente em Angola, de onde nos fala o ambientalista…",
-      "country": "AGO",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "pt",
-      "published": "2026-08-17T14:56:13+00:00",
-      "lead_source": {
-        "id": "rfi-pt",
-        "name": "RFI Português",
-        "tier": 1,
-        "url": "https://www.rfi.fr/pt/programas/convidado/20260817-cop17-a-degrada%C3%A7%C3%A3o-dos-solos-n%C3%A3o-%C3%A9-um-fen%C3%B3meno-natural-explica-se-pela-ac%C3%A7%C3%A3o-humana"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-pt",
-          "name": "RFI Português",
-          "tier": 1,
-          "url": "https://www.rfi.fr/pt/programas/convidado/20260817-cop17-a-degrada%C3%A7%C3%A3o-dos-solos-n%C3%A3o-%C3%A9-um-fen%C3%B3meno-natural-explica-se-pela-ac%C3%A7%C3%A3o-humana"
         }
       ],
       "confirmation_count": 1
