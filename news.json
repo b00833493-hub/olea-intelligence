@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-18T23:35:27.519915+00:00",
+  "generated_at": "2026-08-19T01:52:21.717265+00:00",
   "stats": {
-    "total_signals": 546,
-    "verified_signals": 15,
-    "countries_covered": 33,
+    "total_signals": 540,
+    "verified_signals": 16,
+    "countries_covered": 32,
     "sources_active": 32,
     "per_country": {
       "COD": 19,
-      "ZWE": 6,
       "KEN": 54,
-      "NGA": 54,
+      "NGA": 51,
+      "ZWE": 5,
       "MOZ": 40,
       "TZA": 31,
       "ZMB": 19,
@@ -25,7 +25,6 @@
       "MLI": 23,
       "CIV": 21,
       "TCD": 10,
-      "MDG": 1,
       "COG": 3,
       "RWA": 3,
       "LBR": 1,
@@ -35,7 +34,7 @@
       "BDI": 1,
       "BEN": 1,
       "GIN": 5,
-      "TUN": 2,
+      "TUN": 1,
       "TGO": 2,
       "MWI": 3,
       "BFA": 2
@@ -237,6 +236,46 @@
   ],
   "signals": [
     {
+      "id": "ae0bc785ad",
+      "title": "How Ebola became the deadliest outbreak in DR Congo’s history",
+      "summary": "Conflict, delayed detection, and mistrust are complicating efforts to contain the virus in eastern DR Congo.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-08-19T00:53:34+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/8/19/how-ebola-became-the-deadliest-outbreak-in-dr-congos-history?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/8/19/how-ebola-became-the-deadliest-outbreak-in-dr-congos-history?traffic_source=rss"
+        },
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cvgll74vvydo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
       "id": "3d6ef18c80",
       "title": "Ebola en RDC: avec près de 5000 cas, l’épidémie est «loin d’être maîtrisée», alerte l’OMS",
       "summary": "L’épidémie d’Ebola en République démocratique du Congo (RDC) est « loin d’être maîtrisée », a alerté mardi 18 août 2026 Tedros Adhanom Ghebreyesus, directeur général de l’Organisation mondiale de la santé (OMS), lors de la deuxième réunion du Comité d’urgence convoqué depuis la déclaration de l’épidémie en mai dernier. Au cœur de son allocution : la vitesse de propagation du virus et la nécessité d’améliorer la riposte.",
@@ -306,40 +345,6 @@
           "name": "Al Jazeera",
           "tier": 1,
           "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8772dce893",
-      "title": "Zimbabwe : le dernier bilan du naufrage sur le lac Kariba s’élève à 94 morts",
-      "summary": "Le bilan du naufrage d’un ferry sur le lac Kariba, au Zimbabwe, s’élève désormais à 94 morts. L’accident, survenu la semaine dernière, est considéré comme la catastrophe de transport la plus meurtrière de l’histoire du pays.",
-      "country": "ZWE",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "MARINE_TRANSPORT"
-      ],
-      "lang": "fr",
-      "published": "2026-08-18T20:30:09+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/18/zimbabwe-93-morts-dans-le-naufrage-dun-ferry-sur-le-lac-kariba/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/18/zimbabwe-93-morts-dans-le-naufrage-dun-ferry-sur-le-lac-kariba/"
         }
       ],
       "confirmation_count": 1
@@ -819,46 +824,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "4240700c30",
-      "title": "Zimbabwe: le bilan du naufrage d’un ferry sur le lac Kariba grimpe à au moins 80 morts, une enquête ouverte",
-      "summary": "Le Zimbabwe est en deuil après le naufrage, mardi 11 août, d'un ferry sur le lac Kariba. Avec un bilan qui s'élève désormais à au moins 80 morts, il s'agit de la pire catastrophe fluviale de l'histoire du pays. Alors que 77 passagers ont pu être sauvés, les autorités zimbabwéennes ont annoncé, dimanche 16 août, l'ouverture d'une enquête. Exploité par une agence étatique, le navire impliqué reliait la ville de Kariba à celle de Chalala. Les premiers éléments de l'enquête…",
-      "country": "ZWE",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "MARINE_TRANSPORT"
-      ],
-      "lang": "fr",
-      "published": "2026-08-17T18:48:07+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260817-zimbabwe-le-bilan-du-naufrage-d-un-ferry-sur-le-lac-kariba-grimpe-%C3%A0-au-moins-80-morts-une-enqu%C3%AAte-ouverte"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260817-zimbabwe-le-bilan-du-naufrage-d-un-ferry-sur-le-lac-kariba-grimpe-%C3%A0-au-moins-80-morts-une-enqu%C3%AAte-ouverte"
-        },
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260816-zimbabwe-bilan-monte-80-morts-dans-naufrage-ferry-sur-le-lac-kariba-victimes"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "3483b35d05",
       "title": "Ebola DRC: The Deadliest Outbreak in the Country's History [Africanews Today]",
       "summary": "The Ebola outbreak currently ravaging the Democratic Republic of the Congo has officially become the deadliest in the country's history. According to the United Nations, the virus is now killing one person every 30 minutes in the Democratic Republic of the Congo.",
@@ -1191,40 +1156,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "64b7c6f1aa",
-      "title": "Ebola outbreak in DR Congo becomes deadliest in its history",
-      "summary": "The outbreak was already the fastest growing on record, caused by a rare species of Ebola called Bundibugyo.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-17T04:41:31+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/cvgll74vvydo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cvgll74vvydo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "81cb349538",
       "title": "One Dead, Several Injured in Multiple Crashes On Kampala-Entebbe Expressway",
       "summary": "[Nile Post] At least one person has died and several others have been injured in multiple crashes along the Kampala-Entebbe Expressway, prompting an emergency response on the Kajjansi-Busega section.",
@@ -1289,6 +1220,46 @@
         }
       ],
       "confirmation_count": 1
+    },
+    {
+      "id": "8f18af4cbc",
+      "title": "Au Zimbabwe, le bilan monte à 84 morts dans le naufrage d'un ferry sur le lac Kariba",
+      "summary": "Un ferry surchargé qui avait chaviré en début de semaine sur le lac Kariba, au Zimbabwe, a entraîné la mort de 84 personnes, selon un bilan revu à la hausse dimanche, a déclaré la police. Selon les autorités, le ferry était autorisé à transporter 90 personnes mais comptait à son bord plus d'une centaine de passagers.",
+      "country": "ZWE",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "fr",
+      "published": "2026-08-16T14:36:02+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/afrique/20260816-zimbabwe-bilan-monte-80-morts-dans-naufrage-ferry-sur-le-lac-kariba-victimes"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20260816-zimbabwe-bilan-monte-80-morts-dans-naufrage-ferry-sur-le-lac-kariba-victimes"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/18/zimbabwe-93-morts-dans-le-naufrage-dun-ferry-sur-le-lac-kariba/"
+        }
+      ],
+      "confirmation_count": 2
     },
     {
       "id": "b2c489ba1c",
@@ -1829,6 +1800,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "aec00bf2c6",
+      "title": "RDC: déjà à court d’ambulances, la riposte contre l'épidémie d'Ebola fragilisée par les violences",
+      "summary": "En République démocratique du Congo (RDC), les Nations unies s’inquiètent des violences qui touchent les équipes engagées dans la riposte contre Ebola. Une difficulté supplémentaire pour une réponse sanitaire déjà confrontée à plusieurs obstacles sur le terrain. Dans certaines zones touchées par l’épidémie, l’insécurité, les agressions et les résistances communautaires perturbent les interventions, alors que certains moyens essentiels à la prise en charge restent…",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "fr",
+      "published": "2026-08-19T01:08:39+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260819-rdc-d%C3%A9j%C3%A0-%C3%A0-court-d-ambulances-la-riposte-contre-l-%C3%A9pid%C3%A9mie-d-ebola-fragilis%C3%A9e-par-les-violences"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260819-rdc-d%C3%A9j%C3%A0-%C3%A0-court-d-ambulances-la-riposte-contre-l-%C3%A9pid%C3%A9mie-d-ebola-fragilis%C3%A9e-par-les-violences"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "950c40ba01",
       "title": "WHO: Ebola can be contained in months if enough funding is provided",
       "summary": "The World Health Organization says the Ebola outbreak in DR Congo can be brought under control in three months.",
@@ -1858,40 +1863,6 @@
           "name": "Al Jazeera",
           "tier": 1,
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/who-ebola-can-be-contained-in-months-if-enough-funding-is-provided?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f96d4144ba",
-      "title": "Nigeria hospital collapses after rain washed away its foundations",
-      "summary": "A hospital in Nigeria has collapsed after rainwater triggered a landslide, washing away the foundational infrastructure.",
-      "country": "NGA",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-18T17:55:26+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/nigeria-hospital-collapses-after-rain-washed-away-its-foundations?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/nigeria-hospital-collapses-after-rain-washed-away-its-foundations?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -2241,42 +2212,6 @@
         }
       ],
       "confirmation_count": 2
-    },
-    {
-      "id": "7852995a7f",
-      "title": "RDC: avant même d’avoir atteint son pic, l’épidémie d’Ebola est la plus importante jamais enregistrée dans le pays",
-      "summary": "Avec 2 325 décès confirmés au 15 août, la 17e épidémie d’Ebola que connaît la République démocratique du Congo (RDC) vient de franchir un seuil historique. Elle dépasse désormais le bilan de la flambée de 2018-2020, jusqu’ici la plus meurtrière jamais enregistrée dans le pays. Et contrairement à cette dernière, son bilan n’est pas définitif, car la transmission reste active.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AUTO",
-        "HEALTH",
-        "CONSTRUCTION"
-      ],
-      "lang": "fr",
-      "published": "2026-08-17T18:10:30+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260817-rdc-avant-m%C3%AAme-d-avoir-atteint-son-pic-l-%C3%A9pid%C3%A9mie-d-ebola-est-la-plus-importante-jamais-enregistr%C3%A9e-dans-le-pays"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260817-rdc-avant-m%C3%AAme-d-avoir-atteint-son-pic-l-%C3%A9pid%C3%A9mie-d-ebola-est-la-plus-importante-jamais-enregistr%C3%A9e-dans-le-pays"
-        }
-      ],
-      "confirmation_count": 1
     },
     {
       "id": "75e87b5157",
@@ -3559,38 +3494,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3830e0d710",
-      "title": "Madagascar: le pouvoir annonce de prochaines élections en juillet 2027 sur le cadre constitutionnel",
-      "summary": "À Madagascar, le pouvoir en place vient d'annoncer une date pour les prochaines élections : juillet 2027, portant sur le futur cadre constitutionnel. Une annonce saluée par tous comme une avancée, mais aussitôt critiquée par la Gen Z, qui dénonce un calendrier flou.",
-      "country": "MDG",
-      "category": "POLITIQUE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-17T23:39:27+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260817-madagascar-le-pouvoir-annonce-de-prochaines-%C3%A9lections-en-juillet-2027-sur-le-cadre-constitutionnel"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260817-madagascar-le-pouvoir-annonce-de-prochaines-%C3%A9lections-en-juillet-2027-sur-le-cadre-constitutionnel"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "c373ff19c2",
       "title": "Éthiopie: les rebelles Fano annoncent une alliance avec le Front de libération du peuple du Tigré",
       "summary": "En Éthiopie, de nombreuses milices armées réparties dans tout le pays et opposées au pouvoir central d’Abiy Ahmed s’unissent pour renverser le Premier ministre. C’est ce qu’a affirmé Zemene Kassie, chef du groupe Fano, qui rassemble des combattants amharas, l’une des ethnies majoritaires du pays, dans une interview accordée, samedi 15 août, au média suisse Le Temps. Inédite, l'annonce est jugée crédible par l’analyste politique américain Yohannes Woldemariam, spécialiste…",
@@ -4662,6 +4565,40 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607200408.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "964fa1a973",
+      "title": "United Nigeria Airlines Pledges 10-Year Sponsorship of 'Chinua Achebe Prize for Fiction'",
+      "summary": "[This Day] The United Nigeria Airlines has pledged to sponsor the prestigious annual \"Chinua Achebe Prize for Fiction,\" for 10 years.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "en",
+      "published": "2026-08-19T00:53:15+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608190001.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608190001.html"
         }
       ],
       "confirmation_count": 1
@@ -6628,40 +6565,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608180406.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8d5a3dcfd5",
-      "title": "Sterling Oil, Vcdf, Partners Nigerian Army to Empower 101 Women in Delta State",
-      "summary": "[Vanguard] In support of the Wives of fallen officers and lower ranking officers of The Nigerian Army who often need practical skills, business support and access to more income opportunities especially when their husbands are away on duty, Vcare for Development Foundation (VCDF) with support from Sterling Oil Exploration and Energy Production Company Limited (SEEPCO), partnered with The Nigerian Army Officers' Wives Association (NAOWA), 63 brigade Chapter, Delta to…",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-08-18T11:24:41+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608180405.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608180405.html"
         }
       ],
       "confirmation_count": 1
@@ -9743,38 +9646,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "9ec5874935",
-      "title": "Elections partielles au Nigeria: l’opposant Ademola Adeleke a été réélu dans le riche État d’Osun",
-      "summary": "Au Nigeria, la victoire du gouverneur sortant lors des élections partielles organisées samedi 15 août dans le riche État minier d'Osun, dans le sud-ouest du pays, suscite de nombreuses réactions. Après une campagne électorale houleuse et particulièrement tendue, Ademola Adeleke a remporté le scrutin sous la bannière de l'Accord Party, un résultat qui redonne de l'espoir à l'opposition nigériane avant les élections des gouverneurs, en février 2027 - juste après les…",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-17T22:19:16+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260817-elections-partielles-au-nigeria-l-opposant-ademola-adeleke-a-%C3%A9t%C3%A9-r%C3%A9%C3%A9lu-dans-le-riche-%C3%A9tat-d-osun"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260817-elections-partielles-au-nigeria-l-opposant-ademola-adeleke-a-%C3%A9t%C3%A9-r%C3%A9%C3%A9lu-dans-le-riche-%C3%A9tat-d-osun"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "f04cff4919",
       "title": "Le Sénégal adopte une loi sur le patrimoine du chef de l'État et du président du Parlement",
       "summary": "Au Sénégal, la passe d'armes entre l'exécutif de Bassirou Diomaye Faye et le pouvoir législatif d'Ousmane Sonko se poursuit à l'Assemblée nationale, avec une proposition de loi sur l'obligation d'une déclaration de patrimoine. Celle-ci visait dans un premier temps seulement le chef de l'État, avant que le gouvernement ne l'élargisse aux autres présidents d'institutions. La proposition a été finalement adoptée par une large majorité. Les détails d'Elimane Ndao.",
@@ -11970,9 +11841,9 @@
       "confirmation_count": 1
     },
     {
-      "id": "0928501309",
-      "title": "Osun 2026 - End-of-Voting Election Statement",
-      "summary": "[CJID] 15 August, 2026",
+      "id": "d70be87f87",
+      "title": "CJID Preliminary Statement On the 2026 Osun Governorship Election",
+      "summary": "[CJID] The Centre for Journalism Innovation and Development (CJID), through its Election Analysis Centre and observers deployed across Osun State, monitored the August 15, 2026, governorship election from the opening of polls through voting, counting, collation and the declaration of results.",
       "country": "NGA",
       "category": "POLITIQUE",
       "severity": 1,
@@ -11984,51 +11855,19 @@
       "fdi": false,
       "sectors": [],
       "lang": "en",
-      "published": "2026-08-17T04:18:42+00:00",
+      "published": "2026-08-17T04:18:43+00:00",
       "lead_source": {
         "id": "aa-nga",
         "name": "AllAfrica · Nigeria",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202608170070.html"
+        "url": "https://allafrica.com/stories/202608170071.html"
       },
       "confirming_sources": [
         {
           "id": "aa-nga",
           "name": "AllAfrica · Nigeria",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202608170070.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "60c1b3a9d2",
-      "title": "Osun 2026 - CJID Midday Election Assessment",
-      "summary": "[CJID] The 2026 Osun Governorship Election is being held today, 15 August, across 30 Local Government Areas, 332 wards and 3,763 polling units. According to INEC, Osun has 2,339,233 registered voters, of whom 1,906,390, or 81.5 per cent, collected their Permanent Voter Cards.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-17T04:18:41+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608170068.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608170068.html"
+          "url": "https://allafrica.com/stories/202608170071.html"
         }
       ],
       "confirmation_count": 1
@@ -13325,38 +13164,6 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/rwanda-fda-chief-arrested-amid-crackdown-on-illicit-liquors-5558206"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a5f8356587",
-      "title": "Tunisie : les violences faites aux femmes persistent, 70 ans après le Code du statut personnel",
-      "summary": "En Tunisie, le 13 août marque la Journée nationale de la femme. En 1956, le Code du statut personnel transformait profondément les droits des Tunisiennes. 70 ans plus tard, les féminicides et les violences faites aux femmes restent un fléau.",
-      "country": "TUN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-14T18:29:06+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260814-tunisie-les-violences-faites-aux-femmes-persistent-70-ans-apr%C3%A8s-le-code-du-statut-personnel"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260814-tunisie-les-violences-faites-aux-femmes-persistent-70-ans-apr%C3%A8s-le-code-du-statut-personnel"
         }
       ],
       "confirmation_count": 1
