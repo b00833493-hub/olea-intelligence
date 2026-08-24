@@ -1,36 +1,37 @@
 {
-  "generated_at": "2026-08-24T10:52:53.349677+00:00",
+  "generated_at": "2026-08-24T11:43:23.705216+00:00",
   "stats": {
     "total_signals": 515,
     "verified_signals": 13,
-    "countries_covered": 32,
+    "countries_covered": 33,
     "sources_active": 32,
     "per_country": {
+      "GIN": 6,
       "ZMB": 5,
-      "KEN": 59,
-      "COD": 26,
-      "NGA": 47,
+      "KEN": 61,
+      "COD": 25,
+      "NGA": 48,
       "ZAF": 58,
-      "GIN": 9,
       "UGA": 32,
       "AGO": 32,
-      "SEN": 28,
+      "SEN": 30,
       "DZA": 4,
       "MAR": 36,
       "COG": 3,
-      "CMR": 12,
+      "CMR": 14,
       "CAF": 7,
       "TUN": 5,
       "TZA": 37,
       "MOZ": 31,
       "MLI": 23,
       "GHA": 4,
-      "BDI": 5,
+      "BDI": 4,
       "ETH": 10,
       "RWA": 2,
-      "CIV": 19,
-      "BEN": 4,
-      "GAB": 3,
+      "CIV": 17,
+      "NER": 2,
+      "BEN": 3,
+      "GAB": 2,
       "TGO": 5,
       "TCD": 1,
       "MRT": 1,
@@ -236,6 +237,50 @@
   ],
   "signals": [
     {
+      "id": "5eb4aa419e",
+      "title": "Guinée : plusieurs morts dans l’éboulement d’une décharge à Conakry",
+      "summary": "En Guinée, un éboulement d'ordures a fait plusieurs morts et de nombreux blessés dans le quartier Dar es salam à Conakry. Il y a deux jours à peine, des opérations de fermeture de cette décharge avaient été annoncées.",
+      "country": "GIN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 5,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-24T11:32:48+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260824-guin%C3%A9e-plusieurs-morts-dans-l-%C3%A9boulement-d-une-d%C3%A9charge-%C3%A0-conakry"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260824-guin%C3%A9e-plusieurs-morts-dans-l-%C3%A9boulement-d-une-d%C3%A9charge-%C3%A0-conakry"
+        },
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260823-guin%C3%A9e-un-%C3%A9boulement-fait-au-moins-31-morts-dans-une-d%C3%A9charge-%C3%A0-conakry"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/24/guinee-au-moins-30-morts-dans-leffondrement-dune-decharge-a-conakry/"
+        }
+      ],
+      "confirmation_count": 3
+    },
+    {
       "id": "3318c0180d",
       "title": "Zambia courts sealed off as election petition deadline looms",
       "summary": "Preparations for President Hakainde Hichilema's second inauguration appear to be continuing.",
@@ -250,7 +295,7 @@
       "fdi": false,
       "sectors": [],
       "lang": "en",
-      "published": "2026-08-24T10:22:45+00:00",
+      "published": "2026-08-24T11:17:28+00:00",
       "lead_source": {
         "id": "bbc-afr",
         "name": "BBC Africa",
@@ -263,6 +308,72 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/cgrvjn88rxqo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f4a08e8487",
+      "title": "Four arrested over suspected poisoning of elephants in Kenya",
+      "summary": "An investigation is looking into whether the deaths were caused by pesticides sprayed on tomato crops.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "en",
+      "published": "2026-08-24T11:08:27+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/c790w8wxv0do?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c790w8wxv0do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "58978f0d4e",
+      "title": "Four arrested as Elephant deaths in Kenya’s Amboseli ecosystem rise to 18",
+      "summary": "Authorities say the investigation is still ongoing and that the preliminary findings must be scientifically verified. Kenya's government has warned that anyone found to have unlawfully killed or poisoned wildlife will face prosecution.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-24T10:44:26+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/24/four-arrested-as-elephant-deaths-in-kenyas-amboseli-ecosystem-rise-to-18/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/24/four-arrested-as-elephant-deaths-in-kenyas-amboseli-ecosystem-rise-to-18/"
         }
       ],
       "confirmation_count": 1
@@ -784,50 +895,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "eb3070a379",
-      "title": "Guinée: un éboulement fait au moins 31 morts dans une décharge à Conakry",
-      "summary": "À Dar-es-Salam, dans la commune de Gbessia, à Conakry, en Guinée, une partie de l'immense décharge du quartier s'est effondrée dans la nuit du samedi 22 au dimanche 23 août 2026, tuant au moins 31 personnes, selon le dernier bilan provisoire communiqué par la Protection civile. Des blessés ont également été pris en charge et plusieurs personnes étaient toujours portées disparues dimanche. Les recherches se poursuivent.",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 5,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-23T22:52:48+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260823-guin%C3%A9e-un-%C3%A9boulement-fait-au-moins-31-morts-dans-une-d%C3%A9charge-%C3%A0-conakry"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260823-guin%C3%A9e-un-%C3%A9boulement-fait-au-moins-31-morts-dans-une-d%C3%A9charge-%C3%A0-conakry"
-        },
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260823-guin%C3%A9e-au-moins-30-morts-et-22-bless%C3%A9s-dans-l-%C3%A9boulement-d-une-d%C3%A9charge"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/24/guinee-au-moins-30-morts-dans-leffondrement-dune-decharge-a-conakry/"
-        }
-      ],
-      "confirmation_count": 3
     },
     {
       "id": "79cba9d69c",
@@ -2939,40 +3006,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "5a318e92ad",
-      "title": "DR Congo receives 70,000 Ebola vaccine doses for outbreak response",
-      "summary": "WHO experts say early evidence, including animal studies, suggests Ervebo could offer some protection—and the new trial will seek to establish whether that protection extends to humans.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-20T17:06:51+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/20/dr-congo-receives-70000-ebola-vaccine-doses-for-outbreak-response/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/20/dr-congo-receives-70000-ebola-vaccine-doses-for-outbreak-response/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5e0345ae72",
       "title": "Police Fire Shots As Kyebando Residents Protest Disputed Village Election Results",
       "summary": "[Nile Post] Police in Wakiso District fired shots into the air and onto the ground on Wednesday to disperse angry residents of Kyebando in Mumyuka Sub-County who attempted to occupy an office they claimed was being used by a village chairperson who fraudulently won the recent election.",
@@ -3211,6 +3244,44 @@
         }
       ],
       "confirmation_count": 1
+    },
+    {
+      "id": "9bcf8cf430",
+      "title": "BHEKISISA: The first generic weight loss drug has hit SA — will it be enough to kill the black market?",
+      "summary": "South Africa’s first generic semaglutide injection arrived in August, with many more expected. More competition should push down the price of blockbuster GLP-1 drugs – but will they become cheap enough to stamp out a booming black market and reach the public-sector patients who need them?",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-24T13:24:06+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-08-24-the-first-generic-weight-loss-drug-has-hit-sa-will-it-be-enough-to-kill-the-black-market/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-08-24-the-first-generic-weight-loss-drug-has-hit-sa-will-it-be-enough-to-kill-the-black-market/"
+        },
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608240187.html"
+        }
+      ],
+      "confirmation_count": 2
     },
     {
       "id": "40911b799b",
@@ -3509,6 +3580,104 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260824-c%C3%B4te-d-ivoire-accus%C3%A9-de-viols-et-d-agressions-sexuelles-l-influenceur-coach-mehdi-a-%C3%A9t%C3%A9-arr%C3%AAt%C3%A9-au-mali"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d3fe1093f9",
+      "title": "Ghana : la Cocoa Marketing Company passe à l’exploitation 24h/24 pour fluidifier la chaîne du cacao",
+      "summary": "La Cocoa Marketing Company (Ghana) Limited (CMC), filiale de commercialisation du Ghana Cocoa Board (COCOBOD), a lancé le 20 août 2026 à Tema, un modèle opérationnel fonctionnant 24 heures sur 24. Décliné en trois piliers — « Offload 24 », « Load 24 » et « Export 24 » —, le dispositif prolonge au-delà des horaires classiques la réception des fèves auprès des compagnies acheteuses agréées, l’approvisionnement des usines locales de transformation et la préparation des…",
+      "country": "GHA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-24T00:50:14+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/24/ghana-la-cocoa-marketing-company-passe-a-lexploitation-24h-24-pour-fluidifier-la-chaine-du-cacao/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/24/ghana-la-cocoa-marketing-company-passe-a-lexploitation-24h-24-pour-fluidifier-la-chaine-du-cacao/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "be8ad877ab",
+      "title": "Niger : le général Tiani acte une hausse de 2 % du budget 2026, marqué par la sécurité et la crise pétrolière",
+      "summary": "Le Niger a procédé à une première révision de son budget 2026, dont l’enveloppe est désormais fixée à 2 980,54 milliards de FCFA, soit environ 5,3 milliards de dollars*. Le montant initialement prévu s’élevait à 2 922,22 milliards de FCFA (environ 5,2 milliards de dollars). Cette nouvelle programmation représente une hausse de 58,32 milliards de FCFA — de l’ordre de 104 millions de dollars —, soit +2 %.\nAdopté sous forme de projet d’ordonnance portant première…",
+      "country": "NER",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-24T00:38:33+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/24/niger-le-general-tiani-acte-une-hausse-de-2-du-budget-2026-marque-par-la-securite-et-la-crise-petroliere/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/24/niger-le-general-tiani-acte-une-hausse-de-2-du-budget-2026-marque-par-la-securite-et-la-crise-petroliere/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1d52f61c65",
+      "title": "Carburants : le Sénégal ne peut pas financer le populisme énergétique par la dette",
+      "summary": "Par Lansana Gagny SAKHO  Adm.A, C.M.C\nLa récente hausse des prix des carburants au Sénégal a rouvert un débat qui revient de manière cyclique dans notre espace public : ne pourrait-on pas faire autrement ? Ne pourrait-on pas réduire les taxes, contenir les subventions, maintenir des prix artificiellement bas pour préserver le pouvoir d’achat des ménages ?\nCes interrogations sont légitimes dans leur préoccupation sociale. Elles deviennent intellectuellement problématiques…",
+      "country": "SEN",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-23T23:35:32+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/24/carburants-le-senegal-ne-peut-pas-financer-le-populisme-energetique-par-la-dette/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/24/carburants-le-senegal-ne-peut-pas-financer-le-populisme-energetique-par-la-dette/"
         }
       ],
       "confirmation_count": 1
@@ -4116,6 +4285,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "6501ada140",
+      "title": "Turn NRM Political Victory Into Economic Growth, Museveni Urges Isingiro People",
+      "summary": "[Nile Post] President Museveni has urged residents of Isingiro District in western Uganda to turn the National Resistance Movement's political success in the recent general elections into an economic victory by embracing hard work and government wealth creation programmes.",
+      "country": "UGA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-20T05:53:59+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608200168.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608200168.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "cd649db4a5",
       "title": "Nine Senior Lam Officials to Face Trial for Mismanagement",
       "summary": "[AIM] Maputo -- The Central Office for the Fight against Corruption (GCCC) has announced that nine senior officials of the publicly-owned company Air Mozambique (formerly known as Mozambique Airlines, LAM) will face court proceedings over alleged mismanagement.",
@@ -4148,44 +4349,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "e8c0c9f3f2",
-      "title": "Gachagua to Ruto - 'Kenya Is Not Uganda or Tanzania' As He Warns Against Election Disruption",
-      "summary": "[Capital FM] Nairobi -- Former Deputy President Rigathi Gachagua has warned President William Ruto against any attempt to undermine Kenya's democratic process, insisting that the 2027 General Election must be held as constitutionally scheduled.",
-      "country": "TZA",
-      "category": "POLITIQUE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-19T10:58:44+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608190375.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608190375.html"
-        },
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608190375.html"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "3fa8fe9859",
@@ -4285,70 +4448,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608190111.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "45fe5555e7",
-      "title": "Tabacs : Légère hausse du chiffre d’affaires de la Société Ivoirienne des Tabacs au premier semestre 2026",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T15:39:25+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/tabacs-legere-hausse-du-chiffre-daffaires-de-la-societe-ivoirienne-des-tabacs-au-premier-semestre-2026/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/tabacs-legere-hausse-du-chiffre-daffaires-de-la-societe-ivoirienne-des-tabacs-au-premier-semestre-2026/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3b925e1a1a",
-      "title": "Dividendes 2025 : La société Servair Abidjan revoie à la hausse le dividende global à verser à ses actionnaires",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T10:46:38+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/dividendes-2025-la-societe-servair-abidjan-revoie-a-la-hausse-le-dividende-global-a-verser-a-ses-actionnaires/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/dividendes-2025-la-societe-servair-abidjan-revoie-a-la-hausse-le-dividende-global-a-verser-a-ses-actionnaires/"
         }
       ],
       "confirmation_count": 1
@@ -4912,6 +5011,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "03ed5b069a",
+      "title": "Dear Mbokodo: We did not march so women could carry the nation",
+      "summary": "This imagined letter places a composite speaker inside the thirty-minute silence of 9 August 1956. It draws on the events of the Women’s March and the demands articulated by the Federation of South African Women.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-24T13:41:50+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/opinionista/2026-08-24-dear-mbokodo-we-did-not-march-so-women-could-carry-the-nation-1/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/opinionista/2026-08-24-dear-mbokodo-we-did-not-march-so-women-could-carry-the-nation-1/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f9413ada19",
       "title": "Cape Town planning officials must listen to residents, drop the ‘take us to court’ attitude",
       "summary": "The deputy mayor’s response to Daily Maverick’s Municipal Planning Tribunal exposé suggests that anyone who tries to hold the tribunal accountable for its far-reaching decisions will be denounced and discredited.",
@@ -4939,6 +5070,38 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/opinionista/2026-08-24-cape-town-planning-officials-must-listen-to-residents-drop-the-take-us-to-court-attitude/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a0ada4542c",
+      "title": "Cameroon: Is Paul Biya indifferent to the markets?",
+      "summary": "The Cameroonian president’s 74-day medical stay in Geneva has hit the performance of Cameroon’s eurobonds. Will he manage to give the response needed to reassure investors?",
+      "country": "CMR",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-24T11:30:00+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/428513/cameroon-is-paul-biya-indifferent-to-the-markets/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/428513/cameroon-is-paul-biya-indifferent-to-the-markets/"
         }
       ],
       "confirmation_count": 1
@@ -4973,6 +5136,70 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-08-24-approved-in-the-dark-the-hidden-environmental-toll-of-sa-s-data-centre-boom/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d4fdab6692",
+      "title": "Support Grows for Akasoba Zainab Duke-Abiola, mni, Bid for UN Secretary-General",
+      "summary": "[InfoWire] London -- International support is growing around the candidacy of Akasoba Zainab Duke-Abiola, mni, for the position of Secretary-General of the United Nations, especially across Africa, the Caribbean and Latin America.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-24T11:12:49+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608240398.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608240398.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "15452f22ae",
+      "title": "21-Year-Old's Crucial Kidney Dialysis Treatment Puts Family Under Financial Strain",
+      "summary": "[Health-e] At 21, Brandon Booysen from Randfontein in Gauteng is bedridden with end-stage kidney disease and severe bone complications after living with chronic kidney disease (CKD) since childhood.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-24T10:53:15+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608240355.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608240355.html"
         }
       ],
       "confirmation_count": 1
@@ -5590,38 +5817,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7d631c2ef6",
-      "title": "The First Generic Weight Loss Drug Hit South Africa In August - With Many Expected To Follow. Will It Be Enough To Kill The Black Market?",
-      "summary": "[Bhekisisa] The first generic weight loss drug hit SA in August -- with many expected to follow. Will it be enough to kill the black market?",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-24T08:23:04+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608240187.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608240187.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "289325f082",
       "title": "Éthiopie : Ashenda célébrée dans la crainte d’une nouvelle guerre au Tigré",
       "summary": "À Addis-Abeba, des femmes originaires du Tigré se sont réunies pour célébrer Ashenda, l’une des principales fêtes traditionnelles de la région.",
@@ -5747,6 +5942,38 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/24/gabon-la-fete-des-cultures-revient-a-libreville-apres-huit-ans-dabsence/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6a439e5ac3",
+      "title": "Cameroun : Moody’s maintient l’alerte sur « un risque politique élevé » malgré une clarification institutionnelle de la succession",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-24T07:28:16+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/24/cameroun-moodys-maintient-lalerte-sur-un-risque-politique-eleve-malgre-une-clarification-institutionnelle-de-la-succession/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/24/cameroun-moodys-maintient-lalerte-sur-un-risque-politique-eleve-malgre-une-clarification-institutionnelle-de-la-succession/"
         }
       ],
       "confirmation_count": 1
@@ -7019,6 +7246,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "794baed878",
+      "title": "Togo : la détention de deux journalistes français s’invite dans la crise entre Paris et Lomé",
+      "summary": "Deux réalisateurs français, Gaël Mocaër et Sebastian Perez Pezzani, ainsi que leur fixeur togolais Fred Vedomey, sont détenus au Togo depuis le 27 juillet 2026. Arrêtés en plein tournage d’un épisode de la série documentaire « Les routes de l’impossible » pour France Télévisions, ils ont été inculpés le 17 août pour « fausses déclarations ». Samedi 22 août, Lomé s’est exprimé pour la première fois, assurant disposer « d’indices graves et concordants » contre eux.\nLire la…",
+      "country": "TGO",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "fr",
+      "published": "2026-08-24T03:30:34+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/24/togo-la-detention-de-deux-journalistes-francais-sinvite-dans-la-crise-entre-paris-et-lome/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/24/togo-la-detention-de-deux-journalistes-francais-sinvite-dans-la-crise-entre-paris-et-lome/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "66bf5d1a46",
       "title": "Tchad: Ndjamena dénonce une nouvelle incursion de l'armée soudanaise sur son sol",
       "summary": "Selon l'état-major général de l'armée tchadienne, des drones et des avions des forces soudanaises ont poursuivi et bombardé en territoire tchadien des colonnes de véhicules partis de Libye, dans la soirée du jeudi 20 août. Si aucune information n'a été donnée sur l'identité de leurs passagers, l'hypothèse la plus probable est celles de combattants qui faisait route vers le Soudan pour aller renforcer les Forces de soutien rapide (FSR), affirme le chercheur Remadji Hoinathy.",
@@ -7049,6 +7310,106 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260824-tchad-ndjamena-d%C3%A9nonce-une-nouvelle-incursion-de-l-arm%C3%A9e-soudanaise-sur-son-sol"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "498334d22c",
+      "title": "Niger : la future raffinerie de Dosso contractualisée pour 1,9 milliard de dollars",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "NER",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "fr",
+      "published": "2026-08-24T01:06:26+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/24/niger-la-future-raffinerie-de-dosso-contractualisee-pour-19-milliard-de-dollars/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/24/niger-la-future-raffinerie-de-dosso-contractualisee-pour-19-milliard-de-dollars/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cfbe46b068",
+      "title": "Halte à la spéculation sur la dette sénégalaise",
+      "summary": "Par Abdou Cissé \nEnsemble pour une solution pérenne \nSi nous acceptons d’être des sénégalais, alors la dette du Sénégal nous concerne tous. Nous avons ainsi un devoir citoyen et moral de réfléchir sur des pistes de solutions à la crise qu’elle engendre depuis près de deux ans dans le pays. Si nous continuons, en pêle-mêle, à étaler sur la place publique nos divergences par des analyses ou des soi-disant expertises personnalisées et sans une cohérence d’ensemble, alors…",
+      "country": "SEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-24T00:40:20+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/24/halte-a-la-speculation-sur-la-dette-senegalaise/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/24/halte-a-la-speculation-sur-la-dette-senegalaise/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0100469e49",
+      "title": "Sénégal : une autoroute de 738 millions de dollars inaugurée pour renforcer les échanges entre les régions",
+      "summary": "Inaugurée samedi 22 août 2026 à Thiadiaye, dans la région de Thiès, par le président Bassirou Diomaye Diakhar Faye, l’autoroute à péage Mbour-Fatick-Kaolack relie désormais la Petite Côte au cœur du Bassin arachidier. Longue de 100 kilomètres, complétée par 15 kilomètres de routes de connexion, l’infrastructure a un coût global de 738 millions de dollars, financé pour l’essentiel par un prêt préférentiel de la banque chinoise Exim Bank, qui en couvre près de 620…",
+      "country": "SEN",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "fr",
+      "published": "2026-08-24T00:15:03+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/24/senegal-une-autoroute-de-738-millions-de-dollars-inauguree-pour-renforcer-les-echanges-entre-les-regions/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/24/senegal-une-autoroute-de-738-millions-de-dollars-inauguree-pour-renforcer-les-echanges-entre-les-regions/"
         }
       ],
       "confirmation_count": 1
@@ -8009,6 +8370,70 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1836890/politique/rdc-plus-personne-ne-doute-que-tshisekedi-a-envie-dun-troisieme-mandat/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "14249abfd5",
+      "title": "Mozambique : Sasol prévoit 36,5 millions de dollars pour le développement local à Inhambane d’ici 2030",
+      "summary": "36,5 millions de dollars seront investis par l’énergéticien sud-africain Sasol dans des programmes de développement local à Inhambane d’ici 2030. Le programme couvrira 70 communautés réparties dans trois districts : 33 à Inhassoro, 23 à Govuro et 14 à Vilankulo, selon la présentation annuelle des opérations de la compagnie sud-africaine au Mozambique.\nSur une enveloppe globale de 43 millions de dollars, incluant les contributions de la Companhia Moçambicana de…",
+      "country": "MOZ",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-22T17:27:26+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/22/mozambique-sasol-prevoit-365-millions-de-dollars-pour-le-developpement-local-a-inhambane-dici-2030/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/22/mozambique-sasol-prevoit-365-millions-de-dollars-pour-le-developpement-local-a-inhambane-dici-2030/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c7b4fff46b",
+      "title": "Nigeria : Ibrahim Puri rejoint le Conseil d’administration de UBA",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-22T15:56:09+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/08/22/nigeria-ibrahim-puri-rejoint-le-conseil-dadministration-de-uba/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/08/22/nigeria-ibrahim-puri-rejoint-le-conseil-dadministration-de-uba/"
         }
       ],
       "confirmation_count": 1
@@ -9892,72 +10317,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "11b2deb055",
-      "title": "Agency Rewarded As Rahul Rama-Panchia Wins Abe Bailey Travel Bursary",
-      "summary": "[UCT] Rahul Rama-Panchia - a fourth-year University of Cape Town (UCT) student - is the latest from the institution to receive the Abe Bailey Travel Bursary. This is a prestigious leadership award offered to full-time students at South African universities, as well as academic staff members who hold junior lecture status.",
-      "country": "ZAF",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-21T11:09:21+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608210377.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608210377.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "88f438cbc3",
-      "title": "The Importance of African Agricultural IP Systems",
-      "summary": "[UCT] Do systems of geographical indications and plant variety protection preserve valuable products and create economic value? Dr Charlene Musiza's research as an intellectual property (IP) lawyer, researcher and consultant interrogates such a proposition.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "en",
-      "published": "2026-08-21T11:08:14+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608210376.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608210376.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "4b49f0f382",
       "title": "The Mastercard Foundation Scholars Program Is Looking for You",
       "summary": "[UCT] Applications are now open for the 2027 intake of the Mastercard Foundation Scholars Program at the University of Cape Town (UCT).",
@@ -10186,38 +10545,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "6641275b1c",
-      "title": "Barristers, Where the Gavel Comes Down On a Good Night Out",
-      "summary": "[Daily Maverick] The faux-Tudor eatery and pub still flies the flag for reliable food and good times. It's a place of cheer with no pretensions, just like restaurants of old used to be.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-21T10:50:29+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608210339.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608210339.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6b04c9c4bd",
       "title": "Tanzania court: Lissu has case to answer on treason charges",
       "summary": "Tundu Lissu has been in detention for 14 months.",
@@ -10245,38 +10572,6 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/tanzania-court-lissu-has-case-to-answer-5565954"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "75788a71ed",
-      "title": "Christian killings in Nigeria ignite push for continued CPC blacklisting despite military gains",
-      "summary": "US advocates are clamouring for Trump to renew his Country of Particular Concern designation, notwithstanding improved security cooperation.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-21T10:30:00+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/428311/christian-killings-in-nigeria-ignite-push-for-continued-cpc-blacklisting-despite-military-gains/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/428311/christian-killings-in-nigeria-ignite-push-for-continued-cpc-blacklisting-despite-military-gains/"
         }
       ],
       "confirmation_count": 1
@@ -10375,6 +10670,38 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1836713/politique/liberation-de-deux-mercenaires-russes-par-le-fla-le-role-cle-de-faure-gnassingbe-entre-bamako-et-les-rebelles/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0c74298fed",
+      "title": "State to Drop Charges Against Crime Intelligence Officials After Madlanga Revelations Tear Case Apart",
+      "summary": "[Scrolla] Prosecutors are set to withdraw charges against Brigadier Dineo Mokwele, Lieutenant-General Dumisani Khumalo and their co-accused on Friday.   The commission heard Mokwele was not only qualified for her post but overqualified, undercutting the case that her appointment was unlawful.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-21T09:34:10+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608210203.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608210203.html"
         }
       ],
       "confirmation_count": 1
@@ -10607,6 +10934,38 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608210130.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b2807aa67c",
+      "title": "Home or Hospice - the Debate Over the Closure of St Luke's Inpatient Unit",
+      "summary": "[GroundUp] While most people prefer to die at home, a minority desperately need specialist care that can only be provided in an institution",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-21T08:17:08+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608210129.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608210129.html"
         }
       ],
       "confirmation_count": 1
@@ -11748,38 +12107,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c2d316d88f",
-      "title": "Bah Oury : « Il n’y a pas de régime militaire caché en Guinée »",
-      "summary": "Deux ans et demi après sa nomination, la page de la transition désormais tournée, le Premier ministre guinéen a fait sien le discours de Mamadi Doumbouya. Sans nuances. Reconduit à la tête du gouvernement, il revient sur la place de l’opposition, les disparitions, les priorités de l’exécutif et l’avenir du pays.",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-20T06:55:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1829729/politique/bah-oury-il-ny-a-pas-de-regime-militaire-cache-en-guinee/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1829729/politique/bah-oury-il-ny-a-pas-de-regime-militaire-cache-en-guinee/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "9f9de65e71",
       "title": "Stitching Confidence and Dignity - Adolescent Girls Tackle Period Poverty in Uganda",
       "summary": "[Spotlight Initiative] Gulu District, Uganda -- In the quiet rural communities of Omel Sub-County in Gulu District, adolescent girls and teenage mothers are reclaiming their confidence and dignity.",
@@ -11903,38 +12230,6 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608200145.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "72a0cc6348",
-      "title": "Museveni Tells Isingiro Residents to Turn Political Victory Into Economic Gains",
-      "summary": "[Nile Post] President Museveni has urged residents of Isingiro District to turn their political support for the National Resistance Movement (NRM) into tangible economic gains by embracing government wealth-creation programmes and working to improve household incomes.",
-      "country": "UGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-20T05:29:27+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608200128.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608200128.html"
         }
       ],
       "confirmation_count": 1
@@ -12782,6 +13077,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "e8c0c9f3f2",
+      "title": "Gachagua to Ruto - 'Kenya Is Not Uganda or Tanzania' As He Warns Against Election Disruption",
+      "summary": "[Capital FM] Nairobi -- Former Deputy President Rigathi Gachagua has warned President William Ruto against any attempt to undermine Kenya's democratic process, insisting that the 2027 General Election must be held as constitutionally scheduled.",
+      "country": "TZA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-19T10:58:44+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608190375.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608190375.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "4969857020",
       "title": "Tz Intensifies Fight to Eliminate Malaria By 2030",
       "summary": "[Daily News] Dodoma -- THE government has intensified its fight against Malaria by strengthening prevention, testing and treatment interventions, with the aim of eliminating the disease by 2030.",
@@ -12809,38 +13136,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608190338.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7e2eb92682",
-      "title": "Guinée équatoriale : le vice-président Teodoro Nguema Obiang Mangue mise sur Davos pour séduire les investisseurs",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-19T10:16:04+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/19/guinee-equatoriale-le-vice-president-teodoro-nguema-obiang-mangue-mise-sur-davos-pour-seduire-les-investisseurs/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/19/guinee-equatoriale-le-vice-president-teodoro-nguema-obiang-mangue-mise-sur-davos-pour-seduire-les-investisseurs/"
         }
       ],
       "confirmation_count": 1
@@ -12905,104 +13200,6 @@
           "name": "CIO Africa",
           "tier": 2,
           "url": "https://cioafrica.co/south-africa-proposes-new-rules-for-cross-border-crypto-transactions/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ffc88b7149",
-      "title": "Mozambique-Afrique du Sud : 980 millions de meticais pour moderniser le poste-frontière de Ressano Garcia",
-      "summary": "Environ 980 millions de meticais, soit environ 15,2 millions de dollars, seront investis dans la modernisation du poste-frontière de Ressano Garcia, principal point de passage terrestre entre le Mozambique et l’Afrique du Sud, situé dans le district de Moamba (province de Maputo). Sur cette enveloppe, environ 450 millions de meticais (6,9 millions de dollars) sont consacrés à la construction et à la modernisation du terminal touristique. La première pierre a été posée le…",
-      "country": "MOZ",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CONSTRUCTION"
-      ],
-      "lang": "fr",
-      "published": "2026-08-19T05:58:59+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/19/mozambique-afrique-du-sud-980-millions-de-meticais-pour-moderniser-le-poste-frontiere-de-ressano-garcia/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/19/mozambique-afrique-du-sud-980-millions-de-meticais-pour-moderniser-le-poste-frontiere-de-ressano-garcia/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3b67d0b79e",
-      "title": "Sénégal : NDAM sanctionnée pour rupture abusive, Xerus condamnée à verser 192,8 millions FCFA",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "SEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-19T05:45:30+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/19/senegal-ndam-sanctionnee-pour-rupture-abusive-xerus-condamnee-a-verser-1928-millions-fcfa/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/19/senegal-ndam-sanctionnee-pour-rupture-abusive-xerus-condamnee-a-verser-1928-millions-fcfa/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "115f100f0e",
-      "title": "Gabon : Fitch alerte sur le coût du financement du budget révisé 2026",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GAB",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-19T05:37:12+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/19/gabon-fitch-alerte-sur-le-cout-du-financement-du-budget-revise-2026/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/19/gabon-fitch-alerte-sur-le-cout-du-financement-du-budget-revise-2026/"
         }
       ],
       "confirmation_count": 1
@@ -13300,38 +13497,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "140091ba0f",
-      "title": "Afrique du Sud : les violences anti-migrants s'invitent au 46e sommet de la SADC",
-      "summary": "Fin du sommet de la SADC à Durban, en Afrique du Sud. Les dirigeants de la Communauté de développement de l’Afrique australe ont notamment discuté de sécurité et d’économie, mais aussi d’immigration, dans un contexte marqué par les manifestations anti-migrants dans le pays.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T17:47:31+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260818-afrique-du-sud-les-violences-anti-migrants-s-invitent-au-46e-sommet-de-la-sadc"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260818-afrique-du-sud-les-violences-anti-migrants-s-invitent-au-46e-sommet-de-la-sadc"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "82d0efc969",
       "title": "Vieira named new Senegal head coach",
       "summary": "Former Arsenal and France captain Patrick Vieira is appointed as the new head coach of the Senegal men's national team.",
@@ -13425,104 +13590,6 @@
           "name": "CIO Africa",
           "tier": 2,
           "url": "https://cioafrica.co/kevin-kinyanjui-1967-2026-is-laid-to-rest/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "79647d37e7",
-      "title": "Burundi : le budget général face aux défis du terrain",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "BDI",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T13:32:13+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/burundi-le-budget-general-face-aux-defis-du-terrain/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/burundi-le-budget-general-face-aux-defis-du-terrain/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5cc0169f27",
-      "title": "Exclusif : Emmanuel Macron attendu à Cotonou",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "BEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "fr",
-      "published": "2026-08-18T13:20:38+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/exclusif-emmanuel-macron-attendu-a-cotonou/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/exclusif-emmanuel-macron-attendu-a-cotonou/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4efaa928ca",
-      "title": "Guinée équatoriale : l’Etat durcit le contrôle des recettes non pétrolières",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T13:15:49+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/guinee-equatoriale-letat-durcit-le-controle-des-recettes-non-petrolieres/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/guinee-equatoriale-letat-durcit-le-controle-des-recettes-non-petrolieres/"
         }
       ],
       "confirmation_count": 1
@@ -13689,72 +13756,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608180342.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b95d823b0e",
-      "title": "MTN Ghana : un chiffre d’affaires de 1,36 milliard de dollars au premier semestre 2026",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "GHA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-18T10:23:22+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/mtn-ghana-un-chiffre-daffaires-de-136-milliard-de-dollars-au-premier-semestre-2026/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/mtn-ghana-un-chiffre-daffaires-de-136-milliard-de-dollars-au-premier-semestre-2026/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f8faad19bf",
-      "title": "Togo : Faure Gnassingbé refonde le haut commandement militaire avec un vaste remaniement",
-      "summary": "Au Togo, le président du Conseil, Faure Gnassingbé, a procédé à un vaste remaniement au sommet des Forces armées togolaises (FAT) et de plusieurs agences stratégiques de l’État. Ce, à travers une série de huit décrets publiés dans la soirée du lundi 17 aout, lesquels redessinent la chaîne de commandement militaire, du renseignement et de l’aviation civile, dans un contexte sécuritaire toujours tendu au nord du pays.\nUn nouveau patron pour les armées\nAu cœur de ce…",
-      "country": "TGO",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [
-        "AVIATION"
-      ],
-      "lang": "fr",
-      "published": "2026-08-18T10:11:40+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/18/togo-faure-gnassingbe-refonde-le-haut-commandement-militaire-avec-un-vaste-remaniement/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/18/togo-faure-gnassingbe-refonde-le-haut-commandement-militaire-avec-un-vaste-remaniement/"
         }
       ],
       "confirmation_count": 1
