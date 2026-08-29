@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-08-29T14:28:47.009165+00:00",
+  "generated_at": "2026-08-29T18:27:31.238220+00:00",
   "stats": {
-    "total_signals": 525,
-    "verified_signals": 11,
+    "total_signals": 527,
+    "verified_signals": 14,
     "countries_covered": 32,
     "sources_active": 32,
     "per_country": {
+      "COD": 21,
+      "NER": 12,
       "GIN": 5,
       "ZAF": 57,
       "DZA": 14,
-      "COD": 19,
-      "NGA": 44,
-      "AGO": 34,
+      "NGA": 43,
+      "AGO": 35,
       "UGA": 37,
       "MOZ": 37,
       "TUN": 5,
@@ -19,17 +20,16 @@
       "KEN": 57,
       "MLI": 23,
       "MAR": 39,
-      "SEN": 32,
+      "SEN": 33,
       "ZWE": 5,
-      "NER": 13,
       "ETH": 9,
-      "CMR": 6,
+      "CMR": 5,
       "GAB": 5,
       "COG": 2,
       "CIV": 14,
       "MWI": 2,
       "GHA": 4,
-      "BEN": 3,
+      "BEN": 4,
       "CAF": 1,
       "MRT": 1,
       "RWA": 7,
@@ -235,6 +235,127 @@
     }
   ],
   "signals": [
+    {
+      "id": "c4d4b3eb18",
+      "title": "DR Congo begins vaccinating against largest and deadliest Ebola outbreak",
+      "summary": "70,000 Ervebo vaccine doses have been sent to DR Congo in hope they prove effective against the Bundibugyo strain.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-08-29T18:13:05+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/dr-congo-begins-vaccinating-against-largest-and-deadliest-ebola-outbreak?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/dr-congo-begins-vaccinating-against-largest-and-deadliest-ebola-outbreak?traffic_source=rss"
+        },
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/28/dr-congo-begins-ebola-vaccinations-as-deadliest-outbreak-on-record-spreads/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "37a24fbc22",
+      "title": "Niger military says it is regaining control after attempted mutiny",
+      "summary": "Niger’s military says it is regaining control after a mutiny in Niamey after gun fire was heard in the capital.",
+      "country": "NER",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY"
+      ],
+      "lang": "en",
+      "published": "2026-08-29T17:03:10+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/08-29-26-niger-mutiny-sv?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/08-29-26-niger-mutiny-sv?traffic_source=rss"
+        },
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/29/niger-military-gradually-regaining-control-after-mutiny/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "08521fee05",
+      "title": "Niger : situation confuse après des explosions et des tirs entendus à Niamey",
+      "summary": "🇳🇪 Au Niger, des explosions et des tirs entendus depuis la nuit à Niamey, notamment autour de l’aéroport et du palais présidentiel. Alors que les raisons de ces combats restent floues, la junte affirme \"reprendre le contrôle\" de la situation. Les casernes sont en alerte maximale.",
+      "country": "NER",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE",
+        "AVIATION"
+      ],
+      "lang": "fr",
+      "published": "2026-08-29T16:52:23+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260829-niger-situation-confuse-apr%C3%A8s-des-explosions-et-des-tirs-entendus-%C3%A0-niamey"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260829-niger-situation-confuse-apr%C3%A8s-des-explosions-et-des-tirs-entendus-%C3%A0-niamey"
+        },
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260829-niger-des-explosions-et-des-tirs-entendus-dans-la-capitale"
+        }
+      ],
+      "confirmation_count": 2
+    },
     {
       "id": "58116b0b93",
       "title": "Guinée : Algassimou Diallo, la chute d’un magistrat jadis porté aux nues",
@@ -870,40 +991,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/28/algeria-declares-3-days-of-national-mourning-as-wildfire-death-toll-rises-to-12/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "11e7f22943",
-      "title": "DR Congo begins Ebola vaccinations as deadliest outbreak on record spreads",
-      "summary": "Authorities are therefore using Ervebo under a compassionate-use programme while researchers gather data on whether it can protect against the current strain.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-28T08:49:40+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/28/dr-congo-begins-ebola-vaccinations-as-deadliest-outbreak-on-record-spreads/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/28/dr-congo-begins-ebola-vaccinations-as-deadliest-outbreak-on-record-spreads/"
         }
       ],
       "confirmation_count": 1
@@ -1839,41 +1926,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f21b0abae1",
-      "title": "Niger: des explosions et des tirs entendus à Niamey, la junte annonce «reprendre le contrôle» de la situation",
-      "summary": "Au Niger, le régime militaire au pouvoir affirme à la mi-journée «reprendre progressivement le contrôle» de la situation. Depuis cette nuit, des coups de feu et des tirs à l’arme lourde sont entendus à Niamey, autour de l’aéroport, mais aussi dans le centre-ville, dans la zone du palais présidentiel. À l’heure actuelle, on ignore qui se trouve derrière ces combats et quels sont les rapports de force. D’après les informations de RFI, les casernes de Niamey sont en alerte…",
-      "country": "NER",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE",
-        "AVIATION"
-      ],
-      "lang": "fr",
-      "published": "2026-08-29T03:05:27+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260829-niger-des-explosions-et-des-tirs-entendus-dans-la-capitale"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260829-niger-des-explosions-et-des-tirs-entendus-dans-la-capitale"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "9cd6256b55",
       "title": "Cameroun : Eto’o-Mouelle Kombi, la guerre des clans par football interposé",
       "summary": "Le sacre des Lionnes indomptables à la Coupe d’Afrique des nations n’a pas mis fin à la querelle entre le président de la Fecafoot et le ministre des Sports. La guerre des clans qui se disputent au sommet de l’État se joue – aussi – sur les terrains de foot.",
@@ -2352,40 +2404,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "a716ace2e3",
-      "title": "Terrorists Kill 4, Including Islamic Scholar, Abduct Scores in Sokoto",
-      "summary": "[Leadership] Barely days after 65 people died in a boat mishap in Gorau village, Goronyo Local Government Area of Sokoto State, suspected terrorists have attacked the community, killing four people, abducting four others and injuring several residents.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "en",
-      "published": "2026-08-28T04:10:17+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280038.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280038.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "b5bc3af35f",
       "title": "Beware of the wounded Springbok",
       "summary": "After a disappointing opening to the Greatest Rivalry series, I expect the Springboks to regroup, trust the process and beat the All Blacks in Cape Town.",
@@ -2845,6 +2863,70 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607310024.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d8267530f6",
+      "title": "En RDC, quand les camps Kabila et Bemba s’affrontaient à Kinshasa en août 2006",
+      "summary": "Le 30 juillet 2006, la RDC organise ses premières présidentielles libres depuis l’indépendance. Après l’annonce des résultats du premier tour, des affrontements éclatent entre partisans de Joseph Kabila et de Jean-Pierre Bemba. Fidèle Babala, alors directeur de campagne de ce dernier, livre son récit des événements.",
+      "country": "COD",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-29T17:50:11+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1805310/politique/en-rdc-quand-les-camps-kabila-et-bemba-saffrontaient-a-kinshasa-en-aout-2006/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1805310/politique/en-rdc-quand-les-camps-kabila-et-bemba-saffrontaient-a-kinshasa-en-aout-2006/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f182064211",
+      "title": "Football: l'international sénégalais Nicolas Jackson signe à Aston Villa pour 75 millions d'euros",
+      "summary": "Le marché des transferts continue de s'agiter en Angleterre, avec l'arrivée le 28 août dans la soirée de l'international sénégalais Nicolas Jackson à Aston Villa, en provenance de Chelsea, pour 75 millions d'euros bonus compris. Considéré comme l'un des attaquants africains les plus prometteurs, l'attaquant des Lions de la Teranga sort d'une saison sans éclat en prêt au Bayern Munich et tentera de se relancer à Birmingham en Premier League.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-29T17:45:05+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique-foot/20260829-football-le-s%C3%A9n%C3%A9galais-nicolas-jackson-signe-%C3%A0-aston-villa-pour-75-millions-d-euros"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260829-football-le-s%C3%A9n%C3%A9galais-nicolas-jackson-signe-%C3%A0-aston-villa-pour-75-millions-d-euros"
         }
       ],
       "confirmation_count": 1
@@ -3907,6 +3989,12 @@
           "url": "https://allafrica.com/stories/202608280124.html"
         },
         {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608260091.html"
+        },
+        {
           "id": "aa-tza",
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
@@ -3931,7 +4019,7 @@
           "url": "https://allafrica.com/stories/202608100108.html"
         }
       ],
-      "confirmation_count": 8
+      "confirmation_count": 9
     },
     {
       "id": "ce972c0d8b",
@@ -5246,6 +5334,134 @@
       "confirmation_count": 1
     },
     {
+      "id": "a43c710c46",
+      "title": "Cimeira de Luanda testa resposta da UA aos conflitos em África",
+      "summary": "A União Africana reúne este domingo, 30 de Agosto, em Luanda, os Chefes de Estado e de Governo para discutir o reforço dos mecanismos de prevenção e resolução de conflitos no continente. Depois da reunião ministerial deste sábado, a expectativa recai sobre decisões com aplicação prática. Para Angola, anfitriã da cimeira, está também em causa a consolidação do seu peso diplomático em África.",
+      "country": "AGO",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-08-29T16:48:38+00:00",
+      "lead_source": {
+        "id": "rfi-pt",
+        "name": "RFI Português",
+        "tier": 1,
+        "url": "https://www.rfi.fr/pt/%C3%A1frica-lus%C3%B3fona/20260829-cimeira-de-luanda-testa-resposta-da-ua-aos-conflitos-em-%C3%A1frica"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-pt",
+          "name": "RFI Português",
+          "tier": 1,
+          "url": "https://www.rfi.fr/pt/%C3%A1frica-lus%C3%B3fona/20260829-cimeira-de-luanda-testa-resposta-da-ua-aos-conflitos-em-%C3%A1frica"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "055008d0cf",
+      "title": "Bénin : à Nikki, la Gaani célèbre l’histoire et l’unité des peuples du Nord",
+      "summary": "Ambiance des grands jours dans les rues de Nikki au Bénin, ce jour des milliers de personnes accompagnent des dignitaires vêtu d’apparats multicolores vers la grande place des fêtes.",
+      "country": "BEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-29T15:57:49+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/29/benin-a-nikki-la-gaani-celebre-lhistoire-et-lunite-des-peuples-du-nord/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/29/benin-a-nikki-la-gaani-celebre-lhistoire-et-lunite-des-peuples-du-nord/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2b5322096f",
+      "title": "DRC opposition rejects President Tshisekedi's offer of national dialogue",
+      "summary": "Opposition groups in the DR Congo have rejected President Felix Tshisekedi’s offer of a national dialogue aimed at reconciling the conflict-wracked country.",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-29T14:53:33+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/29/drc-opposition-rejects-president-tshisekedis-offer-of-national-dialogue/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/29/drc-opposition-rejects-president-tshisekedis-offer-of-national-dialogue/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "fdff2ae321",
+      "title": "RDC : la coalition de l'opposition rejette le dialogue national de Tshisekedi",
+      "summary": "Une coalition regroupant les principaux groupes d'opposition de la République démocratique du Congo a rejeté vendredi la proposition du président Félix Tshisekedi d'engager un dialogue national visant à réconcilier ce pays déchiré par les conflits.",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-29T14:52:57+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/29/rdc-la-coalition-de-lopposition-rejette-le-dialogue-national-de-tshisekedi/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/29/rdc-la-coalition-de-lopposition-rejette-le-dialogue-national-de-tshisekedi/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "419235995d",
       "title": "People stranded for days on dilapidated Nigerian highway",
       "summary": "Al Jazeera asked people on the Benin-Agbor-Asaba road how they view this infrastructure crisis.",
@@ -5275,40 +5491,6 @@
           "name": "Al Jazeera",
           "tier": 1,
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/people-stranded-for-days-on-dilapidated-nigerian-highway?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8c87d4d319",
-      "title": "Niger's military 'gradually regaining control' after mutiny at military base",
-      "summary": "Niger’s military says it’s “gradually regaining control” after a mutiny at an army base near the international airport in Niamey.",
-      "country": "NER",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AVIATION"
-      ],
-      "lang": "en",
-      "published": "2026-08-29T13:26:12+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/29/niger-military-gradually-regaining-control-after-mutiny/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/29/niger-military-gradually-regaining-control-after-mutiny/"
         }
       ],
       "confirmation_count": 1
@@ -5634,38 +5816,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1838560/politique/en-centrafrique-la-methode-touadera-pour-reglementer-le-secteur-aurifere/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "19823fd454",
-      "title": "Explosões e tiros ouvidos em vários bairros no Níger",
-      "summary": "\"Há intensos tiroteios e explosões perto da Base 101 em Niamey\", disse um habitante local à agência de notícias France-Presse, declaração confirmada por várias outras testemunhas.",
-      "country": "NER",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "pt",
-      "published": "2026-08-29T09:01:40+00:00",
-      "lead_source": {
-        "id": "observador",
-        "name": "Observador",
-        "tier": 2,
-        "url": "https://observador.pt/2026/08/29/explosoes-e-tiros-ouvidos-em-varios-bairros-da-capital-do-niger/"
-      },
-      "confirming_sources": [
-        {
-          "id": "observador",
-          "name": "Observador",
-          "tier": 2,
-          "url": "https://observador.pt/2026/08/29/explosoes-e-tiros-ouvidos-em-varios-bairros-da-capital-do-niger/"
         }
       ],
       "confirmation_count": 1
@@ -8812,6 +8962,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "140dfccf0e",
+      "title": "Traders Back Tobacco Controls, Oppose 'Duplicate' Licensing Requirements",
+      "summary": "[Capital FM] Nairobi -- The Bar and Liquor Traders Association of Kenya (BAHLITA) has urged the National Assembly to ensure affected traders are included in the public participation process on the Tobacco Control (Amendment) Bill, 2024, warning that proposed licensing and registration requirements could raise compliance costs for small businesses.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T10:27:35+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280189.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280189.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "066b20144a",
       "title": "15 NYSC Members Reportedly Abducted in Kogi While Returning From Camp",
       "summary": "[Premium Times] The corps members were reportedly abducted along the Ofu/Itobe-Onicha-Igo axis in Kogi while travelling to Abuja after completing their orientation camp.",
@@ -10308,40 +10490,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "fc9487b33d",
-      "title": "Over 7,000 People Kidnapped Across Nigeria, Boko Haram Got 90% of Ransom - Report",
-      "summary": "[Premium Times] SBM Intelligence, a research think tank, said about 7,825 people were kidnapped in one year, with at least N7.78 billion paid in ransom, while Boko Haram pocketed over 90 per cent of the proceeds.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "en",
-      "published": "2026-08-28T04:28:02+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280076.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280076.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "65c8dd7b4a",
       "title": "King Oyo of Uganda's Tooro Dies Aged 34",
       "summary": "[New Times] King Oyo Nyimba Kabamba Iguru Rukidi IV, the Omukama of Tooro Kingdom in Uganda, has died at the age of 34.",
@@ -10568,38 +10716,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608280041.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "253d0da0ba",
-      "title": "Nairobi Identifies 16 Flood Hotspots As County Steps Up El Ni&#xF1;o Preparations",
-      "summary": "[Capital FM] Nairobi -- Nairobi has intensified preparations for the anticipated El Niño rains, with Governor Johnson Sakaja saying multi-agency teams have been mobilised to minimise flooding and other emergencies.",
-      "country": "KEN",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T04:13:25+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280039.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280039.html"
         }
       ],
       "confirmation_count": 1
@@ -10920,38 +11036,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/27/senegal-ruling-party-pastef-presses-government-over-2027-local-elections/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7b8d1c55ff",
-      "title": "MTN Uganda and Starlink Partner to Extend Connectivity to Remote Areas",
-      "summary": "[Independent (Kampala)] Kampala -- MTN Uganda has partnered with Starlink to extend the MTN Group-Starlink partnership in Uganda, bringing satellite-enabled connectivity closer to enterprise customers operating in remote, underserved and hard-to-reach areas.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-27T15:45:30+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608270612.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608270612.html"
         }
       ],
       "confirmation_count": 1
@@ -11697,11 +11781,11 @@
       "confirmation_count": 1
     },
     {
-      "id": "b430f1585c",
-      "title": "Fear and mistrust among communities undermine Ebola response efforts",
-      "summary": "Ebola is spreading in eastern DR Congo and fear and mistrust are putting response efforts at risk. Health workers say better coordination, stronger communication, and local leaders are at the heart of the response.",
-      "country": "COD",
-      "category": "SANTE",
+      "id": "109aa4c5e3",
+      "title": "Museveni Backs Balam, Nameere Anti-Corruption Inspection",
+      "summary": "[Independent (Kampala)] Kampala -- President Yoweri Museveni has defended the anti-corruption inspection tours being conducted by Local Government Minister Balaam Barugahara and State Minister Justine Nameere, dismissing concerns that the ministers could be \"Kutomera\" or blindly searching for wrongdoing.",
+      "country": "UGA",
+      "category": "AUTRE",
       "severity": 1,
       "credibility": 2,
       "verified": false,
@@ -11709,23 +11793,21 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
+      "sectors": [],
       "lang": "en",
-      "published": "2026-08-27T10:37:50+00:00",
+      "published": "2026-08-27T10:47:00+00:00",
       "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
         "tier": 2,
-        "url": "http://www.africanews.com/2026/08/27/fear-and-mistrust-among-communities-undermine-ebola-response-efforts/"
+        "url": "https://allafrica.com/stories/202608270320.html"
       },
       "confirming_sources": [
         {
-          "id": "afnews-en",
-          "name": "Africanews",
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
           "tier": 2,
-          "url": "http://www.africanews.com/2026/08/27/fear-and-mistrust-among-communities-undermine-ebola-response-efforts/"
+          "url": "https://allafrica.com/stories/202608270320.html"
         }
       ],
       "confirmation_count": 1
@@ -11897,6 +11979,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "2590318471",
+      "title": "Unpaid Arrears - Plateau Varsity Lecturers Begin Indefinite Strike",
+      "summary": "[Premium Times] Lecturers at Plateau State University, Bokkos, have declared an indefinite strike over unpaid salary-related arrears and other unresolved demands.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-27T09:43:45+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608270150.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608270150.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "e4e53fc72e",
       "title": "AI Is Already in Kenya's Classrooms. Is the Education System Ready?",
       "summary": "[Capital FM] Nairobi -- Artificial intelligence is already changing how Kenyan students learn, even as schools and universities race to determine how they should teach in an AI-enabled world.",
@@ -11988,38 +12102,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/sport/football/articles/cge4y57ygvdo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cea6a943a6",
-      "title": "Cameroun : quand Ahidjo dénonçait Biya et son « régime policier de terreur »",
-      "summary": "Le 27 août 1983, le premier président du pays démissionnait de la direction de l’Union nationale du Cameroun, le parti unique. La dernière étape d’un divorce politique spectaculaire avec son successeur, Paul Biya.",
-      "country": "CMR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-27T06:58:00+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1837847/politique/cameroun-quand-ahidjo-denoncait-biya-et-son-regime-policier-de-terreur/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1837847/politique/cameroun-quand-ahidjo-denoncait-biya-et-son-regime-policier-de-terreur/"
         }
       ],
       "confirmation_count": 1
