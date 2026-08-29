@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-28T18:40:04.897273+00:00",
+  "generated_at": "2026-08-29T02:10:29.731716+00:00",
   "stats": {
-    "total_signals": 517,
-    "verified_signals": 11,
+    "total_signals": 518,
+    "verified_signals": 12,
     "countries_covered": 30,
     "sources_active": 32,
     "per_country": {
-      "DZA": 14,
-      "AGO": 33,
-      "COD": 21,
-      "RWA": 8,
-      "UGA": 42,
+      "GIN": 3,
+      "KEN": 57,
+      "DZA": 15,
+      "UGA": 41,
+      "AGO": 34,
+      "COD": 22,
       "ZAF": 57,
       "MOZ": 37,
-      "NGA": 45,
-      "TUN": 7,
-      "ZWE": 5,
-      "GIN": 3,
-      "TZA": 36,
-      "KEN": 57,
-      "MLI": 22,
+      "NGA": 46,
+      "TUN": 6,
+      "ZWE": 4,
+      "TZA": 35,
+      "MLI": 23,
       "MAR": 39,
-      "SEN": 34,
-      "CMR": 4,
+      "SEN": 35,
+      "CMR": 5,
       "GAB": 4,
       "COG": 2,
+      "CIV": 15,
       "MWI": 2,
       "GHA": 4,
-      "CIV": 16,
+      "NER": 1,
+      "MDG": 3,
       "TGO": 1,
       "BFA": 4,
-      "MDG": 2,
+      "RWA": 6,
       "ZMB": 4,
       "BEN": 2,
       "ETH": 9,
-      "MRT": 1,
       "TCD": 2
     }
   },
@@ -234,6 +234,113 @@
   ],
   "signals": [
     {
+      "id": "1b674402d4",
+      "title": "Guinée : six corps découverts dans une fosse commune à Forécariah",
+      "summary": "La découverte de six corps dans une fosse commune à Forécariah, dans le sud-ouest de la Guinée, suscite de nombreuses interrogations. Les victimes, retrouvées le 24 août dans une zone forestière, avaient les mains ligotées et les yeux bandés.",
+      "country": "GIN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-28T19:27:50+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/28/guinee-six-corps-decouverts-dans-une-fosse-commune-a-forecariah/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/28/guinee-six-corps-decouverts-dans-une-fosse-commune-a-forecariah/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b918c51529",
+      "title": "Police fire teargas at Kenyan traders protesting higher taxes on imports",
+      "summary": "Kenyan police fired teargas at traders in the capital Nairobi on Friday, during a protest against higher taxes.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY"
+      ],
+      "lang": "en",
+      "published": "2026-08-28T19:02:40+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/police-fire-teargas-at-kenyan-traders-protesting-higher-taxes-on-imports?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/police-fire-teargas-at-kenyan-traders-protesting-higher-taxes-on-imports?traffic_source=rss"
+        },
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/28/kenyan-police-fire-teargas-to-disperse-protesting-small-scale-traders/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "17eb28cf73",
+      "title": "Algérie : au moins 12 morts dans des incendies meurtriers, Jijel dévastée",
+      "summary": "Alors que les flammes continuent de menacer les hauteurs de Jijel, les habitants commencent à évaluer l’étendue des dégâts sur leurs maisons, leurs récoltes et leur bétail.",
+      "country": "DZA",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY",
+        "AGRICULTURE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-28T17:51:46+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/28/incendies-meurtriers-dans-le-nord-est-de-lalgerie-deuil-national-decrete/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/28/incendies-meurtriers-dans-le-nord-est-de-lalgerie-deuil-national-decrete/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f4e2980b5f",
       "title": "Incendies en Algérie : des dizaines de morts et un discours officiel qui passe mal",
       "summary": "Des dizaines de morts, des victimes enterrées dans des fosses communes, des villages ravagés et un bilan qui pourrait être largement sous-estimé. Face à un nouvel été meurtrier, la colère gronde contre les autorités et contre le président Tebboune.",
@@ -302,6 +409,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "d9cf1fc778",
+      "title": "Parliament Raises Alarm Over Cancer Burden",
+      "summary": "[Nile Post] Parliament has raised alarm over Uganda's growing cancer burden, with the country registering more than 30,000 new cases and 18,000 deaths annually while operating only three radiotherapy machines.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T17:09:24+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280604.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280604.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d55685802a",
       "title": "Angola: a história pouco conhecida dos campos militares do ANC em Angola",
       "summary": "A África do Sul anunciou uma operação de repatriamento dos restos mortais de militantes anti-apartheid que morreram no exílio. As equipas de investigação sul-africanas identificaram em Angola 89 sepulturas e cerca de 400 locais destinados a escavações. Segundo Pretória, foi em Angola, então mergulhada numa guerra civil, que morreu o maior número de combatentes do ANC durante o regime do apartheid. Porque se deslocavam até Angola? Quais eram os seus laços com o MPLA, que…",
@@ -363,38 +502,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/28/lonu-reclame-11-milliard-de-dollars-pour-enrayer-lepidemie-debola-en-rdc/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "04b9ce4343",
-      "title": "Dutch court hands life sentence to Rwandan man for genocide role",
-      "summary": "Eugene N. was convicted for his part in a massacre at a stadium in which 3,000 Tutsis were slaughtered.",
-      "country": "RWA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T13:17:34+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/8/28/dutch-court-hands-life-sentence-to-rwandan-man-for-genocide-role?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/8/28/dutch-court-hands-life-sentence-to-rwandan-man-for-genocide-role?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -1494,41 +1601,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "4877f604d7",
-      "title": "Kenyan police fire tear gas at Nairobi protest against import duty hike",
-      "summary": "Traders frustrated by more than $5,000 duty hike they say will hurt small businesses.",
-      "country": "KEN",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY",
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-08-28T16:12:16+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/8/28/kenyan-police-fire-tear-gas-at-nairobi-protest-against-import-duty-hike?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/8/28/kenyan-police-fire-tear-gas-at-nairobi-protest-against-import-duty-hike?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "270efff016",
       "title": "‘We only tried to save our lives’: Algerians survey wildfire devastation",
       "summary": "Authorities recorded nearly 2,000 fires across Algeria in July alone, underscoring the growing challenge facing communities already vulnerable to extreme heat and dry conditions.",
@@ -1545,7 +1617,7 @@
         "PROPERTY"
       ],
       "lang": "en",
-      "published": "2026-08-28T15:58:00+00:00",
+      "published": "2026-08-28T17:58:43+00:00",
       "lead_source": {
         "id": "afnews-en",
         "name": "Africanews",
@@ -1579,7 +1651,7 @@
         "PROPERTY"
       ],
       "lang": "fr",
-      "published": "2026-08-28T15:51:29+00:00",
+      "published": "2026-08-28T17:52:42+00:00",
       "lead_source": {
         "id": "afnews-fr",
         "name": "Africanews FR",
@@ -1629,6 +1701,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "1c9c0305f8",
+      "title": "Ebola outbreak sparks concern over school reopening in DR Congo",
+      "summary": "Classes are due to resume nationwide on September 1, but in areas hit by the Ebola outbreak...",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-08-28T14:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/ebola-outbreak-sparks-concern-over-school-reopening-congo-5574682"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/ebola-outbreak-sparks-concern-over-school-reopening-congo-5574682"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d4ce260041",
       "title": "Soudan du Sud : la menace d’Ebola se rapproche de la frontière",
       "summary": "Le Soudan du Sud renforce sa surveillance face au risque de propagation de l’épidémie d’Ebola qui sévit en République démocratique du Congo.",
@@ -1658,74 +1764,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/28/soudan-du-sud-la-menace-debola-se-rapproche-de-la-frontiere/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e87fbc8851",
-      "title": "US Gives Uganda Experimental Ebola Treatment As DRC Outbreak Continues to Spread",
-      "summary": "[Nile Post] The United States has given Uganda doses of an experimental Ebola treatment as the country strengthens preparations against possible new infections from the Democratic Republic of Congo (DRC), where a major Bundibugyo virus outbreak continues to spread.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-28T14:05:29+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280485.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280485.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ec3f2dcf57",
-      "title": "Who, Africa CDC Declare Uganda Ebola-Free After 42-Day Countdown",
-      "summary": "[Nile Post] Uganda has officially been declared free of Ebola after completing 42 consecutive days without recording a new confirmed case, marking the end of the country's Bundibugyo virus outbreak.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-28T14:05:16+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280478.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280478.html"
         }
       ],
       "confirmation_count": 1
@@ -2170,72 +2208,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "10ae3f012a",
-      "title": "Defence Cash Crisis Puts Department At Risk of Collapse",
-      "summary": "[Scrolla] The Defence Department expects to overspend its employee compensation budget by R3.3-billion, with the shortfall projected to grow without urgent intervention.   Minister Angie Motshekga says ageing equipment, broken aircraft, affected ships and crumbling infrastructure show how badly underfunding has hit the military.",
-      "country": "ZAF",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-27T09:52:14+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608270202.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608270202.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "96b18dc408",
-      "title": "Ebola : l’Ouganda libéré, la RDC toujours confrontée à une flambée meurtrière",
-      "summary": "L’Organisation mondiale de la santé (OMS) a officiellement déclaré la fin de l’épidémie d’Ebola en Ouganda, après 42 jours sans nouveau cas de transmission. Une victoire sanitaire pour ce pays d’Afrique de l’Est, qui contraste toutefois avec la situation alarmante en RDC voisine.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-08-27T08:19:27+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/27/ebola-louganda-libere-la-rdc-toujours-confrontee-a-une-flambee-meurtriere/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/27/ebola-louganda-libere-la-rdc-toujours-confrontee-a-une-flambee-meurtriere/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "7947eb2cf8",
       "title": "WHO confirms Uganda Ebola-free, as virus continues to spread in DRC",
       "summary": "The World Health Organization has confirmed the end of Uganda’s Ebola outbreak, but the virus continues to spread in the DRC at a rate alarming health officials.",
@@ -2538,6 +2510,168 @@
       "confirmation_count": 1
     },
     {
+      "id": "fe78e3d550",
+      "title": "Sénégal: report de la déclaration de politique générale du Premier ministre devant l’Assemblée",
+      "summary": "Au Sénégal, le nouveau Premier ministre Al Aminou Lô ne pourra finalement pas prononcer sa déclaration de politique générale (DPG) le 1ᵉʳ septembre comme annoncé par décret par le président Bassirou Diomaye Faye. Dans un communiqué publié vendredi 28 août 2026, l’Assemblée nationale estime que plusieurs « confusions » entourent la démarche et les dates retenues.",
+      "country": "SEN",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-28T22:06:14+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260828-s%C3%A9n%C3%A9gal-report-de-la-d%C3%A9claration-de-politique-g%C3%A9n%C3%A9rale-du-premier-ministre-devant-l-assembl%C3%A9e"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260828-s%C3%A9n%C3%A9gal-report-de-la-d%C3%A9claration-de-politique-g%C3%A9n%C3%A9rale-du-premier-ministre-devant-l-assembl%C3%A9e"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "02b17e2171",
+      "title": "RD Congo, Félix Tshisekedi pose les bases du dialogue national",
+      "summary": "En RD Congo, le président congolais a officiellement lancé un « Dialogue national pour la paix, la cohésion et la refondation de l’État ». Ce dialogue était demandé par plusieurs franches de la classe politique congolaise.. L’annonce de Felix Tshisekedi, faite lors d’une adresse à la nation, était donc très attendus à Kinshasa.. Quels en seront les contours ?",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-28T21:09:02+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260828-rd-congo-f%C3%A9lix-tshisekedi-pose-les-bases-du-dialogue-national"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260828-rd-congo-f%C3%A9lix-tshisekedi-pose-les-bases-du-dialogue-national"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "691e5dce00",
+      "title": "RDC: la coalition C64 refuse le dialogue national proposé par Félix Tshisekedi",
+      "summary": "La tension monte au sein de la classe politique en RDC après le « oui » du président Félix Tshisekedi à un dialogue. Il était tant réclamé par l’opposition et les principales confessions religieuses du pays pour régler la crise sécuritaire dans l’Est et les tensions politiques. Mais en validant cette option, le président a fixé des lignes rouges et annoncé d'abord des consultations à travers le pays qui devraient aboutir à un dialogue. Aujourd’hui, la principale coalition…",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-28T20:15:27+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260828-rdc-la-coalition-c64-refuse-le-dialogue-national-propos%C3%A9-par-f%C3%A9lix-tshisekedi"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260828-rdc-la-coalition-c64-refuse-le-dialogue-national-propos%C3%A9-par-f%C3%A9lix-tshisekedi"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8442afbb57",
+      "title": "Cell C Earnings Jump 57 Percent As Debt Falls After Restructuring",
+      "summary": "[Daba Finance] South African mobile operator Cell C reported a 57.4% increase in full-year headline earnings as prepaid and wholesale revenue grew and a balance-sheet restructuring cut its debt. Headline earnings per share rose to R23.37 for the year ended May 31 from R14.85 a year earlier.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T18:50:24+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280635.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280635.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "38caeefc2c",
+      "title": "Kenya : les commerçants manifestent contre la hausse des taxes",
+      "summary": "Des petits commerçants ont fermé leurs boutiques et manifesté vendredi dans les rues de Nairobi pour dénoncer une hausse des taxes et des coûts liés aux importations. La police kényane a utilisé des gaz lacrymogènes pour disperser les protestataires.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": "FISCALITE",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "fr",
+      "published": "2026-08-28T18:27:41+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/08/28/kenya-les-commercants-manifestent-contre-la-hausse-des-taxes/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/08/28/kenya-les-commercants-manifestent-contre-la-hausse-des-taxes/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a2d5975d15",
       "title": "WAITING IN THE WINGS: Safa still to announce new Bafana Bafana coach as 2027 Afcon qualifiers loom",
       "summary": "The South African Football Association is in a tight spot as it negotiates with Pitso Mosimane to succeed Hugo Broos as Bafana Bafana boss. The federation has not moved quickly enough to find a successor for the Belgian, with the team set to begin African Cup of Nations qualification on 23 September.",
@@ -2702,6 +2836,44 @@
         }
       ],
       "confirmation_count": 1
+    },
+    {
+      "id": "1ca8d82523",
+      "title": "Wafu B Women's Champions League Qualifiers - Edo Queens, Ampem Darkoa Seal Semi-Final Places",
+      "summary": "[CAF] Nigeria's Edo Queens and Ghana's Ampem Darkoa Ladies have secured their places in the semi-finals of the WAFU B Women's Champions League qualifiers after maintaining perfect records through their opening two matches in Ouagadougou.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-28T16:14:08+00:00",
+      "lead_source": {
+        "id": "aa-civ",
+        "name": "AllAfrica · Côte d'Ivoire",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280563.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-civ",
+          "name": "AllAfrica · Côte d'Ivoire",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280563.html"
+        },
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280563.html"
+        }
+      ],
+      "confirmation_count": 2
     },
     {
       "id": "d4bb73fbe2",
@@ -3687,38 +3859,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "28662046c3",
-      "title": "RDC: Félix Tshisekedi fixe le cadre d'un dialogue national de trois mois",
-      "summary": "Le président congolais a officiellement lancé, jeudi 27 août 2026, un « Dialogue national pour la paix, la cohésion et la refondation de l’État ». Le processus commencera dans les 26 provinces avant des assises nationales à Kinshasa et ne devra pas dépasser trois mois. Majorité, opposition, société civile, confessions religieuses et de nombreuses catégories de la population doivent y être associées. Les acteurs qui continueront de combattre par les armes en seront exclus.",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-27T21:36:18+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260827-rdc-f%C3%A9lix-tshisekedi-fixe-le-cadre-d-un-dialogue-national-de-trois-mois"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260827-rdc-f%C3%A9lix-tshisekedi-fixe-le-cadre-d-un-dialogue-national-de-trois-mois"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "483d2fa5fa",
       "title": "Pourquoi les négociations entre Patrick Vieira et la Fédération sénégalaise de football s’éternisent",
       "summary": "Patrick Vieira n’a toujours pas signé son contrat de sélectionneur du Sénégal. Des détails restent à régler, dans un contexte tendu entre la fédération et Pape Thiaw, l’ancien coach de l’équipe.",
@@ -3749,44 +3889,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "4676ff8cd1",
-      "title": "Au Sénégal, le pari d'un traitement contre la drépanocytose fabriqué en Afrique",
-      "summary": "L'Afrique concentre près de 80 % de l'ensemble des cas de drépanocytose dans le monde. Aujourd'hui, le premier médicament générique fabriqué en Afrique pour traiter cette maladie fait naître l'espoir d'un meilleur traitement et d'une dépendance moindre vis-à-vis des médicaments onéreux importés d'Europe et d'Amérique.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-27T15:35:28+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260827-au-s%C3%A9n%C3%A9gal-le-pari-d-un-traitement-contre-la-dr%C3%A9panocytose-fabriqu%C3%A9-en-afrique"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260827-au-s%C3%A9n%C3%A9gal-le-pari-d-un-traitement-contre-la-dr%C3%A9panocytose-fabriqu%C3%A9-en-afrique"
-        },
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/26/au-senegal-le-pari-tant-espere-dun-traitement-local-contre-la-drepanocytose/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "acbe548a41",
@@ -4125,38 +4227,6 @@
         }
       ],
       "confirmation_count": 2
-    },
-    {
-      "id": "cb97c40776",
-      "title": "Zimbabwe : un responsable local inculpé après le naufrage du lac Kariba",
-      "summary": "La police zimbabwéenne a annoncé mercredi avoir arrêté un responsable local, inculpé d'homicide involontaire, à la suite du naufrage d'un ferry public qui a coûté la vie à au moins 97 personnes.",
-      "country": "ZWE",
-      "category": "SINISTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-27T07:50:33+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/08/27/zimbabwe-un-responsable-local-inculpe-apres-le-naufrage-du-lac-kariba/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/08/27/zimbabwe-un-responsable-local-inculpe-apres-le-naufrage-du-lac-kariba/"
-        }
-      ],
-      "confirmation_count": 1
     },
     {
       "id": "46882bb2b1",
@@ -4846,6 +4916,268 @@
       "confirmation_count": 1
     },
     {
+      "id": "519e512663",
+      "title": "Tuareg rebels free more Malian soldiers in prisoner swap, sources say",
+      "summary": "Tuareg rebels have freed about 60 Malian soldiers in exchange for one of their own leaders, security sources said.",
+      "country": "MLI",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "en",
+      "published": "2026-08-29T01:50:03+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/8/29/tuareg-rebels-free-more-malian-soldiers-in-prisoner-swap-sources-say?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/8/29/tuareg-rebels-free-more-malian-soldiers-in-prisoner-swap-sources-say?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e4ef8ce56f",
+      "title": "Gunfire, blasts heard in several areas of Niger capital Niamey",
+      "summary": "Shots were heard around the city's Diori Hamani International Airport, and near the presidential palace.",
+      "country": "NER",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "en",
+      "published": "2026-08-29T01:30:08+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/8/29/gunfire-blasts-heard-in-several-areas-of-niger-capital-niamey?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/8/29/gunfire-blasts-heard-in-several-areas-of-niger-capital-niamey?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5c1f8614a1",
+      "title": "25 milhões para regadios afetados pelas tempestades",
+      "summary": "O novo apoio, financiado pelo OE, destina-se à reparação das infraestruturas afetadas. Em visita a Lagos, reforçou importância da agricultura algarvia e necessidade de diminuir défice agroalimentar.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-08-28T22:17:49+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/08/28/governo-lanca-aviso-de-25-milhoes-para-reparar-regadios-afetados-pelo-comboio-de-tempestades-elevando-apoio-total-a-60-milhoes/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/08/28/governo-lanca-aviso-de-25-milhoes-para-reparar-regadios-afetados-pelo-comboio-de-tempestades-elevando-apoio-total-a-60-milhoes/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "58138f5593",
+      "title": "Histoire de la nuit africaine: à Antananarivo, 15 ans de fête et de brassage culturel au Jao's Pub[9/10]",
+      "summary": "À Antananarivo, sur les Hautes Terres, une salle de concert fait résonner depuis quinze ans maintenant les sonorités et les rythmes des côtes malgaches, bien au-delà de leurs régions d’origine. Jaojoby et sa fille Eusébia sont les rois et reines du salegy, le genre de musique traditionnelle le plus populaire sur l’île. En 2011, ils ouvrent l’emblématique Jao’s Pub, devenu un lieu de rayonnement culturel et un tremplin pour de nombreux artistes.",
+      "country": "MDG",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-28T22:04:05+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260828-histoire-de-la-nuit-africaine-%C3%A0-antananarivo-15-ans-de-f%C3%AAte-et-de-brassage-culturel-au-jao-s-pub-9-10"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260828-histoire-de-la-nuit-africaine-%C3%A0-antananarivo-15-ans-de-f%C3%AAte-et-de-brassage-culturel-au-jao-s-pub-9-10"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "96d231553c",
+      "title": "Nigeria: des jihadistes assiègent une ville du nord-est, l'armée ordonne un couvre-feu",
+      "summary": "Des jihadistes nigérians assiègent depuis trois jours une ville de l'État de Yobe, dans le nord-est du Nigeria, tandis que les forces armées maintiennent un couvre-feu 24 heures sur 24, contraignant les habitants à rester chez eux, ont déclaré vendredi à l'AFP des sources militaires et des habitants.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-28T22:01:03+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260828-nigeria-des-jihadistes-assi%C3%A8gent-une-ville-du-nord-est-l-arm%C3%A9e-ordonne-un-couvre-feu"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260828-nigeria-des-jihadistes-assi%C3%A8gent-une-ville-du-nord-est-l-arm%C3%A9e-ordonne-un-couvre-feu"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7f8ade4b2e",
+      "title": "PIB de Angola sobe 8,74% no 2.º trimestre",
+      "summary": "Setor não petrolífero avançou 9,24% e o petrolífero 5,64%. No acumulado de 2026, a economia angolana cresce 7,15% face ao mesmo período de 2025.",
+      "country": "AGO",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-08-28T21:18:33+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/08/28/pib-de-angola-cresce-874-no-segundo-trimestre-de-2026-impulsionado-pelo-setor-nao-petrolifero/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/08/28/pib-de-angola-cresce-874-no-segundo-trimestre-de-2026-impulsionado-pelo-setor-nao-petrolifero/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7ca8ea8836",
+      "title": "Marc Alexandre Oho Bambe : un nouveau recueil de poésie et un nouvel album",
+      "summary": "Poète, romancier, slameur et désormais plus que jamais musicien : Marc Alexandre Oho Bambe, alias Capitaine Alexandre, est l’invité du Journal de l’Afrique.\n\nÀ 50 ans, l’artiste né à Douala ouvre un nouveau chapitre de sa création. Côté littérature, il publie chez Mémoire d’encrier Poèmes de plein jour et mots mantras pour traverser la nuit, des textes pour affronter les vertiges de notre époque sans renoncer à la lumière.\n\nCôté musique, il change de tempo avec Salsa…",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-28T20:23:21+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260828-marc-alexandre-oho-bambe-un-nouveau-recueil-de-po%C3%A9sie-et-un-nouvel-album"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260828-marc-alexandre-oho-bambe-un-nouveau-recueil-de-po%C3%A9sie-et-un-nouvel-album"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6f63dc369f",
+      "title": "Faye, Diop Set Ecowas Agenda As Bloc Faces Sahel Split",
+      "summary": "[Daba Finance] Senegalese President Bassirou Diomaye Faye and incoming ECOWAS Commission President Birame Diop have set out priorities for the West African bloc as it works on a common currency, security cooperation and trade after the departure of 3 member states. Faye, who became ECOWAS chairman in July, met Diop in Dakar on August 27 ahead of the former Senegalese defense minister taking office on September 1.",
+      "country": "SEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-28T18:50:26+00:00",
+      "lead_source": {
+        "id": "aa-sen",
+        "name": "AllAfrica · Sénégal",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280637.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-sen",
+          "name": "AllAfrica · Sénégal",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280637.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "1d303da03c",
       "title": "Tunisie : la Kharja, une tradition soufie de Sidi Bou Saïd qui résiste au temps",
       "summary": "🇹🇳 À Sidi Bou Saïd, la Kharja fait vivre une tradition soufie séculaire. Désormais inscrit au patrimoine mondial de l’UNESCO, le célèbre village tunisien voit ainsi reconnues ses maisons blanches et bleues, mais aussi ses traditions spirituelles.",
@@ -5334,6 +5666,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "9920f6f9b2",
+      "title": "Today in History - Kabaka Mutebi II Marries Sylvia Nagginda",
+      "summary": "[Nile Post] On August 27, 1999, Buganda witnessed one of the most significant royal occasions in its modern history when Kabaka Ronald Muwenda Mutebi II married Sylvia Nagginda Luswata at St. Paul's Cathedral, Namirembe.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T17:09:25+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280605.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280605.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "39186daaeb",
+      "title": "Tooro Kingdom Says King Oyo Is in Critical Condition",
+      "summary": "[Nile Post] The Tooro Kingdom has confirmed that King Oyo Nyimba Kabamba Iguru Rukidi IV is in a critical condition, putting to rest earlier rumours that the monarch had died.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T17:09:23+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280603.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280603.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "82c990d802",
       "title": "RDC : le corridor de Lobito, catalyseur ou menace pour l’économie congolaise ?",
       "summary": "La signature du contrat de concession du tronçon congolais du mégaprojet qui vise à exploiter les ressources minières de la RDC, de l’Angola et de la Zambie marque une étape majeure. Mais l’incertitude demeure sur son impact local.",
@@ -5585,38 +5981,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608280574.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1ca8d82523",
-      "title": "Wafu B Women's Champions League Qualifiers - Edo Queens, Ampem Darkoa Seal Semi-Final Places",
-      "summary": "[CAF] Nigeria's Edo Queens and Ghana's Ampem Darkoa Ladies have secured their places in the semi-finals of the WAFU B Women's Champions League qualifiers after maintaining perfect records through their opening two matches in Ouagadougou.",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-28T16:14:08+00:00",
-      "lead_source": {
-        "id": "aa-civ",
-        "name": "AllAfrica · Côte d'Ivoire",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280563.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-civ",
-          "name": "AllAfrica · Côte d'Ivoire",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280563.html"
         }
       ],
       "confirmation_count": 1
@@ -5937,38 +6301,6 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-facim-grounds-95-ready-ahead-of-61st-edition/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "65ecf53770",
-      "title": "NIC Life Pays Out Shs30m to Family of Ugandan Migrant Worker Who Died in Dubai",
-      "summary": "[Nile Post] NIC Life Assurance, in partnership with Spades Insurance Brokers, has paid Shs30 million in compensation to the family of a Ugandan migrant worker who died in Dubai.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T14:05:22+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280480.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280480.html"
         }
       ],
       "confirmation_count": 1
@@ -7592,38 +7924,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "12f2885cf5",
-      "title": "US to Revoke 200,000 Visas",
-      "summary": "[Daily Trust] The US is set to revoke no fewer than 200,000 visas, according to the Department of State.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T10:54:55+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280226.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280226.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "ecc7b6c0ea",
       "title": "Afrique du Sud : une première obligation souveraine verte envisagée d’ici à mars 2027",
       "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
@@ -7982,6 +8282,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "33e0290401",
+      "title": "Interview - COP17: Cross River Lawmaker Calls for Stronger Laws to Protect Nigeria's Land, Wildlife",
+      "summary": "[Premium Times] A member of the Cross River State House of Assembly, Martins Archadu, says his participation at the ongoing 17th session of the UNCCD COP17 in Mongolia has exposed gaps in Nigeria's environmental policies and shown how stronger legislation could improve land restoration, biodiversity conservation and environmental management.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T10:32:19+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280201.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280201.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9e4b9a1598",
+      "title": "Otti Assures Deceased Pensioners' Families As Abia Begins N60bn Gratuity Payments",
+      "summary": "[Vanguard] UMUAHIA -- Governor Alex Otti of Abia State has assured the next-of-kin of deceased pensioners that his administration will pay benefits due to their late relatives as the state begins clearing more than N60 billion in outstanding gratuity liabilities.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T10:30:52+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280199.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280199.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "87c90f1a48",
       "title": "Faith With Actions - Cherotich Hungry, Thirst for Third Straight Diamond League Trophy",
       "summary": "[Capital FM] NAIROBI -- Kenyan youngster Faith Cherotich has set her sights on winning the Diamond League trophy at next week's season finale in Brussels.",
@@ -8078,38 +8442,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c3d16cfb10",
-      "title": "Media Alert - Portfolio Committee On Higher Education to Host Colloquium On Student Accommodation",
-      "summary": "[Parliament of South Africa] The Portfolio Committee on Higher Education and Training will tomorrow, Friday, 28 August 2026, host a colloquium on student accommodation in post-school education.",
-      "country": "ZAF",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T10:26:21+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280185.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280185.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "e89411b7ea",
       "title": "Media Statement - Cogta Committee to Set Out Next Steps for Processing Coalitions Bill",
       "summary": "[Parliament of South Africa] The Portfolio Committee on Cooperative Governance and Traditional Affairs on Thursday received its first substantive briefing on the Local Government: Municipal Structures Amendment Bill of 2026, commonly referred to as the Municipal Coalitions Bill.",
@@ -8169,38 +8501,6 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608280173.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "615050f4c0",
-      "title": "Owed Workers Allegedly Attempt Selling Employer's Child - Naptip",
-      "summary": "[Premium Times] According to an official, the suspects claimed they had worked for their employer for about three months without receiving their wages.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T10:09:27+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280171.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280171.html"
         }
       ],
       "confirmation_count": 1
@@ -8956,38 +9256,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2cd8fc4d60",
-      "title": "Nigeria Commiserates With Nepal Over Landslides, Flash Floods",
-      "summary": "[Vanguard] The Federal Government has commiserated with the Government and people of Nepal following devastating landslides and flash floods along the Nepal-Tibet border, which resulted in loss of lives, destruction and displacement of communities.",
-      "country": "NGA",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T07:28:44+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280123.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280123.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "355683973b",
       "title": "North Not Against President - Governor Sani Predicts 80% of Kaduna Votes for Tinubu",
       "summary": "[Vanguard] Kaduna State Governor, Uba Sani, has dismissed claims that northern voters are turning against President Bola Tinubu ahead of the 2027 presidential election, predicting that the President could secure between 70 and 80 per cent of votes cast in Kaduna State.",
@@ -9344,6 +9612,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "f2e8ea2c8e",
+      "title": "Thousands Wait As Gauteng Pushes for More Organ Donors",
+      "summary": "[Scrolla] About 1,100 Gauteng patients need kidney transplants or are being assessed to join the waiting list, according to the provincial health department.   Only 317 organ transplants were carried out across South Africa in 2024 while about 6,500 patients currently need organ and tissue transplants.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T06:00:23+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280088.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280088.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "823fcbb23c",
       "title": "Science Training Helps Tanzanian Banana Farmers Curb Virus",
       "summary": "[SciDev.Net] This article is supported by SIDA",
@@ -9471,6 +9771,38 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/28/sa-court-postpones-extradition-hearing-of-uk-man-charged-with-murdering-family/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8ae77b26ca",
+      "title": "Government Closes Musina Temporary Repatriation Centre",
+      "summary": "[SAnews.gov.za] Government has closed the Musina Temporary Repatriation Processing Centre in Limpopo after processing nearly 49 000 foreign nationals since the facility was established in June.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T05:27:08+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280084.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280084.html"
         }
       ],
       "confirmation_count": 1
@@ -9667,6 +9999,38 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608280041.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "253d0da0ba",
+      "title": "Nairobi Identifies 16 Flood Hotspots As County Steps Up El Ni&#xF1;o Preparations",
+      "summary": "[Capital FM] Nairobi -- Nairobi has intensified preparations for the anticipated El Niño rains, with Governor Johnson Sakaja saying multi-agency teams have been mobilised to minimise flooding and other emergencies.",
+      "country": "KEN",
+      "category": "CLIMAT",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T04:13:25+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280039.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280039.html"
         }
       ],
       "confirmation_count": 1
@@ -9962,38 +10326,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "5aad7a0593",
-      "title": "OCI : Ismail Ould Cheikh Ahmed, la victoire diplomatique de la Mauritanie",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "MRT",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-27T20:26:59+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/08/27/oci-ismail-ould-cheikh-ahmed-la-victoire-diplomatique-de-la-mauritanie/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/08/27/oci-ismail-ould-cheikh-ahmed-la-victoire-diplomatique-de-la-mauritanie/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "4b078b93a1",
       "title": "Football en Côte d’Ivoire : A’Salfo s’offre son club",
       "summary": "Le ballon rond ivoirien est – aussi – une affaire de pouvoir et d’influence. Le leader de Magic System vient de racheter un club abidjanais. Il suit ainsi l’exemple de toute une série de ministres, de députés ou d’hommes d’affaires.",
@@ -10245,6 +10577,38 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608270584.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4676ff8cd1",
+      "title": "Au Sénégal, le pari d'un traitement contre la drépanocytose fabriqué en Afrique",
+      "summary": "L'Afrique concentre près de 80 % de l'ensemble des cas de drépanocytose dans le monde. Aujourd'hui, le premier médicament générique fabriqué en Afrique pour traiter cette maladie fait naître l'espoir d'un meilleur traitement et d'une dépendance moindre vis-à-vis des médicaments onéreux importés d'Europe et d'Amérique.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-27T15:35:28+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260827-au-s%C3%A9n%C3%A9gal-le-pari-d-un-traitement-contre-la-dr%C3%A9panocytose-fabriqu%C3%A9-en-afrique"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260827-au-s%C3%A9n%C3%A9gal-le-pari-d-un-traitement-contre-la-dr%C3%A9panocytose-fabriqu%C3%A9-en-afrique"
         }
       ],
       "confirmation_count": 1
@@ -10602,40 +10966,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "82f6dfee78",
-      "title": "Thai National Arrested At or Tambo With 50 Suspected Parrot Eggs",
-      "summary": "[SAnews.gov.za] A 50-year-old Thai national has been arrested at OR Tambo International Airport after allegedly attempting to smuggle 50 parrot eggs out of South Africa in a homemade incubator bag.",
-      "country": "ZAF",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AVIATION"
-      ],
-      "lang": "en",
-      "published": "2026-08-27T12:11:48+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608270462.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608270462.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6ab0f1faad",
       "title": "Power Won At Ballot Box Must Be Exercised Within Constitutional Limits - Ruto",
       "summary": "[Capital FM] Nairobi -- President William Ruto has said an electoral mandate does not give an elected government unlimited authority, insisting that power secured at the ballot box must always be exercised within the confines of the Constitution.",
@@ -10759,40 +11089,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260827-l-%C3%A9thiopie-met-en-place-un-nouveau-syst%C3%A8me-de-cartes-d-identit%C3%A9s-pour-r%C3%A9fugi%C3%A9s"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b31fbf87ac",
-      "title": "Ebola en RDC: un dispositif pour renforcer les contrôles le long du fleuve Congo",
-      "summary": "La République démocratique du Congo (RDC) veut accentuer sa surveillance épidémiologique à travers le dispositif « Fleuve Congo sans Ebola », avec le soutien de l’Organisation internationale pour les migrations (OIM).",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-08-27T11:34:54+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260827-ebola-en-rdc-un-dispositif-pour-renforcer-les-contr%C3%B4les-le-long-du-fleuve-congo"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260827-ebola-en-rdc-un-dispositif-pour-renforcer-les-contr%C3%B4les-le-long-du-fleuve-congo"
         }
       ],
       "confirmation_count": 1
@@ -11157,38 +11453,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/27/ouganda-larmee-en-demonstration-avant-un-deploiement-controverse-a-gaza/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e4e53fc72e",
-      "title": "AI Is Already in Kenya's Classrooms. Is the Education System Ready?",
-      "summary": "[Capital FM] Nairobi -- Artificial intelligence is already changing how Kenyan students learn, even as schools and universities race to determine how they should teach in an AI-enabled world.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-27T09:42:46+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608270149.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608270149.html"
         }
       ],
       "confirmation_count": 1
@@ -11772,38 +12036,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b2b7703012",
-      "title": "Senegalese company produces first Africa-made treatment for sickle cell disease",
-      "summary": "Africa accounts for nearly 80 per cent of cases of the inherited red blood cell disorder but has relied on expensive imported medication.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-26T20:04:37+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/26/senegalese-company-produces-first-africa-made-treatment-for-sickle-cell-disease/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/26/senegalese-company-produces-first-africa-made-treatment-for-sickle-cell-disease/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "31a04f79f6",
       "title": "Parrot eggs hatch after suspected Thai smuggler arrested at South African airport",
       "summary": "A 50-year-old Thai suspect was arrested with the eggs in a \"homemade incubator\" carried as hand luggage.",
@@ -11904,38 +12136,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "4c17eb5c67",
-      "title": "Tunisian coastal town mourn death of residents who drowned at sea",
-      "summary": "Funerals have taken place for 8 of the 15 migrants who drowned after the boat they were in sank in the Meditteranean.",
-      "country": "TUN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-26T17:08:29+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/26/tunisian-coastal-town-mourn-death-of-residents-who-drowned-at-sea/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/26/tunisian-coastal-town-mourn-death-of-residents-who-drowned-at-sea/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "23b5ab7bf9",
       "title": "INSS Strengthens Staff Technical Skills Following Corruption Scandals",
       "summary": "[AIM] Maputo -- Mozambique's National Social Security Institute (INSS) has decided to strengthen technical skills of employees involved in public procurement processes, at a time when the sector is facing new legal challenges following corruption scandals involving the institute's high-ranking officials.",
@@ -12029,40 +12229,6 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-resists-eac-deferral-on-vehicle-assembly-rules-5572134"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9cc01b180f",
-      "title": "Kenyan farmers use fertiliser made by bugs to reverse soil degradation",
-      "summary": "Redworms and black soldier fly larvae are turning organic waste into compost that is better for the soil and improves productivity.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "en",
-      "published": "2026-08-26T14:31:23+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/08/26/kenyan-farmers-use-fertiliser-made-by-bugs-to-reverse-soil-degradation/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/26/kenyan-farmers-use-fertiliser-made-by-bugs-to-reverse-soil-degradation/"
         }
       ],
       "confirmation_count": 1
@@ -13605,74 +13771,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c8607297d6",
-      "title": "En RD Congo, une première mission de vérification du cessez-le-feu dans l'Est",
-      "summary": "Alors que l'armée congolaise et le groupe politico-militaire AFC/M23, soutenu par le Rwanda, se sont mutuellement accusés d'exactions lundi, une première mission régionale de vérification d'un fragile cessez-le-feu entre les belligérants s'est déployée dans l'est de la République démocratique du Congo.",
-      "country": "RWA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "fr",
-      "published": "2026-08-24T16:05:53+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260824-en-rd-congo-une-premi%C3%A8re-mission-de-v%C3%A9rification-du-cessez-le-feu-dans-l-est"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260824-en-rd-congo-une-premi%C3%A8re-mission-de-v%C3%A9rification-du-cessez-le-feu-dans-l-est"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "adc207cf07",
-      "title": "Guinée : deux ministres proches du président limogés sur fond de lutte anticorruption",
-      "summary": "🇬🇳 En Guinée, deux ministres proches du président Mamadi Doumbouya ont été limogés vendredi. Mory Condé, chargé de l’Emploi, et Mourana Soumah, à la Communication quittent leurs fonctions sans détails sur les motifs de cette décision. Quelques heures plus tard, le chef de l’État a réaffirmé sur Facebook sa volonté de lutter contre la corruption.",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY"
-      ],
-      "lang": "fr",
-      "published": "2026-08-24T15:41:57+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260824-guin%C3%A9e-deux-ministres-proches-du-pr%C3%A9sident-limog%C3%A9s-sur-fond-de-lutte-anticorruption"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260824-guin%C3%A9e-deux-ministres-proches-du-pr%C3%A9sident-limog%C3%A9s-sur-fond-de-lutte-anticorruption"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "3488dd12e1",
       "title": "Angola Takes Part in US-Africa Nuclear Energy Summit",
       "summary": "[ANGOP] Luanda -- An Angolan delegation participated in the US-Africa Nuclear Energy Summit 2026 (USANES 2026), held in Accra, Ghana, from 19 to 21 August, which examined the development of nuclear energy for peaceful purposes across the continent, with a focus on workforce training, safety and institutional capacity-building.",
@@ -14060,38 +14158,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/sport/athletics/articles/c9989lm0vkro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "64d898c45c",
-      "title": "Tanzania leapfrogs Uganda in informal trade with Kenya as food shortages bite",
-      "summary": "Imports more than doubled from $426,386 in December 2024 to $974,818 in June 2025.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-23T08:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/tanzania-leapfrogs-uganda-in-informal-trade-with-kenya-5566954"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/tanzania-leapfrogs-uganda-in-informal-trade-with-kenya-5566954"
         }
       ],
       "confirmation_count": 1
@@ -17087,38 +17153,6 @@
           "name": "AllAfrica · Côte d'Ivoire",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607290298.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4a0ff0d5cf",
-      "title": "Over 400 Liberians Left Homeless After Demolition of Communities Outside Abidjan",
-      "summary": "[FrontPageAfrica] Abidjan -- More than 400 Liberian nationals have been left homeless and stranded after a large-scale demolition exercise carried out by Ivorian authorities destroyed hundreds of homes in the Vridi Canal community on the outskirts of Abidjan, according to leaders of the Liberian diaspora in Côte d'Ivoire.",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-28T10:35:08+00:00",
-      "lead_source": {
-        "id": "aa-civ",
-        "name": "AllAfrica · Côte d'Ivoire",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607280180.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-civ",
-          "name": "AllAfrica · Côte d'Ivoire",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607280180.html"
         }
       ],
       "confirmation_count": 1
