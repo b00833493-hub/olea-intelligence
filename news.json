@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-30T00:18:55.296264+00:00",
+  "generated_at": "2026-08-30T06:38:40.268095+00:00",
   "stats": {
-    "total_signals": 507,
-    "verified_signals": 11,
+    "total_signals": 500,
+    "verified_signals": 8,
     "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
-      "GIN": 5,
+      "CMR": 5,
+      "GIN": 4,
       "DZA": 14,
-      "COD": 15,
-      "NER": 12,
-      "ZAF": 57,
-      "NGA": 42,
-      "AGO": 36,
+      "AGO": 35,
+      "COD": 16,
       "UGA": 38,
       "MOZ": 38,
+      "NGA": 39,
       "TUN": 4,
-      "TZA": 36,
+      "ZAF": 57,
+      "TZA": 35,
       "KEN": 57,
       "MLI": 23,
       "MAR": 37,
-      "SEN": 32,
+      "GAB": 2,
+      "NER": 11,
       "ETH": 9,
       "COG": 2,
-      "GAB": 1,
-      "CMR": 4,
-      "CIV": 13,
+      "SEN": 29,
+      "MDG": 2,
+      "CIV": 11,
       "MWI": 2,
-      "ZWE": 3,
+      "ZWE": 4,
       "GHA": 4,
+      "CAF": 1,
       "BEN": 3,
-      "MRT": 1,
       "RWA": 7,
       "BFA": 4,
       "TGO": 1,
-      "MDG": 1,
       "ZMB": 4,
       "TCD": 2
     }
@@ -235,6 +235,40 @@
   ],
   "signals": [
     {
+      "id": "8ec930d19a",
+      "title": "Turkiye, Somalia forces free cargo vessel hijacked by pirates",
+      "summary": "Somali authorities say 14 pirates were killed in the 10-day operation to free a Cameroon-flagged cargo vessel.",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "en",
+      "published": "2026-08-30T00:16:58+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/8/30/turkiye-somalia-forces-frees-cargo-vessel-hijacked-by-pirates?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/8/30/turkiye-somalia-forces-frees-cargo-vessel-hijacked-by-pirates?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "0310578104",
       "title": "Éboulement d'une décharge en Guinée: visite du président Doumbouya auprès de la population endeuillée",
       "summary": "Une semaine après l’éboulement meurtrier de la décharge de Dar-es-Salam, le président guinéen Mamadi Doumbouya s’est rendu samedi 29 août sur les lieux du drame. Accompagné de plusieurs membres du gouvernement, le chef de l’État est venu constater l’ampleur des dégâts, exprimer sa compassion aux familles des victimes et suivre les opérations engagées par les autorités. Cette visite intervient alors que les opérations de démolition des habitations situées aux abords de la…",
@@ -294,150 +328,6 @@
           "name": "Al Jazeera",
           "tier": 1,
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/08-29-26-algeria-wildfires-sv?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c4d4b3eb18",
-      "title": "DR Congo begins vaccinating against largest and deadliest Ebola outbreak",
-      "summary": "70,000 Ervebo vaccine doses have been sent to DR Congo in hope they prove effective against the Bundibugyo strain.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-08-29T18:13:05+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/dr-congo-begins-vaccinating-against-largest-and-deadliest-ebola-outbreak?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/dr-congo-begins-vaccinating-against-largest-and-deadliest-ebola-outbreak?traffic_source=rss"
-        },
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/28/dr-congo-begins-ebola-vaccinations-as-deadliest-outbreak-on-record-spreads/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
-      "id": "37a24fbc22",
-      "title": "Niger military says it is regaining control after attempted mutiny",
-      "summary": "Niger’s military says it is regaining control after a mutiny in Niamey after gun fire was heard in the capital.",
-      "country": "NER",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY"
-      ],
-      "lang": "en",
-      "published": "2026-08-29T17:03:10+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/08-29-26-niger-mutiny-sv?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/08-29-26-niger-mutiny-sv?traffic_source=rss"
-        },
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/08/29/niger-military-gradually-regaining-control-after-mutiny/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
-      "id": "c0ec6eb81c",
-      "title": "Éboulement d’une décharge en Guinée: les familles prises de court face aux opérations de «casse»",
-      "summary": "En Guinée, un éboulement de la décharge du quartier de Dar-es-Salam a fait au moins 34 morts et de nombreux blessés dans la nuit de samedi au dimanche 23 août. Les autorités guinéennes ont entamé des opérations de « casse » pour dégager le périmètre de la décharge. Les familles sont prises de court et racontent la peur et les pertes subies.",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-29T10:58:00+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260829-%C3%A9boulement-d%C3%A9charge-guin%C3%A9e-deguerpissage-casse-maisons-familles-prises-de-court"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260829-%C3%A9boulement-d%C3%A9charge-guin%C3%A9e-deguerpissage-casse-maisons-familles-prises-de-court"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b14df3b6d2",
-      "title": "Afrique du Sud: la nouvelle enquête sur l'assassinat de Steve Biko a débuté",
-      "summary": "En Afrique du Sud, la nouvelle enquête sur la mort du militant anti-apartheid Steve Biko a finalement débuté. Le fondateur du mouvement de la Conscience noire est mort en 1977, à 30 ans, entre les mains de la police. Les autorités avaient, à l’époque, bouclé le dossier, affirmant que l’homme s’était blessé lors d’une altercation pendant un interrogatoire. Et bien que des agents aient reconnu avoir menti devant la Commission Vérité et Réconciliation dans les années 90, la…",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-29T06:46:09+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260829-afrique-du-sud-nouvelle-enqu%C3%AAte-assassinat-steve-biko-a-d%C3%A9but%C3%A9"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260829-afrique-du-sud-nouvelle-enqu%C3%AAte-assassinat-steve-biko-a-d%C3%A9but%C3%A9"
         }
       ],
       "confirmation_count": 1
@@ -504,38 +394,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/08/29/algerie-les-victimes-des-incendies-meurtriers-de-jijel-enterrees/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "facfb61d1c",
-      "title": "Nigeria: des bandits attaquent des familles indemnisées après un naufrage dans l’État de Sokoto",
-      "summary": "Au Nigeria, au moins cinq personnes ont été tuées et plusieurs autres kidnappées lors de l’attaque de deux villages de l’État de Sokoto, dans le nord-ouest du pays. Des bandits s’en sont pris aux familles de victimes d’un accident de bateau survenu jeudi 20 août 2026, au cours duquel 65 personnes ont perdu la vie. Le gouvernement de l’État avait indemnisé les familles, ce qui aurait attisé la convoitise des criminels. Les forces de sécurité sont rapidement intervenues et…",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-29T02:09:55+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260829-nigeria-des-bandits-attaquent-des-familles-indemnis%C3%A9es-apr%C3%A8s-un-naufrage-dans-l-%C3%A9tat-de-sokoto"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260829-nigeria-des-bandits-attaquent-des-familles-indemnis%C3%A9es-apr%C3%A8s-un-naufrage-dans-l-%C3%A9tat-de-sokoto"
         }
       ],
       "confirmation_count": 1
@@ -907,6 +765,40 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/08/28/algeria-declares-3-days-of-national-mourning-as-wildfire-death-toll-rises-to-12/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "11e7f22943",
+      "title": "DR Congo begins Ebola vaccinations as deadliest outbreak on record spreads",
+      "summary": "Authorities are therefore using Ervebo under a compassionate-use programme while researchers gather data on whether it can protect against the current strain.",
+      "country": "COD",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-08-28T08:49:40+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/28/dr-congo-begins-ebola-vaccinations-as-deadliest-outbreak-on-record-spreads/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/28/dr-congo-begins-ebola-vaccinations-as-deadliest-outbreak-on-record-spreads/"
         }
       ],
       "confirmation_count": 1
@@ -1566,44 +1458,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7d179872ee",
-      "title": "Senegal's Diomaye Faye On a Visit to Mali, His First As Ecowas' President",
-      "summary": "[RFI] Senegalese President Bassirou Diomaye Faye is in Bamako this Tuesday for a one-day working visit. He is travelling there in a dual capacity, as Head of State of Senegal and current Chair of ECOWAS. He is scheduled to hold talks with his Malian counterpart, Assimi Goïta, just days after launching his own political party in Dakar.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-29T07:28:37+00:00",
-      "lead_source": {
-        "id": "aa-sen",
-        "name": "AllAfrica · Sénégal",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607290008.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-sen",
-          "name": "AllAfrica · Sénégal",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607290008.html"
-        },
-        {
-          "id": "aa-mli",
-          "name": "AllAfrica · Mali",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607290008.html"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "7ef265e672",
       "title": "Ebola misinformation fuels violent attacks on health workers",
       "summary": "BBC Verify looks at multiple incidents linked to misinformation during latest Ebola outbreak, which has infected more than 1,700 people and killed 580 in DR Congo since mid-May.",
@@ -1633,6 +1487,106 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/videos/cx2jv3vgy5lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5d7e7b7228",
+      "title": "Guinée-Bissau: les électeurs appelés aux urnes pour un référendum constitutionnel",
+      "summary": "Les Bissau-Guinéens sont appelés à voter dimanche 30 août 2026 pour ou contre une réforme de leur Constitution, qui doit faire passer le pays d’un régime semi-parlementaire à un régime présidentiel fort. Un scrutin organisé alors que le pays est dirigé par une junte militaire depuis le coup d’État de novembre dernier. Ce référendum constitue une étape clé avant les élections générales prévues le 6 décembre pour un retour au pouvoir des civils, dans un climat politique tendu.",
+      "country": "GIN",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-30T02:34:41+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260830-guin%C3%A9e-bissau-les-%C3%A9lecteurs-appel%C3%A9s-aux-urnes-pour-un-r%C3%A9f%C3%A9rendum-constitutionnel"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260830-guin%C3%A9e-bissau-les-%C3%A9lecteurs-appel%C3%A9s-aux-urnes-pour-un-r%C3%A9f%C3%A9rendum-constitutionnel"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "15a3fbfa0a",
+      "title": "Gabon: Brice Oligui Nguema s’adresse à la nation pour le troisième anniversaire du coup d’État militaire",
+      "summary": "Au Gabon, ce dimanche 30 août 2026 est un jour férié, chômé et payé sur tout le territoire. Le pays célèbre le troisième anniversaire du coup d’État qui a renversé le régime des Bongo, père et fils. Le 30 août de chaque année est désormais célébré comme le jour de la fête de la libération. À la veille de cette fête, le président Brice Clotaire Oligui Nguema a prononcé un discours à la nation.",
+      "country": "GAB",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-30T02:20:31+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260830-gabon-brice-oligui-nguema-s-adresse-%C3%A0-la-nation-pour-le-troisi%C3%A8me-anniversaire-du-coup-d-%C3%A9tat-militaire"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260830-gabon-brice-oligui-nguema-s-adresse-%C3%A0-la-nation-pour-le-troisi%C3%A8me-anniversaire-du-coup-d-%C3%A9tat-militaire"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "06763236db",
+      "title": "RDC: le gouvernement envisage une banque publique de l’habitat face au déficit de logements",
+      "summary": "En République démocratique du Congo (RDC), le gouvernement souhaite s’attaquer à la problématique du logement. Face à un déficit estimé à plus de quatre millions d’unités, la Première ministre Judith Suminwa a proposé, vendredi 28 août 2026 en Conseil des ministres, de transformer le Fonds national de l’habitat (FONHAB) en une véritable banque publique dédiée au secteur. L’objectif : mobiliser des financements à long terme et faciliter l’accès au crédit immobilier. Une…",
+      "country": "COD",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-30T02:10:34+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260830-rdc-le-gouvernement-envisage-une-banque-publique-de-l-habitat-face-au-d%C3%A9ficit-de-logements"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260830-rdc-le-gouvernement-envisage-une-banque-publique-de-l-habitat-face-au-d%C3%A9ficit-de-logements"
         }
       ],
       "confirmation_count": 1
@@ -1838,41 +1792,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/429180/niger-gunfire-and-explosions-heard-in-niamey/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "61898898ec",
-      "title": "Niger: la mutinerie touche à sa fin après une journée marquée par des tirs et des explosions à Niamey",
-      "summary": "D'après les informations de RFI, la mutinerie au Niger, qui a commencé dans la nuit du vendredi 28 au samedi 29 août 2026, a pris fin en début de soirée. Des coups de feu et des tirs à l’arme lourde ont été entendus à Niamey, autour de l’aéroport, mais aussi dans le centre-ville et dans la zone du palais présidentiel.",
-      "country": "NER",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE",
-        "AVIATION"
-      ],
-      "lang": "fr",
-      "published": "2026-08-29T03:05:27+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260829-niger-des-explosions-et-des-tirs-entendus-dans-la-capitale"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260829-niger-des-explosions-et-des-tirs-entendus-dans-la-capitale"
         }
       ],
       "confirmation_count": 1
@@ -2249,40 +2168,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/428975/between-oligui-nguema-and-the-bongos-the-ruthless-hunt-for-assets-and-billions/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a716ace2e3",
-      "title": "Terrorists Kill 4, Including Islamic Scholar, Abduct Scores in Sokoto",
-      "summary": "[Leadership] Barely days after 65 people died in a boat mishap in Gorau village, Goronyo Local Government Area of Sokoto State, suspected terrorists have attacked the community, killing four people, abducting four others and injuring several residents.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "en",
-      "published": "2026-08-28T04:10:17+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280038.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280038.html"
         }
       ],
       "confirmation_count": 1
@@ -2686,6 +2571,41 @@
       "confirmation_count": 1
     },
     {
+      "id": "7b5bba8a9b",
+      "title": "Madagascar: le géant minier QMM dans le collimateur de la justice et de la population locale",
+      "summary": "Madagascar, le géant minier QMM a annoncé vendredi 28 août suspendre l’activité de son site d’extraction d’ilménite situé près de la ville de Fort-Dauphin, dans le sud-est du pays. La route qui mène à la deuxième plus grande mine de la Grande Île (dont l’actionnaire principal est le groupe anglo-australien Rio Tinto) a été bloquée à plusieurs reprises ces trois dernières semaines par des agriculteurs dont les terres ont été inondées en raison des activités du site. Ils…",
+      "country": "MDG",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION",
+        "AGRICULTURE"
+      ],
+      "lang": "fr",
+      "published": "2026-08-30T04:21:51+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260830-madagascar-la-pollution-g%C3%A9ant-minier-qmm-collimateur-de-la-justice-et-population-locale"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260830-madagascar-la-pollution-g%C3%A9ant-minier-qmm-collimateur-de-la-justice-et-population-locale"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f182064211",
       "title": "Football: l'international sénégalais Nicolas Jackson signe à Aston Villa pour 75 millions d'euros",
       "summary": "Le marché des transferts continue de s'agiter en Angleterre, avec l'arrivée le 28 août dans la soirée de l'international sénégalais Nicolas Jackson à Aston Villa, en provenance de Chelsea, pour 75 millions d'euros bonus compris. Considéré comme l'un des attaquants africains les plus prometteurs, l'attaquant des Lions de la Teranga sort d'une saison sans éclat en prêt au Bayern Munich et tentera de se relancer à Birmingham en Premier League.",
@@ -2777,40 +2697,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260829-cameroun-un-collectif-alerte-sur-les-recrutements-de-jeunes-aux-c%C3%B4t%C3%A9s-de-l-arm%C3%A9e-russe"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b5cd150c7c",
-      "title": "Cabo Verde insiste em reforma profunda da União Africana",
-      "summary": "Em Luanda, José Maria Neves defende que reformas \"devem ser voltadas para uma maior eficiência da própria organização e mais eficácia nos resultados\".",
-      "country": "AGO",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY"
-      ],
-      "lang": "pt",
-      "published": "2026-08-29T14:11:27+00:00",
-      "lead_source": {
-        "id": "observador",
-        "name": "Observador",
-        "tier": 2,
-        "url": "https://observador.pt/2026/08/29/presidente-da-republica-de-cabo-verde-insiste-na-necessidade-de-reforma-profunda-da-uniao-africana/"
-      },
-      "confirming_sources": [
-        {
-          "id": "observador",
-          "name": "Observador",
-          "tier": 2,
-          "url": "https://observador.pt/2026/08/29/presidente-da-republica-de-cabo-verde-insiste-na-necessidade-de-reforma-profunda-da-uniao-africana/"
         }
       ],
       "confirmation_count": 1
@@ -3243,38 +3129,6 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/mozambique-japan-provides-e9m-to-rebuild-natete-bridge/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0da534815d",
-      "title": "Today in History - Government, LRA Sign Landmark Peace Pact in Juba",
-      "summary": "[Nile Post] On August 26, 2006, the Government of Uganda and the Lord's Resistance Army (LRA) signed a landmark Cessation of Hostilities Agreement at the Juba-Raha Hotel in Juba, Southern Sudan, opening a new chapter in the nearly two-decade conflict that had devastated Northern Uganda.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T14:05:30+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280486.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280486.html"
         }
       ],
       "confirmation_count": 1
@@ -3735,6 +3589,12 @@
           "url": "https://allafrica.com/stories/202608280124.html"
         },
         {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608260091.html"
+        },
+        {
           "id": "aa-tza",
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
@@ -3759,7 +3619,7 @@
           "url": "https://allafrica.com/stories/202608100108.html"
         }
       ],
-      "confirmation_count": 8
+      "confirmation_count": 9
     },
     {
       "id": "ce972c0d8b",
@@ -5010,12 +4870,12 @@
       "confirmation_count": 1
     },
     {
-      "id": "66aba90bcc",
-      "title": "Diomaye Faye Breaks With Sonko, Launches New Party in Senegal",
-      "summary": "[RFI] Senegal's President Bassirou Diomaye Faye launched a new political party called Kiiraay, on Saturday, following his high-profile falling-out with his former mentor and ex-prime minister, Ousmane Sonko, and his party, Pastef.",
-      "country": "SEN",
+      "id": "be87362c29",
+      "title": "Guerre numérique entre militants pro-excision maliens et féministes ouest-africaines",
+      "summary": "Des vidéos de fillettes excisées au Mali postées sur les réseaux sociaux ont déclenché une mobilisation transfrontalière : campagne pro-excision assumée par des hommes influents d'un côté, riposte coordonnée de militantes ouest-africaines de l'autre, jusqu'à faire plier certains de leurs adversaires les plus virulents installés en Europe. Face à cette polémique, Bamako et Conakry choisissent le silence.",
+      "country": "MLI",
       "category": "AUTRE",
-      "severity": 2,
+      "severity": 1,
       "credibility": 2,
       "verified": false,
       "theme": null,
@@ -5024,19 +4884,216 @@
       "fdi": false,
       "sectors": [],
       "lang": "fr",
-      "published": "2026-07-29T07:28:05+00:00",
+      "published": "2026-08-30T06:36:10+00:00",
       "lead_source": {
-        "id": "aa-sen",
-        "name": "AllAfrica · Sénégal",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607290007.html"
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260830-excision-guerre-num%C3%A9rique-entre-militants-pro-mgf-maliens-et-f%C3%A9ministes-ouest-africaines"
       },
       "confirming_sources": [
         {
-          "id": "aa-sen",
-          "name": "AllAfrica · Sénégal",
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260830-excision-guerre-num%C3%A9rique-entre-militants-pro-mgf-maliens-et-f%C3%A9ministes-ouest-africaines"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ed56e3dff3",
+      "title": "THE GREAT UNRAVELLING: ANC devours itself from within as voters steadily turn their backs",
+      "summary": "Factional warfare, patronage battles and years of electoral decline have left the party on its last legs as it heads for a bruising outcome in South Africa’s municipal elections in November.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-30T05:00:00+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-08-30-anc-devours-itself-from-within-as-voters-steadily-turn-their-backs/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202607290007.html"
+          "url": "https://www.dailymaverick.co.za/article/2026-08-30-anc-devours-itself-from-within-as-voters-steadily-turn-their-backs/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6ddd4063be",
+      "title": "US deports relative of Afghans who aided military to Africa",
+      "summary": "Afghan national granted protection in the US is one of dozens of people deported to war-torn Central African Republic.",
+      "country": "CAF",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-30T03:10:06+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/8/30/us-deports-relative-of-afghans-who-aided-military-to-africa?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/8/30/us-deports-relative-of-afghans-who-aided-military-to-africa?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ad5a868f3a",
+      "title": "Ethiopia’s Power Halved Djibouti’s Bills, Gazes at a Bigger Market",
+      "summary": "Our subscribers to the print edition are entitled to get a bonus in a form of early access to our digital edition.Use the bank detail...",
+      "country": "ETH",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "en",
+      "published": "2026-08-30T02:55:30+00:00",
+      "lead_source": {
+        "id": "addis-fort",
+        "name": "Addis Fortune",
+        "tier": 2,
+        "url": "https://addisfortune.news/ethiopias-power-halved-djiboutis-bills-gazes-at-a-bigger-market"
+      },
+      "confirming_sources": [
+        {
+          "id": "addis-fort",
+          "name": "Addis Fortune",
+          "tier": 2,
+          "url": "https://addisfortune.news/ethiopias-power-halved-djiboutis-bills-gazes-at-a-bigger-market"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "99e6ace89b",
+      "title": "Niger: des forces spéciales de l’armée nigérienne à l’Africa Corps russe, retour sur la mutinerie à Niamey",
+      "summary": "Au Niger, la mutinerie qui a secoué Niamey a pris fin samedi 29 août 2026 au soir. Plusieurs dizaines de militaires ont été arrêtés après avoir occupé la base aérienne 101, point névralgique jouxtant l’aéroport et abritant les QG de la force unifiée de l’AES et de l’Africa Corps russe. Principalement issus des forces spéciales, chargées notamment de combattre les groupes jihadistes dans la région des trois frontières avec le Mali et le Burkina Faso, les mutins ont aussi…",
+      "country": "NER",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE",
+        "AVIATION"
+      ],
+      "lang": "fr",
+      "published": "2026-08-30T02:28:03+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260830-niger-des-forces-sp%C3%A9ciales-de-l-arm%C3%A9e-nig%C3%A9rienne-%C3%A0-l-africa-corps-russe-retour-sur-la-mutinerie-%C3%A0-niamey"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260830-niger-des-forces-sp%C3%A9ciales-de-l-arm%C3%A9e-nig%C3%A9rienne-%C3%A0-l-africa-corps-russe-retour-sur-la-mutinerie-%C3%A0-niamey"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "85a815fbcd",
+      "title": "Zimbabwe: la belle-fille du président Emmerson Mnangagwa arrêtée pour trafic de drogue et blanchiment d'argent",
+      "summary": "Au Zimbabwe, la belle-fille du président Emmerson Mnangagwa a été arrêtée pour des suspicions de trafic de drogue et de blanchiment d'argent. Les avocats de la seconde épouse de Collins Mnangagwa dénoncent une manœuvre ourdie par « des adversaires politiques » visant à salir la réputation du chef de l'État. Pourtant, Emmerson Mnangagwa a récemment déclaré lors d'un congrès de la Zanu-PF qu'il est partisan de la « tolérance zéro » en matière de trafic de drogue.",
+      "country": "ZWE",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "AML_CFT",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-08-30T02:12:05+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260830-zimbabwe-la-belle-fille-du-pr%C3%A9sident-emmerson-mnangagwa-arr%C3%AAt%C3%A9e-pour-trafic-de-drogue-et-blanchiment-d-argent"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260830-zimbabwe-la-belle-fille-du-pr%C3%A9sident-emmerson-mnangagwa-arr%C3%AAt%C3%A9e-pour-trafic-de-drogue-et-blanchiment-d-argent"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ad6ebdb3d4",
+      "title": "Online anti-Muslim backlash collides with different reality in South Africa",
+      "summary": "Online anti-Muslim rhetoric is growing, but life on the ground tells a more complicated story.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-30T00:06:30+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/8/30/online-anti-muslim-backlash-collides-with-different-reality-in-south-africa?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/8/30/online-anti-muslim-backlash-collides-with-different-reality-in-south-africa?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -5364,6 +5421,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "8c87d4d319",
+      "title": "Niger's military 'gradually regaining control' after mutiny at military base",
+      "summary": "Niger’s military says it’s “gradually regaining control” after a mutiny at an army base near the international airport in Niamey.",
+      "country": "NER",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "en",
+      "published": "2026-08-29T13:48:57+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/08/29/niger-military-gradually-regaining-control-after-mutiny/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/08/29/niger-military-gradually-regaining-control-after-mutiny/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "baa6046bac",
       "title": "Niger : des « insurgés de l'armée » ont tenté de pénétrer dans le palais présidentiel",
       "summary": "La télévision nationale nigérienne a cessé d'émettre samedi après une nuit marquée par d'intenses échanges de tirs dans certains quartiers de la capitale,",
@@ -5657,70 +5748,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ae1cc6e470",
-      "title": "Football: à Brest, Mamady Diambou, l'Aigle malien, vit son rêve de Ligue 1",
-      "summary": "Fraîchement débarqué au Stade Brestois, le Malien Mamady Diambou découvre enfin un championnat qu’il a longtemps regardé à la télé depuis le Mali. Entre la chaleur d’un club familial, les repères retrouvés avec son compatriote Kamory Doumbia et le souvenir des années de formation à l’Académie Jean-Marc Guillou, le milieu de terrain raconte les premiers pas d’un rêve devenu réalité.",
-      "country": "MLI",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-29T06:20:42+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique-foot/20260829-football-%C3%A0-brest-mamady-diambou-l-aigle-malien-vit-son-r%C3%AAve-de-ligue-1"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique-foot/20260829-football-%C3%A0-brest-mamady-diambou-l-aigle-malien-vit-son-r%C3%AAve-de-ligue-1"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e25554764c",
-      "title": "Drogue: en Mauritanie, les autorités veulent intensifier la lutte contre la consommation et le trafic",
-      "summary": "En Mauritanie, un projet de loi a été adopté en conseil des ministres, jeudi 27 août, pour durcir les sanctions liées au trafic et à la consommation de drogue. Une décision qui intervient dans un contexte marqué par plusieurs saisies réalisées ces dernières semaines par les services de sécurité à travers le pays. Sur le terrain, la situation inquiète. Dans certains quartiers de Nouakchott, des habitants disent vivre un calvaire à cause de la consommation de drogue et des…",
-      "country": "MRT",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "AML_CFT",
-      "legal_status": "ADOPTE",
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-29T05:59:42+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260829-drogue-mauritanie-les-autorit%C3%A9s-veulent-intensifier-la-lutte-contre-la-consommation-et-le-trafic"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260829-drogue-mauritanie-les-autorit%C3%A9s-veulent-intensifier-la-lutte-contre-la-consommation-et-le-trafic"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "097ae5b241",
       "title": "Rwanda backs Dangote’s proposed $17bn Lamu refinery amid regional competition",
       "summary": "Kenya is pitching the Dangote oil refinery as a future petroleum hub to peers.",
@@ -5789,38 +5816,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "012add5f2d",
-      "title": "Tanzanie: le sort des populations massaï, menacées par le développement du tourisme, préoccupe l'ONU",
-      "summary": "La pression s'accentue sur la Tanzanie concernant le sort des populations massaï. Un comité de l'ONU appelle les autorités à mettre fin aux expulsions forcées des Massaï de leurs terres ancestrales et à faire cesser les abus attribués aux forces de l'ordre. Un dossier sensible, sur fond de développement touristique.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-29T04:52:49+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260829-tanzanie-le-sort-des-populations-massa%C3%AF-menac%C3%A9es-par-le-d%C3%A9veloppement-du-tourisme-pr%C3%A9occupe-l-onu"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260829-tanzanie-le-sort-des-populations-massa%C3%AF-menac%C3%A9es-par-le-d%C3%A9veloppement-du-tourisme-pr%C3%A9occupe-l-onu"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "bd278db0af",
       "title": "Finally, Lissu gets into the meat of his defence in Dar es Salaam",
       "summary": "Court ruling that Lissu has a case to answer came as a surprise; most observers thought the...",
@@ -5882,104 +5877,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260829-mali-nouvelle-lib%C3%A9ration-de-soldats-maliens-d%C3%A9tenus-par-les-rebelles-touaregs-du-fla"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "44a030596a",
-      "title": "Guinée-Bissau: à la veille du référendum sur la nouvelle Constitution, partisans et opposants exposent leurs arguments",
-      "summary": "En Guinée-Bissau, les électeurs sont appelés dimanche 30 août 2026 à répondre par « oui » ou par « non » à une question unique : approuvent-ils l’entrée en vigueur de la nouvelle Constitution adoptée par le Conseil national de transition ? Le texte, présenté par les autorités de transition comme un remède à l’instabilité chronique, doit servir à passer d’un système semi-parlementaire à un régime présidentiel fort. Ses opposants, eux, dénoncent une tentative de légitimer,…",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "EN_VIGUEUR",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-29T02:09:05+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260829-guin%C3%A9e-bissau-%C3%A0-la-veille-du-r%C3%A9f%C3%A9rendum-sur-la-nouvelle-constitution-partisans-et-opposants-exposent-leurs-arguments"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260829-guin%C3%A9e-bissau-%C3%A0-la-veille-du-r%C3%A9f%C3%A9rendum-sur-la-nouvelle-constitution-partisans-et-opposants-exposent-leurs-arguments"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "951ca6b3bc",
-      "title": "Au Niger,  le chef de la diplomatie belge souhaite «retisser des liens» avec les pays de l’AES",
-      "summary": "Le Niger a reçu, vendredi 28 août 2026, le ministre belge des Affaires étrangères, Maxime Prévot. Une visite officielle rare de la part d'un représentant d'un État membre de l'Union européenne, qui s'est concentrée sur l'aide au développement, notamment dans le secteur de la santé. Avant d'arriver à Niamey, le chef de la diplomatie belge a passé trois jours à Ouagadougou, et a pu s'entretenir, la veille, avec le président burkinabé Ibrahim Traoré. Dans un contexte de…",
-      "country": "NER",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-08-29T02:08:27+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260829-au-niger-le-chef-de-la-diplomatie-belge-souhaite-retisser-des-liens-avec-les-pays-de-l-aes"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260829-au-niger-le-chef-de-la-diplomatie-belge-souhaite-retisser-des-liens-avec-les-pays-de-l-aes"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "99d67e1273",
-      "title": "Nigeria: rançons des enlèvements, «impossible qu’une telle somme ait pu être réunie sans intervention des autorités»",
-      "summary": "Au Nigeria, près de 6 millions de dollars (un peu plus de 5 millions d’euros) de rançons ont été versés aux groupes armés entre juillet 2025 et juin 2026, selon un rapport du cabinet SBM Intelligence publié le 26 août 2026. Un montant qui a triplé en un an. C’est en particulier le JAS, branche historique de Boko Haram, qui a engrangé les sommes les plus importantes, notamment grâce à deux kidnappings de masse dans le nord du pays. Kehinde Giwa, analyste au sein du cabinet…",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "fr",
-      "published": "2026-08-29T02:06:41+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260829-nigeria-ran%C3%A7ons-des-enl%C3%A8vements-impossible-qu-une-telle-somme-ait-pu-%C3%AAtre-r%C3%A9unie-sans-intervention-des-autorit%C3%A9s"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260829-nigeria-ran%C3%A7ons-des-enl%C3%A8vements-impossible-qu-une-telle-somme-ait-pu-%C3%AAtre-r%C3%A9unie-sans-intervention-des-autorit%C3%A9s"
         }
       ],
       "confirmation_count": 1
@@ -8470,6 +8367,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "33e0290401",
+      "title": "Interview - COP17: Cross River Lawmaker Calls for Stronger Laws to Protect Nigeria's Land, Wildlife",
+      "summary": "[Premium Times] A member of the Cross River State House of Assembly, Martins Archadu, says his participation at the ongoing 17th session of the UNCCD COP17 in Mongolia has exposed gaps in Nigeria's environmental policies and shown how stronger legislation could improve land restoration, biodiversity conservation and environmental management.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T10:32:19+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280201.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280201.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "9e4b9a1598",
+      "title": "Otti Assures Deceased Pensioners' Families As Abia Begins N60bn Gratuity Payments",
+      "summary": "[Vanguard] UMUAHIA -- Governor Alex Otti of Abia State has assured the next-of-kin of deceased pensioners that his administration will pay benefits due to their late relatives as the state begins clearing more than N60 billion in outstanding gratuity liabilities.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T10:30:52+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280199.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280199.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "87c90f1a48",
       "title": "Faith With Actions - Cherotich Hungry, Thirst for Third Straight Diamond League Trophy",
       "summary": "[Capital FM] NAIROBI -- Kenyan youngster Faith Cherotich has set her sights on winning the Diamond League trophy at next week's season finale in Brussels.",
@@ -8497,6 +8458,70 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608280197.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "537b444137",
+      "title": "Miracle Centres - How Nigeria Can Break Examination Fraud Chain",
+      "summary": "[Vanguard] Eighteen-year-old Emmanuel is determined to study Law at the university. But his dream of pursuing the five-year course is hanging in the balance after two consecutive attempts to obtain a credit pass in English Language.",
+      "country": "NGA",
+      "category": "REGULATION",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T10:29:55+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280196.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280196.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "140dfccf0e",
+      "title": "Traders Back Tobacco Controls, Oppose 'Duplicate' Licensing Requirements",
+      "summary": "[Capital FM] Nairobi -- The Bar and Liquor Traders Association of Kenya (BAHLITA) has urged the National Assembly to ensure affected traders are included in the public participation process on the Tobacco Control (Amendment) Bill, 2024, warning that proposed licensing and registration requirements could raise compliance costs for small businesses.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-28T10:27:35+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608280189.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608280189.html"
         }
       ],
       "confirmation_count": 1
@@ -9380,38 +9405,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2968554f49",
-      "title": "756 Cases in 7 Months - Experts Seek Tougher Actions Against Nigeria's Sexual Violence",
-      "summary": "[Vanguard] Despite existing laws, awareness campaigns and interventions by government and non-governmental organisations, Sexual and Gender-Based Violence (SGBV) remains a major concern in Nigeria, with 756 cases recorded by the National Agency for the Prohibition of Trafficking in Persons (NAPTIP) between January and July 2026.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T06:38:52+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280117.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280117.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "b0979dd059",
       "title": "Tooro Kingdom Mourns King Oyo As 34-Year Reign Ends",
       "summary": "[New Light] FORT PORTAL -- The Tooro Kingdom is mourning the death of Omukama Oyo Nyimba Kabamba Iguru Rukidi IV, who died on Thursday night at the age of 34, bringing to an end a reign that began when he was just three years old.",
@@ -9439,74 +9432,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608280116.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "45db98f19e",
-      "title": "3,000 Persons Missing in Adamawa As Families Seek Help",
-      "summary": "[Daily Trust] The families of missing persons in Adamawa State have urged stakeholders in all strata of life to continue supporting the search for their loved ones who are missing, even as officials said 3000 people remain missing in the state.",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T06:38:50+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280114.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280114.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "83253f5c85",
-      "title": "Subsidy or No Subsidy? Tinubu Promises Cheaper Transport From Oct",
-      "summary": "[Daily Trust] President Bola Ahmed Tinubu yesterday said state governors had resolved to take immediate measures to bring down the cost of transportation in their respective states by leveraging the lower costs inherent in Compressed Natural Gas (CNG) and electric vehicles.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AUTO",
-        "MARINE_TRANSPORT",
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-08-28T06:38:49+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280113.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280113.html"
         }
       ],
       "confirmation_count": 1
@@ -9934,40 +9859,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "fc9487b33d",
-      "title": "Over 7,000 People Kidnapped Across Nigeria, Boko Haram Got 90% of Ransom - Report",
-      "summary": "[Premium Times] SBM Intelligence, a research think tank, said about 7,825 people were kidnapped in one year, with at least N7.78 billion paid in ransom, while Boko Haram pocketed over 90 per cent of the proceeds.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "en",
-      "published": "2026-08-28T04:28:02+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280076.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280076.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "65c8dd7b4a",
       "title": "King Oyo of Uganda's Tooro Dies Aged 34",
       "summary": "[New Times] King Oyo Nyimba Kabamba Iguru Rukidi IV, the Omukama of Tooro Kingdom in Uganda, has died at the age of 34.",
@@ -10199,38 +10090,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "253d0da0ba",
-      "title": "Nairobi Identifies 16 Flood Hotspots As County Steps Up El Ni&#xF1;o Preparations",
-      "summary": "[Capital FM] Nairobi -- Nairobi has intensified preparations for the anticipated El Niño rains, with Governor Johnson Sakaja saying multi-agency teams have been mobilised to minimise flooding and other emergencies.",
-      "country": "KEN",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-28T04:13:25+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202608280039.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202608280039.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6ea5c90af6",
       "title": "Ugandan Journalist Remmy Asiteza Detained On 'Fake News' Charges",
       "summary": "[CPJ] Nairobi -- The Committee to Protect Journalists calls on Ugandan authorities to immediately and unconditionally release journalist Remmy Asiteza, who has been charged with publishing \"fake news\" in connection to his coverage of corruption allegations in the ministry of the presidency.",
@@ -10290,38 +10149,6 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-08-27-joburg-ignores-warnings-and-appoints-potential-security-risk-to-head-public-safety-department/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cae80e449e",
-      "title": "MADLANGA COMMISSION: Former Hawks boss exposes factional rifts after chaotic ‘KT’ Molefe arrest",
-      "summary": "The evidence of former Hawks head Lt-Gen Godfrey Lebeya points to deeper fault lines within South Africa’s law enforcement agencies, where investigations and high-profile raids have become entangled in factional battles, competing interests and allegations of misconduct.",
-      "country": "ZAF",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-27T22:59:19+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-08-27-former-hawks-boss-exposes-factional-rifts-after-chaotic-kt-molefe-arrest/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-08-27-former-hawks-boss-exposes-factional-rifts-after-chaotic-kt-molefe-arrest/"
         }
       ],
       "confirmation_count": 1
@@ -11065,6 +10892,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "9e17c4593d",
+      "title": "Jason Derulo Team Initiates Content Partnership With Digital Creator Majorboy",
+      "summary": "[Independent (Kampala)] Kampala -- In a move that underscores the growing influence of East African digital talent on international pop culture, the management team of multi-platinum global pop star Jason Derulo has initiated direct outreach to digital creator and creative director Majorboy for a strategic content collaboration.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-27T11:43:20+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608270413.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608270413.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "4fd330a74f",
       "title": "Kenya: Can Ndindi Nyoro break Gachagua’s grip on Mt Kenya?",
       "summary": "Ndindi Nyoro’s entry into the opposition threatens to fracture Mt Kenya’s anti-Ruto vote and undermine Rigathi Gachagua’s bid to emerge as the region’s undisputed political kingpin ahead of the 2027 election.",
@@ -11356,6 +11215,38 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608270198.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2590318471",
+      "title": "Unpaid Arrears - Plateau Varsity Lecturers Begin Indefinite Strike",
+      "summary": "[Premium Times] Lecturers at Plateau State University, Bokkos, have declared an indefinite strike over unpaid salary-related arrears and other unresolved demands.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-08-27T09:43:45+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202608270150.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202608270150.html"
         }
       ],
       "confirmation_count": 1
@@ -15321,38 +15212,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ad45141004",
-      "title": "Central Bank Buys Gold High, Sells It Lower",
-      "summary": "The National Bank of Ethiopia (NBE) bought far more gold than it managed to sell for during the past fiscal year. It booked 275.2 billion...",
-      "country": "ETH",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-16T02:54:16+00:00",
-      "lead_source": {
-        "id": "addis-fort",
-        "name": "Addis Fortune",
-        "tier": 2,
-        "url": "https://addisfortune.news/central-bank-buys-gold-high-sells-it-lower"
-      },
-      "confirming_sources": [
-        {
-          "id": "addis-fort",
-          "name": "Addis Fortune",
-          "tier": 2,
-          "url": "https://addisfortune.news/central-bank-buys-gold-high-sells-it-lower"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "bf6338cbeb",
       "title": "BRVM-Listed Orange C&#xF4;te d'Ivoire Hits Record High in Market Rally",
       "summary": "[Daba Finance] Orange Côte d'Ivoire shares rose 4.32% to 18,000 FCFA on Thursday, returning to the highest closing level reached since Jan. 29, 2025, when the stock also finished at 18,000 FCFA.",
@@ -16689,106 +16548,6 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202607300211.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3a0df6c3ca",
-      "title": "Algeria Beat Senegal to Make Perfect TotalEnergies CAF Wafcon Morocco 2026 Start",
-      "summary": "[CAF] Algeria began their TotalEnergies CAF Women's Africa Cup of Nations campaign with a valuable 2-0 victory over Senegal in their opening Group A match in Morocco on Sunday.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "fr",
-      "published": "2026-07-29T13:06:30+00:00",
-      "lead_source": {
-        "id": "aa-sen",
-        "name": "AllAfrica · Sénégal",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607290473.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-sen",
-          "name": "AllAfrica · Sénégal",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607290473.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9ece7bb98f",
-      "title": "C&#xF4;te d'Ivoire Mark Wafcon Return With Emphatic Burkina Faso Victory",
-      "summary": "[CAF] Côte d'Ivoire made a powerful return to the TotalEnergies CAF Women's Africa Cup of Nations with a 4-1 victory over Burkina Faso in their Group B opener at the Larbi Zaouli Stadium in Casablanca on Monday night.",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "fr",
-      "published": "2026-07-29T13:06:16+00:00",
-      "lead_source": {
-        "id": "aa-civ",
-        "name": "AllAfrica · Côte d'Ivoire",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607290472.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-civ",
-          "name": "AllAfrica · Côte d'Ivoire",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607290472.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e2797ee35b",
-      "title": "Ghana Moved for Its People in Abidjan. Where Is Liberia?",
-      "summary": "[FrontPageAfrica] More than 400 Liberians are sleeping in schoolrooms outside Abidjan, three weeks after bulldozers took their homes. Ghana already brought 228 of its own citizens back from the same demolition. Liberia has yet to answer.",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-07-29T11:29:16+00:00",
-      "lead_source": {
-        "id": "aa-civ",
-        "name": "AllAfrica · Côte d'Ivoire",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202607290298.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-civ",
-          "name": "AllAfrica · Côte d'Ivoire",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202607290298.html"
         }
       ],
       "confirmation_count": 1
