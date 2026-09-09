@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-09-09T19:46:09.602394+00:00",
+  "generated_at": "2026-09-09T22:33:17.084820+00:00",
   "stats": {
-    "total_signals": 489,
+    "total_signals": 468,
     "verified_signals": 15,
     "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
+      "KEN": 69,
       "AGO": 32,
-      "ZAF": 54,
-      "UGA": 36,
-      "TZA": 34,
+      "ZAF": 53,
+      "UGA": 32,
+      "TZA": 31,
       "MOZ": 37,
       "NGA": 46,
       "DZA": 7,
       "TUN": 6,
-      "COD": 20,
+      "COD": 19,
       "SEN": 30,
-      "KEN": 77,
-      "MAR": 32,
+      "MAR": 33,
       "MLI": 19,
       "NER": 4,
-      "CMR": 10,
       "MDG": 4,
       "GIN": 3,
       "SLE": 4,
-      "TCD": 3,
-      "RWA": 4,
-      "CIV": 10,
+      "TCD": 4,
+      "CMR": 9,
+      "RWA": 3,
+      "GAB": 1,
       "ZMB": 1,
-      "GHA": 6,
-      "BDI": 1,
-      "MRT": 2,
+      "CIV": 9,
+      "GHA": 5,
+      "MRT": 1,
       "BEN": 1,
-      "ETH": 2,
       "TGO": 1,
       "BFA": 1,
       "NAM": 1,
-      "BWA": 1
+      "BWA": 1,
+      "ETH": 1
     }
   },
   "sources": [
@@ -234,6 +234,40 @@
     }
   ],
   "signals": [
+    {
+      "id": "218faa2348",
+      "title": "Kenya records 19 Mpox deaths as cases rise to 1,298",
+      "summary": "At least 19 people have died from mox since the outbreak was confirmed in Kenya three months ago, according to a statement released Monday by the Kenyan Ministry of Health.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-09-09T19:35:50+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/09/09/kenya-records-19-mpox-deaths-as-cases-rise-to-1298/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/09/kenya-records-19-mpox-deaths-as-cases-rise-to-1298/"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "2515dc7f63",
       "title": "Angola Reaffirms Commitment to Tourism Development",
@@ -1323,40 +1357,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "2459e42fed",
-      "title": "RDC : le difficile travail des équipes chargées d'inhumer les victimes d'Ebola",
-      "summary": "En République démocratique du Congo, les équipes chargées d'enterrer les victimes d'Ebola affirment être confrontées à de nombreux risques, notamment l’exposition au virus et les agressions.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-09-07T07:47:39+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/09/06/rdc-le-difficile-travail-des-equipes-chargees-dinhumer-les-victimes-debola/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/09/06/rdc-le-difficile-travail-des-equipes-chargees-dinhumer-les-victimes-debola/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0bd9379b48",
       "title": "Algérie : les funérailles d’Ayoub, 10 ans, retrouvé mort dans un puits",
       "summary": "À Ghassoul, dans la province d’El Bayadh, les habitants ont assisté aux obsèques Ayoub, 10 ans, retrouvé mort samedi après avoir passé quatre jours  coincé dans un puits.",
@@ -1418,40 +1418,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/09/06/ebola-burial-team-in-drc-works-under-threats-as-virus-continues-to-spread/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b13f781ac9",
-      "title": "Pressure mounts on DR Congo to contain Ebola outbreak",
-      "summary": "As of August 31, there were 6,186 confirmed cases, including 3,007 deaths and 1,409 recoveries.",
-      "country": "COD",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-09-05T07:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/pressure-mounts-on-dr-congo-to-contain-ebola-outbreak-5584192"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/pressure-mounts-on-dr-congo-to-contain-ebola-outbreak-5584192"
         }
       ],
       "confirmation_count": 1
@@ -1685,6 +1651,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "7cb19ac445",
+      "title": "En RDC, la guerre prive près d'un demi-million d'enfants d'école",
+      "summary": "En République démocratique du Congo (RDC), la guerre affecte aussi les salles de classe. Des écoles sont attaquées, détruites, occupées ou transformées en abris. Selon une compilation du mécanisme de coordination humanitaire de l’éducation en RDC, piloté par l’Unicef et l'ONG Save the Children en lien avec les autorités congolaises, 1 131 établissements restent fermés, une semaine après la rentrée scolaire.",
+      "country": "COD",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-09T22:24:13+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260909-en-rdc-la-guerre-prive-pr%C3%A8s-d-un-demi-million-d-enfants-d-%C3%A9cole"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260909-en-rdc-la-guerre-prive-pr%C3%A8s-d-un-demi-million-d-enfants-d-%C3%A9cole"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "7e0b4cd0ef",
       "title": "Civil Society Analyzes Incidence of Mpox and Ebola",
       "summary": "[ANGOP] Dundo -- Members of the Provincial Government of Lunda-Norte and Civil Society analyzed this Monday, in Dundo City, the problems of outbreaks of Monkeypox (Mpox) and Ebola, which affect some regions of Angola and the Democratic Republic of Congo (DRC).",
@@ -1748,38 +1746,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1841850/politique/niger-nouvelles-revelations-sur-la-mutinerie-et-ses-presumes-meneurs/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8268d2754a",
-      "title": "Attackers kill police officer, kidnap teachers in Cameroon’s northwest",
-      "summary": "An armed group attacks a teacher training centre in the town of Wum, according to the Northwest Region's governor.",
-      "country": "CMR",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-09T16:00:01+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/9/9/attackers-kill-police-officer-kidnap-teachers-in-cameroons-northwest?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/9/9/attackers-kill-police-officer-kidnap-teachers-in-cameroons-northwest?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -2124,38 +2090,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/09/09/un-incendie-ravage-8-700-hectares-sur-le-mont-kenya/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "40d4ad14b7",
-      "title": "Kenyan senator condemns attacks on Burundians",
-      "summary": "The lawmaker said the harassment, assault, and destruction of foreign traders’ businesses is a...",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-09T09:30:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kenyan-senator-condemns-attacks-on-burundians-5588906"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kenyan-senator-condemns-attacks-on-burundians-5588906"
         }
       ],
       "confirmation_count": 1
@@ -2833,40 +2767,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609040560.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2b7b0a8e1a",
-      "title": "Fire erupts on Mount Kilimanjaro near Kenya border",
-      "summary": "Witnesses said the flames were visible from the Oloitokitok area in Kenya.",
-      "country": "KEN",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY"
-      ],
-      "lang": "en",
-      "published": "2026-09-04T12:30:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/sustainability/fire-erupts-on-mount-kilimanjaro-5583588"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/sustainability/fire-erupts-on-mount-kilimanjaro-5583588"
         }
       ],
       "confirmation_count": 1
@@ -4126,38 +4026,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7b611f0a22",
-      "title": "ENTRENCHED CULTURE OP-ED: Corruption by any other name — organised crime has replaced State Capture",
-      "summary": "The Madlanga Commission has shifted the discourse on South African grand corruption by framing it as organised crime rather than political State Capture. However, recognising corruption as inherent criminality is important for sweeping institutional reform.",
-      "country": "ZAF",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-08T22:23:10+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-09-08-corruption-by-any-other-name-organised-crime-has-replaced-state-capture/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-09-08-corruption-by-any-other-name-organised-crime-has-replaced-state-capture/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "dd335d6e43",
       "title": "Cameroun: l'opposant Maurice Kamto démissionne de la présidence du MRC, Mamadou Mota quitte la vice-présidence",
       "summary": "L'opposant camerounais Maurice Kamto, ancien candidat à la présidentielle de 2018, écarté de celle de 2025, quitte la présidence de son parti, le MRC (Mouvement pour la Renaissance du Cameroun) ce 8 septembre. À ses côtés, Mamadou Mota démissionne également de ses fonctions de vice-président du parti, dénonçant « un acharnement constant de la part du régime ». Cette décision est inattendue.",
@@ -4327,38 +4195,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609080440.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bbfd2cdf46",
-      "title": "Côte d’Ivoire: la liquidation de la Commission électorale lancée, sa succession reste à définir",
-      "summary": "Quatre mois après sa dissolution, la Côte d’Ivoire a ouvert officiellement le chapitre de la liquidation de la Commission électorale indépendante (CEI). La passation de charges entre le Secrétaire général sortant de la CEI et le liquidateur de cette institution s’est déroulée ce 7 septembre 2026 à Abidjan.",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-08T12:19:40+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260908-c%C3%B4te-d-ivoire-la-liquidation-de-la-commission-%C3%A9lectorale-lanc%C3%A9e-sa-succession-reste-%C3%A0-d%C3%A9finir"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260908-c%C3%B4te-d-ivoire-la-liquidation-de-la-commission-%C3%A9lectorale-lanc%C3%A9e-sa-succession-reste-%C3%A0-d%C3%A9finir"
         }
       ],
       "confirmation_count": 1
@@ -4670,6 +4506,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "05bc2782f7",
+      "title": "Zanzibar, Unesco Launch Parent-Child Health Toolkit",
+      "summary": "[Daily News] Zanzibar -- ZANZIBAR has launched a communication toolkit to help parents discuss reproductive health with their children, a move aimed at strengthening parenting, child protection and the wellbeing of young people.",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-07T11:50:16+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609070355.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609070355.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "362950c55f",
       "title": "Agreement for Establishment of Industrial Parks in Manica Signed",
       "summary": "[AIM] Maputo -- The Executive Council of the central Mozambican province of Manica and Moz Parks have signed an agreement for the establishment of industrial parks in that province.",
@@ -4697,70 +4565,6 @@
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609070222.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1e60248828",
-      "title": "Hafidh Ameir Hassan - Tanzanians Mourn the Death of Dr Samia's Husband",
-      "summary": "[Daily News] VICE-President Deogratius Ndejembi has announced the death of Hafidh Ameir Hassan, husband of President Samia Suluhu Hassan.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-07T09:19:34+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609070152.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609070152.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "79c1ff5845",
-      "title": "Samia Seals Dodoma Milestone, 37 Permanent Offices Ready",
-      "summary": "[Daily News] Dodoma -- DODOMA'S seven-year transition from temporary government offices to a permanent administrative hub reaches a defining moment tomorrow, as President Dr Samia Suluhu Hassan launches Government City in Mtumba, completing a major phase of the capital's transformation.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-07T09:15:51+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609070150.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609070150.html"
         }
       ],
       "confirmation_count": 1
@@ -5198,6 +5002,136 @@
       "confirmation_count": 1
     },
     {
+      "id": "03da0d9586",
+      "title": "INQUEST: Anele Tembe inquest: Witness places AKA at balcony moments after fatal fall",
+      "summary": "A guest at the Pepperclub Hotel in Cape Town has described seeing rapper Kiernan ‘AKA’Forbes rushing towards the balcony moments after his fiancée Anele Tembe plunged to her death.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-10T00:23:37+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-09-10-anele-tembe-inquest-witness-places-aka-at-balcony-moments-after-fatal-fall/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-09-10-anele-tembe-inquest-witness-places-aka-at-balcony-moments-after-fatal-fall/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0c54ce4f43",
+      "title": "PUMPING HEART OF AFRICA: Congo Basin loss could trigger water wars across Africa — ex-Gabon minister Lee White",
+      "summary": "Conservation scientist Lee White reflects on four decades spent creating Gabon’s national parks, tackling illegal logging and confronting the failures of global carbon markets.",
+      "country": "GAB",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-09T23:59:04+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-09-09-congo-basin-loss-could-trigger-water-wars-across-africa-ex-gabon-minister-lee-white/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-09-09-congo-basin-loss-could-trigger-water-wars-across-africa-ex-gabon-minister-lee-white/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f8d515cd82",
+      "title": "A message for World News Day 2026: It’s time to fight for truth",
+      "summary": "Branko Brkic has lived in two societies at breaking point, with opposite outcomes: 1980s Yugoslavia, where shared facts fell apart until the country tore itself to pieces, and South Africa, where journalists dug through State Capture until the theft could no longer be denied, and hope was restored. Two experiences taught him the same thing from opposite directions.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY"
+      ],
+      "lang": "en",
+      "published": "2026-09-09T22:47:32+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/opinionista/2026-09-09-a-message-for-world-news-day-2026-its-time-to-fight-for-truth/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/opinionista/2026-09-09-a-message-for-world-news-day-2026-its-time-to-fight-for-truth/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bc587b7108",
+      "title": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
+      "summary": "Declassified documents show Spanish and Moroccan authorities were alerted to social media calls for a mass migrant crossing the day before tens of thousands entered Ceuta.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-09T21:23:45+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "0bf9401ca4",
       "title": "Enforcement Powers: We’re not coming for your dogs and cats, says City over pet licensing uproar",
       "summary": "Cape Town’s proposed animal bylaw promises stronger welfare protections, but raises difficult questions about permits, affordability, enforcement and the rights of pet owners and rescuers.",
@@ -5225,6 +5159,73 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-09-09-were-not-coming-for-your-dogs-and-cats-says-city-over-pet-licensing-uproar/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "10126cc340",
+      "title": "Le Tchad réfute une nouvelle fois toute implication dans le conflit soudanais",
+      "summary": "Mardi à Genève, le Tchad a réfuté une fois de plus toute implication dans le conflit soudanais alors qu’il participait à la 63ème session du Conseil des droits humains de l’ONU. N’Djaména a été accusée à de multiples reprises de servir de couloir logistique aux rebelles soudanais des Forces de soutien rapide, le gouvernement a nié systématiquement ces accusations.",
+      "country": "TCD",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE",
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "fr",
+      "published": "2026-09-09T20:21:32+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260909-le-tchad-r%C3%A9fute-une-nouvelle-fois-toute-implication-dans-le-conflit-soudanais"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260909-le-tchad-r%C3%A9fute-une-nouvelle-fois-toute-implication-dans-le-conflit-soudanais"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2102198e29",
+      "title": "Kenya : les autorités mettent en garde contre la propagation de la variole du singe",
+      "summary": "La maladie touche 40 des 47 comtés du pays depuis trois mois.",
+      "country": "KEN",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-09T20:17:37+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/09/09/kenya-les-autorites-alertent-sur-la-propagation-de-la-variole-du-singe/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/09/09/kenya-les-autorites-alertent-sur-la-propagation-de-la-variole-du-singe/"
         }
       ],
       "confirmation_count": 1
@@ -5522,38 +5523,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "9ee295df1b",
-      "title": "Sudanese refugee returning home ’to make buildings for our country’",
-      "summary": "The UN says Uganda hosts more than 96,000 Sudanese refugees, but a programme intends to fly at least 1,300 people home.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-09T17:46:44+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/9/sudanese-refugee-returning-home-to-make-buildings-for-our?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/9/sudanese-refugee-returning-home-to-make-buildings-for-our?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "82686bc604",
       "title": "Tunisie : Tunis Re obtient le visa du CMF pour doubler son capital social",
       "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
@@ -5679,38 +5648,6 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/09/09/zambie-cynthia-simeza-nommee-a-la-tete-de-la-filiale-de-kenya-re/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b6fb646614",
-      "title": "Entrada na REN \"foi a notícia que mais gostei de dar\"",
-      "summary": "Investimento do Estado na REN começou a ser preparado em 2024 e foi tema central na visita de Montenegro à China no ano passado. Ministra da Energia diz que permitirá influenciar a partir de dentro.",
-      "country": "GHA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "pt",
-      "published": "2026-09-09T16:51:43+00:00",
-      "lead_source": {
-        "id": "observador",
-        "name": "Observador",
-        "tier": 2,
-        "url": "https://observador.pt/2026/09/09/entrada-do-estado-na-ren-foi-a-noticia-que-mais-gostei-de-dar-diz-ministra-da-energia/"
-      },
-      "confirming_sources": [
-        {
-          "id": "observador",
-          "name": "Observador",
-          "tier": 2,
-          "url": "https://observador.pt/2026/09/09/entrada-do-estado-na-ren-foi-a-noticia-que-mais-gostei-de-dar-diz-ministra-da-energia/"
         }
       ],
       "confirmation_count": 1
@@ -7694,40 +7631,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "d48af64a78",
-      "title": "Kenyan Treasury struggles with $18bn pensions bill",
-      "summary": "‎The massive pension liability accounts for 18.46pc of the current $100.77bn national debt and...",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "LIABILITY"
-      ],
-      "lang": "en",
-      "published": "2026-09-09T10:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenyan-treasury-struggles-with-18bn-pensions-bill-5588950"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenyan-treasury-struggles-with-18bn-pensions-bill-5588950"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "412b20ee65",
       "title": "WHAT’S COOKING: Lamb shank tagine with dates, apricots, raisins and Moroccan spices",
       "summary": "A tagine is a gift to any cook, and a perfect vessel for a lamb shank cooked low and slow. But we need to know the rules of cooking in a ceramic tagine.",
@@ -8350,38 +8253,6 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/09/09/kenya-les-etrangers-sommes-de-regulariser-leur-situation-en-90-jours/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "49597fc471",
-      "title": "Burundi condemns harassment of its nationals in Kenya",
-      "summary": "Kenya’s regional peers are on alert amid possible diplomatic friction with Burundi, Rwanda...",
-      "country": "BDI",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-09T07:17:54+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/burundi-condemns-harassment-of-its-nationals-in-kenya-5588160"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/burundi-condemns-harassment-of-its-nationals-in-kenya-5588160"
         }
       ],
       "confirmation_count": 1
@@ -9525,38 +9396,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1ed0c70e98",
-      "title": "Tried and busted: Brazil’s cocaine traffickers still targeting Durban harbour despite Madlanga focus",
-      "summary": "Traffickers in Brazil have again tried to smuggle cocaine into South Africa via Durban harbour – but Brazilian authorities intercepted the nearly 100kg consignment before it could leave. Meanwhile, a suspect has appeared in a local court over a R200m cocaine consignment from Brazil that went missing from a KwaZulu-Natal Hawks building.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-08T22:02:55+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-09-08-brazils-cocaine-traffickers-still-targeting-durban-harbour-despite-madlanga-focus/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-09-08-brazils-cocaine-traffickers-still-targeting-durban-harbour-despite-madlanga-focus/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "7028418da8",
       "title": "Sénégal : devant l'Assemblée, le Premier ministre présente son plan pour redresser l'économie",
       "summary": "C'était, ce mardi, le grand oral du Premier ministre sénégalais Ahmadou Al Aminou Lo. Ce dernier a fait sa déclaration de politique générale devant l'Assemblée nationale, acquise en majorité au Pastef d'Ousmane Sonko. Le Premier ministre a évoqué l'accord avec le FMI et promet de redresser l'économie du Sénégal, mais parle aussi de sacrifices.",
@@ -9986,38 +9825,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "315b0e283c",
-      "title": "«Il y a des témoignages de violence»: plus d'un millier de migrants secourus dans l’Atlantique dans un état critique",
-      "summary": "Médecins sans frontières tire la sonnette d'alarme. En seulement une semaine, fin août, 1 046 personnes qui tentaient de rejoindre clandestinement les îles espagnoles des Canaries à bord de plusieurs embarcations de fortune, ont été secourues. Elles ont été débarquées dans un état critique en Mauritanie et au Sénégal, et prises en charge par les équipes médicales de l'organisation. Explications de Fouzia Bara, responsable du programme Migration à MSF.",
-      "country": "MRT",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-08T14:41:37+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260908-il-y-a-des-t%C3%A9moignages-de-violence-plus-d-un-millier-de-migrants-secourus-dans-l-atlantique-dans-un-%C3%A9tat-critique"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260908-il-y-a-des-t%C3%A9moignages-de-violence-plus-d-un-millier-de-migrants-secourus-dans-l-atlantique-dans-un-%C3%A9tat-critique"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1c86ad7267",
       "title": "L'Afrique du Sud veut à nouveau empêcher la vente aux enchères d'objets de Mandela",
       "summary": "Pretoria relance devant la Cour constitutionnelle, la plus haute juridiction du pays son combat judiciaire contre la vente aux enchères, aux États-Unis, de 29 objets ayant appartenu à Nelson Mandela.",
@@ -10178,38 +9985,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7292e1fd6f",
-      "title": "How Tanzanian village girl became international model",
-      "summary": "She has built an enviable career that has seen her grace campaigns and runways for some of...",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-08T13:01:48+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/magazine/how-tanzanian-village-girl-became-international-model-5587916"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/magazine/how-tanzanian-village-girl-became-international-model-5587916"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "455e9cf319",
       "title": "“Restaurar a confiança” marca última Assembleia-Geral da ONU de Guterres",
       "summary": "Arranca esta terça-feira, 08 de Setembro, em Nova Iorque, a 81.ª Assembleia-Geral da ONU, a última sessão de António Guterres enquanto secretário-geral da organização. \"Restaurar a Confiança, Gerir a Transformação\" é o tema do encontro.",
@@ -10269,38 +10044,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1841023/politique/mutinerie-au-niger-5-questions-pour-comprendre-pourquoi-laes-a-laisse-tiani-seul-face-aux-mutins/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "624dc47052",
-      "title": "You can't do that: Regional lawyers call out President Ruto, remind Kenya of EAC obligations",
-      "summary": "EALS warns Nairobi against discrimination in the foreign trader crackdown, urging it to observe...",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-08T12:08:15+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/you-can-t-do-that-regional-lawyers-call-out-president-ruto-remind-kenya-of-eac-obligations-5587926"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/you-can-t-do-that-regional-lawyers-call-out-president-ruto-remind-kenya-of-eac-obligations-5587926"
         }
       ],
       "confirmation_count": 1
@@ -10431,40 +10174,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609080282.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e4c8615307",
-      "title": "Ethiopia, Sudan Junta bicker again over RSF support claims",
-      "summary": "The latest diplomatic fallout comes against a backdrop of mounting accusations over alleged...",
-      "country": "ETH",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "en",
-      "published": "2026-09-08T10:40:42+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/ethiopia-sudan-junta-bicker-again-over-rsf-support-claims--5587730"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/ethiopia-sudan-junta-bicker-again-over-rsf-support-claims--5587730"
         }
       ],
       "confirmation_count": 1
@@ -11377,40 +11086,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7988a9cd9f",
-      "title": "Uganda targets Asian markets for crude exports in ‘early 2027’",
-      "summary": "Uganda expects to produce up to 230,000 barrels of crude oil per day from the Tilenga and...",
-      "country": "UGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-09-08T03:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-targets-asian-markets-for-crude-exports-in-early-2027-5587310"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-targets-asian-markets-for-crude-exports-in-early-2027-5587310"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "afa3954fce",
       "title": "L'ex-magistrat guinéen récemment révoqué Algassimou Diallo a été transféré à la prison de Macenta",
       "summary": "En Guinée, l'ex-magistrat récemment révoqué a été transféré à la prison de Macenta, située à environ 700 kilomètres de Conakry. Algassimou Diallo est poursuivi pour des faits de provocation à la discrimination, à la haine et d'association de malfaiteurs. Au cœur de cette bataille judiciaire se trouve un présumé enregistrement audio entre Algassimou Diallo et l'opposant en exil Cellou Dalein Diallo. Son transfert suscite l'incompréhension de ses avocats.",
@@ -11605,38 +11280,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "136b4db299",
-      "title": "Samia's husband, Hafidh Ameir, dies in Zanzibar",
-      "summary": "Ameir died while receiving treatment for a heart condition.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-07T14:46:39+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/president-samia-suluhu-s-husband-dies-5586602"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/president-samia-suluhu-s-husband-dies-5586602"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "37a4af03ab",
       "title": "Sierra Leone : l'ancien président Ernest Bai Koroma est rentré d'exil",
       "summary": "Ernest Bai Koroma, qui a dirigé le pays de 2007 à 2018, s'était exilé au Nigeria en 2024, quelques jours après avoir été inculpé de trahison. Les poursuites à son encontre ont été abandonnées en juillet dernier.",
@@ -11801,38 +11444,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "d27197bb82",
-      "title": "Court orders Kenya to set up complaints system for citizens in international bodies",
-      "summary": "Such a mechanism was necessary because Kenyans working in some international organisations...",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-07T12:30:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kenya-to-set-up-complaints-system-citizens-international-bodies-5586692"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kenya-to-set-up-complaints-system-citizens-international-bodies-5586692"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "95dbc09787",
       "title": "Minister T&#xE9;te Ant&#xF3;nio Highlights Renewed Momentum in Angola-Botswana Relations",
       "summary": "[ANGOP] Luanda -- The holding of the first Angola-Botswana Joint Commission for Cooperation represents the correction of a historical oversight, Angolan Minister of Foreign Affairs Téte António said on Sunday in Luanda.",
@@ -11892,6 +11503,70 @@
           "name": "CIO Africa",
           "tier": 2,
           "url": "https://cioafrica.co/mastercard-flowcart-bring-in-chat-payments-to-kenya/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f92ef469fa",
+      "title": "Chacha Urges Preservation of Cultural Traditions Nationwide",
+      "summary": "[Daily News] Mwanza -- CHAMA Cha Mapinduzi (CCM) National Executive Committee Secretary for Organisation, Mr Paul Chacha has urged the public to preserve and promote positive traditions of the country's ethnic groups, saying they are essential for building a morally upright and prosperous society.",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-07T11:57:18+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609070369.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609070369.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3e60ff1989",
+      "title": "DC Intervenes in Iptl Housing Dispute",
+      "summary": "[Daily News] Dar es Salaam -- THE Kinondoni District Commissioner (DC), Mr Saad Mtambule, has intervened in a long-running dispute between Independent Power Tanzania Limited (IPTL) and residents occupying houses at Tegeta, Dar es Salaam, with both sides expected to meet at his office today to seek a peaceful solution.",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-07T11:55:35+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609070363.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609070363.html"
         }
       ],
       "confirmation_count": 1
@@ -12443,38 +12118,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "7cab4f2c64",
-      "title": "East Africa’s sin capital: How Museveni built a nation on the politics of pleasure",
-      "summary": "The permissiveness of Kampala is, ultimately, part of a grand political bargain.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-07T03:30:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/opinion/columnists/how-museveni-built-a-nation-on-the-politics-of-pleasure-5584278"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/opinion/columnists/how-museveni-built-a-nation-on-the-politics-of-pleasure-5584278"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2f51a878c3",
       "title": "From abundance to aridity — El Niño poses threat to SA’s summer grain crop",
       "summary": "Following a strong harvest, South African farmers prepare for a challenging summer grain season, with rising El Niño conditions threatening severe late-season drought and heatwaves.",
@@ -12639,70 +12282,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f2019d8b27",
-      "title": "Kenya weighs easing collateral rules for idle NSE shares",
-      "summary": "Regulators now want to allow lenders and borrowers to negotiate the value of collateral to...",
-      "country": "KEN",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-06T11:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-weighs-easing-collateral-rules-for-idle-nse-shares-5584306"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-weighs-easing-collateral-rules-for-idle-nse-shares-5584306"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f650ed0535",
-      "title": "Uganda fights to save dormant corporate bond market",
-      "summary": "Regulator rolls out new investor protection measures as companies struggle to compete with...",
-      "country": "UGA",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-06T08:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-fights-to-save-dormant-corporate-bond-market-5584310"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-fights-to-save-dormant-corporate-bond-market-5584310"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "a80bda61c6",
       "title": "La \"marche des paniers vides\" : au Sénégal, des manifestants dénoncent la vie chère",
       "summary": "Une manifestation a eu lieu à Dakar, samedi, à l’appel d’influenceurs sénégalais, pour dénoncer la cherté de la vie dans le pays. Intitulée la “marche des paniers vides”, cette mobilisation avait pour but d’accentuer la pression sur le gouvernement afin d’obtenir des mesures concrètes.",
@@ -12730,40 +12309,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260906-la-marche-des-paniers-vides-au-s%C3%A9n%C3%A9gal-des-manifestants-d%C3%A9noncent-la-chert%C3%A9-de-la-vie"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4f3c9310a2",
-      "title": "Ilemi dispute threatens vital Kenya-South Sudan highway link",
-      "summary": "The territorial question is rooted in colonial-era boundary arrangements.",
-      "country": "KEN",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CONSTRUCTION"
-      ],
-      "lang": "en",
-      "published": "2026-09-06T07:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/ilemi-dispute-threatens-vital-kenya-south-sudan-highway-link-5584252"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/ilemi-dispute-threatens-vital-kenya-south-sudan-highway-link-5584252"
         }
       ],
       "confirmation_count": 1
@@ -12828,134 +12373,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c7830m55lklo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "63e419d97e",
-      "title": "Foreigners can now pay in Kenya without a local SIM card – but it comes at a cost",
-      "summary": "Across Africa, accessing digital payment options, let alone affordable ones, is limited for...",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-05T08:30:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/foreigners-can-now-pay-in-kenya-without-a-local-sim-card-at-cost-5584292"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/foreigners-can-now-pay-in-kenya-without-a-local-sim-card-at-cost-5584292"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8f10e39721",
-      "title": "Milk shortage persists in Kenya, Rwanda",
-      "summary": "Some top supermarkets in Kenya have started restricting purchases to fewer than five packets...",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-05T08:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/milk-shortage-persists-in-kenya-rwanda-5584224"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/milk-shortage-persists-in-kenya-rwanda-5584224"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "447652772b",
-      "title": "The best five: Kenyan writer Gladwell Pamba makes 2026 Caine Prize shortlist",
-      "summary": "She stands a chance of bagging $13,533 if she emerges the eventual winner in October.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-05T05:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/magazine/kenyan-writer-gladwell-pamba-2026-caine-prize-shortlist-5583898"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/magazine/kenyan-writer-gladwell-pamba-2026-caine-prize-shortlist-5583898"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4eb9df2686",
-      "title": "Kigali summit calls for better data on soil health to boost food security",
-      "summary": "'For Africans to fully benefit from their land and other natural resources, they must put into...",
-      "country": "RWA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-05T03:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/sustainability/kigali-summit-calls-for-better-data-on-soil-health-5584174"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/sustainability/kigali-summit-calls-for-better-data-on-soil-health-5584174"
         }
       ],
       "confirmation_count": 1
@@ -13052,73 +12469,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609040559.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "651aa5a09b",
-      "title": "Time to close the open till and end the era of the permanent politician",
-      "summary": "South Africa’s political system rewards politicians for staying in the job rather than delivering for the people who pay their salaries. We need a radical reset: treat public office as a finite tour of duty, with term limits, cooling-off periods and deferred pay that make leaving clean more rewarding than clinging to power.",
-      "country": "ZAF",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-04T14:20:20+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/opinionista/2026-09-04-time-to-close-the-open-till-and-end-the-era-of-the-permanent-politician/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/opinionista/2026-09-04-time-to-close-the-open-till-and-end-the-era-of-the-permanent-politician/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "761d084452",
-      "title": "Air Tanzania lifts Moscow flight suspension",
-      "summary": "The brief suspension highlights the high risk of operating the route, which is one of the...",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AVIATION",
-        "CONSTRUCTION"
-      ],
-      "lang": "en",
-      "published": "2026-09-04T14:15:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/air-tanzania-reverses-moscow-flight-suspension-5583768"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/air-tanzania-reverses-moscow-flight-suspension-5583768"
         }
       ],
       "confirmation_count": 1
@@ -13247,40 +12597,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609040363.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a2e633fc10",
-      "title": "Air Tanzania suspends flights to Moscow",
-      "summary": "Passengers to receive full refund or rebook at no extra cost.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AVIATION"
-      ],
-      "lang": "en",
-      "published": "2026-09-04T09:45:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/business-tech/air-tanzania-suspends-flights-to-moscow-5583276"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/business-tech/air-tanzania-suspends-flights-to-moscow-5583276"
         }
       ],
       "confirmation_count": 1
@@ -14355,6 +13671,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "c96852bc43",
+      "title": "Apexbrasil Calls for New Economic Partnerships Between Mozambique and Brazil",
+      "summary": "[AIM] Maputo -- The chairperson of the Brazilian Trade and Investment Promotion Agency (ApexBrasil), Laudemir Müller, has guaranteed that the political path is open for a new generation of economic partnerships between Brazil and Mozambique.",
+      "country": "MOZ",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-01T10:48:41+00:00",
+      "lead_source": {
+        "id": "aa-moz",
+        "name": "AllAfrica · Mozambique",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609010246.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-moz",
+          "name": "AllAfrica · Mozambique",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609010246.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "a09bc8451f",
       "title": "Central Bank Orders Commercial Banks to Return Over 1.15 Million to Customers",
       "summary": "[AIM] Maputo -- The Bank of Mozambique, in its role as regulator of the national financial system, has ordered credit institutions and financial companies, including mobile wallet operators, to refund a total of 1.15 million US dollars to their customers, following improper commission and fee charges applied in the first half of this year.",
@@ -14382,38 +13730,6 @@
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609010176.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "47fa5a8bb6",
-      "title": "Increasing Domestic Production Crucial for Attracting Foreign Currency - Chapo",
-      "summary": "[AIM] Marracuene -- Mozambican President Daniel Chapo believes that increasing domestic production and exports is crucial to boosting the availability of foreign currency, particularly US dollars.",
-      "country": "MOZ",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-01T09:51:36+00:00",
-      "lead_source": {
-        "id": "aa-moz",
-        "name": "AllAfrica · Mozambique",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609010177.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-moz",
-          "name": "AllAfrica · Mozambique",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609010177.html"
         }
       ],
       "confirmation_count": 1
