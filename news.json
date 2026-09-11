@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-10T22:34:52.126838+00:00",
+  "generated_at": "2026-09-11T01:04:21.093404+00:00",
   "stats": {
-    "total_signals": 509,
-    "verified_signals": 10,
-    "countries_covered": 30,
+    "total_signals": 512,
+    "verified_signals": 9,
+    "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
-      "COD": 25,
+      "COD": 24,
       "AGO": 32,
       "RWA": 4,
       "MOZ": 38,
-      "ZAF": 56,
-      "NGA": 45,
+      "ZAF": 57,
+      "NGA": 46,
       "GIN": 5,
       "UGA": 39,
       "TCD": 4,
@@ -21,10 +21,11 @@
       "DZA": 10,
       "TUN": 4,
       "SEN": 33,
-      "MAR": 39,
+      "MAR": 40,
       "MLI": 20,
       "NER": 2,
       "MDG": 3,
+      "CAF": 1,
       "MRT": 2,
       "GAB": 1,
       "BFA": 2,
@@ -236,7 +237,7 @@
     {
       "id": "b74447a518",
       "title": "RDC: un incendie dans une école à Bukavu tue au moins 25 enfants",
-      "summary": "En République démocratique du Congo, un nouvel incendie s’est déclaré ce jeudi matin dans la ville de Bukavu, dans l’est du pays. Pour l’instant, le bilan est d’au moins 26 morts : des écoliers décédés alors qu’ils tentaient de fuir les flammes qui s’étaient propagées à deux établissements du quartier de Kadutu, un quartier populaire qui surplombe la ville. Il y a quelques jours déjà, le marché principal de Kadutu est parti en fumée.",
+      "summary": "En République démocratique du Congo, un nouvel incendie s’est déclaré ce jeudi matin dans la ville de Bukavu, dans l’est du pays. Pour l’instant, le bilan est d’au moins 27 morts : des écoliers décédés alors qu’ils tentaient de fuir les flammes qui s’étaient propagées à deux établissements du quartier de Kadutu, un quartier populaire qui surplombe la ville. Il y a quelques jours déjà, le marché principal de Kadutu est parti en fumée.",
       "country": "COD",
       "category": "SINISTRE",
       "severity": 4,
@@ -376,8 +377,8 @@
       "country": "COD",
       "category": "SINISTRE",
       "severity": 4,
-      "credibility": 4,
-      "verified": true,
+      "credibility": 2,
+      "verified": false,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
@@ -399,15 +400,9 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/cgjq15j7318o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/more-than-a-dozen-children-killed-in-fire-in-eastern-dr-congo-schools?traffic_source=rss"
         }
       ],
-      "confirmation_count": 2
+      "confirmation_count": 1
     },
     {
       "id": "e78569c374",
@@ -989,6 +984,38 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609100084.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "56fd9826f3",
+      "title": "DA Files Legal Papers to Oppose ANC's Late Candidate Submission Case - Deadlines Are Deadlines!",
+      "summary": "[DA] The Democratic Alliance has filed papers before the Electoral Court for leave to intervene in the ANC's attempt to field candidates in six municipalities after failing to submit its candidate lists by the deadline.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-10T05:40:29+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609100048.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609100048.html"
         }
       ],
       "confirmation_count": 1
@@ -1618,6 +1645,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "126750ee0f",
+      "title": "Mbarara Regional Referral Hospital Lacks Its Own Mortuary, Relies On Small Must Facility",
+      "summary": "[Nile Post] Mbarara Regional Referral Hospital is facing a severe health and infrastructural challenge due to the absence of its own mortuary facility, forcing the hospital to rely entirely on the Mbarara University of Science and Technology (MUST) pathology mortuary.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-09-08T08:00:19+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609080124.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609080124.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "9de4e09108",
       "title": "3 Years On, Morocco Earthquake Victims Still Wait for Help",
       "summary": "[DW] Reconstruction has progressed in the three years since the 2023 Morocco earthquake, but some survivors are still living in tents. Locals are divided as to how successful it's been, and whether state aid is enough.",
@@ -1909,6 +1970,40 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/videos/cx2jv3vgy5lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1c06411929",
+      "title": "SCHOOL VIOLENCE: Under fire: Gun in a school backpack — why search-and-seizure operations aren’t enough",
+      "summary": "The arrest of two high school learners in Atlantis after an unlicensed firearm was found in a schoolbag adds a disturbing dimension to South Africa’s school violence crisis. But there is a broader question: how are firearms reaching learners? And what is being done to stop them?",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY"
+      ],
+      "lang": "en",
+      "published": "2026-09-11T01:23:00+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-09-11-under-fire-gun-in-a-school-backpack-why-search-and-seizure-operations-arent-enough/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-09-11-under-fire-gun-in-a-school-backpack-why-search-and-seizure-operations-arent-enough/"
         }
       ],
       "confirmation_count": 1
@@ -2521,40 +2616,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/430291/nigeria-2027-el-rufais-detention-denies-opposition-fireworks-and-strategy/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1a37f9b783",
-      "title": "Incendies à Kinshasa: des camions irrécupérables et une centaine de pompiers privés d’engins",
-      "summary": "À Kinshasa, les incendies survenus ces derniers jours ont remis en lumière l’extrême faiblesse du dispositif municipal. Selon plusieurs sources à l’Hôtel de ville, la capitale ne possède que deux camions anti-incendie. Vétustes et en panne, ils seraient jugés irrécupérables par les mécaniciens. Dans l’attente de nouveaux véhicules, la ville délègue une partie du service à des opérateurs privés.",
-      "country": "COD",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY"
-      ],
-      "lang": "fr",
-      "published": "2026-09-09T11:16:04+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260909-incendies-kinshasa-des-camions-irr%C3%A9cup%C3%A9rables-pompiers-priv%C3%A9s-d-engins-operateurs-prives"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260909-incendies-kinshasa-des-camions-irr%C3%A9cup%C3%A9rables-pompiers-priv%C3%A9s-d-engins-operateurs-prives"
         }
       ],
       "confirmation_count": 1
@@ -4499,6 +4560,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "4412dcd808",
+      "title": "Police Surgeon Finds No Signs of Sodomy On Accused Persons in Kayanja Case",
+      "summary": "[Nile Post] A police surgeon has told court that he found no evidence of sodomy on any of the seven suspects accused of fabricating evidence against Rubaga Miracle Centre senior pastor Robert Kayanja.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-08T08:00:44+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609080125.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609080125.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "3cf76fed37",
       "title": "Over 1.6 Million Angolans Complete Unofficial Voter Registration Nationwide",
       "summary": "[ANGOP] Ndalatando -- A total of 1,626,624 Angolan citizens has completed the Unofficial Voter Registration and Proof of Life process across the country since the launch of the programme in June.",
@@ -4995,6 +5088,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "99b19ce819",
+      "title": "Três detidos por furto em Lagos após perseguição pelo lesado",
+      "summary": "O lesado terá conseguido intercetar dois dos homens nas proximidades, tendo o outro sido encontrado no interior de uma viatura com matrícula trocada. Serão presentes esta quinta a tribunal.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-09-10T23:46:41+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/09/11/tres-detidos-por-furto-no-interior-de-casa-em-lagos-apos-perseguicao-pelo-lesado/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/09/11/tres-detidos-por-furto-no-interior-de-casa-em-lagos-apos-perseguicao-pelo-lesado/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "35d49572dd",
       "title": "BRICS SUMMIT: Will Ramaphosa follow Modi’s lead and confront Putin on Ukraine?",
       "summary": "President Cyril Ramaphosa will be in a position this weekend to pressure Russian President Vladimir Putin to stop the war in Ukraine. In South Africa, the Ukrainian ambassador and several diplomats are hoping he will do so.",
@@ -5059,6 +5184,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "7447448a4b",
+      "title": "Marrocos: Rabat não esteve envolvido na entrada em Ceuta",
+      "summary": "Marrocos rejeita qualquer envolvimento na entrada de mais de 70 mil pessoas em Ceuta e acusa Espanha de tentar transformá-lo em “bode expiatório” num contexto de tensão política.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-09-10T23:37:56+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/09/11/marrocos-diz-que-nenhum-facto-mostra-envolvimento-de-rabat-na-entrada-de-milhares-em-ceuta/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/09/11/marrocos-diz-que-nenhum-facto-mostra-envolvimento-de-rabat-na-entrada-de-milhares-em-ceuta/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "e6bda9b92d",
       "title": "ENDURING IMPRINT: The family whose architecture shaped the Bay and beyond",
       "summary": "Over four generations and more than 100 years, a family of engineers and architects have left their mark on the built environment of Nelson Mandela Bay and South Africa.",
@@ -5086,6 +5243,38 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-09-10-the-family-whose-architecture-shaped-the-bay-and-beyond/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c28334cb4c",
+      "title": "Centrafrique: la 5eme édition de la Causerie éducative pour aider les jeunes à construire leur avenir",
+      "summary": "À Bangui, plusieurs centaines de jeunes filles et garçons, âgés de 15 à 30 ans, prennent part à la 5e édition de la Causerie éducative. Une initiative de l’association Jeunes Filles, Lumière pour un Monde d’Avenir, JEFLUMA, placée cette année sous le thème : « Jeunesse sans limites : brisons les stéréotypes, développons le leadership, innovons pour l’avenir ». Jusqu’au 15 septembre, les participants échangent avec des leaders, des formateurs et des personnalités issues…",
+      "country": "CAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-10T23:10:34+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260910-centrafrique-la-5eme-%C3%A9dition-de-la-causerie-%C3%A9ducative-pour-aider-les-jeunes-%C3%A0-construire-leur-avenir"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260910-centrafrique-la-5eme-%C3%A9dition-de-la-causerie-%C3%A9ducative-pour-aider-les-jeunes-%C3%A0-construire-leur-avenir"
         }
       ],
       "confirmation_count": 1
@@ -7482,38 +7671,6 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/09/10/centenaire-de-slb-la-cote-divoire-distinguee-pour-son-leadership-technologique-petrolier/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c214aef41d",
-      "title": "DA Minister Schreiber Takes Home Affairs Digital Transformation to the World",
-      "summary": "[DA] The Democratic Alliance is proud to see that Minister of Home Affairs Leon Schreiber is showcasing his rapidly accelerating digital transformation of Home Affairs at a conference in Dubai this week.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-10T11:49:50+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609100376.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609100376.html"
         }
       ],
       "confirmation_count": 1
@@ -12951,70 +13108,6 @@
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609080344.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9651647a71",
-      "title": "Balaalo Have Exited Northern Uganda - Let Zebu Cows Occupy the Space",
-      "summary": "[Independent (Kampala)] Sometime in 2015, while travelling with my former boss and now the Member of Parliament representing Older Persons of Eastern Uganda, Ofwono Opondo, he read my mind in a way that was so revealing.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-08T11:22:04+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609080288.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609080288.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "279dabdfb5",
-      "title": "No Rest for Pros As MTN Pro Tees Returns At Entebbe Club",
-      "summary": "[Independent (Kampala)] Entebbe -- Up to 40 professional golfers will be in action today as MTN Pro Tee leg 2 returns to the par 71 lakeside Entebbe Club.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-08T11:18:14+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609080282.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609080282.html"
         }
       ],
       "confirmation_count": 1
