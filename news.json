@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-14T16:57:58.265373+00:00",
+  "generated_at": "2026-09-14T20:57:14.772604+00:00",
   "stats": {
-    "total_signals": 498,
+    "total_signals": 500,
     "verified_signals": 5,
     "countries_covered": 29,
     "sources_active": 32,
     "per_country": {
-      "MLI": 17,
-      "UGA": 46,
-      "KEN": 66,
       "COD": 19,
-      "NGA": 52,
+      "ZAF": 49,
+      "MLI": 17,
+      "UGA": 48,
+      "KEN": 67,
+      "NGA": 54,
       "TZA": 32,
-      "MAR": 43,
-      "ZAF": 51,
+      "MAR": 44,
       "MOZ": 39,
       "MRT": 3,
       "COG": 1,
@@ -23,9 +23,9 @@
       "SEN": 28,
       "TUN": 2,
       "NER": 6,
-      "BFA": 2,
-      "DZA": 8,
-      "CIV": 17,
+      "BFA": 3,
+      "DZA": 6,
+      "CIV": 16,
       "GIN": 6,
       "RWA": 1,
       "ZMB": 1,
@@ -232,6 +232,107 @@
     }
   ],
   "signals": [
+    {
+      "id": "3ac51cee09",
+      "title": "Funerals for children killed after fire spreads to school in DR Congo",
+      "summary": "Memorial services were held for at least 28 children who were killed after a fire spread to their school in DR Congo.",
+      "country": "COD",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY"
+      ],
+      "lang": "en",
+      "published": "2026-09-14T19:50:27+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/funerals-for-children-killed-after-fire-spreads-to-school-in-dr-congo?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/funerals-for-children-killed-after-fire-spreads-to-school-in-dr-congo?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "84a6084556",
+      "title": "DRC: Children killed in Bukavu school fire laid to rest",
+      "summary": "Victims of a deadly fire and stampede at a school in Bukavu, in the east of the Democratic Republic of Congo, have been laid to rest. Relatives and members of the Rwanda-backed M23 armed group gathered to pay tribute.",
+      "country": "COD",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY",
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "en",
+      "published": "2026-09-14T19:49:15+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/09/14/drc-children-killed-in-bukavu-school-fire-laid-to-rest/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/14/drc-children-killed-in-bukavu-school-fire-laid-to-rest/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "de2ecfb774",
+      "title": "Bishop, One Other Nigerian Killed in S/Africa, Fani-Kayode Demands Justice",
+      "summary": "[Vanguard] ·Death toll rises to eight in eight months",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-14T17:07:47+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609140747.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609140747.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "47ca1eb4bf",
       "title": "At least 50 soldiers killed in jihadist attack on Malian army base",
@@ -1119,70 +1220,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f394475033",
-      "title": "South Africa Extradites Six Nigerians Wanted in U.S. Romance Scam",
-      "summary": "[Vanguard] South Africa will extradite six Nigerian nationals to the United States Friday over allegations they swindled victims out of more than $6 million in a sophisticated online romance scam, police said.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-11T08:28:06+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609110069.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609110069.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "70d4f9df15",
-      "title": "Nigéria : le procès du chauffeur impliqué dans l'accident d'Anthony Joshua ajourné",
-      "summary": "Le procès d’Adeniyi Mobolaji Kayode, le chauffeur impliqué dans l’accident de décembre 2025 qui a blessé le boxeur Anthony Joshua et tué deux membres de son équipe, a été ajourné jeudi au 17 novembre.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-11T06:55:59+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/09/11/nigeria-le-proces-du-chauffeur-implique-dans-laccident-danthony-joshua-ajourne/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/09/11/nigeria-le-proces-du-chauffeur-implique-dans-laccident-danthony-joshua-ajourne/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "16ebc20dd6",
       "title": "President Jo&#xE3;o Louren&#xE7;o Inspects Construction of the Memorial to Victims of Political Conflicts",
       "summary": "[ANGOP] Luanda -- Angolan President João Lourenço on Thursday once again inspected the progress of construction work on the future Memorial to Victims of Political Conflicts in Luanda, with physical completion reaching 93.5%, as part of the ongoing national reconciliation process in the country.",
@@ -1212,70 +1249,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609110035.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cbd55ee9b1",
-      "title": "South Africa protesters set September 30 deadline for undocumented migrants",
-      "summary": "Protesters in South African have given immigrants living in the country illegally until Sept. 30 to leave, threatening larger demonstrations if their demands are not met.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-11T05:03:46+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/09/11/south-africa-protesters-set-september-30-deadline-for-undocumented-migrants/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/09/11/south-africa-protesters-set-september-30-deadline-for-undocumented-migrants/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e78569c374",
-      "title": "RD Congo : verdict reporté dans le procès de l'ex ministre Constant Mutamba",
-      "summary": "🇨🇩 En RDC, le verdict du procès de Constant Mutamba est reporté. L’ancien ministre de la Justice est accusé d’avoir détourné des fonds destinés à indemniser les victimes d’un épisode sanglant de la deuxième guerre du Congo. Des faits remontant au début des années 2000.",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-10T18:38:39+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260910-rd-congo-verdict-report%C3%A9-dans-le-proc%C3%A8s-de-l-ex-ministre-constant-mutamba"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260910-rd-congo-verdict-report%C3%A9-dans-le-proc%C3%A8s-de-l-ex-ministre-constant-mutamba"
         }
       ],
       "confirmation_count": 1
@@ -1708,6 +1681,75 @@
       "confirmation_count": 1
     },
     {
+      "id": "93f6153773",
+      "title": "Multiple vehicle road crash in South Africa kills 21",
+      "summary": "Fatal traffic accidents are a recurring problem for South Africa.",
+      "country": "ZAF",
+      "category": "SINISTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AUTO"
+      ],
+      "lang": "en",
+      "published": "2026-09-14T20:21:01+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/9/14/multiple-vehicle-road-crash-in-south-africa-kills-21?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/9/14/multiple-vehicle-road-crash-in-south-africa-kills-21?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d487c81e14",
+      "title": "Dangote IPO, DRC fire tragedy and regional developments [Africanews Today]",
+      "summary": "From Nigeria’s landmark refinery share offering to mourning in the Democratic Republic of Congo and efforts to improve inclusion in Côte d’Ivoire, here are the main stories from Africa.",
+      "country": "NGA",
+      "category": "SINISTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY",
+        "ENERGY"
+      ],
+      "lang": "en",
+      "published": "2026-09-14T18:00:32+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/09/14/dangote-ipo-drc-fire-tragedy-and-regional-developments-africanews-today/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/14/dangote-ipo-drc-fire-tragedy-and-regional-developments-africanews-today/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f86314ecc9",
       "title": "Retour sur un été de coupures d'eau et d'électricité en Tunisie",
       "summary": "Coupures d'eau et d'électricité à répétition, files d'attente pour quelques bouteilles, élevages avicoles décimés par la chaleur : des millions de Tunisiens ont vécu cet été au rythme des pénuries. Nos Observateurs dénoncent des années de sous-investissement. Les autorités ont acheminé de l'eau fin aout, mais beaucoup craignent de revivre le même scénario en 2027.",
@@ -2106,41 +2148,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20260913-tunisie-retour-sur-un-%C3%A9t%C3%A9-caniculaire-r%C3%A9v%C3%A9lateur-des-vuln%C3%A9rabilit%C3%A9s-du-pays"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a2e4a6b08f",
-      "title": "Cameroun: la Sonara perd son dernier recours judiciaire face à une société nigériane",
-      "summary": "Coup dur et lourd coût financier pour le Cameroun : la Société nationale de raffinage (Sonara), a perdu son dernier recours judiciaire au Royaume-Uni. Elle devra donc payer 42,8 milliards de francs CFA à la société nigériane Sahara Energy pour des cargaisons de pétrole non payées en totalité.",
-      "country": "CMR",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE",
-        "ENERGY"
-      ],
-      "lang": "fr",
-      "published": "2026-09-13T05:57:27+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260913-cameroun-la-sonara-perd-son-dernier-recours-judiciaire-face-%C3%A0-une-soci%C3%A9t%C3%A9-nig%C3%A9riane"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260913-cameroun-la-sonara-perd-son-dernier-recours-judiciaire-face-%C3%A0-une-soci%C3%A9t%C3%A9-nig%C3%A9riane"
         }
       ],
       "confirmation_count": 1
@@ -2550,8 +2557,72 @@
       "confirmation_count": 1
     },
     {
-      "id": "0303c9040a",
-      "title": "Le Premier ministre algérien Sifi Ghrieb à Bamako pour relancer la coopération",
+      "id": "396e2176e4",
+      "title": "Au Cameroun, une succession de condamnations coûte plus de 400 milliards de FCFA à l'État",
+      "summary": "Au Cameroun, des leaders politiques et de la société civile s'alarment d'une série de condamnations contre l'État, dans diverses procédures contentieuses, devant des juridictions internationales. Des condamnations très lourdes sur le plan des indemnisations financières. La presse locale a fait les comptes et fait état de 446 milliards de FCFA, en trois mois (près de 700 millions d'euros), à verser à trois créanciers étrangers avec lesquels l'État du Cameroun avait signé…",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-14T20:31:17+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260914-au-cameroun-une-succession-de-condamnations-co%C3%BBte-plus-de-400-milliards-de-fcfa-%C3%A0-l-%C3%A9tat"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260914-au-cameroun-une-succession-de-condamnations-co%C3%BBte-plus-de-400-milliards-de-fcfa-%C3%A0-l-%C3%A9tat"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "02d4a0ac06",
+      "title": "Nigéria : Dangote ouvre son capital aux investisseurs africains",
+      "summary": "Lors de la cérémonie de lancement, Dangote a présenté l’opération comme une introduction en bourse destinée au plus grand nombre.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-14T18:20:43+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/09/14/nigeria-dangote-ouvre-son-capital-aux-investisseurs-africains/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/09/14/nigeria-dangote-ouvre-son-capital-aux-investisseurs-africains/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a32f941f80",
+      "title": "Le Premier ministre algérien Sifi Ghrieb à Bamako pour relancer la coopération avec le Mali",
       "summary": "Le Premier ministre algérien Sifi Ghrieb a démarré lundi une visite à Bamako, au Mali, nouveau signe de rapprochement entre les deux pays. Les relations entre les deux voisins s'étaient fortement dégradées après la destruction, début avril 2025 par l'armée algérienne, d'un drone malien près de Tin Zaoutine, à la frontière entre les deux pays.",
       "country": "DZA",
       "category": "AUTRE",
@@ -2782,6 +2853,41 @@
         }
       ],
       "confirmation_count": 2
+    },
+    {
+      "id": "d1473dcabf",
+      "title": "Ugandan coffee farmers take the heat from climate change and thieves",
+      "summary": "Increased reports of coffee theft have raised questions about farm security.",
+      "country": "UGA",
+      "category": "CLIMAT",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY",
+        "AGRICULTURE"
+      ],
+      "lang": "en",
+      "published": "2026-09-14T14:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/ugandan-coffee-climate-change-5594788"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/ugandan-coffee-climate-change-5594788"
+        }
+      ],
+      "confirmation_count": 1
     },
     {
       "id": "ab34f4b78c",
@@ -3311,38 +3417,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "dffd7d614f",
-      "title": "WHERE TO INVEST: Growthpoint has a V&A Waterfront valuation problem",
-      "summary": "The V&A Waterfront is thriving, but Growthpoint’s valuation isn’t. Strong Cape Town growth is offset by struggling Gauteng offices and modest earnings guidance and portfolio complexity have investors questioning whether Growthpoint’s diversification is an advantage or a drag on its valuation.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-13T19:01:13+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-09-13-growthpoint-has-a-va-waterfront-valuation-problem/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-09-13-growthpoint-has-a-va-waterfront-valuation-problem/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "494b35d1b3",
       "title": "Sénégal: les exportations à la hausse, dopées par le pétrole",
       "summary": "En juillet 2026, les exportations du Sénégal ont bondi de plus de 27%, à près de 670 milliards de FCFA (l'équivalent d'un peu plus de 1,02 milliard d'euros). Cette progression s'explique notamment par la hausse des exportations du pétrole et de produits pétroliers.",
@@ -3532,6 +3606,38 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/09/11/moroccan-lawyers-extend-strike-over-profession-law/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4a4f69ace4",
+      "title": "Museveni Says Uganda Has Built Strong Economic Foundation for Faster Transformation",
+      "summary": "[Nile Post] President Museveni has said Uganda has built a strong economic foundation capable of supporting faster transformation, citing sustained economic growth, rising incomes, improved infrastructure and expanded access to social services.",
+      "country": "UGA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-11T09:16:44+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609110112.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609110112.html"
         }
       ],
       "confirmation_count": 1
@@ -3863,38 +3969,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c2f893563c",
-      "title": "Supreme Court of Appeal strikes a blow for radical change in SA public schooling",
-      "summary": "The Supreme Court’s ruling could offer the legal space and flexibility for provinces to innovate, foster local agency and drive radical, bottom-up reform across South Africa’s public schooling system.",
-      "country": "ZAF",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-08T22:51:59+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/opinionista/2026-09-08-supreme-court-of-appeal-strikes-a-blow-for-radical-change-in-sa-public-schooling/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/opinionista/2026-09-08-supreme-court-of-appeal-strikes-a-blow-for-radical-change-in-sa-public-schooling/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2996b44902",
       "title": "NITDA, NDPC and Galaxy Backbone Back CyFrica 2026 as Nigeria's Leading Cybersecurity Summit Returns",
       "summary": "[CyFrica] As Nigeria's digital economy accelerates towards an estimated $18.3 billion in 2026, the country is confronting an equally urgent challenge: protecting the digital infrastructure, data and financial ecosystems powering that growth.",
@@ -4194,6 +4268,232 @@
       "confirmation_count": 1
     },
     {
+      "id": "dd517c1228",
+      "title": "TOP OF THE PILE: Serial winners, underrated captain — Boks’ curious status after beating All Blacks",
+      "summary": "After a slow start, the Springboks deservedly won the Rugby’s Greatest Rivalry series 3-1 against the All Blacks. Outside South Africa, though, the Boks are still not universally loved.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-14T21:58:03+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-09-14-serial-winners-underrated-captain-boks-curious-status-after-beating-all-blacks/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-09-14-serial-winners-underrated-captain-boks-curious-status-after-beating-all-blacks/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f772b8a2fe",
+      "title": "LEARNING CURVEBALL: EFF to march on higher education department as pressure mounts on Minister Manamela",
+      "summary": "The EFF is demanding Higher Education Minister Buti Manamela’s resignation over what it calls a ‘mess-up’ at NSFAS, and will march on the department’s Pretoria offices on 18 September.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-14T21:48:05+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-09-14-eff-to-march-on-higher-education-department-as-pressure-mounts-on-minister-manamela/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-09-14-eff-to-march-on-higher-education-department-as-pressure-mounts-on-minister-manamela/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a9392fd849",
+      "title": "BUILDING A NATION: State development finance institutions push for bright post-austerity future",
+      "summary": "The Development Bank of Southern Africa and the Industrial Development Corporation are experiencing contrasting fortunes, but the future of South Africa’s economic development still looks bright.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-14T21:34:35+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-09-14-state-development-finance-institutions-push-for-bright-post-austerity-future/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-09-14-state-development-finance-institutions-push-for-bright-post-austerity-future/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8bfb5c83ca",
+      "title": "TIK AND THE TALIBAN: How a Joburg drug deal snared an alleged Afghan narco-kingpin",
+      "summary": "South Africa features prominently in a sprawling case against a former Afghan politician, Abdul Zahir Qadeer, who allegedly had the power to get the Taliban’s cooperation, and whom the United States has accused of conspiring to traffic large quantities of drugs and military-grade weapons.",
+      "country": "ZAF",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-14T20:40:13+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-09-14-how-a-joburg-drug-deal-snared-an-alleged-afghan-narco-kingpin/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-09-14-how-a-joburg-drug-deal-snared-an-alleged-afghan-narco-kingpin/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5bfc85dc0d",
+      "title": "UEMOA : Ouagadougou accueille une session de formation destinée aux journalistes économiques",
+      "summary": "La Commission de l’Union économique et monétaire ouest-africaine (UEMOA) a ouvert, ce lundi à Ouagadougou, au Burkina Faso, une session d’information et de sensibilisation destinée aux professionnels des médias des huit États membres. Prévue du 14 au 18 septembre, cette rencontre vise à renforcer, chez les journalistes, la connaissance des principaux chantiers de l’intégration régionale.\nLa cérémonie d’ouverture s’est déroulée en présence d’Aminata Mbodj, conseillère…",
+      "country": "BFA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "fr",
+      "published": "2026-09-14T20:18:41+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/09/14/uemoa-ouagadougou-accueille-une-session-de-formation-destinee-aux-journalistes-economiques/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/09/14/uemoa-ouagadougou-accueille-une-session-de-formation-destinee-aux-journalistes-economiques/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "31c2a4177b",
+      "title": "Kenya : des crocodiles deplacés parce qu'ils menacent les habitants",
+      "summary": "Au Kenya, la forte concentration de crocodiles dans le lac Baringo représente une menace croissante pour les populations riveraines. Pour réduire les risques, les agents de la faune kényane capturent certains de ces reptiles avant de les transférer vers d’autres lacs du pays.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "MA_GOUV",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-14T19:10:41+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260914-kenya-des-crocodiles-deplac%C3%A9s-parce-qu-ils-menacent-les-habitants"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260914-kenya-des-crocodiles-deplac%C3%A9s-parce-qu-ils-menacent-les-habitants"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f1e6592312",
+      "title": "Threads of fragility: Moroccan artist transforms Tangier museum",
+      "summary": "The exhibition, \"To be Hanging by a Thread\", delves into themes of migration, displacement, and identity.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-14T18:59:34+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/09/14/threads-of-fragility-moroccan-artist-transforms-tangier-museum/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/14/threads-of-fragility-moroccan-artist-transforms-tangier-museum/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "323b1d1fc3",
       "title": "Niger : en écartant le général Barmou, Abdourahamane Tiani veut reprendre la main sur l’armée",
       "summary": "Quelques semaines après la mutinerie d’une partie des forces spéciales, les 28 et 29 août, le chef de la junte nigérienne a procédé à un vaste remaniement de la hiérarchie militaire. Un premier signal de la réponse du pouvoir à la mutinerie qui a secoué Niamey.",
@@ -4287,6 +4587,72 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1841972/politique/cameroun-alamine-ousmane-mey-lelectron-libre-du-pouvoir/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "fa1bf7bd49",
+      "title": "Nigeria : la raffinerie Dangote ouvre son capital au public [Africanews Today]",
+      "summary": "Chaque lundi, Africanews Today vous propose un nouveau rendez-vous sur l'actualité panafricaine.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "fr",
+      "published": "2026-09-14T17:50:55+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/09/14/nigeria-la-raffinerie-dangote-ouvre-son-capital-au-public-africanews-today/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/09/14/nigeria-la-raffinerie-dangote-ouvre-son-capital-au-public-africanews-today/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e2d73ad9ec",
+      "title": "Kenya : Edwin Sifuna, l’opposant qui veut convertir la colère de la « Gen Z » en force politique",
+      "summary": "À moins d’un an de la présidentielle kényane de 2027, le sénateur Edwin Sifuna s’impose progressivement comme l’un des visages les plus en vue de l’opposition.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-14T17:06:14+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/09/14/kenya-edwin-sifuna-lopposant-qui-veut-convertir-la-colere-de-la-gen-z-en-force-politique/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/09/14/kenya-edwin-sifuna-lopposant-qui-veut-convertir-la-colere-de-la-gen-z-en-force-politique/"
         }
       ],
       "confirmation_count": 1
@@ -7672,38 +8038,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "47cb3c1c9d",
-      "title": "Coopération : Alassane Ouattara et Mamadi Doumbouya consolident l’axe Abidjan-Conakry",
-      "summary": "Ce dimanche 13 septembre 2026, le président de la République de Côte d’Ivoire, Alassane Ouattara, a reçu en sa résidence d’Abidjan-Cocody son homologue guinéen, le général Mamadi Doumbouya, en visite d’État depuis le vendredi 11. Cet entretien, relayé par la présidence ivoirienne sur les réseaux sociaux, couronne un séjour de 48 heures du dirigeant guinéen sur le sol ivoirien.\nAu cours de leur entretien, les deux chefs d’État ont salué l’excellence des relations d’amitié…",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-14T10:01:24+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/09/14/cooperation-alassane-ouattara-et-mamadi-doumbouya-consolident-laxe-abidjan-conakry/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/09/14/cooperation-alassane-ouattara-et-mamadi-doumbouya-consolident-laxe-abidjan-conakry/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "95f0441661",
       "title": "No Reliable Water in Cofimvaba Villages for Over Five Years",
       "summary": "[GroundUp] Chris Hani District Municipality says it spent over R9-million in 11 months repairing vandalised water infrastructure",
@@ -8754,6 +9088,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "1155726fca",
+      "title": "GT Flow, Formerly Twiga Foods, Placed Under Administration for Debt Recovery",
+      "summary": "[Capital FM] Nairobi -- GT Flow Limited, formerly known as Twiga Foods One Limited, has been placed under administration as the company moves to recover debts owed to suppliers and other creditors.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-14T06:51:40+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609140114.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609140114.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "00fb0a1259",
       "title": "Odinga's Family Plans Activities for First Anniversary Commemorations",
       "summary": "[Capital FM] Nairobi -- Professor Adams Oloo has been appointed to chair a committee coordinating activities to mark the first anniversary of the death of former Prime Minister Raila Odinga.",
@@ -8941,38 +9307,6 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609140100.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2555e04b9b",
-      "title": "Tinubu, Atiku, Obi, 15 Others Make Final Presidential Candidates' List",
-      "summary": "[Premium Times] The gender distribution of the list showed that, out of the 18 presidential flag bearers, 16 are male (88.9 per cent) and two are female.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-14T06:36:19+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609140097.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609140097.html"
         }
       ],
       "confirmation_count": 1
@@ -9204,38 +9538,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "44b9723068",
-      "title": "Ruto's Delivery Record Will Drive Re-Election Bid Next Year - Kindiki",
-      "summary": "[Capital FM] Deputy President Kithure Kindiki has asked Kenyans to assess President William Ruto's administration based on its development record and reject what he described as a \"vengeful narrative\" being pushed by the President's opponents ahead of next year's State House race.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-14T05:16:14+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609140067.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609140067.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "14822bb5d0",
       "title": "Sifuna Pledges Affordable Houses for Police Officers If Elected President",
       "summary": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has pledged to allocate units under the government's Affordable Housing Programme to National Police Service officers if elected President.",
@@ -9295,6 +9597,38 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609140064.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "376ce99074",
+      "title": "Security - Adeleke Tasks Osun Residents On Alertness and Threats Reporting",
+      "summary": "[This Day] Osogbo -- Osun State Governor, Ademola Adeleke, has tasked residents of the state to report any suspicious movements or individuals in their areas or neighbourhood to security agencies without any delay.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-14T05:12:50+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609140063.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609140063.html"
         }
       ],
       "confirmation_count": 1
@@ -9820,38 +10154,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "db4eddf583",
-      "title": "ANALYSIS: Where is Paul Mashatile, and does the vanishing deputy act threaten his presidential ambitions?",
-      "summary": "The continued absence of Deputy President Paul Mashatile from South African public life is a mystery. This should be an important campaigning time for him. Yet there’s very little information to explain his absence.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-13T17:57:23+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-09-13-where-is-paul-mashatile-and-does-the-vanishing-deputy-act-threaten-his-presidential-ambitions/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-09-13-where-is-paul-mashatile-and-does-the-vanishing-deputy-act-threaten-his-presidential-ambitions/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5df221585d",
       "title": "BYRM Hits 555 Points As Rally Extends Into September",
       "summary": "[Daba Finance] West Africa's BRVM extended its 2026 rally in the week ended September 11, with the Composite Index gaining 1.25% to a record 555.48 points. The BRVM 30 rose 1.42% to 269.06, the Prestige Index added 1% to 201.81 and the Principal Index gained 0.43% to 407.43. The market table puts equity market capitalization at XOF 21.42 trillion, up 1.25% from the prior week.",
@@ -10235,38 +10537,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/430346/whos-on-mahamas-christian-task-force-to-decide-on-ghanas-scandal-hit-cathedral/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3a11fe8f06",
-      "title": "THE LOWLY NEWSPAPERMAN: When big parties fail, SA has smaller options — and it’s not a wasted vote",
-      "summary": "The answers to our challenges may not lie in the big parties, so we should allow voters to explore options, no matter the size. And when smaller parties tilt the balance of power, South Africa is healthier for it.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-13T07:37:08+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-09-13-when-big-parties-fail-sa-has-smaller-options-and-its-not-a-wasted-vote/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-09-13-when-big-parties-fail-sa-has-smaller-options-and-its-not-a-wasted-vote/"
         }
       ],
       "confirmation_count": 1
@@ -11728,6 +11998,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "6f556e83d2",
+      "title": "'Not Too Late to Turn Around SA's Municipalities With the Right People in Charge'",
+      "summary": "[Daily Maverick] It is possible to turn around our metros with the right people in place, citizens' consistent engagement and a focus on contract and project management, Auditor-General Tsakani Maluleke and Songezo Zibi, chairperson of parliament's public spending watchdog, the Standing Committee on Public Accounts, assured The Gathering.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-11T13:38:23+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609110429.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609110429.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "c5d91ded1e",
       "title": "Uganda: Save the Children warns child malnutrition is worsening",
       "summary": "Home to around 1.6 million people, Uganda’s Karamoja region has seen worsening food insecurity over the course of the past few months, according to Save the Children.",
@@ -11983,6 +12285,38 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609110341.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c08d06c16a",
+      "title": "SA Uses Disease Burden to Drive Medical Innovation",
+      "summary": "[SAnews.gov.za] South Africa's high burden of tuberculosis (TB), HIV and cancer is enabling local scientists to develop nuclear medicine techniques that could improve the early detection and treatment of diseases locally and internationally.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-11T12:00:23+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609110331.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609110331.html"
         }
       ],
       "confirmation_count": 1
@@ -12572,6 +12906,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "e374ef05d6",
+      "title": "Dry Spell Deepens Water Crisis in Ntungamo Communities",
+      "summary": "[Nile Post] Communities in Ntungamo District are facing acute water shortages following a prolonged dry spell that has dried up several water sources, while unreliable piped water supplies are forcing families to spend hours searching for water.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-11T09:16:45+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609110113.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609110113.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "937667d77b",
       "title": "Algeria: diversifying beyond oil and gas [Business Africa]",
       "summary": "After decades of heavy reliance on oil and gas, Algeria is seeking to diversify its economy by expanding industry, agriculture, services and mining.",
@@ -12642,70 +13008,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "34802a6324",
-      "title": "Algérie : les agissements des Émirats arabes unis au niveau régional, en cause",
-      "summary": "Smail Debeche, professeur de relations internationales à l'université d'Alger III, a estimé que cette décision est une réponse aux actions des Émirats arabes unis contre l'Algérie au niveau régional.",
-      "country": "DZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-11T08:36:11+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/09/11/algerie-les-agissements-des-emirats-arabes-unis-au-niveau-regional-en-cause/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/09/11/algerie-les-agissements-des-emirats-arabes-unis-au-niveau-regional-en-cause/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9c203950f6",
-      "title": "Analyst says Algeria-UAE rift reflects wider Sahel dispute",
-      "summary": "Smail Debeche, a professor of international relations at the University of Algiers III, said the decision was a reaction to what he described as UAE actions against Algeria on the regional level, including in Africa's Sahel region and Libya.",
-      "country": "DZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-11T08:29:45+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/09/11/analyst-says-algeria-uae-rift-reflects-wider-sahel-dispute/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/09/11/analyst-says-algeria-uae-rift-reflects-wider-sahel-dispute/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "f6333e5d8c",
       "title": "Eight Arrested Over Alleged Destruction of Coffee, Cocoa, Banana Plants in Luweero",
       "summary": "[Nile Post] Police in Luweero District have arrested eight people over the alleged malicious destruction of coffee, cocoa, banana plants and other trees in Bamugolodde Village, Butuntumula Sub-county.",
@@ -12767,102 +13069,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609110057.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8c23eef3df",
-      "title": "We Checked 470 Toilets in This Cape Town Informal Settlement. Only 45 Were Working",
-      "summary": "[GroundUp] \"Only those who are desperate still live here\" says Marikana community leader",
-      "country": "ZAF",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-11T08:19:00+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609110046.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609110046.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7a571df38d",
-      "title": "Traditional Kingdom Plunged into Succession Crisis",
-      "summary": "[DW] A royal succession committee and the family of late King Oyo Nyimba of Toroo have put forward competing candidates. Questions have been raised as to whether the late monarch indeed had a son as his family claims.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-11T07:10:44+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609110040.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609110040.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7cc406023a",
-      "title": "Afrique du Sud : des manifestants menacent les immigrés en situation irrégulière",
-      "summary": "Les manifestants ont donné aux immigrés en situation irrégulière jusqu’au 30 septembre pour quitter le pays, menaçant d’organiser des manifestations de plus grande ampleur si leurs revendications n’étaient pas satisfaites.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-11T06:05:13+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/09/11/afrique-du-sud-les-manifestants-menacent-les-immigres-en-situation-irreguliere/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/09/11/afrique-du-sud-les-manifestants-menacent-les-immigres-en-situation-irreguliere/"
         }
       ],
       "confirmation_count": 1
@@ -13059,41 +13265,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20260910-apr%C3%A8s-drame-ceuta-maroc-r%C3%A9agit-refuse-%C3%AAtre-bouc-%C3%A9missaire-espagne-sanchez"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9cd4dd837d",
-      "title": "RD Congo : le train urbain de Kinshasa reprend du service après 15 ans d'absence",
-      "summary": "En RD Congo, l'unique train urbain desservant le centre-ville de Kinshasa depuis l'aéroport a été remis en service après 15 ans d'interruption. Cette liaison doit notamment servir à réduire le trafic automobile, alors que les embouteillages paralysent quotidiennement la capitale congolaise.",
-      "country": "COD",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AUTO",
-        "AVIATION"
-      ],
-      "lang": "fr",
-      "published": "2026-09-10T19:16:24+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/afrique/20260910-rd-congo-train-urbain-kinshasa-reprend-du-service-apr%C3%A8s-15-ans-absence-transport"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/afrique/20260910-rd-congo-train-urbain-kinshasa-reprend-du-service-apr%C3%A8s-15-ans-absence-transport"
         }
       ],
       "confirmation_count": 1
@@ -14117,38 +14288,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c04b917773",
-      "title": "Durban Conference 25 years on: racism and xenophobia persist — act now",
-      "summary": "The third UN Conference Against Racism, Racial Discrimination, Xenophobia and Related Intolerance in 2001 was a watershed moment for millions worldwide. The Durban Declaration and Programme of Action became foundational for the global fight against racism. What we need now is for states to use the plan to take clear, concrete actions and turn the promises into reality.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-09T00:05:00+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/opinionista/2026-09-09-durban-conference-25-years-on-it-didnt-get-rid-of-racism-and-xenophobia-action-now/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/opinionista/2026-09-09-durban-conference-25-years-on-it-didnt-get-rid-of-racism-and-xenophobia-action-now/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "7292e1fd6f",
       "title": "How Tanzanian village girl became international model",
       "summary": "She has built an enviable career that has seen her grace campaigns and runways for some of...",
@@ -14176,38 +14315,6 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/magazine/how-tanzanian-village-girl-became-international-model-5587916"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "624dc47052",
-      "title": "You can't do that: Regional lawyers call out President Ruto, remind Kenya of EAC obligations",
-      "summary": "EALS warns Nairobi against discrimination in the foreign trader crackdown, urging it to observe...",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-08T12:08:15+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/you-can-t-do-that-regional-lawyers-call-out-president-ruto-remind-kenya-of-eac-obligations-5587926"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/you-can-t-do-that-regional-lawyers-call-out-president-ruto-remind-kenya-of-eac-obligations-5587926"
         }
       ],
       "confirmation_count": 1
@@ -15508,38 +15615,6 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608250052.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ec6b07ca0b",
-      "title": "Watch – Inside Cape Town’s data hub deal",
-      "summary": "",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-08-24T23:01:26+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/video/2026-08-24-watch-inside-cape-town-s-data-hub-deal/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/video/2026-08-24-watch-inside-cape-town-s-data-hub-deal/"
         }
       ],
       "confirmation_count": 1
