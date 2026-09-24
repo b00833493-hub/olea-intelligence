@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-24T19:08:29.505579+00:00",
+  "generated_at": "2026-09-24T22:23:01.480977+00:00",
   "stats": {
-    "total_signals": 494,
-    "verified_signals": 13,
-    "countries_covered": 33,
+    "total_signals": 502,
+    "verified_signals": 12,
+    "countries_covered": 32,
     "sources_active": 32,
     "per_country": {
-      "ZAF": 61,
-      "ETH": 24,
+      "ETH": 26,
+      "ZAF": 63,
       "BFA": 1,
       "AGO": 34,
-      "KEN": 61,
-      "MAR": 38,
+      "KEN": 60,
+      "MAR": 39,
       "MOZ": 40,
       "UGA": 36,
       "NGA": 47,
@@ -19,25 +19,24 @@
       "CMR": 6,
       "CAF": 5,
       "DZA": 1,
-      "SEN": 27,
+      "SEN": 29,
       "TUN": 3,
       "TZA": 34,
-      "COD": 16,
+      "MDG": 5,
+      "COD": 17,
       "BDI": 1,
+      "GHA": 2,
       "MRT": 1,
       "RWA": 7,
       "COG": 1,
       "CIV": 13,
       "GAB": 2,
       "TGO": 3,
-      "GHA": 2,
       "GIN": 4,
-      "MDG": 3,
       "ZWE": 2,
       "BEN": 1,
       "MUS": 1,
       "MLI": 13,
-      "LBR": 1,
       "ZMB": 1
     }
   },
@@ -236,6 +235,40 @@
     }
   ],
   "signals": [
+    {
+      "id": "d846acb803",
+      "title": "Les autorités rebelles du Tigré disent être en \"guerre totale\" contre le gouvernement éthiopien",
+      "summary": "En Ethiopie, les autorités rebelles du Tigré ont affirmé jeudi être en \"guerre totale\" contre le gouvernement éthiopien, alors que des combats opposent les forces fédérales à des groupes armés dans les Etats régionaux voisins de l'Amhara et de l'Afar. Un total de 272 rebelles ont été tués et 260 ont été blessés dans le nord du pays selon l'armée fédérale.",
+      "country": "ETH",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-09-24T20:27:44+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260924-les-autorit%C3%A9s-rebelles-du-tigr%C3%A9-disent-%C3%AAtre-en-guerre-totale-contre-le-gouvernement-%C3%A9thiopien"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260924-les-autorit%C3%A9s-rebelles-du-tigr%C3%A9-disent-%C3%AAtre-en-guerre-totale-contre-le-gouvernement-%C3%A9thiopien"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "56f6dd5979",
       "title": "Ledgers of femicide: Why SA men think they’re the exception",
@@ -1234,38 +1267,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "84497c547c",
-      "title": "Soudan du Sud : Washington appelle Juba à intervenir d'urgence sur le plan humanitaire",
-      "summary": "Les États-Unis menacent les autorités sud-soudanaises qui pourraient devenir la cible de sanctions si rien n’est fait pour améliorer la situation humanitaire dans le pays, où 10 millions de personnes ont besoin d’aide. Un communiqué au ton particulièrement dur a été publié dimanche 20 septembre par le Bureau des affaires africaines du département d'État américain. Les précisions de Bastien Renouil, correspondant France 24 à Nairobi.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": "AML_CFT",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-23T10:49:31+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260923-soudan-du-sud-washington-appelle-juba-%C3%A0-intervenir-d-urgence-sur-le-plan-humanitaire"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260923-soudan-du-sud-washington-appelle-juba-%C3%A0-intervenir-d-urgence-sur-le-plan-humanitaire"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "b50d57eda6",
       "title": "Angolan President Discusses Stronger Cooperation With Canadian Prime Minister",
       "summary": "[ANGOP] New York -- Angolan President João Lourenço on Tuesday met Canadian Prime Minister Mark Carney in New York, where they discussed strengthening and expanding bilateral cooperation.",
@@ -1811,6 +1812,75 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608310452.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6e9a67703e",
+      "title": "Une jeunesse malgache en plein doute, un an après le soulèvement contre le régime d’Andry Rajoelina",
+      "summary": "Il y a un an, la jeunesse malgache descendait dans la rue pour protester contre les coupures d’eau et d’électricité, la corruption galopante et les restrictions à la liberté d’expression. Cette mobilisation historique avait conduit trois semaines plus tard à la chute d’Andry Rajoelina et à la prise de pouvoir des militaires du Capsat. Un an après, la Gen Z entrevoit-elle de meilleures perspectives pour son avenir ? Son quotidien s’est-il amélioré ? Se sent-elle écoutée…",
+      "country": "MDG",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE",
+        "ENERGY"
+      ],
+      "lang": "fr",
+      "published": "2026-09-24T22:06:27+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260924-une-jeunesse-malgache-en-plein-doute-un-an-apr%C3%A8s-le-soul%C3%A8vement-contre-le-r%C3%A9gime-d-andry-rajoelina"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260924-une-jeunesse-malgache-en-plein-doute-un-an-apr%C3%A8s-le-soul%C3%A8vement-contre-le-r%C3%A9gime-d-andry-rajoelina"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "88952b0a28",
+      "title": "Pretoria hosts massive barbecue world record attempt",
+      "summary": "South Africans in Pretoria are hoping to have cooked up a new Guinness World Record. Hundreds gathered on Thursday to fire up their grills and attempt the largest simultaneous barbecue ever recorded.",
+      "country": "ZAF",
+      "category": "SINISTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY"
+      ],
+      "lang": "en",
+      "published": "2026-09-24T19:57:39+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/09/24/pretoria-hosts-massive-barbecue-world-record-attempt/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/24/pretoria-hosts-massive-barbecue-world-record-attempt/"
         }
       ],
       "confirmation_count": 1
@@ -2672,6 +2742,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "57f4b6ad00",
+      "title": "Éliminatoires CAN 2027: la Côte d’Ivoire débute idéalement en dominant le Ghana",
+      "summary": "Le choc de cette première journée des éliminatoires de la CAN 2027 a été remporté (2-0) par la Côte d’Ivoire face au Ghana, ce jeudi 24 septembre 2024. Grâce à leur nouveau prodige Malick Yalcouyé, les Éléphants lancent leurs qualifications de la meilleure des manières.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-24T20:56:13+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique-foot/20260924-%C3%A9liminatoires-can-2027-la-c%C3%B4te-d-ivoire-d%C3%A9bute-id%C3%A9alement-en-dominant-le-ghana"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260924-%C3%A9liminatoires-can-2027-la-c%C3%B4te-d-ivoire-d%C3%A9bute-id%C3%A9alement-en-dominant-le-ghana"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "4671f355bf",
       "title": "Bassirou Diomaye Faye sur RFI et France 24: «Qui de mieux que Macky Sall pour défendre la place de l'Afrique à l’ONU?»",
       "summary": "Bassirou Diomaye Faye est l’invité de RFI et France 24 en marge de l’Assemblée générale de l’ONU 2026, ce 24 septembre à New York. Au micro de Mounia Daoudi et de Marc Perelman, le président du Sénégal revient sur la crise que traverse cette institution et la succession du Portugais Antonio Guterres au poste de Secrétaire général des Nations unies. « Qui de mieux pour défendre la réforme de l'architecture financière internationale que le président Macky Sall »,…",
@@ -3451,44 +3553,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3c058acd54",
-      "title": "Kenya's Ruto calls for permanent African representation on UN Security Council",
-      "summary": "In his address to the UN General Assembly on Wednesday, William Ruto lamented Africa's exclusion from permanent representation on the UN Security Council, despite accounting for more than a quarter of the assembly's membership.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T10:04:43+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/09/24/kenyas-ruto-calls-for-permanent-african-representation-on-un-security-council/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/09/24/kenyas-ruto-calls-for-permanent-african-representation-on-un-security-council/"
-        },
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609220032.html"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "e88f3b2076",
       "title": "Conflit dans l’est de la RDC: à l’ONU, Rwandais et Congolais insistent sur le respect des accords signés",
       "summary": "Rwanda et République démocratique du Congo (RDC) se sont succédés le 23 septembre 2026 à la tribune de l’Assemblée générale de l’ONU : leurs Premiers ministres ont souligné les avancées diplomatiques réalisées ces derniers mois dans le conflit qui oppose leurs pays. Mais les griefs restent là. Et surtout, chacun pense que les concrétisations des engagements pris sont trop lentes.",
@@ -3580,38 +3644,6 @@
           "name": "CIO Africa",
           "tier": 2,
           "url": "https://cioafrica.co/22-on-sloane-launches-ai-platform-as-it-raises-63-million-for-african-startups/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8dfb1dd1c0",
-      "title": "Cameroun: des enseignants du supérieur maintiennent leur grève, onze universités d’État restent impactées",
-      "summary": "Au Cameroun, onze universités d’État fonctionnent au ralenti, trois semaines après le démarrage d'une grève lancée par le Syndicat des enseignants du supérieur (Synes). Les enseignants réclament le versement de l'allocation spéciale pour la modernisation de la recherche ainsi que le règlement d'une dette académique accumulée sur une période de 20 ans et qui s'élèvent à 10 milliards de francs CFA (FCFA).",
-      "country": "CMR",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-24T07:50:51+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260924-cameroun-des-enseignants-du-sup%C3%A9rieur-maintiennent-leur-gr%C3%A8ve-onze-universit%C3%A9s-d-%C3%A9tat-restent-impact%C3%A9es"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260924-cameroun-des-enseignants-du-sup%C3%A9rieur-maintiennent-leur-gr%C3%A8ve-onze-universit%C3%A9s-d-%C3%A9tat-restent-impact%C3%A9es"
         }
       ],
       "confirmation_count": 1
@@ -4741,6 +4773,230 @@
       "confirmation_count": 1
     },
     {
+      "id": "db411c655f",
+      "title": "NEW BEGINNINGS : Haashim Pead tug-of-war puts club rugby’s biggest challenge into perspective",
+      "summary": "The Stormers’ signing of the ‘third-choice’ scrumhalf serves to show how South Africa’s leading franchises are stacking their squads ahead of a marathon 2026/27 club season.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T22:46:56+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-09-24-haashim-pead-tug-of-war-puts-club-rugbys-biggest-challenge-into-perspective/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-09-24-haashim-pead-tug-of-war-puts-club-rugbys-biggest-challenge-into-perspective/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1ddf8a6d47",
+      "title": "Madagascar: comment la Russie cherche à s'imposer dans l'océan Indien",
+      "summary": "Moins d'un an après le changement de régime à Madagascar, une enquête publiée le 23 septembre 2026 par le collectif All Eyes On Wagner (AEOW) de l’ONG INPACT montre comment la Russie a mené sur la Grande Île une offensive rapide et protéiforme, pour en faire un point d'appui stratégique dans l'océan Indien.",
+      "country": "MDG",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-24T22:10:35+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20260924-madagascar-comment-la-russie-cherche-%C3%A0-s-imposer-dans-l-oc%C3%A9an-indien"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20260924-madagascar-comment-la-russie-cherche-%C3%A0-s-imposer-dans-l-oc%C3%A9an-indien"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "207bfbab0f",
+      "title": "Tourisme: le Sénégal veut sortir du tout balnéaire et miser sur sa culture",
+      "summary": "Comme l'Afrique du Sud et l'Égypte, le Sénégal a connu cette année une fréquentation accrue de la part des touristes français (+18 % en 2025-2026). Ils se sont reportés vers les destinations africaines, face aux risques liés à la guerre au Moyen-Orient. Mais avec un million et demi de touristes en 2025, le Sénégal est loin de son objectif de 2 millions et demi de visiteurs annuels. Face à l'essoufflement du tourisme balnéaire, le pays de la Téranga veut diversifier son…",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-24T22:06:28+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260924-tourisme-le-s%C3%A9n%C3%A9gal-veut-sortir-du-tout-baln%C3%A9aire-et-miser-sur-sa-culture"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260924-tourisme-le-s%C3%A9n%C3%A9gal-veut-sortir-du-tout-baln%C3%A9aire-et-miser-sur-sa-culture"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "51df17a0f3",
+      "title": "DR Congo and Ivory Coast top Africa Cup of Nations qualifying opening wins",
+      "summary": "DR Congo beat Equatorial Guinea, while Ivory Coast cruise by Ghana and Cameroon beat Comoros as AFCON qualifiers begin.",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T21:56:15+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/sports/2026/9/24/dr-congo-and-ivory-coast-top-africa-cup-of-nations-qualifying-opening-wins?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/sports/2026/9/24/dr-congo-and-ivory-coast-top-africa-cup-of-nations-qualifying-opening-wins?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bc7376af9a",
+      "title": "Mais de 40 milhões enfrentam insegurança alimentar aguda",
+      "summary": "Sudão do Sul, Somália e Quénia agravam situação. Nove milhões de crianças sofrem de má nutrição. Só o Uganda registou melhorias em 2026.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-09-24T21:52:04+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/09/24/40-milhoes-em-inseguranca-alimentar-aguda-na-africa-oriental-crise-triplicou-desde-2016-alerta-igad/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/09/24/40-milhoes-em-inseguranca-alimentar-aguda-na-africa-oriental-crise-triplicou-desde-2016-alerta-igad/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "40104baa8b",
+      "title": "Éliminatoires CAN 2027: bonne opération pour le Cameroun face aux Comores",
+      "summary": "Le Cameroun retrouvait les Comores ce jeudi 24 septembre 2026 à Garoua pour le début des éliminatoires de la CAN 2027. Les Lions indomptables se sont imposés face aux Comores (3-1).",
+      "country": "CMR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-24T21:11:20+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique-foot/20260924-%C3%A9liminatoires-can-2027-bonne-op%C3%A9ration-pour-le-cameroun-face-aux-comores"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260924-%C3%A9liminatoires-can-2027-bonne-op%C3%A9ration-pour-le-cameroun-face-aux-comores"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6a9f089cbf",
+      "title": "Des préservatifs français donnés en masse à la Côte d'Ivoire ?",
+      "summary": "Ces dernières semaines, des internautes cherchent au travers de leurs publications à ternir les relations franco-ivoiriennes. Tantôt en assurant que Paris va offrir à Abidjan sa première ligne de métro, tantôt en affirmant que la France veut humilier la Côte d'Ivoire en lui donnant des tonnes de préservatifs et de protections hygiéniques. Explications.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-24T20:51:57+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20260924-des-pr%C3%A9servatifs-fran%C3%A7ais-donn%C3%A9s-en-masse-%C3%A0-la-c%C3%B4te-d-ivoire"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20260924-des-pr%C3%A9servatifs-fran%C3%A7ais-donn%C3%A9s-en-masse-%C3%A0-la-c%C3%B4te-d-ivoire"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "4f3217fdd8",
       "title": "RUBBER-STAMPED (PART 2): Testing the teeth of CT’s planning tribunal: Penalties, objections and refusals in 1,328 rulings",
       "summary": "For more than three years, in the Blaauwberg district of Cape Town, ratepayers have been sounding the alarm on the proliferation of illegal and structurally unsafe buildings. In this second part of Daily Maverick’s analysis of all Municipal Planning Tribunal rulings from 1 July 2025 to 31 July 2026, we look at what the data say about the efficacy of administrative penalties. We also look at the numbers on objections, conflicts of interest and refusals.",
@@ -4832,6 +5088,134 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1846064/politique/est-de-la-rdc-pourquoi-la-localite-de-point-zero-est-elle-si-importante-dans-la-guerre/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1910038b55",
+      "title": "L’Afrique du Sud tente de battre le record du monde du plus grand barbecue",
+      "summary": "Près de 3 000 Sud-Africains se sont réunis jeudi 24 septembre à Pretoria, à l’occasion de la Journée du patrimoine, pour tenter d’établir un nouveau record Guinness du plus grand nombre de personnes faisant griller simultanément un barbecue.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-24T19:48:30+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/09/24/lafrique-du-sud-tente-de-battre-le-record-du-monde-du-plus-grand-barbecue/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/09/24/lafrique-du-sud-tente-de-battre-le-record-du-monde-du-plus-grand-barbecue/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "63ee500480",
+      "title": "Diomaye Faye sur France 24 : FMI, Macky Sall, Ousmane Sonko… ce qu’il faut retenir de l'interview",
+      "summary": "Dans un entretien exclusif accordé à France 24 et RFI à New York, le président sénégalais Bassirou Diomaye Faye est revenu sur sa rupture avec Ousmane Sonko, le nouvel accord avec le FMI ou encore la candidature de Macky Sall au poste de secrétaire général de l’ONU. Le décryptage de cet entretien avec Zyad Limam, directeur du mensuel Afrique Magazine et Bruno Daroux, chroniqueur international à France 24.",
+      "country": "SEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-24T19:40:11+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260924-diomaye-faye-sur-france-24-fmi-macky-sall-ousmane-sonko-ce-qu-il-faut-retenir-de-l-interview"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260924-diomaye-faye-sur-france-24-fmi-macky-sall-ousmane-sonko-ce-qu-il-faut-retenir-de-l-interview"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d72dc5a48c",
+      "title": "What’s triggered the latest violence in Ethiopia?",
+      "summary": "Tigrayan forces say they are in a 'full-blown war' with the army.",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T19:34:53+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/inside-story/2026/9/24/whats-triggered-the-latest-violence-in-ethiopia?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/inside-story/2026/9/24/whats-triggered-the-latest-violence-in-ethiopia?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d8bbb279a8",
+      "title": "Législatives au Maroc : des électeurs saluent le scrutin, malgré une forte abstention",
+      "summary": "Au lendemain du vote, des Marocains témoignent d’un scrutin sans incident et font part de leurs attentes sur le pouvoir d’achat, alors que la participation s’est limitée à 38 %.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-24T19:20:38+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/09/24/legislatives-au-maroc-des-electeurs-saluent-le-scrutin-malgre-une-forte-abstention/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/09/24/legislatives-au-maroc-des-electeurs-saluent-le-scrutin-malgre-une-forte-abstention/"
         }
       ],
       "confirmation_count": 1
@@ -5257,38 +5641,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "5fdbb8c5c1",
-      "title": "LIVE: Ivory Coast vs Ghana – AFCON qualifying",
-      "summary": "Follow updates, build-up, team news and lineups, from our live text commentary stream coverage as Yan Diomande stars.",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T16:01:15+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/sports/liveblog/2026/9/24/live-ivory-coast-vs-ghana-afcon-qualifying?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/9/24/live-ivory-coast-vs-ghana-afcon-qualifying?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "c7abe0c772",
       "title": "Better Prices Lure Kitui Farmers Back to Cotton - If Seed, Rain and Young Farmers Follow",
       "summary": "[allAfrica] The landscape changes as the road winds into Kitui County.",
@@ -5318,38 +5670,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609240506.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2e47f7b7e1",
-      "title": "PS quer esclarecer alegado envio de reservas para França",
-      "summary": "Carneiro diz que vai requerer informação à ministra do Ambiente e levar o tema ao parlamento. Governo garante que Portugal tem reservas para 92 dias.",
-      "country": "GHA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "pt",
-      "published": "2026-09-24T15:40:01+00:00",
-      "lead_source": {
-        "id": "observador",
-        "name": "Observador",
-        "tier": 2,
-        "url": "https://observador.pt/2026/09/24/ps-quer-explicacoes-do-governo-sobre-alegada-transferencia-de-132-mil-toneladas-de-reservas-de-combustivel-para-franca/"
-      },
-      "confirming_sources": [
-        {
-          "id": "observador",
-          "name": "Observador",
-          "tier": 2,
-          "url": "https://observador.pt/2026/09/24/ps-quer-explicacoes-do-governo-sobre-alegada-transferencia-de-132-mil-toneladas-de-reservas-de-combustivel-para-franca/"
         }
       ],
       "confirmation_count": 1
@@ -6647,6 +6967,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "d5abd357b4",
+      "title": "Wafu-B U-17 - Flamingos Chase Fourth Straight Win Against Hosts C&#xF4;te d'Ivoire",
+      "summary": "[Premium Times] Nigeria sit top of the standings with nine points from three victories, while Côte d'Ivoire occupy second place with six points from two wins and one defeat",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T13:24:30+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609240353.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609240353.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5f3364e512",
+      "title": "Ex-Lasu Lecturer Becomes Fountain University's First Professor of Mass Communication",
+      "summary": "[Premium Times] Ms Adeniran, a former lecturer at Lagos State University (LASU), currently serves as Dean of the College of Management and Social Sciences at Fountain University.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T13:24:13+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609240352.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609240352.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "6eeebf3c82",
       "title": "White Smoke in FKF Pl As Kariobangi Sharks, Mombasa United Agree On Playoff",
       "summary": "[Capital FM] NAIROBI -- It is a sigh of relief in the 2026/27 Football Kenya Federation (FKF) Premier League stalemate after Kariobangi Sharks and Mombasa United agreed to contest the promotion and relegation playoff to allow the top-flight league to finally kick off finally.",
@@ -6909,6 +7293,72 @@
       "confirmation_count": 1
     },
     {
+      "id": "924947c7d9",
+      "title": "Onaiyekan, Mbah, Achebe to Headline Nge Conference in Enugu",
+      "summary": "[Leadership] Emeritus Archbishop of Abuja, John Cardinal Onaiyekan, will deliver the keynote address at the 2026 All Nigeria Editors Conference (ANEC) organised by the Nigerian Guild of Editors (NGE), opening at the Enugu International Conference Centre (ICC), today.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T12:57:51+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609240325.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609240325.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "587a96206a",
+      "title": "NCDC - Travellers From Ebola-Hit Countries May Be Required to Complete Health Forms",
+      "summary": "[Leadership] Patience Ivie Ihejirika, Ejike Ejike, Anayo Onukwu -- The Nigeria Centre for Disease Control and Prevention (NCDC) has said that travellers arriving from countries with active or relevant Ebola Virus Disease (EVD) transmission may be required to complete Health Declaration Forms at points of entry.",
+      "country": "NGA",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-09-24T12:57:31+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609240324.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609240324.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "c490b666c1",
       "title": "Kakuzi Birdwatching Tour Ends in Triumph As Japanese Royalty Sights Rare Migratory Birds",
       "summary": "[Capital FM] Nairobi -- A recent birdwatching and photography excursion to agribusiness Kakuzi Plc orchards in Murang'a County ended on a celebratory note after a member of Japan's Royal Family, Her Imperial Highness Princess Takamado of Japan, spotted at least two international migratory birds in their natural habitat.",
@@ -6968,6 +7418,38 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609240322.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "85f8be3e33",
+      "title": "Avoid Shaky Start, Presidential Aide, Adeboye, Charges Eagles",
+      "summary": "[This Day] The Senior Special Adviser to the President on Grassroots Sports Development, Prince Adeyinka Anthony Adeboye, has charged the Super Eagles to avoid shaky start in their 2027 AFCON qualifiers.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T12:55:57+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609240312.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609240312.html"
         }
       ],
       "confirmation_count": 1
@@ -7657,6 +8139,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "b1623191e7",
+      "title": "Wakiso Takes 104 Councillors to Hoima for Governance Training",
+      "summary": "[Nile Post] Wakiso District has taken 104 councillors to Hoima City for a week-long training aimed at strengthening their knowledge of district governance, council procedures, laws, financial management and resource mobilisation.",
+      "country": "UGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T11:19:45+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609240184.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609240184.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f312028885",
       "title": "Maroc : le Parti Authenticité et Modernité remporte les législatives",
       "summary": "Au Maroc, le Parti Authenticité et Modernité,  membre de la coalition gouvernementale, a remporté les élections législatives du 23 septembre selon les résultats provisoires publiés dans la nuit de mercredi à jeudi.",
@@ -8209,6 +8723,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "3c058acd54",
+      "title": "Kenya's Ruto calls for permanent African representation on UN Security Council",
+      "summary": "In his address to the UN General Assembly on Wednesday, William Ruto lamented Africa's exclusion from permanent representation on the UN Security Council, despite accounting for more than a quarter of the assembly's membership.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T10:04:43+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/09/24/kenyas-ruto-calls-for-permanent-african-representation-on-un-security-council/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/24/kenyas-ruto-calls-for-permanent-african-representation-on-un-security-council/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f1ded00c7f",
       "title": "Almoravides au XIème siècle : conquête, piété et naissance de l’empire des sables",
       "summary": "Au XIème siècle la dynastie berbère musulmane des Almoravides, appelés également Mourabitounes, règne sur une grande partie de l’ouest du Sahara et du Maghreb jusqu’au sud de la péninsule ibérique. Vers 1070, ils fondent Marrakech et en font leur capitale, avant de conquérir une grande partie d’Al-Andalus. Batailles emblématiques, identité composite, place des femmes, ascétisme religieux … L’histoire des Almoravides est à retrouver ce dimanche dans Afrique, mémoires d’un…",
@@ -8729,38 +9275,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ed84b55ecd",
-      "title": "Kindiki - Kenya Kwanza Implementing Manifesto 'Project By Project'",
-      "summary": "[Capital FM] Maragua -- Deputy President Kithure Kindiki has said the Kenya Kwanza administration is implementing its manifesto through individual projects, citing ongoing development programmes in Murang'a County as he urged residents to focus on development ahead of the 2027 General Election.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T08:57:38+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609240050.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240050.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0013eaebb3",
       "title": "Ruto Warns UN Double Standards Are Eroding Trust in Global Order",
       "summary": "[Capital FM] Nairobi -- President William Ruto has warned that inconsistent application of international law and unequal power within the United Nations are eroding trust in the multilateral system, urging countries to confront what he described as a widening gap between the principles of sovereign equality and the way global institutions operate.",
@@ -8852,70 +9366,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609240045.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6dbe15407c",
-      "title": "Rehabilitation Resumes At Akwa Ibom Assembly Complex After Premium Times Reports",
-      "summary": "[Premium Times] Work has resumed at the Akwa Ibom State House of Assembly complex after months of inactivity and a series of PREMIUM TIMES reports that raised questions about the stalled ₦15.47 billion rehabilitation project.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T08:53:58+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609240042.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240042.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4d37b9cced",
-      "title": "Anti-Corruption Advocates Seek Stronger Protection for Whistleblowers",
-      "summary": "[Premium Times] Speakers empahsised whistleblowing as one of the ways of fighting corruption, and expressed regrets that such protection for whistleblowers was lacking in Nigeria.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T08:52:52+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609240039.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240039.html"
         }
       ],
       "confirmation_count": 1
@@ -9341,70 +9791,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "668dc93582",
-      "title": "NEMA Urges Caution As Flooding Persists in Anambra",
-      "summary": "[Premium Times] Head of Operations, NEMA Enugu Zonal Office, Priscilla Madukwe, described the recent incident at Ring Road, Nibo, where school children were trapped inside a bus in a flooded road as heartbreaking.",
-      "country": "NGA",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T07:39:17+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609240018.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240018.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "092b512e09",
-      "title": "Tinubu's Extended Vacation - Lawmakers Ask NASS Leadership to Reconvene Plenary to Decide Next Move",
-      "summary": "[Premium Times] The lawmakers said the leadership of the Senate and House of Representatives should disclose whether President Bola Tinubu transmitted the constitutionally required vacation declaration, arguing that the National Assembly must act if no such declaration was received within 21 days.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T07:38:52+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609240017.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240017.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "b69629e3b5",
       "title": "How Poverty Is Pushing Plateau Youths, Children Into Hazardous Work",
       "summary": "[Premium Times] Deep inside the forest behind the New Government House, Jos, young men and teenagers descend into narrow, unfortified pits, digging through layers of soil in search of traces of tin.",
@@ -9432,72 +9818,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609240016.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "46dfc3c093",
-      "title": "Reading Okot P'bitek Through Eyes Taught to Look Away",
-      "summary": "[African Arguments] In 1931, Okot p'Bitek was born in Gulu, northern Uganda. It is perhaps fitting that a man who would spend much of his life questioning what Africans had been taught to admire was himself born at a rather interesting intersection of worlds. His father, Jebedayo Opi, was a school teacher shaped by the colonial education system. His mother, Cerina Lacwaa, was an Acholi singer, dancer and storyteller, deeply rooted in the oral traditions of her people.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T07:28:42+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609240007.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240007.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2cdb12117d",
-      "title": "Insecurity Is Crippling Economies On the Cameroon-Chad Trade Corridor",
-      "summary": "[ISS] Terrorism, kidnapping and crumbling roads are combining to choke a trade lifeline linking Cameroon, Chad and Nigeria.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "en",
-      "published": "2026-09-24T07:25:54+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609240006.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240006.html"
         }
       ],
       "confirmation_count": 1
@@ -9664,38 +9984,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/09/24/mixed-reaction-in-bangui-to-icc-conviction-of-former-car-militia-commander/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9281ffee81",
-      "title": "Cartooning for Peace: «Un dessin qui critique une situation, cela parle beaucoup plus qu'un long texte»",
-      "summary": "À l’occasion de ses 20 ans, l'association Cartooning for Peace célèbre à Paris son anniversaire. Cette organisation née au lendemain de la polémique sur les caricatures du Prophète en 2005 vise à défendre les droits et la liberté des caricaturistes à travers le monde. Sur le continent : en Ouganda avec Jimmy Spire condamné pour avoir dénoncé des faits de corruption, au Kenya avec l'arrestation arbitraire de Kibet Bull, au Rwanda avec le meurtre du caricaturiste congolais…",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-24T05:14:06+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260924-cartooning-for-peace-un-dessin-qui-critique-une-situation-cela-parle-beaucoup-plus-qu-un-long-texte"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260924-cartooning-for-peace-un-dessin-qui-critique-une-situation-cela-parle-beaucoup-plus-qu-un-long-texte"
         }
       ],
       "confirmation_count": 1
@@ -10156,6 +10444,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "d3742aaa1e",
+      "title": "Mulwa Family to Take Plea in Dr Victoria Mutiso Murder Case Next Week",
+      "summary": "[Capital FM] Nairobi -- Rose Mbithe Mulwa and her two children, Angela Mulwa and Chris Mulwa, will on September 29 appear before the High Court in Nairobi to formally take plea in the murder case arising from the killing of psychiatrist Dr Victoria Nthunya Mutiso.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-23T15:21:32+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609230487.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609230487.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "68a30fb50a",
       "title": "Raila's Brother Hits Back At Uhuru Over 2022 Election Claim",
       "summary": "[Capital FM] Nairobi -- The family of the late former Prime Minister Raila Odinga has hit back at retired President Uhuru Kenyatta after he renewed his claim that Raila won the 2022 presidential election.",
@@ -10510,6 +10830,38 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/431531/is-ethiopia-heading-back-to-civil-war/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e26286b528",
+      "title": "Ruto's UNGA Deals - Jobs, Ai, Trade and Sh600bn Investment for Kenya",
+      "summary": "[Capital FM] Nairobi -- President William Ruto's engagements at the 81st United Nations General Assembly in New York are beginning to translate into a series of investment, technology, trade and security opportunities for Kenya.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-23T13:13:23+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609230397.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609230397.html"
         }
       ],
       "confirmation_count": 1
@@ -10871,6 +11223,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "b8a0505bfc",
+      "title": "Xenophobic Surge Dials Up Trauma for Many Immigrant Pupils At SA Schools in 2026",
+      "summary": "[Daily Maverick] XenoBarometer tracks the anti-immigrant movement and its impact. We aim to surface underreported stories, paying close attention to potential rights abuses, emerging patterns in anti-immigrant mobilisation and failures in the government's response.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-23T12:21:59+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609230269.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609230269.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ea87eea289",
+      "title": "Death Penalty - Let's Not Aspire to Being a Bloodthirsty, Barbaric Nation",
+      "summary": "[Daily Maverick] As ANC leaders revive calls to restore the death penalty, evidence shows capital punishment neither deters crime nor protects survivors from wrongful convictions.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-23T12:21:58+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609230267.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609230267.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "66a8c8da9e",
       "title": "GROOT BOEREWORS TREK: Succulent & spicy — the very best boerie in the land",
       "summary": "After traversing South Africa in search of the very best that a stukkie boerewors can be, the wagons have come in, delivering a load of wors from every corner of the land. And we have a decisive winner.",
@@ -10930,38 +11346,6 @@
           "name": "RFI Português",
           "tier": 1,
           "url": "https://www.rfi.fr/pt/programas/artes/20260923-idio-chichava-transforma-o-ru%C3%ADdo-de-maputo-em-dan%C3%A7a-em-paris"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8732c6439c",
-      "title": "JUSTICE DENIED: Honoured in Constantia, reviled in Liberia — fugitive war criminal Guus Kouwenhoven dies free",
-      "summary": "Dutch war criminal Guus Kouwenhoven recently died. Some honoured his life at a church service in Cape Town, where he lived opulently while fighting extradition to the Netherlands.",
-      "country": "LBR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-23T11:47:56+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-09-23-honoured-in-constantia-reviled-in-liberia-fugitive-war-criminal-guus-kouwenhoven-dies-free/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-09-23-honoured-in-constantia-reviled-in-liberia-fugitive-war-criminal-guus-kouwenhoven-dies-free/"
         }
       ],
       "confirmation_count": 1
@@ -11058,70 +11442,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/sport/football/articles/cmrer1vexl5jo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d662bcd7b0",
-      "title": "SPOTLIGHT: Health policy trailblazer Precious Matsoso credits patience, faith and The Beatles",
-      "summary": "Precious Matsoso tells Spotlight how, over three decades, she helped shape some of the most consequential health policy negotiations in South Africa and in global governance. She also shares memories about her Soweto childhood filled with music, science and political uprisings.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-23T09:56:23+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-09-23-health-policy-trailblazer-precious-matsoso-credits-patience-faith-and-the-beatles/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-09-23-health-policy-trailblazer-precious-matsoso-credits-patience-faith-and-the-beatles/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8ccfe75ae4",
-      "title": "Senators Clash Over Seven CSs Accompanying Ruto to UNGA",
-      "summary": "[Capital FM] Nairobi -- Ruling coalition and opposition senators clashed on Wednesday over the decision by seven Cabinet Secretaries to accompany President William Ruto to the United Nations General Assembly in New York.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-23T09:35:27+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609230104.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609230104.html"
         }
       ],
       "confirmation_count": 1
@@ -12259,38 +12579,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0ff58f938b",
-      "title": "South African ostriches plucked alive for luxury fashion",
-      "summary": "South African ostrich farms are using mechanical pluckers to remove feathers from living birds destined for major luxury fashion brands in techniques that are cruel and painful, animal welfare group World Animal Protection said on Monday.",
-      "country": "ZAF",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-22T13:16:13+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/09/22/south-african-ostriches-plucked-alive-for-luxury-fashion/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/09/22/south-african-ostriches-plucked-alive-for-luxury-fashion/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1283966721",
       "title": "Tawa Returns 12.17bn/ - to Tourism Communities",
       "summary": "[Daily News] Morogoro -- THE Tanzania Wildlife Management Authority (TAWA) has distributed a total of 12.17bn/- to beneficiaries of tourism activities, including district councils, Wildlife Management Areas (WMAs) and villages across the country during the 2025/2026 financial year.",
@@ -12640,38 +12928,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609220047.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cd0a14ad34",
-      "title": "South African Women Need Protection, Not Warnings",
-      "summary": "[HRW] Mysterious Killings Demand Justice and Immediate Action",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-22T09:50:49+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609220029.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609220029.html"
         }
       ],
       "confirmation_count": 1
