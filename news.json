@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-27T13:57:25.267891+00:00",
+  "generated_at": "2026-09-27T18:22:39.027936+00:00",
   "stats": {
-    "total_signals": 464,
-    "verified_signals": 12,
+    "total_signals": 465,
+    "verified_signals": 13,
     "countries_covered": 30,
     "sources_active": 32,
     "per_country": {
-      "ZAF": 64,
+      "ZAF": 65,
+      "ETH": 30,
+      "NGA": 44,
       "MOZ": 40,
-      "COD": 19,
+      "COD": 18,
       "CMR": 3,
-      "GIN": 3,
-      "ETH": 29,
+      "GIN": 2,
       "UGA": 34,
       "KEN": 54,
-      "NGA": 43,
       "SEN": 30,
       "MRT": 3,
       "BFA": 2,
-      "AGO": 30,
-      "MAR": 29,
+      "AGO": 31,
+      "MAR": 27,
       "TZA": 31,
+      "CIV": 16,
       "BEN": 1,
       "RWA": 8,
-      "CIV": 14,
       "DZA": 2,
       "TCD": 3,
-      "MDG": 4,
+      "MDG": 2,
       "CAF": 1,
       "SLE": 1,
+      "GAB": 3,
       "COG": 1,
       "ZWE": 1,
-      "GAB": 2,
       "NER": 1,
       "TUN": 1,
       "MUS": 1,
@@ -234,11 +234,161 @@
   ],
   "signals": [
     {
-      "id": "31bfea1494",
-      "title": "Two mass shootings in South Africa leave 27 dead",
-      "summary": "The two attacks hours apart come as the country struggles to stop high levels of gang-related armed violence.",
+      "id": "162a9dfba2",
+      "title": "Dozens killed in two mass shootings in South Africa",
+      "summary": "At least 27 people have been killed in two mass shootings across South Africa.",
       "country": "ZAF",
-      "category": "POLITIQUE",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 5,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-27T16:58:36+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/dozens-killed-in-two-mass-shootings-in-south-africa?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/dozens-killed-in-two-mass-shootings-in-south-africa?traffic_source=rss"
+        },
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/27/gunmen-kill-17-in-south-africa-bar-shooting-15-wounded-police/"
+        }
+      ],
+      "confirmation_count": 3
+    },
+    {
+      "id": "e2518f7a57",
+      "title": "États-Unis – Érythrée : pourquoi Washington tourne la page des sanctions contre Asmara",
+      "summary": "Washington se rapproche d’Asmara en laissant expirer l’état d’urgence nationale décrété sur le nord de l’Éthiopie. Une décision stratégique, mais controversée, alors que le Tigré renoue avec la violence.",
+      "country": "ETH",
+      "category": "REGULATION",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": "AML_CFT",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-27T16:10:19+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1845619/politique/etats-unis-erythree-pourquoi-washington-tourne-la-page-des-sanctions-contre-asmara/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1845619/politique/etats-unis-erythree-pourquoi-washington-tourne-la-page-des-sanctions-contre-asmara/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d4cc2a1c3d",
+      "title": "Africa's Mineral Strength Is Wasted If Countries Don't Work Together - New Report",
+      "summary": "[The Conversation Africa] Green technologies are mineral-intensive: electric vehicles, batteries, solar panels, wind turbines and grids need cobalt, lithium, copper, manganese, graphite and rare earths. The International Energy Agency estimates that electric cars require six times more minerals than a petrol or diesel car. A wind power plant requires about nine times more minerals than a gas-fired plant.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AUTO",
+        "PROPERTY",
+        "ENERGY"
+      ],
+      "lang": "en",
+      "published": "2026-09-27T16:05:04+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609270108.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609270108.html"
+        },
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609270108.html"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "88c544f8c8",
+      "title": "Afrique du Sud : le corps d'une 11e femme découvert, l'inquiétude grandit",
+      "summary": "La découverte du corps d’une nouvelle femme dans une municipalité située à l’est de Johannesburg porte à 11 le nombre de femmes retrouvées mortes dans cette région au cours des dix dernières semaines, ravivant les inquiétudes face à une série de meurtres dans un pays déjà confronté à des niveaux éle",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-27T14:55:07+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/09/27/afrique-du-sud-une-11e-femme-retrouvee-morte-les-meurtres-suscitent-linquietude/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/09/27/afrique-du-sud-une-11e-femme-retrouvee-morte-les-meurtres-suscitent-linquietude/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "59c1e07bf6",
+      "title": "South Africa: 11th woman found dead as killings raise alarm",
+      "summary": "The discovery of another woman's body in a municipality east of Johannesburg has brought the number of women found dead in the area over the past 10 weeks to 11, deepening concerns over a string of killings in a country already struggling with severe levels of violence against women.",
+      "country": "ZAF",
+      "category": "AUTRE",
       "severity": 4,
       "credibility": 2,
       "verified": false,
@@ -248,19 +398,53 @@
       "fdi": false,
       "sectors": [],
       "lang": "en",
-      "published": "2026-09-27T13:50:14+00:00",
+      "published": "2026-09-27T14:37:15+00:00",
       "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss"
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/09/27/woman-found-dead-in-south-africa-toll-rises-to-11/"
       },
       "confirming_sources": [
         {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/27/woman-found-dead-in-south-africa-toll-rises-to-11/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0eab44cf83",
+      "title": "US installation commemorates victims of South African ‘white genocide’",
+      "summary": "Memorial crosses installed in the US have revived erroneous claims of a ‘white genocide’ against farmers in South Africa",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "en",
+      "published": "2026-09-27T13:49:28+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/us-installation-commemorates-victims-of-south-african-white?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
           "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/us-installation-commemorates-victims-of-south-african-white?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -376,44 +560,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "15dd5b7521",
-      "title": "At least 27 people killed in two shootings in South African townships",
-      "summary": "Incidents in Wedela southwest of ​Johannesburg and Lwandle near Cape Town come days after Durban mass shooting.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-27T05:48:47+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/9/27/several-killed-in-south-africa-shooting?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/9/27/several-killed-in-south-africa-shooting?traffic_source=rss"
-        },
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/09/27/gunmen-kill-17-in-south-africa-bar-shooting-15-wounded-police/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "8edfd04928",
@@ -1284,40 +1430,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "8721224278",
-      "title": "Éthiopie : l'armée annonce avoir tué 272 rebelles tigréens",
-      "summary": "L'armée éthiopienne a annoncé, jeudi, avoir tué 272 rebelles tigréens dans la région de l'Amhara, dans un contexte de recrudescence de violence.",
-      "country": "ETH",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "fr",
-      "published": "2026-09-24T14:12:37+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/09/24/ethiopie-larmee-annonce-avoir-tue-272-rebelles-tigreens/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/09/24/ethiopie-larmee-annonce-avoir-tue-272-rebelles-tigreens/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0149cbec5e",
       "title": "Govt Maps Areas for Possible Evacuation Ahead of El Ni&#xF1;o Rains",
       "summary": "[Capital FM] Nairobi -- The government has identified areas in Nairobi where residents may need to be evacuated if El Niño rains trigger flooding beyond safe levels, with temporary holding grounds and emergency supplies being prepared ahead of the expected onset of heavy rains in October.",
@@ -1968,6 +2080,44 @@
       "confirmation_count": 1
     },
     {
+      "id": "0f4a055224",
+      "title": "Nigeria Prevail but Senegal Draw On Vieira's Debut in 2027 Afcon Qualifiers",
+      "summary": "[RFI] Powerhouse outfits Nigeria and Morocco launched their campaigns to reach the 2027 Africa Cup of Nations finals with victories over Madagascar and Gabon respectively on Friday night as World Cup participants Senegal and Egypt were held to draws.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 3,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-27T16:03:12+00:00",
+      "lead_source": {
+        "id": "aa-sen",
+        "name": "AllAfrica · Sénégal",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609270107.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-sen",
+          "name": "AllAfrica · Sénégal",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609270107.html"
+        },
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609270107.html"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
       "id": "0cd41c5938",
       "title": "Sénégal : un pays pauvre qui se paie des privilèges de pays riche",
       "summary": "Par Lansana Gagny SAKHO  Adm.A, C.M.C, Président du Cercle des Administrateurs Publics  |  PCA APIX-SA.\nOn ne distribue pas une richesse qu’on ne produit pas\nProjet de Loi de Finances Rectificative 2026 (PLFR) : Déposé à l’Assemblée nationale le 18 septembre 2026, le PLFR 2026 révise la croissance de 5 % à 2,7 %, ampute les recettes de 451,4 milliards FCFA et coupe l’investissement de 555 milliards la variable d’ajustement.\nLire la suite»",
@@ -1997,38 +2147,6 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/09/27/senegal-un-pays-pauvre-qui-se-paie-des-privileges-de-pays-riche/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8c23b8c7b8",
-      "title": "Plane carrying DR Congo military delegation crashes",
-      "summary": "A plane carrying a Congolese military delegation crashed in DR Congo, killing 17 people, including four civilians.",
-      "country": "COD",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-27T09:44:00+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/plane-carrying-dr-congo-military-delegation-crashes?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/plane-carrying-dr-congo-military-delegation-crashes?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -2305,44 +2423,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "45aacbd21a",
-      "title": "Nigeria and US sign deal to increase mining investment",
-      "summary": "Nigeria and the United States on Wednesday signed a framework agreement to \"deepen American investment\" in the West African's country mining sector. Nigeria says its mineral resources are worth $700 billion.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 3,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-25T12:04:38+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/09/24/nigeria-and-us-sign-deal-to-increase-mining-investment/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/09/24/nigeria-and-us-sign-deal-to-increase-mining-investment/"
-        },
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240472.html"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "46154a1555",
       "title": "EN DIRECT DE NOUAKCHOTT | C’est parti pour Fintech Mauritania Hackathon 2026 !",
       "summary": "Coup d’envoi de la deuxième édition du Fintech Mauritania Hackathon, organisée par Financial Afrik et Nouakchott Innovation Lab, du 25 au 28 septembre 2026.\nAu programme : innovation, intelligence collective et développement de solutions digitales au service de l’entrepreneuriat féminin et de l’inclusion financière.\nLire la suite»",
@@ -2583,38 +2663,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "fa26612e37",
-      "title": "Ethiopia's federalism dilemma: Why regional power keeps fuelling conflict",
-      "summary": "Tigrayan authorities say they are responding to attacks by federal forces, while the federal government has described the Tigrayan military action as an offensive. Both sides have accused the other of triggering the latest escalation.",
-      "country": "ETH",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T11:24:21+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/09/24/ethiopias-federalism-dilemma-why-regional-power-keeps-fuelling-conflict/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/09/24/ethiopias-federalism-dilemma-why-regional-power-keeps-fuelling-conflict/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "d12b2047ed",
       "title": "Afrigo Band Founder Moses Matovu Dies After Kampala Attack",
       "summary": "[UG Diplomat] Kampala -- Veteran Ugandan musician and Afrigo Band leader Moses Matovu has died after allegedly being attacked by unknown assailants in Kampala on Thursday morning, September 24, 2026.",
@@ -2676,6 +2724,38 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609220049.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cd1c1b9c82",
+      "title": "C&#xF4;te d'Ivoire Outfox Ghana On Renard's Return in Afcon 2027 Qualifier",
+      "summary": "[RFI] Hervé Renard launched his second spell as Côte d'Ivoire head coach with a 2-0 victory over Ghana in the first qualifying game for next year's Africa Cup of Nations in Kenya, Uganda and Tanzania.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-27T15:54:39+00:00",
+      "lead_source": {
+        "id": "aa-civ",
+        "name": "AllAfrica · Côte d'Ivoire",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609270098.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-civ",
+          "name": "AllAfrica · Côte d'Ivoire",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609270098.html"
         }
       ],
       "confirmation_count": 1
@@ -3087,38 +3167,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c211d12eed",
-      "title": "Ncdmb Launches in-House Academy for Knowledge - Sharing Among Staff, Stakeholders",
-      "summary": "[Premium Times] LearnFest, an initiative under the Nigerian Content Academy (NCA), a specialised knowledge-sharing and training arm of the NCDMB, will provide trainings on the mandate and inner workings of the Board.",
-      "country": "NGA",
-      "category": "INFRASTRUCTURE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-25T15:58:27+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609250402.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609250402.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8b812726ed",
       "title": "La Belgique renoue avec le Rwanda et conserve son influence en Afrique centrale",
       "summary": "La Belgique et le Rwanda ont annoncé, en marge de l'Assemblée générale des Nations Unies à New-York, le rétablissement de leurs relations diplomatiques. Ces dernières avaient été rompues il y a un an et demi après des sanctions de l'Union européenne contre des chefs militaires rwandais, dans le cadre du conflit entre la République démocratique du Congo et l'AFC/M23 soutenu par le Rwanda.",
@@ -3318,6 +3366,12 @@
           "url": "https://allafrica.com/stories/202609250212.html"
         },
         {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609230256.html"
+        },
+        {
           "id": "aa-mar",
           "name": "AllAfrica · Maroc",
           "tier": 2,
@@ -3336,7 +3390,39 @@
           "url": "https://allafrica.com/stories/202608280124.html"
         }
       ],
-      "confirmation_count": 4
+      "confirmation_count": 5
+    },
+    {
+      "id": "45aacbd21a",
+      "title": "Nigeria and US sign deal to increase mining investment",
+      "summary": "Nigeria and the United States on Wednesday signed a framework agreement to \"deepen American investment\" in the West African's country mining sector. Nigeria says its mineral resources are worth $700 billion.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-25T12:04:38+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/09/24/nigeria-and-us-sign-deal-to-increase-mining-investment/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/24/nigeria-and-us-sign-deal-to-increase-mining-investment/"
+        }
+      ],
+      "confirmation_count": 1
     },
     {
       "id": "171270420c",
@@ -4003,6 +4089,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "b22e259738",
+      "title": "Ruto Challenges Post-War Global Order, Renews Call for Permanent African Voice At UN",
+      "summary": "[Capital FM] Nairobi -- President William Ruto has challenged the post-World War II global order, arguing that the institutions created in 1945 no longer reflect the geopolitical realities of the modern world and must be reformed to give Africa a permanent voice in decisions on war, peace and global economic governance.",
+      "country": "KEN",
+      "category": "REGULATION",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T09:12:44+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609240079.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609240079.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "1db148ccab",
       "title": "22 On Sloane Launches AI Platform As It Raises $63 Million For African Startups",
       "summary": "Johannesburg-based startup campus 22 On Sloane has launched KUMii.Africa, an artificial intelligence platform that matches entrepreneurs with funders, markets and...\nSource",
@@ -4384,6 +4502,38 @@
           "name": "CIO Africa",
           "tier": 2,
           "url": "https://cioafrica.co/kenya-stanford-partner-on-ai-for-strategic-foresight/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "42fa39a200",
+      "title": "Corporate Council on Africa Announces C&#xF4;te d'Ivoire as Host of 2027 U.S.-Africa Business Summit",
+      "summary": "[Corporate Council on Africa] New York -- Côte d'Ivoire will take center stage in the U.S.-Africa business relationship in 2027, as Corporate Council on Africa (CCA) today announced that the Republic of Côte d'Ivoire will host the 2027 U.S.-Africa Business Summit.",
+      "country": "CIV",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-21T20:17:17+00:00",
+      "lead_source": {
+        "id": "aa-civ",
+        "name": "AllAfrica · Côte d'Ivoire",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609210835.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-civ",
+          "name": "AllAfrica · Côte d'Ivoire",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609210835.html"
         }
       ],
       "confirmation_count": 1
@@ -4774,6 +4924,230 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202608270549.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e34ac9463f",
+      "title": "Angola: subida do preço da farinha de trigo encerra panificadoras e pão perde tamanho",
+      "summary": "Em Angola, o pão vai custar mais caro e sofrer a redução do tamanho, devido à subida do preço do saco 50 kg da farinha de trigo, que disparou de  23 mil para 33 mil kwanzas (22 para 31 euros), no mercado nacional. O alerta é dos agentes económicos do sector, que avisam que o aumento no custo da materia-prima está a sufocar o negócio da panificação e a empurrar para a falência várias empresas.",
+      "country": "AGO",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-09-27T16:36:02+00:00",
+      "lead_source": {
+        "id": "rfi-pt",
+        "name": "RFI Português",
+        "tier": 1,
+        "url": "https://www.rfi.fr/pt/%C3%A1frica-lus%C3%B3fona/20260927-angola-subida-do-pre%C3%A7o-da-farinha-de-trigo-encerra-panificadoras-e-p%C3%A3o-perde-tamanho"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-pt",
+          "name": "RFI Português",
+          "tier": 1,
+          "url": "https://www.rfi.fr/pt/%C3%A1frica-lus%C3%B3fona/20260927-angola-subida-do-pre%C3%A7o-da-farinha-de-trigo-encerra-panificadoras-e-p%C3%A3o-perde-tamanho"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "358ebc79c3",
+      "title": "Unitel - Small Investors, Big Losses and the Risk of Capture",
+      "summary": "[Maka] By September 24, Unitel shares were trading at 28,000 kwanzas on Angola's stock exchange, down 30 per cent from the July offering price of 40,040 kwanzas. In less than two months, roughly 300 kwanzas had disappeared from the market value of every 1,000 invested. For a country seeking to persuade its citizens to become shareholders, this is a sobering introduction to the stock market. The 15 per cent stake sold for 300.3bn kwanzas now had a market value of 210bn…",
+      "country": "AGO",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-27T15:58:52+00:00",
+      "lead_source": {
+        "id": "aa-ago",
+        "name": "AllAfrica · Angola",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609270103.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ago",
+          "name": "AllAfrica · Angola",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609270103.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e4919e2836",
+      "title": "Senegal's President Faye - Macky Sall Best Candidate 'To Fight for Africa' At UN",
+      "summary": "[RFI] Senegalese President Bassirou Diomaye Faye has thrown his weight behind his predecessor and former political rival Macky Sall to become the next United Nations secretary-general. No one is better placed to fight for Africa's place at the table, he told RFI and France 24.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-27T15:55:51+00:00",
+      "lead_source": {
+        "id": "aa-sen",
+        "name": "AllAfrica · Sénégal",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609270099.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-sen",
+          "name": "AllAfrica · Sénégal",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609270099.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6d146a0a18",
+      "title": "Nigerian foundation urges early screening in battle against childhood cancer",
+      "summary": "The Okapi Cancer Foundation made the appeal during a childhood cancer awareness walk in Abuja, aimed at promoting awareness, mobilizing public participation, and raising resources for children battling cancer and their families",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-27T14:58:29+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/09/27/nigerian-foundation-urges-early-screening-in-battle-against-childhood-cancer/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/27/nigerian-foundation-urges-early-screening-in-battle-against-childhood-cancer/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b32071e30b",
+      "title": "Nigeria : une marche pour briser le silence autour du cancer infantile",
+      "summary": "À Abuja, au Nigeria, des familles, des survivants et des militants se mobilisent pour sensibiliser au cancer chez les enfants. Une marche organisée par la fondation Okapi Cancer Foundation appelle à mieux faire connaître cette maladie et à renforcer le soutien aux jeunes patients.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-27T14:45:09+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/09/27/nigeria-une-marche-pour-briser-le-silence-autour-du-cancer-infantile/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/09/27/nigeria-une-marche-pour-briser-le-silence-autour-du-cancer-infantile/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4819e7c4a6",
+      "title": "Ethiopians celebrate Meskel and call for peace amid renewed fighting",
+      "summary": "This year's celebration came as renewed fighting between Ethiopian federal troops and fighters loyal to the Tigray People's Liberation Front, or TPLF, raised fears of another major conflict in the country's north",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-27T13:38:01+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/09/27/ethiopians-celebrate-meskel-and-call-for-peace-amid-renewed-fighting/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/09/27/ethiopians-celebrate-meskel-and-call-for-peace-amid-renewed-fighting/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e9829e78ae",
+      "title": "Le Meskel en Éthiopie : la foi face au spectre d'un nouveau conflit",
+      "summary": "Des milliers de chrétiens orthodoxes éthiopiens se sont rassemblés à Addis-Abeba pour célébrer le Meskel, remplissant la place Meskel de la capitale de chants, de prières et de processions religieuses avant l’allumage d’un immense feu de joie, le Demera.",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-27T13:36:53+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/09/27/le-meskel-en-ethiopie-la-foi-face-au-spectre-dun-nouveau-conflit/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/09/27/le-meskel-en-ethiopie-la-foi-face-au-spectre-dun-nouveau-conflit/"
         }
       ],
       "confirmation_count": 1
@@ -5903,6 +6277,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "260fe63392",
+      "title": "Transformation artisanale du bois au Gabon",
+      "summary": "Le Gabon est recouvert à près de 88% de forêt. Pourtant, dans beaucoup de villages du pays, construire une maison, trouver des planches à prix abordables ou encore équiper les écoles en tables-bancs demeure toujours un parcours du combattant. Depuis l’interdiction de l’exportation de grumes brutes en 2010, le pays, l’un des principaux exportateurs de bois en Afrique est passé d’une simple logique d’extraction à une véritable politique d’industrialisation du bois.",
+      "country": "GAB",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-26T05:00:33+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/un-jour-au-village/20260926-transformation-artisanale-du-bois-au-gabon"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/un-jour-au-village/20260926-transformation-artisanale-du-bois-au-gabon"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ea540deb84",
       "title": "Ethiopia accuses ‘external actors’ of fuelling conflict",
       "summary": "Both the government and TPLF accuse each other of breaching the terms of the agreement.",
@@ -5996,38 +6402,6 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/opinion/editorials/who-really-wins-when-ethiopian-factions-fight-5609756"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d885733256",
-      "title": "Sénégal: le soutien de Bassirou Diomaye Faye à la candidature de Macky Sall à la tête de l’ONU fait réagir",
-      "summary": "Lors d'une conférence de presse accordée à RFI et France 24 à New York il y a deux jours, le président sénégalais Bassirou Diomaye Faye a abordé plusieurs dossiers brûlants, dont la loi qui durcit la répression de l'homosexualité et un possible report des élections locales, prévues en janvier 2027. Mais au Sénégal, c'est d'abord son soutien à Macky Sall, candidat au poste de secrétaire général de l'ONU, qui fait réagir. Ce soutien, officialisé en juillet seulement après…",
-      "country": "SEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-26T02:24:08+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20260926-s%C3%A9n%C3%A9gal-le-soutien-de-bassirou-diomaye-faye-%C3%A0-la-candidature-de-macky-sall-%C3%A0-la-t%C3%AAte-de-l-onu-fait-r%C3%A9agir"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20260926-s%C3%A9n%C3%A9gal-le-soutien-de-bassirou-diomaye-faye-%C3%A0-la-candidature-de-macky-sall-%C3%A0-la-t%C3%AAte-de-l-onu-fait-r%C3%A9agir"
         }
       ],
       "confirmation_count": 1
@@ -6734,70 +7108,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609250401.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d3bf44eed0",
-      "title": "Enugu Govt Suspends Another Traditional Ruler, Gives Reasons",
-      "summary": "[Premium Times] The Commissioner for Chieftaincy Affairs, Charles Egumgbe, disclosed this in a statement issued in Enugu on Thursday by the ministry's Public Relations Officer, Emeka Nebeife.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-25T15:56:56+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609250400.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609250400.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "da775b64aa",
-      "title": "Police Arrest Church Guard Over Death of Girl,11, in Suleja",
-      "summary": "[Premium Times] The Police Public Relations Officer, Wasiu Abiodun, said the incident followed a missing-person report filed at A Division, Suleja, on September 20.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-25T15:56:38+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609250399.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609250399.html"
         }
       ],
       "confirmation_count": 1
@@ -7948,40 +8258,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "43996d3391",
-      "title": "Presidente do Senegal defende candidatura de antecessor ao secretariado geral da ONU",
-      "summary": "O actual Presidente do Senegal, Bassirou Diomaye Faye, defendeu em entrevista à RFI e ao canal de televisão France24, a candidatura do seu antecessor, Macky Sall, ao cargo de Secretário Geral das Nações Unidas, para suceder ao português Antonio Guterres, cujo mandato termina a 31 de Dezembro deste ano.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "MARINE_TRANSPORT"
-      ],
-      "lang": "pt",
-      "published": "2026-09-25T12:28:45+00:00",
-      "lead_source": {
-        "id": "rfi-pt",
-        "name": "RFI Português",
-        "tier": 1,
-        "url": "https://www.rfi.fr/pt/%C3%A1frica/20260925-bassirou-diomaye-faye-defende-candidatura-de-antecessor-ao-secretariado-da-onu"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-pt",
-          "name": "RFI Português",
-          "tier": 1,
-          "url": "https://www.rfi.fr/pt/%C3%A1frica/20260925-bassirou-diomaye-faye-defende-candidatura-de-antecessor-ao-secretariado-da-onu"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1d5174e794",
       "title": "IBTC Expands Data Centre Skills Programme To Kenya",
       "summary": "The International Business Training College (IBTC) has expanded its data centre workforce development programme to Kenya, with support from Schneider...\nSource",
@@ -8862,38 +9138,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "dd8a7e67ce",
-      "title": "Ceuta : 28 migrants découverts dans des logements insalubres",
-      "summary": "La police espagnole a découvert 28 migrants sans papiers hébergés dans plusieurs appartements à Ceuta, enclave espagnole située au nord du Maroc. Certains logements ne répondaient pas aux normes d’hygiène et d’habitabilité, selon les autorités.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-25T08:30:58+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/09/24/ceuta-28-migrants-decouverts-dans-des-logements-insalubres/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/09/24/ceuta-28-migrants-decouverts-dans-des-logements-insalubres/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "728bd49015",
       "title": "Daily Maverick opens the DM168 e-edition to every registered reader for World News Day",
       "summary": "Free access to South Africa’s weekly news digest begins on 25 September, five weeks before the local government elections.",
@@ -9711,38 +9955,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "bec4ff780e",
-      "title": "Korir Out to Reclaim Chicago Title As Kenya Marathon Dinner Welcomes Elite Runners to Illinois",
-      "summary": "[Capital FM] Nairobi -- Ahead of the 2026 Chicago Marathon slated for Sunday, October 11, the Kenyan deep field led by 2024 winner John Korir will be motivated to reclaim the title when they are hosted at the annual Kenyan Marathon Dinner two days before the race.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T15:32:51+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609240475.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240475.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "7577cc9552",
       "title": "The Road to Dadaab - Unlocking the Food Potential of Kenya's Drylands",
       "summary": "[WFP] WFP's Country Director in Kenya reflects on how we are working with the Government and communities to turn water, farming and local enterprise into opportunities to overcome hunger and build a more resilient future.",
@@ -9834,70 +10046,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609240465.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a96ae00143",
-      "title": "Mwangi Sets Sights On Successive Kagc Wins As Series Heads to Nanyuki Open",
-      "summary": "[Capital FM] Nairobi -- Alex Mwangi will be aiming for back-to-back wins in the Kenya Amateur Golf Championship (KAGC) Series when he competes at the Nanyuki Open this weekend.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T15:25:05+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609240463.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240463.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3d65a62e97",
-      "title": "Sh8.2bn Meth Haul Incinerated Under Court Supervision As 6 Iranians Stand Trial",
-      "summary": "[Capital FM] Mombasa -- A Sh8.2 billion methamphetamine haul has been incinerated under court supervision in Mombasa as six Iranians stand trial over the seizure of more than 1,000kg of the drug in the Indian Ocean.",
-      "country": "KEN",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T15:24:36+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609240462.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609240462.html"
         }
       ],
       "confirmation_count": 1
@@ -10090,102 +10238,6 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/dramatic-eviction-of-87-year-old-madrid-tenant-spotlights-spains-housing-crisis/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "eec80fb4c9",
-      "title": "Sao Tomé-et-Principe aux urnes dimanche pour les élections législatives",
-      "summary": "À São Tomé-et-Príncipe, un enjeu domine tous les autres à l’approche des élections de dimanche dans ce petit État insulaire du golfe de Guinée : comment empêcher les jeunes de partir.",
-      "country": "GIN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-24T14:23:06+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/09/24/sao-tome-et-principe-les-electeurs-se-rendront-aux-urnes-dimanche-pour-les-legislatives/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/09/24/sao-tome-et-principe-les-electeurs-se-rendront-aux-urnes-dimanche-pour-les-legislatives/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "54dff52b9c",
-      "title": "Madagascar : un an après la chute de Rajoelina, la Gen Z dénonce une \"trahison\"",
-      "summary": "Un an après les manifestations qui ont provoqué la chute d’Andry Rajoelina, les jeunes militants malgaches disent leur désillusion. Ils accusent le nouveau pouvoir, issu du ralliement d’une unité militaire au mouvement, de renouer avec les méthodes de l’ancien régime.",
-      "country": "MDG",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-24T14:21:10+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/09/24/madagascar-un-an-apres-la-chute-de-rajoelina-la-gen-z-denonce-une-trahison/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/09/24/madagascar-un-an-apres-la-chute-de-rajoelina-la-gen-z-denonce-une-trahison/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "442b02dc90",
-      "title": "Ceuta migrant crisis: 28 undocumented migrants found hidden in Spanish flats",
-      "summary": "In Ceuta, Spanish police discovered 28 undocumented migrants hiding in flats that did not meet adequate hygiene and habitability standards. Ceuta is facing a humanitarian crisis, weeks after more than 70,000 people reached the enclave from Morocco.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T14:20:22+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/09/24/ceuta-migrant-crisis-28-undocumented-migrants-found-hidden-in-spanish-flats/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/09/24/ceuta-migrant-crisis-28-undocumented-migrants-found-hidden-in-spanish-flats/"
         }
       ],
       "confirmation_count": 1
@@ -10387,6 +10439,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "8042ab2185",
+      "title": "Judiciary Seeks Public Input On Sh50.7bn Fy2027/28 Budget",
+      "summary": "[Capital FM] Marsabit -- The Judiciary has begun public consultations on its proposed budget for the 2027/28 financial year, seeking views on priorities aimed at expanding access to justice, reducing case backlogs and improving the quality and timeliness of judicial services.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "PROJET",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T13:15:59+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609240348.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609240348.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "1213c08cf9",
       "title": "Mozambique seeks private investor for vehicle assembly plant, invites expressions of interest",
       "summary": "The automotive industry project aims to create skilled jobs and develop industrial competences. The Mozambican Government today set in motion the process of selecting a private investor to install and operate a vehicle assembly plant under a public-private partnership, initially providing for the production of buses and later expanding to other types of vehicles. The…\nSource",
@@ -10485,38 +10569,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0e9fdf6f30",
-      "title": "Madagascar’s Gen Z protesters mark one year since Rajoelina’s fall",
-      "summary": "A year after Madagascar’s Gen Z-led protests forced President Andry Rajoelina from power, activists say they feel betrayed by the country’s new military-backed government.",
-      "country": "MDG",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-24T12:21:19+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/09/24/madagascars-gen-z-protesters-mark-one-year-since-rajoelinas-fall/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/09/24/madagascars-gen-z-protesters-mark-one-year-since-rajoelinas-fall/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "9662c47321",
       "title": "En Tunisie, l'industrie navale en pleine expansion",
       "summary": "🇹🇳 En Tunisie, l’industrie navale est en plein essor. Malgré une économie en difficulté, le pays s’impose comme un hub de la construction de bateaux de plaisance et de yachts, porté par des marques tunisiennes qui conquièrent les marchés local et étranger.",
@@ -10546,38 +10598,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260924-en-tunisie-l-industrie-navale-en-pleine-expansion"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bec7040131",
-      "title": "Maroc : après les urnes, quelle majorité pour quelles priorités ?",
-      "summary": "Si les trois partis de la majorité sortante sont arrivés en tête des législatives, l’élection pose plusieurs questions du fait du fort taux d’abstention et de la remontée du PJD. Au-delà des contours de la future coalition, les défis à relever seront nombreux pour le nouveau gouvernement.",
-      "country": "MAR",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-24T11:54:25+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1846038/politique/maroc-apres-les-urnes-quelle-majorite-pour-quelles-priorites/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1846038/politique/maroc-apres-les-urnes-quelle-majorite-pour-quelles-priorites/"
         }
       ],
       "confirmation_count": 1
@@ -10804,6 +10824,70 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/business-tech/dar-port-maintains-lead-against-peers-in-efficiency-5607266"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0376fed562",
+      "title": "Ruto, Iraq PM Explore New Jobs for Kenyan Educators",
+      "summary": "[Capital FM] Nairobi -- Kenya and Iraq are exploring new opportunities for Kenyan professionals to work in Iraq, with President William Ruto saying the two countries are looking at greater labour mobility, particularly for Kenyan educators.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T10:16:58+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609240143.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609240143.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f1ded00c7f",
+      "title": "Almoravides au XIème siècle : conquête, piété et naissance de l’empire des sables",
+      "summary": "Au XIème siècle la dynastie berbère musulmane des Almoravides, appelés également Mourabitounes, règne sur une grande partie de l’ouest du Sahara et du Maghreb jusqu’au sud de la péninsule ibérique. Vers 1070, ils fondent Marrakech et en font leur capitale, avant de conquérir une grande partie d’Al-Andalus. Batailles emblématiques, identité composite, place des femmes, ascétisme religieux … L’histoire des Almoravides est à retrouver ce dimanche dans Afrique, mémoires d’un…",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-09-24T10:00:51+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/afrique-m%C3%A9moires-d-un-continent/20260924-almoravides-au-xi%C3%A8me-si%C3%A8cle-conqu%C3%AAte-pi%C3%A9t%C3%A9-et-naissance-de-l-empire-des-sables"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/afrique-m%C3%A9moires-d-un-continent/20260924-almoravides-au-xi%C3%A8me-si%C3%A8cle-conqu%C3%AAte-pi%C3%A9t%C3%A9-et-naissance-de-l-empire-des-sables"
         }
       ],
       "confirmation_count": 1
@@ -11036,6 +11120,38 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609240021.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b69629e3b5",
+      "title": "How Poverty Is Pushing Plateau Youths, Children Into Hazardous Work",
+      "summary": "[Premium Times] Deep inside the forest behind the New Government House, Jos, young men and teenagers descend into narrow, unfortified pits, digging through layers of soil in search of traces of tin.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-24T07:38:34+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202609240016.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609240016.html"
         }
       ],
       "confirmation_count": 1
@@ -11818,38 +11934,6 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/opinionista/2026-09-22-europes-political-centre-is-almost-out-of-time/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e50a02d0f2",
-      "title": "Djibouti Frees Top SA Investigative Journalist Micah Reddy",
-      "summary": "[Daily Maverick] South African investigative journalist Micah Reddy of the International Consortium of Investigative Journalists was detained on Saturday, but is now on his way back to South Africa.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-22T17:37:57+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609220448.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609220448.html"
         }
       ],
       "confirmation_count": 1
@@ -13982,38 +14066,6 @@
           "name": "AllAfrica · Côte d'Ivoire",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609170188.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a9a4830cef",
-      "title": "President Jo&#xE3;o Louren&#xE7;o Takes Part in Debate On Reparative Justice",
-      "summary": "[ANGOP] Luanda -- Angolan President João Lourenço took part on Wednesday in a virtual meeting of the Global Advisory Council on Reparative Justice, which placed slavery and its historical impacts at the centre of discussions.",
-      "country": "AGO",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-17T06:08:49+00:00",
-      "lead_source": {
-        "id": "aa-ago",
-        "name": "AllAfrica · Angola",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609170080.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ago",
-          "name": "AllAfrica · Angola",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609170080.html"
         }
       ],
       "confirmation_count": 1
