@@ -1,34 +1,35 @@
 {
-  "generated_at": "2026-10-04T09:45:09.976551+00:00",
+  "generated_at": "2026-10-04T15:21:38.344735+00:00",
   "stats": {
-    "total_signals": 476,
+    "total_signals": 492,
     "verified_signals": 12,
-    "countries_covered": 30,
+    "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
-      "KEN": 51,
+      "SEN": 24,
+      "RWA": 4,
+      "KEN": 55,
       "BFA": 9,
-      "COD": 19,
-      "RWA": 2,
+      "COD": 18,
       "ZAF": 58,
-      "NGA": 46,
-      "CAF": 4,
+      "NGA": 44,
+      "CAF": 3,
       "DZA": 3,
-      "ZWE": 4,
-      "ETH": 28,
+      "ZWE": 6,
+      "ETH": 39,
       "CMR": 5,
-      "MLI": 20,
-      "AGO": 31,
-      "UGA": 32,
-      "TZA": 29,
+      "MLI": 19,
+      "AGO": 32,
+      "UGA": 34,
+      "TZA": 31,
       "MOZ": 39,
-      "SEN": 27,
-      "MAR": 29,
+      "MAR": 27,
       "GIN": 7,
       "BWA": 2,
-      "BDI": 1,
+      "BDI": 2,
       "GHA": 6,
       "CIV": 17,
+      "GAB": 1,
       "TGO": 1,
       "COG": 1,
       "MWI": 1,
@@ -233,6 +234,70 @@
     }
   ],
   "signals": [
+    {
+      "id": "dd13d26382",
+      "title": "L'écrivain sénégalais Cheikh Hamidou Kane, auteur de «L'aventure ambiguë», est mort à l'âge de 98 ans",
+      "summary": "L’écrivain sénégalais Cheikh Hamidou Kane, auteur de L’Aventure ambiguë, est décédé à 98 ans. Ancien ministre de Léopold Sédar Senghor puis d'Abdou Diouf, ainsi que responsable des actions de l’Unicef dans une vingtaine de pays de l’Afrique subsaharienne, l'écrivain avait aussi consacré une partie de sa vie au service public.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-04T12:33:33+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/culture/20261004-l-%C3%A9crivain-s%C3%A9n%C3%A9galais-cheikh-hamidou-kane-auteur-de-l-aventure-ambigu%C3%AB-est-mort-%C3%A0-l-%C3%A2ge-de-98-ans"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/culture/20261004-l-%C3%A9crivain-s%C3%A9n%C3%A9galais-cheikh-hamidou-kane-auteur-de-l-aventure-ambigu%C3%AB-est-mort-%C3%A0-l-%C3%A2ge-de-98-ans"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cb60cd7f30",
+      "title": "Dafroza Gauthier, \"la chasseuse de génocidaires\" rwandais, est morte",
+      "summary": "Dafroza Gauthier, qui a consacré sa vie à traquer les génocidaires rwandais réfugiés en France avec son mari, Alain Gauthier, est décédée samedi à Reims (dans l'est de la France), a indiqué ce dernier dimanche à l'AFP. Thomas Zribi, co-réalisateur du documentaire \"Rwanda : à la poursuite des génocidaires\", était l'invité de l'antenne de France 24 ce dimanche 4 octobre.",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-04T12:02:25+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20261004-dafroza-gauthier-la-chasseuse-de-g%C3%A9nocidaires-rwandais-est-morte"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261004-dafroza-gauthier-la-chasseuse-de-g%C3%A9nocidaires-rwandais-est-morte"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "64da9df398",
       "title": "Kenya : un grave accident de la route fait 17 morts près de Nairobi",
@@ -1036,7 +1101,7 @@
       "country": "ZWE",
       "category": "SINISTRE",
       "severity": 4,
-      "credibility": 4,
+      "credibility": 5,
       "verified": true,
       "theme": null,
       "legal_status": null,
@@ -1063,9 +1128,15 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/10/01/zimbabwe-probes-helicopter-crash-that-killed-tycoon-chivayo/"
+        },
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/zimbabwe-helicopter-crash-chivayo-5615452"
         }
       ],
-      "confirmation_count": 2
+      "confirmation_count": 3
     },
     {
       "id": "462685e48a",
@@ -1193,6 +1264,38 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610010208.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3788a8382b",
+      "title": "Ruto Mourns 'Dear Friend' Chivayo After Zimbabwe Helicopter Crash",
+      "summary": "[Capital FM] Nairobi -- President William Ruto has mourned Zimbabwean businessman Wicknell Chivayo, describing him as a \"dear friend\" following a helicopter crash in Zimbabwe that authorities say killed six people.",
+      "country": "KEN",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-01T05:20:30+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610010064.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610010064.html"
         }
       ],
       "confirmation_count": 1
@@ -1921,6 +2024,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "991b7cb36a",
+      "title": "Kenya wavers on $1 billion debt swap as financing costs increase",
+      "summary": "Leaked reports claim Citigroup had been brought in to unlock the stalled deal, but the National...",
+      "country": "KEN",
+      "category": "SINISTRE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-03T06:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-wavers-on-debt-swap-as-financing-costs-increase-5617904"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-wavers-on-debt-swap-as-financing-costs-increase-5617904"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d0d998f08e",
       "title": "Guinée-Bissau : le retour d'Embalo bloqué pour raisons de sécurité",
       "summary": "🇬🇼 En Guinée-Bissau, les militaires au pouvoir depuis le coup d'Etat de novembre 2025 bloquent le retour de l’ex-président Umaro Sissoco Embalo, invoquant des raisons de sécurité. En exil au Maroc, Embalo avait annoncé il y a quelques jours son retour au pays et sa candidature à la présidentielle du 6 décembre.",
@@ -2087,40 +2222,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "e9c39fbbfe",
-      "title": "Imo Police Confirm Abduction of Prospective Corps Members Travelling From Ibadan",
-      "summary": "[Premium Times] The abduction comes weeks after another highway attack in which corps members were among people abducted by gunmen in Kogi State.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CONSTRUCTION"
-      ],
-      "lang": "en",
-      "published": "2026-10-02T09:42:20+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610020164.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610020164.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "8a77ea7668",
       "title": "About 400 French schools closed as some student protests turn violent",
       "summary": "About 400 schools in France are expected to remain ​closed on Friday after student protests over education-related grievances turned violent in some ‌places. The protests against teacher shortages and dilapidated school buildings erupted in the Paris region last month but have turned increasingly violent as they spread nationwide, with dozens injured and police making ​hundreds…\nSource",
@@ -2212,6 +2313,40 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/10/01/mixed-reactions-after-prominent-zimbabwe-businessman-dies-in-helicopter-crash/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "35cd8aa497",
+      "title": "Troops Rescue 10 Prospective Corps Members Abducted in Imo",
+      "summary": "[Vanguard] Troops of the Nigerian Army have neutralised 16 terrorists and recovered weapons after repelling simultaneous attacks in Adamawa.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "en",
+      "published": "2026-10-02T08:19:41+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610020106.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610020106.html"
         }
       ],
       "confirmation_count": 1
@@ -2345,44 +2480,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "74c9c3f4b3",
-      "title": "Joburg Crisis Cannot Be Solved Without Competent City Leadership",
-      "summary": "[Daily Maverick] Finance minister Enoch Godongwana announced this month that the National Treasury is developing an \"intensive intervention\" to help rescue Johannesburg. The Treasury intends to work with the City for three years, irrespective of which party emerges from the local government elections on 4 November.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 3,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-01T13:34:06+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610010357.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610010357.html"
-        },
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/opinionista/2026-10-01-joburg-crisis-cannot-be-solved-without-competent-city-leadership/"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "ba915c000a",
@@ -2625,6 +2722,42 @@
       "confirmation_count": 1
     },
     {
+      "id": "52a41e9b4a",
+      "title": "Region in efforts to clean up trade routes as cargo volumes increase",
+      "summary": "A baseline assessment estimated road-freight emissions on selected routes in Kenya, Uganda and...",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY",
+        "MARINE_TRANSPORT",
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-10-04T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/region-in-efforts-to-clean-up-trade-routes-5618000"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/region-in-efforts-to-clean-up-trade-routes-5618000"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d2cfed5d98",
       "title": "Sénégal : Kiiraay, le jeune parti du président Bassirou Diomaye Faye, fixe son cap",
       "summary": "Au Sénégal, Kiiraay rassemble ses troupes. Le jeune parti lancé par le président Bassirou Diomaye Faye le 25 juillet a tenu ce samedi 3 octobre sa première université d'hivernage dans un amphithéâtre à Dakar. L’occasion de donner des consignes aux élus chargés d'implanter le parti en régions mais aussi de clarifier sa ligne politique et ses idées.",
@@ -2716,38 +2849,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261003-ethiopie-les-troupes-f%C3%A9d%C3%A9rales-sont-entr%C3%A9e-dans-mekele-capitale-du-tigr%C3%A9"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2e9e2ff67a",
-      "title": "RDC: ce que révèle le mémorandum de coopération sécuritaire entre Washington et Kinshasa",
-      "summary": "Le 4 décembre 2025, à Washington, la RDC et les États-Unis signaient un mémorandum sur la défense et la sécurité. À l’époque, son contenu n’avait pas été révélé. RFI rapportait alors qu’il devait ouvrir la voie à une coopération plus étroite, sous réserve de réformes de l’armée congolaise. Le texte que nous avons consulté permet aujourd’hui d’en préciser les contours. Quelles formes de soutien envisage-t-il, et à quelles conditions ?",
-      "country": "COD",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-03T04:39:46+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20261003-rdc-ce-que-r%C3%A9v%C3%A8le-le-m%C3%A9morandum-de-coop%C3%A9ration-s%C3%A9curitaire-entre-washington-et-kinshasa"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20261003-rdc-ce-que-r%C3%A9v%C3%A8le-le-m%C3%A9morandum-de-coop%C3%A9ration-s%C3%A9curitaire-entre-washington-et-kinshasa"
         }
       ],
       "confirmation_count": 1
@@ -3444,40 +3545,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "d4625b2776",
-      "title": "Banques : Baisse de 24,41% du produit net bancaire consolidé du groupe Crédit Agricole du Maroc au premier semestre 2026",
-      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "fr",
-      "published": "2026-10-02T08:42:32+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/10/02/banques-baisse-de-2441-du-produit-net-bancaire-consolide-du-groupe-credit-agricole-du-maroc-au-premier-semestre-2026/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/10/02/banques-baisse-de-2441-du-produit-net-bancaire-consolide-du-groupe-credit-agricole-du-maroc-au-premier-semestre-2026/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "d58ba99c5e",
       "title": "Guinée-Bissau : le retour du président déchu Sissoco Embalo compromis",
       "summary": "En Guinée-Bissau, le retour annoncé de l’ancien président Umaro Sissoco Embalo est compromis. Les militaires au pouvoir estiment que les conditions de sécurité ne sont pas réunies pour permettre son retour dans le pays.",
@@ -3551,13 +3618,19 @@
           "url": "https://allafrica.com/stories/202609300108.html"
         },
         {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609300108.html"
+        },
+        {
           "id": "aa-moz",
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609280267.html"
         }
       ],
-      "confirmation_count": 4
+      "confirmation_count": 5
     },
     {
       "id": "eb323462ad",
@@ -3619,40 +3692,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610020033.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "65c0166999",
-      "title": "Nigeria’s $3.7bn gas projects to feed NLNG Train 7",
-      "summary": "Fiscal reforms have helped revive three gas discoveries made decades ago, but their start-up dates leave Nigeria LNG facing a feedgas gap as its long-delayed Train 7 nears completion.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-10-02T05:00:00+00:00",
-      "lead_source": {
-        "id": "africa-rep",
-        "name": "The Africa Report",
-        "tier": 2,
-        "url": "https://www.theafricareport.com/432089/nigerias-3-7bn-gas-projects-to-feed-nlng-train-7/"
-      },
-      "confirming_sources": [
-        {
-          "id": "africa-rep",
-          "name": "The Africa Report",
-          "tier": 2,
-          "url": "https://www.theafricareport.com/432089/nigerias-3-7bn-gas-projects-to-feed-nlng-train-7/"
         }
       ],
       "confirmation_count": 1
@@ -3865,6 +3904,44 @@
       "confirmation_count": 1
     },
     {
+      "id": "6ecf0b9484",
+      "title": "Morocco’s king appoints first woman prime minister following election",
+      "summary": "She will lead talks to form a coalition government and submit a list of cabinet members for the...",
+      "country": "MAR",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-01T14:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/north-africa/morocco-king-appoints-first-woman-prime-minister-5616252"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/north-africa/morocco-king-appoints-first-woman-prime-minister-5616252"
+        },
+        {
+          "id": "aa-mar",
+          "name": "AllAfrica · Maroc",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202609300095.html"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
       "id": "01209edfc1",
       "title": "Kenya : le projet de nouvelle méga-raffinerie Dangote inauguré",
       "summary": "🇰🇪 Au Kenya, le milliardaire nigérian Aliko Dangote lance le projet d’une nouvelle méga-raffinerie, présentée comme un pas vers l’autosuffisance de l’Afrique en carburant. Mais des communautés locales contestent déjà le projet en justice.",
@@ -3926,6 +4003,38 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/10/01/nigerias-president-hails-economic-reforms-ahead-of-bid-for-reelection/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "dab56ccf22",
+      "title": "Joburg crisis cannot be solved without competent City leadership",
+      "summary": "Finance minister Enoch Godongwana announced this month that the National Treasury is developing an “intensive intervention” to help rescue Johannesburg. The Treasury intends to work with the City for three years, irrespective of which party emerges from the local government elections on 4 November.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-01T12:45:12+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/opinionista/2026-10-01-joburg-crisis-cannot-be-solved-without-competent-city-leadership/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/opinionista/2026-10-01-joburg-crisis-cannot-be-solved-without-competent-city-leadership/"
         }
       ],
       "confirmation_count": 1
@@ -4253,38 +4362,6 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609300003.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "fbe21680bb",
-      "title": "Between candour and coercion — why SA won’t bend to Washington’s dictates",
-      "summary": "ANC rebuts US envoy Brent Bozell’s ‘Five Asks’, defending South Africa’s courts, land reform and BEE while rejecting pressure to bend its constitutional principles — and insisting on an equal partnership.",
-      "country": "ZAF",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-29T23:29:35+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/opinionista/2026-09-29-between-candour-and-coercion-why-sa-wont-bend-to-washingtons-dictates/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/opinionista/2026-09-29-between-candour-and-coercion-why-sa-wont-bend-to-washingtons-dictates/"
         }
       ],
       "confirmation_count": 1
@@ -5066,6 +5143,366 @@
       "confirmation_count": 1
     },
     {
+      "id": "3b05e70037",
+      "title": "RDC : comment Félix Tshisekedi a externalisé la guerre contre le M23",
+      "summary": "Face aux combattants du M23 dans l’est de la RDC, la campagne de défense congolaise s’appuie sur des experts extérieurs. Une enquête menée par l’organisation GI-TOC dévoile la manière dont ces prestataires et conseillers opèrent sur le terrain.",
+      "country": "COD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "fr",
+      "published": "2026-10-04T16:00:35+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1848504/politique/rdc-comment-felix-tshisekedi-a-externalise-la-guerre-contre-le-m23/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1848504/politique/rdc-comment-felix-tshisekedi-a-externalise-la-guerre-contre-le-m23/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "738e316300",
+      "title": "SA’s GBV crisis can’t be solved in court when it starts in the classroom",
+      "summary": "South Africa’s devastating gender-based violence crisis demands early classroom intervention rather than reactive legal measures. Such initiatives have been successful in several countries, including Sierra Leone.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-04T15:11:48+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/opinionista/2026-10-04-sas-gbv-crisis-cant-be-solved-in-court-when-it-starts-in-the-classroom/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/opinionista/2026-10-04-sas-gbv-crisis-cant-be-solved-in-court-when-it-starts-in-the-classroom/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e79d34986d",
+      "title": "Ethiopian forces seize Mekelle as regional rivals gather in Egypt",
+      "summary": "Prime Minister Abiy Ahmed reclaims Tigray’s regional capital without a fight, but an Alamein summit of uneasy neighbours threatens to escalate a domestic war into a proxy conflict.",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-04T14:53:15+00:00",
+      "lead_source": {
+        "id": "africa-rep",
+        "name": "The Africa Report",
+        "tier": 2,
+        "url": "https://www.theafricareport.com/432282/ethiopian-forces-seize-mekelle-as-regional-rivals-gather-in-egypt/"
+      },
+      "confirming_sources": [
+        {
+          "id": "africa-rep",
+          "name": "The Africa Report",
+          "tier": 2,
+          "url": "https://www.theafricareport.com/432282/ethiopian-forces-seize-mekelle-as-regional-rivals-gather-in-egypt/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a93472a695",
+      "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+      "summary": "Two residents in Mekelle tell the BBC pro-government forces have taken control of the city.",
+      "country": "ETH",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-04T13:33:05+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3859060cf0",
+      "title": "Somali president: Ethiopia can access our port, but must negotiate",
+      "summary": "Somali President Hassan Sheikh Mohamud says  Addis Ababa has yet to come to Mogadishu to negotiate access to sea ports.",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-04T13:22:22+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/somali-president-ethiopia-can-access-our-port-but-must-negotiate?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/somali-president-ethiopia-can-access-our-port-but-must-negotiate?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "25d3380652",
+      "title": "Persistent violence stalling African development, Burundi's Ndayishimiye tells summit",
+      "summary": "Burundian President Evariste Ndayishimiye says at an African Union meeting in El Alamein, Egypt, that persistent violence across Africa is taking a toll on farming, education and development.",
+      "country": "BDI",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-04T13:07:40+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/10/04/persistent-violence-stalling-african-development-burundis-ndayishimiye-tells-summit/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/10/04/persistent-violence-stalling-african-development-burundis-ndayishimiye-tells-summit/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d8ef90d229",
+      "title": "Maroc : ceux (et celles) qui murmurent à l’oreille de Fatima-Ezzahra El Mansouri",
+      "summary": "Pour comprendre l’ascension de la nouvelle cheffe du gouvernement, il faut regarder ceux qui l’entourent. Intimes, stratèges, équilibristes ou protégés, ils racontent aussi la trajectoire singulière du Parti Authenticité et Modernité (PAM) et les réseaux sur lesquels la femme politique pourra s’appuyer.",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-04T12:28:00+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1848470/politique/maroc-ceux-et-celles-qui-murmurent-a-loreille-de-fatima-ezzahra-el-mansouri/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1848470/politique/maroc-ceux-et-celles-qui-murmurent-a-loreille-de-fatima-ezzahra-el-mansouri/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cccfdb0044",
+      "title": "Éthiopie : l’armée aurait repris l’aéroport de Mekele, selon des sources locales",
+      "summary": "Les forces fédérales éthiopiennes auraient repris le contrôle de l’aéroport de Mekele, capitale de la région du Tigré, dans le nord du pays, selon des sources locales citées samedi par l’Associated Press (AP). Les circonstances de cette reprise restent floues.",
+      "country": "ETH",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "fr",
+      "published": "2026-10-04T12:25:43+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/10/04/ethiopie-larmee-aurait-repris-laeroport-de-mekele-selon-des-sources-locales/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/10/04/ethiopie-larmee-aurait-repris-laeroport-de-mekele-selon-des-sources-locales/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "04ab0b17fd",
+      "title": "Ethiopian forces recapture Mekelle airport from Tigrayan fighters",
+      "summary": "Ethiopian federal forces have taken Mekelle airport, reversing a takeover by Tigrayan fighters last month.",
+      "country": "ETH",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "MA_GOUV",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "en",
+      "published": "2026-10-04T12:22:24+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/10/04/ethiopian-forces-recapture-mekelle-airport-from-tigrayan-fighters/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/10/04/ethiopian-forces-recapture-mekelle-airport-from-tigrayan-fighters/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3d0e4dbe3f",
+      "title": "Gabon : ces femmes qui font l’économie",
+      "summary": "Secteur pétrolier, distribution, conseil… Au Gabon, de plus en plus de femmes sont aux commandes dans des secteurs économiques cruciaux. Jeune Afrique a choisi cinq trajectoires qui illustrent cette transformation en cours.",
+      "country": "GAB",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-04T11:53:40+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1846131/economie-entreprises/gabon-ces-femmes-qui-font-leconomie/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1846131/economie-entreprises/gabon-ces-femmes-qui-font-leconomie/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7bc456a8cb",
+      "title": "Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws",
+      "summary": "Federal troops and allied fighters seen in control of the city after capturing main regional airport.",
+      "country": "ETH",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "en",
+      "published": "2026-10-04T11:05:02+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "9d0344fe1c",
       "title": "South Africans in America — from the All Blacks to the All Whites",
       "summary": "New sanctions against South Africa and the placing of white crosses on the National Mall in Washington, DC last week speak to a deep connection between white nationalist politics of both South Africa and the US.",
@@ -5098,10 +5535,10 @@
       "confirmation_count": 1
     },
     {
-      "id": "6418f4ea54",
-      "title": "Photos: Community unites in Senegal’s Dakar to clean dilapidated school",
-      "summary": "Volunteers and students prepare safer, cleaner classrooms in advance of the academic year in Senegal's capital.",
-      "country": "SEN",
+      "id": "c0d8c44401",
+      "title": "Éthiopie : à Addis-Abeba, les Oromo célèbrent l’Irreecha",
+      "summary": "Des dizaines de milliers de personnes se sont rassemblées à Addis-Abeba pour célébrer l’Irreecha, la grande fête annuelle d’action de grâce des Oromo, principal groupe ethnique d’Éthiopie.",
+      "country": "ETH",
       "category": "AUTRE",
       "severity": 1,
       "credibility": 2,
@@ -5110,23 +5547,21 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "sectors": [
-        "PROPERTY"
-      ],
-      "lang": "en",
-      "published": "2026-10-04T09:09:08+00:00",
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-04T09:26:01+00:00",
       "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/gallery/2026/10/4/photos-dakar-community-unites-to-clean-school-ahead-of-academic-year?traffic_source=rss"
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/10/04/ethiopie-a-addis-abeba-les-oromo-celebrent-lirreecha/"
       },
       "confirming_sources": [
         {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/gallery/2026/10/4/photos-dakar-community-unites-to-clean-school-ahead-of-academic-year?traffic_source=rss"
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/10/04/ethiopie-a-addis-abeba-les-oromo-celebrent-lirreecha/"
         }
       ],
       "confirmation_count": 1
@@ -5193,6 +5628,40 @@
           "name": "Observador",
           "tier": 2,
           "url": "https://observador.pt/programas/fora-do-baralho/o-estado-devia-pagar-renda-pelas-casas-vazias-ouvintes/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "28b7d8c212",
+      "title": "US rekindles interest in Lobito Corridor with $3m grant for hydropower expansion",
+      "summary": "Official says reliable power allows mines to operate, businesses to profit and families to thrive.",
+      "country": "AGO",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "en",
+      "published": "2026-10-04T06:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/us-rekindles-interest-in-lobito-corridor-hydropower-expansion-5617972"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/us-rekindles-interest-in-lobito-corridor-hydropower-expansion-5617972"
         }
       ],
       "confirmation_count": 1
@@ -5355,70 +5824,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20261004-c%C3%B4te-d-ivoire-des-campagnes-de-pr%C3%A9vention-contre-le-cancer-du-sein-%C3%A0-l-occasion-d-octobre-rose"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "f38e6ce644",
-      "title": "Zimbabweans struggle to rebuild after fleeing xenophobia in South Africa",
-      "summary": "Returnees face economic hardship and limited support as they try to rebuild in Zimbabwe.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "REASSURANCE",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-04T01:55:46+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/10/4/zimbabweans-struggle-to-rebuild-after-fleeing-xenophobia-in-south-africa?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/10/4/zimbabweans-struggle-to-rebuild-after-fleeing-xenophobia-in-south-africa?traffic_source=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4b801b66d9",
-      "title": "Ethiopian government troops seize Tigray’s capital Mekelle",
-      "summary": "Ethiopia’s government forces say they’ve seized Mekelle from Tigray fighters after a week of intense battles.",
-      "country": "ETH",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-04T01:41:28+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -5755,6 +6160,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "1de32a6199",
+      "title": "Tanzania to close schools early as El Niño rains loom",
+      "summary": "The decision was a precautionary measure aimed at protecting learners, teachers and other...",
+      "country": "TZA",
+      "category": "CLIMAT",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-03T12:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/sustainability/climate/tanzania-close-schools-early-as-el-ni%C3%B1o-rains-loom-5618448"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/sustainability/climate/tanzania-close-schools-early-as-el-ni%C3%B1o-rains-loom-5618448"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "3b85f11f25",
       "title": "El Niño: Mozambique ranked as one of the 'most vulnerable' African countries",
       "summary": "The powerful weather system is projected to bring severe heatwaves, below-normal rainfall, and heightened drought risks across Southern Africa.",
@@ -5857,7 +6294,7 @@
     {
       "id": "ea278b4a42",
       "title": "L'armée éthiopienne est entrée dans Mekele, capitale du Tigré désertée par les forces rebelles",
-      "summary": "Les troupes fédérales éthiopiennes sont entrées samedi dans Mekele, a indiqué à l'AFP une source humanitaire. La capitale de l'État régional éthiopien du Tigré a été largement abandonnée plus tôt par les forces des autorités régionales rebelles.",
+      "summary": "Les troupes fédérales éthiopiennes sont entrées samedi dans Mekele, a indiqué une source humanitaire à l'AFP. La capitale de l'État régional éthiopien du Tigré a été largement abandonnée plus tôt par les forces des autorités régionales rebelles.",
       "country": "ETH",
       "category": "POLITIQUE",
       "severity": 1,
@@ -6058,6 +6495,41 @@
       "confirmation_count": 1
     },
     {
+      "id": "4a4a15ae09",
+      "title": "Race for EA oil projects: $16bn Lamu refinery puts Ugandan plan to the test",
+      "summary": "Lamu is being positioned as a major regional refinery with a stated 40-month construction and...",
+      "country": "UGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY",
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-10-03T05:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/race-for-ea-oil-projects-5617928"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/race-for-ea-oil-projects-5617928"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "9c1ce4eaa0",
       "title": "Malawi: arrestation d'un ancien chef de l'armée accusé de trafic d'armes à destination du Soudan",
       "summary": "Visé par cinq chefs d'accusation, le général Paul Valentino Phiri a été interpellé et auditionné par le Bureau anti-corruption du Malawi, jeudi 1er octobre. Libéré sous caution, il est soupçonné d'avoir profité de sa fonction pour faciliter le transit par Lilongwe, la capitale malawite, d'une cargaison d'armes en réalité destinée à des « forces rebelles au Soudan ».",
@@ -6124,6 +6596,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "0991e00b5b",
+      "title": "A regional war: Ethiopia troop pullout plan puts Somalia security under new strain",
+      "summary": "More than 3,000 soldiers could leave as fighting in Tigray intensifies, testing regional...",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-03T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/ethiopia-troop-pullout-plan-puts-somalia-security-under-strain-5617952"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/ethiopia-troop-pullout-plan-puts-somalia-security-under-strain-5617952"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ce36d9dbce",
       "title": "The South African men trying to end violence against women: 'Every man needs to play a part'",
       "summary": "The discovery of 12 women's bodies near Johannesburg has again highlighted South Africa's problem with violence against women.",
@@ -6151,38 +6655,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/cm3eqegwpzl4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "299b209e17",
-      "title": "Centrafrique: avec le football, «on oublie la guerre et les armes» à Birao [2/3]",
-      "summary": "À Birao, dans l'extrême nord-est de la République centrafricaine, le sport, et particulièrement le football, se pratique dans des conditions extrêmement difficiles. Le manque criant d'infrastructures et d'équipements freine le développement des sportifs, malgré l'existence de nombreux talents.",
-      "country": "CAF",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-02T22:25:48+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20261002-centrafrique-avec-le-football-on-oublie-la-guerre-et-les-armes-%C3%A0-birao-2-3"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20261002-centrafrique-avec-le-football-on-oublie-la-guerre-et-les-armes-%C3%A0-birao-2-3"
         }
       ],
       "confirmation_count": 1
@@ -7579,6 +8051,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "dcf3c4ba85",
+      "title": "Eritrea cuts ties with Ethiopia over Asmara embassy closure",
+      "summary": "Addis Ababa had also declared 10 Eritrean diplomats persona non grata.",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-02T14:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/eritrea-cuts-ties-with-ethiopia-over-asmara-embassy-closure-5617584"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/eritrea-cuts-ties-with-ethiopia-over-asmara-embassy-closure-5617584"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5273186c59",
+      "title": "Ethiopian forces near Tigray capital, fears grow of wider conflict",
+      "summary": "Analysts fear the current conflict could spread beyond Ethiopia's borders.",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-02T14:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/ethiopian-forces-near-tigray-capital-5617586"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/ethiopian-forces-near-tigray-capital-5617586"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "33721b8833",
       "title": "Ekiti to Cut Transport Fare By 50 Percent, Rolls Out 15 CNG Buses",
       "summary": "[Premium Times] Governor Biodun Oyebanji says the deployment of the buses, which coincided with the nation's Independence Day and the 30th anniversary of the state's creation, marks a major step in the government's move to reduce transport costs for the people, in line with President Bola Tinubu's directives.",
@@ -7640,6 +8176,40 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/10/02/ghana-carlos-queiroz-quitte-deja-les-black-stars/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "0dfc24f7e7",
+      "title": "Uganda ends mandatory yellow fever card rule for travellers",
+      "summary": "Uganda is among countries where yellow fever has been reported, and vaccination remains an...",
+      "country": "UGA",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-10-02T14:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-ends-mandatory-yellow-fever-card-rule-for-travellers-5617522"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-ends-mandatory-yellow-fever-card-rule-for-travellers-5617522"
         }
       ],
       "confirmation_count": 1
@@ -8387,8 +8957,8 @@
       "confirmation_count": 1
     },
     {
-      "id": "f477cf20e2",
-      "title": "AFCON 2027: CAF quietly sounds out Morocco, South Africa and Algeria as east African hosts lag",
+      "id": "78ccdf149e",
+      "title": "AFCON 2027: CAF quietly sounds out Morocco, South Africa and Algeria as East African hosts lag",
       "summary": "With Kenya, Uganda and Tanzania behind schedule, African football’s governing body is lining up a plan B it publicly denies exists.",
       "country": "MAR",
       "category": "AUTRE",
@@ -8414,38 +8984,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/432225/afcon-2027-caf-quietly-sounds-out-morocco-south-africa-and-algeria-as-east-african-hosts-lag/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "64921e7086",
-      "title": "‎UMOA : croissance de 6 %, inflation et intégration financière au menu du Conseil des ministres",
-      "summary": "‎La réunion ordinaire du Conseil des ministres de l’Union monétaire ouest-africaine (UMOA) s’est ouverte ce vendredi 2 octobre à Dakar, au siège de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO). Plusieurs dossiers portant notamment sur la protection sociale, l’intégration financière, le fonctionnement des institutions communautaires et le financement du développement figurent à l’ordre du jour.‎‎Au titre des rapports issus des deux mois écoulés, le Conseil…",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-02T11:14:46+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/10/02/umoa-croissance-de-6-inflation-et-integration-financiere-au-menu-du-conseil-des-ministres/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/10/02/umoa-croissance-de-6-inflation-et-integration-financiere-au-menu-du-conseil-des-ministres/"
         }
       ],
       "confirmation_count": 1
@@ -8480,6 +9018,38 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/10/02/mobile-labs-speed-up-ebola-testing-in-eastern-congo/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "030cdb08a2",
+      "title": "Fiery granny who wants to be ‘Jozi’ mayor at 75",
+      "summary": "Behind Zille’s grandmother nickname is a career spanning some of South Africa’s most...",
+      "country": "ZAF",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-02T11:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/magazine/fiery-granny-who-wants-to-be-jozi-mayor-at-75-5617046"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/magazine/fiery-granny-who-wants-to-be-jozi-mayor-at-75-5617046"
         }
       ],
       "confirmation_count": 1
@@ -9400,38 +9970,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1c57a1b199",
-      "title": "Saint-Louis : “The River Stones of Senegal” remporte l’International Architecture Award 2026",
-      "summary": "Le projet hôtelier O’ndar, The River Stones of Senegal, porté par Fortunes Capital et exploité sous l’enseigne Onomo Hotels, a remporté l’International Architecture Award 2026 dans la catégorie Hôtels. Situé à Saint-Louis, le complexe a été conçu par le cabinet madrilène mid [michelangeli design], avec le Groupe Atepa comme architecte associé.\nO’ndar, The River Stones of Senegal, projet hôtelier développé à Saint-Louis du Sénégal, figure parmi les lauréats des…",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-02T08:19:00+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/10/02/saint-louis-the-river-stones-of-senegal-remporte-linternational-architecture-award-2026/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/10/02/saint-louis-the-river-stones-of-senegal-remporte-linternational-architecture-award-2026/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6f72b4679e",
       "title": "Côte d’Ivoire, Burkina, Mali… Le boom des raffineries d’or face au scepticisme des géants miniers",
       "summary": "L’Afrique de l’ouest multiplie les raffineries d’or pour transformer sa matière première sur place. Si obliger les artisans miniers à y envoyer leur or est une gageure, encourager les industriels à le faire est encore plus difficile. Analyse.",
@@ -9689,40 +10227,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610020095.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b64db593cf",
-      "title": "Troops Neutralise 16 Terrorists, Rescue 10 Prospective Corps Members",
-      "summary": "[Premium Times] This report details activities of Nigerian forces working to overwhelm terrorists across the country.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "en",
-      "published": "2026-10-02T07:37:42+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610020093.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610020093.html"
         }
       ],
       "confirmation_count": 1
@@ -10539,6 +11043,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "c4d698ed76",
+      "title": "Court blocks Kenya from seizing Burundi firm’s cash",
+      "summary": "Judges faulted ARA’s investigation over unsupported claims of massive cash withdrawals and...",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-02T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/court-blocks-kenya-from-seizing-burundi-firm-s-cash-5616288"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/court-blocks-kenya-from-seizing-burundi-firm-s-cash-5616288"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ed28b3dd2c",
       "title": "How SA business can monetise relationships with BRICS economies",
       "summary": "South African business is entering a more ambitious phase of its engagement with BRICS, one increasingly defined by deal-making, trade facilitation, investment mobilisation and measurable commercial outcomes.",
@@ -10699,6 +11235,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "72621bb287",
+      "title": "Ethiopia closes embassy in Eritrea, expels 10 diplomats amid rising tensions",
+      "summary": "The decision to close its embassy in Asmara comes amid escalating diplomatic tensions.",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-01T16:15:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/ethiopia-closes-embassy-in-eritrea-5616424"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/ethiopia-closes-embassy-in-eritrea-5616424"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "b34f627e9c",
+      "title": "What is driving renewed fighting in Ethiopia?",
+      "summary": "In part, the seeds to the conflict now were sown in the 2022 ceasefire.",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-01T15:45:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/what-is-driving-renewed-fighting-in-ethiopia-5616382"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/what-is-driving-renewed-fighting-in-ethiopia-5616382"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ef10931832",
       "title": "Motorcycle Deliveries Lift Bolt Send Orders By 130pc",
       "summary": "[Capital FM] Nairobi -- Motorcycle deliveries have driven a surge in demand for Bolt's parcel delivery service in Kenya, with orders rising by more than 130 percent between January and July 2026.",
@@ -10758,40 +11358,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610010503.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0f3bad6219",
-      "title": "Bamburi Cement Targets Cement Supply Deal for Dangote Lamu Refinery",
-      "summary": "[Capital FM] Nairobi -- Bamburi Cement Plc is seeking to supply more than one million tonnes of cement and concrete products to the Dangote East Africa Petroleum Refinery in Lamu.",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-10-01T14:54:02+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610010447.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610010447.html"
         }
       ],
       "confirmation_count": 1
@@ -11126,38 +11692,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1c75381f90",
-      "title": "Yaobai Cement Karamoja Wins Community Impact and Local Content Award At Mineral Wealth Conference",
-      "summary": "[UG Diplomat] Kampala -- Yaobai Cement Karamoja has won the Community Impact and Local Content Award at the 15th Annual Mineral Wealth Conference &amp; Expo 2026, held at Speke Resort Munyonyo. The award recognises the company's investment in the people of Karamoja through jobs, education and social services.",
-      "country": "UGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-01T14:21:56+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610010416.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610010416.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6b2f702cd0",
       "title": "Airtel Uganda Hands Sh42.6 Billion Dividend to NSSF",
       "summary": "[Independent (Kampala)] Kampala -- Airtel Uganda has handed over a dividend cheque worth sh42,609,880,000 to the National Social Security Fund (NSSF), representing returns on the Fund's investment in the telecommunications company.",
@@ -11382,38 +11916,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "d1f1ca32e7",
-      "title": "Bafana's Seven-Goal Start Gives Pleased Pitso a Solid Platform to Build On",
-      "summary": "[Daily Maverick] Bafana Bafana began their quest to qualify for the 2027 Africa Cup of Nations under Pitso Mosimane with a 2-1 win over Guinea and a 5-0 drubbing of minnows Eritrea. The Bafana coach expressed his joy with the winning start to his second tenure in charge of the team, saying he would build on the foundation laid by predecessor Hugo Broos.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-01T13:33:47+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610010356.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610010356.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "30d56bfbb0",
       "title": "R20 Sugar Saving Highlights SA's Food Affordability Crisis As Grants Fall Short",
       "summary": "[Daily Maverick] A R20 saving on value-brand sugar exposes how packaging and marketing can drive up food prices, while civil society urges the government to rethink grants and its nutrition policy.",
@@ -11473,6 +11975,38 @@
           "name": "CIO Africa",
           "tier": 2,
           "url": "https://cioafrica.co/safaricom-pesapal-expand-m-pesa-qr-and-tap-to-pay-services/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "22ba48751f",
+      "title": "Wicknell Chivayo, the Zimbabwean businessman who ate with kings",
+      "summary": "Known as ‘Sir Wicknell’, Mr Chivayo cultivated a public identity built around conspicuous...",
+      "country": "ZWE",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-01T13:15:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/wicknell-chivayo-zimbabwe-businessman-5616060"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/wicknell-chivayo-zimbabwe-businessman-5616060"
         }
       ],
       "confirmation_count": 1
@@ -11706,6 +12240,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "ef084bb5dc",
+      "title": "For ‘Sir Wicknell’, generosity came with horsepower, headlines and posts on the Gram",
+      "summary": "Chivayo lived a lavish lifestyle and became a familiar figure not only in Zimbabwe but across...",
+      "country": "ZWE",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-01T12:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/for-sir-wicknell-generosity-came-with-horsepower-5615952"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/for-sir-wicknell-generosity-came-with-horsepower-5615952"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ea8f66af2b",
       "title": "Burkina Faso's military leaders mark four years in power",
       "summary": "People gathered in Ougadougou’s Place de la Révolution on Wednesday night to celebrate the military government's achievements.",
@@ -11804,11 +12370,11 @@
       "confirmation_count": 1
     },
     {
-      "id": "a84b9662c5",
-      "title": "Mali : plus de 2 400 écoles restent fermées pour la rentrée",
-      "summary": "La rentrée scolaire 2026-2027 débute ce 1er octobre au Mali dans un contexte sécuritaire toujours préoccupant. Plus de 2 400 écoles restent fermées à travers le pays, privant des centaines de milliers d’enfants d’un retour normal en classe.",
-      "country": "MLI",
-      "category": "AUTRE",
+      "id": "e8a88c9451",
+      "title": "Uganda Yet to Commit to Dangote's Lamu Refinery - Museveni",
+      "summary": "[Independent (Kampala)] Lamu, Kenya -- President Yoweri Museveni has backed the construction of a mega petroleum refinery at Lamu in Kenya, but says Uganda will not invest in the project for now.",
+      "country": "UGA",
+      "category": "ECONOMIE",
       "severity": 1,
       "credibility": 2,
       "verified": false,
@@ -11816,21 +12382,24 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-01T09:44:42+00:00",
+      "sectors": [
+        "ENERGY",
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-10-01T09:35:55+00:00",
       "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
         "tier": 2,
-        "url": "http://fr.africanews.com/2026/10/01/mali-plus-de-2-400-ecoles-restent-fermees-pour-la-rentree/"
+        "url": "https://allafrica.com/stories/202610010186.html"
       },
       "confirming_sources": [
         {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
           "tier": 2,
-          "url": "http://fr.africanews.com/2026/10/01/mali-plus-de-2-400-ecoles-restent-fermees-pour-la-rentree/"
+          "url": "https://allafrica.com/stories/202610010186.html"
         }
       ],
       "confirmation_count": 1
@@ -12582,38 +13151,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "015d86648a",
-      "title": "Maroc : le PAM saura-t-il relever le défi du pouvoir ?",
-      "summary": "Convaincre les abstentionnistes, bâtir une coalition qui ne soit pas une simple distribution de postes, donner un sens à la victoire électorale du 23 septembre : pour la nouvelle cheffe du gouvernement, Fatima-Ezzahra El Mansouri, le plus difficile commence.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-30T15:49:22+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1847814/politique/maroc-le-pam-saura-t-il-relever-le-defi-du-pouvoir/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1847814/politique/maroc-le-pam-saura-t-il-relever-le-defi-du-pouvoir/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "d8d6ec4290",
       "title": "\"Le Burkina est en train de devenir la nouvelle Corée du Nord\"",
       "summary": "Quatre ans après la prise de pouvoir du Capitaine Ibrahim Traoré, où va le pays des hommes intègres ? Entre menaces jihadistes et opposition bâillonnée, le journaliste en exil Newton Ahmed Barry estime qu'en concentrant le pouvoir, le dirigeant s'éloigne de l'héritage de Thomas Sankara.",
@@ -12648,11 +13185,11 @@
       "confirmation_count": 1
     },
     {
-      "id": "b305a20a97",
-      "title": "Qui est Fatima Ezzahra El Mansouri, première femme à diriger le gouvernement marocain ?",
-      "summary": "🇲🇦 Pour la première fois de son histoire, le Maroc sera dirigé par une femme à la tête de son gouvernement.Fatima Ezzahra El Mansouri a été nommée Première ministre par le roi Mohammed VI.Avocate de formation, à la tête des 20 femmes d’Afrique les plus influentes selon Forbes en 2014, qui est Fatima Ezzahra El Mansouri ? On vous explique",
-      "country": "MAR",
-      "category": "AUTRE",
+      "id": "8f84f44a1c",
+      "title": "How Kenya won back Rwanda’s oil cargo imports",
+      "summary": "Under the new government-to-government framework, Rwanda’s petroleum imports through Kenya are...",
+      "country": "KEN",
+      "category": "ECONOMIE",
       "severity": 1,
       "credibility": 2,
       "verified": false,
@@ -12660,85 +13197,24 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-30T14:58:11+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260930-qui-est-fatima-ezzahra-el-mansouri-premi%C3%A8re-femme-%C3%A0-diriger-le-gouvernement-marocain"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260930-qui-est-fatima-ezzahra-el-mansouri-premi%C3%A8re-femme-%C3%A0-diriger-le-gouvernement-marocain"
-        }
+      "sectors": [
+        "MARINE_TRANSPORT",
+        "ENERGY"
       ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8e8d5e554f",
-      "title": "ONU : malgré le soutien de Bassirou Diomaye Faye, la candidature de Macky Sall ne décolle pas",
-      "summary": "L’espoir de succéder à António Guterres au poste de secrétaire général des Nations unies apparaît plus mince que jamais pour le Sénégalais Macky Sall, comme pour l’Ougandais Olara Otunnu. Les deux Africains en lice retireront-ils leur candidature ?",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-30T14:01:54+00:00",
+      "lang": "en",
+      "published": "2026-09-30T14:15:00+00:00",
       "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
+        "id": "east-afr",
+        "name": "The East African",
         "tier": 2,
-        "url": "https://www.jeuneafrique.com/1847684/politique/onu-malgre-le-soutien-de-bassirou-diomaye-faye-la-candidature-de-macky-sall-ne-decolle-pas/"
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/how-kenya-won-back-rwanda-s-oil-cargo-imports-5614842"
       },
       "confirming_sources": [
         {
-          "id": "ja",
-          "name": "Jeune Afrique",
+          "id": "east-afr",
+          "name": "The East African",
           "tier": 2,
-          "url": "https://www.jeuneafrique.com/1847684/politique/onu-malgre-le-soutien-de-bassirou-diomaye-faye-la-candidature-de-macky-sall-ne-decolle-pas/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bbb5b8036c",
-      "title": "En RDC, la Fecofa va-t-elle enfin lutter contre la pédocriminalité dans le football ?",
-      "summary": "Quatre ans après la mise en cause de plusieurs acteurs du football congolais pour des abus sexuels commis sur des joueurs, certains entraîneurs soupçonnés d’être impliqués dans ce scandale continuent d’exercer dans des clubs du pays. Longtemps accusés de passivité, la fédération et son nouveau président promettent d’y remédier.",
-      "country": "COD",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-30T12:54:16+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1847007/politique/en-rdc-la-fecofa-va-t-elle-enfin-lutter-contre-la-pedocriminalite-dans-le-football/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1847007/politique/en-rdc-la-fecofa-va-t-elle-enfin-lutter-contre-la-pedocriminalite-dans-le-football/"
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/how-kenya-won-back-rwanda-s-oil-cargo-imports-5614842"
         }
       ],
       "confirmation_count": 1
@@ -12908,6 +13384,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "8aeee01e20",
+      "title": "Court sets November 6 for Lissu treason verdict",
+      "summary": "Tanzania’s High Court will deliver its judgment on November 6 in the treason case against...",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-09-30T09:30:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/court-sets-november-6-for-lissu-treason-verdict-5614558"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/court-sets-november-6-for-lissu-treason-verdict-5614558"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "952c40cbdd",
       "title": "Mali Army and Russian Fighters Accused of Killing Dozens of Civilians",
       "summary": "[RFI] Mali's armed forces and Russian Wagner Group personnel committed war crimes including killings and torture of civilians during joint operations between 2023 and 2025, Amnesty International has said in a new report documenting abuses across several regions of the country.",
@@ -12940,11 +13448,11 @@
       "confirmation_count": 1
     },
     {
-      "id": "9a3caa5c76",
-      "title": "King Appoints First Woman Prime Minister",
-      "summary": "[DW] The appointment of Fatima Zahra Mansouri comes after her center-right party won last week's parliamentary elections in Morocco. She had previously served as mayor of the city of Marrakesh.",
-      "country": "MAR",
-      "category": "POLITIQUE",
+      "id": "fe7422b703",
+      "title": "Malema Apologises to Judicial Service Commission - South African News Briefs - September 30, 2026",
+      "summary": "[allAfrica]",
+      "country": "ZAF",
+      "category": "AUTRE",
       "severity": 1,
       "credibility": 2,
       "verified": false,
@@ -12954,19 +13462,19 @@
       "fdi": false,
       "sectors": [],
       "lang": "en",
-      "published": "2026-09-30T05:58:11+00:00",
+      "published": "2026-09-30T05:37:34+00:00",
       "lead_source": {
-        "id": "aa-mar",
-        "name": "AllAfrica · Maroc",
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202609300095.html"
+        "url": "https://allafrica.com/stories/202609300094.html"
       },
       "confirming_sources": [
         {
-          "id": "aa-mar",
-          "name": "AllAfrica · Maroc",
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202609300095.html"
+          "url": "https://allafrica.com/stories/202609300094.html"
         }
       ],
       "confirmation_count": 1
@@ -13159,6 +13667,40 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609300027.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "7185772588",
+      "title": "EAC, Comesa competition watchdogs review Vivo Energy acquisition plan",
+      "summary": "The proposed deal would therefore transfer control of Vivo Energy Rwanda from the existing Vivo...",
+      "country": "RWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": "MA_GOUV",
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": true,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "en",
+      "published": "2026-09-30T03:00:00+00:00",
+      "lead_source": {
+        "id": "east-afr",
+        "name": "The East African",
+        "tier": 2,
+        "url": "https://www.theeastafrican.co.ke/tea/business-tech/eac-comesa-competition-watchdogs-review-vivo-acquisition-plan-5614242"
+      },
+      "confirming_sources": [
+        {
+          "id": "east-afr",
+          "name": "The East African",
+          "tier": 2,
+          "url": "https://www.theeastafrican.co.ke/tea/business-tech/eac-comesa-competition-watchdogs-review-vivo-acquisition-plan-5614242"
         }
       ],
       "confirmation_count": 1
