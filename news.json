@@ -1,33 +1,32 @@
 {
-  "generated_at": "2026-10-20T19:14:38.376016+00:00",
+  "generated_at": "2026-10-20T22:19:22.134376+00:00",
   "stats": {
     "total_signals": 544,
     "verified_signals": 14,
-    "countries_covered": 32,
+    "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
-      "NGA": 36,
-      "KEN": 68,
+      "NGA": 38,
+      "KEN": 67,
       "MLI": 27,
       "ZAF": 68,
       "MOZ": 43,
       "RWA": 13,
-      "SEN": 45,
+      "SEN": 46,
       "CAF": 3,
       "TCD": 4,
       "UGA": 38,
       "COD": 15,
-      "TZA": 33,
       "BFA": 4,
       "CIV": 23,
       "AGO": 31,
       "MAR": 32,
       "GIN": 2,
+      "TZA": 33,
       "GAB": 1,
       "ETH": 17,
       "COG": 2,
       "CMR": 13,
-      "BDI": 1,
       "GHA": 6,
       "MDG": 2,
       "TUN": 2,
@@ -35,7 +34,7 @@
       "ZWE": 3,
       "NER": 2,
       "MRT": 3,
-      "DZA": 4,
+      "DZA": 3,
       "ZMB": 1,
       "MUS": 1
     }
@@ -236,8 +235,83 @@
   ],
   "signals": [
     {
-      "id": "a4390f030f",
-      "title": "Breaking: Nigeria records first Ebola case of Africa's latest outbreak",
+      "id": "3b05c9fa42",
+      "title": "Le Nigeria annonce un premier cas de virus Ebola à Abuja",
+      "summary": "Une femme arrivée à Abuja par avion en provenance de l'Ouganda est porteuse du virus Ebola, a annoncé mardi le gouvernement du Nigeria qui recense par ailleurs 44 cas contacts étroits. L’épidémie, déclarée en mai en RD Congo où elle a dépassé les 9 000 cas et 4 381 décès, s’étend désormais à plusieurs pays africains.",
+      "country": "NGA",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH",
+        "AVIATION"
+      ],
+      "lang": "fr",
+      "published": "2026-10-20T21:50:01+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/afrique/20261020-nigeria-annonce-premier-cas-virus-ebola-abuja"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20261020-nigeria-annonce-premier-cas-virus-ebola-abuja"
+        },
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/10/20/le-nigeria-enregistre-son-premier-cas-dinfection-au-virus-ebola/"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "d8c326f4f9",
+      "title": "Nigeria confirms Ebola case in patient who arrived from Uganda",
+      "summary": "ABUJA, Oct 20 (Reuters) - Nigeria's government said on Tuesday there was a case of Ebola in the capital, Abuja, after laboratory tests confirmed the viral infection.",
+      "country": "NGA",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-10-20T21:14:26+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-10-20-nigeria-confirms-ebola-case-in-patient-who-arrived-from-uganda/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-10-20-nigeria-confirms-ebola-case-in-patient-who-arrived-from-uganda/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4fb02e5c7f",
+      "title": "Nigeria records first Ebola case of Africa's latest outbreak",
       "summary": "Nigeria has recorded its first Ebola case of Africa's latest outbreak, in a woman who had travelled from Uganda to the capital Abuja, the government confirmed on Tuesday.",
       "country": "NGA",
       "category": "SANTE",
@@ -252,7 +326,7 @@
         "HEALTH"
       ],
       "lang": "en",
-      "published": "2026-10-20T18:55:57+00:00",
+      "published": "2026-10-20T19:06:29+00:00",
       "lead_source": {
         "id": "afnews-en",
         "name": "Africanews",
@@ -1401,38 +1475,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "69295189b0",
-      "title": "Security, Traffic Controls Tightened Ahead of Mashujaa Day in Eldoret",
-      "summary": "[Capital FM] Nairobi -- Security has been tightened in Eldoret ahead of Tuesday's Mashujaa Day celebrations, with additional police officers deployed to security hotspots and traffic controls put in place to manage the expected influx of visitors.",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-19T10:12:16+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610190225.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610190225.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "082e38228d",
       "title": "Resilience Starts At Home - Preparing Communities for El Ni&#xF1;o Before Disaster Strikes",
       "summary": "[IFRC] In parts of the Karamoja region, north-eastern Uganda, the effects of prolonged drought are already visible. Water sources have dried up or fallen to very low levels. Families are travelling further to find water, while pasture continues to deteriorate, putting pressure on livelihoods that depend on livestock and crop production.",
@@ -1662,40 +1704,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/10/18/nigerias-army-chief-of-staff-visits-troops-in-borno-after-deaths-of-15-soliders/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "85f9294b14",
-      "title": "Barker Lauds Simba's Firepower",
-      "summary": "[Daily News] Dar es Salaam -- Simba Head Coach Steve Barker has lauded his side's attacking sharpness after they thrashed Mashujaa 6-1 in a Mainland Premier League match at Uhuru Stadium in Dar es Salaam on Tuesday.",
-      "country": "TZA",
-      "category": "POLITIQUE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "PROPERTY"
-      ],
-      "lang": "en",
-      "published": "2026-10-16T21:51:40+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610160673.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610160673.html"
         }
       ],
       "confirmation_count": 1
@@ -2425,40 +2433,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ce80edc035",
-      "title": "Le Nigeria enregistre son premier cas d’infection au virus Ebola",
-      "summary": "Le Nigeria a enregistré son premier cas d’Ebola depuis le début de la dernière épidémie qui frappe l’Afrique.",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-10-20T17:59:12+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/10/20/le-nigeria-enregistre-son-premier-cas-dinfection-au-virus-ebola/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/10/20/le-nigeria-enregistre-son-premier-cas-dinfection-au-virus-ebola/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "01daab7d95",
       "title": "Chapo Calls for Answers Regarding Crash of Machel's Aircraft",
       "summary": "[AIM] Maputo -- Mozambican President Daniel Chapo has called for continued efforts to establish the circumstances surrounding the death of the country's first president, Samora Moisés Machel, who died in a plane crash in Mbuzini, South Africa, 40 years ago.",
@@ -2833,6 +2807,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "27c97c3418",
+      "title": "Back to Reality - Masemola Returns As Western Cape Anti-Gang Cop's Home Petrol-Bombed",
+      "summary": "[Daily Maverick] National Police Commissioner Fannie Masemola has returned to work after a scandal. At the same time, an Anti-Gang Unit officer's home was hit in a petrol bomb attack in South Africa's gang-violence capital, the Western Cape, and a suspect died after a related shootout. In another incident in the province, on-duty police officers were injured by people throwing stones.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-20T04:52:44+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610200121.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610200121.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "7adfbe8912",
       "title": "RDC : le gouvernement accuse Joseph Kabila de préparer une attaque générale",
       "summary": "Vendredi, le gouvernement de la République démocratique Congo a accusé l’ancien président Joseph Kabila de préparer une offensive générale contre le pouvoir de Kinshasa.",
@@ -3166,6 +3172,38 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-10-20-four-national-polls-show-anc-decline-da-growth-and-mk-drift/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "be741cba7a",
+      "title": "Sénégal: des centaines de travailleurs se mobilisent avant une grève générale annoncée pour trois jours",
+      "summary": "Quelques centaines de travailleurs sénégalais sont descendus ce mardi 20 octobre dans l'après-midi à Dakar à l'appel du Front national pour la défense du travail (FSDT), un collectif qui rassemble 13 Cette marche annonce une grève générale de 72 heures à compter de mercredi. Malgré l'appel du gouvernement à lever leur mot d'ordre, les syndicats campent sur leur position.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-20T20:01:28+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20261020-s%C3%A9n%C3%A9gal-des-centaines-de-travailleurs-se-mobilisent-avant-une-gr%C3%A8ve-g%C3%A9n%C3%A9rale-annonc%C3%A9e-pour-trois-jours"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20261020-s%C3%A9n%C3%A9gal-des-centaines-de-travailleurs-se-mobilisent-avant-une-gr%C3%A8ve-g%C3%A9n%C3%A9rale-annonc%C3%A9e-pour-trois-jours"
         }
       ],
       "confirmation_count": 1
@@ -4061,46 +4099,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "0f1aeef610",
-      "title": "Ramaphosa's Gnu Survived an ANC Rebellion, but Joburg Will Test Everything",
-      "summary": "[Daily Maverick] As local elections approach, the ANC's weakened position and Johannesburg's crisis will test whether Ramaphosa can keep the DA in government.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "en",
-      "published": "2026-10-20T05:09:17+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610200150.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610200150.html"
-        },
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-10-19-ramaphosas-gnu-survived-an-anc-rebellion-but-joburg-will-test-everything/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "b4ba89ce3f",
       "title": "Wits and SA Universities Must Cut Fossil Fuel Ties to Champion Climate Action",
       "summary": "[Daily Maverick] South African universities, particularly Wits, lack transparency and independence because of the fossil fuel industry's influence through funding, research partnerships and investments. They need to disclose industry ties, divest from fossil fuels and champion a just transition to clean energy.",
@@ -4637,38 +4635,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "20b5e12cc7",
-      "title": "Burundi striker Berahino retires at 33",
-      "summary": "Saido Berahino, who cost Stoke City £12m when they signed him from West Bromwich Albion in January 2017, retires from football at 33.",
-      "country": "BDI",
-      "category": "SANTE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-19T12:51:44+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/sport/football/articles/cqrkyzgre7neo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/sport/football/articles/cqrkyzgre7neo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0b7eb7cf74",
       "title": "Police to Intensify Road Checks As Schools Close for Holidays",
       "summary": "[Capital FM] Nairobi -- The National Police Service (NPS) will intensify traffic enforcement nationwide and subject school transport vehicles to thorough inspections as schools close for the end-of-year holidays, amid warnings of increased road accident risks.",
@@ -5191,6 +5157,38 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/opinionista/2026-10-16-eroding-purchasing-power-deepens-pressures-on-ordinary-south-africans/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5e545289cb",
+      "title": "Fisheries Sector Targets Commercial Growth",
+      "summary": "[Daily News] Rukwa -- TANZANIA'S fisheries sector is targeting greater commercial investment through value addition, expanded market access and increased private sector participation under the Fish4ACP initiative, in a drive to boost incomes, strengthen fisheries businesses and ensure the sustainable use of aquatic resources.",
+      "country": "TZA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-15T11:45:22+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610150361.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610150361.html"
         }
       ],
       "confirmation_count": 1
@@ -5898,6 +5896,72 @@
       "confirmation_count": 2
     },
     {
+      "id": "ed0f232bb6",
+      "title": "OBITUARY: Lovell Friedman — Cape mosaic artist who built public memory from broken pieces",
+      "summary": "Lovell Friedman’s footprints remain across Cape Town, the city she loved. They are set in glass and ceramic, in murals that give voice to the forgotten, in benches that offer sanctuary and in art that brings solace to the vulnerable.",
+      "country": "ZAF",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-20T23:16:56+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-10-20-lovell-friedman-cape-mosaic-artist-who-built-public-memory-from-broken-pieces/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-10-20-lovell-friedman-cape-mosaic-artist-who-built-public-memory-from-broken-pieces/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2f69d212f8",
+      "title": "Nigeria Confirms Ebola Case in Abuja, Begins Contact Tracing",
+      "summary": "[Premium Times] Contact tracing has commenced, with 44 close contacts identified so far.",
+      "country": "NGA",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-10-20T20:07:41+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610200709.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610200709.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "9a0223dcb1",
       "title": "Abidjan-Paris : le tandem Air France-Air Côte d’Ivoire resserre l’étau autour de Corsair",
       "summary": "En mutualisant la commercialisation de leurs vols entre Paris et Abidjan, Air France et Air Côte d’Ivoire renforcent leur offre sans ajouter de fréquences. Cette alliance commerciale accentue la pression sur Corsair, seul concurrent direct des deux partenaires sur cette ligne.",
@@ -6028,6 +6092,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "6dbff63dbe",
+      "title": "Nigeria confirms Ebola case linked to East Africa",
+      "summary": "A female patient is in isolation and receiving medical care after being admitted to a hospital in Abuja.",
+      "country": "NGA",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-10-20T19:11:15+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cm2l4xw7xpjgo?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm2l4xw7xpjgo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "671026fafc",
       "title": "Atlantic Financial Group (AFG) prend le contrôle de la Banque de l’Habitat du Tchad",
       "summary": "Réunis à N’Djamena le 14 octobre 2026, les actionnaires de la Banque de l’Habitat du Tchad (BHT) ont validé les opérations de restructuration et de recapitalisation de leur établissement. Cette opération positionne le groupe panafricain Atlantic Financial Group (AFG) comme actionnaire majoritaire. La Commission bancaire de l’Afrique centrale (COBAC) doit encore valider la transaction.\nL’opération accélère l’expansion d’AFG en Afrique centrale : elle permet à la banque du…",
@@ -6094,10 +6192,10 @@
       "confirmation_count": 1
     },
     {
-      "id": "451e2cb5da",
-      "title": "Kenya confirms ninth Ebola case amid concerns about regional spread",
-      "summary": "A 24-year-old man, who was already being held in quarantine, is the latest to test positive.",
-      "country": "KEN",
+      "id": "9311438a46",
+      "title": "Nigeria confirms first Ebola case amid concerns about continental spread",
+      "summary": "Nigeria's Health Ministry says a woman who arrived on a flight from Uganda tested positive.",
+      "country": "NGA",
       "category": "SANTE",
       "severity": 1,
       "credibility": 2,
@@ -6107,7 +6205,8 @@
       "regulatory": false,
       "fdi": false,
       "sectors": [
-        "HEALTH"
+        "HEALTH",
+        "AVIATION"
       ],
       "lang": "en",
       "published": "2026-10-20T17:31:26+00:00",
@@ -6746,38 +6845,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/10/20/ethiopia-pm-warns-eritrea-of-severe-consequences-if-supports-enemies/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c3ffdb32d3",
-      "title": "Celebrating Fela Kuti’s legacy and the global rise of Afrobeats",
-      "summary": "Fela Kuti was a Nigerian musician known as the King of Afrobeat. His legacy is celebrated every October at Felabration.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-20T14:13:12+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/celebrating-fela-kutis-legacy-and-the-global-rise-of-afrobeats?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/celebrating-fela-kutis-legacy-and-the-global-rise-of-afrobeats?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -8945,38 +9012,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1b77e428ea",
-      "title": "Osun Police Declare Ex-NURTW Chief Wanted Over Killing of Adeleke's Ally",
-      "summary": "[Premium Times] The Osun State Commissioner of Police said the command is working to apprehend the two suspects believed to have masterminded the killing of Mr Oyeyemi.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-20T07:37:41+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610200261.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610200261.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "2659edc7eb",
       "title": "BLOOM: British-Mozambican artist Fiona Wishman Oliveira explores femininity through painting and embroidery",
       "summary": "The solo exhibition BLOOM by visual artist Fiona Wishman Oliveira is on view at the Centro Cultural Moçambicano-Alemão (CCMA) in Maputo until 14 November 2026. Bringing together expressive portraits of women, the exhibition explores femininity, identity, resilience and transformation through a distinctive combination of oil painting and embroidery. In BLOOM, Wishman Oliveira combines oil painting…\nSource",
@@ -9692,6 +9727,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "0f1aeef610",
+      "title": "Ramaphosa's Gnu Survived an ANC Rebellion, but Joburg Will Test Everything",
+      "summary": "[Daily Maverick] As local elections approach, the ANC's weakened position and Johannesburg's crisis will test whether Ramaphosa can keep the DA in government.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "POLITICAL_VIOLENCE"
+      ],
+      "lang": "en",
+      "published": "2026-10-20T05:09:17+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610200150.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610200150.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "badaafce36",
       "title": "Borders, Ballots, Court Clashes - How the Anti-Immigrant Movement Is Setting SA's Elections Agenda",
       "summary": "[Daily Maverick] The anti-immigrant movement regained dominance in South Africa's online political conversation before the 4 November local elections, driven by the government's asylum policy reversal and controversy surrounding activist Jacinta Ngobese-Zuma. Meanwhile, the Constitutional Court's decision to reinstate ANC candidates intensified political disputes, while suspected undisclosed paid campaigns increasingly targeted individual politicians rather than just…",
@@ -10393,38 +10462,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/cmqxn4gggdw4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "e29918e43f",
-      "title": "OUR CITY NEWS: Joburg’s public pools crisis — delays, neglect and empty promises during the summer heatwave",
-      "summary": "A month and a half into swimming season, only 20 of Johannesburg’s 57 municipal pools are open, while only another 13 are expected to reopen this week.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-19T22:41:10+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-10-19-joburgs-public-pools-crisis-delays-neglect-and-empty-promises-during-the-summer-heatwave/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-10-19-joburgs-public-pools-crisis-delays-neglect-and-empty-promises-during-the-summer-heatwave/"
         }
       ],
       "confirmation_count": 1
@@ -11802,38 +11839,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "48ce0160a0",
-      "title": "'We Are Not Born Bad, We Are Shaped' - How Childhood Trauma Shapes Violence",
-      "summary": "[Health-e] Childhood trauma can shape behaviour and fuel violence. Plant Play has reached 542 children in Diepsloot. A pilot study found improved emotional regulation.",
-      "country": "ZAF",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-19T08:45:30+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610190104.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610190104.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "d2f06ad6c4",
       "title": "Niger : la pénurie d’essence touche désormais la capitale",
       "summary": "Jusqu’ici relativement épargnée, Niamey est à son tour confrontée à des difficultés d’approvisionnement en carburant. Depuis ce week-end, les files d’attente s’allongent devant les stations-service, sur fond de capacités de raffinage insuffisantes et de raréfaction de la contrebande nigériane.",
@@ -11960,6 +11965,38 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610190085.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "94ef5ac86c",
+      "title": "Authorities Must Address Economic Grievances Driving Protests, End Repressive Tactics",
+      "summary": "[AI London] Kenyan authorities have increasingly used authoritarian tactics, including arbitrary arrests and detention, abductions, malicious prosecution of protesters, surveillance, and media repression, to crack down on protests against deepening economic hardship and the government's aggressive fiscal policies, Amnesty International said in a new report today.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-19T05:17:45+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610190073.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610190073.html"
         }
       ],
       "confirmation_count": 1
@@ -13271,40 +13308,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "32204b8c86",
-      "title": "Govt Backs Date Palm Research",
-      "summary": "[Daily News] Tanga -- The government has pledged full support for research into date palm cultivation in Tanzania, in a move aimed at reducing reliance on imports and creating new income opportunities for farmers in droughtprone regions.",
-      "country": "TZA",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "en",
-      "published": "2026-10-16T21:51:41+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610160674.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610160674.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "06c7f2d4ab",
       "title": "Samia Calls for Unity, Solidarity",
       "summary": "[Daily News] Tanzania -- President Samia Suluhu Hassan has urged Tanzanians to preserve and pass on the values of peace, unity and solidarity championed by the Father of the Nation, Mwalimu Julius Kambarage Nyerere, to future generations.",
@@ -14124,40 +14127,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "63a443cc3b",
-      "title": "Zidane, soutien clé à Christophe Gleizes",
-      "summary": "Voilà bientôt 500 jours que Christophe Gleizes est privé de liberté. Le journaliste français a été arrêté en mai 2024 en Algérie dans le cadre d'un reportage sur le club de football de la Jeunesse sportive de Kabylie puis condamné pour apologie du terrorisme à sept ans de prison. Sa famille se mobilise. Ses proches ont pu récemment lui rendre visite. Ils peuvent s'appuyer sur l'engagement de quelques sportifs, à l'image de Zinédine Zidane.",
-      "country": "DZA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "fr",
-      "published": "2026-10-15T13:56:53+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/%C3%A9missions/le-rendez-vous-afrique/20261015-zidane-soutien-cl%C3%A9-%C3%A0-christophe-gleizes"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/%C3%A9missions/le-rendez-vous-afrique/20261015-zidane-soutien-cl%C3%A9-%C3%A0-christophe-gleizes"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "c982fc2367",
       "title": "Uganda, Juba mull seeking AfDB support to rebuild Juba-Nimule road",
       "summary": "President Museveni called for cooperation in road reconstruction, development of a cross-border...",
@@ -14316,6 +14285,38 @@
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610150363.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "6a8e1d6c3f",
+      "title": "The Urgent Fight Against Intimate Partner Violence",
+      "summary": "[Daily News] Dodoma -- THE reported killing of Shukrani Ridhiki, 30, in Dodoma has once again raised painful questions about women's safety within intimate relationships and the meaning of love when a relationship becomes a source of fear.",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-15T11:45:43+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610150362.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610150362.html"
         }
       ],
       "confirmation_count": 1
