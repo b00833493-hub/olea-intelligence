@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-21T22:19:12.953686+00:00",
+  "generated_at": "2026-10-22T01:29:44.131809+00:00",
   "stats": {
-    "total_signals": 536,
+    "total_signals": 539,
     "verified_signals": 23,
     "countries_covered": 33,
     "sources_active": 32,
     "per_country": {
+      "NGA": 42,
       "CMR": 13,
-      "NGA": 41,
       "CIV": 25,
       "RWA": 13,
       "ZAF": 69,
@@ -18,19 +18,19 @@
       "BFA": 7,
       "KEN": 64,
       "MLI": 26,
-      "SEN": 48,
+      "SEN": 50,
       "AGO": 32,
       "MAR": 33,
-      "GIN": 3,
+      "GIN": 4,
       "COD": 5,
       "TGO": 1,
       "MDG": 4,
       "UGA": 33,
-      "ETH": 16,
-      "TUN": 5,
+      "ETH": 15,
+      "GHA": 7,
+      "TUN": 4,
       "NER": 1,
       "BDI": 2,
-      "GHA": 6,
       "COG": 2,
       "GAB": 1,
       "ZWE": 2,
@@ -236,6 +236,40 @@
     }
   ],
   "signals": [
+    {
+      "id": "ef6e959170",
+      "title": "Nigeria’s first Ebola case matches DR Congo strain, health officials say",
+      "summary": "The Bundibugyo strain outbreak is the DR Congo's deadliest ever and has now reached West Africa for the first time.",
+      "country": "NGA",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-10-21T23:20:12+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/10/21/nigerias-first-ebola-case-matches-dr-congo-strain-health-officials-say?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/21/nigerias-first-ebola-case-matches-dr-congo-strain-health-officials-say?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "6ed852ae69",
       "title": "Déraillement d’un train à Eséka : 10 ans après la catastrophe, le Cameroun se souvient",
@@ -1354,6 +1388,38 @@
         }
       ],
       "confirmation_count": 2
+    },
+    {
+      "id": "28da514038",
+      "title": "Ruto Says Democracy Must Go Beyond Elections to Deliver Economic Freedom",
+      "summary": "[Capital FM] Nairobi -- President William Ruto and First Lady Rachel Ruto led the country in marking Mashujaa Day celebrations at Kipchoge Keino Stadium in Eldoret, Uasin Gishu County, on Tuesday.",
+      "country": "KEN",
+      "category": "POLITIQUE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-20T17:23:50+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610200687.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610200687.html"
+        }
+      ],
+      "confirmation_count": 1
     },
     {
       "id": "a721bdb53c",
@@ -4008,6 +4074,40 @@
       "confirmation_count": 4
     },
     {
+      "id": "18f82550e9",
+      "title": "Uganda Targets 20,000mw Power Capacity By 2040 As It Courts EU Investors",
+      "summary": "[Nile Post] Uganda is seeking increased European Union (EU) investment in electricity generation, transmission infrastructure and renewable energy as the government targets 20,000 megawatts (MW) of installed generation capacity by 2040 to support industrial expansion and its ambition of building a US$500 billion economy.",
+      "country": "UGA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": true,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "en",
+      "published": "2026-10-21T06:31:17+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610210075.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610210075.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "b0e0330556",
       "title": "President Netumbo Nandi-Ndaitwah Calls for Stronger Angola-Namibia Economic Partnerships to Drive Industrialisation and Growth",
       "summary": "[Namibian] 19 October 2026, Luanda, Angola.",
@@ -4350,38 +4450,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "b51c777f2f",
-      "title": "Raila Odinga Among 264 Kenyans Honored At Mashujaa Day Celebrations",
-      "summary": "[Capital FM] Nairobi -- Former Prime Minister Raila Amolo Odinga is among 264 Kenyans being honored at this year's Mashujaa Day celebrations underway in Uasin Gishu County, in recognition of his contribution to multiparty democracy, constitutional reform and political inclusion.",
-      "country": "KEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-20T10:36:51+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610200409.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610200409.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "48a15eaccf",
       "title": "Mali : Human Rights Watch dénonce des crimes contre les civils [Africanews Today]",
       "summary": "Human Rights Watch accuse l'armée, ses alliés russes de l'Africa Corps, mais aussi des groupes armés et jihadistes, d'avoir commis de graves violations du droit international contre des civils. L'ONG appelle à des dispositions urgentes de l'Union africaine.",
@@ -4481,6 +4549,38 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1853626/politique/au-maroc-la-sortie-en-clair-obscur-daziz-akhannouch/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "ce8329e951",
+      "title": "Police Break Silence On Murder of Rwandan Dissident Beheaded in Mpigi",
+      "summary": "[Nile Post] Police have launched investigations into the murder of a Rwandan dissident whose headless body was discovered in Mpigi District, with the victim's missing head yet to be recovered.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-20T06:14:36+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610200240.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610200240.html"
         }
       ],
       "confirmation_count": 1
@@ -5652,6 +5752,102 @@
       "confirmation_count": 1
     },
     {
+      "id": "191dcfa213",
+      "title": "Técnicos de Migração desassociam crise dos imigrantes",
+      "summary": "O STM repudia narrativas que responsabilizam migrantes pela crise da habitação e critica a \"instrumentalização\" política do tema, em resposta às declarações do ministro Nuno Melo.",
+      "country": "GHA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-10-21T22:57:11+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/10/21/sindicato-dos-tecnicos-da-aima-rejeita-associacao-entre-imigrantes-e-crise-da-habitacao-apontar-lhes-o-dedo-nao-constroi-uma-unica-casa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/10/21/sindicato-dos-tecnicos-da-aima-rejeita-associacao-entre-imigrantes-e-crise-da-habitacao-apontar-lhes-o-dedo-nao-constroi-uma-unica-casa/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "37d35c8edb",
+      "title": "Guinée: quelles alternatives au sachet d'eau bientôt interdit?",
+      "summary": "En Guinée, l'interdiction des plastiques à usage unique, dont les sachets d'eau très bon marché, provoque une crise d'accès à l'eau potable. Un moratoire de six mois est accordé pour trouver des alternatives conciliant santé et environnement, tandis que les autorités et les industriels peinent à résoudre l'équation entre besoins essentiels de la population et lutte contre la pollution.",
+      "country": "GIN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-21T22:56:10+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20261021-guin%C3%A9e-quelles-alternatives-au-sachet-d-eau-bient%C3%B4t-interdit"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20261021-guin%C3%A9e-quelles-alternatives-au-sachet-d-eau-bient%C3%B4t-interdit"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "54415ebddc",
+      "title": "«On s'appelle, on s'entraide»: au Sénégal, des malades du cancer du sein unies contre la maladie",
+      "summary": "À l'occasion d'Octobre rose, mois de mobilisation contre le cancer du sein, rendez-vous au Sénégal, où les malades n'ont pas accès aux soins de support comme un accompagnement psychologique et social pour lutter contre l'isolement, l'anxiété, la dépression. À Dakar, l'association Kinsiba propose des cours de boxe ou encore des séances de henné entre femmes, pour redonner confiance et briser la solitude.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-21T22:31:12+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20261021-on-s-appelle-on-s-entraide-au-s%C3%A9n%C3%A9gal-des-malades-du-cancer-du-sein-unies-contre-la-maladie"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20261021-on-s-appelle-on-s-entraide-au-s%C3%A9n%C3%A9gal-des-malades-du-cancer-du-sein-unies-contre-la-maladie"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "0364f8bda9",
       "title": "Cameroun : le président du GECAM impliqué dans un litige foncier qui fragilise l’investissement privé",
       "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
@@ -6004,38 +6200,6 @@
           "name": "Financial Afrik",
           "tier": 2,
           "url": "https://www.financialafrik.com/2026/10/21/maroc-les-autorites-financieres-adoptent-une-feuille-de-route-anticorruption-pour-2027-2028/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1065805e21",
-      "title": "Tunisia jails opposition politician for four years over social media posts",
-      "summary": "Olfa ⁠Hamdi, a US-Tunisian national, was convicted of 'plotting' and 'inciting' military to disobey orders.",
-      "country": "TUN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-21T19:14:49+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/10/21/tunisia-jails-opposition-politician-for-four-years-over-social-media-posts?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/10/21/tunisia-jails-opposition-politician-for-four-years-over-social-media-posts?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -6912,6 +7076,38 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/10/21/south-africa-cuts-fuel-levies-by-r10-billion-as-becord-pump-prices-squeeze-consumers/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "551f6be20d",
+      "title": "Travail domestique: «Des femmes et parfois des mineurs sont employés en dehors de tout cadre légal»",
+      "summary": "Dakar accueillait le Forum régional sur le travail domestique. Trois jours de discussions qui ont rassemblé douze pays du continent. Faire progresser les droits, mieux protéger les travailleurs, renforcer le dialogue social… Tant de combats portés par l'Organisation internationale du travail. Samira Daoud est représentante du bureau de l'OIT en Afrique de l'Ouest, elle répond aux questions de Simon Bourtembourg pour Afrique Midi.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-21T15:19:41+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20261021-travail-domestique-des-femmes-et-parfois-des-mineurs-sont-employ%C3%A9s-en-dehors-de-tout-cadre-l%C3%A9gal"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20261021-travail-domestique-des-femmes-et-parfois-des-mineurs-sont-employ%C3%A9s-en-dehors-de-tout-cadre-l%C3%A9gal"
         }
       ],
       "confirmation_count": 1
@@ -8339,38 +8535,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "5a5ba4dfa7",
-      "title": "UCC Pledges Predictable Rules to Attract ICT Investors",
-      "summary": "[Nile Post] The Uganda Communications Commission (UCC) has pledged to maintain predictable and transparent regulations to attract long-term investment in Uganda's information and communications technology (ICT) sector while protecting consumers.",
-      "country": "UGA",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-21T11:17:59+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610210426.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610210426.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1c58070918",
       "title": "Tayebwa Vows to Continue Parliament Staff Validation Despite Pressure",
       "summary": "[Nile Post] Deputy Speaker of Parliament Thomas Tayebwa has vowed to continue the ongoing staff verification exercise despite pressure from affected individuals and their families questioning its purpose.",
@@ -8398,168 +8562,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610210423.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "adcfb9f935",
-      "title": "Tayebwa Warns Non-Performing Parliamentary Committees Over Funding",
-      "summary": "[Nile Post] Deputy Speaker of Parliament Thomas Tayebwa has warned that parliamentary committees that fail to fulfil their reporting obligations risk losing funding, saying future financial support will be tied to performance and accountability.",
-      "country": "UGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-21T11:17:58+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610210424.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610210424.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "1b27ebb043",
-      "title": "How Gambling, Academic Pressure and Stigma Affect Students' Mental Health",
-      "summary": "[Nile Post] Gambling losses, tuition difficulties, academic pressure and relationship problems are among the challenges affecting university students' mental well-being.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-21T11:17:58+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610210425.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610210425.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bd5220ab2c",
-      "title": "Nebbi Traders Urged to Keep Books to Avoid Heavy Ura Tax Bills",
-      "summary": "[Nile Post] Business owners in Nebbi District have been urged to embrace proper bookkeeping, hire professional accountants and file timely tax returns to avoid heavy tax bills and accumulated arrears imposed by the Uganda Revenue Authority (URA).",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": "FISCALITE",
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-21T11:17:57+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610210421.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610210421.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "44e90842a0",
-      "title": "Tayebwa Says Must Pharmacy Course Remains Accredited Despite Psu Dispute",
-      "summary": "[Nile Post] The Deputy Speaker of Parliament, Thomas Tayebwa, has said Mbarara University of Science and Technology's (MUST) Bachelor of Pharmacy programme remains accredited by the National Council for Higher Education (NCHE) for the next four years, despite a dispute over its professional recognition by the Pharmaceutical Society of Uganda (PSU).",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-21T11:17:57+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610210422.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610210422.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "453cf39f4b",
-      "title": "Fort Portal Referral Hospital to Get 146 More Health Workers",
-      "summary": "[Nile Post] Fort Portal Regional Referral Hospital is expected to receive 146 additional health workers, with the government providing funding for their salaries to address staffing shortages and strengthen specialised healthcare services.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-10-21T11:17:56+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610210419.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610210419.html"
         }
       ],
       "confirmation_count": 1
@@ -10426,6 +10428,107 @@
       "confirmation_count": 1
     },
     {
+      "id": "77a6425a32",
+      "title": "Parliament Committee to Meet Museveni Over Digital Number Plates Audit",
+      "summary": "[Nile Post] Parliament's Committee on Physical Infrastructure is expected to meet President Museveni this week as it finalises an investigation into the Intelligent Transport Management System (ITMS) digital number plates project.",
+      "country": "UGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "en",
+      "published": "2026-10-21T06:31:24+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610210083.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610210083.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f52b939c03",
+      "title": "Museveni Commissions 280 UPDF Officers At Kabamba Military Academy",
+      "summary": "[Nile Post] President Museveni has commissioned 280 officers at the Uganda Military Academy in Kabamba, Mubende District, urging them to remain focused on their military careers as he pledged a firm response to rising violent crime.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-21T06:31:15+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610210074.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610210074.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "269dd03ba5",
+      "title": "Court Orders Roko to Pay Sh5.7 Billion in Mulago Doors Case",
+      "summary": "[Independent (Kampala)] Kampala, Uganda -- The Commercial Division of the High Court in Kampala has ordered Roko Construction Limited to pay Assa Abloy (U) Limited 1.39 million dollars (approximately sh5.7billion) in outstanding payments for doors, accessories and ironmongery supplied and installed at Mulago National Referral Hospital.",
+      "country": "UGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH",
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-10-21T06:31:10+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610210069.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610210069.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "76e497a96a",
       "title": "Columnist Facing Prosecution for Disseminating False News",
       "summary": "[MFWA] Sen TV columnist Mamadou Cissé, widely known as \"Momo Cissé,\" is facing legal proceedings after making comments during a broadcast programme about social media influencer Nourah Ba, who was arrested on October 9, 2026.",
@@ -10913,6 +11016,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "34b770102d",
+      "title": "PAC Wants Members Dropped, Barred From Sectoral Committees",
+      "summary": "[Independent (Kampala)] Kampala -- Uganda's Public Accounts Committee (PAC) wants its membership reduced by half and legislators serving on the accountability committees barred from joining sectoral committees, arguing that competing parliamentary assignments are undermining audit scrutiny, constituency representation and members' performance.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-20T14:54:29+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610200582.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610200582.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "d88e8f9f62",
       "title": "Ibrahim Mahama sème «Le Temps des récoltes» au temps des révoltes",
       "summary": "Des tabourets royaux ashantis aux usines relocalisées… « L’Afrique a toujours eu son propre langage », insiste Ibrahim Mahama, figure phare de la scène africaine et mondiale de l’art contemporain. Célébré depuis sa révélation à la Biennale de Venise en 2015, l’artiste ghanéen, 39 ans, est accueilli à partir du jeudi 22 octobre à la Fondation Cartier, à Paris, pour sa première grande – et spectaculaire – exposition en France, « Le temps des récoltes ». Entretien.",
@@ -11373,38 +11508,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "21366b45fb",
-      "title": "Éthiopie: des conséquences «très graves» si l'Érythrée «sert de base à nos ennemis», prévient Addis-Abeba",
-      "summary": "Les conséquences seront « très graves » si l'Érythrée « sert de base à nos ennemis », a mis en garde le 19 octobre 2026 le Premier ministre éthiopien, dans un climat de plus en plus tendu entre les deux voisins de la Corne de l'Afrique qui fait craindre une nouvelle guerre. Dans la même interview, Abiy Ahmed a estimé que « des relations de bon voisinage et un partenariat constituent la seule voie à suivre ».",
-      "country": "ETH",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-20T12:22:25+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20261020-%C3%A9thiopie-des-cons%C3%A9quences-tr%C3%A8s-graves-si-l-%C3%A9rythr%C3%A9e-sert-de-base-%C3%A0-nos-ennemis-pr%C3%A9vient-addis-abeba"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20261020-%C3%A9thiopie-des-cons%C3%A9quences-tr%C3%A8s-graves-si-l-%C3%A9rythr%C3%A9e-sert-de-base-%C3%A0-nos-ennemis-pr%C3%A9vient-addis-abeba"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "c7348ab31c",
       "title": "Governador de Luanda rejeita cunhas em contratos públicos adjudicados à própria empresa",
       "summary": "Em Angola, o governador de Luanda, Luís Nunes, negou as acusações de favorecimento na adjudicação de obras públicas à Omatapalo, construtora da qual é accionista, sobretudo na capital, alegando que os contratos em vigor foram assinados antes de assumir o cargo.",
@@ -11562,38 +11665,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610200445.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c2ee3e3b6e",
-      "title": "Ethiopia's Abiy Urges Investment in Youth As Kenya Honors National Heroes",
-      "summary": "[Capital FM] Nairobi -- Ethiopian Prime Minister Abiy Ahmed has called for greater investment in young people, saying Kenya's next phase of development will depend on its ability to turn freedom into economic opportunities for the next generation.",
-      "country": "KEN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-20T10:36:50+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610200408.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610200408.html"
         }
       ],
       "confirmation_count": 1
@@ -12495,6 +12566,38 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20261019-madagascar-les-arbitres-d%C3%A9noncent-les-menaces-de-la-f%C3%A9d%C3%A9ration-de-football"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "20e66bb16b",
+      "title": "Court Convicts All 29 Shakahola Accused of Murder, Sets Sentencing for November 6",
+      "summary": "[Capital FM] Nairobi -- The High Court has convicted all 29 accused persons in the Shakahola starvation cult case linked to self-proclaimed pastor Paul Mackenzie, finding them guilty of the murder of 191 people, including 190 children.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-19T16:36:29+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610190618.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610190618.html"
         }
       ],
       "confirmation_count": 1
@@ -13551,6 +13654,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "600cfdcd86",
+      "title": "Brela Urges Military Institutions to Protect Innovations",
+      "summary": "[Daily News] Morogoro -- THE Business Registrations and Licensing Agency (BRELA) has urged military and security institutions to register and legally protect their innovations to establish ownership, prevent unauthorised use and enhance the value of their products and services.",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": true,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-16T21:51:47+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610160684.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610160684.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "ceb15d9726",
       "title": "Korea-Trained Tanzanians Urged to Drive Sustainable Development",
       "summary": "[Daily News] Dar es Salaam -- KOREA-TRAINED Tanzanian professionals have been urged to apply the knowledge and skills acquired through development cooperation programmes to improve healthcare, strengthen institutions and enhance community livelihoods.",
@@ -14396,38 +14531,6 @@
           "name": "AllAfrica · Mozambique",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610150363.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6a8e1d6c3f",
-      "title": "The Urgent Fight Against Intimate Partner Violence",
-      "summary": "[Daily News] Dodoma -- THE reported killing of Shukrani Ridhiki, 30, in Dodoma has once again raised painful questions about women's safety within intimate relationships and the meaning of love when a relationship becomes a source of fear.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-15T11:45:43+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610150362.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610150362.html"
         }
       ],
       "confirmation_count": 1
