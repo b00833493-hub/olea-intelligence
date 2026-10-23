@@ -1,25 +1,26 @@
 {
-  "generated_at": "2026-10-22T22:18:46.070254+00:00",
+  "generated_at": "2026-10-23T01:29:07.580313+00:00",
   "stats": {
-    "total_signals": 528,
-    "verified_signals": 17,
+    "total_signals": 527,
+    "verified_signals": 16,
     "countries_covered": 30,
     "sources_active": 32,
     "per_country": {
-      "ZAF": 69,
-      "CMR": 12,
-      "UGA": 38,
+      "MDG": 7,
+      "CMR": 11,
+      "UGA": 37,
       "RWA": 10,
+      "ZAF": 69,
       "TZA": 34,
-      "KEN": 58,
+      "KEN": 60,
       "NGA": 47,
-      "GIN": 4,
-      "CIV": 24,
+      "GIN": 3,
+      "CIV": 25,
       "CAF": 5,
       "MOZ": 41,
       "BFA": 4,
       "MLI": 26,
-      "SEN": 46,
+      "SEN": 44,
       "AGO": 31,
       "TCD": 3,
       "COG": 2,
@@ -28,11 +29,10 @@
       "MAR": 31,
       "TGO": 2,
       "ETH": 12,
+      "TUN": 5,
       "COD": 5,
-      "GHA": 5,
-      "MDG": 6,
-      "TUN": 4,
       "BDI": 2,
+      "GHA": 4,
       "NER": 1,
       "ZMB": 1,
       "MUS": 1
@@ -234,42 +234,36 @@
   ],
   "signals": [
     {
-      "id": "4920e3953e",
-      "title": "Foreign national beaten to death by a mob in South Africa",
-      "summary": "Police say a 50-person mob in Durban killed a man amid a wave of anti-migrant marches.",
-      "country": "ZAF",
+      "id": "2fe351b44f",
+      "title": "Octobre rose: à Madagascar, une campagne de dépistage gratuit mais des soins qui restent coûteux",
+      "summary": "Octobre rose bat son plein à Madagascar, avec des campagnes de dépistage gratuit des cancers du sein et du col de l’utérus. Le cancer tue plus de 14 000 personnes par an dans le pays, dont 8 000 femmes, selon l’AIEA, une agence des Nations unies. Pour les malades, le dépistage n’est qu’une première étape. Viennent ensuite des soins coûteux, un système de santé saturé, et le poids du tabou.",
+      "country": "MDG",
       "category": "AUTRE",
       "severity": 4,
-      "credibility": 4,
-      "verified": true,
+      "credibility": 2,
+      "verified": false,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
       "sectors": [],
-      "lang": "en",
-      "published": "2026-10-22T17:35:44+00:00",
+      "lang": "fr",
+      "published": "2026-10-22T22:58:17+00:00",
       "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
         "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/10/22/foreign-national-beaten-to-death-by-a-mob-in-south-africa?traffic_source=rss"
+        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20261022-octobre-rose-%C3%A0-madagascar-une-campagne-de-d%C3%A9pistage-gratuit-mais-des-soins-qui-restent-co%C3%BBteux"
       },
       "confirming_sources": [
         {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
           "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/10/22/foreign-national-beaten-to-death-by-a-mob-in-south-africa?traffic_source=rss"
-        },
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/10/22/foreign-national-beaten-to-death-by-mob-in-south-africas-durban/"
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20261022-octobre-rose-%C3%A0-madagascar-une-campagne-de-d%C3%A9pistage-gratuit-mais-des-soins-qui-restent-co%C3%BBteux"
         }
       ],
-      "confirmation_count": 2
+      "confirmation_count": 1
     },
     {
       "id": "23d11f69a6",
@@ -1062,38 +1056,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610210086.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "caf82dbed0",
-      "title": "Le Cameroun commémore le 10e anniversaire de la catastrophe ferroviaire d'Eseka",
-      "summary": "Il y a dix ans exactement, le bilan du déraillement d'un train reliant Yaoundé à Douala au niveau de la commune d'Eseka laissait le pays sous le choc. Avec 79 morts et plus de 500 blessés, l'accident reste comme la plus grave catastrophe ferroviaire que le pays ait connue.",
-      "country": "CMR",
-      "category": "SINISTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-21T03:01:20+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20261021-le-cameroun-comm%C3%A9more-le-10e-anniversaire-de-la-catastrophe-ferroviaire-d-eseka"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20261021-le-cameroun-comm%C3%A9more-le-10e-anniversaire-de-la-catastrophe-ferroviaire-d-eseka"
         }
       ],
       "confirmation_count": 1
@@ -2045,38 +2007,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "3a7f32f83c",
-      "title": "Traffic Police Launch Festive Season Road Safety Operations in Savannah Region",
-      "summary": "[Nile Post] Traffic Police have launched road safety operations in the Savannah Region ahead of the festive season, targeting reckless driving, drunk driving, overloading and other traffic violations blamed for road crashes.",
-      "country": "UGA",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-22T16:49:20+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610220537.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610220537.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "b4a505990f",
       "title": "Crowd of 50 beats foreigner to death in South Africa",
       "summary": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
@@ -2893,6 +2823,72 @@
         }
       ],
       "confirmation_count": 2
+    },
+    {
+      "id": "4d03bc9624",
+      "title": "Au Nigeria, les chauffeurs sont toujours en colère un mois après le départ d'Uber",
+      "summary": "À Lagos, commander une course sur les applications de transport à la demande est devenu un parcours du combattant. Depuis le départ d'Uber en septembre dernier, la demande a du mal à être satisfaite par les applications restantes. D’autant plus lorsque les chauffeurs entament des grèves pour revendiquer l’amélioration de leurs conditions de travail. Ils réclament une baisse des commissions pour encaisser la flambée du carburant.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "fr",
+      "published": "2026-10-22T23:06:09+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20261022-au-nigeria-les-chauffeurs-sont-toujours-en-cole%CC%80re-un-mois-apre%CC%80s-le-de%CC%81part-d-uber"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20261022-au-nigeria-les-chauffeurs-sont-toujours-en-cole%CC%80re-un-mois-apre%CC%80s-le-de%CC%81part-d-uber"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c56249bd95",
+      "title": "Sénégal: l'État fait un pas vers la reprise des contrats publicitaires avec la presse privée",
+      "summary": "Au Sénégal, se dirige-t-on vers un apaisement des relations entre l’État et la presse privée ? Dans une note rendue publique cette semaine, le Premier ministre Ahmadou Al Aminou Lô a donné « un avis favorable » pour lever la suspension des contrats publicitaires signés entre l’État et les médias. Ils sont gelés depuis juillet 2024 sur décision de l’ancien chef de gouvernement Ousmane Sonko. Une mesure qui a fait souffrir plusieurs groupes privés.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-22T22:24:48+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20261022-s%C3%A9n%C3%A9gal-l-%C3%A9tat-fait-un-pas-vers-la-reprise-des-contrats-publicitaires-avec-la-presse-priv%C3%A9e"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20261022-s%C3%A9n%C3%A9gal-l-%C3%A9tat-fait-un-pas-vers-la-reprise-des-contrats-publicitaires-avec-la-presse-priv%C3%A9e"
+        }
+      ],
+      "confirmation_count": 1
     },
     {
       "id": "b978229b4e",
@@ -3908,40 +3904,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "d858bf6040",
-      "title": "Ebola: «Aucun pays n'est à l'abri si on ne renforce pas la surveillance», affirme le Dr Jean Kaseya",
-      "summary": "Le Nigeria est sous le choc après l'annonce d'un premier cas Ebola en provenance d'Ouganda. Le docteur Jean Kaseya informe jeudi 22 octobre que cette patiente n'est jamais passée au préalable par la RDC, ce qui veut dire que, contrairement au discours officiel de Kampala, le virus circule en Ouganda. Cette patiente n'a été diagnostiquée Ebola que 16 jours après son arrivée au Nigeria, poursuit le médecin, ce qui signifie qu'il y a aujourd'hui beaucoup de cas contacts.…",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-10-22T05:19:51+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261022-ebola-aucun-pays-n-est-%C3%A0-l-abri-si-on-ne-renforce-pas-la-surveillance-affirme-le-dr-jean-kaseya"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261022-ebola-aucun-pays-n-est-%C3%A0-l-abri-si-on-ne-renforce-pas-la-surveillance-affirme-le-dr-jean-kaseya"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "ebe88b2181",
       "title": "South Africa’s mid-term budget: Fiscal armour hardens, but can Pretoria drive regional growth?",
       "summary": "South Africa stabilised debt and widened its primary surplus in the mid-term budget, but a growth downgrade to 1.2% and flexible fiscal anchors highlight the struggle to translate orthodox discipline into continental economic momentum.",
@@ -4272,40 +4234,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610210068.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "be741cba7a",
-      "title": "Sénégal: des centaines de travailleurs se mobilisent avant une grève générale annoncée pour trois jours",
-      "summary": "Au Sénégal, 72 heures de grève générale ont été décrétées à compter de ce mercredi 21 octobre. Le mouvement est lancé par le Front syndical pour la défense du travail (FSDT), un collectif qui rassemble 13 syndicats – incluant le secteur de la santé, l’éducation ou encore le transport. Malgré l’appel à reculer lancé par le gouvernement mardi, les travailleurs maintiennent leur mot d’ordre.",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": true,
-      "fdi": false,
-      "sectors": [
-        "MARINE_TRANSPORT"
-      ],
-      "lang": "fr",
-      "published": "2026-10-20T20:01:28+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20261020-s%C3%A9n%C3%A9gal-des-centaines-de-travailleurs-se-mobilisent-avant-une-gr%C3%A8ve-g%C3%A9n%C3%A9rale-annonc%C3%A9e-pour-trois-jours"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20261020-s%C3%A9n%C3%A9gal-des-centaines-de-travailleurs-se-mobilisent-avant-une-gr%C3%A8ve-g%C3%A9n%C3%A9rale-annonc%C3%A9e-pour-trois-jours"
         }
       ],
       "confirmation_count": 1
@@ -5283,6 +5211,137 @@
       "confirmation_count": 2
     },
     {
+      "id": "fc772d4337",
+      "title": "Rare unrest flares in Tunisian capital as police clash with protesters",
+      "summary": "Protests in several cities ​coincide with a deepening economic, social and political crisis in Tunisia.",
+      "country": "TUN",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-23T00:51:40+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/10/23/rare-unrest-flares-in-tunisian-capital-as-police-clash-with-protesters?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/23/rare-unrest-flares-in-tunisian-capital-as-police-clash-with-protesters?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "15ad755e9b",
+      "title": "Uganda Waragi Unveils UG Yard Party to Redefine Kampala's Youth Party Culture",
+      "summary": "[Nile Post] Uganda Waragi, in partnership with creative mastermind Josh SB, has officially unveiled the UG Yard Party, a multi-faceted entertainment experience aimed at redefining youth party culture in Kampala.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-22T23:57:32+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610220722.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610220722.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e3e5ad8c49",
+      "title": "Fuel At the Pump, the Dollar in the Market and the Cost of Losing Confidence",
+      "summary": "[Nile Post] When fuel prices rise, the filling station is where the problem becomes visible. But Uganda's rising fuel prices tell a much bigger economic story than the numbers displayed at the pump. They reveal the country's exposure to exchange-rate volatility, climate-related agricultural risks, dependence on imported inputs and the economic cost of weakening investor confidence.",
+      "country": "UGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "PROPERTY",
+        "AGRICULTURE"
+      ],
+      "lang": "en",
+      "published": "2026-10-22T23:56:26+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610220721.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610220721.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "20af56a999",
+      "title": "Lovers Reggaefest - George Mulindwa Keeps Ugandan Diaspora Connected Through Music and Love",
+      "summary": "[Nile Post] For four years, George Mulindwa has given Ugandans living in the United States a reason to brave the February cold, dress up and celebrate love to the rhythms of reggae.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-22T23:55:14+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610220720.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610220720.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "5b6ee409fa",
       "title": "The mini budget keeps SA diplomacy afloat, but structural rot still festers",
       "summary": "The Medium-Term Budget Policy Statement offers Dirco a temporary lifeline, but underlying governance failures, unstaffed embassies and decaying overseas properties show South Africa’s diplomatic corps remains deeply in crisis.",
@@ -5310,6 +5369,104 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/opinionista/2026-10-22-the-mini-budget-keeps-sa-diplomacy-afloat-but-structural-rot-still-festers/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "62318ad982",
+      "title": "Centrafrique: libérés, la sous-préfète de Bambouti et les deux agents de l'ANE reçus par le président",
+      "summary": "En Centrafrique, après onze mois de captivité, la sous-préfète de Bambouti et deux agents de l’Autorité nationale des élections (ANE) ont enfin retrouvé la liberté. Enlevés le 28 décembre 2025, jour des élections générales, par des miliciens du groupe Azandé Ani Kpi Gbé, dans le Haut-Mbomou, ils ont été libérés le 18 octobre 2026, au terme de plusieurs mois de médiation. Arrivés à Bangui, les trois anciens otages ont été reçus par les plus hautes autorités du pays.",
+      "country": "CAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-22T23:12:18+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20261022-centrafrique-lib%C3%A9r%C3%A9s-la-sous-pr%C3%A9f%C3%A8te-de-bambouti-et-les-deux-agents-de-l-ane-re%C3%A7us-par-le-pr%C3%A9sident"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20261022-centrafrique-lib%C3%A9r%C3%A9s-la-sous-pr%C3%A9f%C3%A8te-de-bambouti-et-les-deux-agents-de-l-ane-re%C3%A7us-par-le-pr%C3%A9sident"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "286e681ce1",
+      "title": "Au Kenya, la filière lait bientôt fournie par les bufflonnes?",
+      "summary": "Et si le Kenya se mettait au lait de bufflonne ? C’est une proposition récemment faite par le président, William Ruto, lors du sommet kényan sur l’agriculture et l’agro-industrie. La filière lait connaît une crise d’approvisionnement. Depuis septembre, les étals sont régulièrement vides, le gouvernement veut donc diversifier les espèces productrices.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "fr",
+      "published": "2026-10-22T23:00:26+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20261022-au-kenya-la-fili%C3%A8re-lait-bient%C3%B4t-fournie-par-les-bufflonnes"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20261022-au-kenya-la-fili%C3%A8re-lait-bient%C3%B4t-fournie-par-les-bufflonnes"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "196bd831aa",
+      "title": "Hundreds of Ethiopians cross into Kenya to flee regional fighting",
+      "summary": "Dispute over raising flag of Somali Regional State devolves into fighting between regional forces.",
+      "country": "KEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-22T22:52:35+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/10/22/hundreds-of-ethiopians-cross-into-kenya-to-flee-regional-fighting?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/22/hundreds-of-ethiopians-cross-into-kenya-to-flee-regional-fighting?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -5575,6 +5732,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "f1f53b9b6d",
+      "title": "Côte d'Ivoire: l'audience sur l’élection de Tidjane Thiam à la tête du PDCI renvoyée",
+      "summary": "En Côte d’Ivoire, le tribunal de première instance d’Abidjan examinait ce jeudi 22 octobre 2026 les recours judiciaires visant la présidence de Tidjane Thiam au PDCI-RDA. L'action, menée par deux militants de la formation, conteste la légalité de son élection. L’audience a été renvoyée au 19 novembre pour ajouter une autre procédure.",
+      "country": "CIV",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-22T20:32:14+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20261022-c%C3%B4te-d-ivoire-l-audience-sur-l-%C3%A9lection-de-tidjane-thiam-%C3%A0-la-t%C3%AAte-du-pdci-renvoy%C3%A9e"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20261022-c%C3%B4te-d-ivoire-l-audience-sur-l-%C3%A9lection-de-tidjane-thiam-%C3%A0-la-t%C3%AAte-du-pdci-renvoy%C3%A9e"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "421653125d",
       "title": "RDC : Kinshasa rend hommage au cycliste Miguel Masaisai",
       "summary": "Kinshasa a rendu un dernier hommage à Miguel Mumbere Masaisai. Le jeune cycliste congolais, décédé le 18 septembre dernier dans un accident de la circulation en République du Congo alors qu’il traversait l’Afrique à vélo pour promouvoir la paix, a été décoré à titre posthume.",
@@ -5703,6 +5892,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "50bff30fe8",
+      "title": "Éthiopie: au Tigré, le chef du TPLF affirme que ses troupes continuent les combats",
+      "summary": "En Éthiopie, la guerre au Tigré n'est pas finie, un mois après la reprise des combats entre l'armée éthiopienne et les soldats du TPLF. Alors que le gouvernement éthiopien affirme avoir repris les grandes villes et le contrôle de la région, Debretsion Gebremichael, le chef du Front de libération du peuple du Tigré (TPLF) est apparu mercredi 21 octobre à la télévision locale du Tigré. Il a affirmé que l'armée du TPLF continuait les combats et avait récemment acquis des…",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-22T19:12:44+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20261022-%C3%A9thiopie-au-tigr%C3%A9-le-chef-du-tplf-affirme-que-ses-troupes-continuent-les-combats"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20261022-%C3%A9thiopie-au-tigr%C3%A9-le-chef-du-tplf-affirme-que-ses-troupes-continuent-les-combats"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "e7468c732c",
       "title": "Sénégal : les commissions d’enquête parlementaires de Pastef, outil de reddition des comptes ou théâtralisation politique ?",
       "summary": "Sous l’impulsion d’Ousmane Sonko, 11 commissions d’enquête parlementaires ont déjà commencé leurs travaux ou le feront bientôt afin de scruter d’éventuels manquements financiers qui remontent, pour la plupart, à la présidence de Macky Sall. Au risque de transformer l’Assemblée nationale en un tribunal partisan ?",
@@ -5796,38 +6017,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1854400/economie-entreprises/jusquou-ira-lexpansion-des-boulangeries-paul-en-afrique/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "67d24a3733",
-      "title": "Egoístas, acampadas e encochadas constitucionais",
-      "summary": "A Vichyssoise desta semana acampou dentro do estúdio. As manifestações pela habitação e a resposta política aos protestos foram tema único.",
-      "country": "GHA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "pt",
-      "published": "2026-10-22T17:29:52+00:00",
-      "lead_source": {
-        "id": "observador",
-        "name": "Observador",
-        "tier": 2,
-        "url": "https://observador.pt/programas/vichyssoise/egoistas-acampadas-e-encochadas-constitucionais/"
-      },
-      "confirming_sources": [
-        {
-          "id": "observador",
-          "name": "Observador",
-          "tier": 2,
-          "url": "https://observador.pt/programas/vichyssoise/egoistas-acampadas-e-encochadas-constitucionais/"
         }
       ],
       "confirmation_count": 1
@@ -6376,38 +6565,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610220538.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b93248d455",
-      "title": "Parliament Orders Removal of MPs' Phone Numbers From Official Online Platforms",
-      "summary": "[Nile Post] Parliament's leadership has directed the Clerk to Parliament to remove Members of Parliament's personal telephone numbers from official online platforms following reports that fraudsters are using the contacts to target legislators.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-22T16:49:19+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610220536.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610220536.html"
         }
       ],
       "confirmation_count": 1
@@ -7033,6 +7190,40 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20261022-ebola-au-nigeria-une-course-contre-la-montre-pour-identifier-les-contacts-du-premier-cas-d%C3%A9tect%C3%A9"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a5221ddde6",
+      "title": "Foreign national beaten to death by mob in South Africa’s Durban",
+      "summary": "A mob of about 50 people beat a foreign national to death Thursday in South Africa's port city of Durban, a flashpoint for anti-migrant sentiment, police said.",
+      "country": "ZAF",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "en",
+      "published": "2026-10-22T13:02:27+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/10/22/foreign-national-beaten-to-death-by-mob-in-south-africas-durban/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/10/22/foreign-national-beaten-to-death-by-mob-in-south-africas-durban/"
         }
       ],
       "confirmation_count": 1
@@ -7949,38 +8140,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610220325.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "ed7ed58cb3",
-      "title": "27 Ntungamo District and Municipal Officials Ordered Interdicted",
-      "summary": "[Nile Post] The Ministry of Local Government has ordered the interdiction of 27 officials from Ntungamo District Local Government and Ntungamo Municipal Council over allegations of gross negligence of duty, abuse of office, mismanagement of public resources and possible financial impropriety.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-22T10:59:16+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610220324.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610220324.html"
         }
       ],
       "confirmation_count": 1
@@ -10232,70 +10391,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "37d35c8edb",
-      "title": "Guinée: quelles alternatives au sachet d'eau bientôt interdit?",
-      "summary": "En Guinée, l'interdiction des plastiques à usage unique, dont les sachets d'eau très bon marché, provoque une crise d'accès à l'eau potable. Un moratoire de six mois est accordé pour trouver des alternatives conciliant santé et environnement, tandis que les autorités et les industriels peinent à résoudre l'équation entre besoins essentiels de la population et lutte contre la pollution.",
-      "country": "GIN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-21T22:56:10+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20261021-guin%C3%A9e-quelles-alternatives-au-sachet-d-eau-bient%C3%B4t-interdit"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20261021-guin%C3%A9e-quelles-alternatives-au-sachet-d-eau-bient%C3%B4t-interdit"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "54415ebddc",
-      "title": "«On s'appelle, on s'entraide»: au Sénégal, des malades du cancer du sein unies contre la maladie",
-      "summary": "À l'occasion d'Octobre rose, mois de mobilisation contre le cancer du sein, rendez-vous au Sénégal, où les malades n'ont pas accès aux soins de support comme un accompagnement psychologique et social pour lutter contre l'isolement, l'anxiété, la dépression. À Dakar, l'association Kinsiba propose des cours de boxe ou encore des séances de henné entre femmes, pour redonner confiance et briser la solitude.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-21T22:31:12+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20261021-on-s-appelle-on-s-entraide-au-s%C3%A9n%C3%A9gal-des-malades-du-cancer-du-sein-unies-contre-la-maladie"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20261021-on-s-appelle-on-s-entraide-au-s%C3%A9n%C3%A9gal-des-malades-du-cancer-du-sein-unies-contre-la-maladie"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0364f8bda9",
       "title": "Cameroun : le président du GECAM impliqué dans un litige foncier qui fragilise l’investissement privé",
       "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
@@ -10617,38 +10712,6 @@
           "name": "RFI Português",
           "tier": 1,
           "url": "https://www.rfi.fr/pt/mundo/20261021-ong-mo%C3%A7ambicana-reservada-quanto-%C3%A0-cop-da-biodiversidade-na-arm%C3%A9nia"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "551f6be20d",
-      "title": "Travail domestique: «Des femmes et parfois des mineurs sont employés en dehors de tout cadre légal»",
-      "summary": "Dakar accueillait le Forum régional sur le travail domestique. Trois jours de discussions qui ont rassemblé douze pays du continent. Faire progresser les droits, mieux protéger les travailleurs, renforcer le dialogue social… Tant de combats portés par l'Organisation internationale du travail. Samira Daoud est représentante du bureau de l'OIT en Afrique de l'Ouest, elle répond aux questions de Simon Bourtembourg pour Afrique Midi.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-21T15:19:41+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20261021-travail-domestique-des-femmes-et-parfois-des-mineurs-sont-employ%C3%A9s-en-dehors-de-tout-cadre-l%C3%A9gal"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20261021-travail-domestique-des-femmes-et-parfois-des-mineurs-sont-employ%C3%A9s-en-dehors-de-tout-cadre-l%C3%A9gal"
         }
       ],
       "confirmation_count": 1
@@ -11046,70 +11109,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "8e3f5c7c0e",
-      "title": "SEZs Set to Contribute Significantly to SA's Economy",
-      "summary": "[SAnews.gov.za] A total of 141 companies have committed to invest in various Special Economic Zones in South Africa, with a combined investment value of over R548 billion and will create over 60 000 permanent jobs once operational.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-21T12:11:53+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610210515.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610210515.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7313308df1",
-      "title": "Ntshavheni Encourages Communities to Look After Their Environments",
-      "summary": "[SAnews.gov.za] The responsibility of maintaining clean and safe environments is a collective obligation that must be undertaken by all, especially at community level, says Minister in the Presidency Khumbudzo Ntshavheni.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-21T12:11:12+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610210512.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610210512.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "0d681898c3",
       "title": "Aliko Dangote Acquires 24.76pc Stake in Kpc for About Sh42.5bn",
       "summary": "[Capital FM] Nairobi -- Nigerian billionaire Aliko Dangote has acquired a 24.76 percent stake in Kenya Pipeline Company (KPC) valued at about Sh42.5 billion from government institutions.",
@@ -11171,38 +11170,6 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610210504.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "46bb238e02",
-      "title": "Young South Africans Encouraged to Join Police Service",
-      "summary": "[SAnews.gov.za] The South African Police Service (SAPS) is calling on 5 500 young South Africans under the age of 35 to step forward, embrace the challenge and join the men and women in blue as police trainees during the 2026/2027 financial year.",
-      "country": "ZAF",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-21T12:09:49+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610210503.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610210503.html"
         }
       ],
       "confirmation_count": 1
@@ -11801,6 +11768,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "55f7fe168a",
+      "title": "Mothers Win Case Against 'Cultural' Adoption Guidelines",
+      "summary": "[GroundUp] Five judges condemn Department of Social Development and social workers for meddling",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-21T10:06:20+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610210261.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610210261.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "179bc0ba70",
       "title": "Sénégal : quel avenir politique envisage réellement Macky Sall ?",
       "summary": "Macky Sall fera-t-il son retour en politique au Sénégal, après avoir renoncé à diriger l’ONU ? La question agite l'espace public sénégalais ces derniers jours.",
@@ -11828,6 +11827,38 @@
           "name": "Africanews FR",
           "tier": 2,
           "url": "http://fr.africanews.com/2026/10/21/senegal-quel-avenir-politique-envisage-reellement-macky-sall/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "5c2adba6b5",
+      "title": "Tshwane's Drinking Water Crisis a Wake-Up Call for SA",
+      "summary": "[GroundUp] Failing municipal sewage systems pollute drinking water for people beyond their jurisdictions",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-21T09:55:20+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610210250.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610210250.html"
         }
       ],
       "confirmation_count": 1
@@ -11862,38 +11893,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/c693z948px0jo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7c65ea7f8a",
-      "title": "Centrafrique: la cheffe de la Minusca met en garde contre un retrait trop rapide des casques bleus",
-      "summary": "Alors que le Conseil de sécurité négocie jusqu’au 15 novembre les conditions du renouvellement du mandat de la Minusca, la cheffe de l'opération de maintien de la paix a briefé les diplomates mardi 20 octobre avec prudence. La Rwandaise Valentine Rugwabiza, qui quittera son poste dans quelques jours, a présenté toutes les avancées réalisées par Bangui, mais recommande néanmoins de maintenir la Minusca à un niveau de force suffisant, à cause de situations sécuritaires…",
-      "country": "CAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-21T09:16:01+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20261021-centrafrique-la-cheffe-de-la-minusca-met-en-garde-contre-un-retrait-trop-rapide-des-casques-bleus"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20261021-centrafrique-la-cheffe-de-la-minusca-met-en-garde-contre-un-retrait-trop-rapide-des-casques-bleus"
         }
       ],
       "confirmation_count": 1
@@ -11995,11 +11994,11 @@
       "confirmation_count": 1
     },
     {
-      "id": "af59d493c1",
-      "title": "Éthiopie: les troupes fédérales engagées sur plusieurs fronts, le TPLF toujours présent dans le Tigré",
-      "summary": "En Éthiopie, qu'est devenu le Front de libération du peuple du Tigré ? Après plusieurs semaines de combats qui les opposaient aux forces fédérales, les troupes du TPLF se seraient repliées près de la frontière érythréenne. Le gouvernement fédéral a repris le contrôle des grandes villes de la région et a mis en place une administration intérimaire pour six mois. Mais le TPLF n'a pas dit son dernier mot.",
-      "country": "ETH",
-      "category": "AUTRE",
+      "id": "e42aeadc6c",
+      "title": "All Systems Go for Medium-Term Budget Policy Statement",
+      "summary": "[SAnews.gov.za] Finance Minister Enoch Godongwana will deliver the Medium-Term Budget Policy Statement (MTBPS) during a sitting of the National Assembly today, outlining government's revised economic outlook and adjusted expenditure estimates.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
       "severity": 1,
       "credibility": 2,
       "verified": false,
@@ -12008,20 +12007,20 @@
       "regulatory": false,
       "fdi": false,
       "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-21T08:27:56+00:00",
+      "lang": "en",
+      "published": "2026-10-21T08:36:27+00:00",
       "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20261021-%C3%A9thiopie-les-troupes-f%C3%A9d%C3%A9rales-engag%C3%A9es-sur-plusieurs-fronts-le-tplf-toujours-pr%C3%A9sent-dans-le-tigr%C3%A9"
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610210142.html"
       },
       "confirming_sources": [
         {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20261021-%C3%A9thiopie-les-troupes-f%C3%A9d%C3%A9rales-engag%C3%A9es-sur-plusieurs-fronts-le-tplf-toujours-pr%C3%A9sent-dans-le-tigr%C3%A9"
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610210142.html"
         }
       ],
       "confirmation_count": 1
@@ -16944,38 +16943,6 @@
           "name": "AllAfrica · Sénégal",
           "tier": 2,
           "url": "https://allafrica.com/stories/202609300052.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a1db5b1b4f",
-      "title": "The journalist crowned king in Uganda after bitter succession dispute",
-      "summary": "Kijanangoma has been crowned amid a dispute over a young heir whom the royal clan does not recognise.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-29T20:09:27+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/cx7v4glz50elo?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cx7v4glz50elo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "confirmation_count": 1
