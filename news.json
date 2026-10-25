@@ -1,31 +1,33 @@
 {
-  "generated_at": "2026-10-25T19:04:43.417844+00:00",
+  "generated_at": "2026-10-25T21:46:17.674395+00:00",
   "stats": {
-    "total_signals": 528,
-    "verified_signals": 14,
-    "countries_covered": 29,
+    "total_signals": 527,
+    "verified_signals": 13,
+    "countries_covered": 31,
     "sources_active": 32,
     "per_country": {
-      "KEN": 67,
-      "ETH": 13,
+      "KEN": 68,
+      "ETH": 14,
       "TCD": 3,
-      "DZA": 6,
+      "DZA": 7,
       "MOZ": 41,
-      "ZAF": 70,
+      "ZAF": 68,
       "NGA": 54,
       "TZA": 30,
-      "CMR": 6,
-      "UGA": 41,
-      "MLI": 26,
-      "SEN": 46,
+      "CMR": 5,
+      "UGA": 42,
+      "MLI": 25,
+      "SEN": 43,
       "AGO": 29,
-      "CIV": 20,
+      "CIV": 19,
       "COD": 12,
       "GAB": 5,
       "BEN": 2,
       "TUN": 1,
       "CAF": 5,
-      "MAR": 31,
+      "MAR": 32,
+      "BFA": 1,
+      "MRT": 1,
       "GHA": 4,
       "NER": 1,
       "GIN": 4,
@@ -232,6 +234,40 @@
     }
   ],
   "signals": [
+    {
+      "id": "21f4e4e1e3",
+      "title": "Kenya bus crash kills at least 24 as government vows road safety crackdown",
+      "summary": "Church mourners die on Kenya’s Nairobi-Mombasa Highway weeks after another crash killed 17 people.",
+      "country": "KEN",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-10-25T21:00:02+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/10/25/kenya-bus-crash-kills-at-least-24-as-government-vows-road-safety-crackdown?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/25/kenya-bus-crash-kills-at-least-24-as-government-vows-road-safety-crackdown?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "4a1aaa017f",
       "title": "Kenya : la Croix-Rouge forme ses équipes à la prise en charge des cas d’Ebola",
@@ -460,38 +496,6 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/opinionista/2026-10-23-preparing-for-the-storm-grassroots-action-drives-durbans-climate-disaster-response/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "efaf00dc7a",
-      "title": "CAMPUS SAFETY: Universities have policies to protect GBV victims, experts say, but not the will",
-      "summary": "A decade after Rhodes University students named alleged rapists, and New York revisits its laws following the Cornell case, experts say South African universities must protect student victims while cases are pending. This follows the Commission for Gender Equality saying that investigations are poor and that strengthened policies need to be implemented.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 4,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-23T11:58:42+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-10-23-universities-have-policies-to-protect-gbv-victims-experts-say-but-not-the-will/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-10-23-universities-have-policies-to-protect-gbv-victims-experts-say-but-not-the-will/"
         }
       ],
       "confirmation_count": 1
@@ -756,46 +760,6 @@
         }
       ],
       "confirmation_count": 1
-    },
-    {
-      "id": "18641ca971",
-      "title": "Ebola - Swiss Government Says Nigeria's Patient Likely Contracted Virus in Uganda",
-      "summary": "[Premium Times] However, the World Health Organisation (WHO) and the Africa Centres for Disease Control and Prevention (Africa CDC) said they had not received verified information that the woman travelled to the Democratic Republic of the Congo (DRC), where the current Ebola outbreak began.",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 4,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-10-23T08:55:28+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610230147.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610230147.html"
-        },
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610230147.html"
-        }
-      ],
-      "confirmation_count": 2
     },
     {
       "id": "aabebb2aab",
@@ -1743,6 +1707,42 @@
       "confirmation_count": 1
     },
     {
+      "id": "60deaac464",
+      "title": "POLITICS & POLICING: From EFF’s Malema to ANC’s Carrim — the politics permeating SA’s cop collusion scandal",
+      "summary": "South Africa is on the brink of local elections. Meanwhile, the lines between various politicians, allegedly dodgy characters and suspicious activities have blurred more than ever. Take the EFF’s Julius Malema, who is familiar with the now-fired Crime Intelligence cop Feroz Khan. Then there’s ANC-supporting Suliman Carrim, recently arrested in a car smuggling case.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AUTO",
+        "PROPERTY",
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-10-25T21:49:16+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-10-25-from-effs-malema-to-ancs-carrim-the-politics-permeating-sas-cop-collusion-scandal/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-10-25-from-effs-malema-to-ancs-carrim-the-politics-permeating-sas-cop-collusion-scandal/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "bbd048cb06",
       "title": "RDC: Félix Tshisekedi mobilise sa majorité parlementaire après l'entrée en rébellion officielle de Joseph Kabila",
       "summary": "Le président congolais Félix Tshisekedi a fait sa première sortie politique officielle depuis que Joseph Kabila a pris la tête du Front pour la refondation de la nation. Face à sa majorité parlementaire, réunie samedi 24 octobre à Kinshasa, Félix Tshisekedi a attaqué son prédécesseur et voulu mobiliser ses troupes face au défi du nouveau mouvement rebelle, ainsi qu’au prochaines échéances politiques.",
@@ -2257,6 +2257,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "f6ea07eb37",
+      "title": "Ebola - Swiss Government Says Nigeria's Patient Likely Contracted Virus in Uganda",
+      "summary": "[Premium Times] However, the World Health Organisation (WHO) and the Africa Centres for Disease Control and Prevention (Africa CDC) said they had not received verified information that the woman travelled to the Democratic Republic of the Congo (DRC), where the current Ebola outbreak began.",
+      "country": "UGA",
+      "category": "SANTE",
+      "severity": 3,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-10-23T08:55:28+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610230147.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610230147.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "50c46c9ec5",
       "title": "Fresh Fears for Migrants After Fatal Mob Attack in South Africa",
       "summary": "[263Chat] A foreign national has been beaten to death by a group of about 50 people in South Africa's port city of Durban, police say amid heightened tensions over immigration.",
@@ -2698,6 +2732,38 @@
         }
       ],
       "confirmation_count": 2
+    },
+    {
+      "id": "1be0e9e503",
+      "title": "TRANSACTION TECH: Settling up: The state of digital payments in South Africa",
+      "summary": "South Africa is framed as a key growth market for the payment sector, but modernising how we pay is not straightforward, and neither is ensuring that modernisation benefits ordinary people.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-25T22:06:09+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-10-25-settling-up-the-state-of-digital-payments-in-south-africa/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-10-25-settling-up-the-state-of-digital-payments-in-south-africa/"
+        }
+      ],
+      "confirmation_count": 1
     },
     {
       "id": "1cc5106b5f",
@@ -5037,6 +5103,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "d66bcad7b6",
+      "title": "Éthiopie : que veut vraiment Abiy Ahmed pour son pays ?",
+      "summary": "L'Éthiopie, un géant africain à l'histoire millénaire, mais un pays profondément divisé.\n \nQuatre ans après l'accord de Pretoria, les tensions persistent et les fractures politiques restent entières. Pourquoi est-il si difficile de construire un projet commun dans ce pays aux multiples peuples, langues et traditions ? Au pouvoir depuis 2018, le Premier ministre Abiy Ahmed porte une vision ambitieuse de l'Éthiopie. Mais sa conception du pouvoir, ses relations avec…",
+      "country": "ETH",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-25T21:36:48+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20261025-%C3%A9thiopie-que-veut-vraiment-abiy-ahmed-pour-son-pays"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261025-%C3%A9thiopie-que-veut-vraiment-abiy-ahmed-pour-son-pays"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "6bd704dd40",
       "title": "OBITUARY: Liza Key — a ‘dizzying disruptor’ at the heart of South Africa’s film scene",
       "summary": "Liza Key transformed South Africa’s film scene, challenging apartheid censorship, nurturing filmmakers and bringing humanity to stories of injustice, opening new possibilities for South African storytelling.",
@@ -5069,6 +5167,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "e483424521",
+      "title": "Le Parlement algérien approuve l'envoi de forces au Niger, son premier déploiement à l'étranger depuis 1973",
+      "summary": "Le Parlement algérien a voté ce dimanche 25 octobre 2026 l'envoi des troupes au Niger voisin, confronté à divers défis sécuritaires. Une première depuis 53 ans, depuis en fait la guerre israélo-arabe de 1973.",
+      "country": "DZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-25T20:06:51+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20261025-le-parlement-alg%C3%A9rien-approuve-l-envoi-de-forces-au-niger-son-premier-d%C3%A9ploiement-%C3%A0-l-%C3%A9tranger-depuis-1973"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20261025-le-parlement-alg%C3%A9rien-approuve-l-envoi-de-forces-au-niger-son-premier-d%C3%A9ploiement-%C3%A0-l-%C3%A9tranger-depuis-1973"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "6509d172a5",
       "title": "WHERE TO INVEST: The investment tide has gone out in South African retail",
       "summary": "As households cut back on shopping and restaurant meals, investors are questioning whether South Africa’s consumer stocks can withstand the pressure.",
@@ -5096,6 +5226,136 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-10-25-the-investment-tide-has-gone-out-in-south-african-retail/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2dc1e286d7",
+      "title": "Le Burkina Faso , le Mali et le pétrole nigérien : qu’est-ce qui coince ?",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "BFA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "ENERGY"
+      ],
+      "lang": "fr",
+      "published": "2026-10-25T19:40:58+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/10/25/le-burkina-faso-le-mali-et-le-petrole-nigerien-quest-ce-qui-coince/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/10/25/le-burkina-faso-le-mali-et-le-petrole-nigerien-quest-ce-qui-coince/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "78bba46259",
+      "title": "Assurance : en fiançailles au Maroc, ASK fait du dilatoire au Bénin",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MAR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-25T19:31:34+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/10/25/assurance-en-fiancailles-au-maroc-ask-fait-du-dilatoire-au-benin/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/10/25/assurance-en-fiancailles-au-maroc-ask-fait-du-dilatoire-au-benin/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4c45407675",
+      "title": "Death toll in Nigeria village raided by gunmen rises to 48, police say",
+      "summary": "Unidentified gunmen on motorcycles swooped on a remote village on Friday, looting shops and setting houses ablaze.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-25T19:14:27+00:00",
+      "lead_source": {
+        "id": "bbc-afr",
+        "name": "BBC Africa",
+        "tier": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "bbc-afr",
+          "name": "BBC Africa",
+          "tier": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "82a3c30d68",
+      "title": "Mauritanie : une croissance de 5 % attendue en 2027",
+      "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
+      "country": "MRT",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-25T19:11:00+00:00",
+      "lead_source": {
+        "id": "financ-afr",
+        "name": "Financial Afrik",
+        "tier": 2,
+        "url": "https://www.financialafrik.com/2026/10/25/mauritanie-une-croissance-de-5-attendue-en-2027/"
+      },
+      "confirming_sources": [
+        {
+          "id": "financ-afr",
+          "name": "Financial Afrik",
+          "tier": 2,
+          "url": "https://www.financialafrik.com/2026/10/25/mauritanie-une-croissance-de-5-attendue-en-2027/"
         }
       ],
       "confirmation_count": 1
@@ -5723,38 +5983,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "1ac5ca79c7",
-      "title": "Gunmen kill at least 10 villagers and loot shops in north-east Nigeria",
-      "summary": "Police are searching for other casualties, with officials warning the actual death toll could rise further.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-25T03:20:16+00:00",
-      "lead_source": {
-        "id": "bbc-afr",
-        "name": "BBC Africa",
-        "tier": 1,
-        "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "bbc-afr",
-          "name": "BBC Africa",
-          "tier": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "e0d4cf1a1b",
       "title": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer»",
       "summary": "La 11e édition d’AKAA (Also Known As Africa), la foire consacrée à l’art contemporain africain et afro-descendant, se tient jusqu'à ce dimanche 25 octobre au Carreau du Temple, à Paris. Son directeur artistique, le commissaire et collectionneur franco-sénégalais Sitor Senghor décrit un marché créatif qui se structure, ainsi que l’arrivée d’une nouvelle génération de collectionneurs sur le continent.",
@@ -5880,38 +6108,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20261024-whatsapp-en-afrique-piratages-et-arnaques-se-multiplient"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "fceb8198a4",
-      "title": "Ligue des champions CAF: le Mamelodi Sundowns, tenant du titre, prend déjà la porte",
-      "summary": "Vainqueur de la compétition la saison dernière, le Mamelodi Sundowns a été éliminé à la surprise générale par le Wiliete SC vendredi 23 octobre sur sa pelouse du Lucas Masterpieces Moripe Stadium de Pretoria dans le cadre du deuxième tour qualificatif de la Ligue des champions. Après un match nul et vierge lors du match aller, les champions en titre n’ont pas pu faire mieux qu’un nouveau partage (1-1) à domicile.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-24T15:13:22+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique-foot/20261024-ligue-des-champions-caf-le-mamelodi-sundowns-tenant-du-titre-prend-d%C3%A9j%C3%A0-la-porte"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique-foot/20261024-ligue-des-champions-caf-le-mamelodi-sundowns-tenant-du-titre-prend-d%C3%A9j%C3%A0-la-porte"
         }
       ],
       "confirmation_count": 1
@@ -6108,38 +6304,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1853923/politique/est-de-la-rdc-comment-lafc-m23-sest-enrichi-grace-au-business-de-la-biere/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "6675f0026a",
-      "title": "Côte d’Ivoire: de nouveaux cadres de l'opposition arrêtés et inculpés par la justice antiterroriste",
-      "summary": "En Côte d’Ivoire, des cadres du PDCI-RDA et du PPA-CI sont visés par de nouvelles inculpations. Quatre d’entre eux ont été placés sous contrôle judiciaire, vendredi 23 octobre, selon leurs avocats. Ils étaient convoqués devant la section antiterroriste du tribunal de première instance d’Abidjan. La semaine précédente, d’autres cadres de l’opposition avaient déjà fait l’objet de procédures similaires.",
-      "country": "CIV",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-24T12:09:24+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20261024-c%C3%B4te-d-ivoire-de-nouveaux-cadres-de-l-opposition-arr%C3%AAt%C3%A9s-et-inculp%C3%A9s-par-la-justice-antiterroriste"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20261024-c%C3%B4te-d-ivoire-de-nouveaux-cadres-de-l-opposition-arr%C3%AAt%C3%A9s-et-inculp%C3%A9s-par-la-justice-antiterroriste"
         }
       ],
       "confirmation_count": 1
@@ -6507,40 +6671,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "b0d667e17f",
-      "title": "Macky Sall jette l'éponge, et Ebola de retour au Nigeria",
-      "summary": "Au sommaire : Macky Sall se retire de la course à la tête de l’ONU. Pourquoi ce retrait ? Que révèle-t-il des rapports de force diplomatiques et de la place de l’Afrique sur la scène internationale ? Également au programme : l’alerte Ebola. Après le Kenya, le Nigeria est touché. Comment contenir la propagation du virus ? Nos éditorialistes en débattent.",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "fr",
-      "published": "2026-10-24T06:10:49+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/le-d%C3%A9bat-africain/20261024-macky-sall-jette-l-%C3%A9ponge-et-ebola-de-retour-au-nigeria"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/le-d%C3%A9bat-africain/20261024-macky-sall-jette-l-%C3%A9ponge-et-ebola-de-retour-au-nigeria"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "1478fe69f3",
       "title": "Kenya, Tanzania face pushback on mandatory travel insurance",
       "summary": "Industry players have also criticised the abrupt rollout and inadequate information on...",
@@ -6632,38 +6762,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20261024-maurice-un-an-plus-tard-o%C3%B9-en-est-la-proc%C3%A9dure-contre-le-milliardaire-malgache-mamy-ravatomanga"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "fc9dcd352e",
-      "title": "Sénégal: quel bilan après les trois jours de grève générale?",
-      "summary": "Au Sénégal, les portes du dialogue ne sont pas fermées après trois jours de grève des travailleurs, qui a pris fin ce vendredi 23 octobre. Le Front syndical pour la défense du travail reste suspendu aux résultats des négociations entamées avec le gouvernement du Sénégal. Selon l'un des leaders syndicaux, la grève a été largement suivie dans Dakar et sur l’ensemble du pays.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-24T02:45:49+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20261024-s%C3%A9n%C3%A9gal-quel-bilan-apr%C3%A8s-les-trois-jours-de-gr%C3%A8ve-g%C3%A9n%C3%A9rale"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20261024-s%C3%A9n%C3%A9gal-quel-bilan-apr%C3%A8s-les-trois-jours-de-gr%C3%A8ve-g%C3%A9n%C3%A9rale"
         }
       ],
       "confirmation_count": 1
@@ -6835,72 +6933,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "ec1f7685fe",
-      "title": "Xénophobie, pétrole et décrochage : le Sénégal scie la branche sur laquelle il est assis",
-      "summary": "Par Dr Lansana Gagny Sakho, Adm.A., C.M.C.\nIl existe une vérité que les discours de souveraineté post-2024 refusent d’intégrer : « on ne construit pas une économie avec du pétrole seul, et on ne réunit pas un peuple en désignant ses voisins comme des ennemis. » Un pays dont les IDE se sont effondres à 37 millions de dollars en 2025 contre plus d’un milliard les années précédentes ne peut pas simultanément stigmatiser ses voisins africains et prétendre reconquérir son…",
-      "country": "SEN",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "fr",
-      "published": "2026-10-23T18:13:47+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/10/23/xenophobie-petrole-et-decrochage-le-senegal-scie-la-branche-sur-laquelle-il-est-assis/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/10/23/xenophobie-petrole-et-decrochage-le-senegal-scie-la-branche-sur-laquelle-il-est-assis/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2b04fc691c",
-      "title": "Rencontre avec Moussa Camara, spécialiste du suivi-évaluation du Projet de Restauration des Terres Dégradées au Mali (PRTD-Mali)",
-      "summary": "En marge du Carbon Markets Africa Summit 2026 (CMAS 2026) tenu du 13 au 15 octobre 2026 à Kigali, Moussa Camara, spécialiste du suivi-évaluation du Projet de Restauration des Terres Dégradées au Mali (PRTD-Mali), détaille pour Financial Afrik les avancées et les ambitions de cette initiative étatique entièrement financée par la Banque mondiale, à hauteur de 90 milliards de FCFA (environ 150 millions de dollars).\nMoussa Camara, quels sont les résultats économiques et…",
-      "country": "MLI",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-23T18:08:11+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/10/23/rencontre-avec-moussa-camara-specialiste-du-suivi-evaluation-du-projet-de-restauration-des-terres-degradees-au-mali-prtd-mali/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/10/23/rencontre-avec-moussa-camara-specialiste-du-suivi-evaluation-du-projet-de-restauration-des-terres-degradees-au-mali-prtd-mali/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "07db86ecb6",
       "title": "Deforestation threatens fish stocks and livelihoods in Central African Republic",
       "summary": "Experts say deforestation is causing lower water levels on the river, making it muddier and reducing its oxygen content, which makes it more difficult for fish to breed.",
@@ -6928,40 +6960,6 @@
           "name": "Africanews",
           "tier": 2,
           "url": "http://www.africanews.com/2026/10/23/deforestation-threatens-fish-stocks-and-livelihoods-in-central-african-republic/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "18d3683381",
-      "title": "Charlotte Libog : « pas de développement de l’Afrique sans l’agriculture »",
-      "summary": "De passage à Dakar, Charlotte Libog, fondatrice d’Afrique Grenier du Monde, a accordé un entretien à Financial Afrik. Figure de la diaspora, elle défend une conviction : l’agriculture doit occuper une place centrale dans les stratégies de développement du continent.\nSon appel porte notamment sur la prise en compte du genre dans les politiques agricoles africaines. Comment intégrer les besoins des femmes dans les dispositifs de financement, de formation et d’accompagnement…",
-      "country": "SEN",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "fr",
-      "published": "2026-10-23T17:50:35+00:00",
-      "lead_source": {
-        "id": "financ-afr",
-        "name": "Financial Afrik",
-        "tier": 2,
-        "url": "https://www.financialafrik.com/2026/10/23/charlotte-libog-pas-de-developpement-de-lafrique-sans-lagriculture/"
-      },
-      "confirming_sources": [
-        {
-          "id": "financ-afr",
-          "name": "Financial Afrik",
-          "tier": 2,
-          "url": "https://www.financialafrik.com/2026/10/23/charlotte-libog-pas-de-developpement-de-lafrique-sans-lagriculture/"
         }
       ],
       "confirmation_count": 1
@@ -8009,38 +8007,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "84203c1d6c",
-      "title": "CONSTITUTION @ 30: Art, justice and Ruth Bader Ginsburg — Celebrating 30 years of the Constitutional Court",
-      "summary": "The 30th anniversary of South Africa’s democratic Constitution and the establishment of the country’s Constitutional Court gives us the opportunity to recall the creation of the court’s art collection, a speech at the court by US Supreme Court Associate Justice Ruth Bader Ginsburg, and a strategic engagement with the court by the US embassy.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-23T11:52:54+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-10-23-art-justice-and-ruth-bader-ginsburg-celebrating-30-years-of-the-constitutional-court/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-10-23-art-justice-and-ruth-bader-ginsburg-celebrating-30-years-of-the-constitutional-court/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "f7af78f6f5",
       "title": "Health Is Economic Infrastructure - Why Nigeria Must Invest in Health",
       "summary": "[Nigeria Health Watch] Listen to this article 8 min The recently concluded World Health Summit in Berlin, themed \"From Crisis to Resilience: Innovating for Health\", reinforced a key message: health spending is an investment, not just an expense. Yet Nigeria's 2026 Appropriation Bill proposed ₦2.48 trillion for health out of ₦58.47 trillion, about 4.2% of the budget. That is less than a third of the 15% target African governments agreed to in the 2001 Abuja Declaration.",
@@ -8982,6 +8948,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "9b6e071a53",
+      "title": "Tinubu Appoints Former SSS DG As Governing Board Chair of Niss",
+      "summary": "[Premium Times] The former DG began his career in the Security Division of the Kano State Cabinet Office before his transfer of service in 1984.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-23T10:40:41+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610230266.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610230266.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "1d8e6c6a65",
       "title": "Africa Aquatics Zone III - Seven Countries Battle for Glory in Kampala",
       "summary": "[Independent (Kampala)] Kampala -- Seven African countries from Africa Zone III are battling for honours and other medals at a 5-day regional competition at Kampala International School of Uganda, Bukoto swimming pool.",
@@ -9046,6 +9044,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "2bfa0dbff4",
+      "title": "Nigeria Vs North Korea Preview - Flamingos Face Defending Champions in Crucial U-17 Showdown",
+      "summary": "[Premium Times] The Asian champions have already demonstrated why they remain among the leading contenders for the trophy, recording emphatic victories over Puerto Rico and Poland.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-23T10:32:47+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610230262.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610230262.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "c93ade5806",
       "title": "Campaigns Begin After IEBC Concludes Migwani Candidate Registration",
       "summary": "[Capital FM] Nairobi -- The Independent Electoral and Boundaries Commission (IEBC) has cleared six candidates to contest in the Migwani County Assembly Ward by-election, scheduled for November 17.",
@@ -9073,6 +9103,40 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610230260.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4550a3028a",
+      "title": "Unicef, Airtel, FG Expand Digital Learning to One Million Nigerian Students",
+      "summary": "[This Day] Ado Ekiti -- Nigeria's drive to bridge the digital divide in education received a major boost as the United Nations Children's Fund (UNICEF), Airtel Africa, and the federal government reaffirmed their commitment to expanding access to free digital learning, improving teachers' capacity, and equipping young Nigerians with employability and entrepreneurship skills.",
+      "country": "NGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-10-23T10:30:20+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610230259.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610230259.html"
         }
       ],
       "confirmation_count": 1
@@ -9568,38 +9632,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "52c2cdbe29",
-      "title": "INSTANT CLASSIC: Veteran author delivers a baking bible for our time",
-      "summary": "The cookbook author who once introduced the red velvet cake to South Africa has brought out a 10th collection of baking recipes. It is so comprehensive – with more than 350 recipes – and thorough in its fine detail that it should be an instant classic.",
-      "country": "ZAF",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-23T10:00:00+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-10-23-veteran-author-delivers-a-baking-bible-for-our-time/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-10-23-veteran-author-delivers-a-baking-bible-for-our-time/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "f31afaae49",
       "title": "Nigeria steps up airport health screenings over Ebola fears",
       "summary": "Passengers arriving at Lagos airport queue for temperature checks as Nigeria steps up health screening protocols for international arrivals. The country confirmed its first case of the Bundibugyo strain of Ebola earlier this week in a woman returning from Uganda.",
@@ -9896,38 +9928,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/%C3%A9missions/reporters/20261023-dakar-la-fi%C3%A8vre-olympique-version-jeunes"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "22c59f8aae",
-      "title": "Premium Times Editor-in-Chief Completes PhD On Collaborative Journalism",
-      "summary": "[Premium Times] Mr Mojeed enrolled in the PhD programme four years ago to examine collaborative journalism and its implications for the future of the profession.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-23T08:55:27+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610230146.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610230146.html"
         }
       ],
       "confirmation_count": 1
@@ -14238,40 +14238,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610190295.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "be0d969c5a",
-      "title": "Cameroun : Tiriane Balbine Noah prend la tête du MRC, un des principaux partis de l'opposition",
-      "summary": "Tiriane Balbine Noah est la nouvelle présidente du MRC (Mouvement pour la Renaissance du Cameroun). Sans surprise, l'ancienne vice-présidente par intérim qui était seule en lice a été plébiscitée par les militants de son parti réuni en convention samedi 17 octobre. Les chantiers qui attendent la nouvelle présidente sont nombreux à commencer par les élections législatives et municipales à venir. Les précisions de Marcel Amoko, correspondant France 24 à Yaoundé.",
-      "country": "CMR",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CONSTRUCTION"
-      ],
-      "lang": "fr",
-      "published": "2026-10-19T10:38:39+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20261019-cameroun-tiriane-balbine-noah-prend-la-t%C3%AAte-du-mrc-un-des-principaux-partis-de-l-opposition"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20261019-cameroun-tiriane-balbine-noah-prend-la-t%C3%AAte-du-mrc-un-des-principaux-partis-de-l-opposition"
         }
       ],
       "confirmation_count": 1
