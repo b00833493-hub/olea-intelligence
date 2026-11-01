@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-10-31T23:22:25.537876+00:00",
+  "generated_at": "2026-11-01T05:58:32.937689+00:00",
   "stats": {
-    "total_signals": 510,
-    "verified_signals": 12,
-    "countries_covered": 30,
+    "total_signals": 500,
+    "verified_signals": 13,
+    "countries_covered": 29,
     "sources_active": 32,
     "per_country": {
+      "GHA": 6,
       "COD": 12,
-      "ETH": 18,
-      "BFA": 3,
-      "KEN": 50,
-      "TZA": 37,
+      "ETH": 15,
+      "BFA": 2,
+      "KEN": 49,
+      "TZA": 36,
       "ZAF": 64,
-      "GHA": 5,
-      "NGA": 38,
+      "NGA": 37,
       "RWA": 10,
       "CMR": 14,
-      "UGA": 36,
+      "UGA": 35,
       "TCD": 4,
-      "GAB": 3,
-      "MOZ": 39,
-      "MLI": 25,
+      "GAB": 4,
+      "MOZ": 40,
+      "MLI": 22,
       "SEN": 62,
       "AGO": 25,
-      "CIV": 14,
-      "MAR": 32,
+      "CIV": 13,
+      "NAM": 2,
+      "MAR": 31,
       "MDG": 2,
       "CAF": 1,
       "GIN": 3,
@@ -33,8 +34,6 @@
       "NER": 1,
       "BEN": 1,
       "MWI": 2,
-      "TUN": 1,
-      "NAM": 1,
       "ZMB": 1
     }
   },
@@ -233,6 +232,38 @@
     }
   ],
   "signals": [
+    {
+      "id": "1a7d3cf9c8",
+      "title": "The murder of Javits Frimpong, a bullied schoolboy in The Bronx",
+      "summary": "Thousands of people have held vigils for a 15-year-old Ghanaian boy who was chased down and killed in New York.",
+      "country": "GHA",
+      "category": "SANTE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-01T03:18:02+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/the-murder-of-javits-frimpong-a-bullied-schoolboy-in-the-bronx?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/the-murder-of-javits-frimpong-a-bullied-schoolboy-in-the-bronx?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
     {
       "id": "2fc5a9e47d",
       "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
@@ -668,6 +699,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "f6a6e37a73",
+      "title": "Slain Katsina Cleric - Hospital Confirms No Autopsy As Associate Explains Delayed Burial",
+      "summary": "[Premium Times] The Federal Teaching Hospital, Katsina, confirmed that Sheikh Yahaya Masussuka's remains had been embalmed but not subjected to a post-mortem examination as of Thursday.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "HEALTH"
+      ],
+      "lang": "en",
+      "published": "2026-10-30T09:57:24+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610300240.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610300240.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "48d6909f90",
       "title": "DRC: US sanctions on Rwanda draw mixed reactions in Goma",
       "summary": "In Goma, some residents want to believe that this additional pressure could help break the deadlock. Michel Kamango hopes the sanctions will affect the parties concerned and help bring about a return to peace.",
@@ -1090,6 +1155,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "00d072a3da",
+      "title": "Government Approves Regulations On Decentralized Governance",
+      "summary": "[AIM] Maputo -- The Mozambican government on Tuesday approved regulations defining the functioning of executive bodies responsible for decentralized governance.",
+      "country": "MOZ",
+      "category": "REGULATION",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-21T11:04:24+00:00",
+      "lead_source": {
+        "id": "aa-moz",
+        "name": "AllAfrica · Mozambique",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610210388.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-moz",
+          "name": "AllAfrica · Mozambique",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610210388.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "7ec16dfb38",
       "title": "Another Leader of Mondlane's Party Killed",
       "summary": "[Mozambique News Reports And Clippings] Araújo Tendence, a senior member of Anamola in Mopeia, Zambézia, was shot dead Friday (9 Oct) evening at his home. Anamola (National Alliance for a Free and Autonomous Mozambique) is the political party led by Mondlane, and founded in August 2025. Since then, Mondlane says that almost 60 members have been killed, with no investigations of the murders. Anamola has also reported that Cândido António, a party official in KaTembe…",
@@ -1483,33 +1580,35 @@
       "confirmation_count": 1
     },
     {
-      "id": "ef3e09fa83",
-      "title": "Did Tommy Songo Sustain Injury Before Liberia's Defeat to Mali?",
-      "summary": "[Liberian Investigator] MONROVIA -- Questions have emerged over whether goalkeeper Tommy Songo sustained an injury after he withdrew from Liberia's starting lineup during the warm-up before Tuesday's 1-0 defeat to Mali in the 2027 Africa Cup of Nations qualifiers.",
-      "country": "MLI",
-      "category": "AUTRE",
-      "severity": 4,
+      "id": "3151be18c4",
+      "title": "Namibia Calls Leaked Memo on Ethiopian Airlines Running Its Planned Carrier Unauthorised",
+      "summary": "Our subscribers to the print edition are entitled to get a bonus in a form of early access to our digital edition.Use the bank detail...",
+      "country": "NAM",
+      "category": "SINISTRE",
+      "severity": 3,
       "credibility": 2,
       "verified": false,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-30T12:13:15+00:00",
+      "sectors": [
+        "AVIATION"
+      ],
+      "lang": "en",
+      "published": "2026-11-01T02:55:25+00:00",
       "lead_source": {
-        "id": "aa-mli",
-        "name": "AllAfrica · Mali",
+        "id": "addis-fort",
+        "name": "Addis Fortune",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202609300411.html"
+        "url": "https://addisfortune.news/namibia-calls-leaked-memo-on-ethiopian-airlines-running-its-planned-carrier-unauthorised"
       },
       "confirming_sources": [
         {
-          "id": "aa-mli",
-          "name": "AllAfrica · Mali",
+          "id": "addis-fort",
+          "name": "Addis Fortune",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202609300411.html"
+          "url": "https://addisfortune.news/namibia-calls-leaked-memo-on-ethiopian-airlines-running-its-planned-carrier-unauthorised"
         }
       ],
       "confirmation_count": 1
@@ -1517,7 +1616,7 @@
     {
       "id": "658e99d55f",
       "title": "Coup d'envoi des JOJ Dakar 2026",
-      "summary": "Coup d’envoi ce samedi des Jeux olympiques de la jeunesse (JOJ) à Dakar, au Sénégal. C'est la première fois qu'un évènement olympique se déroule sur le sol africain. À Dakar, ce rêve devient réalité pour toute une génération grâce à 200 000 billets distribués aux écoles et aux associations pour assister gratuitement aux épreuves. Awa Diouf s’est rendue dans une école de la banlieue dakaroise.",
+      "summary": "",
       "country": "SEN",
       "category": "POLITIQUE",
       "severity": 3,
@@ -1531,19 +1630,19 @@
         "POLITICAL_VIOLENCE"
       ],
       "lang": "fr",
-      "published": "2026-10-31T23:09:12+00:00",
+      "published": "2026-11-01T00:33:33+00:00",
       "lead_source": {
         "id": "f24-afr",
         "name": "France 24 Afrique",
         "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20261031-coup-d-envoi-des-joj-dakar-2026"
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261101-coup-d-envoi-des-joj-dakar-2026"
       },
       "confirming_sources": [
         {
           "id": "f24-afr",
           "name": "France 24 Afrique",
           "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20261031-coup-d-envoi-des-joj-dakar-2026"
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261101-coup-d-envoi-des-joj-dakar-2026"
         }
       ],
       "confirmation_count": 1
@@ -1915,74 +2014,6 @@
           "name": "AllAfrica · Tanzanie",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610290328.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "cb6a6bd5ee",
-      "title": "Two Bodies Recovered From Collapsed Entebbe Church Building",
-      "summary": "[Nile Post] Rescue teams have recovered two bodies from the rubble of a collapsed building under construction at Holy City Church in Bwerenga, Katabi Town Council, Wakiso District, although police have so far confirmed one death.",
-      "country": "UGA",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CONSTRUCTION"
-      ],
-      "lang": "en",
-      "published": "2026-10-27T12:13:29+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610270442.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610270442.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "01daab7d95",
-      "title": "Chapo Calls for Answers Regarding Crash of Machel's Aircraft",
-      "summary": "[AIM] Maputo -- Mozambican President Daniel Chapo has called for continued efforts to establish the circumstances surrounding the death of the country's first president, Samora Moisés Machel, who died in a plane crash in Mbuzini, South Africa, 40 years ago.",
-      "country": "MOZ",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AVIATION"
-      ],
-      "lang": "en",
-      "published": "2026-10-20T15:10:07+00:00",
-      "lead_source": {
-        "id": "aa-moz",
-        "name": "AllAfrica · Mozambique",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610200595.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-moz",
-          "name": "AllAfrica · Mozambique",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610200595.html"
         }
       ],
       "confirmation_count": 1
@@ -3191,74 +3222,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "a1d0a09b57",
-      "title": "Nigeria Needs More Capital for Clean Cooking Transition - Minister",
-      "summary": "[Leadership] The Minister of Environment, Balarabe Abbas Lawal, has called for increased investment in Nigeria's clean cooking sector, saying the country needs substantially more capital to accelerate the transition from traditional cooking fuels to cleaner energy sources.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": true,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-10-30T04:47:38+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610300082.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610300082.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "350e680a38",
-      "title": "Uganda Launches Electricity Distribution Master Plan to 2040",
-      "summary": "[Nile Post] Government of Uganda has launched the development of the National Electricity Distribution Master Plan to 2040, a strategic initiative aimed at improving electricity planning, reducing infrastructure costs and ensuring that households, businesses, schools, health facilities and industries have access to a more reliable power network.",
-      "country": "UGA",
-      "category": "INFRASTRUCTURE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-10-30T02:36:18+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610300041.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610300041.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "53212806e5",
       "title": "The SAPS continues to flounder through delayed reforms",
       "summary": "Prolonged delays in implementing the Police Advisory Board have left the South African Police Service trapped in ‘operational quicksand’, where it can’t translate oversight findings into genuine institutional reform.",
@@ -3325,14 +3288,14 @@
       "confirmation_count": 1
     },
     {
-      "id": "e749a53323",
-      "title": "Dangote Hires Spanish Firm for Ethiopia's $4 Billion Fertiliser Project",
-      "summary": "[Addis Standard] Addis Abeba -- Dangote Group, owned by Nigerian billionaire Aliko Dangote, has contracted Spanish engineering company Técnicas Reunidas to supply two hydrogen reformers for its fertiliser plant under construction in Gode, Somali region, as the project's estimated cost rises to more than $4 billion.",
-      "country": "NGA",
+      "id": "415f61d572",
+      "title": "CAF Beach Soccer Afcon Senegal 2026 - Uganda - Sand Cranes Target Strong Return At Beach Soccer Afcon",
+      "summary": "[CAF] Uganda will return to the CAF Beach Soccer Africa Cup of Nations for the first time since 2022 when they compete at the Senegal 2026 finals, with the Sand Cranes looking to build on their previous continental experience.",
+      "country": "SEN",
       "category": "REGULATION",
       "severity": 2,
-      "credibility": 2,
-      "verified": false,
+      "credibility": 4,
+      "verified": true,
       "theme": null,
       "legal_status": null,
       "regulatory": false,
@@ -3340,23 +3303,29 @@
       "sectors": [
         "CONSTRUCTION"
       ],
-      "lang": "en",
-      "published": "2026-10-29T15:34:06+00:00",
+      "lang": "fr",
+      "published": "2026-10-29T11:05:25+00:00",
       "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
+        "id": "aa-sen",
+        "name": "AllAfrica · Sénégal",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202610290549.html"
+        "url": "https://allafrica.com/stories/202610290361.html"
       },
       "confirming_sources": [
         {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
+          "id": "aa-sen",
+          "name": "AllAfrica · Sénégal",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202610290549.html"
+          "url": "https://allafrica.com/stories/202610290361.html"
+        },
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610290361.html"
         }
       ],
-      "confirmation_count": 1
+      "confirmation_count": 2
     },
     {
       "id": "65cdd5d75a",
@@ -4545,12 +4514,12 @@
       "confirmation_count": 1
     },
     {
-      "id": "2b9e54ff32",
-      "title": "Burkina Faso, Mali and Niger Launch Tafouk TV Channel to Push Their Own Narrative",
-      "summary": "[RFI] Burkina Faso, Mali and Niger are stepping up their joint media push with Tafouk TV, a new television channel aimed at challenging Western coverage and promoting the three military-led Sahel states' own account of events.",
-      "country": "MLI",
+      "id": "919d388e44",
+      "title": "Gabon: le président reçoit les dirigeants du Parti démocratique gabonais",
+      "summary": "Au Gabon, le président Brice Clotaire Oligui Nguema a reçu ce vendredi en audience les dirigeants du Parti démocratique gabonais (PDG), une rencontre qui relance la lutte pour le contrôle de ce parti fondé par Omar Bongo qui a dirigé le pays pendant 56 ans.",
+      "country": "GAB",
       "category": "AUTRE",
-      "severity": 2,
+      "severity": 1,
       "credibility": 2,
       "verified": false,
       "theme": null,
@@ -4559,19 +4528,115 @@
       "fdi": false,
       "sectors": [],
       "lang": "fr",
-      "published": "2026-09-30T04:41:56+00:00",
+      "published": "2026-11-01T02:42:39+00:00",
       "lead_source": {
-        "id": "aa-mli",
-        "name": "AllAfrica · Mali",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609300003.html"
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20261101-gabon-le-pr%C3%A9sident-re%C3%A7oit-les-dirigeants-du-parti-d%C3%A9mocratique-gabonais"
       },
       "confirming_sources": [
         {
-          "id": "aa-mli",
-          "name": "AllAfrica · Mali",
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20261101-gabon-le-pr%C3%A9sident-re%C3%A7oit-les-dirigeants-du-parti-d%C3%A9mocratique-gabonais"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4ca3a2067a",
+      "title": "JOJ Dakar 2026 : la fierté d'une Afrique qui entre dans l'histoire olympique",
+      "summary": "Pour la première fois, le continent africain accueille un événement olympique. La cérémonie d'ouverture des Jeux olympiques de la jeunesse s'est tenue samedi 31 octobre au stade Abdoulaye Wade de Diamniadio. \n \nJusqu'au 13 novembre, quelque 2 700 athlètes de 15 à 17 ans s'affrontent à Dakar, Diamniadio et Saly. À la sortie du stade, les spectateurs disent leur fierté de voir l'Afrique écrire cette page de l'histoire olympique.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-11-01T01:18:06+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20261101-joj-dakar-2026-la-fiert%C3%A9-d-une-afrique-qui-entre-dans-l-histoire-olympique"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261101-joj-dakar-2026-la-fiert%C3%A9-d-une-afrique-qui-entre-dans-l-histoire-olympique"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "568c2b675d",
+      "title": "Capitania do Funchal recomenda evitar passeios à beira-mar",
+      "summary": "O aviso, válido até às 18h00 de domingo, prevê ondas entre 1,5 e 2,5 metros na costa norte da Madeira e entre um e 1,5 metros na costa sul.",
+      "country": "MOZ",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-10-31T23:49:09+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/10/31/capitania-do-funchal-recomenda-evitar-passeios-a-beira-mar-e-pesca-ludica/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202609300003.html"
+          "url": "https://observador.pt/2026/10/31/capitania-do-funchal-recomenda-evitar-passeios-a-beira-mar-e-pesca-ludica/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e228829d6e",
+      "title": "JOJ Dakar 2026 : à la rencontre des porte-drapeaux français",
+      "summary": "🇫🇷 Deux jeunes talents, une même fierté de représenter la France !\n \nJuste avant la cérémonie d’ouverture des Jeux Olympiques de la Jeunesse, France 24 est allé à la rencontre d’Elsa Lepinay et de Raphaël de Boussac, les deux athlètes français qui ont porté haut les couleurs tricolores.\n \n🥇 Elsa pratique le Baseball Five et Raphaël l’aviron avec une même ambition : faire briller la France sur la scène internationale !",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-31T23:44:46+00:00",
+      "lead_source": {
+        "id": "f24-afr",
+        "name": "France 24 Afrique",
+        "tier": 1,
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20261031-joj-dakar-2026-%C3%A0-la-rencontre-des-porte-drapeaux-fran%C3%A7ais"
+      },
+      "confirming_sources": [
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261031-joj-dakar-2026-%C3%A0-la-rencontre-des-porte-drapeaux-fran%C3%A7ais"
         }
       ],
       "confirmation_count": 1
@@ -4869,38 +4934,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "09ece101bd",
-      "title": "JOJ Dakar 2026:  une cérémonie d'ouverture sous les acclamations de plus de 30 000 spectateurs, revivez le direct",
-      "summary": "Le Sénégal accueille ce samedi 31 octobre la 4e édition des Jeux de la jeunesse (JOJ) d’été, le tout premier événement olympique organisé sur le continent africain. Quinze jours de compétition et 2700 athlètes qui vont s’affronter à Dakar, Saly et Diamniado. C’est dans cette ville que la cérémonie d’ouverture se déroule, au stade Abdoulaye Wade. Revivez la cérémonie.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-31T17:59:06+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/sports/20261031-en-direct-jeux-olympiques-de-la-jeunesse-2026-suivez-la-c%C3%A9r%C3%A9monie-d-ouverture"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/sports/20261031-en-direct-jeux-olympiques-de-la-jeunesse-2026-suivez-la-c%C3%A9r%C3%A9monie-d-ouverture"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6e6b2b718c",
       "title": "Nkrumah, Rawlings, Akufo-Addo… Au Ghana, les filles de président, entre héritage et affaires",
       "summary": "Des postes ministériels aux missions de maintien de la paix de l’ONU, en passant par les entreprises et les fondations familiales, les filles des anciens dirigeants du Ghana tracent leur propre voie tout en composant avec les privilèges et les fardeaux que représentent des noms de famille puissants.",
@@ -4964,38 +4997,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20261031-alg%C3%A9rie-inauguration-du-deuxi%C3%A8me-plus-grand-parc-photovolta%C3%AFque-d-afrique"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "7757f56f14",
-      "title": "Dakar Youth Olympics: Who gets to hold the flame?",
-      "summary": "Senegal makes history by becoming the first African country to host an Olympic event.",
-      "country": "SEN",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-31T17:17:21+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/sports/2026/10/31/dakar-youth-olympics-who-gets-to-hold-the-flame?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/sports/2026/10/31/dakar-youth-olympics-who-gets-to-hold-the-flame?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -5779,7 +5780,7 @@
     {
       "id": "07f577962f",
       "title": "Sahara occidental: non-renouvelé au Conseil de sécurité de l'ONU, le mandat de la Minurso va prendre fin",
-      "summary": "La Mission des Nations unies pour l'organisation d'un référendum au Sahara occidental (Minurso) a été ajournée dans la stupeur à l’ONU dans la nuit du vendredi 30 au 31 octobre, enterrant ainsi sa présence vieille de 35 ans dans la région. Alors que son mandat expire ce samedi, deux résolutions successives n'ont pas trouvé les voix nécessaires pour qu'il soit renouvelé. Une négociation qui a mal tournée entre les États-Unis et le Maroc d’une part, et la Russie et le Front…",
+      "summary": "Alors que son mandat expire ce samedi, deux résolutions successives n'ont pas trouvé les voix nécessaires pour que la Mission des Nations unies pour l'organisation d'un référendum au Sahara occidental (Minurso) soit renouvelée. Une négociation qui a mal tournée entre les États-Unis et le Maroc d’une part, et la Russie et le Front Polisario de l’autre.",
       "country": "MAR",
       "category": "AUTRE",
       "severity": 1,
@@ -6032,38 +6033,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/afrique/20261031-blanchiment-d-argent-le-gafi-retire-la-c%C3%B4te-d-ivoire-et-la-rdc-de-sa-liste-grise"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "624e760fb8",
-      "title": "Côte d'Ivoire: l'héritage du photographe Paul Kodjo dans son pays d'origine",
-      "summary": "Le père de la photographie ivoirienne est exposé à Paris : après un passage à Arles cet été, les photos de Paul Kodjo arrivent au palais de Tokyo. Elles racontent la Côte d'Ivoire d'autrefois, le miracle économique et les soirées dansantes d'Abidjan, entre autres. L'exposition s'appelle « Photo-romance » et commence le 21 octobre. L'occasion de revenir sur l'héritage que Paul Kodjo a laissé dans son pays d'origine.",
-      "country": "CIV",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-30T23:25:29+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20261030-c%C3%B4te-d-ivoire-l-h%C3%A9ritage-du-photographe-paul-kodjo-dans-son-pays-d-origine"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20261030-c%C3%B4te-d-ivoire-l-h%C3%A9ritage-du-photographe-paul-kodjo-dans-son-pays-d-origine"
         }
       ],
       "confirmation_count": 1
@@ -6521,38 +6490,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610300595.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c125e9dea3",
-      "title": "Senate Seeks Border Security Camps After Killing of 80 in Taraba",
-      "summary": "[This Day] · Lawmakers demand more personnel for Taraba, Plateau, Bauchi border communities",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-30T17:37:22+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610300591.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610300591.html"
         }
       ],
       "confirmation_count": 1
@@ -8210,6 +8147,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "5a193a98a3",
+      "title": "2027 - Onaiyekan Backs Opposition's Unity Push Against Tinubu",
+      "summary": "[Vanguard] Roman Catholic Cardinal John Onaiyekan has thrown his weight behind efforts by opposition parties under the G100 Coalition to present a united front ahead of the 2027 elections, as the Coalition prepares to hold its second summit on Monday, November 9, 2026.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-30T10:35:37+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610300318.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610300318.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "260a8cb7db",
       "title": "Algérie : l'éditeur français Gallimard fait son retour au Salon du livre d'Alger",
       "summary": "Gallimard avait été exclu du Salon international du livre d’Alger en 2024, après avoir publié le livre « Houris » de l’écrivain franco-algérien Kamel Daoud.",
@@ -8429,6 +8398,38 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/afrique/20261030-sommet-russie-afrique-d%C3%A9ploiement-algerien-niger-frappe-meurtriere-darfour-hebdo-afrique"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "c9466f7b3a",
+      "title": "Samson Adamu Makes History As CAF Confirms Nigerian As General Secretary",
+      "summary": "[Premium Times] Samson Adamu has been confirmed as the substantive General Secretary of the Confederation of African Football, becoming the first Nigerian to hold the position in the organisation's 70-year history.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-30T10:12:46+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610300278.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610300278.html"
         }
       ],
       "confirmation_count": 1
@@ -8854,6 +8855,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "b57df9cf12",
+      "title": "Zadok Yohanna Returns to Brighton Training Ahead of Manchester City Clash",
+      "summary": "[Premium Times] Yohanna's return to the training ground represents an important step in his bid to get back into contention, although Hürzeler did not confirm whether the Nigerian winger would be available for selection against Enzo Maresca's side",
+      "country": "NGA",
+      "category": "INFRASTRUCTURE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-30T09:48:45+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610300227.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610300227.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8f9a088622",
+      "title": "U-17 Wwc - Busari Warns Venezuela As Flamingos Target Semi-Finals",
+      "summary": "[Premium Times] Reflecting on the contest after the final whistle, Busari acknowledged the intensity and tactical demands that come with knockout football, particularly at youth level, but insisted that Nigeria had demonstrated they were capable of competing with the best teams in the tournament",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-30T09:48:15+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610300226.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610300226.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "54eb82cacd",
       "title": "CRÉATION AFRICA: Turning SA’s music hits into successful businesses and generational wealth",
       "summary": "Ninel Musson helped build the careers of some of South Africa’s best-known musicians. Now she is turning lessons learnt behind the scenes into practical skills, so the people who make African music can also own its value.",
@@ -8881,6 +8946,38 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-10-30-turning-sas-music-hits-into-successful-businesses-and-generational-wealth/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2f881f121b",
+      "title": "Wara Fragrance Named East Africa Brand of the Year At Malaysia Summit",
+      "summary": "[Capital FM] Nairobi -- Wara Fragrance has been named East Africa Brand of the Year 2026 at an international summit held in Kuala Lumpur, Malaysia, giving the fragrance company recognition beyond its regional market.",
+      "country": "KEN",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-30T09:39:30+00:00",
+      "lead_source": {
+        "id": "aa-ken",
+        "name": "AllAfrica · Kenya",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610300214.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ken",
+          "name": "AllAfrica · Kenya",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610300214.html"
         }
       ],
       "confirmation_count": 1
@@ -10084,38 +10181,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "cf21653005",
-      "title": "Somalia's Parliament Speaker Arrives in Nairobi to Chair East African Legislative Meeting",
-      "summary": "[Shabelle] Nairobi, Kenya -- Somalia's House of the People Speaker, Abdulkadir Mohamed Nur Jama, has arrived in Nairobi with a delegation of lawmakers to attend an extraordinary meeting of speakers of parliaments from member states of the East African Community (EAC).",
-      "country": "KEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-30T05:25:21+00:00",
-      "lead_source": {
-        "id": "aa-ken",
-        "name": "AllAfrica · Kenya",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610300128.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ken",
-          "name": "AllAfrica · Kenya",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610300128.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5c952a6519",
       "title": "Masindi Restores 4,250 Hectares of Land, Secures 15 Government Land Titles",
       "summary": "[Nile Post] Masindi District restored 4,250 hectares of land, secured 15 government land titles and registered progress in wealth creation programmes during the 2025/2026 financial year, according to the district's State of the District Address.",
@@ -10399,107 +10464,6 @@
           "name": "AllAfrica · Kenya",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610300087.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "565e29da47",
-      "title": "Ex-Nigeria Airways Staff Visits Skypower to Process Severance Benefit",
-      "summary": "[This Day] The ongoing final severance payment process for the former workers of the defunct Nigeria Airways has attracted a large crowd of the ex-staff and their next-of-kin at the Skypower premises at the Murtala Muhammed Airport (MMA), Lagos.",
-      "country": "NGA",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AVIATION"
-      ],
-      "lang": "en",
-      "published": "2026-10-30T04:47:41+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610300085.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610300085.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "97c21b7215",
-      "title": "Payments Cost Airlines $24.5bn in 2025 - Report",
-      "summary": "[This Day] The International Air Transport Association (IATA) has released new data showing that airlines globally incurred $24.5 billion in payment costs to process $1.05 trillion in sales in 2025.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "MARINE_TRANSPORT",
-        "AVIATION"
-      ],
-      "lang": "en",
-      "published": "2026-10-30T04:47:40+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610300084.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610300084.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a9436fe73f",
-      "title": "Alli Assures Workers of Prompt Payment of Entitlements As Oyo Doctors, Lautech ASUU Begin Strike",
-      "summary": "[This Day] The All Progressives Congress (APC) governorship candidate in Oyo State, Senator Sharafadeen Alli, has assured all categories of workers in the state employ of prompt payment of salaries, allowances and all other entitlements, if elected in the 2027 election.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-30T04:47:39+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610300083.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610300083.html"
         }
       ],
       "confirmation_count": 1
@@ -11255,38 +11219,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "342f864a5b",
-      "title": "Tunisie : des familles sans nouvelles de leurs jeunes envoyés au front avec la Russie",
-      "summary": "Plusieurs pays africains sont concernés par l'enrôlement militaire dans l'armée russe pour combattre sur le front ukrainien. Ils sont entre 1400 et 3 000 hommes sur le terrain et viennent du Kenya, d'Afrique du Sud, du Ghana, du Cameroun ou de la Tunisie. Les familles commencent à faire entendre leurs voix.",
-      "country": "TUN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-29T11:54:08+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-tunisie-des-familles-sans-nouvelles-de-leurs-jeunes-envoy%C3%A9s-au-front-avec-la-russie"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-tunisie-des-familles-sans-nouvelles-de-leurs-jeunes-envoy%C3%A9s-au-front-avec-la-russie"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "79524f86fc",
       "title": "Make Cylinders of 1kg, 2kg If Gas Is to Replace Charcoal",
       "summary": "[Independent (Kampala)] On a trip to northern Uganda some years ago, I asked the transport team to provide a sports utility vehicle (SUV). I prefer SUVs for long journeys, as they are more comfortable and can handle the terrain. We were to spend a week traversing the breadth of northern Uganda.",
@@ -11387,40 +11319,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "415f61d572",
-      "title": "CAF Beach Soccer Afcon Senegal 2026 - Uganda - Sand Cranes Target Strong Return At Beach Soccer Afcon",
-      "summary": "[CAF] Uganda will return to the CAF Beach Soccer Africa Cup of Nations for the first time since 2022 when they compete at the Senegal 2026 finals, with the Sand Cranes looking to build on their previous continental experience.",
-      "country": "SEN",
-      "category": "REGULATION",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CONSTRUCTION"
-      ],
-      "lang": "fr",
-      "published": "2026-10-29T11:05:25+00:00",
-      "lead_source": {
-        "id": "aa-sen",
-        "name": "AllAfrica · Sénégal",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610290361.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-sen",
-          "name": "AllAfrica · Sénégal",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610290361.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "df4cc87926",
       "title": "African Energy Chamber Honours Slb's Omorodion in South Africa",
       "summary": "[This Day] Abuja -- The African Energy Chamber (AEC), has honoured the Country Director of Schlumberger Nigeria Limited (SLB), Dr Nosa Omorodion, for his more than three-decade contributions to Nigeria and Africa's energy industry.",
@@ -11482,38 +11380,6 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/russia-offers-to-mediate-ethiopia-eritrea-tensions-5650584"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "0db3a04533",
-      "title": "Sommet Russie-Afrique : Moscou affiche ses ambitions économiques",
-      "summary": "Le troisième sommet Russie-Afrique se termine ce jeudi 29 octobre. Une manière pour Moscou d'intensifier ses efforts pour le renforcement de ses liens avec le continent. Vingt-deux chefs d'État africains ont fait le déplacement et 44 pays sont représentés. Le Kremlin cherche à accroître son influence diplomatique, économique et militaire, déjà déployé notamment au Mali, au Burkina Faso et au Niger.",
-      "country": "BFA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-29T10:36:08+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-sommet-russie-afrique-moscou-affiche-ses-ambitions-%C3%A9conomiques"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-sommet-russie-afrique-moscou-affiche-ses-ambitions-%C3%A9conomiques"
         }
       ],
       "confirmation_count": 1
@@ -11934,6 +11800,70 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610290312.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "675881ba69",
+      "title": "Police Intercept Suspected Robbers in Mityana, Recover Two Guns",
+      "summary": "[Nile Post] Police in Mityana District have arrested one suspected armed robber and recovered two guns and three pangas following a confrontation with four men suspected of raiding homes and robbing residents of cash and mobile phones.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-29T10:07:09+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610290300.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610290300.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "988200c9a3",
+      "title": "I Have Never Seen a Pregnant Female Minister, MP Says As He Questions Empty Front Bench",
+      "summary": "[Nile Post] Kibanda North County MP Linos Ngompek has questioned the continued absence of ministers from Parliament, citing empty front-bench seats and demanding to know whether the House is operating as it should.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-10-29T10:06:47+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610290299.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610290299.html"
         }
       ],
       "confirmation_count": 1
@@ -12520,38 +12450,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610290113.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4d8d167b2e",
-      "title": "Janet Museveni Warns of Rising Teenage Pregnancy, Sexual Activity Among Youth",
-      "summary": "[Nile Post] First Lady Janet Kataaha Museveni has raised concern over teenage pregnancy, early marriages, sexually transmitted infections and substance abuse among young people, calling for stronger family guidance and life-skills education.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-29T05:07:17+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610290111.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610290111.html"
         }
       ],
       "confirmation_count": 1
@@ -13272,38 +13170,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "afe1447810",
-      "title": "Storm over October 29 violence anniversary in Tanzania",
-      "summary": "There has been growing pressure to have a national day of remembrance.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-28T03:45:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/storm-over-october-29-violence-anniversary-in-tanzania-5648332"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/storm-over-october-29-violence-anniversary-in-tanzania-5648332"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "43e0fa9996",
       "title": "There is another Afrikaner story worth telling, rooted in reconciliation and a shared future",
       "summary": "While much of the international discussion about Afrikaners focuses on fear and persecution, there are people whose lives tell a different story about our place in South Africa.",
@@ -13399,38 +13265,6 @@
           "name": "BBC Africa",
           "tier": 1,
           "url": "https://www.bbc.co.uk/news/articles/c693z948px0jo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c53e6d5e7e",
-      "title": "Kenya protests Nigeria’s visa restrictions, warns of reciprocal action",
-      "summary": "This threatens to strain relations between two of Africa’s largest economies.",
-      "country": "KEN",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-27T13:00:00+00:00",
-      "lead_source": {
-        "id": "east-afr",
-        "name": "The East African",
-        "tier": 2,
-        "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kenya-protests-nigeria-s-visa-restrictions-5647594"
-      },
-      "confirming_sources": [
-        {
-          "id": "east-afr",
-          "name": "The East African",
-          "tier": 2,
-          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kenya-protests-nigeria-s-visa-restrictions-5647594"
         }
       ],
       "confirmation_count": 1
@@ -14974,102 +14808,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "8fc6d70bd3",
-      "title": "Railway Corp Wins on Size, Loses on Cost in Turkish Arbitration",
-      "summary": "After years of legal wrangling, the Ethiopian Railways Corporation (ERC) has been ordered to pay a Turkish contractor, Yapi Merkezi, hundreds of millions of dollars,...",
-      "country": "ETH",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-18T02:56:37+00:00",
-      "lead_source": {
-        "id": "addis-fort",
-        "name": "Addis Fortune",
-        "tier": 2,
-        "url": "https://addisfortune.news/railway-corp-wins-on-size-loses-on-cost-in-turkish-arbitration"
-      },
-      "confirming_sources": [
-        {
-          "id": "addis-fort",
-          "name": "Addis Fortune",
-          "tier": 2,
-          "url": "https://addisfortune.news/railway-corp-wins-on-size-loses-on-cost-in-turkish-arbitration"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "76f96f6777",
-      "title": "Last of Six to Close, Ethiopia Sets December for Bond Swap",
-      "summary": "Ethiopia expects to complete the exchange of its defaulted one-billion-dollar Eurobond by year-end, even as a global debt report names it the only country among...",
-      "country": "ETH",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-18T02:54:59+00:00",
-      "lead_source": {
-        "id": "addis-fort",
-        "name": "Addis Fortune",
-        "tier": 2,
-        "url": "https://addisfortune.news/last-of-six-to-close-ethiopia-sets-december-for-bond-swap"
-      },
-      "confirming_sources": [
-        {
-          "id": "addis-fort",
-          "name": "Addis Fortune",
-          "tier": 2,
-          "url": "https://addisfortune.news/last-of-six-to-close-ethiopia-sets-december-for-bond-swap"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4de179e963",
-      "title": "IMF Counts a Risk Governor Eyob Tekalign Calls Over",
-      "summary": "BANGKOK – THAILAND The International Monetary Fund (IMF) has warned that rising security tensions in Ethiopia pose an alarming risk to the economy and the...",
-      "country": "ETH",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-10-18T02:53:29+00:00",
-      "lead_source": {
-        "id": "addis-fort",
-        "name": "Addis Fortune",
-        "tier": 2,
-        "url": "https://addisfortune.news/imf-counts-a-risk-governor-eyob-tekalign-calls-over"
-      },
-      "confirming_sources": [
-        {
-          "id": "addis-fort",
-          "name": "Addis Fortune",
-          "tier": 2,
-          "url": "https://addisfortune.news/imf-counts-a-risk-governor-eyob-tekalign-calls-over"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "724479aa21",
       "title": "Kwara - NSCDC Arrests Man Over Minor's Trafficking to Mali",
       "summary": "[Daily Trust] The Nigeria Security and Civil Defence Corps (NSCDC) has arrested a 22-year-old man for allegedly trafficking a 17-year-old girl from Kwara State to Mali after promising to secure her employment in Senegal.",
@@ -16509,6 +16247,40 @@
       "confirmation_count": 1
     },
     {
+      "id": "3db9e5a513",
+      "title": "Angola Reaffirms Commitment to Atlantic Platform",
+      "summary": "[ANGOP] Luanda -- Minister of Transport Ricardo Viegas D'Abreu reaffirmed in Lusaka, Zambia, on Monday Angola's commitment to maintaining a reliable and open Atlantic platform for all cargo, not just mineral commodities.",
+      "country": "AGO",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "en",
+      "published": "2026-10-06T10:48:10+00:00",
+      "lead_source": {
+        "id": "aa-ago",
+        "name": "AllAfrica · Angola",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610060222.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-ago",
+          "name": "AllAfrica · Angola",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610060222.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "3bfb4631f8",
       "title": "Portugal Reaffirms Confidence in Economic Ties With Angola",
       "summary": "[ANGOP] Luanda -- Portugal's Ambassador to Angola, Nuno Vaultier Mathias, highlighted in Luanda on Monday the intensity and breadth of relations between the two countries, with particular emphasis on economic cooperation.",
@@ -16541,11 +16313,11 @@
       "confirmation_count": 1
     },
     {
-      "id": "3cebe54246",
-      "title": "Angola Lays Groundwork to Strengthen National Cybersecurity Infrastructure",
-      "summary": "[ANGOP] Luanda -- Angola is keeping pace with global digital transformation while progressively building the framework necessary to strengthen its national cybersecurity capabilities, Telecommunications, Information Technologies, and Media Minister Mario Oliveira said Monday.",
+      "id": "46679813e9",
+      "title": "Spanish Ambassador Highlights Strengthening of Relations With Angola",
+      "summary": "[ANGOP] Luanda -- Outgoing Spanish Ambassador to Angola Manuel Maria Lobo said in Luanda on Monday that cooperation and friendship between Angola and Spain were going through a period of close rapprochement.",
       "country": "AGO",
-      "category": "CYBER",
+      "category": "AUTRE",
       "severity": 1,
       "credibility": 2,
       "verified": false,
@@ -16553,57 +16325,21 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "sectors": [
-        "CYBER"
-      ],
+      "sectors": [],
       "lang": "en",
-      "published": "2026-10-06T03:38:19+00:00",
+      "published": "2026-10-06T10:46:58+00:00",
       "lead_source": {
         "id": "aa-ago",
         "name": "AllAfrica · Angola",
         "tier": 2,
-        "url": "https://allafrica.com/stories/202610060027.html"
+        "url": "https://allafrica.com/stories/202610060220.html"
       },
       "confirming_sources": [
         {
           "id": "aa-ago",
           "name": "AllAfrica · Angola",
           "tier": 2,
-          "url": "https://allafrica.com/stories/202610060027.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a8a6fe3853",
-      "title": "Angola Participates in Lobito Corridor Coordination Meeting in Zambia",
-      "summary": "[ANGOP] Luanda -- Minister of Transport Ricardo D'Abreu is participating from 5 to 6 October in Lusaka, Zambia, in the Second Lobito Corridor Coordination Meeting, aimed at defining actions for economic integration and regional trade.",
-      "country": "AGO",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "MARINE_TRANSPORT"
-      ],
-      "lang": "en",
-      "published": "2026-10-05T13:04:34+00:00",
-      "lead_source": {
-        "id": "aa-ago",
-        "name": "AllAfrica · Angola",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610050380.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-ago",
-          "name": "AllAfrica · Angola",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610050380.html"
+          "url": "https://allafrica.com/stories/202610060220.html"
         }
       ],
       "confirmation_count": 1
@@ -16836,70 +16572,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610010003.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "952c40cbdd",
-      "title": "Mali Army and Russian Fighters Accused of Killing Dozens of Civilians",
-      "summary": "[RFI] Mali's armed forces and Russian Wagner Group personnel committed war crimes including killings and torture of civilians during joint operations between 2023 and 2025, Amnesty International has said in a new report documenting abuses across several regions of the country.",
-      "country": "MLI",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-09-30T07:44:52+00:00",
-      "lead_source": {
-        "id": "aa-mli",
-        "name": "AllAfrica · Mali",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609300127.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-mli",
-          "name": "AllAfrica · Mali",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609300127.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "9a3caa5c76",
-      "title": "King Appoints First Woman Prime Minister",
-      "summary": "[DW] The appointment of Fatima Zahra Mansouri comes after her center-right party won last week's parliamentary elections in Morocco. She had previously served as mayor of the city of Marrakesh.",
-      "country": "MAR",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-09-30T05:58:11+00:00",
-      "lead_source": {
-        "id": "aa-mar",
-        "name": "AllAfrica · Maroc",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202609300095.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-mar",
-          "name": "AllAfrica · Maroc",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202609300095.html"
         }
       ],
       "confirmation_count": 1
