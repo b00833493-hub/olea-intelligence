@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-08T10:16:37.332279+00:00",
+  "generated_at": "2026-11-08T17:01:57.225186+00:00",
   "stats": {
-    "total_signals": 500,
+    "total_signals": 501,
     "verified_signals": 10,
     "countries_covered": 30,
     "sources_active": 32,
     "per_country": {
-      "COD": 14,
-      "ZAF": 68,
-      "MOZ": 41,
+      "SEN": 56,
+      "COD": 13,
+      "ZAF": 72,
+      "MOZ": 42,
       "GIN": 8,
-      "SEN": 54,
-      "KEN": 52,
-      "NGA": 46,
-      "TZA": 41,
       "UGA": 34,
+      "KEN": 52,
+      "NGA": 45,
+      "TZA": 41,
       "ETH": 15,
       "CIV": 16,
       "MLI": 20,
-      "AGO": 21,
+      "AGO": 20,
       "BFA": 6,
-      "NAM": 4,
-      "BWA": 1,
-      "TUN": 1,
+      "BWA": 2,
+      "NAM": 2,
+      "CAF": 1,
       "RWA": 4,
-      "MAR": 40,
+      "MAR": 38,
+      "TCD": 1,
+      "LBR": 1,
       "NER": 1,
       "MDG": 1,
-      "GHA": 1,
       "TGO": 1,
       "DZA": 3,
       "ZMB": 2,
       "GAB": 1,
       "CMR": 1,
       "BDI": 1,
-      "BEN": 1,
       "GNQ": 1
     }
   },
@@ -234,6 +234,112 @@
   ],
   "signals": [
     {
+      "id": "542a664b3f",
+      "title": "Sénégal: le naufrage d’une pirogue de migrants a fait au moins 21 morts",
+      "summary": "Au Sénégal, les recherches se poursuivent pour retrouver d’éventuels survivants après le naufrage d’une pirogue de migrants, au large de Kébémer, sur la côte nord-ouest du pays. Une vingtaine de personnes sont mortes, selon les autorités. Il s'agit d'un nouveau drame sur la route atlantique empruntée par des milliers de jeunes qui tentent de rejoindre l’Europe.",
+      "country": "SEN",
+      "category": "SINISTRE",
+      "severity": 4,
+      "credibility": 4,
+      "verified": true,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "fr",
+      "published": "2026-11-08T13:43:15+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20261108-s%C3%A9n%C3%A9gal-le-naufrage-d-une-pirogue-de-migrants-a-fait-au-moins-21-morts"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20261108-s%C3%A9n%C3%A9gal-le-naufrage-d-une-pirogue-de-migrants-a-fait-au-moins-21-morts"
+        },
+        {
+          "id": "f24-afr",
+          "name": "France 24 Afrique",
+          "tier": 1,
+          "url": "https://www.france24.com/fr/afrique/20261108-au-large-du-s%C3%A9n%C3%A9gal-au-moins-21-personnes-sont-mortes-dans-le-naufrage-d-une-pirogue-de-migrants"
+        }
+      ],
+      "confirmation_count": 2
+    },
+    {
+      "id": "f17ee192df",
+      "title": "At least 21 dead as small boat sinks off Senegal",
+      "summary": "Senegalese Interior Ministry says one person rescued as search operation continues after migrant vessel capsized.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "MARINE_TRANSPORT"
+      ],
+      "lang": "en",
+      "published": "2026-11-08T13:32:17+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "e3df70fce3",
+      "title": "21 mortos em naufrágio de migrantes no Senegal",
+      "summary": "O naufrágio ocorreu numa rota usada por migrantes para chegar às Canárias. Ministro espanhol do Interior esteve em Dacar a pedir reforço da cooperação.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 4,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-11-08T13:16:54+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/2026/11/08/pelo-menos-21-mortos-em-naufragio-de-embarcacao-com-migrantes-ao-largo-do-senegal/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/2026/11/08/pelo-menos-21-mortos-em-naufragio-de-embarcacao-com-migrantes-ao-largo-do-senegal/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "069ce01961",
       "title": "RDC: l’interdiction des baleinières en bois très redoutée dans la région de Kisangani",
       "summary": "En République démocratique du Congo, la province de la Tshopo demande un moratoire sur l’interdiction des baleinières en bois. Une mesure pour interdire la circulation des embarcations en bois entre en vigueur le 15 novembre 2026 pour lutter contre les naufrages, qui font très régulièrement de nombreuses victimes. Dans une lettre adressée à Félix Tshisekedi, le président de l’Assemblée provinciale, Mateus Kanga Londimo, plaide pour une transition d’au moins un an…",
@@ -428,11 +534,11 @@
       "confirmation_count": 1
     },
     {
-      "id": "1c7dd447cc",
-      "title": "RDC: nouvelle attaque meurtrière dans la province du Nord-Kivu attribuée aux ADF",
-      "summary": "Dans l’est de la RDC, un nouveau massacre a été attribué aux Forces démocratiques alliées (ADF), un groupe armé affilié à l’État islamique. Au moins 37 civils ont été tués, selon l'armée congolaise (FARDC Nord-Kivu). L’attaque a eu lieu jeudi 5 novembre au soir à une soixantaine de kilomètres à l’ouest de Beni, dans la province du Nord-Kivu.",
-      "country": "COD",
-      "category": "POLITIQUE",
+      "id": "303dfd79bf",
+      "title": "Activists Warn of Declining Public Trust in Justice System As Victims Abandon Cases",
+      "summary": "[Nile Post] Human rights activists have warned that delays, neglect and poor handling of complaints by public institutions are eroding confidence in Uganda's justice system, with some victims abandoning their pursuit of redress.",
+      "country": "UGA",
+      "category": "AUTRE",
       "severity": 4,
       "credibility": 2,
       "verified": false,
@@ -440,23 +546,21 @@
       "legal_status": null,
       "regulatory": false,
       "fdi": false,
-      "sectors": [
-        "POLITICAL_VIOLENCE"
-      ],
-      "lang": "fr",
-      "published": "2026-11-07T06:20:04+00:00",
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-06T17:07:58+00:00",
       "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20261107-rdc-nouvelle-attaque-meurtri%C3%A8re-dans-la-province-du-nord-kivu-attribu%C3%A9e-aux-adf"
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060607.html"
       },
       "confirming_sources": [
         {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20261107-rdc-nouvelle-attaque-meurtri%C3%A8re-dans-la-province-du-nord-kivu-attribu%C3%A9e-aux-adf"
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060607.html"
         }
       ],
       "confirmation_count": 1
@@ -1607,38 +1711,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "dc3e5b9380",
-      "title": "Experts gather in Namibia for nuclear test verification exercise",
-      "summary": "The Comprehensive Nuclear-Test-Ban Treaty (CTBT) prohibits all nuclear weapons test explosions. Although it is yet to enter into force, a global norm against nuclear testing is emerging",
-      "country": "NAM",
-      "category": "SINISTRE",
-      "severity": 3,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-05T16:10:32+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/11/05/experts-gather-in-namibia-for-nuclear-test-verification-exercise/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/11/05/experts-gather-in-namibia-for-nuclear-test-verification-exercise/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "f63b5596b8",
       "title": "Air Botswana Reports Suspected Ransomware Attack On Internal Systems",
       "summary": "Air Botswana has disclosed a cybersecurity incident involving a suspected ransomware attack that gave unauthorised parties access to some of...\nSource",
@@ -1906,11 +1978,43 @@
       "confirmation_count": 1
     },
     {
-      "id": "9766c4b344",
-      "title": "Mozambique: Chigamane golf course project breaks ground as Inhambane targets global golf tourism market",
+      "id": "2f72f37827",
+      "title": "Centrafrique: le gouvernement déclare illégale la manifestation prévue le 13 novembre",
+      "summary": "En Centrafrique, le gouvernement s’oppose à la marche annoncée par le Bloc républicain pour la défense de la Constitution (BRDC), prévue le 13 novembre prochain, contre la hausse des prix des carburants.",
+      "country": "CAF",
+      "category": "POLITIQUE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-11-08T13:07:51+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20261108-centrafrique-le-gouvernement-d%C3%A9clare-ill%C3%A9gale-la-manifestation-pr%C3%A9vue-le-13-novembre"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20261108-centrafrique-le-gouvernement-d%C3%A9clare-ill%C3%A9gale-la-manifestation-pr%C3%A9vue-le-13-novembre"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "2bd5903585",
+      "title": "Mozambique: Chigamane golf project breaks ground as Inhambane swings onto the global golf tourism stage",
       "summary": "The Mozambican Government has announced plans to transform Chigamane, in Vilankulo district, into a new golf tourism destination through a project whose construction began on Saturday and which aims to strengthen the tourism offer, attract visitors and create local jobs. The initiative was announced by the Presidency following a ceremony in Chigamane, a locality in…\nSource",
       "country": "MOZ",
-      "category": "ECONOMIE",
+      "category": "INFRASTRUCTURE",
       "severity": 2,
       "credibility": 2,
       "verified": false,
@@ -1927,14 +2031,14 @@
         "id": "club-moz",
         "name": "Club of Mozambique",
         "tier": 2,
-        "url": "https://clubofmozambique.com/news/mozambique-chigamane-golf-course-project-breaks-ground-as-inhambane-targets-global-golf-tourism-market/"
+        "url": "https://clubofmozambique.com/news/mozambique-chigamane-golf-project-breaks-ground-as-inhambane-swings-onto-the-global-golf-tourism-stage/"
       },
       "confirming_sources": [
         {
           "id": "club-moz",
           "name": "Club of Mozambique",
           "tier": 2,
-          "url": "https://clubofmozambique.com/news/mozambique-chigamane-golf-course-project-breaks-ground-as-inhambane-targets-global-golf-tourism-market/"
+          "url": "https://clubofmozambique.com/news/mozambique-chigamane-golf-project-breaks-ground-as-inhambane-swings-onto-the-global-golf-tourism-stage/"
         }
       ],
       "confirmation_count": 1
@@ -2102,38 +2206,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "023620b068",
-      "title": "Tunisie: la consommation des drogues augmente et se banalise",
-      "summary": "En Tunisie, les saisies de drogues en tout genre font la Une quotidienne des médias, notamment avec une hausse des saisies de cocaïne. Au total, 101 kilos saisis au cours des neuf premiers mois de 2026 contre 94 kilos en 2025 et 33 kilos en 2024, selon les chiffres de la douane tunisienne. Cette hausse est due en partie à la recrudescence du trafic avec la frontière libyenne selon les autorités. Sur le plan local, ce trafic se traduit aussi par une disponibilité de…",
-      "country": "TUN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-11-07T07:08:58+00:00",
-      "lead_source": {
-        "id": "rfi-afr",
-        "name": "RFI Afrique",
-        "tier": 1,
-        "url": "https://www.rfi.fr/fr/afrique/20261107-tunisie-la-consommation-des-drogues-augmente-et-se-banalise"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-afr",
-          "name": "RFI Afrique",
-          "tier": 1,
-          "url": "https://www.rfi.fr/fr/afrique/20261107-tunisie-la-consommation-des-drogues-augmente-et-se-banalise"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "6545c900b2",
       "title": "Police Warn Parents Against Online Radicalisation, Drug Abuse Among Children",
       "summary": "[Nile Post] Uganda Police have urged parents, guardians and community leaders to strengthen supervision of children during the school holidays, warning that increased exposure to the internet, peer pressure and limited parental guidance could expose them to drug abuse, radicalisation and criminal activities.",
@@ -2161,6 +2233,72 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202611060614.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "98e91a849c",
+      "title": "Alupo Warns Climate Change Threatens Uganda's Economic Growth",
+      "summary": "[Nile Post] Vice President Jessica Alupo has warned that worsening climate change could undermine Uganda's economic growth and development ambitions, as prolonged droughts, devastating floods and unpredictable rainfall increasingly threaten agriculture, natural resources and vulnerable communities.",
+      "country": "UGA",
+      "category": "CLIMAT",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "en",
+      "published": "2026-11-06T17:08:00+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060612.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060612.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "473d3bfe0a",
+      "title": "Gender Ministry Engages Media On GBV Prevention, Launches Multimedia Strategy in Jinja",
+      "summary": "[Nile Post] The Ministry of Gender, Labour and Social Development has engaged media practitioners in Jinja on their role in preventing gender-based violence (GBV), as government seeks to strengthen public awareness and improve support for survivors.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-06T17:07:59+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060609.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060609.html"
         }
       ],
       "confirmation_count": 1
@@ -2334,38 +2472,6 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202611060299.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "b995716594",
-      "title": "In Uganda, Institutions May Be Regaining Trust That Had Weakened Over the Previous Decade",
-      "summary": "[Afrobarometer] Elected officials, security forces among those recording increases in public trust.",
-      "country": "UGA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-06T12:26:30+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611060290.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611060290.html"
         }
       ],
       "confirmation_count": 1
@@ -2821,70 +2927,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "35d22cc0d1",
-      "title": "Bunge Demands Higher Returns From Public Institutions, SOEs",
-      "summary": "[Daily News] Dodoma -- The National Assembly has called for sweeping reforms in public institutions and State-Owned Enterprises (SOEs), citing concerns over their financial performance, accountability and the returns generated from government investments.",
-      "country": "TZA",
-      "category": "REGULATION",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-06T04:07:40+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611060061.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611060061.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bcc23a5518",
-      "title": "Kilindo Answers VP's Call, Backs UDSM Outsiders",
-      "summary": "[Daily News] Dodoma -- UDSM Outsiders have become the first basketball team to announce sponsorship ahead of the 2026 National Basketball League (NBL), securing support from Kilindo Property following a call by Vice-President Deogratius John Ndejembi for greater private-sector involvement in the sport.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-06T04:07:39+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611060059.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611060059.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "aa11f41665",
       "title": "Mukono Diocese Announces Major Clergy Transfers, Appoints Three New Canons",
       "summary": "[Nile Post] The Bishop of Mukono Diocese, the Rev Enos Kitto Kagodo, has announced major clergy transfers and new appointments affecting archdeaconries, parishes, schools and other diocesan institutions, with the changes scheduled to take effect in January 2027.",
@@ -3251,44 +3293,6 @@
       "confirmation_count": 2
     },
     {
-      "id": "06c7664d1f",
-      "title": "More Haste, Less Speed - the Search for New SAPS Leadership",
-      "summary": "[Daily Maverick] Promoting top SAPS leaders before the Madlanga Commission concludes its work is premature. South Africa needs an independent, well-resourced Chapter 9 body to fight corruption, not executive shortcuts.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 4,
-      "verified": true,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-05T10:50:56+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611050286.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611050286.html"
-        },
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/opinionista/2026-11-05-more-haste-less-speed-the-search-for-new-saps-leadership/"
-        }
-      ],
-      "confirmation_count": 2
-    },
-    {
       "id": "26c794c0e7",
       "title": "Tanzania, Unido Launch Five-Year Industrial Growth Programme",
       "summary": "[Daily News] Dodoma -- THE government and the United Nations Industrial Development Organisation (UNIDO) have launched a five-year programme aimed at accelerating inclusive and sustainable industrial development in the country.",
@@ -3482,6 +3486,38 @@
           "name": "The East African",
           "tier": 2,
           "url": "https://www.theeastafrican.co.ke/tea/business-tech/how-agoa-ban-could-hurt-rwanda-and-south-africa-5658000"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "f5436b9cc6",
+      "title": "Mining Sector Accelerates Growth Through Reforms, Investment",
+      "summary": "[Daily News] Arusha -- THE Ministry of Minerals has collected 411bn/- in the first quarter of the 2026/27 financial year, exceeding its revenue target by 17 per cent and reflecting progress in implementing the government's mining sector development agenda during the first year of President Samia Suluhu Hassan's second term.",
+      "country": "TZA",
+      "category": "ECONOMIE",
+      "severity": 2,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-04T09:51:12+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611040238.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611040238.html"
         }
       ],
       "confirmation_count": 1
@@ -4061,38 +4097,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "17b62e8d17",
-      "title": "Macky Sall Officially Withdraws His Candidacy for UN Secretary-General Position",
-      "summary": "[allAfrica] Former Senegalese President Macky Sall announced on Saturday, October 17, 2026, his withdrawal of his candidacy for the post of Secretary-General of the United Nations.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 2,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-10-19T13:22:21+00:00",
-      "lead_source": {
-        "id": "aa-sen",
-        "name": "AllAfrica · Sénégal",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202610190453.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-sen",
-          "name": "AllAfrica · Sénégal",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202610190453.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "3eece70653",
       "title": "BRVM Holds Flat As Bridge Bank Extends Post-Listing Rally",
       "summary": "[Daba Finance] The BRVM ended the week to October 9 little changed, with gains in a few stocks offset by declines across most of the market. The Composite index edged up 0.01% to 546.86 points, while the BRVM 30 was unchanged at 264.57 points. The BRVM Prestige rose 0.12% to 203.08 points, while the BRVM Principal fell 1.10% to 379.13 points. Equity market capitalization increased 0.01% to XOF 21.445 trillion.",
@@ -4195,6 +4199,360 @@
       "confirmation_count": 1
     },
     {
+      "id": "87f23143f8",
+      "title": "WORD OF MOUTH: South Africans tuck into traditional food culture to challenge ultra-processed diets",
+      "summary": "As ultra-processed diets  reshape food systems, communities across South Africa are protecting indigenous crops, growing fresh produce and restoring the culture of shared meals.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "AGRICULTURE"
+      ],
+      "lang": "en",
+      "published": "2026-11-08T15:42:35+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-11-08-south-africans-tuck-into-traditional-food-culture-to-challenge-ultra-processed-diets/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-11-08-south-africans-tuck-into-traditional-food-culture-to-challenge-ultra-processed-diets/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "8c6993e052",
+      "title": "Présidentielle 2027 au Nigeria : Bola Tinubu sera-t-il battu par son propre camp ?",
+      "summary": "Alors que l’opposition est divisée, les principaux casse-têtes politiques du président Bola Tinubu pourraient venir de son propre camp : les ambitions rivales et les querelles entre figures influentes de l’APC menacent de compliquer sa réélection.",
+      "country": "NGA",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-11-08T15:00:00+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1859412/politique/presidentielle-2027-au-nigeria-bola-tinubu-sera-t-il-battu-par-son-propre-camp/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1859412/politique/presidentielle-2027-au-nigeria-bola-tinubu-sera-t-il-battu-par-son-propre-camp/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a33e94f2c0",
+      "title": "ENVIRONMENTAL CHAMPION: Farewell to Desmond D’Sa, the ‘bulldozer’ who brought hope to polluted communities",
+      "summary": "Desmond D’Sa was one of seven South African winners of the Goldman Environmental Prize, a global award to inspire grassroots activists to take action to protect the planet. Hundreds of fellow activists and colleagues paid tribute to his life and legacy at a series of memorial services in Durban last week.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-08T14:18:39+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-11-08-farewell-to-desmond-dsa-the-bulldozer-who-brought-hope-to-polluted-communities/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-11-08-farewell-to-desmond-dsa-the-bulldozer-who-brought-hope-to-polluted-communities/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "3421e353dd",
+      "title": "ANC leads South Africa's local polls but records all-time election low: final results",
+      "summary": "The African National Congress came in first place in South Africa's local elections but suffered its worst-ever electoral setback, according to final results on Saturday.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-08T14:07:48+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/11/08/anc-leads-south-africas-local-polls-but-records-all-time-election-low-final-results/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/11/08/anc-leads-south-africas-local-polls-but-records-all-time-election-low-final-results/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "594e21a1af",
+      "title": "Lagos Street Art Festival brings art out of the gallery to engage with wider public",
+      "summary": "Artists in Lagos used brushes and spray cans to bring their works to life on Saturday at the second edition of the city’s Street Art Festival. The event is aimed at making art more accessible by taking out of the galleries and into public spaces - engaging with a wider audience.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-08T13:28:31+00:00",
+      "lead_source": {
+        "id": "afnews-en",
+        "name": "Africanews",
+        "tier": 2,
+        "url": "http://www.africanews.com/2026/11/08/lagos-street-art-festival-brings-art-out-of-the-gallery-to-engage-with-wider-public/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-en",
+          "name": "Africanews",
+          "tier": 2,
+          "url": "http://www.africanews.com/2026/11/08/lagos-street-art-festival-brings-art-out-of-the-gallery-to-engage-with-wider-public/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1c40c267c5",
+      "title": "Nigéria : des oeuvres prennent vie en direct lors du Lagos Street Art Festival",
+      "summary": "La deuxième édition du Lagos Street Art festival s’inscrit dans la continuité des efforts visant à faire de l’art public une plateforme favorisant l’engagement communautaire, la narration urbaine et les opportunités créatives à dans la capitale économique nigériane.",
+      "country": "NGA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-11-08T13:16:41+00:00",
+      "lead_source": {
+        "id": "afnews-fr",
+        "name": "Africanews FR",
+        "tier": 2,
+        "url": "http://fr.africanews.com/2026/11/08/nigeria-des-oeuvres-prennent-vie-en-direct-lors-du-lagos-street-art-festival/"
+      },
+      "confirming_sources": [
+        {
+          "id": "afnews-fr",
+          "name": "Africanews FR",
+          "tier": 2,
+          "url": "http://fr.africanews.com/2026/11/08/nigeria-des-oeuvres-prennent-vie-en-direct-lors-du-lagos-street-art-festival/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4ebf7ffbea",
+      "title": "Finlândia disponibiliza um milhão de euros para apoiar vítimas em Cabo Delgado",
+      "summary": "O Governo da Finlândia disponibilizou cerca de um milhão de euros para a aquisição de arroz e óleo de soja produzidos na Ucrânia, destinados a apoiar mais de 330 mil pessoas afetadas pela violência armada na província de Cabo Delgado, norte de Moçambique.",
+      "country": "MOZ",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-11-08T12:39:21+00:00",
+      "lead_source": {
+        "id": "rfi-pt",
+        "name": "RFI Português",
+        "tier": 1,
+        "url": "https://www.rfi.fr/pt/%C3%A1frica-lus%C3%B3fona/20261108-finl%C3%A2ndia-disponibiliza-um-milh%C3%A3o-de-euros-para-apoiar-v%C3%ADtimas-em-cabo-delgado"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-pt",
+          "name": "RFI Português",
+          "tier": 1,
+          "url": "https://www.rfi.fr/pt/%C3%A1frica-lus%C3%B3fona/20261108-finl%C3%A2ndia-disponibiliza-um-milh%C3%A3o-de-euros-para-apoiar-v%C3%ADtimas-em-cabo-delgado"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "a801fbdc1b",
+      "title": "Généraux, diplomates, politiques : au Tchad, les soldats du maréchal Déby Itno",
+      "summary": "Face aux crises qui secouent son environnement régional et aux fragilités de son pouvoir, Mahamat Idriss Déby Itno s’appuie sur un cercle de fidèles. Membres de sa famille, généraux, diplomates… Qui forme la garde rapprochée du président tchadien ?",
+      "country": "TCD",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-11-08T12:25:00+00:00",
+      "lead_source": {
+        "id": "ja",
+        "name": "Jeune Afrique",
+        "tier": 2,
+        "url": "https://www.jeuneafrique.com/1859548/politique/generaux-diplomates-politiques-au-tchad-les-soldats-du-marechal-deby-itno/"
+      },
+      "confirming_sources": [
+        {
+          "id": "ja",
+          "name": "Jeune Afrique",
+          "tier": 2,
+          "url": "https://www.jeuneafrique.com/1859548/politique/generaux-diplomates-politiques-au-tchad-les-soldats-du-marechal-deby-itno/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "d36b907e1c",
+      "title": "South Africa’s ANC suffers setback in local elections",
+      "summary": "With 99 percent of votes counted, President Cyril Ramaphosa's party wins 31 percent nationally.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": "ADOPTE",
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-08T12:19:14+00:00",
+      "lead_source": {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "tier": 1,
+        "url": "https://www.aljazeera.com/news/2026/11/8/south-africas-anc-suffers-setback-in-local-elections?traffic_source=rss"
+      },
+      "confirming_sources": [
+        {
+          "id": "aljazeera",
+          "name": "Al Jazeera",
+          "tier": 1,
+          "url": "https://www.aljazeera.com/news/2026/11/8/south-africas-anc-suffers-setback-in-local-elections?traffic_source=rss"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "bc26811647",
+      "title": "Pilar Eyre e os 20 anos de polémicas da realeza espanhola",
+      "summary": "\"Sucesión\" reconstrói as polémicas dos últimos 20 anos da Casa Real espanhola, da tentativa de Felipe VI de adiar o casamento à queda de Juan Carlos no Botswana que quase lhe custou a vida.",
+      "country": "BWA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "pt",
+      "published": "2026-11-08T12:07:41+00:00",
+      "lead_source": {
+        "id": "observador",
+        "name": "Observador",
+        "tier": 2,
+        "url": "https://observador.pt/especiais/felipe-vi-quis-adiar-o-casamento-juan-carlos-quase-morreu-no-botswana-o-que-revela-o-novo-livro-de-pilar-eyre-sobre-a-realeza-espanhola/"
+      },
+      "confirming_sources": [
+        {
+          "id": "observador",
+          "name": "Observador",
+          "tier": 2,
+          "url": "https://observador.pt/especiais/felipe-vi-quis-adiar-o-casamento-juan-carlos-quase-morreu-no-botswana-o-que-revela-o-novo-livro-de-pilar-eyre-sobre-a-realeza-espanhola/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "accff85228",
+      "title": "CANEX WKND 2026 Showcases Africa's Creative Brilliance in a Night of Fashion and Awards",
+      "summary": "[allAfrica] Glitz, glamour and a vibrant celebration of African creativity took centre stage at the CANEX WKND 2026 fashion show in Lagos, Nigeria.",
+      "country": "NGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-08T11:28:03+00:00",
+      "lead_source": {
+        "id": "aa-nga",
+        "name": "AllAfrica · Nigeria",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611080008.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-nga",
+          "name": "AllAfrica · Nigeria",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611080008.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "c1ae7183d1",
       "title": "SOUTH AFRICAN CONNECTION: How an anglophone education in Durban shaped Fernando Pessoa, giant of European literature",
       "summary": "In a world of rising nationalism and narrow identity politics, the writings of the late 19th-century ‘multifaceted giant of European modernism’ Fernando Pessoa and his belief in finding the plurality of self in the plurality of world is a balm for troubled times.",
@@ -4222,6 +4580,38 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-11-08-how-an-anglophone-education-in-durban-shaped-fernando-pessoa-giant-of-european-literature/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "41c870fd6e",
+      "title": "Liberia: vingt ans après la guerre civile, des femmes se mobilisent pour réclamer justice",
+      "summary": "Plus de vingt ans après la fin de la guerre civile au Liberia, des femmes se sont mobilisées, cette semaine, pour réclamer justice. Elles se sont réunies au marché aux poissons de Monrovia, le lieu emblématique de leur mobilisation historique pour la paix en 2003.",
+      "country": "LBR",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-11-08T10:52:13+00:00",
+      "lead_source": {
+        "id": "rfi-afr",
+        "name": "RFI Afrique",
+        "tier": 1,
+        "url": "https://www.rfi.fr/fr/afrique/20261108-liberia-vingt-ans-apr%C3%A8s-la-guerre-civile-des-femmes-se-mobilisent-pour-r%C3%A9clamer-justice"
+      },
+      "confirming_sources": [
+        {
+          "id": "rfi-afr",
+          "name": "RFI Afrique",
+          "tier": 1,
+          "url": "https://www.rfi.fr/fr/afrique/20261108-liberia-vingt-ans-apr%C3%A8s-la-guerre-civile-des-femmes-se-mobilisent-pour-r%C3%A9clamer-justice"
         }
       ],
       "confirmation_count": 1
@@ -4384,38 +4774,6 @@
           "name": "The Africa Report",
           "tier": 2,
           "url": "https://www.theafricareport.com/435664/nigeria-2027-the-igbo-powerbrokers-helping-seyi-tinubu-penetrate-peter-obis-stronghold/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4fe3c60b3a",
-      "title": "‘Don’t bring your camera’: Filmmakers face extortion in Lagos",
-      "summary": "Filmmakers and journalists say threats on Lagos streets is making it harder to tell the city’s stories.",
-      "country": "NGA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-08T08:56:04+00:00",
-      "lead_source": {
-        "id": "aljazeera",
-        "name": "Al Jazeera",
-        "tier": 1,
-        "url": "https://www.aljazeera.com/news/2026/11/8/dont-bring-your-camera-filmmakers-face-extortion-in-lagos?traffic_source=rss"
-      },
-      "confirming_sources": [
-        {
-          "id": "aljazeera",
-          "name": "Al Jazeera",
-          "tier": 1,
-          "url": "https://www.aljazeera.com/news/2026/11/8/dont-bring-your-camera-filmmakers-face-extortion-in-lagos?traffic_source=rss"
         }
       ],
       "confirmation_count": 1
@@ -4706,38 +5064,6 @@
           "name": "RFI Afrique",
           "tier": 1,
           "url": "https://www.rfi.fr/fr/podcasts/100-cr%C3%A9ation/20261107-maison-kanty-s-la-mode-ivoirienne-tiss%C3%A9e-de-souvenirs-et-de-savoir-faire"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "79419df89d",
-      "title": "Vaticano expõe um século de papamóveis, todos eles Mercedes",
-      "summary": "O Vaticano organizou, junto da pinacoteca, uma exposição sobre o tema “Mercedes-Benz: Um Século de Papamóveis”, em que juntou 8 dos mais emblemáticos modelos. Mas houve muitos outros e um português.",
-      "country": "GHA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "pt",
-      "published": "2026-11-07T22:57:02+00:00",
-      "lead_source": {
-        "id": "observador",
-        "name": "Observador",
-        "tier": 2,
-        "url": "https://observador.pt/2026/11/07/vaticano-expoe-um-seculo-de-papamoveis-todos-eles-mercedes/"
-      },
-      "confirming_sources": [
-        {
-          "id": "observador",
-          "name": "Observador",
-          "tier": 2,
-          "url": "https://observador.pt/2026/11/07/vaticano-expoe-um-seculo-de-papamoveis-todos-eles-mercedes/"
         }
       ],
       "confirmation_count": 1
@@ -5649,6 +5975,38 @@
       "confirmation_count": 1
     },
     {
+      "id": "133f48cd6e",
+      "title": "MOMENT OF TRUTH: Blue landslide in US gives SA hope — but Trump still has sharp teeth",
+      "summary": "Democratic control of the US Congress could help South Africa to repair its strained relations with Washington, but the cornered president retains power over foreign policy — and he may well use it.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-07T07:00:00+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/article/2026-11-07-blue-landslide-in-us-gives-sa-hope-but-trump-still-has-sharp-teeth/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/article/2026-11-07-blue-landslide-in-us-gives-sa-hope-but-trump-still-has-sharp-teeth/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "cc05889b2a",
       "title": "Mind your business: New franchise models are expanding business ownership in South Africa and beyond",
       "summary": "From digital pizza stores to independent coffee bikes and micro-franchises, entrepreneurs are reshaping franchise models to widen access and reflect local markets.",
@@ -5678,38 +6036,6 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/article/2026-11-07-new-franchise-models-are-expanding-business-ownership-in-south-africa-and-beyond/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "133f48cd6e",
-      "title": "MOMENT OF TRUTH: Blue landslide in US gives SA hope — but Trump still has sharp teeth",
-      "summary": "Democratic control of the US Congress could help South Africa to repair its strained relations with Washington, but the cornered president retains power over foreign policy — and he may well use it.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-07T07:00:00+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-11-07-blue-landslide-in-us-gives-sa-hope-but-trump-still-has-sharp-teeth/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-11-07-blue-landslide-in-us-gives-sa-hope-but-trump-still-has-sharp-teeth/"
         }
       ],
       "confirmation_count": 1
@@ -6069,6 +6395,70 @@
       "confirmation_count": 1
     },
     {
+      "id": "874d55da26",
+      "title": "The Honeybadger's Revenge - Former Minister Dion George's Nuclear War Over SA's Captive Lions",
+      "summary": "[Daily Maverick] The former South African environment minister is prepared to back international economic pressure against his own country to shut down the 'disgusting' captive lion industry.",
+      "country": "ZAF",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-06T20:51:52+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060653.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060653.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "cc3c0a37e0",
+      "title": "Resident Evil - A Horror Video Game Adaptation With a Wicked Sense of Humour",
+      "summary": "[Daily Maverick] While it's probably too far removed from its source material narratively to please hardcore fans who want to see their favourite Resident Evil characters and storylines on the big screen, Zach Cregger's reboot successfully captures the spirit, the rules and the essence of the game franchise that spawned it.",
+      "country": "ZAF",
+      "category": "SANTE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-06T20:51:52+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060654.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060654.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "47b84dda2c",
       "title": "Le Sénégal lève 85,627 milliards de FCFA sur le marché financier de l’UMOA",
       "summary": "Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.\nLire la suite»",
@@ -6231,7 +6621,7 @@
     {
       "id": "84e62e4475",
       "title": "Lutte contre l’orpaillage illégal en Guinée : pourquoi l’offensive de Mamadi Doumbouya tend les relations avec l’AES",
-      "summary": "Conakry a ordonné l’interdiction de l’orpaillage clandestin à Siguiri et a expulsé des centaines d’orpailleurs ouest-africains. Une offensive sécuritaire et environnementale qui provoque des tensions diplomatiques avec le Mali et le Burkina Faso.",
+      "summary": "Conakry a ordonné l’interdiction de l’orpaillage clandestin à Siguiri et a expulsé des dizaines de milliers d’orpailleurs ouest-africains. Une offensive sécuritaire et environnementale qui provoque des tensions diplomatiques avec le Mali et le Burkina Faso.",
       "country": "GIN",
       "category": "AUTRE",
       "severity": 1,
@@ -6256,6 +6646,38 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1859308/societe/lutte-contre-lorpaillage-illegal-en-guinee-pourquoi-loffensive-de-mamadi-doumbouya-tend-les-relations-avec-laes/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "314ec894cc",
+      "title": "AACT 2026 - South Africa Leads",
+      "summary": "[Daily Trust] South Africa made an impressive start to the 2026 All Africa Challenge Trophy (AACT), taking the lead after the opening round of the continental women's golf championship at the IBB International Golf and Country Club, Abuja.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-06T18:49:19+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060646.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060646.html"
         }
       ],
       "confirmation_count": 1
@@ -6517,6 +6939,70 @@
           "name": "AllAfrica · Ouganda",
           "tier": 2,
           "url": "https://allafrica.com/stories/202611060616.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "44a949470f",
+      "title": "Paradise Island Resort Set to Open On Lake Victoria",
+      "summary": "[Nile Post] Uganda's luxury tourism sector is set for a new addition with the opening of Paradise Island Resort on December 1, bringing premium accommodation and leisure experiences to a private island on Lake Victoria.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-06T17:08:00+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060611.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060611.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "1ed96e806e",
+      "title": "EALA MP Kiryowa Flags Coordination Gaps, Funding Constraints in Integration Process",
+      "summary": "[Nile Post] Uganda's efforts to deepen its integration into the East African Community (EAC) are facing institutional and financial constraints, with poor coordination among government agencies, limited stakeholder participation and inadequate funding threatening to slow the country's engagement in regional programmes.",
+      "country": "UGA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-06T17:07:59+00:00",
+      "lead_source": {
+        "id": "aa-uga",
+        "name": "AllAfrica · Ouganda",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060610.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-uga",
+          "name": "AllAfrica · Ouganda",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060610.html"
         }
       ],
       "confirmation_count": 1
@@ -6903,38 +7389,6 @@
           "name": "Club of Mozambique",
           "tier": 2,
           "url": "https://clubofmozambique.com/news/weather-alert-inam-warns-heatwave-to-continue-in-manica-and-tete-provinces-in-central-mozambique/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "853934acfb",
-      "title": "Angola: João Lourenço novamente candidato à liderança do MPLA após exclusão de opositores",
-      "summary": "Em Angola, o Presidente João Lourenço consolida-se como candidato único à liderança do MPLA após o Comité Central aprovar, nesta quinta-feira, a sua recandidatura ao 9.º Congresso Ordinário de Dezembro. A decisão surge em contexto de contestação pela rejeição dos processos de Higino Carneiro e de António Venâncio, por alegadas irregularidades e insuficiência nas fichas de subscrição, cujo prazo de entrega encerrou a 25 de Outubro.",
-      "country": "AGO",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "pt",
-      "published": "2026-11-06T14:30:14+00:00",
-      "lead_source": {
-        "id": "rfi-pt",
-        "name": "RFI Português",
-        "tier": 1,
-        "url": "https://www.rfi.fr/pt/%C3%A1frica-lus%C3%B3fona/20261106-angola-jo%C3%A3o-louren%C3%A7o-novamente-candidato-%C3%A0-lideran%C3%A7a-do-mpla-ap%C3%B3s-exclus%C3%A3o-de-opositores"
-      },
-      "confirming_sources": [
-        {
-          "id": "rfi-pt",
-          "name": "RFI Português",
-          "tier": 1,
-          "url": "https://www.rfi.fr/pt/%C3%A1frica-lus%C3%B3fona/20261106-angola-jo%C3%A3o-louren%C3%A7o-novamente-candidato-%C3%A0-lideran%C3%A7a-do-mpla-ap%C3%B3s-exclus%C3%A3o-de-opositores"
         }
       ],
       "confirmation_count": 1
@@ -7589,70 +8043,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1859350/politique/au-maroc-une-etude-souligne-le-trop-faible-acces-des-femmes-au-monde-du-travail/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "eb6253a180",
-      "title": "Maroc : à Rabat, un festival promeut la présence féminine dans le théâtre",
-      "summary": "''Les femmes sont toujours définies par un certain stéréotype, elles sont considérées comme insuffisamment compétentes ou incapables de faire quelque chose'', Nour Ismail, metteuse en scène égyptienne.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-11-06T11:36:18+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/11/05/maroc-a-rabat-un-festival-promeut-la-presence-feminine-dans-le-theatre/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/11/05/maroc-a-rabat-un-festival-promeut-la-presence-feminine-dans-le-theatre/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "bc145ba9f4",
-      "title": "La Namibie accueille un exercice international contre les essais nucléaires",
-      "summary": "Environ 250 experts internationaux participent en Namibie au troisième exercice intégré de terrain de l’Organisation du Traité d’interdiction complète des essais nucléaires (OTICE). Cette opération d’envergure est la première organisée sur le continent africain.",
-      "country": "NAM",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-11-06T11:18:58+00:00",
-      "lead_source": {
-        "id": "afnews-fr",
-        "name": "Africanews FR",
-        "tier": 2,
-        "url": "http://fr.africanews.com/2026/11/05/lafrique-accueille-un-exercice-international-contre-les-essais-nucleaires/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-fr",
-          "name": "Africanews FR",
-          "tier": 2,
-          "url": "http://fr.africanews.com/2026/11/05/lafrique-accueille-un-exercice-international-contre-les-essais-nucleaires/"
         }
       ],
       "confirmation_count": 1
@@ -8470,6 +8860,72 @@
       "confirmation_count": 1
     },
     {
+      "id": "4d63307634",
+      "title": "How to Check Local Election Results for Your Municipality and Ward",
+      "summary": "[Daily Maverick] Find live 2026 local election results for your municipality, ward and the metros, and see when the IEC is expected to declare the final count.",
+      "country": "ZAF",
+      "category": "POLITIQUE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-06T09:50:13+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060179.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060179.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "df895e97a1",
+      "title": "DA Claims Best Ever Eastern Cape Result As Count Continues",
+      "summary": "[Scrolla] The DA was leading Nelson Mandela Bay with 41.38% and had nearly 68% in Kouga, while its Eastern Cape support was running above its 2021 provincial result.   The party has also gained ground in Makana and Blue Crane Route and became the biggest party in the hung Dr Beyers Naudé council.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [
+        "CONSTRUCTION"
+      ],
+      "lang": "en",
+      "published": "2026-11-06T09:47:57+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060178.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060178.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "f34f7e53bc",
       "title": "DA Gains Black Voters, Declares Cape Town Win, but Western Cape Coalitions Loom",
       "summary": "[Daily Maverick] DA leader Geordin Hill-Lewis on Thursday at noon declared Cape Town a win for his party, and the only metro with an outright majority. Key Cape hinterland towns of Stellenbosch and Paarl (Drakenstein) remained in DA control, while in 14 other councils the DA was the leading party.",
@@ -8561,6 +9017,38 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202611060174.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "154556a5ba",
+      "title": "LGE2026 - Results Capturing Making Steady Progress",
+      "summary": "[SAnews.gov.za] Electoral Commission of South Africa (IEC) Chairperson Mosotho Moepya says results capturing and verification are progressing steadily across the country, with more than 60% of the 66 073 results captured at 5pm on Thursday.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-06T09:44:56+00:00",
+      "lead_source": {
+        "id": "aa-zaf",
+        "name": "AllAfrica · Afrique du Sud",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611060170.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-zaf",
+          "name": "AllAfrica · Afrique du Sud",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611060170.html"
         }
       ],
       "confirmation_count": 1
@@ -9148,38 +9636,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "c2d6762505",
-      "title": "TOURISM BOYCOTT BOMB: The Honeybadger’s revenge: Former minister Dion George’s nuclear war over SA’s captive lions",
-      "summary": "The former South African environment minister is prepared to back international economic pressure against his own country to shut down the ‘disgusting’ captive lion industry.",
-      "country": "ZAF",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-06T05:30:00+00:00",
-      "lead_source": {
-        "id": "daily-mav",
-        "name": "Daily Maverick",
-        "tier": 2,
-        "url": "https://www.dailymaverick.co.za/article/2026-11-06-the-honeybadgers-revenge-former-minister-dion-georges-nuclear-war-over-sas-captive-lions/"
-      },
-      "confirming_sources": [
-        {
-          "id": "daily-mav",
-          "name": "Daily Maverick",
-          "tier": 2,
-          "url": "https://www.dailymaverick.co.za/article/2026-11-06-the-honeybadgers-revenge-former-minister-dion-georges-nuclear-war-over-sas-captive-lions/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "c815ea4683",
       "title": "Court to Rule on Zuma-Sambudla's Terrorism Charges - South African News Briefs - November 6, 2026",
       "summary": "[allAfrica]",
@@ -9241,70 +9697,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202611060115.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "d75da443ba",
-      "title": "Mutfwang Uniting Plateau for Renewed Hope, Continuity and Shared Prosperity",
-      "summary": "[This Day] There is an African proverb that says, \"The man who carries his people in his heart will always find a place in their hearts.\" This timeless wisdom reflects the political philosophy of the Executive Governor of Plateau State, Caleb Manasseh Mutfwang, who has demonstrated a strong commitment to addressing the needs and aspirations of his people.",
-      "country": "NGA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-06T04:32:23+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611060116.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611060116.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "c0c27a2bf8",
-      "title": "Tinubu's Fresh $7.7bn Loan Request Makes 2027 Election Critical - NDC",
-      "summary": "[This Day] The Nigeria Democratic Congress (NDC) has intensified its campaign against the federal government's borrowing policy, declaring that President Bola Tinubu's latest request for a $7.7 billion external loan has made the 2027 general election a defining moment for Nigeria's economic future.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-06T04:32:23+00:00",
-      "lead_source": {
-        "id": "aa-nga",
-        "name": "AllAfrica · Nigeria",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611060117.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-nga",
-          "name": "AllAfrica · Nigeria",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611060117.html"
         }
       ],
       "confirmation_count": 1
@@ -9863,70 +10255,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "fa1dfbbb9a",
-      "title": "Arajiga Selected for CAF Elite Referees' Seminar",
-      "summary": "[Daily News] Dar es Salaam -- Tanzanian referee Ahmed Arajiga has been selected by the Confederation of African Football (CAF) to attend a six-day specialised Video Assistant Referee (VAR) training seminar in Egypt ahead of the group stages of the CAF Champions League and Confederation Cup.",
-      "country": "TZA",
-      "category": "INFRASTRUCTURE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-06T04:07:40+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611060060.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611060060.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "a1cfc9b719",
-      "title": "Zakia-Lulu Mdemu - Finding Purpose in Helping Others",
-      "summary": "[Daily News] Dar es Salaam -- For Zakia-Lulu Mdemu, community development is more than extending a helping hand to people in need.",
-      "country": "TZA",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-06T04:07:39+00:00",
-      "lead_source": {
-        "id": "aa-tza",
-        "name": "AllAfrica · Tanzanie",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611060058.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-tza",
-          "name": "AllAfrica · Tanzanie",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611060058.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "c7c79579da",
       "title": "Army Rejects Claims Elwelu Surrendered Voluntarily, Says Security Forces Had Closed in",
       "summary": "[Nile Post] The Uganda People's Defence Forces (UPDF) has rejected suggestions that former Deputy Chief of Defence Forces Peter Elwelu voluntarily surrendered after being arrested, insisting that he gave himself up only after security forces had closed in on him and exhausted his options.",
@@ -10116,38 +10444,6 @@
           "name": "AllAfrica · Afrique du Sud",
           "tier": 2,
           "url": "https://allafrica.com/stories/202611060047.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "4ca280451a",
-      "title": "Diabetes - 'My Father Was Never Taught How to Use Insulin Safely'",
-      "summary": "[Health-e] Insulin therapy was prescribed to a Duduza resident without basic patient training. His caregivers were left unprepared for life-threatening emergencies. Community members who act as first responders describe the emotional toll.",
-      "country": "ZAF",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-06T03:44:57+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611060034.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611060034.html"
         }
       ],
       "confirmation_count": 1
@@ -10344,38 +10640,6 @@
           "name": "Jeune Afrique",
           "tier": 2,
           "url": "https://www.jeuneafrique.com/1858694/politique/au-senegal-bassirou-diomaye-faye-parviendra-t-il-a-faire-aboutir-les-negociations-avec-les-rebelles-casamancais/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "31a1615438",
-      "title": "Nigerian court nullifies Atiku Abubakar's presidential candidacy",
-      "summary": "A Nigerian court on Thursday declared invalid the nomination of Atiku Abubakar as the presidential candidate for the opposition African Democratic Congress, with just two months to go before the country's elections.",
-      "country": "NGA",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-05T17:29:42+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/11/05/nigerian-court-nullifies-atiku-abubakars-presidential-candidacy/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/11/05/nigerian-court-nullifies-atiku-abubakars-presidential-candidacy/"
         }
       ],
       "confirmation_count": 1
@@ -10605,38 +10869,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "6dadb4656f",
-      "title": "A theatre festival in Morocco's capital celebrates six women directors",
-      "summary": "Six women theatre directors showcased their art and vision in the Jassad international festival in Rabat from October 27 to 30.",
-      "country": "MAR",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-05T14:44:22+00:00",
-      "lead_source": {
-        "id": "afnews-en",
-        "name": "Africanews",
-        "tier": 2,
-        "url": "http://www.africanews.com/2026/11/05/a-theatre-festival-in-moroccos-capital-celebrates-six-women-directors/"
-      },
-      "confirming_sources": [
-        {
-          "id": "afnews-en",
-          "name": "Africanews",
-          "tier": 2,
-          "url": "http://www.africanews.com/2026/11/05/a-theatre-festival-in-moroccos-capital-celebrates-six-women-directors/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "54cbf90199",
       "title": "Why Kenya’s proposal to fix the number of career diplomats is raising debate",
       "summary": "Of concern is the fluidity in the language used in the Foreign Service (Amendment) Bill, which...",
@@ -10797,70 +11029,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "bbbdea4083",
-      "title": "Ignore AI-Generated Image of ANC Leader Ramaphosa 'Buying Votes' Ahead of South African Polls",
-      "summary": "[Africa Check] Ignore AI-generated image of ANC leader Ramaphosa 'buying votes' ahead of South African polls",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-05T13:51:11+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611050500.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611050500.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "8575c92bab",
-      "title": "LGE 2026 - Vote Counting Underway",
-      "summary": "[SAnews.gov.za] Following a successful voting process on Wednesday, vote counting in the 2026 Local Government Elections (LGE) is underway.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-05T13:46:09+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611050496.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611050496.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "22dd0bd0a6",
       "title": "Parties Keep Close Watch As Election Results Trickle in",
       "summary": "[SAnews.gov.za] The Electoral Commission of South Africa's (IEC) national Results Operations Centre (ROC) in Midrand is abuzz with activity, as political parties closely monitor the first results from the 2026 Local Government Elections.",
@@ -10954,72 +11122,6 @@
           "name": "AllAfrica · Nigeria",
           "tier": 2,
           "url": "https://allafrica.com/stories/202611050395.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "2b95d166eb",
-      "title": "Uganda Vaccinated About 8.3 Million Children Against Measles - How Will We Know If It Worked?",
-      "summary": "[Nile Post] Brian Wanzama -- Between 1 and 5 October 2026, Uganda ran a nationwide measles-rubella vaccination campaign for children aged 9 to 59 months. Ministry of Health figures show that about 8.3 million children were vaccinated, well above the target of 7.6 million.",
-      "country": "UGA",
-      "category": "SANTE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "HEALTH"
-      ],
-      "lang": "en",
-      "published": "2026-11-05T12:23:05+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611050387.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611050387.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "dca5d38a5a",
-      "title": "UDB Commits Shs200m to Uganda Pavilion Ahead of COP31 Climate Summit",
-      "summary": "[Nile Post] Uganda Development Bank (UDB), the country's national Development Finance Institution (DFI), has committed Shs200 million towards supporting the Uganda Pavilion at the 31st United Nations Climate Change Conference (COP31), as it steps up efforts to mobilise climate finance and promote sustainable investments.",
-      "country": "UGA",
-      "category": "CLIMAT",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-05T12:22:22+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611050386.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611050386.html"
         }
       ],
       "confirmation_count": 1
@@ -11381,38 +11483,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "6142d9f8b7",
-      "title": "Bénin : face à Romuald Wadagni, Nourénou Atchadé, nouveau leader d’une opposition ostracisée",
-      "summary": "Consacré chef des Démocrates lors du congrès de Porto-Novo, Nourénou Atchadé hérite d’un parti en crise. Entre querelles judiciaires et traversée du désert politique et financière, récit d’une succession sous haute tension au Bénin.",
-      "country": "BEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-11-05T11:59:19+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1858359/politique/benin-face-a-romuald-wadagni-nourenou-atchade-nouveau-leader-dune-opposition-ostracisee/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1858359/politique/benin-face-a-romuald-wadagni-nourenou-atchade-nouveau-leader-dune-opposition-ostracisee/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "94e0109cb4",
       "title": "Food Security Demands More Than Bumper Harvests",
       "summary": "[Daily News] Arusha -- TANZANIA is strengthening efforts to achieve sustainable food security through improved seed varieties, agricultural innovation, stronger extension services and collaboration among the government, private sector, research institutions, development partners and farmers.",
@@ -11570,72 +11640,6 @@
           "name": "AllAfrica · Angola",
           "tier": 2,
           "url": "https://allafrica.com/stories/202611050297.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "acebb92d84",
-      "title": "Bugisu Leaders Face Backlash Over Shs18 Million Landslide Resettlement Package",
-      "summary": "[Nile Post] Bugisu leaders are facing growing pressure from communities over the government's Shs18 million landslide resettlement package, amid concerns about the fate of privately owned land, coffee plantations and other investments left behind by families relocating from high-risk areas.",
-      "country": "UGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "AGRICULTURE"
-      ],
-      "lang": "en",
-      "published": "2026-11-05T11:37:00+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611050296.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611050296.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "5310136609",
-      "title": "No Traffic, Big Ideas As 'Karoogle' Brings Global Tech Work to Kwanojoli",
-      "summary": "[Daily Maverick] A family-run tech company brings Silicon Valley-style work to the Eastern Cape Karoo, offering professionals quality careers, affordable living and mountain views.",
-      "country": "ZAF",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "en",
-      "published": "2026-11-05T11:33:58+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611050291.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611050291.html"
         }
       ],
       "confirmation_count": 1
@@ -11865,40 +11869,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "760e662620",
-      "title": "Isbat University Are Kings of Centenary Bank Cybersecurity Hackathon",
-      "summary": "[Independent (Kampala)] Kampala -- ISBAT University emereged champions as Centenary Bank concluded its inaugural University Cybersecurity Hackathon, recognising outstanding university students for their technical skills and innovative approaches to addressing digital security challenges.",
-      "country": "UGA",
-      "category": "CYBER",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "CYBER"
-      ],
-      "lang": "en",
-      "published": "2026-11-05T10:31:03+00:00",
-      "lead_source": {
-        "id": "aa-uga",
-        "name": "AllAfrica · Ouganda",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611050252.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-uga",
-          "name": "AllAfrica · Ouganda",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611050252.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "08b3faba34",
       "title": "Uganda, Tanzania move to tighten oversight of $5bn oil pipeline",
       "summary": "Beyond crude exports, Kampala and Dodoma are also pursuing wider energy infrastructure...",
@@ -12093,40 +12063,6 @@
       "confirmation_count": 1
     },
     {
-      "id": "f504ddc7f8",
-      "title": "TotalEnergies, Shell, BP… Pourquoi le raffinage ne séduit plus les majors en Afrique ?",
-      "summary": "Alors que l’offensive du milliardaire nigérian Aliko Dangote redonne des couleurs à l’activité de transformation de pétrole, les géants du secteur boudent cette filière sur le continent. Décryptage.",
-      "country": "NGA",
-      "category": "ECONOMIE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "fr",
-      "published": "2026-11-05T08:28:26+00:00",
-      "lead_source": {
-        "id": "ja",
-        "name": "Jeune Afrique",
-        "tier": 2,
-        "url": "https://www.jeuneafrique.com/1857715/economie-entreprises/totalenergies-shell-bp-pourquoi-le-raffinage-ne-seduit-plus-les-majors-en-afrique/"
-      },
-      "confirming_sources": [
-        {
-          "id": "ja",
-          "name": "Jeune Afrique",
-          "tier": 2,
-          "url": "https://www.jeuneafrique.com/1857715/economie-entreprises/totalenergies-shell-bp-pourquoi-le-raffinage-ne-seduit-plus-les-majors-en-afrique/"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
       "id": "5efca99b80",
       "title": "UN Peacekeeping Chief Warns of 'Security Vacuum' As Blue Helmets Leave Lebanon and Western Sahara",
       "summary": "[UN News] The UN's peacekeeping chief warned on Wednesday that the withdrawal of \"Blue Helmets\" from Lebanon and Western Sahara risks leaving a dangerous security vacuum, while the Security Council remains divided over what, if anything, should replace them.",
@@ -12250,6 +12186,38 @@
           "name": "Daily Maverick",
           "tier": 2,
           "url": "https://www.dailymaverick.co.za/opinionista/2026-11-05-south-africas-democratic-state-needs-capability-now-not-more-promises/"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "4103215cad",
+      "title": "More haste, less speed — the search for new SAPS leadership",
+      "summary": "Promoting top SAPS leaders before the Madlanga Commission concludes its work is premature. South Africa needs an independent, well-resourced Chapter 9 body to fight corruption, not executive shortcuts.",
+      "country": "ZAF",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-05T05:30:00+00:00",
+      "lead_source": {
+        "id": "daily-mav",
+        "name": "Daily Maverick",
+        "tier": 2,
+        "url": "https://www.dailymaverick.co.za/opinionista/2026-11-05-more-haste-less-speed-the-search-for-new-saps-leadership/"
+      },
+      "confirming_sources": [
+        {
+          "id": "daily-mav",
+          "name": "Daily Maverick",
+          "tier": 2,
+          "url": "https://www.dailymaverick.co.za/opinionista/2026-11-05-more-haste-less-speed-the-search-for-new-saps-leadership/"
         }
       ],
       "confirmation_count": 1
@@ -12638,40 +12606,6 @@
           "name": "France 24 Afrique",
           "tier": 1,
           "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-joj-dakar-2026-le-surf-%C3%A0-l-honneur-sur-la-mythique-vague-de-ngor"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "3f50458252",
-      "title": "Voters Demand Water, Electricity and Dignity As Ramaphosa Heads to Polls",
-      "summary": "[Scrolla] Voters at Hyde Park High School in Johannesburg want the local government elections to bring better services, safer communities and leaders who listen.   Gloria Chabalala brought her daughter to the voting station to teach her about a democratic right her grandparents only enjoyed later in life.",
-      "country": "ZAF",
-      "category": "POLITIQUE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": "ADOPTE",
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [
-        "ENERGY"
-      ],
-      "lang": "en",
-      "published": "2026-11-04T12:37:29+00:00",
-      "lead_source": {
-        "id": "aa-zaf",
-        "name": "AllAfrica · Afrique du Sud",
-        "tier": 2,
-        "url": "https://allafrica.com/stories/202611040406.html"
-      },
-      "confirming_sources": [
-        {
-          "id": "aa-zaf",
-          "name": "AllAfrica · Afrique du Sud",
-          "tier": 2,
-          "url": "https://allafrica.com/stories/202611040406.html"
         }
       ],
       "confirmation_count": 1
@@ -13095,6 +13029,102 @@
       "confirmation_count": 1
     },
     {
+      "id": "5e3b190c91",
+      "title": "Tanzania Makes Strides Towards Healthcare for All",
+      "summary": "[Daily News] Dar es Salaam -- HEALTHCARE for all has been a major priority during President Samia Suluhu Hassan's first year in her current term, with the rollout of Universal Health Coverage aimed at making medical treatment more affordable and accessible to all Tanzanians.",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-04T05:25:45+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611040130.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611040130.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "63fb5f99c4",
+      "title": "Samia's Economic Empowerment Puts Women, Youth On Path to Prosperity",
+      "summary": "[Daily News] Dar es Salaam -- ACCESS to business capital, affordable loans and markets has been among the key achievements of President Samia Suluhu Hassan's first year in her current term, with the release of a 200bn/- empowerment fund providing women and youth with greater opportunities to grow their businesses, create jobs and build sustainable livelihoods.",
+      "country": "TZA",
+      "category": "ECONOMIE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-04T05:25:44+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611040129.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611040129.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "70a81a817d",
+      "title": "Turn Women's Peace Agenda Into Action, MPs Told",
+      "summary": "[Daily News] Dar es Salaam -- PARLIAMENTS across the Great Lakes Region have been urged to ensure governments honour commitments to women's participation in peacebuilding, security and decision-making through stronger oversight, adequate funding and regular monitoring.",
+      "country": "TZA",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "en",
+      "published": "2026-11-04T05:25:43+00:00",
+      "lead_source": {
+        "id": "aa-tza",
+        "name": "AllAfrica · Tanzanie",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202611040128.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-tza",
+          "name": "AllAfrica · Tanzanie",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202611040128.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
       "id": "660db114b4",
       "title": "UN Confirms Start of Process to Wind Up Western Sahara Mission",
       "summary": "[RFI] The United Nations confirmed it had begun the process to end its peacekeeping mission in Western Sahara after Russia and the United States vetoed each other's draft resolutions on extending the 35-year-old deployment.",
@@ -13122,38 +13152,6 @@
           "name": "AllAfrica · Maroc",
           "tier": 2,
           "url": "https://allafrica.com/stories/202611040067.html"
-        }
-      ],
-      "confirmation_count": 1
-    },
-    {
-      "id": "48b7f91b4a",
-      "title": "JOJ Dakar 2026 : L’or pour le Kenya, une première olympique pour l’Afrique en rugby à 7",
-      "summary": "🥇 🇰🇪 Les Kényanes ont remporté le tournoi féminin de rugby à 7 en s’imposant face à l’Australie (17-12). Une première pour une nation africaine dans une compétition olympique. Une victoire historique dans la première édition des JO organisée sur le sol africain.",
-      "country": "SEN",
-      "category": "AUTRE",
-      "severity": 1,
-      "credibility": 2,
-      "verified": false,
-      "theme": null,
-      "legal_status": null,
-      "regulatory": false,
-      "fdi": false,
-      "sectors": [],
-      "lang": "fr",
-      "published": "2026-11-03T22:33:17+00:00",
-      "lead_source": {
-        "id": "f24-afr",
-        "name": "France 24 Afrique",
-        "tier": 1,
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20261103-joj-dakar-2026-l-or-pour-le-kenya-une-premi%C3%A8re-olympique-pour-l-afrique-en-rugby-%C3%A0-7"
-      },
-      "confirming_sources": [
-        {
-          "id": "f24-afr",
-          "name": "France 24 Afrique",
-          "tier": 1,
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20261103-joj-dakar-2026-l-or-pour-le-kenya-une-premi%C3%A8re-olympique-pour-l-afrique-en-rugby-%C3%A0-7"
         }
       ],
       "confirmation_count": 1
@@ -15312,6 +15310,38 @@
           "name": "AllAfrica · Mali",
           "tier": 2,
           "url": "https://allafrica.com/stories/202610220013.html"
+        }
+      ],
+      "confirmation_count": 1
+    },
+    {
+      "id": "22a8a8500f",
+      "title": "Senegal's Teranga Lions to Wait Till End of November for CAS Verdict",
+      "summary": "[This Day] Senegal will have to wait till end of November to know if they have succeeded in upturning CAF's boardroom decision to take away the AFCON 2025 title they won on the field and hand it over to Morocco.",
+      "country": "SEN",
+      "category": "AUTRE",
+      "severity": 1,
+      "credibility": 2,
+      "verified": false,
+      "theme": null,
+      "legal_status": null,
+      "regulatory": false,
+      "fdi": false,
+      "sectors": [],
+      "lang": "fr",
+      "published": "2026-10-21T08:54:10+00:00",
+      "lead_source": {
+        "id": "aa-sen",
+        "name": "AllAfrica · Sénégal",
+        "tier": 2,
+        "url": "https://allafrica.com/stories/202610210163.html"
+      },
+      "confirming_sources": [
+        {
+          "id": "aa-sen",
+          "name": "AllAfrica · Sénégal",
+          "tier": 2,
+          "url": "https://allafrica.com/stories/202610210163.html"
         }
       ],
       "confirmation_count": 1
